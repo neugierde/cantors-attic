@@ -82,7 +82,7 @@ is in the filter.)
 [Embedding characterizations of weak measurability]{#Embedding_characterizations_of_weak_measurability .mw-headline}
 --------------------------------------------------------------------------------------------------------------------
 
-If \$(\\kappa\^+)\^{{&lt;}\\kappa} = \\kappa\^+\$, then weak
+If \$(\\kappa\^+)\^{<\\kappa} = \\kappa\^+\$, then weak
 measurability can also be equivalently characterized in several
 different ways in terms of [elementary
 embeddings](/web/20191005075454/http://cantorsattic.info/Elementary_embedding "Elementary embedding").

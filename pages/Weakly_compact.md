@@ -34,7 +34,7 @@ Jump to: [navigation](#mw-navigation), [search](#p-search)
 
 Weakly compact cardinals lie at the focal point of a number of diverse
 concepts in infinite combinatorics, admitting various characterizations
-in terms of these concepts. If \$\\kappa\^{{&lt;}\\kappa} = \\kappa\$,
+in terms of these concepts. If \$\\kappa\^{<\\kappa} = \\kappa\$,
 then the following are equivalent:
 
  Weak compactness 

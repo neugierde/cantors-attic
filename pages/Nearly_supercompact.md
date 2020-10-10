@@ -38,19 +38,19 @@ introduced by Jason Schanker in
 \[[2](#bibkey_Schanker2011:Thesis)\]. The hierarchy stratifies the
 \$\\theta\$-supercompactness hierarchy in the sense that every
 \$\\theta\$-supercompact cardinal is nearly \$\\theta\$-supercompact,
-and every nearly \$2\^{\\theta\^{{&lt;}\\kappa}}\$-supercompact cardinal
+and every nearly \$2\^{\\theta\^{<\\kappa}}\$-supercompact cardinal
 \$\\kappa\$ is \$\\theta\$-supercompact. However, these cardinals can be
 very different. For example, relative to the existence of a supercompact
 cardinal \$\\kappa\$ with an inaccessible cardinal \$\\theta\$ above it,
 we can force to destroy \$\\kappa\$'s measurability while still
 retaining its near \$\\theta\$-supercompactness and the [weak
 inaccessibility](/web/20191005075121/http://cantorsattic.info/Weakly_inaccessible "Weakly inaccessible"){.mw-redirect}
-of \$\\theta\$. Yet, if \$\\theta\^{{&lt;}\\kappa} = \\theta\$ and
+of \$\\theta\$. Yet, if \$\\theta\^{<\\kappa} = \\theta\$ and
 \$\\kappa\$ is \$\\theta\$-supercompact, we can also force to preserve
 \$\\kappa\$'s \$\\theta\$-supercompactness while destroying any
 potential near \$\\theta\^+\$-supercompactness without collapsing
 cardinals below \$\\theta\^{++}\$. Assuming that
-\$\\theta\^{{&lt;}\\kappa} = \\theta\$, nearly \$\\theta\$-supercompact
+\$\\theta\^{<\\kappa} = \\theta\$, nearly \$\\theta\$-supercompact
 cardinals \$\\kappa\$ exhibit a hybrid of [weak
 compactness](/web/20191005075121/http://cantorsattic.info/Weakly_compact "Weakly compact")
 and
@@ -88,7 +88,7 @@ Contents
 
 A cardinal \$\\kappa\$ is *nearly \$\\theta\$-supercompact* if and only
 if for every \$A\\subseteq\\theta\$, there exists a transitive \$M
-\\vDash ZFC\^{-}\$ closed under \${&lt;}\\kappa\$ sequences with \$A,
+\\vDash ZFC\^{-}\$ closed under \$<\\kappa\$ sequences with \$A,
 \\kappa, \\theta \\in M\$, a transitive \$N\$, and an [elementary
 embedding](/web/20191005075121/http://cantorsattic.info/Elementary_embedding "Elementary embedding")
 \$j: M \\rightarrow N\$ with critical point \$\\kappa\$ such that
@@ -99,12 +99,12 @@ embedding](/web/20191005075121/http://cantorsattic.info/Elementary_embedding "El
 [Characterizations of near \$\\theta\$-supercompactness]{#Characterizations_of_near_.24.5Ctheta.24-supercompactness .mw-headline}
 ---------------------------------------------------------------------------------------------------------------------------------
 
-If \$\\theta\^{{&lt;}\\kappa} = \\theta\$, then the following are
+If \$\\theta\^{<\\kappa} = \\theta\$, then the following are
 equivalent characterizations for the near \$\\theta\$-supercompactness
 of \$\\kappa\$:
 
  Embedding 
-:   For every \${&lt;}\\kappa\$-closed transitive set \$M\$ of size
+:   For every \$<\\kappa\$-closed transitive set \$M\$ of size
     \$\\theta\$ with \$\\theta \\in M\$, there exists a transitive \$N\$
     and an elementary embedding \$j: M \\rightarrow N\$ with critical
     point \$\\kappa\$ such that \$j(\\kappa) &gt; \\theta\$ and
