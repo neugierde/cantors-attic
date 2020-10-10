@@ -1,9 +1,12 @@
 theme: jekyll-theme-minimal
 source: docs
-defaults:
-  - values:
-      layout: "default"
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+plugins:
+  - jekyll-default-layout
+  
+# defaults:
+#   - values:
+#       layout: "default"
+#   - scope:
+#       path: "assets/img"
+#     values:
+#       image: true

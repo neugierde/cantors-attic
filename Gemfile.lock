@@ -243,13 +243,10 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2020.2)
-      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
-    wdm (0.1.1)
     zeitwerk (2.4.0)
 
 PLATFORMS
@@ -257,12 +254,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll (~> 3.9.0)
   jekyll-feed (~> 0.6)
   kramdown-parser-gfm
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.17.2
