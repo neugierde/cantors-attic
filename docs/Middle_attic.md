@@ -4,28 +4,7 @@ permalink: Middle_attic
 ---
 # The middle attic
 
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="File:StAugustineLighthouse.jpg" class="image"><img src="/web/20191104122939im_/http://cantorsattic.info/images/thumb/3/3d/StAugustineLighthouse.jpg/300px-StAugustineLighthouse.jpg" class="thumbimage" srcset="/web/20191104122939im_/http://cantorsattic.info/images/thumb/3/3d/StAugustineLighthouse.jpg/450px-StAugustineLighthouse.jpg 1.5x, /web/20191104122939im_/http://cantorsattic.info/images/3/3d/StAugustineLighthouse.jpg 2x" width="300" height="200" /></a>
-
-
-
-<a href="File:StAugustineLighthouse.jpg" class="internal" title="Enlarge"></a>
-
-
-St. Augustine Lighthouse photo by Madrigar
-
-
+![St. Augustine Lighthouse photo by Madrigar](assets/img/StAugustineLighthouse.jpg)
 
 
 Welcome to the middle attic, where the uncountable cardinals, that solid

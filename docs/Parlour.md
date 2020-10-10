@@ -5,26 +5,7 @@ permalink: Parlour
 # The parlour
 
 
-
-
-
-
-
-
-
-
-
-
-
-<a href="File:PTLomaLighthouseByWagbogwest.jpg" class="image"><img src="/web/20191104123006im_/http://cantorsattic.info/images/thumb/f/f8/PTLomaLighthouseByWagbogwest.jpg/300px-PTLomaLighthouseByWagbogwest.jpg" class="thumbimage" srcset="/web/20191104123006im_/http://cantorsattic.info/images/thumb/f/f8/PTLomaLighthouseByWagbogwest.jpg/450px-PTLomaLighthouseByWagbogwest.jpg 1.5x, /web/20191104123006im_/http://cantorsattic.info/images/f/f8/PTLomaLighthouseByWagbogwest.jpg 2x" width="300" height="225" /></a>
-
-
-
-<a href="File:PTLomaLighthouseByWagbogwest.jpg" class="internal" title="Enlarge"></a>
-
-
-PT Loma Lighthouse photo by wagbogwest
-
+![PT Loma Lighthouse photo by wagbogwest](assets/img/PTLomaLighthouseByWagbogwest.jpg)
 
 
 

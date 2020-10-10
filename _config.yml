@@ -1,8 +1,9 @@
 theme: jekyll-theme-minimal
-# source: docs
-exclude:
-  - bin
+source: docs
 defaults:
-  -
-    values:
+  - values:
       layout: "default"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true

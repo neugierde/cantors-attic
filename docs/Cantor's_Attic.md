@@ -6,25 +6,7 @@ permalink: Cantor's_Attic
 
 
 
-
-
-
-
-
-
-
-
-
-
-<a href="File:DescentIntoHistoryByErnieReyes.jpg" class="image"><img src="/web/20191104130451im_/http://cantorsattic.info/images/thumb/b/b7/DescentIntoHistoryByErnieReyes.jpg/300px-DescentIntoHistoryByErnieReyes.jpg" class="thumbimage" srcset="/web/20191104130451im_/http://cantorsattic.info/images/thumb/b/b7/DescentIntoHistoryByErnieReyes.jpg/450px-DescentIntoHistoryByErnieReyes.jpg 1.5x, /web/20191104130451im_/http://cantorsattic.info/images/b/b7/DescentIntoHistoryByErnieReyes.jpg 2x" width="300" height="400" /></a>
-
-
-
-<a href="File:DescentIntoHistoryByErnieReyes.jpg" class="internal" title="Enlarge"></a>
-
-
-Descent into History photo by Ernie Reyes
-
+![Descent into History photo by Ernie Reyes](assets/img/DescentIntoHistoryByErnieReyes.jpg)
 
 
 

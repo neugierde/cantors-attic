@@ -4,29 +4,7 @@ permalink: Playroom
 ---
 # The playroom
 
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="File:TateSlidesByTomJenkins.jpg" class="image"><img src="/web/20191025234916im_/http://cantorsattic.info/images/thumb/0/04/TateSlidesByTomJenkins.jpg/300px-TateSlidesByTomJenkins.jpg" class="thumbimage" srcset="/web/20191025234916im_/http://cantorsattic.info/images/thumb/0/04/TateSlidesByTomJenkins.jpg/450px-TateSlidesByTomJenkins.jpg 1.5x, /web/20191025234916im_/http://cantorsattic.info/images/thumb/0/04/TateSlidesByTomJenkins.jpg/600px-TateSlidesByTomJenkins.jpg 2x" width="300" height="400" /></a>
-
-
-
-<a href="File:TateSlidesByTomJenkins.jpg" class="internal" title="Enlarge"></a>
-
-
-Tate Slides, photo by Tom Jenkins
-
-
-
+![Tate Slides, photo by Tom Jenkins](assets/img/TateSlidesByTomJenkins.jpg)
 
 Here in the playroom, you will find a variety of stimulating
 entertainments.

@@ -4,28 +4,7 @@ permalink: Lower_attic
 ---
 # The lower attic
 
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="File:SagradaSpiralByDavidNikonvscanon.jpg" class="image"><img src="/web/20191104122843im_/http://cantorsattic.info/images/thumb/5/58/SagradaSpiralByDavidNikonvscanon.jpg/300px-SagradaSpiralByDavidNikonvscanon.jpg" class="thumbimage" srcset="/web/20191104122843im_/http://cantorsattic.info/images/thumb/5/58/SagradaSpiralByDavidNikonvscanon.jpg/450px-SagradaSpiralByDavidNikonvscanon.jpg 1.5x, /web/20191104122843im_/http://cantorsattic.info/images/5/58/SagradaSpiralByDavidNikonvscanon.jpg 2x" width="300" height="225" /></a>
-
-
-
-<a href="File:SagradaSpiralByDavidNikonvscanon.jpg" class="internal" title="Enlarge"></a>
-
-
-Sagrada Spiral photo by David Nikonvscanon
-
-
+![Sagrada Spiral photo by David Nikonvscanon](assets/img/SagradaSpiralByDavidNikonvscanon.jpg)
 
 
 Welcome to the lower attic, where the countably infinite ordinals climb

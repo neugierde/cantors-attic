@@ -5,26 +5,7 @@ permalink: Upper_attic
 # The upper attic
 
 
-
-
-
-
-
-
-
-
-
-
-
-<a href="File:CapePogueLighthouse_medium.jpg" class="image"><img src="/web/20191104221438im_/http://cantorsattic.info/images/thumb/b/bb/CapePogueLighthouse_medium.jpg/300px-CapePogueLighthouse_medium.jpg" class="thumbimage" srcset="/web/20191104221438im_/http://cantorsattic.info/images/b/bb/CapePogueLighthouse_medium.jpg 1.5x, /web/20191104221438im_/http://cantorsattic.info/images/b/bb/CapePogueLighthouse_medium.jpg 2x" width="300" height="450" /></a>
-
-
-
-<a href="File:CapePogueLighthouse_medium.jpg" class="internal" title="Enlarge"></a>
-
-
-Cape Pogue Lighthouse photo by Timothy Valentine
-
+![Cape Pogue Lighthouse photo by Timothy Valentine](assets/img/CapePogueLighthouse_medium.jpg)
 
 
 
