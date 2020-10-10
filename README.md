@@ -9,6 +9,12 @@ The pages are in Markdown, I will work to support mathjax and all the rest of ni
 
 Contributions are welcome!
 
+## Sources
+
+- http://jdh.hamkins.org/tag/cantors-attic/
+- http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic
+
+
 ## Initial build
 
 ### Archive retrieval
