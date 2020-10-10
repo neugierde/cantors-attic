@@ -1,2 +1,8 @@
 theme: jekyll-theme-minimal
-source: docs
+# source: docs
+exclude:
+  - bin
+defaults:
+  -
+    values:
+      layout: "default"

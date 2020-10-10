@@ -1,87 +1,70 @@
-<div id="mw-page-base" class="noprint">
+---
+title: Extended arrow notation
+permalink: Extended_arrow_notation
+---
+# Extended arrow notation
 
-</div>
 
-<div id="mw-head-base" class="noprint">
 
-</div>
 
-<div id="content" class="mw-body" role="main">
 
-[]{#top}
-[Extended arrow notation]{dir="auto"} {#firstHeading .firstHeading lang="en"}
-=====================================
 
-<div id="bodyContent" class="mw-body-content">
 
-<div id="siteSub">
 
-From Cantor's Attic
 
-</div>
 
-<div id="contentSub">
-
-</div>
-
-<div id="jump-to-nav" class="mw-jump">
-
-Jump to: [navigation](#mw-navigation), [search](#p-search)
-
-</div>
-
-<div id="mw-content-text" class="mw-content-ltr" lang="en" dir="ltr">
 
 Extended arrow notation is a notation that was invented by Googology
 Wikia User Googleaarex:
-[\[1\]](http://web.archive.org/web/20190727110336/https://googology.wikia.com/wiki/User:Googleaarex/){.external
-.autonumber}.
+<a href="https://googology.wikia.com/wiki/User:Googleaarex/" class="external autonumber">[1]</a>.
 
-<div id="toc" class="toc">
 
-<div id="toctitle">
 
-Contents
---------
+## Contents
 
-</div>
 
--   [[1]{.tocnumber} [Basic Notation]{.toctext}](#Basic_Notation)
--   [[2]{.tocnumber} [Nested up-arrow
-    notation]{.toctext}](#Nested_up-arrow_notation)
--   [[3]{.tocnumber} [Array up-arrow
-    notation]{.toctext}](#Array_up-arrow_notation)
-    -   [[3.1]{.tocnumber} [\\(\\Omega\\) typed
-        arrows]{.toctext}](#.5C.28.5COmega.5C.29_typed_arrows)
-    -   [[3.2]{.tocnumber} [\\(\\Omega\_2\\) typed
-        arrows]{.toctext}](#.5C.28.5COmega_2.5C.29_typed_arrows)
-    -   [[3.3]{.tocnumber} [\\(\\Omega\_3\\) typed arrows and
-        beyond]{.toctext}](#.5C.28.5COmega_3.5C.29_typed_arrows_and_beyond)
-    -   [[3.4]{.tocnumber} [Inaccesible
-        arrows]{.toctext}](#Inaccesible_arrows)
-    -   [[3.5]{.tocnumber} [1-inaccesible arrows and
-        beyond]{.toctext}](#1-inaccesible_arrows_and_beyond)
--   [[4]{.tocnumber} [Dimensional array up-arrow
-    notation]{.toctext}](#Dimensional_array_up-arrow_notation)
--   [[5]{.tocnumber} [Hyperarray up-arrow
-    notation]{.toctext}](#Hyperarray_up-arrow_notation)
--   [[6]{.tocnumber} [Legion array up-arrow
-    notation]{.toctext}](#Legion_array_up-arrow_notation)
-    -   [[6.1]{.tocnumber} [Layered arrays]{.toctext}](#Layered_arrays)
-    -   [[6.2]{.tocnumber} [The
-        hyperseparator]{.toctext}](#The_hyperseparator)
-    -   [[6.3]{.tocnumber} [The second
-        hyperseparator]{.toctext}](#The_second_hyperseparator)
--   [[7]{.tocnumber} [Hyperlegion array up-arrow
-    notation]{.toctext}](#Hyperlegion_array_up-arrow_notation)
+-   [<span class="tocnumber">1</span> <span class="toctext">Basic
+    Notation</span>](#Basic_Notation)
+-   [<span class="tocnumber">2</span> <span class="toctext">Nested
+    up-arrow notation</span>](#Nested_up-arrow_notation)
+-   [<span class="tocnumber">3</span> <span class="toctext">Array
+    up-arrow notation</span>](#Array_up-arrow_notation)
+    -   [<span class="tocnumber">3.1</span> <span
+        class="toctext">\\(\\Omega\\) typed
+        arrows</span>](#.5C.28.5COmega.5C.29_typed_arrows)
+    -   [<span class="tocnumber">3.2</span> <span
+        class="toctext">\\(\\Omega\_2\\) typed
+        arrows</span>](#.5C.28.5COmega_2.5C.29_typed_arrows)
+    -   [<span class="tocnumber">3.3</span> <span
+        class="toctext">\\(\\Omega\_3\\) typed arrows and
+        beyond</span>](#.5C.28.5COmega_3.5C.29_typed_arrows_and_beyond)
+    -   [<span class="tocnumber">3.4</span> <span
+        class="toctext">Inaccesible arrows</span>](#Inaccesible_arrows)
+    -   [<span class="tocnumber">3.5</span> <span
+        class="toctext">1-inaccesible arrows and
+        beyond</span>](#1-inaccesible_arrows_and_beyond)
+-   [<span class="tocnumber">4</span> <span class="toctext">Dimensional
+    array up-arrow
+    notation</span>](#Dimensional_array_up-arrow_notation)
+-   [<span class="tocnumber">5</span> <span class="toctext">Hyperarray
+    up-arrow notation</span>](#Hyperarray_up-arrow_notation)
+-   [<span class="tocnumber">6</span> <span class="toctext">Legion array
+    up-arrow notation</span>](#Legion_array_up-arrow_notation)
+    -   [<span class="tocnumber">6.1</span> <span
+        class="toctext">Layered arrays</span>](#Layered_arrays)
+    -   [<span class="tocnumber">6.2</span> <span class="toctext">The
+        hyperseparator</span>](#The_hyperseparator)
+    -   [<span class="tocnumber">6.3</span> <span class="toctext">The
+        second hyperseparator</span>](#The_second_hyperseparator)
+-   [<span class="tocnumber">7</span> <span class="toctext">Hyperlegion
+    array up-arrow
+    notation</span>](#Hyperlegion_array_up-arrow_notation)
 
-</div>
 
-[Basic Notation]{#Basic_Notation .mw-headline}
-==============================================
+# <span id="Basic_Notation" class="mw-headline">Basic Notation</span>
 
 Basic Notation is very simple. It generalizes the [normal arrow
-notation](/web/20190727110336/http://cantorsattic.info/Knuth%27s_up-arrow_notation "Knuth's up-arrow notation").
+notation](/Knuth%27s_up-arrow_notation "Knuth's up-arrow notation").
 
 \\(a \\uparrow\_2 b = a
 \\underbrace{\\uparrow\\uparrow\\dots\\uparrow}\_b a\\)
@@ -98,8 +81,7 @@ notation, have expressions that are evaluated from the right.
 
 Limit in FGH: \\(f\_\\omega(n)\\)
 
-[Nested up-arrow notation]{#Nested_up-arrow_notation .mw-headline}
-==================================================================
+# <span id="Nested_up-arrow_notation" class="mw-headline">Nested up-arrow notation</span>
 
 To extend the notation here, we first have to make a change:
 \\(\\uparrow\_n =
@@ -117,413 +99,50 @@ Then: \\(a \\uparrow\_{\\uparrow\_{\\uparrow\_2}} b = a
 
 Limit: \\(\\varepsilon\_0\\)
 
-[Array up-arrow notation]{#Array_up-arrow_notation .mw-headline}
-================================================================
+# <span id="Array_up-arrow_notation" class="mw-headline">Array up-arrow notation</span>
 
-[\\(\\Omega\\) typed arrows]{#.5C.28.5COmega.5C.29_typed_arrows .mw-headline}
------------------------------------------------------------------------------
+## \\(\\Omega\\) typed arrows
 
 Limit: \\(\\psi(\\varepsilon\_{\\Omega+1})\\)
 
-[\\(\\Omega\_2\\) typed arrows]{#.5C.28.5COmega_2.5C.29_typed_arrows .mw-headline}
-----------------------------------------------------------------------------------
+## \\(\\Omega\_2\\) typed arrows
 
 Limit: \\(\\psi(\\psi\_1(\\varepsilon\_{\\Omega\_2+1}))\\)
 
-[\\(\\Omega\_3\\) typed arrows and beyond]{#.5C.28.5COmega_3.5C.29_typed_arrows_and_beyond .mw-headline}
---------------------------------------------------------------------------------------------------------
+## \\(\\Omega\_3\\) typed arrows and beyond
 
 Limit: \\(\\psi(\\psi\_I(0))\\)
 
-[Inaccesible arrows]{#Inaccesible_arrows .mw-headline}
-------------------------------------------------------
+## Inaccesible arrows
 
 Limit: \\(\\psi(\\psi\_{I(1,0)}(0))\\)
 
-[1-inaccesible arrows and beyond]{#1-inaccesible_arrows_and_beyond .mw-headline}
---------------------------------------------------------------------------------
+## 1-inaccesible arrows and beyond
 
 Limit: \\(\\psi(\\psi\_{I(\\omega, 0)}(0))\\)
 
-[Dimensional array up-arrow notation]{#Dimensional_array_up-arrow_notation .mw-headline}
-========================================================================================
+# <span id="Dimensional_array_up-arrow_notation" class="mw-headline">Dimensional array up-arrow notation</span>
 
 Limit: \\(\\psi(\\psi\_{\\chi(\\varepsilon\_{M+1})}(0))\\)
 
-[Hyperarray up-arrow notation]{#Hyperarray_up-arrow_notation .mw-headline}
-==========================================================================
+# <span id="Hyperarray_up-arrow_notation" class="mw-headline">Hyperarray up-arrow notation</span>
 
 Limit: \\(\\psi(\\psi\_{\\chi(M(1,0))}(0))\\)
 
-[Legion array up-arrow notation]{#Legion_array_up-arrow_notation .mw-headline}
-==============================================================================
+# <span id="Legion_array_up-arrow_notation" class="mw-headline">Legion array up-arrow notation</span>
 
-[Layered arrays]{#Layered_arrays .mw-headline}
-----------------------------------------------
+## Layered arrays
 
-Limit: \\(\\psi(\\psi\_{\\Xi(1)}\^\\omega}(0))\\)
+Limit: \\(\\psi(\\psi\_{ {\\Xi(1)}^\\omega}(0))\\)
 
-[The hyperseparator]{#The_hyperseparator .mw-headline}
-------------------------------------------------------
+## The hyperseparator
 
 Limit: \\(\\psi(\\psi\_{M(1,\\Xi(1)+1)}(0))\\)
 
-[The second hyperseparator]{#The_second_hyperseparator .mw-headline}
---------------------------------------------------------------------
+## The second hyperseparator
 
 Limit:???
 
-[Hyperlegion array up-arrow notation]{#Hyperlegion_array_up-arrow_notation .mw-headline}
-========================================================================================
+# <span id="Hyperlegion_array_up-arrow_notation" class="mw-headline">Hyperlegion array up-arrow notation</span>
 
-</div>
 
-<div class="printfooter">
-
-Retrieved from
-"[http://cantorsattic.info/index.php?title=Extended\_arrow\_notation&oldid=2706](http://web.archive.org/web/20190727110336/http://cantorsattic.info/index.php?title=Extended_arrow_notation&oldid=2706)"
-
-</div>
-
-<div id="catlinks" class="catlinks catlinks-allhidden">
-
-</div>
-
-<div class="visualClear">
-
-</div>
-
-</div>
-
-</div>
-
-<div id="mw-navigation">
-
-Navigation menu
----------------
-
-<div id="mw-head">
-
-<div id="p-personal" role="navigation"
-aria-labelledby="p-personal-label">
-
-### Personal tools {#p-personal-label}
-
--   <div id="pt-createaccount">
-
-    </div>
-
-    [Create
-    account](/web/20190727110336/http://cantorsattic.info/index.php?title=Special:UserLogin&returnto=Extended+arrow+notation&type=signup)
--   <div id="pt-login">
-
-    </div>
-
-    [Log
-    in](/web/20190727110336/http://cantorsattic.info/index.php?title=Special:UserLogin&returnto=Extended+arrow+notation "You are encouraged to log in; however, it is not mandatory [o]")
-
-</div>
-
-<div id="left-navigation">
-
-<div id="p-namespaces" class="vectorTabs" role="navigation"
-aria-labelledby="p-namespaces-label">
-
-### Namespaces {#p-namespaces-label}
-
--   <div id="ca-nstab-main">
-
-    </div>
-
-    [[Page](/web/20190727110336/http://cantorsattic.info/Extended_arrow_notation "View the content page [c]")]{}
--   <div id="ca-talk">
-
-    </div>
-
-    [[Discussion](/web/20190727110336/http://cantorsattic.info/index.php?title=Talk:Extended_arrow_notation&action=edit&redlink=1 "Discussion about the content page [t]")]{}
-
-</div>
-
-<div id="p-variants" class="vectorMenu emptyPortlet" role="navigation"
-aria-labelledby="p-variants-label">
-
-### [Variants]{}[](#) {#p-variants-label}
-
-<div class="menu">
-
-</div>
-
-</div>
-
-</div>
-
-<div id="right-navigation">
-
-<div id="p-views" class="vectorTabs" role="navigation"
-aria-labelledby="p-views-label">
-
-### Views {#p-views-label}
-
--   <div id="ca-view">
-
-    </div>
-
-    [[Read](/web/20190727110336/http://cantorsattic.info/Extended_arrow_notation)]{}
--   <div id="ca-viewsource">
-
-    </div>
-
-    [[View
-    source](/web/20190727110336/http://cantorsattic.info/index.php?title=Extended_arrow_notation&action=edit "This page is protected.
-    You can view its source [e]")]{}
--   <div id="ca-history">
-
-    </div>
-
-    [[View
-    history](/web/20190727110336/http://cantorsattic.info/index.php?title=Extended_arrow_notation&action=history "Past revisions of this page [h]")]{}
-
-</div>
-
-<div id="p-cactions" class="vectorMenu emptyPortlet" role="navigation"
-aria-labelledby="p-cactions-label">
-
-### [More]{}[](#) {#p-cactions-label}
-
-<div class="menu">
-
-</div>
-
-</div>
-
-<div id="p-search" role="search">
-
-### Search
-
-<div id="simpleSearch">
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="mw-panel">
-
-<div id="p-logo" role="banner">
-
-[](/web/20190727110336/http://cantorsattic.info/Cantor%27s_Attic "Visit the main page")
-
-</div>
-
-<div id="p-Directory" class="portal" role="navigation"
-aria-labelledby="p-Directory-label">
-
-### Directory {#p-Directory-label}
-
-<div class="body">
-
--   <div id="n-Upper-attic">
-
-    </div>
-
-    [Upper
-    attic](/web/20190727110336/http://cantorsattic.info/Upper_attic)
--   <div id="n-Middle-attic">
-
-    </div>
-
-    [Middle
-    attic](/web/20190727110336/http://cantorsattic.info/Middle_attic)
--   <div id="n-Lower-attic">
-
-    </div>
-
-    [Lower
-    attic](/web/20190727110336/http://cantorsattic.info/Lower_attic)
--   <div id="n-">
-
-    </div>
-
-    [](INVALID-TITLE)
--   <div id="n-The-parlour">
-
-    </div>
-
-    [The parlour](/web/20190727110336/http://cantorsattic.info/Parlour)
-
-</div>
-
-</div>
-
-<div id="p-Resources" class="portal" role="navigation"
-aria-labelledby="p-Resources-label">
-
-### Resources {#p-Resources-label}
-
-<div class="body">
-
--   <div id="n-The-playroom">
-
-    </div>
-
-    [The
-    playroom](/web/20190727110336/http://cantorsattic.info/Playroom)
--   <div id="n-The-library">
-
-    </div>
-
-    [The library](/web/20190727110336/http://cantorsattic.info/Library)
--   <div id="n-The-cellar">
-
-    </div>
-
-    [The cellar](/web/20190727110336/http://cantorsattic.info/Cellar)
-
-</div>
-
-</div>
-
-<div id="p-Community" class="portal" role="navigation"
-aria-labelledby="p-Community-label">
-
-### Community {#p-Community-label}
-
-<div class="body">
-
--   <div id="n-portal">
-
-    </div>
-
-    [Community
-    portal](/web/20190727110336/http://cantorsattic.info/Cantor%27s_Attic:Community_portal "About the project, what you can do, where to find things")
--   <div id="n-currentevents">
-
-    </div>
-
-    [Current
-    events](/web/20190727110336/http://cantorsattic.info/Cantor%27s_Attic:Current_events "Find background information on current events")
--   <div id="n-recentchanges">
-
-    </div>
-
-    [Recent
-    changes](/web/20190727110336/http://cantorsattic.info/Special:RecentChanges "A list of recent changes in the wiki [r]")
--   <div id="n-randompage">
-
-    </div>
-
-    [Random
-    page](/web/20190727110336/http://cantorsattic.info/Special:Random "Load a random page [x]")
--   <div id="n-help">
-
-    </div>
-
-    [Help](http://web.archive.org/web/20190727110336/https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents "The place to find out")
-
-</div>
-
-</div>
-
-<div id="p-tb" class="portal" role="navigation"
-aria-labelledby="p-tb-label">
-
-### Tools {#p-tb-label}
-
-<div class="body">
-
--   <div id="t-whatlinkshere">
-
-    </div>
-
-    [What links
-    here](/web/20190727110336/http://cantorsattic.info/Special:WhatLinksHere/Extended_arrow_notation "A list of all wiki pages that link here [j]")
--   <div id="t-recentchangeslinked">
-
-    </div>
-
-    [Related
-    changes](/web/20190727110336/http://cantorsattic.info/Special:RecentChangesLinked/Extended_arrow_notation "Recent changes in pages linked from this page [k]")
--   <div id="t-specialpages">
-
-    </div>
-
-    [Special
-    pages](/web/20190727110336/http://cantorsattic.info/Special:SpecialPages "A list of all special pages [q]")
--   <div id="t-print">
-
-    </div>
-
-    [Printable
-    version](/web/20190727110336/http://cantorsattic.info/index.php?title=Extended_arrow_notation&printable=yes "Printable version of this page [p]")
--   <div id="t-permalink">
-
-    </div>
-
-    [Permanent
-    link](/web/20190727110336/http://cantorsattic.info/index.php?title=Extended_arrow_notation&oldid=2706 "Permanent link to this revision of the page")
--   <div id="t-info">
-
-    </div>
-
-    [Page
-    information](/web/20190727110336/http://cantorsattic.info/index.php?title=Extended_arrow_notation&action=info)
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="footer" role="contentinfo">
-
--   <div id="footer-info-lastmod">
-
-    </div>
-
-    This page was last modified on 23 March 2019, at 19:18.
--   <div id="footer-info-viewcount">
-
-    </div>
-
-    This page has been accessed 1,152 times.
-
-<!-- -->
-
--   <div id="footer-places-privacy">
-
-    </div>
-
-    [Privacy
-    policy](/web/20190727110336/http://cantorsattic.info/Cantor%27s_Attic:Privacy_policy "Cantor's Attic:Privacy policy")
--   <div id="footer-places-about">
-
-    </div>
-
-    [About Cantor's
-    Attic](/web/20190727110336/http://cantorsattic.info/Cantor%27s_Attic:About "Cantor's Attic:About")
--   <div id="footer-places-disclaimer">
-
-    </div>
-
-    [Disclaimers](/web/20190727110336/http://cantorsattic.info/Cantor%27s_Attic:General_disclaimer "Cantor's Attic:General disclaimer")
-
-<!-- -->
-
--   <div id="footer-poweredbyico">
-
-    </div>
-
-    [![Powered by
-    MediaWiki](/web/20190727110336im_/http://cantorsattic.info/resources/assets/poweredby_mediawiki_88x31.png){width="88"
-    height="31"}](//web.archive.org/web/20190727110336/http://www.mediawiki.org/)
-
-<div style="clear:both">
-
-</div>
-
-</div>
