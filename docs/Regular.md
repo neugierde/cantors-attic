@@ -10,7 +10,7 @@ permalink: Regular
 
 
 (Redirected from
-[Regular](/index.php?title=Regular&redirect=no "Regular"))
+[Regular](index.php?title=Regular&redirect=no "Regular"))
 
 
 
@@ -24,17 +24,17 @@ one-to-one correspondence between their elements. The cardinality
 assignment problem is the problem of assigning to each equinumerosity
 class a cardinal number to represent it. In ZFC, this problem can be
 solved via the [well-ordering
-principle](/Well-ordering_principle "Well-ordering principle"),
+principle](Well-ordering_principle "Well-ordering principle"),
 which asserts that every set can be well-ordered and therefore admits a
 bijection with a unique smallest
-[ordinal](/Ordinal "Ordinal"),
+[ordinal](Ordinal "Ordinal"),
 an *initial ordinal*. By this means, in ZFC we are able to assing to
 every set $X$ a canonical representative of its equinumerosity class,
 the smallest ordinal bijective with $X$.
 
 We therefore adopt the definition that $\\kappa$ is a *cardinal* if it
 is an *initial ordinal*, an
-[ordinal](/Ordinal "Ordinal")
+[ordinal](Ordinal "Ordinal")
 that is not equinumerous with any smaller ordinal.
 
 
@@ -61,21 +61,21 @@ that is not equinumerous with any smaller ordinal.
 ## Finite and infinite cardinals
 
 The set
-[$\\omega$](/Omega "Omega")
+[$\\omega$](Omega "Omega")
 of [natural
-numbers](/Omega "Omega") is
+numbers](Omega "Omega") is
 the smallest inductive set, that is, the smallest set for which
 $0\\in\\omega$ and whenever $n\\in\\omega$ then also $n+1\\in\\omega$,
 where $n+1=n\\cup\\{n\\}$ is the [successor
-ordinal](/Successor_ordinal "Successor ordinal")
+ordinal](Successor_ordinal "Successor ordinal")
 of $n$. A set is *finite* if it is equinumerous with a natural number,
 and otherwise it is is *infinite*. In ZFC, the finite sets are the same
 as the [Dedekind
-finite](/Dedekind_finite "Dedekind finite")
+finite](Dedekind_finite "Dedekind finite")
 sets, but in ZF, these concepts may differ. In ZFC,
-[$\\aleph$](/Aleph "Aleph")
+[$\\aleph$](Aleph "Aleph")
 is a unique
-[order-isomorphism](/Order-isomorphism "Order-isomorphism")
+[order-isomorphism](Order-isomorphism "Order-isomorphism")
 between the ordinals and the cardinal numbers with respect to
 membership.
 
@@ -84,7 +84,7 @@ membership.
 A set is *countable* when it is equinumerous with a subset of $\\omega$.
 This includes all finite sets, including the empty set, and the infinite
 countable sets are said to be *countably infinite*. An
-<a href="/Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
 set is a set that is not countable. The existence of uncountable sets is
 a consequence of Cantor's observationt that the set of reals is
 uncountable.
@@ -94,13 +94,13 @@ uncountable.
 Hartog established that for every set $X$, there is a smallest ordinal
 that does not have an injection into $X$, and this ordinal is now known
 as the **[Hartog
-number](/Hartog_number "Hartog number")**
+number](Hartog_number "Hartog number")**
 of $X$. When $\\kappa$ is a cardinal, then the **successor cardinal** of
 $\\kappa$, denoted $\\kappa^+$, is the Hartog number of $\\kappa$, the
 smallest ordinal of strictly larger cardinality than $\\kappa$. The
 existence of successor cardinals can be proved in ZF without the axiom
 of choice. Iteratively taking the successor cardinal leads to the [aleph
-hierarchy](/Aleph "Aleph").
+hierarchy](Aleph "Aleph").
 
 Although ZF proves the existence of successor cardinals for every
 cardinal, ZF also proves that there exists some cardinals which are not
@@ -113,7 +113,7 @@ with $\\nu&lt;\\kappa$.
 
 The limit cardinals share an incredible affinity towards the singular
 cardinals; there does not exist a [weakly
-inaccessible](/Inaccessible "Inaccessible")
+inaccessible](Inaccessible "Inaccessible")
 cardinal if and only if the singular cardinals are precisely the limit
 cardinals. If inaccessibility is inconsistent (which is thought "untrue"
 by most set theorists, although possible), then ZFC actually proves that
@@ -127,7 +127,7 @@ when $\\kappa$ is the union of fewer than $\\kappa$ many sets of size
 less than $\\kappa$, then $\\kappa$ is said to be *singular*.
 
 The
-<a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
 implies that every successor cardinal $\\kappa^+$ is regular, but it is
 known to be consistent with ZF that successor cardinals may be singular.
 
@@ -140,7 +140,7 @@ if and only if $\\text{cof}(\\kappa)\\lt\\kappa$.
 ## Cardinals in ZF
 
 See [general
-cardinal](/Cardinal_general "Cardinal general")
+cardinal](Cardinal_general "Cardinal general")
 for an account of the cardinality concept arising without the axiom of
 choice.
 
@@ -150,11 +150,11 @@ solution of the cardinal assignment problem. Rather, in ZF one works
 directly with the equinumerosity relation.
 
 In ZF, the
-<a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
 is equivalent to the assertion that the cardinals are linearly ordered.
 This is because for every set $X$, there is a smallest ordinal $\\alpha$
 that does not inject into $X$, the [Hartog
-number](/Hartog_number "Hartog number")
+number](Hartog_number "Hartog number")
 of $X$, and conversely, if $X$ injects into $\\alpha$, then $X$ would be
 well-orderable.
 

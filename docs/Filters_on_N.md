@@ -139,13 +139,13 @@ An interesting question is whether all constructions of the hypperreals
 are isomorphic i.e., are there properties of the hyperreals which depend
 on the choice of the nonprincipal ultrafilter? The answer depends on
 whether one accepts the
-<a href="/Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>.
+<a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>.
 With the CH, the answer is *no*, the construction of the hyperreals does
 not depend on the ultrafilter.
 
 ## References
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

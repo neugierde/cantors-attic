@@ -15,14 +15,14 @@ permalink: Hartog_number
 
 
 The **Hartog number** of a set $X$ is the least
-[ordinal](/Ordinal "Ordinal")
+[ordinal](Ordinal "Ordinal")
 which cannot be mapped injectively into $X$. For well-ordered sets $X$
 the Hartog number is exactly $\|X\|^+$, the [successor
-cardinal](/Cardinal#Successor_cardinals "Cardinal")
+cardinal](Cardinal#Successor_cardinals "Cardinal")
 of $\|X\|$.
 
 When assuming the negation of the
-<a href="/Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">axiom of choice</a>
+<a href="Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">axiom of choice</a>
 some sets cannot be well-ordered, and the Hartog number measures how
 well-ordered they can be.
 

@@ -43,11 +43,11 @@ done, what exists and what doesn't, and what statements are true and
 false, are all determined by them. There are many different ways to
 axiomatize mathematics. These different methods are called **Set
 Theories**, and there are quite a few. For example:
-[Zermelo-Fraenkel](/ZFC "ZFC"),
-<a href="/Morse-Kelley" class="mw-redirect" title="Morse-Kelley">Morse-Kelley</a>,
+[Zermelo-Fraenkel](ZFC "ZFC"),
+<a href="Morse-Kelley" class="mw-redirect" title="Morse-Kelley">Morse-Kelley</a>,
 <a href="http://modelsofpa.info/" class="external text">Peano Arithmetic</a>,
-<a href="/NBG" class="mw-redirect" title="NBG">Neumann-Bernays-Gödel</a>,
-[Kripke-Platek](/Kripke-Platek "Kripke-Platek"),
+<a href="NBG" class="mw-redirect" title="NBG">Neumann-Bernays-Gödel</a>,
+[Kripke-Platek](Kripke-Platek "Kripke-Platek"),
 and more.
 
 If there is a "universe" in which axioms are true, then that universe is
@@ -140,46 +140,46 @@ though $\\mu$ is used less often.
 Large cardinal axioms may have some intuition behind them. For example:
 
 -   The
-    <a href="/Correct" class="mw-redirect" title="Correct">correct</a>
+    <a href="Correct" class="mw-redirect" title="Correct">correct</a>
     cardinals $\\kappa$ are those who have a specific set of cardinality
     $\\kappa$ which acts almost exactly like the collection of all sets.
 -   The
-    [worldly](/Worldly "Worldly")
+    [worldly](Worldly "Worldly")
     cardinals $\\kappa$ are those who have a specific set of cardinality
     $\\kappa$ which acts like its own little universe or "world".
 -   The
-    [inaccessible](/Inaccessible "Inaccessible")
+    [inaccessible](Inaccessible "Inaccessible")
     cardinals $\\kappa$ are those who cannot be reached from smaller
     cardinals by addition of cardinals or taking the cardinality of the
     powerset of ordinals.
 -   The
-    [Mahlo](/Mahlo "Mahlo")
+    [Mahlo](Mahlo "Mahlo")
     cardinals $\\kappa$ are those who are
-    [inaccessible](/Inaccessible "Inaccessible")
+    [inaccessible](Inaccessible "Inaccessible")
     and have many, many, inaccessibles below them.
 -   The [weakly
-    compact](/Weakly_compact "Weakly compact")
+    compact](Weakly_compact "Weakly compact")
     cardinals $\\kappa$ are those for which certain sets of information
     of cardinality $\\kappa$ can be "compacted" to smaller sets of
     information and still retain the basic properties of the original
     set.
 -   The
-    [indescribable](/Indescribable "Indescribable")
+    [indescribable](Indescribable "Indescribable")
     cardinals $\\kappa$ are those which are so large that one begins to
     run out of interesting properties for them because for most
     properties of $\\kappa$ there is a smaller ordinal $\\alpha$ which
     has that property.
 -   The
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     cardinals $\\kappa$ are those who have many very large subsets.
 -   The [strongly
-    compact](/Strongly_compact "Strongly compact")
+    compact](Strongly_compact "Strongly compact")
     cardinals $\\kappa$ are those for which certain sets of information
     of cardinality *at least* $\\kappa$ can be "compacted" to smaller
     sets of information and still retain the basic properties of the
     original set.
 -   Though it is not a cardinal property, [Vopěnka's
-    principle](/Vopenka "Vopenka")
+    principle](Vopenka "Vopenka")
     implies that in every collection which has no cardinality (i.e. it
     is too large for any cardinal), there are two elements which are
     incredibly similar to each other.

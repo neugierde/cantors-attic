@@ -15,7 +15,7 @@ permalink: Bird's_array_notation
 
 
 Bird's array notation is a parallel notation to
-[BEAF](/BEAF "BEAF").
+[BEAF](BEAF "BEAF").
 
 
 

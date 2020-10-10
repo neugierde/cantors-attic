@@ -115,19 +115,19 @@ first measurable is larger than infinitely many weakly compact cardinals
 Using the second method, one can take, say, $\\mathcal{M} = \\mathcal{N}
 = L$, i.e. create an embedding $j:L\\to L$, whose existence has very
 important consequences, such as the existence of
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$</a>
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$</a>
 (and thus $V\\neq L$) and implies that every ordinal that is an
 uncountable cardinal in V is strongly inaccessible in L. By taking
 $\\mathcal{M}=\\mathcal{N}=V\_\\lambda$, i.e. a rank of the cumulative
 hiearchy, one obtains the very powerful
-<a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
 axioms, which sit near the very top of the large cardinal hiearchy.
 However, this second method has its limits, as shown by Kunen, as he
 showed that $\\mathcal{M}=\\mathcal{N}=V$ leads to an inconsistency with
 the
-<a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>,
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>,
 a theorem now known as the **[Kunen
-inconsistency](/Kunen_inconsistency "Kunen inconsistency")**.
+inconsistency](Kunen_inconsistency "Kunen inconsistency")**.
 He also showed that a natural strengthening of the rank-into-rank
 axioms, $\\mathcal{M}=\\mathcal{N}=V\_{\\lambda+2}$ for some
 $\\lambda\\in Ord$, was inconsistent with the $AC$.
@@ -139,83 +139,83 @@ closure properties to make it "larger", i.e. closer to $V$ (that is, to
 $\\mathcal{M}$). For example, $j:V\\to\\mathcal{N}$ is nontrivial with
 critical point $\\kappa$ and the cumulative hiearchy rank
 $V\_{j(\\kappa)}$ is a subset of $\\mathcal{N}$ then $\\kappa$ is
-[superstrong](/Superstrong "Superstrong");
+[superstrong](Superstrong "Superstrong");
 if $\\mathcal{N}$ contains all sequences of elements of $\\mathcal{N}$
 of length $\\lambda$ for some $\\lambda&gt;\\kappa$ then $\\kappa$ is
-$\\lambda$-[supercompact](/Supercompact "Supercompact"),
+$\\lambda$-[supercompact](Supercompact "Supercompact"),
 and so on.
 
 The existence of a nontrivial elementary embedding
 $j:\\mathcal{M}\\to\\mathcal{N}$ *that is definable in $\\mathcal{M}$*
 implies that the critical point $\\kappa$ of $j$ is
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 in $\\mathcal{M}$ (not necessarily in $V$). Every measurable ordinal is
 [weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 and (strongly)
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 therefore its existence in any model is beyond $ZFC$, meaning that $ZFC$
 cannot prove that such an embedding exists.
 
 Here are some types of cardinals whose definition uses elementary
 embeddings:
 
--   [Reinhardt](/Reinhardt "Reinhardt")
+-   [Reinhardt](Reinhardt "Reinhardt")
     cardinals,
-    [Berkeley](/Berkeley "Berkeley")
+    [Berkeley](Berkeley "Berkeley")
     cardinals
 -   [Rank into
-    rank](/Rank_into_rank "Rank into rank")
+    rank](Rank_into_rank "Rank into rank")
     cardinals (axioms I3-I0)
 -   Huge cardinals: [almost
-    n-huge](/Huge "Huge"),
+    n-huge](Huge "Huge"),
     [almost
-    super-n-huge](/Huge "Huge"),
-    [n-huge](/Huge "Huge"),
-    [super-n-huge](/Huge "Huge"),
-    [$\\omega$-huge](/Huge "Huge")
+    super-n-huge](Huge "Huge"),
+    [n-huge](Huge "Huge"),
+    [super-n-huge](Huge "Huge"),
+    [$\\omega$-huge](Huge "Huge")
 -   High jump cardinals: [almost
-    high-jump](/High-jump "High-jump"),
-    [high-jump](/High-jump "High-jump"),
+    high-jump](High-jump "High-jump"),
+    [high-jump](High-jump "High-jump"),
     [super
-    high-jump](/High-jump "High-jump"),
+    high-jump](High-jump "High-jump"),
     [high-jump with unbounded excess
-    closure](/High-jump "High-jump")
--   [Extendible](/Extendible "Extendible")
+    closure](High-jump "High-jump")
+-   [Extendible](Extendible "Extendible")
     cardinals,
-    [$\\alpha$-extendible](/Extendible "Extendible")
+    [$\\alpha$-extendible](Extendible "Extendible")
 -   Compact cardinals:
-    [supercompact](/Supercompact "Supercompact"),
-    [$\\lambda$-supercompact](/Supercompact "Supercompact"),
+    [supercompact](Supercompact "Supercompact"),
+    [$\\lambda$-supercompact](Supercompact "Supercompact"),
     [strongly
-    compact](/Strongly_compact "Strongly compact"),
+    compact](Strongly_compact "Strongly compact"),
     [nearly
-    supercompact](/Nearly_supercompact "Nearly supercompact")
+    supercompact](Nearly_supercompact "Nearly supercompact")
 -   Strong cardinals:
-    [strong](/Strong "Strong"),
-    [$\\theta$-strong](/Strong "Strong"),
-    [superstrong](/Superstrong "Superstrong"),
-    [super-n-strong](/Superstrong "Superstrong")
--   [Measurable](/Measurable "Measurable")
+    [strong](Strong "Strong"),
+    [$\\theta$-strong](Strong "Strong"),
+    [superstrong](Superstrong "Superstrong"),
+    [super-n-strong](Superstrong "Superstrong")
+-   [Measurable](Measurable "Measurable")
     cardinals, measurables of nontrivial
-    <a href="/Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>,
-    [Tall](/Tall "Tall")
+    <a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>,
+    [Tall](Tall "Tall")
     cardinals
 -   [Weakly
-    compact](/Weakly_compact "Weakly compact")
+    compact](Weakly_compact "Weakly compact")
     cardinals
 
 The [wholeness
-axioms](/Wholeness_axioms "Wholeness axioms")
+axioms](Wholeness_axioms "Wholeness axioms")
 also asserts the existence of elementary embeddings, though the
 resulting larger cardinal has no particular name. [Vopěnka's
-principle](/Vopenka "Vopenka")
+principle](Vopenka "Vopenka")
 is about elementary embeddings of set models.
 
 ## Absoluteness
 
 The following results can be used in theorems about
-[remarkable](/Remarkable "Remarkable")
+[remarkable](Remarkable "Remarkable")
 cardinals and other virtual variants.
 
 (section from
@@ -289,7 +289,7 @@ strategy.
 Player II has a winning strategy precisely when $B$ elementarily embeds
 into $A$ in $V^{Coll(ω,B)}$. It follows that each first-order fragment
 of
-<a href="/index.php?title=Generic_Vop%C4%9Bnka%E2%80%99s_Principle&amp;action=edit&amp;redlink=1" class="new" title="Generic Vopěnka’s Principle (page does not exist)">Generic Vopěnka’s Principle</a>
+<a href="index.php?title=Generic_Vop%C4%9Bnka%E2%80%99s_Principle&amp;action=edit&amp;redlink=1" class="new" title="Generic Vopěnka’s Principle (page does not exist)">Generic Vopěnka’s Principle</a>
 is characterised by the existence of certain winning strategies in its
 associated class of closed games.
 
@@ -308,6 +308,6 @@ associated class of closed games.
     <a href="http://arxiv.org/abs/1706.00843v2" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BGitmanHamkins2018:GenericVopenkaPrincipleNotMahlo,%20%20%20%20AUTHOR%20=%20%7BGitman,%20Victoria%20and%20Hamkins,%20Joel%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BA%20model%20of%20the%20generic%20Vopěnka%20principle%20in%20which%20the%20ordinals%20are%20not%20Mahlo%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1706.00843v2%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

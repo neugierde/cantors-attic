@@ -49,8 +49,8 @@ $\\Sigma(7)&gt;10^{10^{10^{10^{18705352}}}}$
 Beyond these numbers, the Busy Beaver function grows phenomenally fast.
 It has been shown that $\\Sigma(18)$ is larger than Graham's number. The
 growth rate of the function is comparable to the [Church-Kleene
-ordinal](/Church-Kleene "Church-Kleene")
+ordinal](Church-Kleene "Church-Kleene")
 in the [fast-growing
-hierarchy](/Fast-growing_hierarchy "Fast-growing hierarchy").
+hierarchy](Fast-growing_hierarchy "Fast-growing hierarchy").
 
 

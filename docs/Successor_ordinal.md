@@ -28,7 +28,7 @@ There are no ordinals between $\\beta$ and $\\beta + 1$.
 
 The union $\\bigcup \\beta$ can be thought of as an inverse successor
 function, because $\\bigcup ( \\beta + 1 ) = \\beta$. All [limit
-ordinals](/Limit_ordinal "Limit ordinal")
+ordinals](Limit_ordinal "Limit ordinal")
 are equal to their union.
 
 

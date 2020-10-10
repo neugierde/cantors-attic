@@ -16,24 +16,24 @@ permalink: Worldly
 
 A cardinal $\\kappa$ is *worldly* if $V\_\\kappa$ is a model of
 $\\text{ZF}$. It follows that $\\kappa$ is a
-<a href="/Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>,
+<a href="Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>,
 a
-<a href="/Beth_fixed_point" class="mw-redirect" title="Beth fixed point">beth fixed point</a>
+<a href="Beth_fixed_point" class="mw-redirect" title="Beth fixed point">beth fixed point</a>
 and a fixed point of the enumeration of these, and more.
 
 -   Every
-    [inaccessible](/Inaccessible "Inaccessible")
+    [inaccessible](Inaccessible "Inaccessible")
     cardinal is worldly.
 -   Nevertheless, the least worldly cardinal is
-    <a href="/Singular" class="mw-redirect" title="Singular">singular</a>
+    <a href="Singular" class="mw-redirect" title="Singular">singular</a>
     and hence not
-    [inaccessible](/Inaccessible "Inaccessible").
+    [inaccessible](Inaccessible "Inaccessible").
 -   The least worldly cardinal has
-    <a href="/Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
+    <a href="Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
     $\\omega$.
 -   Indeed, the next worldly cardinal above any ordinal, if any exist,
     has
-    <a href="/Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
+    <a href="Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
     $\\omega$.
 -   Any worldly cardinal $\\kappa$ of uncountable cofinality is a limit
     of $\\kappa$ many worldly cardinals.
@@ -48,9 +48,9 @@ cardinals are unbounded in $\\kappa$. The cardinal $\\kappa$ is
 notions of $\\alpha$-hyper-worldly and
 $\\alpha$-hyper${}^\\beta$-worldly in analogy with the
 [hyper-inaccessible
-cardinals](/Inaccessible#hyper-inaccessible "Inaccessible").
+cardinals](Inaccessible#hyper-inaccessible "Inaccessible").
 Every
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 cardinal $\\kappa$ is hyper${}^\\kappa$-worldly, and a limit of such
 kinds of cardinals.
 

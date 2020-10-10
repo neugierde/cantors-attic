@@ -16,15 +16,15 @@ permalink: Mahlo
 
   
 A cardinal $\\kappa$ is *Mahlo* if and only if it is
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 and the
-<a href="/Regular" class="mw-redirect" title="Regular">regular</a>
+<a href="Regular" class="mw-redirect" title="Regular">regular</a>
 cardinals below $\\kappa$ form a
-<a href="/Stationary" class="mw-redirect" title="Stationary">stationary</a>
+<a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
 subset of $\\kappa$. Equivalently, $\\kappa$ is Mahlo if it is
-<a href="/Regular" class="mw-redirect" title="Regular">regular</a>
+<a href="Regular" class="mw-redirect" title="Regular">regular</a>
 and the
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 cardinals below $\\kappa$ are stationary.
 
 -   Every Mahlo cardinal $\\kappa$ is inaccessible, and indeed
@@ -55,21 +55,21 @@ inaccessible and measurable. *Please add more history.*
 ## Weakly Mahlo
 
 A cardinal $\\kappa$ is *weakly Mahlo* if it is
-<a href="/Regular" class="mw-redirect" title="Regular">regular</a>
+<a href="Regular" class="mw-redirect" title="Regular">regular</a>
 and the set of
-<a href="/Regular" class="mw-redirect" title="Regular">regular</a>
+<a href="Regular" class="mw-redirect" title="Regular">regular</a>
 cardinals below $\\kappa$ is
-<a href="/Stationary" class="mw-redirect" title="Stationary">stationary</a>
+<a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
 in $\\kappa$. If $\\kappa$ is a
-<a href="/Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>
+<a href="Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>
 and hence also
-[inaccessible](/Inaccessible "Inaccessible"),
+[inaccessible](Inaccessible "Inaccessible"),
 this is equivalent to $\\kappa$ being Mahlo, since the
-<a href="/Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>
+<a href="Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>
 cardinals form a closed unbounded subset in any
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 cardinal. In particular, under the
-<a href="/Generalized_continuum_hypothesis" class="mw-redirect" title="Generalized continuum hypothesis">GCH</a>,
+<a href="Generalized_continuum_hypothesis" class="mw-redirect" title="Generalized continuum hypothesis">GCH</a>,
 a cardinal is weakly Mahlo if and only if it is Mahlo. But in general,
 the concepts can differ, since adding an enormous number of Cohen reals
 will preserve all weakly Mahlo cardinals, but can easily destroy strong
@@ -93,7 +93,7 @@ cardinals is stationary in $\\kappa$. The cardinal $\\kappa$ is
 concepts of $\\alpha$-hyper${}^\\beta$-Mahlo by iterating this concept,
 iterating the stationary limit concept. All such levels are swamped by
 the [weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 cardinals, which exhibit all the desired degrees of hyper-Mahloness and
 more:
 
@@ -104,7 +104,7 @@ denotes $β$-hyper${}^α$-Mahlo, $Ω^2$-Mahlo denotes
 hyper${}^\\kappa$-Mahlo $\\kappa$ etc. Every weakly compact cardinal
 $\\kappa$ is $\\Omega^α$-Mahlo for all $α&lt;\\kappa$ and probably more.
 Similar hierarchy exists for
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 cardinals below Mahlo. All such properties can be killed softly by
 forcing to make them any weaker properties from this
 family.\[[1](#bibkey_Carmody2015:ForceToChangeLargeCardinalStrength)\]
@@ -123,7 +123,7 @@ stationary on $κ$.
 
 In \[[2](#bibkey_Bosch2006:SmallDefinablyLargeCardinals)\] it is shown
 that every $Σ\_ω$-[weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 cardinal is $Σ\_ω$-Mahlo and the set of $Σ\_ω$-Mahlo cardinals below a
 $Σ\_ω$-w.c. cardinal is $Σ\_ω$-stationary, but if κ is $Π\_{n+1}$-Mahlo,
 then the set of $Σ\_n$-w.c. cardinals below $κ$ is
@@ -132,7 +132,7 @@ $Π\_{n+1}$-stationary.
 These properties are connected with some forms of absoluteness. For
 example, the existence of a $Σ\_ω$-Mahlo cardinal is equiconsistent with
 the
-<a href="/index.php?title=Generic_absoluteness_axiom&amp;action=edit&amp;redlink=1" class="new" title="Generic absoluteness axiom (page does not exist)">generic absoluteness axiom</a>
+<a href="index.php?title=Generic_absoluteness_axiom&amp;action=edit&amp;redlink=1" class="new" title="Generic absoluteness axiom (page does not exist)">generic absoluteness axiom</a>
 $\\mathcal{A}(L(\\mathbb{R}), Σ\_ω , Γ ∩ absolutely−ccc)$ where $Γ$ is
 the class of projective posets.
 
@@ -159,6 +159,6 @@ from\[[3](#bibkey_BagariaBosch2004:PFESolovay)\]\[[4](#bibkey_Bagaria2002:Axioms
     <a href="https://www.academia.edu/2561575/AXIOMS_OF_GENERIC_ABSOLUTENESS" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074931/http://dx.doi.org/10.1201/9781439865903" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%20%7BBagaria2002:AxiomsOfGenericAbsoluteness,%20%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BAxioms%20of%20generic%20absoluteness%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BLogic%20Colloquium%202002%7D,%3Cbr%3E%20BOOKTITLE%20=%20%7BLogic%20Colloquium%20\&#39;02:%20Lecture%20Notes%20in%20Logic%2027%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2006%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1201/9781439865903%7D,%3Cbr%3E%20%20%20%20%20%20ISBN%20=%20%7B9780429065262%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://www.academia.edu/2561575/AXIOMS_OF_GENERIC_ABSOLUTENESS%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

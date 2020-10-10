@@ -17,7 +17,7 @@ permalink: Well-ordering_principle
   
 The well-ordering principle states that every set is well-ordered by
 some relation. It is an equivalent of the [axiom of
-choice](/Axiom_of_choice "Axiom of choice").
+choice](Axiom_of_choice "Axiom of choice").
 
   
 

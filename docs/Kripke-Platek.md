@@ -16,13 +16,13 @@ permalink: Kripke-Platek
 
 Kripke-Platek set theory ($\\text{KP}$) is a collection of axioms that
 is considerably weaker than
-[ZFC](/ZFC "ZFC"). The
+[ZFC](ZFC "ZFC"). The
 formal language used to express each axiom is first-order with equality
 ($=$) together with one binary relation symbol, $\\in$, intended to
 denote set membership.
 
 $L\_\\alpha$ is a model of $\\mathrm{KP}$ for
-[admissible](/Admissible "Admissible")
+[admissible](Admissible "Admissible")
 $\\alpha$.
 
 
@@ -131,7 +131,7 @@ an instance of the $\\Sigma\_0$-collection schema: $$ \\forall a
 
 Some authors include the axiom of infinity in Kripke-Platek set theory
 which states that there is an
-<a href="/index.php?title=Inductive_set&amp;action=edit&amp;redlink=1" class="new" title="Inductive set (page does not exist)">inductive set</a>
+<a href="index.php?title=Inductive_set&amp;action=edit&amp;redlink=1" class="new" title="Inductive set (page does not exist)">inductive set</a>
 – a canonical example of an infinite set. More precisely: $$ \\exists x
 \\big( \\emptyset \\in x \\wedge \\forall y \\in x (y \\cup \\{y \\}
 \\in x) \\big).$$ The axiom of infinity combined with an instance of

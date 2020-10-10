@@ -67,7 +67,7 @@ Since there are only countably many finite positions, whose game values
 form an initial segment of the ordinals, it follows that
 $\\omega\_1^{\\mathfrak{Ch}}$ is a countable ordinal. The next theorem
 shows more, that $\\omega\_1^{\\mathfrak{Ch}}$ is bounded by the
-[Church-Kleene](/Church-Kleene "Church-Kleene")
+[Church-Kleene](Church-Kleene "Church-Kleene")
 ordinal $\\omega\_1^{ck}$, the supremum of the computable ordinals.
 Thus, the game value of any finite position in infinite chess with a
 game value is a computable ordinal.
@@ -103,6 +103,6 @@ and somewhat beyond.
     <a href="http://jdh.hamkins.org/game-values-in-infinite-chess" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005043502/http://arxiv.org/abs/1302.4377" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BEvansHamkins:TransfiniteGameValuesInInfiniteChess,%20%20AUTHOR%20=%20%20%20%20%20%20%20%7BEvans,%20C.%20D.%20A.%20and%20Hamkins,%20Joel%20David%7D,%3Cbr%3E%20%20TITLE%20=%20%20%20%20%20%20%20%20%7BTransfinite%20game%20values%20in%20infinite%20chess%7D,%3Cbr%3E%20%20JOURNAL%20=%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20YEAR%20=%20%20%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20volume%20=%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20number%20=%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20pages%20=%20%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20month%20=%20%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20note%20=%20%20%20%20%20%20%20%20%20%7Bunder%20review%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1302.4377%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttp://jdh.hamkins.org/game-values-in-infinite-chess%7D,%3Cbr%3E%20%20abstract%20=%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20keywords%20=%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20source%20=%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

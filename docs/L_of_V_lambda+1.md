@@ -15,7 +15,7 @@ permalink: L_of_V_lambda+1
 
 
 *See first: [rank into rank
-axioms](/Rank_into_rank "Rank into rank")*
+axioms](Rank_into_rank "Rank into rank")*
 
 The axiom **I0**, the large cardinal axiom of the title, asserts that
 some nontrivial elementary embedding $j:V\_{\\lambda+1}\\to
@@ -24,20 +24,20 @@ $j:L(V\_{\\lambda+1})\\to L(V\_{\\lambda+1})$, where
 $L(V\_{\\lambda+1})$ is the transitive proper class obtained by starting
 with $V\_{\\lambda+1}$ and forming the constructible hierarchy over
 $V\_{\\lambda+1}$ in the usual fashion (see [constructible
-universe](/Constructible_universe "Constructible universe")).
+universe](Constructible_universe "Constructible universe")).
 An alternate, but equivalent formulation asserts the existence of some
 nontrivial elementary embedding $j:L(V\_{\\lambda+1})\\to
 L(V\_{\\lambda+1})$ with $\\mathrm{crit}(j) &lt; \\lambda$. The critical
 point assumption is essential for the large cardinal strength as
 otherwise the axiom would follow from the existence of some measurable
 cardinal above $\\lambda$. The axiom is of [rank into
-rank](/Rank_into_rank "Rank into rank")
+rank](Rank_into_rank "Rank into rank")
 type, despite its formulation as an embedding between proper classes,
 and embeddings witnessing the axiom known as $\\text{I0}$ embeddings.
 
 Originally formulated by Woodin in order to establish the relative
 consistency of a strong
-<a href="/Determinacy" class="mw-redirect" title="Determinacy">determinacy</a>
+<a href="Determinacy" class="mw-redirect" title="Determinacy">determinacy</a>
 hypothesis, it is now known to be obsolete for this purpose (it is far
 stronger than necessary). Nevertheless, research on the axiom and its
 variants is still widely pursued and there are numerous intriguing open
@@ -48,7 +48,7 @@ The axiom subsumes a hierarchy of the strongest large cardinals not
 known to be inconsistent with $\\text{ZFC}$ and so is seen as "straining
 the limits of consistency" \[[1](#bibkey_Kanamori2009:HigherInfinite)\].
 An immediate observation due to the [Kunen
-inconsistency](/Kunen_inconsistency "Kunen inconsistency")
+inconsistency](Kunen_inconsistency "Kunen inconsistency")
 is that, under the $\\text{I0}$ axiom, $L(V\_{\\lambda+1})$ *cannot*
 satisfy the axiom of choice.
 
@@ -162,7 +162,7 @@ difficult.\[[2](#bibkey_Dimonte2017:I0AndRankIntoRankAxioms),
     <a href="http://www.worldscientific.com/doi/pdf/10.1142/S021906131100102X" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075319/http://dx.doi.org/10.1142/S021906131100102X" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7Bdoi:10.1142/S021906131100102X,author%20=%20%7BWoodin,%20W.%20Hugh%7D,%3Cbr%3Etitle%20=%20%7BSuitable%20extender%20models%20II:%20beyond%20$\omega$-huge%7D,%3Cbr%3Ejournal%20=%20%7BJournal%20of%20Mathematical%20Logic%7D,%3Cbr%3Evolume%20=%20%7B11%7D,%3Cbr%3Enumber%20=%20%7B02%7D,%3Cbr%3Epages%20=%20%7B115-436%7D,%3Cbr%3Eyear%20=%20%7B2011%7D,%3Cbr%3Edoi%20=%20%7B10.1142/S021906131100102X%7D,%3Cbr%3EURL%20=%20%7Bhttp://www.worldscientific.com/doi/pdf/10.1142/S021906131100102X%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
   
 

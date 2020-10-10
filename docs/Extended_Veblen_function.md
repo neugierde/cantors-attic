@@ -17,7 +17,7 @@ permalink: Extended_Veblen_function
 The Extended Veblen function is a function with more than 2 arguments to
 express ordinals from \\(\\Gamma\_0\\) to
 \\(\\psi(\\Omega^{\\Omega^\\omega})\\), the [small Veblen
-ordinal](/Madore%27s_%CF%88_function#Small_Veblen_ordinal "Madore's ψ function").
+ordinal](Madore%27s_%CF%88_function#Small_Veblen_ordinal "Madore's ψ function").
 
 ## Definition
 

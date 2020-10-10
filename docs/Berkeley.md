@@ -100,6 +100,6 @@ measurable cardinals.
     <a href="https://events.math.unipd.it/aila2017/sites/default/files/BAGARIA.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2017:LargeCardinalsBeyondChoice,%20%20author%20=%20%20%20%20%20%20%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20title%20=%20%20%20%20%20%20%20%20%7BLarge%20Cardinals%20beyond%20Choice%7D,%3Cbr%3E%20%20year%20=%20%20%20%20%20%20%20%20%20%7B2017%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttps://events.math.unipd.it/aila2017/sites/default/files/BAGARIA.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

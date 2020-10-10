@@ -75,7 +75,7 @@ in November 1977.
 ## Definition
 
 Using [Knuth's up-arrow
-notation](/Knuth%27s_up-arrow_notation "Knuth's up-arrow notation"),
+notation](Knuth%27s_up-arrow_notation "Knuth's up-arrow notation"),
 Graham's number G (as defined in Gardner's Scientific American article)
 is
 
@@ -164,9 +164,9 @@ growing g sequence before Graham's number G = g64 is reached.
 
 But even though Graham's number is enormous, it still can be expressed
 easily with
-[BEAF](/BEAF "BEAF") arrays,
+[BEAF](BEAF "BEAF") arrays,
 or the [fast-growing
-hierarchy](/Fast-growing_hierarchy "Fast-growing hierarchy").
+hierarchy](Fast-growing_hierarchy "Fast-growing hierarchy").
 
 $f\_{\\omega+1}(64)=\\underbrace{f\_\\omega(f\_\\omega\\cdots(f\_\\omega(64)\\cdots))}\_\\text{64
 f's}&gt;&gt;{g'}\_{64}&gt;&gt;g\_{64}$, where

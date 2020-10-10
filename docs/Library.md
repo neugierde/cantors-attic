@@ -16,11 +16,11 @@ permalink: Library
 
 
 
-<a href="/File:StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg" class="image"><img src="/web/20191116153209im_/http://cantorsattic.info/images/thumb/f/f7/StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg/300px-StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg" class="thumbimage" srcset="/web/20191116153209im_/http://cantorsattic.info/images/thumb/f/f7/StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg/450px-StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg 1.5x, /web/20191116153209im_/http://cantorsattic.info/images/thumb/f/f7/StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg/600px-StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg 2x" width="300" height="398" /></a>
+<a href="File:StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg" class="image"><img src="/web/20191116153209im_/http://cantorsattic.info/images/thumb/f/f7/StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg/300px-StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg" class="thumbimage" srcset="/web/20191116153209im_/http://cantorsattic.info/images/thumb/f/f7/StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg/450px-StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg 1.5x, /web/20191116153209im_/http://cantorsattic.info/images/thumb/f/f7/StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg/600px-StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg 2x" width="300" height="398" /></a>
 
 
 
-<a href="/File:StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg" class="internal" title="Enlarge"></a>
+<a href="File:StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg" class="internal" title="Enlarge"></a>
 
 
 Step up the ladder towards wisdom, photo by Sigfrid Lundberg

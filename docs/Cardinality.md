@@ -30,10 +30,10 @@ order to formulate the notion of cardinality within a model of set
 theory we would have to make it into a set.
 
 Under the
-<a href="/Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">axiom of choice</a>
+<a href="Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">axiom of choice</a>
 every set can be well ordered. This means that we can simply choose the
 least
-[ordinal](/Ordinal "Ordinal")
+[ordinal](Ordinal "Ordinal")
 bijectible with the set $A$, and define that as the cardinality of $A$,
 often denoted by $\|A\|$. Not assuming the axiom of choice we may have
 sets which cannot be well ordered, these sets are not in bijection with
@@ -97,13 +97,13 @@ $\|A\|&lt;\|B\|$ but $\|B\|\\leq^\\ast\|A\|$.
 ## Well orderable cardinals
 
 [Finite
-sets](/Parlour "Parlour")
+sets](Parlour "Parlour")
 can be well ordered, of course, however infinite sets can be well
 ordered too. Countable sets are by definition in bijection with
-[$\\omega$](/Omega "Omega").
+[$\\omega$](Omega "Omega").
 Sets of ordinals have a natural order which is a well order, using
 [Hartog
-number](/Hartog_number "Hartog number")
+number](Hartog_number "Hartog number")
 we can deduce that if $\\aleph\_\\alpha$ exists then
 $\\aleph\_\\alpha^+$ exists, and if we only iterated this set-many times
 then the increasing union gives us a new cardinal. The result is a
@@ -113,7 +113,7 @@ If $\\alpha$ is an ordinal, we say that it is an *initial ordinal* if no
 $\\beta&lt;\\alpha$ is in bijection with $\\alpha$. We can see that
 initial ordinals are exactly the cardinalities which represent well
 orderable cardinals, these are the sets which use for
-[$\\aleph$-numbers](/Aleph "Aleph").
+[$\\aleph$-numbers](Aleph "Aleph").
 
   
 
@@ -122,7 +122,7 @@ orderable cardinals, these are the sets which use for
 Assuming the negation of the axiom of choice, we have that some sets
 cannot be well ordered, and as a result some cardinals are non-$\\aleph$
 ones. Such examples are infinite
-<a href="/D-finite" class="mw-redirect" title="D-finite">Dedekind finite</a>
+<a href="D-finite" class="mw-redirect" title="D-finite">Dedekind finite</a>
 cardinals, in some models of ZF the real numbers cannot be well ordered,
 which also forms a non-$\\aleph$ cardinal.
 

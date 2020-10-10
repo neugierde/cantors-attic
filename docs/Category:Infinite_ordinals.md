@@ -15,7 +15,7 @@ permalink: Category:Infinite_ordinals
 
 
 The infinite ordinals are those ordinals which contain every [natural
-number](/Omega "Omega").
+number](Omega "Omega").
 
 
 
@@ -27,12 +27,12 @@ This category has the following 2 subcategories, out of 2 total.
 ### I
 
 -   [Infinite
-    cardinals](/Category:Infinite_cardinals "Category:Infinite cardinals")
+    cardinals](Category:Infinite_cardinals "Category:Infinite cardinals")
 
 ### L
 
 -   [Lower
-    attic](/Category:Lower_attic "Category:Lower attic")
+    attic](Category:Lower_attic "Category:Lower attic")
 
 
 

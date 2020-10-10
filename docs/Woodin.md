@@ -17,7 +17,7 @@ permalink: Woodin
 **Woodin cardinals** (named after W. Hugh Woodin) are a generalization
 of the notion of strong cardinals and have been used to calibrate the
 exact proof-theoretic strength of the [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy").
+determinacy](Axiom_of_determinacy "Axiom of determinacy").
 They can also be seen as weakenings of *Shelah cardinals*, defined
 below. Their exact definition has several equivalent but different
 characterizations, each of which is somewhat technical in nature.
@@ -62,12 +62,12 @@ $\\delta$, a set $X\\subseteq\\delta$ is *Woodin in $\\delta$* if for
 every function $f:\\delta\\to\\delta$, there is an ordinal $\\kappa\\in
 X$ with $\\{f(\\beta):\\beta&lt;\\kappa\\}\\subseteq\\kappa$ ($\\kappa$
 is closed under $f$), there exists a nontrivial [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j:V\\to M$ with critical point $\\kappa$ such that
 $V\_{j(f)(\\kappa)}\\subseteq M$.
 
 An
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 cardinal $\\delta$ is **Woodin** if any of the following (equivalent)
 characterizations holds \[[1](#bibkey_Kanamori2009:HigherInfinite)\]:
 
@@ -76,11 +76,11 @@ characterizations holds \[[1](#bibkey_Kanamori2009:HigherInfinite)\]:
 -   For any set $A\\subseteq V\_\\delta$, the set
     $S=\\{\\kappa&lt;\\delta:\\kappa$ is &lt;$\\delta$-$A$-strong$\\}$
     is
-    <a href="/Stationary" class="mw-redirect" title="Stationary">stationary</a>
+    <a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
     in $\\delta$.
 -   The set $F=\\{X\\subseteq \\delta:\\delta\\setminus X$ is not
     *Woodin in $\\delta$*$\\}$ is a proper
-    [filter](/Filter "Filter"),
+    [filter](Filter "Filter"),
     the *Woodin filter* over $\\delta$.
 -   For every function $f:\\delta\\to\\delta$ there exists
     $\\kappa&lt;\\delta$ such that
@@ -94,27 +94,27 @@ $S=\\{\\kappa&lt;\\delta:\\kappa$ is &lt;$\\delta$-$A$-strong$\\}$. Then
 $F$ is normal and $S\\in F$.
 \[[1](#bibkey_Kanamori2009:HigherInfinite)\] This implies every Woodin
 cardinal is
-[Mahlo](/Mahlo "Mahlo") and
+[Mahlo](Mahlo "Mahlo") and
 preceeded by a stationary set of
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinals, in fact of
-&lt;$\\delta$-[strong](/Strong "Strong")
+&lt;$\\delta$-[strong](Strong "Strong")
 cardinals. However, the least Woodin cardinal is not [weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 as it is not
-$\\Pi^1\_1$-[indescribable](/Indescribable "Indescribable").
+$\\Pi^1\_1$-[indescribable](Indescribable "Indescribable").
 
 Woodin cardinals are weaker consistency-wise then
-[superstrong](/Superstrong "Superstrong")
+[superstrong](Superstrong "Superstrong")
 cardinals. In fact, every superstrong is preceeded by a stationary set
 of Woodin cardinals. On the other hand the existence of a Woodin is much
 stronger than the existence of a proper class of strong cardinals.
 
 The existence of a Woodin cardinal implies the consistency of
 $\\text{ZFC}$ + "the [nonstationary
-ideal](/Filter "Filter") on
+ideal](Filter "Filter") on
 $\\omega\_1$ is $\\omega\_2$-saturated".
-[Huge](/Huge "Huge")
+[Huge](Huge "Huge")
 cardinals were first invented to prove the consistency of the existence
 of a $\\omega\_2$-saturated $\\sigma$-ideal on $\\omega\_1$, but turned
 out to be stronger than required, as a Woodin is enough.
@@ -126,20 +126,20 @@ the necessary hypothesis required to show several regularity properties
 of sets of reals hold in the model $L(\\mathbb{R})$ (e.g., every set of
 reals is Lebesgue measurable and has the property of Baire, etc...). In
 slightly more detail, Woodin had established that the [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy")
+determinacy](Axiom_of_determinacy "Axiom of determinacy")
 (a hypothesis known to imply regularity properties for sets of reals)
 holds in $L(\\mathbb{R})$ assuming the existence of a nontrivial
 elementary embedding $j:L(V\_{\\lambda+1})\\to L(V\_{\\lambda+1})$ with
 critical point $&lt;\\lambda$. This axiom, a
-<a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
 axiom, is known to be very strong and its use was first weakened to that
 of the existence of a
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinal. Following the work of Foreman, Magidor and Shelah on saturated
 ideals on $\\omega\_1$, Woodin and Shelah subsequently isolated the two
 large cardinal hypotheses which bear their name and turn out to be
 sufficient to establish the [regularity
-properties](/Projective#Regularity_properties "Projective")
+properties](Projective#Regularity_properties "Projective")
 of sets of reals mentioned above.
 
 Shelah cardinals were the first cardinals to be devised by Woodin and
@@ -149,7 +149,7 @@ $j:V\\to M$ with critical point $\\delta$ such that
 $V\_{j(f)(\\delta)}\\subseteq M$. Every Shelah is Woodin, but not every
 Woodin is Shelah: indeed, Shelah cardinals are always measurable and in
 fact
-[strong](/Strong "Strong"),
+[strong](Strong "Strong"),
 while Woodins are usually not. However, just like Woodins, Shelah
 cardinals are weaker consistency-wise than superstrong cardinals.
 
@@ -158,10 +158,10 @@ condition $V\_{j(f)(\\delta)}\\subseteq M$ is replaced by
 $M^{j(f)(\\delta)}\\subseteq M$, a much stronger condition. The
 difference between Shelah and Shelah-for-supercompactness cardinals is
 essentially the same as the difference between strong and
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinals, or between
-[superstrong](/Superstrong "Superstrong")
-and [huge](/Huge "Huge")
+[superstrong](Superstrong "Superstrong")
+and [huge](Huge "Huge")
 cardinals. Also, just like every Shelah is preceeded by a stationary set
 of strong cardinals, every Shelah-for-supercompactness cardinal is
 preceeded by a stationary set of supercompact cardinals.
@@ -174,9 +174,9 @@ V\_{\\bar{λ}}→ V\_{λ}$ with $j(\\mathrm{crit}(j)) = κ$, $\\bar{λ} ≥
 f(\\mathrm{crit}(j))$ and $f ∈ \\mathrm{ran}(j)$. If $κ$ is virtually
 Shelah for supercompactness, then $V\_κ$ is a model of proper class many
 virtually
-$C^{(n)}$-[extendible](/Extendible "Extendible")
+$C^{(n)}$-[extendible](Extendible "Extendible")
 cardinals for every $n &lt; ω$ and if κ is
-2-<a href="/Iterable" class="mw-redirect" title="Iterable">iterable</a>,
+2-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>,
 then $V\_κ$ is a model of proper class many virtually Shelah for
 supercompactness
 cardinals.\[[2](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
@@ -189,20 +189,20 @@ otherwise noted)
 A cardinal $δ$ is **Woodin for strong compactness** (or *Woodinised
 strongly compact*) iff for every $A ⊆ δ$ there is $κ &lt; δ$ which is
 $&lt;δ$-[strongly
-compact](/Strongly_compact "Strongly compact")
+compact](Strongly_compact "Strongly compact")
 for $A$.
 
 This definition is obviously analogous to one of the characterisations
 of Woodin and *Woodin-for-supercompactness* (Perlmutter proved that
 \[[4](#bibkey_Perlmutter2010:TheLargeCardinalsBetweenSupercompactAlmostHuge)\]
 it is equivalent to
-[Vopěnkaness](/Vopenka "Vopenka"))
+[Vopěnkaness](Vopenka "Vopenka"))
 cardinals.
 
 Results:
 
 -   Woodin for strong compactness cardinal $δ$ is an
-    [inaccessible](/Inaccessible "Inaccessible")
+    [inaccessible](Inaccessible "Inaccessible")
     limits of $&lt;δ$-strongly compact cardinals.
 -   $κ$ is Woodin and there are unboundedly many $&lt;δ$-supercompact
     cardinals below $δ$, then $δ$ is Woodin for strong compactness.
@@ -214,12 +214,12 @@ Results:
 ## Woodin cardinals and determinacy
 
 *See also: [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy"),
+determinacy](Axiom_of_determinacy "Axiom of determinacy"),
 [axiom of projective
-determinacy](/Projective#Projective_determinacy "Projective")*
+determinacy](Projective#Projective_determinacy "Projective")*
 
 Woodin cardinals are linked to different forms of the [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy")
+determinacy](Axiom_of_determinacy "Axiom of determinacy")
 \[[1](#bibkey_Kanamori2009:HigherInfinite)\]\[[5](#bibkey_Larson2010:HistoryDeterminacy)\]\[[6](#bibkey_KoellnerWoodin2010:LCFD)\]:
 
 -   $\\text{ZF+AD}$, $\\text{ZFC+AD}^{L(\\mathbb{R})}$, ZFC+"the
@@ -294,6 +294,6 @@ determinacy](/Axiom_of_determinacy "Axiom of determinacy")
     <a href="http://logic.harvard.edu/koellner/LCFD.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKoellnerWoodin2010:LCFD,%20%20%20author%20=%20%7BKoellner,%20Peter%20and%20Woodin,%20W.%20Hugh%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BChapter%2023:%20Large%20cardinals%20from%20Determinacy%7D,%3Cbr%3E%20%20journal%20=%20%7BHandbook%20of%20Set%20Theory%7D,%3Cbr%3E%20%20%20editor%20=%20%7BForeman,%20Mathew;%20Kanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20year%20=%20%7B2010%7D,%3Cbr%3Epublisher%20=%20%7BSpringer%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttp://logic.harvard.edu/koellner/LCFD.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

@@ -39,6 +39,6 @@ supercompact.\[[1](#bibkey_VialeWeiss2011:OnConsistencyStrengthPFA)\]
     <a href="http://arxiv.org/abs/1012.2046" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20161001214814/http://www.ams.org/mathscinet-getitem?mr=2838054" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%7BVialeWeiss2011:OnConsistencyStrengthPFA,%20%20%20%20AUTHOR%20=%20%7BViale,%20Matteo%20and%20Weiß,%20Christoph%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BOn%20the%20consistency%20strength%20of%20the%20proper%20forcing%20axiom%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAdvances%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B228%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B5%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B2672--2687%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1012.2046%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E57%20(03E05%2003E55)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7BMR2838054%20(2012m:03131)%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

@@ -10,7 +10,7 @@ do
     | sed "s/PERMALINK/$file/" \
     | sed -E '/^<[^<]+>$/d' \
     | sed 's/{{/{ {/' \
-    | sed -E 's/\/web\/[[:digit:]]+\/http:\/\/cantorsattic.info//' \
+    | sed -E 's/\/web\/[[:digit:]]+\/http:\/\/cantorsattic.info\///' \
     | sed -E 's/http:\/\/web.archive.org\/web\/[[:digit:]]+\/http/http/' \
     | sed -E "/^From Cantor's Attic$/d" \
     | sed -E '/^Jump to: \[navigation\]\(#mw-navigation\), \[search\]\(#p-search\)$/d' \

@@ -16,12 +16,12 @@ permalink: Unfoldable
 
 The unfoldable cardinals were introduced by Andres Villaveces in order
 to generalize the definition of [weak
-compactness](/Weakly_compact "Weakly compact").
+compactness](Weakly_compact "Weakly compact").
 Because weak compactness has many different definitions, the one he
 chose to extend was specifically the embedding property (see weakly
 compact for more information). The way he did this was analogous to the
 generalization of
-[huge](/Huge "Huge")
+[huge](Huge "Huge")
 cardinals to superhuge cardinals.
 
 
@@ -54,9 +54,9 @@ cardinals to superhuge cardinals.
 There are unfoldable cardinals and strongly unfoldable cardinals, as
 well as superstrongly unfoldable (AKA almost-hugely unfoldable AKA
 [strongly
-uplifting](/Uplifting "Uplifting"))
+uplifting](Uplifting "Uplifting"))
 cardinals. All of these are generalizations of [weak
-compactness](/Weakly_compact "Weakly compact").
+compactness](Weakly_compact "Weakly compact").
 
 ### <span id="Unfoldable" class="mw-headline">Unfoldable</span>
 
@@ -89,7 +89,7 @@ nontrivial end elementary extension** of $\\mathcal{M}$, abbreviated
 $\\mathcal{N}$ is an **eee** of $\\mathcal{M}$.
 
 A cardinal $\\kappa$ is **$\\lambda$-unfoldable** iff $\\kappa$ is
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 and for any $S\\subset V\_\\kappa$, there are well-founded models $M$
 nontrivially end elementary extending $(V\_\\kappa;\\in,S)$ such that
 $M\\not\\in V\_\\lambda$. $\\kappa $ is **unfoldable** iff $M $ can be
@@ -133,12 +133,12 @@ the embedding can be made arbitrarily large.
 As defined in
 \[[2](#bibkey_HamkinsJohnstone2010:IndestructibleStrongUnfoldability)\]
 in analogy with [Mitchell
-ranks](/Mitchell_rank "Mitchell rank"),
+ranks](Mitchell_rank "Mitchell rank"),
 a strongly unfoldable cardinal $\\kappa$ is **strongly unfoldable of
 degree $\\alpha$**, for an ordinal $\\alpha$, if for every ordinal
 $\\theta$ it is $\\theta$-strongly unfoldable of degree $\\alpha$,
 meaning that for each $A \\in H\_{\\kappa^+}$ there is a
-$\\kappa$-[model](/Model "Model")
+$\\kappa$-[model](Model "Model")
 $M \\models \\mathrm{ZFC}$ with $A \\in M$ and a transitive set $N$ with
 $\\alpha \\in M$ and an elementary embedding $j:M \\to N$ having
 critical point $\\kappa$ with $j(\\kappa)&gt;\\max\\{\\theta,
@@ -150,7 +150,7 @@ $N$.\[[3](#bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms)\]
 
 Superstrongly unfoldable and almost-hugely unfoldable cardinals are
 defined and shown to be equivalent to [strongly
-uplifting](/Uplifting "Uplifting")
+uplifting](Uplifting "Uplifting")
 (described there) in
 \[[3](#bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms)\].
 
@@ -161,20 +161,20 @@ cardinal axioms:
 
 -   For every finite $m$ and $n$, unfoldability implies the consistency
     of the existence of a
-    [$\\Pi\_m^n$-indescribable](/Indescribable "Indescribable")
+    [$\\Pi\_m^n$-indescribable](Indescribable "Indescribable")
     cardinal (specifically, such cardinals exist in $V\_\\kappa\\cap L$
     for some $\\kappa$). Furthermore, if $V=L$, then the least
     $\\Pi\_m^n$-indescribable cardinal is less than the least unfoldable
     cardinal, and every unfoldable cardinal is totally indescribable.
     \[[1](#bibkey_Villaveces1996:ChainsEndElementaryExtensionsModels)\]
 -   Any strongly unfoldable cardinal is [totally
-    indescribable](/Indescribable "Indescribable")
+    indescribable](Indescribable "Indescribable")
     and a limit of totally indescribable cardinals. Therefore the
     consistency strength of unfoldability is stronger than total
     indescribability.
     \[[1](#bibkey_Villaveces1996:ChainsEndElementaryExtensionsModels)\]
 -   Every superstrongly unfoldable cardinal (i.e. [strongly
-    uplifting](/Uplifting "Uplifting")
+    uplifting](Uplifting "Uplifting")
     cardinal) is strongly unfoldable of every ordinal degree
     \\(\\alpha\\), and a stationary limit of cardinals that are strongly
     unfoldable of every ordinal degree and so on.
@@ -182,13 +182,13 @@ cardinal axioms:
 -   The $\\kappa$ which are $\\kappa$-unfoldable are precisely those
     which are $\\kappa$-strongly unfoldable, which are precisely those
     that are [weakly
-    compact](/Weakly_compact "Weakly compact").
+    compact](Weakly_compact "Weakly compact").
     Furthermore, if $V=L$, then any $\\theta$-unfoldable cardinal is
     $\\theta$-strongly unfoldable. Therefore, unfoldability and strong
     unfoldability are equiconsistent.
     \[[4](#bibkey_Hamkins2008:UnfoldableGCH)\]
 -   The assertion that a
-    [Ramsey](/Ramsey "Ramsey")
+    [Ramsey](Ramsey "Ramsey")
     cardinal and a strongly unfoldable cardinal both exists is stronger
     than the assertion that there exists both an unfoldable cardinal and
     a strongly unfoldable cardinal.
@@ -196,40 +196,40 @@ cardinal axioms:
 -   Interestingly, if there is an unfoldable cardinal then there is a
     forcing extension in which all unfoldable cardinals in $V$ are
     unfoldable in the forcing extension and GCH fails at every
-    [inaccessible](/Inaccessible "Inaccessible")
+    [inaccessible](Inaccessible "Inaccessible")
     cardinal. Therefore, GCH can fail at every unfoldable cardinal.
     \[[4](#bibkey_Hamkins2008:UnfoldableGCH)\]
 -   Although unfoldable cardinals are consistency-wise stronger than
     [weakly
-    compact](/Weakly_compact "Weakly compact")
+    compact](Weakly_compact "Weakly compact")
     cardinals, if there is a strongly unfoldable cardinal, then in a
     forcing extension, the least weakly compact cardinal is also the
     least unfoldable
     cardinal.\[[5](#bibkey_CodyGitikHamkinsSchanker2013:TheLeastWeaklyCompactCardinal)\]
 -   The existence of a
-    <a href="/Subtle" class="mw-redirect" title="Subtle">subtle</a>
+    <a href="Subtle" class="mw-redirect" title="Subtle">subtle</a>
     cardinal is consistency-wise stronger than the existence of an
     unfoldable cardinal.
     \[[1](#bibkey_Villaveces1996:ChainsEndElementaryExtensionsModels)\]
 -   If a
-    <a href="/Subtle" class="mw-redirect" title="Subtle">subtle</a>
+    <a href="Subtle" class="mw-redirect" title="Subtle">subtle</a>
     cardinal and an unfoldable cardinal exist and $V=L$, then the least
     unfoldable cardinal is larger than the least subtle cardinal (and
     therefore much larger than the least [weakly
-    compact](/Weakly_compact "Weakly compact")).
+    compact](Weakly_compact "Weakly compact")).
     \[[1](#bibkey_Villaveces1996:ChainsEndElementaryExtensionsModels)\]
 -   Any
-    [Ramsey](/Ramsey "Ramsey")
+    [Ramsey](Ramsey "Ramsey")
     cardinal is unfoldable. If there is a weakly compact cardinal above
     an
-    [$\\omega\_1$-Erdos](/Erdos "Erdos")
+    [$\\omega\_1$-Erdos](Erdos "Erdos")
     cardinal, then the least unfoldable is less than that (therefore
     less than the least Ramsey).
     \[[1](#bibkey_Villaveces1996:ChainsEndElementaryExtensionsModels)\]
 -   Even though it may seem odd at first, if both exist then the least
-    <a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I3</a>
+    <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I3</a>
     cardinal is less than the least strongly unfoldable cardinal.
--   $ω\_1$-<a href="/Iterable" class="mw-redirect" title="Iterable">iterable</a>
+-   $ω\_1$-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
     cardinals are strongly unfoldable in
     $L$.\[[6](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
 
@@ -271,6 +271,6 @@ consistency with slim Kurepa trees
     <a href="http://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinalsii.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075036/http://arxiv.org/abs/1104.4448" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005075036/http://www.ams.org/mathscinet-getitem?mr=2830435" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BGitmanWelch2011:RamseyLikeCardinalsII,%20%20%20%20AUTHOR%20=%20%7BGitman,%20Victoria%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BRamsey-like%20cardinals%20II%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BJ.%20Symbolic%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BJournal%20of%20Symbolic%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B76%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B2%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B541--560%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0022-4812%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BJSYLA6%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E55%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2830435%7D,%3Cbr%3EEPRINT%20=%7B1104.4448%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinalsii.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

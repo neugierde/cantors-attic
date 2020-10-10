@@ -16,12 +16,12 @@ permalink: Stable
 
 Stability was developed as a large countable ordinal property in order
 to try to generalize the different strengthened variants of
-[admissibility](/Admissible "Admissible").
+[admissibility](Admissible "Admissible").
 More specifically, they capture the various assertions that
 $L\_\\alpha\\models\\text{KP}+A$ for different axioms $A$ by saying that
 $L\_\\alpha\\models\\text{KP}+A$ for many axioms $A$. One could also
 argue that stability is a weakening of
-[$\\Sigma\_1$-correctness](/Reflecting "Reflecting")
+[$\\Sigma\_1$-correctness](Reflecting "Reflecting")
 (which is trivial) to a nontrivial form.
 
 
@@ -56,7 +56,7 @@ stability:\[[1](#bibkey_Madore2017:OrdinalZoo)\]
 -   A countable ordinal $\\alpha$ is called **$({}^+)$-stable** iff
     $L\_\\alpha\\prec\_{\\Sigma\_1}L\_{\\beta}$ where $\\beta$ is the
     least
-    [admissible](/Admissible "Admissible")
+    [admissible](Admissible "Admissible")
     ordinal larger than $\\alpha$.
 -   A countable ordinal $\\alpha$ is called **$({}^{++})$-stable** iff
     $L\_\\alpha\\prec\_{\\Sigma\_1}L\_{\\beta}$ where $\\beta$ is the
@@ -65,12 +65,12 @@ stability:\[[1](#bibkey_Madore2017:OrdinalZoo)\]
 -   A countable ordinal $\\alpha$ is called **inaccessibly-stable** iff
     $L\_\\alpha\\prec\_{\\Sigma\_1}L\_{\\beta}$ where $\\beta$ is the
     least [computably
-    inaccessible](/Admissible "Admissible")
+    inaccessible](Admissible "Admissible")
     ordinal larger than $\\alpha$.
 -   A countable ordinal $\\alpha$ is called **Mahlo-stable** iff
     $L\_\\alpha\\prec\_{\\Sigma\_1}L\_{\\beta}$ where $\\beta$ is the
     least [computably
-    Mahlo](/Admissible "Admissible")
+    Mahlo](Admissible "Admissible")
     ordinal larger than $\\alpha$; that is, the least $\\beta$ such that
     any $\\beta$-recursive function $f:\\beta\\rightarrow\\beta$ has an
     admissible $\\gamma&lt;\\beta$ which is closed under $f$.
@@ -100,7 +100,7 @@ subset of $\\omega$ is $\\omega$-finite.
 
 If there is an ordinal $\\eta$ such that $L\_\\eta\\models\\text{ZFC}$
 (i.e. the minimal height of a
-<a href="/Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">transitive model of $\text{ZFC}$</a>)
+<a href="Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">transitive model of $\text{ZFC}$</a>)
 then it is smaller than the least stable ordinal. On the other hand, the
 sizes of the least $(+1)$-stable ordinal and the least nonprojectible
 ordinal lie between the least recursively weakly compact and the least
@@ -118,6 +118,6 @@ defined above). \[[1](#bibkey_Madore2017:OrdinalZoo)\]
     <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

@@ -26,23 +26,23 @@ The following 6 pages are in this category, out of 6 total.
 
 ### E
 
--   [Extendible](/Extendible "Extendible")
+-   [Extendible](Extendible "Extendible")
 
 ### H
 
--   [Huge](/Huge "Huge")
+-   [Huge](Huge "Huge")
 
 ### N
 
 -   [N-fold
-    variants](/N-fold_variants "N-fold variants")
+    variants](N-fold_variants "N-fold variants")
 
 ### S
 
--   [Strong](/Strong "Strong")
+-   [Strong](Strong "Strong")
 -   [Strongly
-    compact](/Strongly_compact "Strongly compact")
--   [Superstrong](/Superstrong "Superstrong")
+    compact](Strongly_compact "Strongly compact")
+-   [Superstrong](Superstrong "Superstrong")
 
 
 

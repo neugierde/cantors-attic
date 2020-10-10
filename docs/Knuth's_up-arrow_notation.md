@@ -17,7 +17,7 @@ permalink: Knuth's_up-arrow_notation
 Knuth's up-arrow notation is a notation for expressing large numbers.
 However, there are some numbers so large that even this up-arrow
 notation is not enough. You have to use [Extended arrow
-notation](/Extended_arrow_notation "Extended arrow notation").
+notation](Extended_arrow_notation "Extended arrow notation").
 
 ## Definition
 

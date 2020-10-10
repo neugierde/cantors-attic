@@ -16,7 +16,7 @@ permalink: Mitchell_rank
 
   
 The *Mitchell rank* of a
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinal provides an indication of the degree to which the concept of
 measurability itself reflects below $\\kappa$.
 
@@ -32,14 +32,14 @@ critical point $\\kappa$ such that $\\kappa$ is measurable in $M$.
 
 The concept of nontrivial Mitchell rank is a continuation of the
 progression of ideas leading from the
-[$1$-inaccessible](/Inaccessible#hyperinaccessible_cardinals "Inaccessible")
+[$1$-inaccessible](Inaccessible#hyperinaccessible_cardinals "Inaccessible")
 and
-[$\\alpha$-inaccessible](/Inaccessible#hyperinaccessible_cardinals "Inaccessible")
+[$\\alpha$-inaccessible](Inaccessible#hyperinaccessible_cardinals "Inaccessible")
 cardinals to the
-[hyper-inaccessible](/Inaccessible#hyperinaccessible_cardinals "Inaccessible")
+[hyper-inaccessible](Inaccessible#hyperinaccessible_cardinals "Inaccessible")
 cardinals and up through the
-[Mahlo](/Mahlo "Mahlo") and
-[hyper-Mahlo](/Mahlo#hyper-Mahlo "Mahlo")
+[Mahlo](Mahlo "Mahlo") and
+[hyper-Mahlo](Mahlo#hyper-Mahlo "Mahlo")
 cardinals. In this progression, the limit concepts are strengthened from
 a simple limit to limit-of-limits to fixed-point-limit to
 stationary-limit and now normal-measure-one-limit.
@@ -52,15 +52,15 @@ $o(\\gamma)$ is defined for $\\gamma\\lt\\kappa$, then it is defined at
 $\\kappa$ in $M$.)
 
 Analogous properties include degree for
-<a href="/Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strong unfoldability</a>\[[1](#bibkey_HamkinsJohnstone2010:IndestructibleStrongUnfoldability),
+<a href="Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strong unfoldability</a>\[[1](#bibkey_HamkinsJohnstone2010:IndestructibleStrongUnfoldability),
 [2](#bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms)\], M-ranks for
-[Ramsey](/Ramsey "Ramsey")
+[Ramsey](Ramsey "Ramsey")
 and Ramsey-like cardinals (A difference is that M-rank for Ramsey-like
 cardinals can be at most $\\kappa^+$ and Mitchell rank for measurable
 cardinals can be at most
 $(2^\\kappa)^+$.)\[[3](#bibkey_CarmodyGitmanHabic2016:Mitchelllike)\]
 and Mitchell rank for
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinals\[[4](#bibkey_Carmody2015:ForceToChangeLargeCardinalStrength)\]
 
 
@@ -143,6 +143,6 @@ shifting by one.)
     <a href="https://academicworks.cuny.edu/gc_etds/879/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075012/http://arxiv.org/abs/1506.03432" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BCarmody2015:ForceToChangeLargeCardinalStrength,%20%20%20%20author%20=%20%7BCarmody,%20Erin%20Kathryn%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BForce%20to%20change%20large%20cardinal%20strength%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2015%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1506.03432%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttps://academicworks.cuny.edu/gc_etds/879/%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

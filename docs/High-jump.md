@@ -16,11 +16,11 @@ permalink: High-jump
 
 *High-jump* cardinals are a certain kind of large cardinals. A cardinal
 $\\kappa$ is *high-jump* if it is the critical point of an [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j:V\\to M$ such that $M$ is closed under sequences of length
 $\\text{sup}\\{j(f)(\\kappa)\|f:\\kappa\\to\\kappa\\}$. This closure
 condition is a weakening of the definition of a
-[huge](/Huge "Huge")
+[huge](Huge "Huge")
 cardinal.
 
 
@@ -50,9 +50,9 @@ critical point $\\kappa$ and clearance $\\theta$ such that
 $M^\\theta\\subseteq M$, i.e. $M$ contains all sequences of elements of
 $M$ of length $\\theta$. $j$ is called a *high-jump embedding*, and a
 [normal fine
-ultrafilter](/Filter "Filter")
+ultrafilter](Filter "Filter")
 on some $\\mathcal{P}\_\\kappa(\\lambda)$ generating an [ultrapower
-embedding](/Ultrapower "Ultrapower")
+embedding](Ultrapower "Ultrapower")
 that is high-jump is a *high-jump ultrafilter* (or *high-jump measure*).
 
 $\\kappa$ is called *almost high-jump* if $M$ is closed under sequences
@@ -60,7 +60,7 @@ of length $&lt;\\theta$ instead, i.e. $M^\\lambda\\subseteq M$ for all
 $\\lambda&lt;\\theta$. $j$ is then an *almost high-jump* embedding. This
 means that for all $f:\\kappa\\to\\kappa$, $M^{j(f)(\\kappa)}\\subseteq
 M$.
-<a href="/Shelah" class="mw-redirect" title="Shelah">Shelah for supercompactness</a>
+<a href="Shelah" class="mw-redirect" title="Shelah">Shelah for supercompactness</a>
 cardinals are a natural weakening of almost high-jump cardinals which
 allows to have one embedding per $f:\\kappa\\to\\kappa$ rather than a
 single embedding for all such $f$s.
@@ -83,7 +83,7 @@ generating an ultrapower embedding with clearance $\\theta$.
 The dual notion *high-jump-for-strongness*, where the closure condition
 $M^\\theta\\subseteq M$ is weakened to $V\_\\theta\\subseteq M$, turns
 out to be equivalent to
-[superstrongness](/Superstrong "Superstrong").
+[superstrongness](Superstrong "Superstrong").
 
 ## Properties
 
@@ -91,14 +91,14 @@ Let $j:V\\to M$ a nontrivial elementary embedding with critical point
 $\\kappa$ and clearance $\\theta$. Then there is no
 $f:\\kappa\\to\\kappa$ such that $j(f)(\\kappa)=\\theta$. Also,
 $\\kappa^{+}\\leq cf(\\theta)\\leq 2^\\kappa$ (see
-<a href="/Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>)
+<a href="Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>)
 and $\\beth^M\_\\theta=\\theta$. Moreover, $M\_\\theta\\prec
 M\_{j(\\kappa)}$ and $M\_\\theta$ satisfies ZFC where $M\_\\theta=M\\cap
 V\_\\theta$.
 
 When $\\kappa$ is almost high-jump, in both $V$ and $M$,
 $\\theta^\\kappa=\\theta$, also $\\theta$ is
-<a href="/Singular" class="mw-redirect" title="Singular">singular</a>.
+<a href="Singular" class="mw-redirect" title="Singular">singular</a>.
 Moreover, $V\_\\theta\\prec M\_{j(\\kappa)}$ and $V\_\\theta$ satisfies
 ZFC.
 
@@ -127,7 +127,7 @@ The following statements also holds:
 
 
 -   Suppose $\\kappa$ is [almost
-    huge](/Huge "Huge");
+    huge](Huge "Huge");
     then in the model $V\_\\kappa$ there are many cardinals that are
     high-jump with unbounded excess closure.
 
@@ -145,9 +145,9 @@ The following statements also holds:
 -   The least high-jump cardinal is not $\\Sigma\_2$-reflecting. In
     particular, it is not supercompact and not even strong. The same is
     true for the least [almost
-    huge](/Huge "Huge")
+    huge](Huge "Huge")
     cardinal, the least
-    [superstrong](/Superstrong "Superstrong")
+    [superstrong](Superstrong "Superstrong")
     cardinal, the least almost-high-jump cardinal, and the least
     Shelah-for-supercompactness cardinal.
 

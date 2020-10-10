@@ -107,11 +107,11 @@ The ordinals can be defined as the set of all transitive sets that are
 well-ordered by the membership relation.
 
 The [Well-ordering
-principle](/Well-ordering_principle "Well-ordering principle")
+principle](Well-ordering_principle "Well-ordering principle")
 shows that all sets have some well-order associated with them.
 
 All well-ordered sets are
-[order-isomorphic](/Order-isomorphism "Order-isomorphism")
+[order-isomorphic](Order-isomorphism "Order-isomorphism")
 to the ordinals.
 
 

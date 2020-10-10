@@ -22,11 +22,11 @@ solution of the cardinal assignment problem. Rather, in ZF one works
 directly with the equinumerosity relation.
 
 In ZF, the [axiom of
-choice](/Axiom_of_choice "Axiom of choice")
+choice](Axiom_of_choice "Axiom of choice")
 is equivalent to the assertion that the cardinals are linearly ordered.
 This is because for every set $X$, there is a smallest ordinal $\\alpha$
 that does not inject into $X$, the [Hartog
-number](/Hartog_number "Hartog number")
+number](Hartog_number "Hartog number")
 of $X$, and conversely, if $X$ injects into $\\alpha$, then $X$ would be
 well-orderable.
 

@@ -16,13 +16,13 @@ permalink: Superstrong
 
 Superstrong cardinals were first utilized by Hugh Woodin in 1981 as an
 upper bound of consistency strength for the [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy").
+determinacy](Axiom_of_determinacy "Axiom of determinacy").
 However, Shelah had then discovered that
-<a href="/Shelah" class="mw-redirect" title="Shelah">Shelah</a>
+<a href="Shelah" class="mw-redirect" title="Shelah">Shelah</a>
 cardinals were a weaker bound that still sufficed to imply the
 consistency strength of $\\text{(ZF+)AD}$. After this, it was found that
 the existence of infinitely many
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinals was equiconsistent to $\\text{AD}$. Woodin-ness is a
 significant weakening of superstrongness.
 
@@ -53,21 +53,21 @@ otherwise.*
 ## Definitions
 
 There are, like most critical point variations on
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinals, multiple equivalent definitions of superstrongness. In
 particular, there is an [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 definition and an
-<a href="/index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extender</a>
+<a href="index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extender</a>
 definition.
 
 ### <span id="Elementary_Embedding_Definition" class="mw-headline">Elementary Embedding Definition</span>
 
 A cardinal $\\kappa$ is **$n$-superstrong** (or $n$-fold superstrong
 when referring to the [$n$-fold
-variants](/N-fold_variants "N-fold variants"))
+variants](N-fold_variants "N-fold variants"))
 iff it is the critical point of some [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j:V\\rightarrow M$ such that $M$ is a transitive class and
 $V\_{j^n(\\kappa)}\\subset M$ (in this case,
 $j^{n+1}(\\kappa):=j(j^n(\\kappa))$ and $j^0(\\kappa):=\\kappa$).
@@ -75,17 +75,17 @@ $j^{n+1}(\\kappa):=j(j^n(\\kappa))$ and $j^0(\\kappa):=\\kappa$).
 A cardinal is **superstrong** iff it is $1$-superstrong.
 
 The definition quite clearly shows that $\\kappa$ is
-$j^n(\\kappa)$-[strong](/Strong "Strong").
+$j^n(\\kappa)$-[strong](Strong "Strong").
 However, the least superstrong cardinal is never strong.
 
 ### <span id="Extender_Definition" class="mw-headline">Extender Definition</span>
 
 A cardinal $\\kappa$ is **$n$-superstrong** (or $n$-fold superstrong)
 iff there is a
-<a href="/index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">$(\kappa,\beta)$-extender</a>
+<a href="index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">$(\kappa,\beta)$-extender</a>
 $\\mathcal{E}$ for a $\\beta&gt;\\kappa$ with
 $V\_{j^n\_{\\mathcal{E}}(\\kappa)}\\subseteq$
-[$Ult\_{\\mathcal{E}}(V)$](/Ultrapower "Ultrapower")
+[$Ult\_{\\mathcal{E}}(V)$](Ultrapower "Ultrapower")
 (where $j\_{\\mathcal{E}}$ is the canonical ultrapower embedding from
 $V$ into $Ult\_{\\mathcal{E}}(V)$).
 
@@ -95,12 +95,12 @@ A cardinal is **superstrong** iff it is $1$-superstrong.
 
 The consistency strength of $n$-superstrongness follows the [double
 helix
-pattern](/N-fold_variants "N-fold variants")
+pattern](N-fold_variants "N-fold variants")
 \[[2](#bibkey_Kentaro2007:DoubleHelix)\]. Specifically:
 
--   [measurable](/Measurable "Measurable")
+-   [measurable](Measurable "Measurable")
     = $0$-superstrong = [almost
-    $0$-huge](/Huge "Huge")
+    $0$-huge](Huge "Huge")
     = super almost $0$-huge = $0$-huge = super $0$-huge
 -   $n$-superstrong
 -   $n$-fold supercompact
@@ -117,19 +117,19 @@ Let $M$ be a transitive class $M$ such that there exists an elementary
 embedding $j:V\\to M$ with $V\_{j(\\kappa)}\\subseteq M$, and let
 $\\kappa$ be its superstrong critical point. While $j(\\kappa)$ need not
 be an inaccessible cardinal in $V$, it is always
-[worldly](/Worldly "Worldly")
+[worldly](Worldly "Worldly")
 and the rank model $V\_{j(\\kappa)}$ satisfies $\\text{ZFC+}$"$\\kappa$
 is strong" (although $\\kappa$ may not be strong in $V$).
 
 Superstrong cardinals have strong upward reflection properties, in
 particular there are many
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinals *above* a superstrong cardinal. Every $n$-huge cardinal is
 $n$-superstrong, and so $n$-huge cardinals also have strong reflection
 properties. Remark however that if $\\kappa$ is
-[strong](/Strong "Strong")
+[strong](Strong "Strong")
 or
-[supercompact](/Supercompact "Supercompact"),
+[supercompact](Supercompact "Supercompact"),
 then it is consistent that there is no inaccessible cardinals larger
 than $\\kappa$: this is because if $\\lambda&gt;\\kappa$ is
 inaccessible, then $V\_\\lambda$ satisfies $\\kappa$'s
@@ -144,33 +144,33 @@ smaller than the least strong (and thus smaller than the least
 supercompact).
 
 Every
-[$1$-extendible](/Extendible "Extendible")
+[$1$-extendible](Extendible "Extendible")
 cardinal is superstrong and has a [normal
-measure](/Filter "Filter")
+measure](Filter "Filter")
 containing all of the superstrongs less than said $1$-extendible. This
 means that the set of all superstronges less than it is
-<a href="/Stationary" class="mw-redirect" title="Stationary">stationary</a>.
+<a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>.
 Similarly, every cardinal $\\kappa$ which is
-[$2^\\kappa$-supercompact](/Supercompact "Supercompact")
+[$2^\\kappa$-supercompact](Supercompact "Supercompact")
 is larger than the least superstrong cardinal and has a normal measure
 containing all of the superstrongs less than it.
 
 Every superstrong cardinal is
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 and has a normal measure containing all of the Woodin cardinals less
 than it. Thus the set of all Woodin cardinals below it is stationary,
 and so is the set of all measurables smaller than it. Superstrongness is
 consistency-wise stronger than
-[Hyper-Woodinness](/Woodin "Woodin").
+[Hyper-Woodinness](Woodin "Woodin").
 
 If there is a superstrong cardinal, then in
-[$L(\\mathbb{R})$](/Constructible_universe "Constructible universe"),
+[$L(\\mathbb{R})$](Constructible_universe "Constructible universe"),
 the [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy")
+determinacy](Axiom_of_determinacy "Axiom of determinacy")
 holds. \[[3](#bibkey_Jech2003:SetTheory)\]
 
 Letting $\\kappa$ be superstrong, $\\kappa$ can be
-[forced](/Forcing "Forcing")
+[forced](Forcing "Forcing")
 to $\\aleph\_2$ with an $\\omega$-distributive, $\\kappa$-c.c. notion of
 forcing, and in this forcing extension there is a normal
 $\\omega\_2$-saturated ideal on $\\omega\_1$.
@@ -180,7 +180,7 @@ Superstrongness is not Laver indestructible.
 \[[4](#bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible)\]
 
 A cardinal $κ$ is
-**<a href="/Correct" class="mw-redirect" title="Correct">$C^{(n)}$-superstrong</a>**
+**<a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-superstrong</a>**
 iff there exists an elementary embedding $j : V → M$ for transitive $M$,
 with $crit(j) = κ$, $V\_{j(κ)} ⊆ M$ and $j(κ) ∈
 C^{(n)}$.\[[5](#bibkey_Bagaria2012:CnCardinals)\]
@@ -189,24 +189,24 @@ C^{(n)}$.\[[5](#bibkey_Bagaria2012:CnCardinals)\]
 -   Every superstrong cardinal is $C^{(1)}$-superstrong.
 -   For every $n ≥ 1$, if $κ$ is $C^{(n+1)}$-superstrong, then there is
     a $κ$-complete normal
-    <a href="/Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
+    <a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
     $U$ over $κ$ such that $\\{α &lt; κ : α$ is
     $C^{(n)}$-superstrong$\\} ∈ U$. Hence, the first
     $C^{(n)}$-superstrong cardinal, if it exists, is not
     $C^{(n+1)}$-superstrong.
 -   If κ is
-    $2^κ$-[supercompact](/Supercompact "Supercompact")
+    $2^κ$-[supercompact](Supercompact "Supercompact")
     and belongs to $C^{(n)}$, then there is a $κ$-complete normal
     ultrafilter $U$ over $κ$ such that the set of $C^{(n)}$-superstrong
     cardinals smaller than $κ$ belongs to $U$.
 -   If $κ$ is
-    $κ+1$-$C^{(n)}$-[extendible](/Extendible "Extendible")
+    $κ+1$-$C^{(n)}$-[extendible](Extendible "Extendible")
     and belongs to $C^{(n)}$, then $κ$ is $C^{(n)}$-superstrong and
     there is a $κ$-complete normal ultrafilter $U$ over $κ$ such that
     the set of $C^{(n)}$-superstrong cardinals smaller than $κ$ belongs
     to $U$.
 -   Assuming [$\\mathrm{I3}(κ,
-    δ)$](/Rank_into_rank "Rank into rank"),
+    δ)$](Rank_into_rank "Rank into rank"),
     if $δ$ is a limit cardinal (instead of a successor of a limit
     cardinal – Kunen’s Theorem excludes other cases), it is equal to
     $sup\\{j^m(κ) : m ∈ ω\\}$ where $j$ is the elementary embedding.
@@ -241,6 +241,6 @@ C^{(n)}$.\[[5](#bibkey_Bagaria2012:CnCardinals)\]
     <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075026/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

@@ -17,9 +17,9 @@ permalink: Partition_property
 A partition property is an infinitary combinatorical principle in set
 theory. Partition properties are best associated with various [large
 cardinal
-axioms](/Upper_attic "Upper attic")
+axioms](Upper_attic "Upper attic")
 (all of which are below
-[measurable](/Measurable "Measurable")),
+[measurable](Measurable "Measurable")),
 but can also be associated with infinite graphs.
 
 The **pigeonhole principle** famously states that if there are $n$
@@ -165,11 +165,11 @@ There are several theorems in the study of partition calculus. Namely:
     $\\kappa^+\\not\\rightarrow\[\\kappa^+\]^2\_{\\kappa^+}$.
     \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 -   For any
-    [inaccessible](/Inaccessible "Inaccessible")
+    [inaccessible](Inaccessible "Inaccessible")
     cardinal $\\kappa$, $\\kappa\\rightarrow(\\lambda)\_\\lambda^2$ for
     any $\\lambda&lt;\\kappa$ \[[3](#bibkey_Drake1974:SetTheory)\] .
     However, this may not be an equivalence; if the
-    <a href="/Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
+    <a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
     holds at $\\kappa$, then
     $(\\kappa^{++})\\rightarrow(\\lambda)^2\_\\kappa$ for any
     $\\lambda&lt;\\kappa^{++}$.
@@ -178,7 +178,7 @@ In terms of large cardinal axioms, many can be described using a
 partition property. Here are those which can be found on this website:
 
 -   Although not a large cardinal itself, [Chang's
-    conjecture](/Chang%27s_conjecture "Chang's conjecture")
+    conjecture](Chang%27s_conjecture "Chang's conjecture")
     holds iff
     $\\aleph\_2\\rightarrow\[\\omega\_1\]^{&lt;\\omega}\_{\\aleph\_1,&lt;\\aleph\_1}$,
     iff
@@ -187,27 +187,27 @@ partition property. Here are those which can be found on this website:
     $\\aleph\_2\\rightarrow\[\\omega\_1\]^{n}\_{\\aleph\_1,&lt;\\aleph\_1}$
     for every finite $n$. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 -   A cardinal $\\kappa$ is
-    [Ramsey](/Ramsey "Ramsey")
+    [Ramsey](Ramsey "Ramsey")
     iff $\\kappa\\rightarrow(\\kappa)\_\\lambda^{&lt;\\omega}$ for some
     $\\lambda&gt;1$, iff
     $\\kappa\\rightarrow(\\kappa)\_\\lambda^{&lt;\\omega}$ for every
     $\\lambda&lt;\\kappa$.
     \[[1](#bibkey_Kanamori2009:HigherInfinite)\]\[[2](#bibkey_Jech2003:SetTheory)\]
 -   A cardinal $\\kappa$ is the
-    [$\\alpha$-Erdős](/Erdos "Erdos")
+    [$\\alpha$-Erdős](Erdos "Erdos")
     cardinal iff it is the smallest $\\kappa$ such that
     $\\kappa\\rightarrow(\\alpha)^{&lt;\\omega}$.
 -   A cardinal $\\kappa$ is defined to be
-    [$\\nu$-Rowbottom](/Rowbottom "Rowbottom")
+    [$\\nu$-Rowbottom](Rowbottom "Rowbottom")
     iff
     $\\kappa\\rightarrow\[\\kappa\]\_{\\lambda,&lt;\\nu}^{&lt;\\omega}$
     for every $\\lambda&lt;\\kappa$.
 -   A cardinal $\\kappa$ is
-    [Jónsson](/Jonsson "Jonsson")
+    [Jónsson](Jonsson "Jonsson")
     iff $\\kappa\\rightarrow\[\\kappa\]\_\\kappa^{&lt;\\omega}$.
     \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 -   A cardinal $\\kappa$ is [weakly
-    compact](/Weakly_compact "Weakly compact")
+    compact](Weakly_compact "Weakly compact")
     iff $\\kappa\\rightarrow(\\kappa)^2\_\\lambda$ for some
     $\\lambda&gt;1$, iff $\\kappa\\rightarrow(\\kappa)^2\_\\lambda$ for
     every $\\lambda&lt;\\kappa$. \[[2](#bibkey_Jech2003:SetTheory)\]
@@ -228,6 +228,6 @@ partition property. Here are those which can be found on this website:
     <a href="javascript:bibpopup(&#39;@book%7BDrake1974:SetTheory,%20%20%20TITLE%20=%20%7BSet%20Theory:%20An%20Introduction%20to%20Large%20Cardinals%7D,%3Cbr%3E%20%20%20AUTHOR%20=%20%7BDrake,%20Frank%7D,%3Cbr%3E%20%20%20PUBLISHER%20=%20%7BNorth-Holland%20Pub.%20Co.%7D,%3Cbr%3E%20%20%20ISBN%20=%20%7B0444105352,%209780444105356%7D,%3Cbr%3E%20%20%20YEAR%20=%20%7B1974%7D,%3Cbr%3E%20%20%20SERIES%20=%20%7BStudies%20in%20Logic%20and%20the%20Foundations%20of%20Mathematics,%20Volume%2076%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

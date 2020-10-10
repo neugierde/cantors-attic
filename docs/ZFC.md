@@ -140,7 +140,7 @@ formally as $$\\forall x\\neq\\emptyset \\exists y\\in x\\neg\\exists z
 (z\\in x\\wedge z\\in y).$$
 
 Equivalently, by the
-<a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">Axiom of choice</a>
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">Axiom of choice</a>
 there's no infinite descending sequence $\\dots \\in x\_2\\in x\_1\\in
 x\_0$.
 
@@ -189,7 +189,7 @@ $f$ such that $(a,b)\\in f$ and $(a,c)\\in f$ implies $b=c$.
 ### <span id="Choice" class="mw-headline">Choice</span>
 
 *Main article:
-<a href="/Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">Axiom of Choice</a>.*
+<a href="Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">Axiom of Choice</a>.*
 
 There are many formulations of this axiom. It is historically the most
 controversial of the axioms of $ZFC$.
@@ -251,13 +251,13 @@ $\\Pi^0\_1$ in arithmetic, since it is the assertion that every natural
 number is not the Gödel code of the proof of a contradiction from
 $\\text{ZFC}$. Because of the Gödel completeness theorem, the assertion
 is equivalent to the assertion that the theory $\\text{ZFC}$ has a
-[model](/Model "Model")
+[model](Model "Model")
 $\\langle M,\\hat\\in\\rangle$. One such model is the Henkin model,
 built in the syntactic procedure from any complete consistent Henkin
 theory extending $\\text{ZFC}$. In general, one may not assume that
 $\\hat\\in$ is the actual set membership relation, since this would make
 the model a
-<a href="/Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">transitive model of $\text{ZFC}$</a>,
+<a href="Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">transitive model of $\text{ZFC}$</a>,
 whose existence is a strictly stronger assertion than
 $\\text{Con(ZFC)}$.
 
@@ -274,15 +274,15 @@ expressible.
 ## Transitive models
 
 A *transitive model of $\\text{ZFC}$* is a
-[transitive](/Transitive "Transitive")
+[transitive](Transitive "Transitive")
 set $M$ such that the structure $\\langle M,\\in\\rangle$ satisfies all
 of the $\\text{ZFC}$ axioms of set theory. The existence of such a model
 is strictly stronger than $\\text{Con(ZFC)}$ and stronger than an
 iterated consistency hierarchy, but weaker than the existence of an
-[worldly](/Worldly "Worldly")
+[worldly](Worldly "Worldly")
 cardinal, a cardinal $\\kappa$ for which $V\_\\kappa$ is a model of
 $\\text{ZFC}$, and consequently also weaker than the existence of an
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 cardinal. Not all transitive models of $\\text{ZFC}$ have the
 $V\_\\kappa$ form, for if there is any transitive model of
 $\\text{ZFC}$, then by the Löwenheim-Skolem theorem and Mostowski
@@ -310,7 +310,7 @@ given shows that the minimal transitive model is a subset of all other
 transitive models of $\\text{ZFC}$.
 
 Its height is smaller then the least
-[stable](/Stable "Stable")
+[stable](Stable "Stable")
 ordinal although the existence of stable ordinals is provable in ZFC and
 the existence of transitive models is
 not.\[[1](#bibkey_Madore2017:OrdinalZoo)\]
@@ -344,17 +344,17 @@ interprets them correctly.
 
 Every finite fragment of $\\text{ZFC}$ admits numerous transitive
 models, as a consequence of the
-<a href="/Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>.
+<a href="Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>.
 
 ### <span id="Transitive_models_and_forcing" class="mw-headline">Transitive models and forcing</span>
 
 Countable transitive models of set theory were used historically as a
 convenient way to formalize
-[forcing](/Forcing "Forcing").
+[forcing](Forcing "Forcing").
 Such models $M$ make the theory of forcing convenient, since one can
 easily prove that for every partial order $\\mathbb{P}$ in $M$, there is
 an $M$-generic
-[filter](/Filter "Filter")
+[filter](Filter "Filter")
 $G\\subset\\mathbb{P}$, simply by enumerating the dense subsets of
 $\\mathbb{P}$ in $M$ in a countable sequence $\\langle D\_n\\mid
 n\\lt\\omega\\rangle$, and building a descending sequence $p\_0\\geq
@@ -373,20 +373,20 @@ forcing extension of it.
 The *transitive model universe axiom* is the assertion that every set is
 an element of a transitive model of $\\text{ZFC}$. This axiom makes a
 stronger claim than the [Feferman
-theory](/Reflecting#The_Feferman_theory "Reflecting"),
+theory](Reflecting#The_Feferman_theory "Reflecting"),
 since it is asserted as a single first-order claim, but weaker than the
-<a href="/Universe_axiom" class="mw-redirect" title="Universe axiom">universe axiom</a>,
+<a href="Universe_axiom" class="mw-redirect" title="Universe axiom">universe axiom</a>,
 which asserts that the universes have the form $V\_\\kappa$ for
 inaccessible cardinals $\\kappa$.
 
 The transitive model universe axiom is sometimes studied in the
 background theory not of $\\text{ZFC}$, but of
-<a href="/index.php?title=ZFC-P&amp;action=edit&amp;redlink=1" class="new" title="ZFC-P (page does not exist)">ZFC-P</a>,
+<a href="index.php?title=ZFC-P&amp;action=edit&amp;redlink=1" class="new" title="ZFC-P (page does not exist)">ZFC-P</a>,
 omitting the power set axiom, together with the axiom asserting that
 every set is countable. Such an enterprise amounts to adopting the
 latter theory, not as the fundamental axioms of mathematics, but rather
 as a background meta-theory for studying the
-[multiverse](/Multiverse "Multiverse")
+[multiverse](Multiverse "Multiverse")
 perspective, investigating how the various actual set-theoretic
 universe, transitive models of full $\\text{ZFC}$, relate to one
 another.
@@ -397,11 +397,11 @@ Every model $M$ of $\\text{ZFC}$ has an element $N$, which it believes
 to be a first-order structure in the language of set theory, which is a
 model of $\\text{ZFC}$, as viewed externally from $M$. This is clear in
 the case where $M$ is an
-<a href="/index.php?title=Omega_model&amp;action=edit&amp;redlink=1" class="new" title="Omega model (page does not exist)">$\omega$-model</a>
+<a href="index.php?title=Omega_model&amp;action=edit&amp;redlink=1" class="new" title="Omega model (page does not exist)">$\omega$-model</a>
 of $\\text{ZFC}$, since in this case $M$ agrees that $\\text{ZFC}$ is
 consistent and can therefore build a Henkin model of $\\text{ZFC}$. In
 the remaining case, $M$ has nonstandard natural numbers. By the
-<a href="/Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>
+<a href="Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>
 applied in $M$, we know that the $\\Sigma\_n$ fragment of $\\text{ZFC}$
 is true in models of the form $V\_\\beta^M$, for every standard natural
 number $n$. Since $M$ cannot identify its standard cut, it follows that
@@ -454,9 +454,9 @@ all cardinalities $\\lambda&lt;\\kappa$.
 
 In particular, models of ZFC (and of ZFC+«models of ZFC are unbounded»
 etc.) are unbounded in $V\_\\kappa$ for
-[worldly](/Worldly "Worldly")
+[worldly](Worldly "Worldly")
 $\\kappa$, just like in $V\_\\kappa$ for
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 $\\kappa$ there are worldly, 1-worldly, hyper-worldly etc. cardinals.
 
 ## References
@@ -466,7 +466,7 @@ $\\kappa$ there are worldly, 1-worldly, hyper-worldly etc. cardinals.
     <a href="http://www.madore.org/~david/math/ordinal-zoo.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BMadore2017:OrdinalZoo,%20%20%20%20AUTHOR%20=%20%7BMadore,%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BA%20zoo%20of%20ordinals%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2017%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.madore.org/~david/math/ordinal-zoo.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
   
 

@@ -18,9 +18,9 @@ permalink: Huge
 in 1972 as a very large cardinal axiom. Kenneth Kunen first used them to
 prove that the consistency of the existence of a huge cardinal implies
 the consistency of $\\text{ZFC}$+"there is a $\\omega\_2$-saturated
-$\\sigma$-[ideal](/Filter "Filter")
+$\\sigma$-[ideal](Filter "Filter")
 on $\\omega\_1$". It is now known that only a
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinal is needed for this result. However, the consistency of the
 existence of an $\\omega\_2$-complete $\\omega\_3$-saturated
 $\\sigma$-ideal on $\\omega\_2$, as far as the set theory world is
@@ -81,17 +81,17 @@ concerned, still requires an almost huge cardinal.
 ## Definitions
 
 Their formulation is similar to that of the formulation of
-[superstrong](/Superstrong "Superstrong")
+[superstrong](Superstrong "Superstrong")
 cardinals. A huge cardinal is to a
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinal as a superstrong cardinal is to a
-[strong](/Strong "Strong")
+[strong](Strong "Strong")
 cardinal, more precisely. The definition is part of a generalized
 phenomenon known as the "double helix", in which for some large cardinal
 properties n-$P\_0$ and n-$P\_1$, n-$P\_0$ has less consistency strength
 than n-$P\_1$, which has less consistency strength than (n+1)-$P\_0$,
 and so on. This phenomenon is seen only around the [n-fold
-variants](/N-fold_variants "N-fold variants")
+variants](N-fold_variants "N-fold variants")
 as of modern set theoretic concerns.
 \[[2](#bibkey_Kentaro2007:DoubleHelix)\]
 
@@ -100,15 +100,15 @@ equivalent to n-hugeness, so the $\\theta$-th n-huge cardinal is
 first-order definable whenever $\\theta$ is first-order definable. This
 definition can be seen as a (very strong) strengthening of the
 first-order definition of
-[measurability](/Measurable "Measurable").
+[measurability](Measurable "Measurable").
 
 ### <span id="Elementary_embedding_definitions" class="mw-headline">Elementary embedding definitions</span>
 
 The elementary embedding definitions are somewhat standard. Let
 $j:V\\rightarrow M$ be a nontrivial [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 of $V$ into a
-[transitive](/Transitive "Transitive")
+[transitive](Transitive "Transitive")
 class $M$ with critical point $\\kappa$. Then:
 
 -   $\\kappa$ is **almost n-huge with target $\\lambda$** iff
@@ -144,7 +144,7 @@ $\\lambda$-ultrahuge for all $\\lambda\\geq\\kappa$.
 <a href="http://logicatorino.altervista.org/slides/150619tsaprounis.pdf" class="external autonumber">[1]</a>
 Notice how similar this definition is to the alternative
 characterization of
-[extendible](/Extendible "Extendible")
+[extendible](Extendible "Extendible")
 cardinals. Furthermore, this definition can be extended in the obvious
 way to define $\\lambda$-ultra n-hugeness and ultra n-hugeness, as well
 as the "*almost*" variants.
@@ -175,10 +175,10 @@ point of an elementary embedding $j : V\_α → V\_β$ such that $j^n(κ)
 ### <span id="Ultrafilter_definition" class="mw-headline">Ultrafilter definition</span>
 
 The first-order definition of n-huge is somewhat similar to
-[measurability](/Measurable "Measurable").
+[measurability](Measurable "Measurable").
 Specifically, $\\kappa$ is measurable iff there is a nonprincipal
 $\\kappa$-complete
-[ultrafilter](/Filter "Filter"),
+[ultrafilter](Filter "Filter"),
 $U$, over $\\kappa$. A cardinal $\\kappa$ is n-huge with target
 $\\lambda$ iff there is a normal $\\kappa$-complete ultrafilter, $U$,
 over $\\mathcal{P}(\\lambda)$, and cardinals
@@ -190,7 +190,7 @@ i&lt;n(\\{x\\subseteq\\lambda:\\text{order-type}(x\\cap\\lambda\_{i+1})=\\lambda
 U)$$
 
 Where $\\text{order-type}(X)$ is the
-[order-type](/Order-isomorphism "Order-isomorphism")
+[order-type](Order-isomorphism "Order-isomorphism")
 of the poset $(X,\\in)$. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 $\\kappa$ is then super n-huge if for all ordinals $\\theta$ there is a
 $\\lambda&gt;\\theta$ such that $\\kappa$ is n-huge with target
@@ -228,14 +228,14 @@ equivalent:\[[4](#bibkey_Boney2017:ModelTheoreticCharacterizations)\]
 (this section from \[[6](#bibkey_Bagaria2012:CnCardinals)\])
 
 $κ$ is
-**<a href="/Correct" class="mw-redirect" title="Correct">$C^{(n)}$-$m$-huge</a>**
+**<a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-$m$-huge</a>**
 iff it is $m$-huge and $j(κ) ∈ C^{(n)}$ ($C^{(n)}$-huge if it is huge
 and $j(κ) ∈ C^{(n)}$).
 
 Equivalent definition in terms of normal measures: κ is
 $C^{(n)}$-$m$-huge iff it is uncountable and there is a $κ$-complete
 normal
-<a href="/Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
+<a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
 $U$ over some $P(λ)$ and cardinals $κ = λ\_0 &lt; λ\_1 &lt; . . . &lt;
 λ\_m = λ$, with $λ\_1 ∈ C (n)$ and such that for each $i &lt; m$, $\\{x
 ∈ P(λ) : ot(x ∩ λ i+1 ) = λ i \\} ∈ U$.
@@ -254,7 +254,7 @@ j(κ)}(V\_{j(κ)} \\models$ “δ is huge”$)$”. By elementarity, there is a
 $C^{(n)}$-$m$-huge cardinal less than $κ$ in $V$ – contradiction.
 
 Assuming [$\\mathrm{I3}(κ,
-δ)$](/Rank_into_rank "Rank into rank"),
+δ)$](Rank_into_rank "Rank into rank"),
 if $δ$ is a limit cardinal (instead of a successor of a limit cardinal –
 Kunen’s Theorem excludes other cases), it is equal to $sup\\{j^m(κ) : m
 ∈ ω\\}$ where $j$ is the elementary embedding. Then $κ$ and $j^m(κ)$ are
@@ -293,13 +293,13 @@ $\\{α &lt; κ : α$ is $C^{(n)}$-$m$-huge for every $m\\} ∈ \\mathcal{U}$.
     <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005051016/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 ## Consistency strength and size
 
 Hugeness exhibits a phenomenon associated with similarly defined large
 cardinals (the [n-fold
-variants](/N-fold_variants "N-fold variants"))
+variants](N-fold_variants "N-fold variants"))
 known as the *double helix*. This phenomenon is when for one n-fold
 variant, letting a cardinal be called n-$P\_0$ iff it has the property,
 and another variant, n-$P\_1$, n-$P\_0$ is weaker than n-$P\_1$, which
@@ -307,9 +307,9 @@ is weaker than (n+1)-$P\_0$. \[[2](#bibkey_Kentaro2007:DoubleHelix)\] In
 the consistency strength hierarchy, here is where these lay (top being
 weakest):
 
--   [measurable](/Measurable "Measurable")
+-   [measurable](Measurable "Measurable")
     =
-    0-[superstrong](/Superstrong "Superstrong")
+    0-[superstrong](Superstrong "Superstrong")
     = 0-huge
 -   n-superstrong
 -   n-fold supercompact
@@ -325,11 +325,11 @@ weakest):
 
 All huge variants lay at the top of the double helix restricted to some
 [natural
-number](/Omega "Omega") n,
+number](Omega "Omega") n,
 although each are bested by
-<a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I3</a>
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I3</a>
 cardinals (the [critical
-points](/Elementary_embedding "Elementary embedding")
+points](Elementary_embedding "Elementary embedding")
 of the I3 elementary embeddings). In fact, every I3 is preceeded by a
 stationary set of n-huge cardinals, for all n.
 \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
@@ -337,7 +337,7 @@ stationary set of n-huge cardinals, for all n.
 Similarly, every huge cardinal $\\kappa$ is almost huge, and there is a
 normal measure over $\\kappa$ which contains every almost huge cardinal
 $\\lambda&lt;\\kappa$. Every superhuge cardinal $\\kappa$ is
-[extendible](/Extendible "Extendible")
+[extendible](Extendible "Extendible")
 and there is a normal measure over $\\kappa$ which contains every
 extendible cardinal $\\lambda&lt;\\kappa$. Every (n+1)-huge cardinal
 $\\kappa$ has a normal measure which contains every cardinal $\\lambda$
@@ -349,7 +349,7 @@ n-huge".
 Every n-huge cardinal is m-huge for every m&lt;n. Similarly with almost
 n-hugeness, super n-hugeness, and super almost n-hugeness. Every almost
 huge cardinal is
-[Vopěnka](/Vopenka "Vopenka")
+[Vopěnka](Vopenka "Vopenka")
 (therefore the consistency of the existence of an almost-huge cardinal
 implies the consistency of Vopěnka's principle).
 \[[1](#bibkey_Kanamori2009:HigherInfinite)\] Every ultra n-huge is super
@@ -359,7 +359,7 @@ cardinals.
 
 In terms of size, however, the least n-huge cardinal is smaller than the
 least
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinal (assuming both exist).
 \[[1](#bibkey_Kanamori2009:HigherInfinite)\] This is because n-huge
 cardinals have upward reflection properties, while supercompacts have
@@ -374,12 +374,12 @@ than superhuge cardinals, the least almost 2-huge is much smaller than
 the least super almost huge.
 
 While not every $n$-huge cardinal is
-[strong](/Strong "Strong"),
+[strong](Strong "Strong"),
 if $\\kappa$ is almost $n$-huge with targets
 $\\lambda\_1,\\lambda\_2...\\lambda\_n$, then $\\kappa$ is
 $\\lambda\_n$-strong as witnessed by the generated $j:V\\prec M$. This
 is because $j^n(\\kappa)=\\lambda\_n$ is
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 and therefore $\\beth\_{\\lambda\_n}=\\lambda\_n$ and so
 $V\_{\\lambda\_n}=H\_{\\lambda\_n}$ and because
 $M^{&lt;\\lambda\_n}\\subset M$, $H\_\\theta\\subset M$ for each
@@ -390,7 +390,7 @@ M$.
 
 Every almost $n$-huge cardinal with targets
 $\\lambda\_1,\\lambda\_2...\\lambda\_n$ is also
-[$\\theta$-supercompact](/Supercompact "Supercompact")
+[$\\theta$-supercompact](Supercompact "Supercompact")
 for each $\\theta&lt;\\lambda\_n$, and every $n$-huge cardinal with
 targets $\\lambda\_1,\\lambda\_2...\\lambda\_n$ is also
 $\\lambda\_n$-supercompact.
@@ -410,17 +410,17 @@ $n$-huge\*:\[[5](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
 
 -   If $κ$ is virtually huge\*, then $V\_κ$ is a model of proper class
     many [virtually
-    extendible](/Extendible "Extendible")
+    extendible](Extendible "Extendible")
     cardinals.
 -   A virtually $n+1$-huge\* cardinal is a limit of virtually $n$-huge\*
     cardinals.
 -   A virtually $n$-huge\* cardinal is an
-    $n+1$-<a href="/Iterable" class="mw-redirect" title="Iterable">iterable</a>
+    $n+1$-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
     limit of $n+1$-iterable cardinals. If $κ$ is $n+2$-iterable, then
     $V\_κ$ is a model of proper class many virtually $n$-huge\*
     cardinals.
 -   Every
-    <a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
+    <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
     cardinal is a virtually $n$-huge\* limit of virtually $n$-huge\*
     cardinals for every $n &lt; ω$.
 
@@ -436,7 +436,7 @@ the model $M$ can be required to have $M^\\lambda\\subset M$.
 Sadly, $\\omega$-huge cardinals are inconsistent with ZFC by a version
 of Kunen's inconsistency theorem. Now, $\\omega$-hugeness is used to
 describe critical points of
-<a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I1 embeddings</a>.
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I1 embeddings</a>.
 
 ## Relative consistency results
 
@@ -454,30 +454,30 @@ consistent then so is $\\text{ZF +}$ "$\\omega\_1$ is a huge cardinal"
 
 If there is an almost huge cardinal then there is a model of
 $\\text{ZF+}\\neg\\text{AC}$ in which every successor cardinal is a
-[Ramsey](/Ramsey "Ramsey")
+[Ramsey](Ramsey "Ramsey")
 cardinal. It follows that (1) for all inner models $W$ of $\\text{ZFC}$
 and every singular cardinal $\\kappa$, one has $\\kappa^{+W} &lt;
 \\kappa^+$ and that (2) for all ordinal $\\alpha$ there is no injection
 $\\aleph\_{\\alpha+1}\\to 2^{\\aleph\_\\alpha}$. This in turn imply the
 failure of the
-<a href="/index.php?title=Square_principle&amp;action=edit&amp;redlink=1" class="new" title="Square principle (page does not exist)">square principle</a>
+<a href="index.php?title=Square_principle&amp;action=edit&amp;redlink=1" class="new" title="Square principle (page does not exist)">square principle</a>
 at every infinite cardinal (and consequently
 $\\text{AD}^{L(\\mathbb{R})}$, see
-<a href="/Determinacy" class="mw-redirect" title="Determinacy">determinacy</a>).
+<a href="Determinacy" class="mw-redirect" title="Determinacy">determinacy</a>).
 <a href="https://mathoverflow.net/questions/206090/what-consistency-results-follow-the-assumption-forall-alpha-aleph-alpha1" class="external autonumber">[3]</a>
 
 ## In set theoretic geology
 
 If $\\kappa$ is hyperhuge, then $V$ has $&lt;\\kappa$ many
-<a href="/Ground" class="mw-redirect" title="Ground">grounds</a>
+<a href="Ground" class="mw-redirect" title="Ground">grounds</a>
 (so the
-<a href="/Mantle" class="mw-redirect" title="Mantle">mantle</a>
+<a href="Mantle" class="mw-redirect" title="Mantle">mantle</a>
 is a ground itself).\[[3](#bibkey_Usuba2017:DDGandVeryLarge)\] This
 result has been strenghtened to
-[extendible](/Extendible "Extendible")
+[extendible](Extendible "Extendible")
 cardinals\[[7](#bibkey_Usuba2018:ExtendibleCardinalsAndTheMantle)\]. On
 the other hand, it s consistent that there is a
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinal and class many grounds of $V$ (because of the indestructibility
 properties of
 supercompactness).\[[3](#bibkey_Usuba2017:DDGandVeryLarge)\]
@@ -509,6 +509,6 @@ supercompactness).\[[3](#bibkey_Usuba2017:DDGandVeryLarge)\]
     <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005051016/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

@@ -15,15 +15,15 @@ permalink: Strong
 
 
 Strong cardinals were created as a weakening of
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinals introduced by Dodd and Jensen in 1982
 \[[1](#bibkey_Jech2003:SetTheory)\]. They are defined as a strengthening
 of
-[measurability](/Measurable "Measurable"),
+[measurability](Measurable "Measurable"),
 being that they are critical points of [elementary
-embeddings](/Elementary_embedding "Elementary embedding")
+embeddings](Elementary_embedding "Elementary embedding")
 $j:V\\rightarrow M$ for some transitive inner model of
-[ZFC](/ZFC "ZFC") $M$.
+[ZFC](ZFC "ZFC") $M$.
 Hypermeasurability is a weakening of strongness (the property of being a
 strong cardinal is often called strongness), although if
 $\\lambda=\\beth\_\\lambda$ then a cardinal is $\\lambda$-strong iff it
@@ -60,9 +60,9 @@ is $\\lambda$-hypermeasurable.
 
 There are multiple equivalent definitions of strongness, using
 [elementary
-embeddings](/Elementary_embedding "Elementary embedding")
+embeddings](Elementary_embedding "Elementary embedding")
 and
-<a href="/index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extenders</a>.
+<a href="index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extenders</a>.
 
 ### <span id="Elementary_Embedding_Characterization" class="mw-headline">Elementary Embedding Characterization</span>
 
@@ -81,10 +81,10 @@ contain any set one wishes.
 ### <span id="Extender_Characterization" class="mw-headline">Extender Characterization</span>
 
 A cardinal $\\kappa$ is **strong** iff it is
-<a href="/Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
 and for every set $X$ of rank $\\lambda\\geq\\kappa$, there is a
 $(\\kappa,\\beth\_\\lambda^+)$-extender $E$ such that, letting the
-[ultrapower](/Ultrapower "Ultrapower")
+[ultrapower](Ultrapower "Ultrapower")
 of $V$ by $E$ be called $Ult\_E$ and the canonical ultrapower embedding
 from $V$ to $Ult\_E$ be called $j$, $X\\in Ult\_E$ and
 $\\lambda&lt;j(\\kappa)$. \[[1](#bibkey_Jech2003:SetTheory)\]
@@ -106,7 +106,7 @@ the critical point of some elementary embedding $j:V\\rightarrow M$ for
 some transitive class $M$ such that $x\\in M$. A cardinal $\\kappa$ is
 **$\\lambda$-hypermeasurable** iff it is $H\_\\lambda$-hypermeasurable
 (where $H\_\\lambda$ is the set of all sets of [hereditary
-cardinality](/Hereditary_Cardinality "Hereditary Cardinality")
+cardinality](Hereditary_Cardinality "Hereditary Cardinality")
 less than $\\lambda$).
 
 Note that a cardinal is $\\gamma$-strong iff it is $x$-hypermeasurable
@@ -124,49 +124,49 @@ Here is a list of facts about these cardinals:
     $\\mathcal{P}^2(\\kappa)$-hypermeasurable if and only if it is
     $\\kappa+2$-strong. This hypothesis appears in many theorems.
 -   A cardinal $\\kappa$ is
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     if and only if it is $\\kappa^+$-hypermeasurable, since
     $\\mathcal{P}(\\kappa)\\subset M$ for any $j:V\\to M$ with critical
     point $\\kappa$.
 -   If there is an $x$-hypermeasurable cardinal, then $V\\neq L\[x\]$.
     \[[1](#bibkey_Jech2003:SetTheory)\]
 -   Every
-    [supercompact](/Supercompact "Supercompact")
+    [supercompact](Supercompact "Supercompact")
     cardinal $\\kappa$ is strong and has $\\kappa$ strong cardinals
     below it, as well as being a stationary limit of
     $\\{\\lambda&lt;\\kappa:\\lambda$ is strong$\\}$
 -   The [Mitchell
-    rank](/Mitchell_rank "Mitchell rank")
+    rank](Mitchell_rank "Mitchell rank")
     of any strong cardinal $o(\\kappa)=(2^\\kappa)^+$.
     \[[1](#bibkey_Jech2003:SetTheory)\]
 -   Any strong cardinal is
-    [$\\Sigma\_2$-reflecting](/Reflecting "Reflecting").
+    [$\\Sigma\_2$-reflecting](Reflecting "Reflecting").
     \[[1](#bibkey_Jech2003:SetTheory)\]
 -   Every strong cardinal is [strongly
-    unfoldable](/Unfoldable "Unfoldable")
+    unfoldable](Unfoldable "Unfoldable")
     and thus [totally
-    indescribable](/Indescribable "Indescribable").
+    indescribable](Indescribable "Indescribable").
     \[[2](#bibkey_Gitman2011:RamseyLikeCardinals)\] Therefore, each of
     the following is never strong:
     -   The least
-        [measurable](/Measurable "Measurable")
+        [measurable](Measurable "Measurable")
         cardinal.
     -   The least $\\kappa$ which is
-        [$2^\\kappa$-supercompact](/Supercompact "Supercompact"),
+        [$2^\\kappa$-supercompact](Supercompact "Supercompact"),
         the least $\\kappa$ which is
-        [$2^{2^\\kappa}$-supercompact](/Supercompact "Supercompact"),
+        [$2^{2^\\kappa}$-supercompact](Supercompact "Supercompact"),
         etc.
     -   For each $n$, the least
-        [$n$-huge](/Huge "Huge")
+        [$n$-huge](Huge "Huge")
         index cardinal (that is, the least *target* of an embedding
         witnessing $n$-hugeness of some cardinal) and the least $n$-huge
         cardinal.
     -   For each $n&lt;\\omega$, The least $\\kappa$ such that there is
         some embedding $j:V\_{\\lambda+n}\\prec V\_{\\kappa+n}$ with
         critical point $\\lambda$ for some $\\lambda&lt;\\kappa$ (see
-        [$n$-extendible](/Extendible "Extendible")).
+        [$n$-extendible](Extendible "Extendible")).
     -   The least $\\kappa$ which is both $2^\\kappa$-supercompact and
-        [Vopěnka](/Vopenka "Vopenka"),
+        [Vopěnka](Vopenka "Vopenka"),
         the least $\\kappa$ which is both $2^{2^\\kappa}$-supercompact
         and Vopěnka, etc., the least $\\kappa$ which is both measurable
         and Vopěnka, for each $n$ the least Vopěnka $\\kappa$ such that
@@ -176,14 +176,14 @@ Here is a list of facts about these cardinals:
 -   If there is a strong cardinal then $V\\neq L\[A\]$ for every set
     $A$.
 -   Assuming both a strong cardinal and a
-    [superstrong](/Superstrong "Superstrong")
+    [superstrong](Superstrong "Superstrong")
     cardinal exist, and the least strong cardinal $\\kappa$ has a
     superstrong above it, then the least strong cardinal has $\\kappa$
     superstrong cardinals below it.
 -   Every strong cardinal is tall. The existence of a tall cardinal is
     equiconsistent with the existence of a strong cardinal.
 -   A cardinal $κ$ is
-    <a href="/Correct" class="mw-redirect" title="Correct">$C^{(n)}$-strong</a>
+    <a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-strong</a>
     iff for every $λ &gt; κ$, $κ$ is $λ$-$C^{(n)}$-strong, that is,
     there exists an elementary embedding $j : V → M$ for transitive $M$,
     with $crit(j) = κ$, $j(κ) &gt; λ$, $V\_λ ⊆ M$ and $j(κ) ∈ C^{(n)}$.
@@ -198,17 +198,17 @@ Here is a list of facts about these cardinals:
 ## Core Model up to Strongness
 
 Dodd and Jensen created a [core
-model](/Core_model "Core model")
+model](Core_model "Core model")
 based on sequences of
-<a href="/index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extenders</a>
+<a href="index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extenders</a>
 of strong cardinals. They constructed a sequence of extenders
 $\\mathcal{E}$ such that: \[[1](#bibkey_Jech2003:SetTheory)\]
 
--   <a href="/L" class="mw-redirect" title="L">$L[\mathcal{E}]$</a>
+-   <a href="L" class="mw-redirect" title="L">$L[\mathcal{E}]$</a>
     is an inner model of
-    [ZFC](/ZFC "ZFC").
+    [ZFC](ZFC "ZFC").
 -   $L\[\\mathcal{E}\]$ satisfies
-    <a href="/GCH" class="mw-redirect" title="GCH">GCH</a>,
+    <a href="GCH" class="mw-redirect" title="GCH">GCH</a>,
     the square principle, and the existence of a $\\Sigma\_3^1$
     well-ordering of $\\mathbb{R}$.
 -   $L\[\\mathcal{E}\]$ satisfies that $\\mathcal{E}$ witnesses the
@@ -218,12 +218,12 @@ $\\mathcal{E}$ such that: \[[1](#bibkey_Jech2003:SetTheory)\]
     -   There is no nontrivial elementary embedding
         $j:L\[\\mathcal{E}\]\\rightarrow L\[\\mathcal{E}\]$
     -   If $\\kappa$ is a singular [strong
-        limit](/Beth "Beth")
+        limit](Beth "Beth")
         cardinal then $(\\kappa^+)^{L\[\\mathcal{E}\]}=\\kappa^+$
 
 As one can see, $L\[\\mathcal{E}\]$ is a core model up to strongness.
 Dodd and Jensen also constructed a "sharp" defined analogously to
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>,
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>,
 but instead of using $L$ one uses $L\[\\mathcal{E}\]$. They then showed
 that there is a nontrivial elementary embedding
 $j:L\[\\mathcal{E}\]\\rightarrow L\[\\mathcal{E}\]$ iff such a real
@@ -251,6 +251,6 @@ referred to as *the sharp for a strong cardinal*.
     <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005051156/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

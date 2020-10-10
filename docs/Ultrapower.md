@@ -22,10 +22,10 @@ involving elementary embeddings. A famous example is Scott's proof that
 the existence of a measurable cardinal implies $V\\neq L$. Ultrapower
 embeddings are also used to characterize various large cardinal notions
 such as
-[measurable](/Measurable "Measurable"),
-[supercompact](/Supercompact "Supercompact")
+[measurable](Measurable "Measurable"),
+[supercompact](Supercompact "Supercompact")
 and certain formulations of [rank into
-rank](/Rank_into_rank "Rank into rank")
+rank](Rank_into_rank "Rank into rank")
 embeddings. Ultrapowers have a more concrete structure than general
 embeddings and are often easier to work with in proofs. Most of the
 results in this article can be found in
@@ -62,7 +62,7 @@ results in this article can be found in
 The general construction of an ultrapower supposes given an index set
 $X$ set for a collection of (non-empty) models $M\_i$ with $i\\in X$ and
 an
-<a href="/Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
+<a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
 $U$ over $X$. The ultrafilter $U$ is used to define equivalence classes
 over the structure $\\prod\_{i\\in X} M\_i$, the collection of all
 functions $f$ with domain $X$ such that $f(i)\\in M\_i$ for each $i\\in
@@ -102,7 +102,7 @@ i\\in X \\rangle$ as $$\\prod\_{i\\in X}M\_i = \\{f:\\text{dom}(f)=X
 \\land (\\forall i\\in X)(f(i)\\in M\_i)\\}$$
 
 Given an
-<a href="/Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
+<a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
 $U$ on $X$, we then define the following relations on $\\prod\_{i\\in X}
 M\_i$: Let $f,g\\in\\prod\_{i\\in X} M\_i$, then $$f =\_U g \\iff
 \\{i\\in X : f(i)=g(i)\\}\\in U$$ $$f \\in\_U g \\iff \\{i\\in X :
@@ -139,14 +139,14 @@ of a model $M$ is elementarily equivalent to $M$. This is a very
 important result: to see why, let $f\_x(i)=x$ for all $x\\in M$ and
 $i\\in X$, and now let $j\_U(x)=\[f\_x\]$ for every $x\\in M$. Then
 $j\_U$ is an [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 by Los' theorem, and is called the **canonical ultrapower embedding**
 $j\_U:M\\to\\text{Ult}\_U(M)$.
 
 ## Properties of ultrapowers of the universe of sets
 
 Let $U$ be a nonprincipal $\\kappa$-complete ultrafilter on some
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinal $\\kappa$ and $j\_U:V\\to\\text{Ult}\_U(V)$ be the canonical
 ultrapower embedding of the universe. Let
 $\\text{Ult}=\\text{Ult}\_U(V)$ to simplify the notation. Then:
@@ -184,13 +184,13 @@ j(X)\\}$ be the canonical normal fine measure on $\\kappa$. Then:
 
 The ultrapower axiom ($\\text{UA}$) has many significant consequences.
 Assume there is a [strongly
-compact](/Strongly_compact "Strongly compact")
+compact](Strongly_compact "Strongly compact")
 cardinal, then according to
 <a href="https://arxiv.org/pdf/1710.03586.pdf" class="external autonumber">[1]</a>:
 
 -   The $\\text{GCH}$ holds above the least strongly compact cardinal.
 -   The least strongly compact cardinal is
-    [supercompact](/Supercompact "Supercompact").
+    [supercompact](Supercompact "Supercompact").
 -   $V$ is a forcing extension of $\\text{HOD}$.
 
 $\\text{UA}$ holds in all *known* inner models, but none of them
@@ -270,6 +270,6 @@ constructed in $M$.
     <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

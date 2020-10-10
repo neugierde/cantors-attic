@@ -20,7 +20,7 @@ we say that $X$ is *Dedekind finite*.
 
 Every finite set is Dedekind finite, however the assertion that every
 infinite set is Dedekind infinite requires *some*
-<a href="/Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">choice</a>.
+<a href="Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">choice</a>.
 It follows from the assertion that every countable family of non-empty
 sets has a choice function. In particular, $X$ is Dedekind infinite if
 and only if $\\aleph\_0\\le\|X\|$.
@@ -34,7 +34,7 @@ ordered means linearly ordered)
 2.  $\\Delta\_1 = \\{x\\mid x=y+z\\rightarrow y\\in\\omega\\lor
     z\\in\\omega\\}$, all those cardinals that cannot be written as the
     disjoint union of infinite sets (also known as
-    <a href="/index.php?title=Amorphous&amp;action=edit&amp;redlink=1" class="new" title="Amorphous (page does not exist)">amorphous</a>
+    <a href="index.php?title=Amorphous&amp;action=edit&amp;redlink=1" class="new" title="Amorphous (page does not exist)">amorphous</a>
     sets).
 3.  $\\Delta\_2 = \\{x\\mid\\text{ Every ordered partition of }x\\text{
     is finite}$, all those that cannot be mapped surjectively onto an

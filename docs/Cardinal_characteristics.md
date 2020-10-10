@@ -18,15 +18,15 @@ permalink: Cardinal_characteristics
 The subject known as *cardinal characteristics of the continuum*
 explores the rich territory---sometimes hidden from view, depending on
 the set-theoretic background---between the [countably
-infinite](/Omega "Omega")
+infinite](Omega "Omega")
 cardinal $\\aleph\_0$ and the
-<a href="/Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
 cardinality of the
-[continuum](/Continuum "Continuum").
+[continuum](Continuum "Continuum").
 The subject begins with Cantor's theorem laying out the basic dichotomy
 that the continuum $\\frak{c}=2^{\\aleph\_0}$ is strictly larger than
 $\\aleph\_0$, and goes on to explore the various ways that properties of
-<a href="/Aleph_zero" class="mw-redirect" title="Aleph zero">$\aleph_0$</a>
+<a href="Aleph_zero" class="mw-redirect" title="Aleph zero">$\aleph_0$</a>
 might extend to uncountable cardinals.
 
 For example, the union of countably many measure zero subsets of
@@ -44,7 +44,7 @@ and the lesson of the subject is that there is an enormous diversity of
 such characteristics, exhibiting diverse combinations in various models
 of set theory. When the continuum is small, the characteristics are
 pressed together---under the
-<a href="/Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>,
+<a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>,
 for example, they are all equal to the continuum---but in other models,
 the different characteristics are teased apart and seen to express
 fundamentally different inequivalent properties. The subject breaks into
@@ -52,7 +52,7 @@ two major components: first, proving the positive relations amongs the
 characteristics, such as
 $\\omega\_1\\leq\\frak{b}\\leq\\frak{d}\\leq\\frak{c}$; and second,
 constructing models of set theory, generally by
-[forcing](/Forcing "Forcing"),
+[forcing](Forcing "Forcing"),
 which reveal the range of possibility, such as a model in which
 $\\omega\_1\\lt\\frak{b}\\lt\\frak{d}\\lt\\frak{c}$. Thus, the
 philosophy of the subject naturally exhibits an unusual degree of
@@ -105,23 +105,23 @@ eventually dominated by a function in the family.
 
 
 
-<a href="/Cov(L)" class="mw-redirect" title="Cov(L)">${\rm cov}({\mathcal L})$</a>
+<a href="Cov(L)" class="mw-redirect" title="Cov(L)">${\rm cov}({\mathcal L})$</a>
 
 $\\longrightarrow$
 
-<a href="/index.php?title=Non(K)&amp;action=edit&amp;redlink=1" class="new" title="Non(K) (page does not exist)">${\rm non}({\mathcal K})$</a>
+<a href="index.php?title=Non(K)&amp;action=edit&amp;redlink=1" class="new" title="Non(K) (page does not exist)">${\rm non}({\mathcal K})$</a>
 
 $\\longrightarrow$
 
-<a href="/index.php?title=Cof(K)&amp;action=edit&amp;redlink=1" class="new" title="Cof(K) (page does not exist)">${\rm cof}({\mathcal K})$</a>
+<a href="index.php?title=Cof(K)&amp;action=edit&amp;redlink=1" class="new" title="Cof(K) (page does not exist)">${\rm cof}({\mathcal K})$</a>
 
 $\\longrightarrow$
 
-<a href="/index.php?title=Cof(L)&amp;action=edit&amp;redlink=1" class="new" title="Cof(L) (page does not exist)">${\rm cof}({\mathcal L})$</a>
+<a href="index.php?title=Cof(L)&amp;action=edit&amp;redlink=1" class="new" title="Cof(L) (page does not exist)">${\rm cof}({\mathcal L})$</a>
 
 $\\longrightarrow$
 
-[$2^{\\aleph\_0}$](/Continuum "Continuum")
+[$2^{\\aleph\_0}$](Continuum "Continuum")
 
 $ \\Bigg\\uparrow $
 
@@ -131,33 +131,33 @@ $ \\uparrow$
 
 $ \\Bigg\\uparrow $
 
-<a href="/Bounding_number" class="mw-redirect" title="Bounding number">${\mathfrak b} $</a>
+<a href="Bounding_number" class="mw-redirect" title="Bounding number">${\mathfrak b} $</a>
 
 $\\longrightarrow$
 
-<a href="/Dominating_number" class="mw-redirect" title="Dominating number">${\mathfrak d} $</a>
+<a href="Dominating_number" class="mw-redirect" title="Dominating number">${\mathfrak d} $</a>
 
 $\\uparrow$
 
 $\\uparrow$
 
-<a href="/Aleph_one" class="mw-redirect" title="Aleph one">$\aleph_1$</a>
+<a href="Aleph_one" class="mw-redirect" title="Aleph one">$\aleph_1$</a>
 
 $\\longrightarrow$
 
-<a href="/index.php?title=Add(L)&amp;action=edit&amp;redlink=1" class="new" title="Add(L) (page does not exist)">${\rm add}({\mathcal L})$</a>
+<a href="index.php?title=Add(L)&amp;action=edit&amp;redlink=1" class="new" title="Add(L) (page does not exist)">${\rm add}({\mathcal L})$</a>
 
 $\\longrightarrow$
 
-<a href="/index.php?title=Add(K)&amp;action=edit&amp;redlink=1" class="new" title="Add(K) (page does not exist)">${\rm add}({\mathcal K})$</a>
+<a href="index.php?title=Add(K)&amp;action=edit&amp;redlink=1" class="new" title="Add(K) (page does not exist)">${\rm add}({\mathcal K})$</a>
 
 $\\longrightarrow$
 
-<a href="/index.php?title=Cov(K)&amp;action=edit&amp;redlink=1" class="new" title="Cov(K) (page does not exist)">${\rm cov}({\mathcal K})$</a>
+<a href="index.php?title=Cov(K)&amp;action=edit&amp;redlink=1" class="new" title="Cov(K) (page does not exist)">${\rm cov}({\mathcal K})$</a>
 
 $\\longrightarrow$
 
-<a href="/index.php?title=Non(L)&amp;action=edit&amp;redlink=1" class="new" title="Non(L) (page does not exist)">${\rm non}({\mathcal L})$</a>
+<a href="index.php?title=Non(L)&amp;action=edit&amp;redlink=1" class="new" title="Non(L) (page does not exist)">${\rm non}({\mathcal L})$</a>
 
   
 
@@ -175,5 +175,5 @@ $\\longrightarrow$
     <a href="http://www.math.lsa.umich.edu/~ablass/hbk.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BBlass2010:CardinalCharacteristicsHandbook,%20%20%20author%20=%20%7BBlass,%20Andreas%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BChapter%206:%20Cardinal%20characteristics%20of%20the%20continuum%7D,%3Cbr%3E%20%20journal%20=%20%7BHandbook%20of%20Set%20Theory%7D,%3Cbr%3E%20%20%20editor%20=%20%7BForeman,%20Mathew;%20Kanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20year%20=%20%7B2010%7D,%3Cbr%3E%20%20%20%20%20isbn%20=%20%7B1402048432%7D,%3Cbr%3Epublisher%20=%20%7BSpringer%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttp://www.math.lsa.umich.edu/~ablass/hbk.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 

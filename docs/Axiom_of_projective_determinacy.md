@@ -10,7 +10,7 @@ permalink: Axiom_of_projective_determinacy
 
 
 (Redirected from [Axiom of projective
-determinacy](/index.php?title=Axiom_of_projective_determinacy&redirect=no "Axiom of projective determinacy"))
+determinacy](index.php?title=Axiom_of_projective_determinacy&redirect=no "Axiom of projective determinacy"))
 
 
 
@@ -182,15 +182,15 @@ $X=\\omega$) is in $L\[a\]$, in particular every $\\Sigma^1\_2$ (or
 $\\Pi^1\_2$) real is constructible. The set of all constructible reals
 is $\\Sigma^1\_2$, and so is the canonical well-ordering $&lt;\_L$ of
 $L$. For $U$ a nonprincipal $\\kappa$-complete
-<a href="/Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
+<a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
 on some
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinal $\\kappa$, then the collection of all sets of reals in $L\[U\]$
 is $\\Sigma^1\_3$, and so is the canonical well-ordering
 $&lt;\_{L\[U\]}$ of $L\[U\]$.
 
 If
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$</a>
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$</a>
 exists then it is a $\\Sigma^1\_3$ real and the singleton $\\{0^\\\#\\}$
 is a $\\Pi^1\_2$ set of reals. If for every real $a\\in\\omega^\\omega$,
 the sharp $a^\\\#$ exists then every $\\Sigma^1\_3$ set of reals is the
@@ -227,7 +227,7 @@ reals without the perfect set property.
 
 If every $\\Sigma^1\_3$ set of reals is Lebesgue measurable then
 $\\aleph\_1$ is
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 in $L$.
 
 If $A$ is a $\\Sigma^1\_2(a)$ set of reals and contains a real that is
@@ -318,7 +318,7 @@ $\\Pi^1\_1(a)$ have the uniformization property.
 ## Projective determinacy
 
 *See also: [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy")*
+determinacy](Axiom_of_determinacy "Axiom of determinacy")*
 
 *Determinacy* is a kind of regularity property. For every set of reals
 $A$, the game $G\_A$ is the infinite game of perfect information of
@@ -334,7 +334,7 @@ Given a pointclass $\\Gamma$, *$\\Gamma$-determinacy* is the statement
 $\\neg\\Gamma$-determinacy are always equivalent.
 $\\omega^\\omega$-determinacy is the *axiom of determinacy* and is
 implied false by the
-<a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>.
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>.
 The **axiom of projective determinacy** ($\\text{PD}$) is precisely
 $(\\bigcup\_{n\\in\\omega}\\mathbf{\\Sigma}^1\_n)$-determinacy. Given
 some class $M$ (e.g. $\\text{OD}$, $L(\\mathbb{R})$, ...),
@@ -342,9 +342,9 @@ some class $M$ (e.g. $\\text{OD}$, $L(\\mathbb{R})$, ...),
 $(M\\cap\\mathcal{P}(\\omega^\\omega))$-determinacy.
 $L(\\mathbb{R})$-determinacy notably follows from large cardinal axioms,
 in particular the existence of infinitely many
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinals with a
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 above them all.
 
 Martin showed that $\\text{ZFC}$ alone is sufficient to prove Borel
@@ -354,7 +354,7 @@ equivalent to "the sharp $a^\\\#$ exists", thus Borel determinacy is the
 best result possible in $\\text{ZFC}$ alone. Analytic (i.e.
 $\\mathbf{\\Sigma^1\_1}$) determinacy follows from the existence of a
 measurable cardinal, or even just of a
-[Ramsey](/Ramsey "Ramsey")
+[Ramsey](Ramsey "Ramsey")
 cardinal. Stronger forms of projective determinacies requires
 considerably stronger large cardinal axioms: for every $n$,
 $\\mathbf{\\Delta}^1\_{n+1}$-determinacy implies the existence of an
@@ -380,7 +380,7 @@ every $a\\in\\omega^\\omega$: $\\Pi^1\_1(a), \\Sigma^1\_2(a),
 \\Pi^1\_3(a), ..., \\Pi^1\_{2n+1}(a), \\Sigma^1\_{2n+2}(a), ...$ This is
 known as the *periodicity theorem*. On the other hand, if $L\[U\]$
 contains every real for some nonprincipal $\\kappa$-complete
-<a href="/Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
+<a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
 $U$ on a measurable cardinal $\\kappa$, then every $\\Sigma^1\_n(a)$ has
 the reduction and prewellordering properties for $n\\geq 2$ and every
 $a\\in\\omega^\\omega$.
@@ -406,11 +406,11 @@ Define $E:\\omega\\to\\omega\_1$ by recursion the following way:
 $E(0)=1$, $E(n+1)=\\omega^{E(n)}$ (ordinal exponentiation). Then, under
 $\\text{AD+DC}$, one has $\\delta^1\_{2n+3}=\\omega\_{E(2n+1)+1}$, also
 every $\\delta^1\_{2n+3}$ has the strong [partition
-property](/Partition_property "Partition property")
+property](Partition_property "Partition property")
 $\\delta^1\_{2n+3}\\to(\\delta^1\_{2n+3})^{\\delta^1\_{2n+3}}\_\\alpha$
 for every $\\alpha&lt;\\delta^1\_{2n+3}$. In particular,
 $\\delta^1\_{2n+3}$ is
-[Ramsey](/Ramsey "Ramsey").
+[Ramsey](Ramsey "Ramsey").
 
 One calls a set of reals $A$ is $\\gamma$-Borel (for a cardinal
 $\\gamma$) if it is in the smallest collection of sets containing all
@@ -430,7 +430,7 @@ $\\delta^1\_{2n+1}$-many sets that are $\\mathbf{\\Delta}^1\_{2n+1}$.
 
 Woodin showed that $\\mathbf{\\Pi}^1\_{n+1}$-determinacy follows from
 the existence of $n$
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinals with a measurable above them all, and projective determinacy
 thus follows from the existence of infinitely many Woodin cardinals. He
 also showed that $\\mathbf{\\Pi}^1\_2$-determinacy is equivalent to "for
@@ -459,7 +459,7 @@ cardinal and $2^{\\aleph\_\\omega}&gt;\\aleph\_{\\omega\_1}$, then the
 axiom of projective determinacy holds. Also, if there is a singular
 cardinal of uncountable cofinality such that the sets of the cardinals
 below it such that the GCH holds is both
-<a href="/Stationary" class="mw-redirect" title="Stationary">stationary</a>
+<a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
 and costationary, then again the axiom of projective determinacy holds.
 It is not known whether these two results extends to
 $L(\\mathbb{R})$-determinacy.
@@ -468,10 +468,10 @@ $L(\\mathbb{R})$-determinacy.
 Foreman, Magidor and Schindler showed that if there exists infinitely
 many cardinals $\\delta$ above the continuum such that both $\\delta$
 and $\\delta^{+}$ have the [tree
-property](/Tree_property "Tree property"),
+property](Tree_property "Tree property"),
 then the axiom of projective determinacy holds. This hypothesis was
 shown to be consistent relative to the existence of infinitely many
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinals by James Cummings and Foreman.
 \[[5](#bibkey_Larson2010:HistoryDeterminacy)\]
 
@@ -506,7 +506,7 @@ $((x,f)\\in\[T\])\\}$, a set of reals.
 
 Given a nonempty set $X$, we define $m(X)$ to be the set of
 $\\sigma$-complete
-[ultrafilters](/Filter "Filter")
+[ultrafilters](Filter "Filter")
 on $X$ (we do not require nonprincipality). We will call $m(X)$'s
 elements "measures". Let $U\_1,U\_2$ be measures on $X^{&lt;\\omega}$
 for some set $X$. Let $k\_1,k\_2$ be such that $X^{k\_1}\\in U\_1$ and
@@ -590,7 +590,7 @@ following equivalent charactezations holds:
 
 -   It is $\\delta$*-universally Baire* for some $\\delta$, meaning that
     for all [forcing
-    notions](/Forcing "Forcing")
+    notions](Forcing "Forcing")
     $\\mathbb{P}$ with $\|\\mathbb{P}\|=\\delta$ there are trees $S$ and
     $T$ on $\\omega\\times\\kappa$ for some $\\kappa$ such that
     $A=p\[T\]$ and for all $V$-generic $G\\subseteq\\mathbb{P}$, in
@@ -611,7 +611,7 @@ universally Baire set of reals.
 
 Every $\\mathbf{\\Sigma}^1\_1$ set of reals is universally Baire. Every
 set has a
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">sharp</a>
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">sharp</a>
 if and only if every $\\mathbf{\\Sigma}^1\_2$ set of reals is
 universally Baire.
 
@@ -691,7 +691,7 @@ exists and is a universally Baire set.
 
 Let $\\delta$ be inaccessible, limit of Woodin cardinals and limit of
 cardinals that are
-[strong](/Strong "Strong")
+[strong](Strong "Strong")
 in $V\_\\delta$, let $A\\subseteq\\mathbb{R}$ be universally Baire in
 $V\_\\delta$. Then there exists
 $\\Gamma\\subseteq\\mathcal{P}(\\mathbb{R})$ such that $A\\in\\Gamma$,
@@ -747,6 +747,6 @@ $V\_{\\delta+2}$ is countable in $V\[G\_0\]$, then:
     <a href="http://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7B%7BLarson2010:HistoryDeterminacy,%20%20%20%20AUTHOR%20=%20%7BLarson,%20Paul%20B.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BA%20brief%20history%20of%20determinacy%7D,%3Cbr%3E%20%20%20%20YEAR%20=%20%7B2013%7D,%3Cbr%3E%20%20%20%20URL%20=%20%7Bhttp://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

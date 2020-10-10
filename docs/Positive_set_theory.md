@@ -21,22 +21,22 @@ such that $x\\in x$).
 \[[1](#bibkey_FortiHinnion89:ConsitencyProblemPositiveComp)\] Those
 theories are based on a weakening of the (inconsistent) *comprehension
 axiom* of
-<a href="/index.php?title=Naive_set_theory&amp;action=edit&amp;redlink=1" class="new" title="Naive set theory (page does not exist)">naive set theory</a>
+<a href="index.php?title=Naive_set_theory&amp;action=edit&amp;redlink=1" class="new" title="Naive set theory (page does not exist)">naive set theory</a>
 (which asserts that every formula $\\phi(x)$ defines a set that contains
 all $x$ such that $\\phi(x)$) by restraining the formulas used to a
 smaller class of formulas called *positive* formulas.
 
 While most positive set theories are weaker than
-[$\\text{ZFC}$](/ZFC "ZFC")
+[$\\text{ZFC}$](ZFC "ZFC")
 (and usually mutually interpretable with
 <a href="http://en.wikipedia.org/wiki/second-order_arithmetic" class="extiw" title="wikipedia:second-order arithmetic">second-order arithmetic</a>),
 one of them, $\\text{GPK}^+\_\\infty$ turns out to be very powerful,
 being mutually interpretable with
-<a href="/Morse-Kelley_set_theory" class="mw-redirect" title="Morse-Kelley set theory">Morse-Kelley set theory</a>
+<a href="Morse-Kelley_set_theory" class="mw-redirect" title="Morse-Kelley set theory">Morse-Kelley set theory</a>
 plus an axiom asserting that the class of all
-[ordinals](/Ordinal "Ordinal")
+[ordinals](Ordinal "Ordinal")
 is [weakly
-compact](/Weakly_compact "Weakly compact").
+compact](Weakly_compact "Weakly compact").
 \[[2](#bibkey_Esser96:InterpretationZFCandMKinPositiveTheory)\]
 
 
@@ -136,10 +136,10 @@ interpret $\\text{ZFC}$ (and prove it consistent), but is in fact
 mutually interpretable with a *much* stronger set theory, namely,
 Morse-Kelley set theory with an axiom asserting that the (proper) class
 of all ordinals is [weakly
-compact](/Weakly_compact "Weakly compact").
+compact](Weakly_compact "Weakly compact").
 This theory is powerful enough to prove, for instance, that there exists
 a proper class of
-[hyper-Mahlo](/Mahlo "Mahlo")
+[hyper-Mahlo](Mahlo "Mahlo")
 cardinals.
 \[[2](#bibkey_Esser96:InterpretationZFCandMKinPositiveTheory)\]
 
@@ -188,7 +188,7 @@ cardinals.
     <a href="http://onlinelibrary.wiley.com/doi/10.1002/malq.200310009/abstract" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075342/http://dx.doi.org/10.1002/malq.200310009" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BEsser96:ExtensionalityInPositiveTheory,%20%20author%20=%20%20%20%20%20%20%20%7BEsser,%20Olivier%7D,%3Cbr%3E%20%20title%20=%20%20%20%20%20%20%20%20%7BOn%20the%20axiom%20of%20extensionality%20in%20the%20positive%20set%20theory%7D,%3Cbr%3E%20%20year%20=%20%20%20%20%20%20%20%20%20%7B2003%7D,%3Cbr%3E%20%20journal%20=%20%20%20%20%20%20%7BMathematical%20Logic%20Quarterly%7D,%3Cbr%3E%20%20doi%20=%20%20%20%20%20%20%20%20%20%20%7B10.1002/malq.200310009%7D,%3Cbr%3E%20%20volume%20=%20%20%20%20%20%20%20%7B19%7D,%3Cbr%3E%20%20pages%20=%20%20%20%20%20%20%20%20%7B97--100%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttp://onlinelibrary.wiley.com/doi/10.1002/malq.200310009/abstract%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
   
 

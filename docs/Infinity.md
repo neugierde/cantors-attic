@@ -35,13 +35,13 @@ implies that $y$ cannot be a member of $\\mathbb{N}$.
 The existence of an actual infinity is philosophically non trivial and
 not accepted by all mathematicians. Its existence cannot be proven; it
 is axiomatically given (see
-[ZFC](/ZFC "ZFC")).
+[ZFC](ZFC "ZFC")).
 
 The real question however is, given a collection, how does one determine
 whether it is finite or not. Certainly, if one can count all the
 elements of a collection, then the collection is finite, but who can
 count up to a
-[googol](/Googol "Googol")?
+[googol](Googol "Googol")?
 yet it is finite.
 
 Gallileo noticed that there are as many even numbers as there are

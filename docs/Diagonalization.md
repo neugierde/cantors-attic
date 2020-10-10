@@ -115,7 +115,7 @@ The sequence for \\(\\Gamma\_0=\\varphi(1,0,0)\\) is \\(\\lbrace
 
 Now we encounter large countable ordinals that can only be expressed
 with the [Extended Veblen
-function](/Extended_Veblen_function "Extended Veblen function").
+function](Extended_Veblen_function "Extended Veblen function").
 
 The sequence for \\(\\Gamma\_1=\\varphi(1,0,1)\\) is \\(\\lbrace
 \\varphi\_{\\Gamma\_0+1}(0),\\varphi\_{\\varphi\_{\\Gamma\_0+1}(0)}(0),\\cdots
@@ -133,7 +133,7 @@ of the \\(\\Gamma\\) function.
 ## ψ function sequences
 
 In [Madore's ψ
-function](/Madore%27s_%CF%88_function "Madore's ψ function"),
+function](Madore%27s_%CF%88_function "Madore's ψ function"),
 there is a thing called \\(\\Omega\\).
 
 The sequence for \\(\\psi(\\Omega^\\omega+\\Omega^3\\omega2+\\Omega)\\)

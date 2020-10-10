@@ -19,7 +19,7 @@ The weakly measurable cardinals were introduced by Jason Schanker in
 \[[1](#bibkey_Schanker2011:WeaklyMeasurableCardinals)\],
 \[[2](#bibkey_Schanker2011:Thesis)\]. As their name suggests, they
 provide a weakening of the large cardinal concept of
-[measurability](/Measurable "Measurable").
+[measurability](Measurable "Measurable").
 If the GCH holds at $\\kappa$, then the property of the weak
 measurability of $\\kappa$ is equivalent to that of the full
 measurability of $\\kappa$, but when $\\kappa^+\\lt 2^\\kappa$, these
@@ -56,7 +56,7 @@ in an inner model.
 A cardinal $\\kappa$ is *weakly measurable* if and only if for every
 family $\\mathcal{A}\\subset P(\\kappa)$ of size at most $\\kappa^+$,
 there is a nonprincipal $\\kappa$-complete
-[filter](/Filter "Filter")
+[filter](Filter "Filter")
 on $\\kappa$ measuring every set in $\\mathcal{A}$. (i.e., For every
 subset $A \\in \\mathcal{A}$, either $A$ or $\\kappa \\setminus A$ is in
 the filter.)
@@ -66,13 +66,13 @@ the filter.)
 If $(\\kappa^+)^{ {&lt;}\\kappa} = \\kappa^+$, then weak measurability
 can also be equivalently characterized in several different ways in
 terms of [elementary
-embeddings](/Elementary_embedding "Elementary embedding").
+embeddings](Elementary_embedding "Elementary embedding").
 
 Weak embedding characterization   
 For every $A \\subseteq \\kappa^+$, there exists a transitive $M \\vDash
 \\text{ZFC}^-$ with $A, \\kappa \\in M$, a transitive $N$ and an
 [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j: M \\longrightarrow N$ with critical point $\\kappa$.
 
 
@@ -103,7 +103,7 @@ M; f: \\kappa \\longrightarrow M\\}$.
 ## Weakly measurable cardinals and inner models
 
 Weakly measurable cardinals are incompatible with the axiom
-<a href="/V_%3D_L" class="mw-redirect" title="V = L">$V = L$</a>
+<a href="V_%3D_L" class="mw-redirect" title="V = L">$V = L$</a>
 since such cardinals are fully measurable if the GCH holds, and the
 constructible universe cannot contain nonprincipal countably complete
 ultrafilters. By the same reasoning, the Dodd-Jensen core model $K^{DJ}$
@@ -115,7 +115,7 @@ Lemma 3.36). Under certain anti-large cardinal hypotheses, a weakly
 measurable cardinal will be measurable in the suitable core model. For
 example, if $\\kappa$ is weakly measurable and there is no inner model
 with a measurable cardinal $\\lambda$ having
-<a href="/Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
+<a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
 $\\lambda^{++}$, then $\\kappa$ will be measurable in Mitchell's core
 model $K^m$ (\[[4](#bibkey_Jech2003:SetTheory)\], Theorem 35.17).
 
@@ -178,6 +178,6 @@ this possibility.
     <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

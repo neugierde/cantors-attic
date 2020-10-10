@@ -61,23 +61,23 @@ pages:
 
 -   <a href="http://googology.wikia.com/wiki/List_of_systems_of_fundamental_sequences" class="external text">List of systems of fundamental sequences</a>
 -   [Madore's ψ
-    function](/Madore%27s_%CF%88_function "Madore's ψ function")
+    function](Madore%27s_%CF%88_function "Madore's ψ function")
 -   [Buchholz's ψ
-    functions](/Buchholz%27s_%CF%88_functions "Buchholz's ψ functions")
+    functions](Buchholz%27s_%CF%88_functions "Buchholz's ψ functions")
 -   [Jäger's ψ
-    functions](/J%C3%A4ger%27s_collapsing_functions_and_%CF%81-inaccessible_ordinals "Jäger's collapsing functions and ρ-inaccessible ordinals")
+    functions](J%C3%A4ger%27s_collapsing_functions_and_%CF%81-inaccessible_ordinals "Jäger's collapsing functions and ρ-inaccessible ordinals")
 -   [Collapsing functions based on a weakly Mahlo
-    cardinal](/User_blog:Denis_Maksudov/Ordinal_functions_collapsing_the_least_weakly_Mahlo_cardinal;_a_system_of_fundamental_sequences "User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences")
+    cardinal](User_blog:Denis_Maksudov/Ordinal_functions_collapsing_the_least_weakly_Mahlo_cardinal;_a_system_of_fundamental_sequences "User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences")
 
 ## Values
 
 These calculations are based on
-[Diagonalization](/Diagonalization "Diagonalization").
+[Diagonalization](Diagonalization "Diagonalization").
 There are a few things to note: "\\(\\uparrow\\)" means [Knuth's
 up-arrow
-notation](/Knuth%27s_up-arrow_notation "Knuth's up-arrow notation").
+notation](Knuth%27s_up-arrow_notation "Knuth's up-arrow notation").
 "\\(\\lbrace\\rbrace\\)" means
-[BAN](/Bird%27s_array_notation "Bird's array notation").
+[BAN](Bird%27s_array_notation "Bird's array notation").
 
 \\begin{eqnarray\*} f\_0(n) &=& n + 1 \\\\ f\_1(n) &=& f\_0^n(n) = (
 \\cdots ((n + 1) + 1) + \\cdots + 1) = n + n = 2n \\\\ f\_2(n) &=&
@@ -221,7 +221,7 @@ f\_{\\vartheta(\\Omega\_{\\vartheta(\\Omega\_{\\vartheta(\\Omega\_{\\omega})})})
 
 For \\(\\alpha&lt;\\varepsilon\_0\\) the fast-growing hierarchy relates
 to the [Hardy
-hierarchy](/Hardy_hierarchy "Hardy hierarchy")
+hierarchy](Hardy_hierarchy "Hardy hierarchy")
 as follows
 
 \\(f\_\\alpha(n)=H\_{\\omega^\\alpha}(n)\\)
@@ -233,9 +233,9 @@ fast-growing hierarchy i.e.
 f\_{\\varepsilon\_0}(n+1)\\) for all \\(n ≥ 1\\).
 
 The [slow-growing
-hierarchy](/Slow-growing_hierarchy "Slow-growing hierarchy")
+hierarchy](Slow-growing_hierarchy "Slow-growing hierarchy")
 "catches up" to the fast-growing hierarchy at
 \\(\\psi\_0(\\Omega\_\\omega)\\), using [Buchholz's ψ
-functions](/Buchholz%27s_%CF%88_functions "Buchholz's ψ functions").
+functions](Buchholz%27s_%CF%88_functions "Buchholz's ψ functions").
 
 

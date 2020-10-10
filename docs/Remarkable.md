@@ -51,7 +51,7 @@ embedding $\\theta:M\\to N$ such that:
 -   $\\theta(e^{-1}(\\kappa))&gt;\\text{Ord}^M$.
 
 Remarkable cardinals could be called virtually
-[supercompact](/Supercompact "Supercompact"),
+[supercompact](Supercompact "Supercompact"),
 because the following alternative definition is an exact analogue of the
 definition of supercompact cardinals by Magidor \[Mag71\]:
 
@@ -77,7 +77,7 @@ Equivalently (theorem
 Note: the existence of any such elementary embedding in
 $V^{Coll(ω,&lt;κ)}$ is equivalent to the existence of such elementary
 embedding in any forcing extension (see
-[Elementary\_embedding\#Absoluteness](/Elementary_embedding#Absoluteness "Elementary embedding")).\[[3](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\].
+[Elementary\_embedding\#Absoluteness](Elementary_embedding#Absoluteness "Elementary embedding")).\[[3](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\].
 
 ## Results
 
@@ -86,49 +86,49 @@ Remarkable cardinals and the constructible universe:
 -   Remarkable cardinals are downward absolute to $L$.
     \[[1](#bibkey_Schindler2000:RemarkableCardinal)\]
 -   If
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
     exists, then every Silver indiscernible is remarkable in $L$.
     \[[1](#bibkey_Schindler2000:RemarkableCardinal)\]
 
 Relations with other large cardinals:
 
--   [Strong](/Strong "Strong")
+-   [Strong](Strong "Strong")
     cardinals are remarkable.
     \[[1](#bibkey_Schindler2000:RemarkableCardinal)\]
 -   A
-    <a href="/Iterable" class="mw-redirect" title="Iterable">$2$-iterable</a>
+    <a href="Iterable" class="mw-redirect" title="Iterable">$2$-iterable</a>
     cardinal implies the consistency of a remarkable cardinal: Every
     $2$-iterable cardinal is a limit of remarkable cardinals.
     \[[4](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
 -   Remarkable cardinals imply the consistency of
-    <a href="/Iterable" class="mw-redirect" title="Iterable">$1$-iterable cardinals</a>:
+    <a href="Iterable" class="mw-redirect" title="Iterable">$1$-iterable cardinals</a>:
     If there is a remarkable cardinal, then there is a countable
     transitive model of ZFC with a proper class of $1$-iterable
     cardinals. \[[4](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
 -   Remarkable cardinals are
-    <a href="/Totally_indescribable" class="mw-redirect" title="Totally indescribable">totally indescribable</a>.
+    <a href="Totally_indescribable" class="mw-redirect" title="Totally indescribable">totally indescribable</a>.
     \[[1](#bibkey_Schindler2000:RemarkableCardinal)\]
 -   Remarkable cardinals are [totally
-    ineffable](/Ineffable "Ineffable").
+    ineffable](Ineffable "Ineffable").
     \[[1](#bibkey_Schindler2000:RemarkableCardinal)\]
 -   [Virtually
-    extendible](/Extendible "Extendible")
+    extendible](Extendible "Extendible")
     cardinals are remarkable limits of remarkable
     cardinals.\[[2](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
 -   If $κ$ is virtually
-    [measurable](/Measurable "Measurable"),
+    [measurable](Measurable "Measurable"),
     then either $κ$ is remarkable in $L$ or $L\_κ \\models \\text{“there
     is a proper class of virtually
     measurables”}$.\[[5](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 -   Remarkable cardinals are strategic
-    $ω$-[Ramsey](/Ramsey "Ramsey")
+    $ω$-[Ramsey](Ramsey "Ramsey")
     limits of $ω$-Ramsey
     cardinals.\[[5](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 -   Remarkable cardinals are
     $Σ\_2$-reflecting.\[[6](#bibkey_Wilson2018:WeaklyRemarkableCardinals)\]
 
 Equiconsistency with the [weak Proper Forcing
-Axiom](/Forcing "Forcing"):\[[3](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+Axiom](Forcing "Forcing"):\[[3](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
 
 -   If there is a remarkable cardinal, then $\\text{wPFA}$ holds in a
     forcing extension by a proper poset.
@@ -149,7 +149,7 @@ $Σ\_2$-reflecting.
 
 The existence of non-remarkable weakly remarkable cardinals is
 equiconsistent to the existence of an
-[$ω$-Erdős](/Erdos "Erdos")
+[$ω$-Erdős](Erdos "Erdos")
 cardinal (equivalent assuming $V=L$; Baumgartner definition of $ω$-Erdős
 cardinals):
 
@@ -166,7 +166,7 @@ extendible cardinals are virtually $C^{(1)}$-extendible). A cardinal is
 called **completely remarkable** iff it is $n$-remarkable for all $n
 &gt; 0$. Other definitions and properties in [Extendible\#Virtually
 extendible
-cardinals](/Extendible#Virtually_extendible_cardinals "Extendible").\[[3](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+cardinals](Extendible#Virtually_extendible_cardinals "Extendible").\[[3](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
 
 ## References
 
@@ -197,6 +197,6 @@ cardinals](/Extendible#Virtually_extendible_cardinals "Extendible").\[[3](#bibke
     <a href="http://arxiv.org/abs/1807.02207v1" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BWilson2018:WeaklyRemarkableCardinals,%20%20%20%20AUTHOR%20=%20%7BWilson,%20Trevor%20M.%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BWeakly%20remarkable%20cardinals,%20Erdős%20cardinals,%20and%20the%20generic%20Vopěnka%20principle%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1807.02207v1%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

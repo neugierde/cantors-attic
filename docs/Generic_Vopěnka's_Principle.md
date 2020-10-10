@@ -10,7 +10,7 @@ permalink: Generic_Vopěnka's_Principle
 
 
 (Redirected from [Generic Vopěnka's
-Principle](/index.php?title=Generic_Vop%C4%9Bnka%27s_Principle&redirect=no "Generic Vopěnka's Principle"))
+Principle](index.php?title=Generic_Vop%C4%9Bnka%27s_Principle&redirect=no "Generic Vopěnka's Principle"))
 
 
 
@@ -25,20 +25,20 @@ common definition is the following:
 > For any language $\\mathcal{L}$ and any proper class $C$ of
 > $\\mathcal{L}$-structures, there are distinct structures $M, N\\in C$
 > and an [elementary
-> embedding](/Elementary_embedding "Elementary embedding")
+> embedding](Elementary_embedding "Elementary embedding")
 > $j:M\\to N$.
 
 For example, taking $\\mathcal{L}$ to be the language with one unary and
 one binary predicate, we can consider for any ordinal $\\eta$ the class
 of structures $\\langle V\_{\\alpha+\\eta},\\{\\alpha\\},\\in\\rangle$,
 and conclude from Vopěnka's principle that a cardinal that is at least
-$\\eta$-[extendible](/Extendible "Extendible")
+$\\eta$-[extendible](Extendible "Extendible")
 exists. In fact if Vopěnka's principle holds then there is a stationary
 proper class of extendible cardinals; bounding the strength of the axiom
 from above, we have that if $\\kappa$ is [almost
-huge](/Huge#Almost_huge "Huge"),
+huge](Huge#Almost_huge "Huge"),
 or even
-[almost-high-jump](/High-jump "High-jump"),
+[almost-high-jump](High-jump "High-jump"),
 then $V\_\\kappa$ satisfies Vopěnka's principle.
 
 
@@ -126,26 +126,26 @@ ZFC+VS.\[[2](#bibkey_Hamkins2016:TheVopenkaPrincipleIs)\]
 
 Perlmutter proved that a cardinal is a Vopěnka cardinal if and only if
 it is a [Woodin for
-supercompactness](/Woodin "Woodin")
+supercompactness](Woodin "Woodin")
 cardinal.
 Besides:\[[3](#bibkey_Perlmutter2010:TheLargeCardinalsBetweenSupercompactAlmostHuge)\]
 
 -   If the cardinal $δ$ is Woodin for supercompactness, then in the
     model $V\_δ$, there is a proper class of
-    [hypercompact](/Hypercompact "Hypercompact")
+    [hypercompact](Hypercompact "Hypercompact")
     cardinals.
 -   If the cardinal $δ$ is Woodin for supercompactness, then there are
     unboundedly many cardinals $κ &lt; δ$ such that $κ$ is a limit of
     cardinals $η$ such that there exists an inaccessible cardinal $β$
     such that $η &lt; β &lt; κ$, and $V\_β \\models$ “$η$ is [enhanced
-    supercompact](/Supercompact#Enhanced_supercompact_cardinals "Supercompact")”.
+    supercompact](Supercompact#Enhanced_supercompact_cardinals "Supercompact")”.
 
 As we mentioned above, every almost huge cardinal is a Vopěnka cardinal.
 
 Every Vopěnka cardinal $δ$ has a club set of Vopěnka-scheme cardinals
 below. In particular, below $δ$ there is a stationary set of
 inaccessible Vopěnka-scheme cardinals and even $( &lt; δ,
-A)$-[extendible](/Extendible "Extendible")
+A)$-[extendible](Extendible "Extendible")
 Vopěnka-scheme cardinals for any particular $A ⊆
 V\_κ$.\[[2](#bibkey_Hamkins2016:TheVopenkaPrincipleIs)\]
 
@@ -155,7 +155,7 @@ V\_κ$.\[[2](#bibkey_Hamkins2016:TheVopenkaPrincipleIs)\]
 
 The schema form of Vopěnka's principle is equivalent to the existence of
 a proper class of
-$C^{(n)}$-[extendible](/Extendible "Extendible")
+$C^{(n)}$-[extendible](Extendible "Extendible")
 cardinals for every $n$; indeed there is a level-by-level stratification
 of Vopěnka's principle, with Vopěnka's principle for a
 $\\Sigma\_{n+2}$-definable class corresponds to the existence of a
@@ -191,12 +191,12 @@ Here are some examples of strong compactness cardinals of specific
 logics:
 
 -   If $\\kappa\\leq\\lambda$ and $\\lambda$ is [strongly
-    compact](/Strongly_compact "Strongly compact")
+    compact](Strongly_compact "Strongly compact")
     or $\\aleph\_0$, then the strong compactness cardinal of
-    [$\\mathcal{L}\_{\\kappa,\\kappa}$](/Infinitary_logic "Infinitary logic")
+    [$\\mathcal{L}\_{\\kappa,\\kappa}$](Infinitary_logic "Infinitary logic")
     is at most $\\lambda$.
 -   Similarly, if $\\kappa\\leq\\lambda$ and $\\lambda$ is
-    [extendible](/Extendible "Extendible"),
+    [extendible](Extendible "Extendible"),
     then for any natural number $n$, the strong compactness cardinal of
     $\\mathcal{L}^n\_{\\kappa,\\kappa}$
     ($\\mathcal{L}\_{\\kappa,\\kappa}$ with $n+1$-th order logic) is at
@@ -214,7 +214,7 @@ simple directed graphs, there is at least one pair of nonequal graphs
 $G$ and $H$ in the class such that $G$ is a subgraph of $H$. This is a
 $\\Pi^1\_1$ statement, so the least Vopěnka cardinals are not even
 [weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 (although the least weakly compact cardinal is much, much, much smaller
 than the least Vopěnka cardinal, if it exists).
 
@@ -241,13 +241,13 @@ $d$.
 ### <span id="Woodin_cardinals" class="mw-headline">Woodin cardinals</span>
 
 There is a strange connection between the
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinals and the Vopěnka cardinals. In particular, Vopěnkaness is
 equivalent to two strengthening variants of Woodinness, namely the
 [Woodin for
-Supercompactness](/Woodin#Shelah "Woodin")
+Supercompactness](Woodin#Shelah "Woodin")
 cardinals and the
-<a href="/N-fold_Woodin" class="mw-redirect" title="N-fold Woodin">$2$-fold Woodin</a>
+<a href="N-fold_Woodin" class="mw-redirect" title="N-fold Woodin">$2$-fold Woodin</a>
 cardinals. As a result, every Vopěnka cardinal is Woodin.
 
 ### <span id="Elementary_Embeddings_Between_Ranks" class="mw-headline">Elementary Embeddings Between Ranks</span>
@@ -255,7 +255,7 @@ cardinals. As a result, every Vopěnka cardinal is Woodin.
 An equivalent statement to Vopěnka's principle is that for any proper
 class $C\\subseteq ORD$, there are $\\alpha\\in C$, $\\beta\\in C$, and
 a nontrivial [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j:\\langle V\_\\alpha;\\in,P\\rangle\\rightarrow\\langle
 V\_\\beta;\\in,P\\rangle$. Vopěnka's principle quite obviously implies
 this. The reason the converse holds is because every elementary
@@ -266,18 +266,18 @@ information, see \[[6](#bibkey_Kanamori2009:HigherInfinite)\].
 
 -   Whilst Vopěnka cardinals are very strong in terms of consistency
     strength, a Vopěnka cardinal need not even be [weakly
-    compact](/Weakly_compact "Weakly compact").
+    compact](Weakly_compact "Weakly compact").
     Indeed, the definition of a Vopěnka cardinal is a $\\Pi^1\_1$
     statement over $V\_\\kappa$ (Vopěnka's principle itself is
     $\\Pi^1\_1$), and
-    [$\\Pi^1\_1$-indescribability](/Indescribable "Indescribable")
+    [$\\Pi^1\_1$-indescribability](Indescribable "Indescribable")
     is one of the equivalent definitions of weak compactness. Thus, the
     least weakly compact Vopěnka cardinal must have (many) other Vopěnka
     cardinals less than it.
 -   The Vopěnka principle implies that
-    <a href="/Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">$\text{Ord}$ is Mahlo</a>:
+    <a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">$\text{Ord}$ is Mahlo</a>:
     every class club contains a regular cardinal and indeed, an
-    [extendible](/Extendible "Extendible")
+    [extendible](Extendible "Extendible")
     cardinal and
     more.\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
 -   If the Vopěnka scheme holds, then there is a class-forcing extension
@@ -312,7 +312,7 @@ Results:
 -   For every $Γ$, $VP(κ, Γ)$ for some $κ$ implies $VP(Γ)$.
 -   $VP(κ, \\mathbf{Σ\_1})$ holds for every uncountable cardinal $κ$.
 -   $VP(Π\_1) \\iff VP(κ, Σ\_2)$ for some $κ \\iff$ There is a
-    [supercompact](/Supercompact "Supercompact")
+    [supercompact](Supercompact "Supercompact")
     cardinal.
 -   $VP(\\mathbf{Π\_1}) \\iff VP(κ, \\mathbf{Σ\_2})$ for a proper class
     of cardinals $κ \\iff$ There is a proper class of supercompact
@@ -321,7 +321,7 @@ Results:
     -   $VP(Π\_{n+1})$
     -   $VP(κ, \\mathbf{Σ\_{n+2}})$ for some $κ$
     -   There is a
-        $C(n)$-[extendible](/Extendible "Extendible")
+        $C(n)$-[extendible](Extendible "Extendible")
         cardinal.
 -   The following are equivalent:
     -   $VP(Π\_n)$ for every n.
@@ -367,7 +367,7 @@ Results:
     -   $gVP(Π\_n)$
     -   $gVP(κ, \\mathbf{Σ\_{n+1}})$ for some $κ$
     -   There is an
-        <a href="/N-remarkable" class="mw-redirect" title="N-remarkable">$n$-remarkable</a>
+        <a href="N-remarkable" class="mw-redirect" title="N-remarkable">$n$-remarkable</a>
         cardinal.
 -   The following are equiconsistent:
     -   $gVP(\\mathbf{Π\_n})$
@@ -390,19 +390,19 @@ Results:
     holds.\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
 -   If $gVP(Σ\_{n+1})$ holds, then either there is a proper class of
     $n$-remarkable cardinals or there is a proper class of
-    <a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
+    <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
     cardinals.\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
 -   If $0^♯$
-    (<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">zero sharp</a>),
+    (<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">zero sharp</a>),
     then $L$, equipped with only its definable classes, is a model of
     $gVP$. (By [elementary-embedding absoluteness
-    results](/Elementary_embedding#Absoluteness "Elementary embedding").
+    results](Elementary_embedding#Absoluteness "Elementary embedding").
     The hypothesis can be weakened, because one can chop at off the
     universe at any Silver indiscernible and use
     reflection.)\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
 -   The generic Vopěnka principle holds iff for every class $A$, there
     are a proper class of (weakly) virtually
-    $A$-[extendible](/Extendible "Extendible")
+    $A$-[extendible](Extendible "Extendible")
     cardinals.\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
 -   The generic Vopěnka scheme is equivalent over ZFC to the scheme
     asserting of every definable class $A$ that there is a proper class
@@ -410,7 +410,7 @@ Results:
     cardinals.\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
 -   It is relatively consistent that GBC and the generic Vopěnka
     principle holds, yet
-    <a href="/Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is not Mahlo</a>:\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    <a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is not Mahlo</a>:\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
     -   If $0^♯$ exists in $V$, then there is a class-forcing notion
         $\\mathbb{P}$ definable in the constructible universe $L$, such
         that in any $L$-generic extension $L\[C\]$ by this forcing,
@@ -506,6 +506,6 @@ Results:
     <a href="https://web.archive.org/web/20191028003545/https://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html" class="extiw">www</a>   <a href="https://web.archive.org/web/20191028003545/http://dx.doi.org/10.1007/s00153-016-0511-x" class="extiw">DOI</a>   <a href="https://web.archive.org/web/20191028003545/http://www.ams.org/mathscinet-getitem?mr=3598793" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BBagariaGitmanSchindler2017:VopenkaPrinciple,%20AUTHOR%20=%20%7BBagaria,%20Joan%20and%20Gitman,%20Victoria%20and%20Schindler,%20Ralf%7D,%3Cbr%3E%20TITLE%20=%20%7BGeneric%20%7BV%7Dopěnka\&#39;s%20%7BP%7Drinciple,%20remarkable%20cardinals,%20and%20the%20weak%20%7BP%7Droper%20%7BF%7Dorcing%20%7BA%7Dxiom%7D,%3Cbr%3E%20JOURNAL%20=%20%7BArch.%20Math.%20Logic%7D,%3Cbr%3E%20FJOURNAL%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20VOLUME%20=%20%7B56%7D,%3Cbr%3E%20YEAR%20=%20%7B2017%7D,%3Cbr%3E%20NUMBER%20=%20%7B1-2%7D,%3Cbr%3E%20PAGES%20=%20%7B1--20%7D,%3Cbr%3E%20ISSN%20=%20%7B0933-5846%7D,%3Cbr%3E%20MRCLASS%20=%20%7B03E35%20(03E55%2003E57)%7D,%3Cbr%3E%20MRNUMBER%20=%20%7B3598793%7D,%3Cbr%3E%20DOI%20=%20%7B10.1007/s00153-016-0511-x%7D,%3Cbr%3E%20URL%20=%20%7Bhttps://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

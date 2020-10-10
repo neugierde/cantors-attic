@@ -36,42 +36,42 @@ $\\mathrm{M}$ such that $j:V\\rightarrow\\mathcal{M}$ is an elementary
 embedding. The closer $\\mathcal{M}$ gets to $V$, the closer one is to
 proving the Wholeness Axiom. Assuming this embedding has a critical
 point, one gets closer to a
-<a href="/Reinhardt" class="mw-redirect" title="Reinhardt">Reinhardt</a>
+<a href="Reinhardt" class="mw-redirect" title="Reinhardt">Reinhardt</a>
 cardinal, which is inconsistent with the Axiom of Choice. Thus, the
 following axioms mention critical points:
 
 -   [Rank into
-    rank](/Rank_into_rank "Rank into rank")
+    rank](Rank_into_rank "Rank into rank")
     cardinals (axioms I0-I3)
 -   The [wholeness
-    axiom](/Wholeness_axiom "Wholeness axiom")
+    axiom](Wholeness_axiom "Wholeness axiom")
 -   Huge cardinals:
     -   [almost
-        n-huge](/Huge "Huge")
+        n-huge](Huge "Huge")
     -   [almost
-        super-n-huge](/Huge "Huge")
-    -   [n-huge](/Huge "Huge")
-    -   [super-n-huge](/Huge "Huge")
-    -   [$\\omega$-huge](/Huge "Huge")
+        super-n-huge](Huge "Huge")
+    -   [n-huge](Huge "Huge")
+    -   [super-n-huge](Huge "Huge")
+    -   [$\\omega$-huge](Huge "Huge")
 -   High jump cardinals:
     -   [almost
-        high-jump](/High-jump "High-jump")
-    -   [high-jump](/High-jump "High-jump")
+        high-jump](High-jump "High-jump")
+    -   [high-jump](High-jump "High-jump")
     -   [super
-        high-jump](/High-jump "High-jump")
+        high-jump](High-jump "High-jump")
     -   [high-jump with unbounded excess
-        closure](/High-jump "High-jump")
--   [$\\alpha$-extendible](/Extendible "Extendible")
+        closure](High-jump "High-jump")
+-   [$\\alpha$-extendible](Extendible "Extendible")
 -   Compact cardinals:
-    -   [$\\lambda$-supercompact](/Supercompact "Supercompact")
+    -   [$\\lambda$-supercompact](Supercompact "Supercompact")
     -   [strongly
-        compact](/Strongly_compact "Strongly compact")
+        compact](Strongly_compact "Strongly compact")
     -   [nearly
-        supercompact](/Nearly_supercompact "Nearly supercompact")
+        supercompact](Nearly_supercompact "Nearly supercompact")
 -   Strong cardinals:
-    -   [superstrong](/Superstrong "Superstrong")
-    -   [$\\theta$-strong](/Strong "Strong")
--   [Tall](/Tall "Tall")
+    -   [superstrong](Superstrong "Superstrong")
+    -   [$\\theta$-strong](Strong "Strong")
+-   [Tall](Tall "Tall")
     cardinals
 
 

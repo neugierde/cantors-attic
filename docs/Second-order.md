@@ -144,12 +144,12 @@ $A$ and $B$,
 ## Models of $\\text{MK}$
 
 In consistency strength, $\\text{MK}$ is stronger than
-[$\\text{ZFC}$](/ZFC "ZFC")
+[$\\text{ZFC}$](ZFC "ZFC")
 and weaker than the existence of an
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 cardinal. It directly implies the consistency of $\\text{ZFC}$ plus
 "there is a proper class of
-[worldly](/Worldly "Worldly")
+[worldly](Worldly "Worldly")
 cardinals stationary in $\\text{Ord}$". However, if a cardinal $\\kappa$
 is inaccessible then $V\_{\\kappa+1}\\models\\text{MK}$, also
 $\\text{def}(V\_\\kappa)$ satisfies $\\text{NBG}$ minus global choice
@@ -161,13 +161,13 @@ to be the powerset of some model of $\\text{ZFC}$. For this reason, a
 large cardinal axiom with $V\_\\kappa$ having some elementary property
 can be strengthened by instead using $V\_{\\kappa+1}$. When doing this
 with
-[$\\Pi\_m^0$-indescribability](/Indescribable "Indescribable"),
+[$\\Pi\_m^0$-indescribability](Indescribable "Indescribable"),
 one achieves
-[$\\Pi\_m^1$-indescribability](/Indescribable "Indescribable")
+[$\\Pi\_m^1$-indescribability](Indescribable "Indescribable")
 (which is considerably stronger). When doing this with
-[0-extendibility](/Extendible "Extendible")
+[0-extendibility](Extendible "Extendible")
 (which is equiconsistent with $\\text{ZFC}$), one achieves
-[1-extendibility](/Extendible "Extendible").
+[1-extendibility](Extendible "Extendible").
 
 ## Between $\\text{NBG}$ and $\\text{MK}$
 

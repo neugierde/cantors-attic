@@ -10,7 +10,7 @@ permalink: Silver_cardinal
 
 
 (Redirected from [Silver
-cardinal](/index.php?title=Silver_cardinal&redirect=no "Silver cardinal"))
+cardinal](index.php?title=Silver_cardinal&redirect=no "Silver cardinal"))
 
 
 
@@ -19,7 +19,7 @@ cardinal](/index.php?title=Silver_cardinal&redirect=no "Silver cardinal"))
 
 The Constructible universe (denoted $L$) was invented by Kurt Gödel as a
 transitive inner model of
-[$\\text{ZFC+}$](/ZFC "ZFC")<a href="/web/20191005075353/http://cantorsattic.info/GCH" class="mw-redirect" title="GCH">$\text{GCH}$</a>
+[$\\text{ZFC+}$](ZFC "ZFC")<a href="/web/20191005075353/http://cantorsattic.info/GCH" class="mw-redirect" title="GCH">$\text{GCH}$</a>
 (assuming the consistency of $\\text{ZFC}$) showing that $\\text{ZFC}$
 cannot disprove $\\text{GCH}$. It was then shown to be an important
 model of $\\text{ZFC}$ for its satisfying of other axioms, thus making
@@ -112,7 +112,7 @@ $L(W)=\\bigcup\_{\\alpha\\in\\mathrm{Ord}}L\_\\alpha(W)$ is always a
 model of $\\text{ZF}$ but need not satisfy $\\text{AC}$ (the axiom of
 choice). In particular, $L(\\mathbb{R})$ is, under large cardinal
 assumptions, a model of the [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy").
+determinacy](Axiom_of_determinacy "Axiom of determinacy").
 However, Shelah proved that if $\\lambda$ is a strong limit cardinal of
 uncountable cofinality then $L(\\mathcal{P}(\\lambda))$ is a model of
 $\\text{AC}$.
@@ -123,7 +123,7 @@ For $\\alpha\\leq\\omega$, $L\_\\alpha=V\_\\alpha$. However,
 $\|L\_{\\omega+\\alpha}\|=\\aleph\_0 + \|\\alpha\|$ whilst
 $\|V\_{\\omega+\\alpha}\|=\\beth\_\\alpha$. Unless $\\alpha$ is a
 [$\\beth$-fixed
-point](/Beth "Beth"),
+point](Beth "Beth"),
 $\|L\_{\\omega+\\alpha}\|&lt;\|V\_{\\omega+\\alpha}\|$. Although
 $L\_\\alpha$ is quite small compared to $V\_\\alpha$, $L$ is a tall
 model, meaning $L$ contains every ordinal. In fact,
@@ -132,12 +132,12 @@ the ordinals in $V\_\\alpha$ are precisely those in $L\_\\alpha$.
 
 If $0^{\\\#}$ exists (see below), then every uncountable cardinal
 $\\kappa$ has $L\\models$"$\\kappa$is [totally
-ineffable](/Ineffable "Ineffable")
+ineffable](Ineffable "Ineffable")
 (and therefore the smallest actually totally ineffable cardinal
 $\\lambda$ has many more large cardinal properties in $L$).
 
 However, if $\\kappa$ is
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 and $V=L$, then $V\_\\kappa=L\_\\kappa$. Furthermore,
 $V\_\\kappa\\models (V=L)$. In the case where $V\\neq L$, it is still
 true that $V\_\\kappa^L=L\_\\kappa$, although $V\_\\kappa^L$ will not be
@@ -151,7 +151,7 @@ Here is a list of statements true in $L$:
 -   $\\text{ZFC}$ (and therefore the Axiom of Choice)
 -   $\\text{GCH}$
 -   $V=L$ (and therefore $V$ $=$
-    [$\\text{HOD}$](/HOD "HOD"))
+    [$\\text{HOD}$](HOD "HOD"))
 -   The Diamond Principle
 -   The Clubsuit Principle
 -   The Falsity of Suslin's Hypothesis
@@ -159,7 +159,7 @@ Here is a list of statements true in $L$:
 ## Determinacy of $L(\\R)$
 
 *Main article: [axiom of
-determinacy](/Axiom_of_determinacy#Determinacy_of_.24L.28.5Cmathbb.7BR.7D.29.24 "Axiom of determinacy")*
+determinacy](Axiom_of_determinacy#Determinacy_of_.24L.28.5Cmathbb.7BR.7D.29.24 "Axiom of determinacy")*
 
 ## Using other logic systems than first-order logic
 
@@ -188,20 +188,20 @@ e.g.:\[[1](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
 
 -   Every element of a club $C$ witnessing that $κ$ is a Silver cardinal
     is
-    <a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>.
+    <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>.
 -   If $C ∈ V\[H\]$, a forcing extension by $\\mathrm{Coll}(ω, V\_κ)$,
     is a club in $κ$ of generating indiscernibles for $V\_κ$ of
     order-type $κ$, then each $ξ ∈ C$ is $&lt;
-    ω\_1$-<a href="/Iterable" class="mw-redirect" title="Iterable">iterable</a>.
+    ω\_1$-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>.
 
 ## Sharps
 
 $0^{\\\#}$ (zero sharp) is a
-[$\\Sigma\_3^1$](/Projective "Projective")
+[$\\Sigma\_3^1$](Projective "Projective")
 real number which, under the existence of many Silver indiscernibles (a
 statement independent of $\\text{ZFC}$), has a certain number of
 properties that contredicts the
-<a href="/L" class="mw-redirect" title="L">axiom of constructibility</a>
+<a href="L" class="mw-redirect" title="L">axiom of constructibility</a>
 and implies that, in short, $L$ and $V$ are "*very different*".
 Technically, under the standard definition of $0^\\\#$ as a (real number
 encoding a) set of formulas, $0^\\\#$ provably exists in $\\text{ZFC}$,
@@ -242,32 +242,32 @@ If $0^\\\#$ exists then:
 -   For every $\\alpha\\in\\omega\_1^L$, every Silver indiscernible (and
     in particular every uncountable cardinal) in $L$ is a Silver
     cardinal,
-    [$\\alpha$-iterable](/Ramsey#iterable "Ramsey"),
+    [$\\alpha$-iterable](Ramsey#iterable "Ramsey"),
     $\\geq$ an
-    [$\\alpha$-Erdős](/Erdos "Erdos"),
+    [$\\alpha$-Erdős](Erdos "Erdos"),
     [totally
-    ineffable](/Ineffable "Ineffable")
+    ineffable](Ineffable "Ineffable")
     and
-    <a href="/Completely_remarkable" class="mw-redirect" title="Completely remarkable">completely remarkable</a>
+    <a href="Completely_remarkable" class="mw-redirect" title="Completely remarkable">completely remarkable</a>
     and has most other virtual large cardinal properties and other large
     cardinal properties consistent with
     $V=L$.\[[1](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]\[[2](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
 -   There are only countably many reals in $L$, i.e. $\|\\R\\cap
     L\|=\\aleph\_0$ in $V$.
 -   By [elementary-embedding absoluteness
-    results](/Elementary_embedding#Absoluteness "Elementary embedding")
+    results](Elementary_embedding#Absoluteness "Elementary embedding")
     (The hypothesis can be weakened, because one can chop at off the
     universe at any Silver indiscernible and use
     reflection.):\[[3](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
     -   $L$, equipped with only its definable classes, is a model of the
-        <a href="/Generic_Vop%C4%9Bnka%27s_Principle" class="mw-redirect" title="Generic Vopěnka&#39;s Principle">generic Vopěnka principle</a>.
+        <a href="Generic_Vop%C4%9Bnka%27s_Principle" class="mw-redirect" title="Generic Vopěnka&#39;s Principle">generic Vopěnka principle</a>.
     -   In $L$ there are numerous [virtual
-        rank-into-rank](/Rank_into_rank#Virtually_rank-into-rank "Rank into rank")
+        rank-into-rank](Rank_into_rank#Virtually_rank-into-rank "Rank into rank")
         embeddings $j : V\_θ^L → V\_θ^L$, where $θ$ is far above the
         supremum of the critical sequence.
 -   Therefore every Silver indiscernible
     -   is [virtually
-        $A$-extendible](/Extendible#Virtually_extendible_cardinals "Extendible")
+        $A$-extendible](Extendible#Virtually_extendible_cardinals "Extendible")
         in $L$ for every definable class $A$
     -   and is the critical point of virtual rank-into-rank embeddings
         with targets as high as desired and fixed points as high above
@@ -283,11 +283,11 @@ The following statements are equivalent:
 -   Jensen's Covering Theorem fails (see below).
 -   $L$ is thin, i.e. $\|L\\cap V\_\\alpha\|=\|\\alpha\|$ for all
     $\\alpha\\geq\\omega$.
--   $\\Sigma^1\_1$-<a href="/Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">determinacy</a>
+-   $\\Sigma^1\_1$-<a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">determinacy</a>
     (lightface form).
 -   $\\aleph\_\\omega$ is regular (hence weakly inaccessible) in $L$.
 -   There is a nontrivial [elementary
-    embedding](/Elementary_embedding "Elementary embedding")
+    embedding](Elementary_embedding "Elementary embedding")
     $j:L\\to L$.
 -   There is a proper class of nontrivial elementary embeddings $j:L\\to
     L$.
@@ -297,7 +297,7 @@ The following statements are equivalent:
 The existence of $0^\\\#$ is implied by:
 
 -   [Chang's
-    conjecture](/Chang%27s_conjecture "Chang's conjecture")
+    conjecture](Chang%27s_conjecture "Chang's conjecture")
 -   Both $\\omega\_1$ and $\\omega\_2$ being singular (requires
     $\\neg\\text{AC}$).
 -   The negation of the singular cardinal hypothesis ($\\text{SCH}$).
@@ -312,7 +312,7 @@ The existence of $0^\\\#$ is implied by:
 Note that if $0^{\\\#}$ exists then for every Silver indiscernible (in
 particular for every uncountable cardinal) there is a nontrivial
 [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j:L\\rightarrow L$ with that indiscernible as its critical point. Thus
 if any such embedding exists, then a proper class of those embeddings
 exists.
@@ -393,19 +393,19 @@ indiscernables, then the EM blueprint of $L\_\\delta$ is $0^\\\#$.
 
 $0^\\dagger$ (zero dagger) is a set of integers analogous to $0^\\sharp$
 and connected with inner models of
-[measurability](/Measurable "Measurable").\[[4](#bibkey_KanamoriAwerbuchFriedlander1990:Compleat0Dagger)\]
+[measurability](Measurable "Measurable").\[[4](#bibkey_KanamoriAwerbuchFriedlander1990:Compleat0Dagger)\]
 
 $0^{sword}$ is connected with nontrivial [Mitchell
-rank](/Mitchell_rank "Mitchell rank").
+rank](Mitchell_rank "Mitchell rank").
 $¬ 0 ^{sword}$ (*not zero sword*) means that there is no
-<a href="/Mouse" class="mw-redirect" title="Mouse">mouse</a>
+<a href="Mouse" class="mw-redirect" title="Mouse">mouse</a>
 with a measure of Mitchell order $&gt;
 0$.\[[5](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 
 $0^\\P$ (zero pistol) is connected with
-[strong](/Strong "Strong")
+[strong](Strong "Strong")
 cardinals. $¬ 0^\\P$ (*not zero pistol*) means that a [core
-model](/Core_model "Core model")
+model](Core_model "Core model")
 may be built with a strong cardinal, but that there is no class of
 indiscernibles for it that is closed and unbounded in
 $\\mathrm{Ord}$).\[[5](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
@@ -457,6 +457,6 @@ $\\mathcal{M}$.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
     <a href="http://arxiv.org/abs/1804.10383" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BNielsenWelch2018:GamesRamseylike,%20%20%20%20author%20=%20%7BNielsen,%20Dan%20Saattrup%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BGames%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1804.10383%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

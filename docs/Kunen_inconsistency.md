@@ -16,23 +16,23 @@ permalink: Kunen_inconsistency
 
 The Kunen inconsistency, the theorem showing that there can be no
 nontrivial [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 from the universe to itself, remains a focal point of large cardinal set
 theory, marking a hard upper bound at the summit of the main ascent of
 the large cardinal hierarchy, the first outright refutation of a large
 cardinal axiom. On this main ascent, large cardinal axioms assert the
 existence of elementary embeddings $j:V\\to M$ where $M$ exhibits
 increasing affinity with $V$ as one climbs the hierarchy. The
-$\\theta$-[strong](/Strong "Strong")
+$\\theta$-[strong](Strong "Strong")
 cardinals, for example, have $V\_\\theta\\subset M$; the
-$\\lambda$-[supercompact](/Supercompact "Supercompact")
+$\\lambda$-[supercompact](Supercompact "Supercompact")
 cardinals have $M^\\lambda\\subset M$; and the
-[huge](/Huge "Huge")
+[huge](Huge "Huge")
 cardinals have $M^{j(\\kappa)}\\subset M$. The natural limit of this
 trend, first suggested by Reinhardt, is a nontrivial elementary
 embedding $j:V\\to V$, the critical point of which is accordingly known
 as a
-*[Reinhardt](/Reinhardt "Reinhardt")*
+*[Reinhardt](Reinhardt "Reinhardt")*
 cardinal. Shortly after this idea was introduced, however, Kunen
 famously proved that there are no such embeddings, and hence no
 Reinhardt cardinals in $\\text{ZFC}$.
@@ -104,6 +104,6 @@ $\\Sigma\_n$-elementarity when the two models have the ordinals.
     <a href="http://dx.doi.org/10.2307/2586799" class="extiw">www</a>   <a href="http://web.archive.org/web/20191104122648/http://dx.doi.org/10.2307/2586799" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191104122648/http://www.ams.org/mathscinet-getitem?mr=1780073" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%7BSuzuki1999:NoDefinablejVtoVinZF,%20%20%20%20AUTHOR%20=%20%7BSuzuki,%20Akira%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BNo%20elementary%20embedding%20from%20$V$%20into%20$V$%20is%20definable%20%20%20%20%20%20%20%20%20%20%20%20%20%20from%20parameters%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BJ.%20Symbolic%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BThe%20Journal%20of%20Symbolic%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B64%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B1999%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B4%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B1591--1594%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0022-4812%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BJSYLA6%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E47%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7BMR1780073%20(2002h:03114)%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.2307/2586799%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.2307/2586799%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

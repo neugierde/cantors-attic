@@ -21,9 +21,9 @@ the following are equivalent:
 
 Weak compactness   
 A cardinal $\\kappa$ is weakly compact if and only if it is
-<a href="/Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
 and every $\\kappa$-satisfiable theory in an
-[$\\mathcal{L}\_{\\kappa,\\kappa}$](/Infinitary_logic "Infinitary logic")
+[$\\mathcal{L}\_{\\kappa,\\kappa}$](Infinitary_logic "Infinitary logic")
 language of size at most $\\kappa$ is satisfiable.
 
 Extension property   
@@ -34,24 +34,24 @@ V\_\\kappa,{\\in},A\\rangle\\prec\\langle W,{\\in},A^\*\\rangle$.
 
 Tree property   
 A cardinal $\\kappa$ is weakly compact if and only if it is
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 and has the [tree
-property](/Tree_property "Tree property").
+property](Tree_property "Tree property").
 
 Filter property   
 A cardinal $\\kappa$ is weakly compact if and only if whenever $M$ is a
 set containing at most $\\kappa$-many subsets of $\\kappa$, then there
 is a $\\kappa$-[complete nonprincipal
-filter](/Filter "Filter")
+filter](Filter "Filter")
 $F$ measuring every set in $M$.
 
 Weak embedding property   
 A cardinal $\\kappa$ is weakly compact if and only if for every
 $A\\subset\\kappa$ there is a transitive set $M$ of size $\\kappa$ with
 $\\kappa\\in M$ and a transitive set $N$ with an
-[embedding](/Elementary_embedding "Elementary embedding")
+[embedding](Elementary_embedding "Elementary embedding")
 $j:M\\to N$ with
-<a href="/Critical_point" class="mw-redirect" title="Critical point">critical point</a>
+<a href="Critical_point" class="mw-redirect" title="Critical point">critical point</a>
 $\\kappa$.
 
 Embedding characterization   
@@ -73,12 +73,12 @@ $j:M\\to N$ with critical point $\\kappa$ such that $j,M\\in N$.
 
 Partition property   
 A cardinal $\\kappa$ is weakly compact if and only if the [partition
-property](/Partition_property "Partition property")
+property](Partition_property "Partition property")
 $\\kappa\\to(\\kappa)^2\_2$ holds.
 
 Indescribability property   
 A cardinal $\\kappa$ is weakly compact if and only if it is
-$\\Pi\_1^1$-[indescribable](/Indescribable "Indescribable").
+$\\Pi\_1^1$-[indescribable](Indescribable "Indescribable").
 
 Skolem Property   
 A cardinal $\\kappa$ is weakly compact if and only if $\\kappa$ is
@@ -92,7 +92,7 @@ with $\\lambda\\leq\|M\|&lt;\\kappa$. For more info see
 
 Weakly compact cardinals first arose in connection with (and were named
 for) the question of whether certain [infinitary
-logics](/Infinitary_logic "Infinitary logic")
+logics](Infinitary_logic "Infinitary logic")
 satisfy the compactness theorem of first order logic. Specifically, in a
 language with a signature consisting, as in the first order context, of
 a set of constant, finitary function and relation symbols, we build up
@@ -110,7 +110,7 @@ it is satisfiable. First order logic is precisely
 $L\_{\\omega,\\omega}$, and the classical Compactness theorem asserts
 that every $\\omega$-satisfiable $\\mathcal{L}\_{\\omega,\\omega}$
 theory is satisfiable. A uncountable cardinal $\\kappa$ is *[strongly
-compact](/Strongly_compact "Strongly compact")*
+compact](Strongly_compact "Strongly compact")*
 if every $\\kappa$-satisfiable $\\mathcal{L}\_{\\kappa,\\kappa}$ theory
 is satisfiable. The cardinal $\\kappa$ is *weakly compact* if every
 $\\kappa$-satisfiable $\\mathcal{L}\_{\\kappa,\\kappa}$ theory, in a
@@ -185,7 +185,7 @@ $\\alpha\_1&lt;\\cdots&lt;\\alpha\_n$.
 ## Weakly compact cardinals and the constructible universe
 
 Every weakly compact cardinal is weakly compact in
-[$L$](/Constructible_universe "Constructible universe").
+[$L$](Constructible_universe "Constructible universe").
 \[[1](#bibkey_Jech2003:SetTheory)\]
 
 Nevertheless, the weak compactness property is not generally downward
@@ -200,12 +200,12 @@ absolute between transitive models of set theory.
 -   Weakly compact cardinals are preserved by the canonical forcing of
     the GCH, by fast function forcing and many other forcing notions \[
     [*citation
-    needed*](/Library "Library")
+    needed*](Library "Library")
     \].
 -   If $\\kappa$ is weakly compact, there is a forcing extension in
     which $\\kappa$ remains weakly compact and $2^\\kappa\\gt\\kappa$ \[
     [*citation
-    needed*](/Library "Library")
+    needed*](Library "Library")
     \].
 -   If the existence of weakly compact cardinals is consistent with ZFC,
     then there is a model of ZFC in which $\\kappa$ is not weakly
@@ -220,37 +220,37 @@ absolute between transitive models of set theory.
 ## Relations with other large cardinals
 
 -   Every weakly compact cardinal is
-    [inaccessible](/Inaccessible "Inaccessible"),
-    [Mahlo](/Mahlo "Mahlo"),
+    [inaccessible](Inaccessible "Inaccessible"),
+    [Mahlo](Mahlo "Mahlo"),
     hyper-Mahlo, hyper-hyper-Mahlo and more.
--   [Measurable](/Measurable "Measurable")
+-   [Measurable](Measurable "Measurable")
     cardinals,
-    [Ramsey](/Ramsey "Ramsey")
+    [Ramsey](Ramsey "Ramsey")
     cardinals, and [totally
-    indescribable](/Indescribable "Indescribable")
+    indescribable](Indescribable "Indescribable")
     cardinals are all weakly compact and a stationary limit of weakly
     compact cardinals.
 -   Assuming the consistency of a
-    <a href="/Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strongly unfoldable</a>
+    <a href="Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strongly unfoldable</a>
     cardinal with ZFC, it is also consistent for the least weakly
     compact cardinal to be the least
-    [unfoldable](/Unfoldable "Unfoldable")
+    [unfoldable](Unfoldable "Unfoldable")
     cardinal.
     \[[3](#bibkey_CodyGitikHamkinsSchanker2013:TheLeastWeaklyCompactCardinal)\]
 -   If GCH holds, then the least weakly compact cardinal is not [weakly
-    measurable](/Weakly_measurable "Weakly measurable").
+    measurable](Weakly_measurable "Weakly measurable").
     However, if there is a
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     cardinal, then it is consistent for the least weakly compact
     cardinal to be weakly measurable.
     \[[3](#bibkey_CodyGitikHamkinsSchanker2013:TheLeastWeaklyCompactCardinal)\]
 -   If it is consistent for there to be a [nearly
-    supercompact](/Nearly_supercompact "Nearly supercompact"),
+    supercompact](Nearly_supercompact "Nearly supercompact"),
     then it is consistent for the least weakly compact cardinal to be
     nearly supercompact.
     \[[3](#bibkey_CodyGitikHamkinsSchanker2013:TheLeastWeaklyCompactCardinal)\]
 -   For a cardinal $κ=κ^{&lt;κ}$, $κ$ is weakly compact iff it is
-    0-[Ramsey](/Ramsey "Ramsey").
+    0-[Ramsey](Ramsey "Ramsey").
     \[[4](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 
 ## $\\Sigma\_n$-weakly compact etc.
@@ -273,7 +273,7 @@ there is $λ ∈ I\_n := \\{λ &lt; κ : λ$ is inaccessible and $V\_λ
 
 In \[[5](#bibkey_Bosch2006:SmallDefinablyLargeCardinals)\] it is shown
 that every $Σ\_ω$-w.c. cardinal is
-$Σ\_ω$-[Mahlo](/Mahlo "Mahlo")
+$Σ\_ω$-[Mahlo](Mahlo "Mahlo")
 and the set of $Σ\_ω$-Mahlo cardinals below a $Σ\_ω$-w.c. cardinal is
 $Σ\_ω$-stationary, but if κ is $Π\_{n+1}$-Mahlo, then the set of
 $Σ\_n$-w.c. cardinals below $κ$ is $Π\_{n+1}$-stationary.
@@ -281,7 +281,7 @@ $Σ\_n$-w.c. cardinals below $κ$ is $Π\_{n+1}$-stationary.
 These properties are connected with some forms of absoluteness. For
 example, the existence of a $Σ\_ω$-w.c. cardinal is equiconsistent with
 the
-<a href="/index.php?title=Generic_absoluteness_axiom&amp;action=edit&amp;redlink=1" class="new" title="Generic absoluteness axiom (page does not exist)">generic absoluteness axiom</a>
+<a href="index.php?title=Generic_absoluteness_axiom&amp;action=edit&amp;redlink=1" class="new" title="Generic absoluteness axiom (page does not exist)">generic absoluteness axiom</a>
 $\\mathcal{A}(L(\\mathbb{R}), \\underset{\\sim}{Σ}\_ω , Γ)$ where $Γ$ is
 the class of projective ccc forcing notions.
 
@@ -321,6 +321,6 @@ from\[[6](#bibkey_Leshem2000:OCDefinableTreeProperty)\]\[[7](#bibkey_Bagaria2002
     <a href="https://www.academia.edu/2561575/AXIOMS_OF_GENERIC_ABSOLUTENESS" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075051/http://dx.doi.org/10.1201/9781439865903" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%20%7BBagaria2002:AxiomsOfGenericAbsoluteness,%20%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BAxioms%20of%20generic%20absoluteness%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BLogic%20Colloquium%202002%7D,%3Cbr%3E%20BOOKTITLE%20=%20%7BLogic%20Colloquium%20\&#39;02:%20Lecture%20Notes%20in%20Logic%2027%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2006%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1201/9781439865903%7D,%3Cbr%3E%20%20%20%20%20%20ISBN%20=%20%7B9780429065262%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://www.academia.edu/2561575/AXIOMS_OF_GENERIC_ABSOLUTENESS%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

@@ -36,7 +36,7 @@ at least $\\kappa^+$-many branches. A $\\kappa$-Kurepa tree is slim if
 every infinite level $\\alpha$ has size at most $\|\\alpha\|$.
 
 An uncountable cardinal κ has the
-<a href="/Filter_property" class="mw-redirect" title="Filter property">normal filter property</a>
+<a href="Filter_property" class="mw-redirect" title="Filter property">normal filter property</a>
 iff it is
 ineffable.\[[2](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
 
@@ -77,11 +77,11 @@ ineffability is completely characterized using slim Kurepa trees.
 \[[1](#bibkey_JensenKunen1969:Ineffable)\]
 
 If
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
 exists, then every Silver indiscernible is ineffable in $L$.
 \[[3](#bibkey_Jech2003:SetTheory)\]
 
-[Ramsey](/Ramsey "Ramsey")
+[Ramsey](Ramsey "Ramsey")
 cardinals are stationary limits of completely ineffable cardinals, they
 are weakly ineffable, but the least Ramsey cardinal is not ineffable.
 Ineffable Ramsey cardinals are limits of Ramsey cardinals, because
@@ -95,23 +95,23 @@ ineffable. \[[2](#bibkey_HolySchlicht2017:HierarchyRamseylike),
 
 ## Relations with other large cardinals
 
--   [Measurable](/Measurable "Measurable")
+-   [Measurable](Measurable "Measurable")
     cardinals are ineffable and stationary limits of ineffable
     cardinals.
--   [$\\omega$-Erdős](/Erdos "Erdos")
+-   [$\\omega$-Erdős](Erdos "Erdos")
     cardinals are stationary limits of ineffable cardinals, but not
     ineffable since they are $\\Pi\_1^1$-describable.
     \[[3](#bibkey_Jech2003:SetTheory)\]
 -   Ineffable cardinals are
-    $\\Pi^1\_2$-[indescribable](/Indescribable "Indescribable")
+    $\\Pi^1\_2$-[indescribable](Indescribable "Indescribable")
     \[[1](#bibkey_JensenKunen1969:Ineffable)\].
 -   Ineffable cardinals are limits of
-    <a href="/Totally_indescribable" class="mw-redirect" title="Totally indescribable">totally indescribable</a>
+    <a href="Totally_indescribable" class="mw-redirect" title="Totally indescribable">totally indescribable</a>
     cardinals. \[[1](#bibkey_JensenKunen1969:Ineffable)\]
     (\[[5](#bibkey_AbramsonHarringtonKleinbergZwicker1977:FlippingProperties)\]
     for proof)
 -   For a cardinal $κ=κ^{&lt;κ}$, $κ$ is ineffable iff it is normal
-    0-[Ramsey](/Ramsey "Ramsey").
+    0-[Ramsey](Ramsey "Ramsey").
     \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 
 ## Weakly ineffable cardinal
@@ -129,17 +129,17 @@ ineffable, then $\\diamondsuit\_\\kappa$ holds.
 -   Weakly ineffable cardinals are downward absolute to $L$.
     \[[1](#bibkey_JensenKunen1969:Ineffable)\]
 -   Weakly ineffable cardinals are
-    $\\Pi\_1^1$-[indescribable](/Indescribable "Indescribable").
+    $\\Pi\_1^1$-[indescribable](Indescribable "Indescribable").
     \[[1](#bibkey_JensenKunen1969:Ineffable)\]
 -   Ineffable cardinals are limits of weakly ineffable cardinals.
 -   Weakly ineffable cardinals are limits of
-    <a href="/Totally_indescribable" class="mw-redirect" title="Totally indescribable">totally indescribable</a>
+    <a href="Totally_indescribable" class="mw-redirect" title="Totally indescribable">totally indescribable</a>
     cardinals. \[[1](#bibkey_JensenKunen1969:Ineffable)\]
     (\[[5](#bibkey_AbramsonHarringtonKleinbergZwicker1977:FlippingProperties)\]
     for proof)
 -   For a cardinal $κ=κ^{&lt;κ}$, $κ$ is weakly ineffable iff it is
     genuine
-    0-[Ramsey](/Ramsey "Ramsey").
+    0-[Ramsey](Ramsey "Ramsey").
     \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 
 ## Subtle cardinal
@@ -158,16 +158,16 @@ If $\\kappa$ is subtle, then $\\diamondsuit\_\\kappa$ holds.
 -   Weakly ineffable cardinals are limits of subtle cardinals.
     \[[1](#bibkey_JensenKunen1969:Ineffable)\]
 -   Subtle cardinals are stationary limits of
-    <a href="/Totally_indescribable" class="mw-redirect" title="Totally indescribable">totally indescribable</a>
+    <a href="Totally_indescribable" class="mw-redirect" title="Totally indescribable">totally indescribable</a>
     cardinals. \[[1](#bibkey_JensenKunen1969:Ineffable),
     [7](#bibkey_Friedman1998:Subtle)\]
 -   The least subtle cardinal is not weakly compact as it is
     $\\Pi\_1^1$-describable.
--   [$\\alpha$-Erdős](/Erdos "Erdos")
+-   [$\\alpha$-Erdős](Erdos "Erdos")
     cardinals are subtle. \[[1](#bibkey_JensenKunen1969:Ineffable)\]
 -   If $δ$ is a subtle cardinal,
     -   the set of cardinals $κ$ below $δ$ that are [strongly
-        uplifting](/Uplifting "Uplifting")
+        uplifting](Uplifting "Uplifting")
         in $V\_δ$ is
         stationary.\[[8](#bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms)\]
     -   for every class $\\mathcal{A}$, in every club $B ⊆ δ$ there is
@@ -175,7 +175,7 @@ If $\\kappa$ is subtle, then $\\diamondsuit\_\\kappa$ holds.
         \\models \\text{“$κ$ is
         $\\mathcal{A}$-shrewd.”}$.\[[9](#bibkey_Rathjen2006:OrdinalAnalysis)\]
         (The set of cardinals $κ$ below $δ$ that are
-        $\\mathcal{A}$-[shrewd](/Shrewd "Shrewd")
+        $\\mathcal{A}$-[shrewd](Shrewd "Shrewd")
         in $V\_δ$ is stationary.)
     -   there is an $\\eta$-shrewd cardinal below $δ$ for all $\\eta
         &lt; δ$.\[[9](#bibkey_Rathjen2006:OrdinalAnalysis)\]
@@ -249,7 +249,7 @@ three properties imply being uncountable regular cardinals.
     ineffable and all $k$-subtle cardinals are $n$-subtle.
 
 This structure is similar to the [double helix of $n$-fold
-variants](/N-fold_variants "N-fold variants")
+variants](N-fold_variants "N-fold variants")
 and earlier known although
 smaller.\[[11](#bibkey_Kentaro2007:DoubleHelix)\]
 
@@ -275,16 +275,16 @@ Relations:
 -   Completely ineffable cardinals are limits of ineffable cardinals.
     \[[5](#bibkey_AbramsonHarringtonKleinbergZwicker1977:FlippingProperties)\]
 -   There are stationarily many completely ineffable, [greatly
-    Erdős](/Erdos "Erdos")
+    Erdős](Erdos "Erdos")
     cardinals below any
-    [Ramsey](/Ramsey "Ramsey")
+    [Ramsey](Ramsey "Ramsey")
     cardinal.\[[12](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 -   The following are
     equivalent:\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
     -   $κ$ is completely ineffable.
     -   $κ$ is coherent $&lt;ω$-Ramsey.
     -   $κ$ has the
-        $ω$-<a href="/Filter_property" class="mw-redirect" title="Filter property">filter property</a>.
+        $ω$-<a href="Filter_property" class="mw-redirect" title="Filter property">filter property</a>.
 -   Every completely ineffable is a stationary limit of
     $&lt;ω$-Ramseys.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 -   Completely Ramsey cardinals and $ω$-Ramsey cardinals are completely
@@ -348,6 +348,6 @@ Relations:
     <a href="http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075006/http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191005075006/http://www.ams.org/mathscinet-getitem?mr=2817562" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BSharpeWelch2011:GreatlyErdosChang,%20%20%20%20AUTHOR%20=%20%7BSharpe,%20Ian%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BGreatly%20Erdős%20cardinals%20with%20some%20generalizations%20to%20%20%20%20%20%20%20%20%20%20%20%20%20%20the%20Chang%20and%20Ramsey%20properties%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnn.%20Pure%20Appl.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B162%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B11%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B863--902%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0168-0072%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BAPALD7%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E04%20(03E35%2003E45%2003E55)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2817562%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

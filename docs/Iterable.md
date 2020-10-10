@@ -10,7 +10,7 @@ permalink: Iterable
 
 
 (Redirected from
-[Iterable](/index.php?title=Iterable&redirect=no "Iterable"))
+[Iterable](index.php?title=Iterable&redirect=no "Iterable"))
 
 
 
@@ -112,7 +112,7 @@ A cardinal $\\kappa$ is Ramsey if it has the partition property
 $\\kappa\\rightarrow (\\kappa)^{\\lt\\omega}\_2$.
 
 For infinite cardinals $\\kappa$ and $\\lambda$, the [partition
-property](/Partition_property "Partition property")
+property](Partition_property "Partition property")
 $\\kappa\\to(\\lambda)^n\_\\gamma$ asserts that for every function
 $F:\[\\kappa\]^n\\to\\gamma$ there is $H\\subseteq\\kappa$ with
 $\|H\|=\\lambda$ such that $F\\upharpoonright\[H\]^n$ is constant. Here
@@ -129,7 +129,7 @@ Ramsey cardinals were named in honor of Frank Ramsey, whose Ramsey
 theorem for partition properties of $\\omega$ motivated the
 generalizations of these to uncountable cardinals. A Ramsey cardinal
 $\\kappa$ is exactly the
-[$\\kappa$-Erdős](/Erdos "Erdos")
+[$\\kappa$-Erdős](Erdos "Erdos")
 cardinal.
 
 Ramsey cardinals have a number of other characterizations. They may be
@@ -137,7 +137,7 @@ characterized model theoretically through the existence of
 $\\kappa$-sized sets of indiscernibles for models meeting the criteria
 discussed below, as well as through the existence of $\\kappa$-sized
 models of set theory without power set with iterable
-[ultrapowers](/Ultrapower "Ultrapower").
+[ultrapowers](Ultrapower "Ultrapower").
 
 **Indiscernibles**: Suppose $\\mathcal A=(A,\\ldots)$ is a model of a
 language $\\mathcal L$ of size less than $\\kappa$ whose universe $A$
@@ -167,7 +167,7 @@ $A\\subseteq\\kappa$, there is a $\\kappa$-sized good set of
 indiscernibles for the model $\\langle L\_\\kappa\[A\], A\\rangle$.
 \[[8](#bibkey_DoddJensen1982:CoreModel)\]
 
-**$M$-<a href="/Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilters</a>**:
+**$M$-<a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilters</a>**:
 Suppose a transitive $M\\models {\\rm ZFC}^-$, the theory ${\\rm ZFC}$
 without the power set axiom (and using collection and separation rather
 than merely replacement) and $\\kappa$ is a cardinal in $M$. We call
@@ -204,30 +204,30 @@ weakly amenable countably complete $M$-ultrafilter on $\\kappa$.
 ### <span id="Ramsey_cardinals_and_the_constructible_universe" class="mw-headline">Ramsey cardinals and the constructible universe</span>
 
 Ramsey cardinals imply that
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
 exists and hence there cannot be Ramsey cardinals in $L$.
 \[[9](#bibkey_Kanamori2009:HigherInfinite)\]
 
 ### <span id="Relations_with_other_large_cardinals" class="mw-headline">Relations with other large cardinals</span>
 
--   [Measurable](/Measurable "Measurable")
+-   [Measurable](Measurable "Measurable")
     cardinals are Ramsey and stationary limits of Ramsey cardinals.
     \[[1](#bibkey_ErdosHajnal1962:Ramsey)\]
 -   Ramsey cardinals are
-    [unfoldable](/Unfoldable "Unfoldable")
+    [unfoldable](Unfoldable "Unfoldable")
     (using the $M$-ultrafilters characterization) and stationary limits
     of unfoldable cardinals (as they are stationary limits of
     $\\omega\_1$-iterable cardinals).
 -   Ramsey cardinals are stationary limits of
-    <a href="/Completely_ineffable" class="mw-redirect" title="Completely ineffable">completely ineffable</a>
+    <a href="Completely_ineffable" class="mw-redirect" title="Completely ineffable">completely ineffable</a>
     cardinals, they are
-    <a href="/Weakly_ineffable" class="mw-redirect" title="Weakly ineffable">weakly ineffable</a>,
+    <a href="Weakly_ineffable" class="mw-redirect" title="Weakly ineffable">weakly ineffable</a>,
     but the least Ramsey cardinal is not ineffable. Ineffable Ramsey
     cardinals are limits of Ramsey cardinals, because ineffable
     cardinals are $Π^1\_2$-indescribable and being Ramsey is a
     $Π^1\_2$-statement.\[[3](#bibkey_Gitman2011:RamseyLikeCardinals)\]
 -   There are stationarily many completely ineffable, [greatly
-    Erdős](/Erdos "Erdos")
+    Erdős](Erdos "Erdos")
     cardinals below any Ramsey
     cardinal.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 
@@ -236,16 +236,16 @@ Weaker Ramsey-like:
 -   The existence of a Ramsey cardinal is stronger than the existence of
     a proper class of almost Ramsey cardinals.
 -   The Ramsey cardinals are precisely the
-    [Erdős](/Erdos "Erdos")
+    [Erdős](Erdos "Erdos")
     almost Ramsey cardinals and also precisely the [weakly
-    compact](/Weakly_compact "Weakly compact")
+    compact](Weakly_compact "Weakly compact")
     almost Ramsey cardinals.
 -   A Ramsey cardinal is $\\omega\_1$-iterable and a stationary limit of
     $\\omega\_1$-iterable cardinals. This is already true of an
-    $\\omega\_1$-[Erdős](/Erdos "Erdos")
+    $\\omega\_1$-[Erdős](Erdos "Erdos")
     cardinal. \[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 -   A virtually Ramsey cardinal that is [weakly
-    compact](/Weakly_compact "Weakly compact")
+    compact](Weakly_compact "Weakly compact")
     is already Ramsey. If $κ$ is Ramsey, then there is a forcing
     extension destroying this, while preserving that $κ$ is virtually
     Ramsey. It is open whether virtually Ramsey cardinals are weaker
@@ -323,9 +323,9 @@ $\\mathcal{R}^\*(I) = \\{ X \\subseteq κ : κ - X \\in \\mathcal{R}(I)
 A regular uncountable cardinal $κ$ is Ramsey iff $κ \\not\\in
 \\mathcal{R}(\\mathcal{P}\_{&lt;κ}(κ))$. If it is Ramsey, we call
 $\\mathcal{R}(\\mathcal{P}\_{&lt;κ}(κ))$ *the Ramsey
-<a href="/Ideal" class="mw-redirect" title="Ideal">ideal</a>*
+<a href="Ideal" class="mw-redirect" title="Ideal">ideal</a>*
 on $κ$, its dual $\\mathcal{R}^\*(\\mathcal{P}\_{&lt;κ}(κ))$ *the Ramsey
-[filter](/Filter "Filter")*
+[filter](Filter "Filter")*
 and every element of $\\mathcal{R}^+(\\mathcal{P}\_{&lt;κ}(κ))$ *a
 Ramsey subset* of $κ$.
 
@@ -414,7 +414,7 @@ Absoluteness:
 -   All this properties (being Ramsey itself, $Π\_α$-Ramsey, completely
     Ramsey, $α$-hyper completely Ramsey and super completely Ramsey) are
     downwards absolute to the Dodd-Jensen [core
-    model](/Core_model "Core model").
+    model](Core_model "Core model").
 
 Hierarchy:
 
@@ -427,14 +427,14 @@ Hierarchy:
 Upper limit of consistency strength:
 
 -   Any
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     cardinal is super completely Ramsey and a stationary limit of super
     completely Ramsey cardinals.
 
 Indescribability:
 
 -   If $κ$ is $Π\_n$-Ramsey, then $κ$ is
-    $Π\_{n+1}^1$-[indescribable](/Indescribable "Indescribable").
+    $Π\_{n+1}^1$-[indescribable](Indescribable "Indescribable").
     If $X \\subseteq κ$ is a $Π\_n$-Ramsey subset, then $X$ is
     $Π\_{n+1}^1$-indescribable.
 -   For infinite $α$, if $κ$ is $Π\_α$-Ramsey, then $κ$ is $Π^1\_{2
@@ -442,7 +442,7 @@ Indescribability:
     (Transfinite $Π^1\_α$-indescribable is defined via finite
     games.).\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 -   If $κ$ is completely Ramsey, then $κ$ is
-    $Π\_1^2$-[indescribable](/Indescribable "Indescribable").\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+    $Π\_1^2$-[indescribable](Indescribable "Indescribable").\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
 
 Equivalence:
 
@@ -479,20 +479,20 @@ $\\alpha&lt;\\kappa$. Equivalently:
 -   $\\kappa=\\text{sup}\\{\\eta\_\\alpha:\\alpha&lt;\\kappa\\}$
 
 ($\\eta\_\\alpha$ is the
-[$\\alpha$-Erdős](/Erdos "Erdos")
+[$\\alpha$-Erdős](Erdos "Erdos")
 cardinal.)
 
 Every almost Ramsey cardinal is a [$\\beth$-fixed
-point](/Beth "Beth"), but
+point](Beth "Beth"), but
 the least almost Ramsey cardinal, if it exists, has cofinality
 $\\omega$. In fact, the least almost Ramsey cardinal is not
-<a href="/Weakly_inaccessible" class="mw-redirect" title="Weakly inaccessible">weakly inaccessible</a>,
-[worldly](/Worldly "Worldly"),
+<a href="Weakly_inaccessible" class="mw-redirect" title="Weakly inaccessible">weakly inaccessible</a>,
+[worldly](Worldly "Worldly"),
 or
-<a href="/Correct" class="mw-redirect" title="Correct">correct</a>.
+<a href="Correct" class="mw-redirect" title="Correct">correct</a>.
 However, if the least almost Ramsey cardinal exists, it is larger than
 the least
-[$\\omega\_1$-Erdős](/Erdos "Erdos")
+[$\\omega\_1$-Erdős](Erdos "Erdos")
 cardinal. Any regular almost Ramsey cardinal is worldly, and any worldly
 almost Ramsey cardinal $\\kappa$ has $\\kappa$ almost Ramsey cardinals
 below it.
@@ -517,9 +517,9 @@ almost Ramsey, and in fact the least almost Ramsey cardinal. Note that
 such a set exists by replacement and has a supremum by union.
 
 The Ramsey cardinals are precisely the
-[Erdős](/Erdos "Erdos")
+[Erdős](Erdos "Erdos")
 almost Ramsey cardinals and also precisely the [weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 almost Ramsey cardinals.
 
 If $κ$ is a $2$-weakly Erdős cardinal, then $κ$ is almost
@@ -553,7 +553,7 @@ Properties:
 -   Strongly Ramsey cardinals are Ramsey and stationary limits of Ramsey
     cardinals.
 -   The least strongly Ramsey cardinal is not
-    [ineffable](/Ineffable "Ineffable").
+    [ineffable](Ineffable "Ineffable").
 -   Forcing related properties of strongly Ramsey cardinals are the same
     as those of Ramsey cardinals described above.
     \[[11](#bibkey_GitmanJohnstone:IndestructiblyRamsey)\]
@@ -578,7 +578,7 @@ $j:M\\prec N$.
 
 The following are some facts about super Ramsey cardinals:
 
--   [Measurable](/Measurable "Measurable")
+-   [Measurable](Measurable "Measurable")
     cardinals are super Ramsey limits of super Ramsey cardinals.
 -   Fully Ramsey cardinals are super Ramsey limits of super Ramsey
     cardinals.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
@@ -595,7 +595,7 @@ The $\\alpha$-iterable cardinals for $1\\leq\\alpha\\leq\\omega\_1$ were
 introduced by Gitman in
 \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]. They form a
 hierarchy of large cardinal notions strengthening [weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 cardinals, while weakening the $M$-ultrafilter characterization of
 Ramsey cardinals. Recall that if $\\kappa$ is Ramsey, then every
 $A\\subseteq\\kappa$ is contained in a weak $\\kappa$-model $M$ for
@@ -629,9 +629,9 @@ cardinals.
 Lower limit:
 
 -   $1$-iterable cardinals are
-    <a href="/Weakly_ineffable" class="mw-redirect" title="Weakly ineffable">weakly ineffable</a>
+    <a href="Weakly_ineffable" class="mw-redirect" title="Weakly ineffable">weakly ineffable</a>
     and stationary limits of
-    <a href="/Completely_ineffable" class="mw-redirect" title="Completely ineffable">completely ineffable</a>
+    <a href="Completely_ineffable" class="mw-redirect" title="Completely ineffable">completely ineffable</a>
     cardinals. The least $1$-iterable cardinal is not ineffable.
     \[[3](#bibkey_Gitman2011:RamseyLikeCardinals)\]
 -   Super weakly Ramsey cardinals are weakly Ramsey (=$1$-iterable)
@@ -641,16 +641,16 @@ Upper limit:
 
 -   A Ramsey cardinal is $\\omega\_1$-iterable and a stationary limit of
     $\\omega\_1$-iterable cardinals. This is already true of an
-    $\\omega\_1$-[Erdős](/Erdos "Erdos")
+    $\\omega\_1$-[Erdős](Erdos "Erdos")
     cardinal. \[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 -   If $C ∈ V\[H\]$, a forcing extension by $\\mathrm{Coll}(ω, V\_κ)$,
     is a club in $κ$ of generating indiscernibles for $V\_κ$ of
     order-type $κ$ (like in the definition of
-    <a href="/Silver_cardinal" class="mw-redirect" title="Silver cardinal">Silver cardinals</a>),
+    <a href="Silver_cardinal" class="mw-redirect" title="Silver cardinal">Silver cardinals</a>),
     then each $ξ ∈ C$ is $&lt;
     ω\_1$-iterable.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
 -   $ω\_1$-iterable cardinals are
-    <a href="/Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strongly unfoldable</a>
+    <a href="Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strongly unfoldable</a>
     in $L$.\[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
 
 Hierarchy:
@@ -661,7 +661,7 @@ Hierarchy:
 -   For $β &gt; 0$, every $(α, β)$-Ramsey is a $β$-iterable stationary
     limit of $β$-iterables.
 -   It is consistent from an
-    $\\omega$-[Erdős](/Erdos "Erdos")
+    $\\omega$-[Erdős](Erdos "Erdos")
     cardinal that for every $n\\in\\omega$, there is a proper class of
     $n$-iterable cardinals.
 -   For an additively indecomposable ordinal $λ ≤ ω\_1$, $η\_λ$ (the
@@ -670,20 +670,20 @@ Hierarchy:
     cardinal below
     it.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
 -   A [virtually
-    $n$-huge\*](/Huge "Huge")
+    $n$-huge\*](Huge "Huge")
     cardinal is an $n+1$-iterable limit of $n+1$-iterable cardinals. If
     $κ$ is $n+2$-iterable, then $V\_κ$ is a model of proper class many
     virtually $n$-huge\*
     cardinals.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
 -   Every virtually rank-into-rank cardinal is an
-    $ω$-<a href="/Iterable" class="mw-redirect" title="Iterable">iterable</a>
+    $ω$-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
     limit of $ω$-iterable
     cardinals.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
 
 Between $1$- and $2$-iterable:
 
 -   A $2$-iterable cardinal implies the consistency of a
-    [remarkable](/Remarkable "Remarkable")
+    [remarkable](Remarkable "Remarkable")
     cardinal: Every $2$-iterable cardinal is a limit of remarkable
     cardinals. \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
 -   Remarkable cardinals imply the consistency of $1$-iterable
@@ -693,12 +693,12 @@ Between $1$- and $2$-iterable:
     \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
 -   If $κ$ is $2$-iterable, then $V\_κ$ is a model of proper class many
     [virtually
-    $C^{(n)}$-extendible](/Extendible "Extendible")
+    $C^{(n)}$-extendible](Extendible "Extendible")
     cardinals for every $n &lt; ω$, of proper class many
-    <a href="/Shelah" class="mw-redirect" title="Shelah">virtually Shelah for supercompactness</a>
+    <a href="Shelah" class="mw-redirect" title="Shelah">virtually Shelah for supercompactness</a>
     cardinals\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\] and
     of proper class many
-    <a href="/Completely_remarkable" class="mw-redirect" title="Completely remarkable">completely remarkable</a>
+    <a href="Completely_remarkable" class="mw-redirect" title="Completely remarkable">completely remarkable</a>
     cardinals.\[[15](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
 -   Virtually extendible cardinals are 1-iterable limits of 1-iterable
     cardinals.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
@@ -706,11 +706,11 @@ Between $1$- and $2$-iterable:
 Absoluteness:
 
 -   $\\omega\_1$-iterable cardinals imply that
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
     exists and hence there cannot be $\\omega\_1$-iterable cardinals in
     $L$. For $L$-countable $\\alpha$, the $\\alpha$-iterable cardinals
     are downward absolute to $L$. In fact, if
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
     exists, then every Silver indiscernible is $\\alpha$-iterable in $L$
     for every $L$-countable $\\alpha$.
     \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
@@ -726,7 +726,7 @@ Absoluteness:
 
 The property of being Mahlo–Ramsey (MR) is a slight strengthening of
 Ramseyness introduced in analogy to
-[Mahlo](/Mahlo "Mahlo")
+[Mahlo](Mahlo "Mahlo")
 cardinals in \[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\] (all
 information from there).
 
@@ -767,16 +767,16 @@ Results:
     Ramsey.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang),
     [6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 -   If $κ$ is a
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     cardinal, then $κ$ is $κ$-very
     Ramsey.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 -   If a cardinal is $ω\_1$-very Ramsey (=strategic $ω\_1$-Ramsey
     cardinal), then it is measurable in the [core
-    model](/Core_model "Core model")
+    model](Core_model "Core model")
     unless
-    <a href="/Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
+    <a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
     exists and an inner model with a
-    [Woodin](/Woodin "Woodin")
+    [Woodin](Woodin "Woodin")
     cardinal exists.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang),
     [6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 
@@ -808,9 +808,9 @@ if for every $A\\subseteq\\kappa$, the set $\\mathscr I$ contains a club
 of $\\kappa$.
 
 Virtually Ramsey cardinals are
-[Mahlo](/Mahlo "Mahlo") and
+[Mahlo](Mahlo "Mahlo") and
 a virtually Ramsey cardinal that is [weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 is already Ramsey. If $κ$ is Ramsey, then there is a forcing extension
 destroying this, while preserving that $κ$ is virtually Ramsey. It is
 open whether virtually Ramsey cardinals are weaker than Ramsey
@@ -818,7 +818,7 @@ cardinals.\[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII),
 [11](#bibkey_GitmanJohnstone:IndestructiblyRamsey)\]
 
 If $κ$ is virtually Ramsey then $κ$ is [greatly
-Erdős](/Erdos "Erdos").\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+Erdős](Erdos "Erdos").\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 
 ## Super weakly Ramsey cardinal
 
@@ -826,7 +826,7 @@ Erdős](/Erdos "Erdos").\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 
 A cardinal $κ$ is **super weakly Ramsey** iff every $A ⊆ κ$ is
 contained, as an element, in a weak
-κ-[model](/Model "Model") $M
+κ-[model](Model "Model") $M
 ≺ H(κ^+)$ for which there exists a $κ$-powerset preserving elementary
 embedding $j∶ M → N$.
 
@@ -835,7 +835,7 @@ Strength:
 -   Super weakly Ramsey cardinals are weakly Ramsey (=$1$-iterable)
     limits of weakly Ramsey cardinals.
 -   Super weakly Ramsey cardinals are
-    [ineffable](/Ineffable "Ineffable").
+    [ineffable](Ineffable "Ineffable").
 -   $ω$-Ramsey cardinals are super weakly Ramsey limits of super weakly
     Ramsey cardinals.
 
@@ -871,9 +871,9 @@ better for countable cofinality).
 noted)
 
 For a weak
-$κ$-[model](/Model "Model")
+$κ$-[model](Model "Model")
 $\\mathcal{M}$, $μ$ is an
-*$\\mathcal{M}$-<a href="/Measure" class="mw-redirect" title="Measure">measure</a>*
+*$\\mathcal{M}$-<a href="Measure" class="mw-redirect" title="Measure">measure</a>*
 iff $(\\mathcal{M}, \\in, μ) \\models \\text{“$μ$ is a $κ$-complete
 ultrafilter on $κ$”}$.
 
@@ -981,13 +981,13 @@ Results in the finite case (for $n &lt;
 
 -   For a cardinal $κ=κ^{&lt;κ}$
     -   $κ$ is [weakly
-        compact](/Weakly_compact "Weakly compact")
+        compact](Weakly_compact "Weakly compact")
         iff it is 0-Ramsey;
     -   $κ$ is
-        <a href="/Weakly_ineffable" class="mw-redirect" title="Weakly ineffable">weakly ineffable</a>
+        <a href="Weakly_ineffable" class="mw-redirect" title="Weakly ineffable">weakly ineffable</a>
         iff it is genuine 0-Ramsey;
     -   $κ$ is
-        [ineffable](/Ineffable "Ineffable")
+        [ineffable](Ineffable "Ineffable")
         iff it is normal 0-Ramsey. (An uncountable cardinal κ has the
         normal filter property iff it is
         ineffable.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\])
@@ -1012,23 +1012,23 @@ $ω$-Ramsey:\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
     Ramsey cardinals.
 -   $ω$-Ramsey cardinals are limits of cardinals with the $ω$-filter
     property (=completely
-    [ineffable](/Ineffable "Ineffable")\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]).
+    [ineffable](Ineffable "Ineffable")\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]).
 -   $ω$-Ramsey cardinals are downwards absolute to $L$. If
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^♯$</a>
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^♯$</a>
     exists, then all Silver indiscernibles are $ω$-Ramsey in $L$.
 
 Results for strategic
 $ω$-Ramsey:\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 
--   <a href="/Virtually_measurable" class="mw-redirect" title="Virtually measurable">Virtually measurable</a>
+-   <a href="Virtually_measurable" class="mw-redirect" title="Virtually measurable">Virtually measurable</a>
     cardinals, strategic $ω$-Ramsey cardinals and
-    [remarkable](/Remarkable "Remarkable")
+    [remarkable](Remarkable "Remarkable")
     cardinals are equiconsistent.
     -   Every virtually measurable cardinal is strategic $ω$-Ramsey, and
         every strategic $ω$-Ramsey cardinal is virtually measurable in
         $L$.
     -   If $κ$ is virtually measurable, then either $κ$ is
-        [remarkable](/Remarkable "Remarkable")
+        [remarkable](Remarkable "Remarkable")
         in $L$ or $L\_κ \\models \\text{“there is a proper class of
         virtually measurables”}$.
     -   Remarkable cardinals are strategic $ω$-Ramsey limits of
@@ -1037,7 +1037,7 @@ $ω$-Ramsey:\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
     \\models \\text{“there is a proper class of $ω$-Ramseys”}$.
 
 Equiconsistency with the
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinal:
 
 -   The existence of a strategic $(ω+1)$-Ramsey cardinal (and of
@@ -1047,11 +1047,11 @@ cardinal:
 -   If $κ$ is a measurable cardinal, then $κ$ is $κ$-very Ramsey. If a
     cardinal is $ω\_1$-very Ramsey (=strategic $ω\_1$-Ramsey cardinal),
     then it is measurable in the [core
-    model](/Core_model "Core model")
+    model](Core_model "Core model")
     unless
-    <a href="/Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
+    <a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
     exists and an inner model with a
-    [Woodin](/Woodin "Woodin")
+    [Woodin](Woodin "Woodin")
     cardinal exists.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang),
     [6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 -   If $κ$ is uncountable, $κ = κ^{&lt;κ}$ and $2^κ = κ^+$, then the
@@ -1065,10 +1065,10 @@ cardinal:
     $κ^+$-filter property, however $κ$ is not measurable.
 
 Being downwards absolute to the [core
-model](/Core_model "Core model"):\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+model](Core_model "Core model"):\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 
 -   If
-    <a href="/Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
+    <a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
     does not exist:
     -   If $α$ is a limit ordinal with uncountable cofinality, then
         being $α$-Ramsey is downwards absolute to $\\mathbf{K}$.
@@ -1112,7 +1112,7 @@ Other:
     Ramseys.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 -   Fully Ramsey cardinals are super Ramsey limits of super Ramsey
     cardinals.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
--   [Measurable](/Measurable "Measurable")
+-   [Measurable](Measurable "Measurable")
     cardinals are limits of fully Ramsey
     cardinals.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
 
@@ -1129,7 +1129,7 @@ $α$-Ramsey cardinals are by definition equivalent to $(α, 0)$-Ramsey
 cardinals.
 
 Position in the hierarchy of
-[Erdős](/Erdos "Erdos") and
+[Erdős](Erdos "Erdos") and
 iterable cardinals:
 
 -   For $β &gt; 0$, every $(α, β)$-Ramsey is a $β$-iterable stationary
@@ -1152,11 +1152,11 @@ general.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 (from \[[16](#bibkey_CarmodyGitmanHabic2016:Mitchelllike)\])
 
 M-rank for Ramsey and Ramsey-like cardinals is analogous to [Mitchell
-rank](/Mitchell_rank "Mitchell rank").
+rank](Mitchell_rank "Mitchell rank").
 A difference is that M-rank for Ramsey-like cardinals can be at most
 $\\kappa^+$ (because an ultrapower of a weak $κ$-model has size at most
 $κ$) and Mitchell rank for
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinals can be at most $(2^\\kappa)^+$.
 
 Definition of the M-order: For $κ$ having a large-cardinal property
@@ -1254,6 +1254,6 @@ forcing extension.
     <a href="http://arxiv.org/abs/1609.07645" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BCarmodyGitmanHabic2016:Mitchelllike,%20%20%20%20author%20=%20%7BCarmody,%20Erin%20and%20Gitman,%20Victoria%20and%20Habič,%20Miha%20E.%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BA%20Mitchell-like%20order%20for%20Ramsey%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2016%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1609.07645%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

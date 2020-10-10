@@ -23,21 +23,21 @@ The following 5 pages are in this category, out of 5 total.
 
 ### A
 
--   [Aleph](/Aleph "Aleph")
+-   [Aleph](Aleph "Aleph")
 
 ### B
 
--   [Beth](/Beth "Beth")
+-   [Beth](Beth "Beth")
 
 ### C
 
 -   [Cardinal
-    characteristics](/Cardinal_characteristics "Cardinal characteristics")
--   [Continuum](/Continuum "Continuum")
+    characteristics](Cardinal_characteristics "Cardinal characteristics")
+-   [Continuum](Continuum "Continuum")
 
 ### R
 
--   [Reflecting](/Reflecting "Reflecting")
+-   [Reflecting](Reflecting "Reflecting")
 
 
 

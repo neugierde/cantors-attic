@@ -16,7 +16,7 @@ permalink: Filter
 
 A *filter* on a set $S$ is a special subset of $\\mathcal{P}(S)$ that
 contains $S$ itself, does not contain the [empty
-set](/Empty_set "Empty set"),
+set](Empty_set "Empty set"),
 and is closed under finite intersections and the superset relation. An
 *ideal* on $S$ is the dual of a filter: if $F$ is a filter, the set of
 the complements (in $S$) of $F$'s elements forms an ideal, and
@@ -28,9 +28,9 @@ An *ultrafiler* is a maximal filter, i.e. it is not a subset of any
 other filter, or equivalently, every subset of $S$ is either in it or
 its complement (in $S$) is. Filters, and especially ultrafilters, are
 closely connected to several large cardinal notions, such as [measurable
-cardinals](/Measurable "Measurable")
+cardinals](Measurable "Measurable")
 and [strongly compact
-cardinals](/Strongly_compact "Strongly compact").
+cardinals](Strongly_compact "Strongly compact").
 The dual notion is a *prime ideal*. Thus an ultrafilter and its dual
 prime ideal partition $\\mathcal{P}(S)$ in two.
 
@@ -165,13 +165,13 @@ finite intersection property can be extended to a filter, i.e. there
 exists a filter $F$ such that $G\\subseteq F$. The completeness of a
 countably complete nonprincipal ultrafilter or prime ideal on S is
 always a [measurable
-cardinal](/Measurable "Measurable").
+cardinal](Measurable "Measurable").
 However, every countably complete filter on a countable or finite set is
 principal.
 
 Every infinite cardinal $\\kappa$ has $2^{2^\\kappa}$ ultrafilters and
 prime ideals. Under the
-<a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>,
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>,
 every filter can be extended to an ultrafilter, and every ideal can be
 extended to a prime ideal.
 
@@ -180,18 +180,18 @@ on S. If $G$ is a $\\subseteq$-chain of filters, then $\\bigcup G$ is a
 filter.
 
 Let $j:M\\to N$ be a (nontrivial) [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 with critical point $\\kappa$. Then the set
 $\\mathcal{U}\_j=\\{x\\subseteq \\kappa : \\kappa\\in j(x)\\}$ is a
 $\\kappa$-complete nonprincipal ultrafilter on
 $(\\mathcal{P}(\\kappa))^M$; in particular if $M=V$ then
 $(\\mathcal{P}(\\kappa))^M=\\mathcal{P}(\\kappa)$ and thus $\\kappa$ is
-[measurable](/Measurable "Measurable").
+[measurable](Measurable "Measurable").
 
 ## The nonstationary ideal and the club filter
 
 Given a regular uncountable cardinal $\\kappa$, the collection of all
-[clubs](/Club "Club") in
+[clubs](Club "Club") in
 $\\kappa$ has the finite intersection property, thus it can be extended
 to a filter. This filter contains precisely the subsets of $\\kappa$
 with a subset that is a club in $\\kappa$. We we call this filter the
@@ -226,11 +226,11 @@ $\\kappa$, then there is a such ideal that is additionally normal; same
 for $\\kappa^+$-saturation. If $\\kappa$ carries a normal
 $\\lambda$-saturated $\\kappa$-complete ideal $I$ for some
 $\\lambda&lt;\\kappa$ then $\\kappa$ has the [tree
-property](/Tree_property "Tree property")
+property](Tree_property "Tree property")
 and also it is
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 in $L\[I\]$ (see [constructible
-universe](/Constructible_universe "Constructible universe")).
+universe](Constructible_universe "Constructible universe")).
 
 Any cardinal carrying a 2-saturated $\\sigma$-ideal is measurable. Any
 cardinal carrying a $\\sigma$-saturated $\\sigma$-ideal must be either
@@ -241,7 +241,7 @@ to large cardinals) for a successor $\\kappa$ to carry a
 $\\kappa^+$-saturated $\\kappa$-complete ideal.
 
 It is consistent relative to a
-[huge](/Huge "Huge")
+[huge](Huge "Huge")
 cardinal that every regular cardinal $\\kappa$ there is a
 $\\kappa^+$-saturated $\\kappa$-complete ideal. It is consistent
 relative to a 2-huge cardinal that, for every $n&gt;0$,
@@ -252,7 +252,7 @@ Then there is a forcing extension in which $\\kappa=\\mu^+$ and there is
 a $\\kappa$-complete, $\\kappa^+$-saturated ideal on $\\kappa$.
 
 Suppose that $\\mu$ is a
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinal and $\\kappa&gt;\\mu$ is an almost huge cardinal. Then there is
 a forcing extension that satisfies the generalized continuum hypothesis
 and "there is a stationary subset $S$ of $\\omega\_{\\omega+1}$ such
@@ -271,14 +271,14 @@ then:
     $2^{\\aleph\_{\\omega\_1}}&lt;\\aleph\_{\\omega\_2}$
 
 This hypothesis, which follows from
-<a href="/Martin%27s_Maximum" class="mw-redirect" title="Martin&#39;s Maximum">Martin's Maximum</a>,
+<a href="Martin%27s_Maximum" class="mw-redirect" title="Martin&#39;s Maximum">Martin's Maximum</a>,
 is consistent relative to a
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinal, in fact that ideal can be the nonstationary ideal on
 $\\omega\_1$. Similarly, if there is a [almost
-huge](/Huge "Huge") cardinal
+huge](Huge "Huge") cardinal
 then in some [generic
-extension](/Forcing "Forcing"),
+extension](Forcing "Forcing"),
 $\\omega\_2$ carries a $\\omega\_3$-saturated $\\omega\_2$-complete
 ideal. This ideal however cannot be the nonstationary ideal on
 $\\omega\_2$: for every cardinal $\\kappa\\geq\\omega\_2$, the
@@ -320,11 +320,11 @@ $\\omega\_1$-dense.
 
 If there is a $\\sigma$-dense $\\sigma$-ideal on $\\omega\_1$ then the
 [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy")
+determinacy](Axiom_of_determinacy "Axiom of determinacy")
 holds in $L(\\mathbb{R})$, in fact the existence of such an ideal is
 equiconsistent with the axiom of determinacy itself. The existence of a
 such ideal also implies the failure of one of [Martin's
-axioms](/Forcing#Forcing_axioms "Forcing"),
+axioms](Forcing#Forcing_axioms "Forcing"),
 namely $\\text{MA}\_{\\aleph\_1}$. In particular the proper forcing
 axiom fails. Also, there is a Suslin tree on $\\omega\_1$.
 
@@ -335,7 +335,7 @@ continuum hypothesis holds.
 
 If there is a $\\kappa$-dense $\\kappa$-complete ideal on a regular
 cardinal $\\kappa$ then the [partition
-property](/Partition_property "Partition property")
+property](Partition_property "Partition property")
 $\\kappa^+\\to(\\kappa^2+1,\\alpha)^2\_2$ holds for all
 $\\alpha&lt;\\kappa^+$.
 
@@ -349,12 +349,12 @@ $\\omega\\to(\\omega)^\\omega\_2$ holds.
 ## Ultrapowers
 
 *Main article:
-[Ultrapower](/Ultrapower "Ultrapower")*
+[Ultrapower](Ultrapower "Ultrapower")*
 
 ## Precipitous ideals
 
 Let $I$ be an ideal on $S$. Consider the [notion of
-forcing](/Forcing "Forcing")
+forcing](Forcing "Forcing")
 $(P,\\subseteq)$ where $P=\\{X\\subseteq S:X\\not\\in I\\}$, and let $G$
 be a generic filter on $P$. Then $G$ is an ultrafilter on $S$ that
 extends the filter dual to $I$. If $I$ is normal or $\\kappa$-complete,
@@ -411,7 +411,7 @@ $\\kappa$:
 The existence of a precipitous ideal on a regular uncountable cardinal
 implies the consistency of the existence of an inner model of
 $\\text{ZFC}$ that contains a
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinal. The existence of a measurable cardinal $\\kappa$ implies the
 existence of a generic extension in which $\\kappa=\\omega\_1$ and
 $\\omega\_1$ carries a precipitous ideal.
@@ -422,7 +422,7 @@ statement is in fact equiconsistent with the existence of a measurable.
 On the other hand, the nonstationary ideal on $\\omega\_2$ being
 precipitous is a much stronger statement, and is equiconsistent with the
 existence of measurable of
-<a href="/Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
+<a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
 2, and thus stronger than the existence of a proper class of
 measurables. The consistency strength of the nonstationary ideal on a
 successor cardinal $\\kappa\\geq\\omega\_3$ is inbetween the existence
@@ -465,11 +465,11 @@ A set $X\\subseteq S$ is *null* if $\\mu(X)=0$.
 The
 <a href="http://en.wikipedia.org/wiki/Lebesgue_measure" class="extiw" title="wikipedia:Lebesgue measure">Lebesgue measure</a>
 is a certain kind of measure that is linked to the
-<a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
 and to the [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy").
+determinacy](Axiom_of_determinacy "Axiom of determinacy").
 *(See also
-[projective](/Projective "Projective"))*
+[projective](Projective "Projective"))*
 
 ### <span id="Properties_2" class="mw-headline">Properties</span>
 
@@ -500,8 +500,8 @@ determinacy](/Axiom_of_determinacy "Axiom of determinacy").
 ## Normal and fine filters
 
 Let $\\kappa$ be an
-<a href="/Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
-[cardinal](/Cardinal "Cardinal").
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+[cardinal](Cardinal "Cardinal").
 By "filter on $\\mathcal{P}\_\\kappa(A)$" we mean that $F$ contains
 subsets of $\\mathcal{P}\_\\kappa(A)$, not elements of it. For
 $\\{X\_i:i\\in A\\}$ a sequence of subsets of $\\mathcal{P}\_\\kappa(A)$
@@ -552,8 +552,8 @@ stationary subsets (but not only them).
 Another characterization of normal measures is: a measure $D$ on
 $\\kappa$ is normal if for all $X\\subseteq\\kappa$, one has $X\\in D$
 if and only if $\\kappa\\in j\_D(X)$ where $j\_D$ is the canonical
-[ultrapower](/Ultrapower "Ultrapower")
-[embedding](/Elementary_embedding "Elementary embedding")
+[ultrapower](Ultrapower "Ultrapower")
+[embedding](Elementary_embedding "Elementary embedding")
 generated by $D$. Similarly, a measure $D$ on
 $\\mathcal{P}\_\\kappa(\\lambda)$ for some $\\lambda\\geq\\kappa$ is
 normal if for all $X\\subseteq\\mathcal{P}\_\\kappa(\\lambda)$, one has
@@ -568,7 +568,7 @@ $\\lambda^{&lt;\\kappa}=\\text{max}(\\lambda,2^{&lt;\\kappa})$.
 
 If there exists a 2-valued $\\kappa$-additive measure on $\\kappa$, then
 $\\kappa$ is a
-**[measurable](/Measurable "Measurable")**
+**[measurable](Measurable "Measurable")**
 cardinal. This equivalent to saying that there is a measure (i.e. a
 $\\kappa$-complete nonprincipal ultrafilter) on $\\kappa$. If $j:V\\to
 M$ is a nontrivial elementary embedding with critical point $\\kappa$,
@@ -577,16 +577,16 @@ $\\kappa$-complete nonprincipal ultrafilter on $\\mathcal{P}(\\kappa)$
 and $\\kappa$ is measurable. In fact, $\\mathcal{U}\_j$ is a normal fine
 measure on $\\kappa$, which we can call the "canonical" normal fine
 measure generated by $j$. The canonical measure contains the set of all
-[inaccessible](/Inaccessible "Inaccessible"),
-[Mahlo](/Mahlo "Mahlo"), and
+[inaccessible](Inaccessible "Inaccessible"),
+[Mahlo](Mahlo "Mahlo"), and
 even
-[Ramsey](/Ramsey "Ramsey")
+[Ramsey](Ramsey "Ramsey")
 cardinals below $\\kappa$, and much more.
 
 If, for every set $S$, every $\\kappa$-complete filter on $S$ can be
 extended to a $\\kappa$-complete ultrafilter on $S$, then $\\kappa$ is
 **[strongly
-compact](/Strongly_compact "Strongly compact")**.
+compact](Strongly_compact "Strongly compact")**.
 Every strongly compact cardinal is measurable, and it is consistent that
 the first measurable and the first strongly compact cardinals are equal.
 Strong compactness is furthermore equivalent to the assertion that for
@@ -596,10 +596,10 @@ on $\\mathcal{P}\_\\kappa(A)$. Those measures don't have to be normal.
 If there is a set $\\lambda$ with $\\lambda\\geq\\kappa$ such that there
 is a normal fine measure on $\\mathcal{P}\_\\kappa(\\lambda)$, then
 $\\kappa$ is
-$\\lambda$-[supercompact](/Supercompact "Supercompact");
+$\\lambda$-[supercompact](Supercompact "Supercompact");
 if it is $\\lambda$-supercompact for every $\\lambda\\geq\\kappa$, then
 it is
-**[supercompact](/Supercompact "Supercompact")**.
+**[supercompact](Supercompact "Supercompact")**.
 This is equivalent to saying that for every set $A$ with
 $\|A\|\\geq\\kappa$, there is a normal fine measure on
 $\\mathcal{P}\_\\kappa(A)$. Clearly, every supercompact is strongly
@@ -610,7 +610,7 @@ consistency-wise.
 If there are cardinals $\\kappa$ and $\\lambda$ such that there is a
 normal measure $D$ on $\\{X\\subseteq\\lambda :
 \\text{order-type}(X)=\\kappa\\}$ then $\\kappa$ is
-**[huge](/Huge "Huge")** and
+**[huge](Huge "Huge")** and
 there is a nontrivial elementary embedding $j:V\\to M$ for a transitive
 class $M$ such that $\\kappa = \\mathrm{crit}(j)$, $\\lambda =
 j(\\kappa)$, $M^\\lambda\\subseteq M$ and $X\\in D$ if and only if
@@ -626,7 +626,7 @@ existence of a supercompact cardinal.
 ## See Also
 
 -   [Filters on
-    $\\mathbb{N}$](/Filters_on_N "Filters on N")
+    $\\mathbb{N}$](Filters_on_N "Filters on N")
 
 ## References
 
@@ -641,6 +641,6 @@ existence of a supercompact cardinal.
     <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

@@ -10,7 +10,7 @@ permalink: Mouse
 
 
 (Redirected from
-[Mouse](/index.php?title=Mouse&redirect=no "Mouse"))
+[Mouse](index.php?title=Mouse&redirect=no "Mouse"))
 
 
 
@@ -18,11 +18,11 @@ permalink: Mouse
 
 
 Core models are inner
-[models](/Model "Model").
+[models](Model "Model").
 The first core model, Dodd-Jensen core model ($K^{DJ}$), was introduced
 in \[[1](#bibkey_DoddJensen1982:CoreModel)\]. The core model built
 assuming
-<a href="/Zero_sword" class="mw-redirect" title="Zero sword">$¬ 0 ^{sword}$</a>
+<a href="Zero_sword" class="mw-redirect" title="Zero sword">$¬ 0 ^{sword}$</a>
 is called *the core built using measures of order 0*
 ($K^{MOZ}$).\[[2](#bibkey_SharpeWelch2011:GreatlyErdosChang)\] The core
 model is often denoted $\\mathbf{K}$.
@@ -81,6 +81,6 @@ through the ordinals.
     <a href="http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">www</a>   <a href="http://web.archive.org/web/20191028003555/http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191028003555/http://www.ams.org/mathscinet-getitem?mr=2817562" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BSharpeWelch2011:GreatlyErdosChang,%20%20%20%20AUTHOR%20=%20%7BSharpe,%20Ian%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BGreatly%20Erdős%20cardinals%20with%20some%20generalizations%20to%20%20%20%20%20%20%20%20%20%20%20%20%20%20the%20Chang%20and%20Ramsey%20properties%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnn.%20Pure%20Appl.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B162%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B11%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B863--902%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0168-0072%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BAPALD7%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E04%20(03E35%2003E45%2003E55)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2817562%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

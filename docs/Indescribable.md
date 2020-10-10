@@ -16,11 +16,11 @@ permalink: Indescribable
 
 
 
-<a href="/File:IndescribableStructure.png" class="image"><img src="/web/20191005075106im_/http://cantorsattic.info/images/thumb/e/e6/IndescribableStructure.png/300px-IndescribableStructure.png" class="thumbimage" srcset="/web/20191005075106im_/http://cantorsattic.info/images/thumb/e/e6/IndescribableStructure.png/450px-IndescribableStructure.png 1.5x, /web/20191005075106im_/http://cantorsattic.info/images/thumb/e/e6/IndescribableStructure.png/600px-IndescribableStructure.png 2x" width="300" height="373" /></a>
+<a href="File:IndescribableStructure.png" class="image"><img src="/web/20191005075106im_/http://cantorsattic.info/images/thumb/e/e6/IndescribableStructure.png/300px-IndescribableStructure.png" class="thumbimage" srcset="/web/20191005075106im_/http://cantorsattic.info/images/thumb/e/e6/IndescribableStructure.png/450px-IndescribableStructure.png 1.5x, /web/20191005075106im_/http://cantorsattic.info/images/thumb/e/e6/IndescribableStructure.png/600px-IndescribableStructure.png 2x" width="300" height="373" /></a>
 
 
 
-<a href="/File:IndescribableStructure.png" class="internal" title="Enlarge"></a>
+<a href="File:IndescribableStructure.png" class="internal" title="Enlarge"></a>
 
 
 The Structure of Indescribability in Consistency Strength
@@ -61,7 +61,7 @@ $n+1$-th order logic statement that is $\\Pi\_m$ expresses the
 reflection of $V\_{\\kappa}$ onto $V\_{\\alpha}$. This exercises the
 fact that these cardinals are so large they almost resemble the order of
 $V$ itself. This definition is similar to that of
-[shrewd](/Shrewd "Shrewd")
+[shrewd](Shrewd "Shrewd")
 cardinals, an extension of indescribable cardinals.
 
 ## Variants
@@ -97,19 +97,19 @@ indescribable.
 Here are some known facts about indescribability:
 
 $\\Pi\_2^0$-indescribability is equivalent to [strong
-inaccessibility](/Inaccessible "Inaccessible"),
+inaccessibility](Inaccessible "Inaccessible"),
 $\\Sigma\_1^1$-indescribablity, $\\Pi\_n^0$-indescribability given any
 $n&gt;1$, and
 $\\Pi\_0^1$-indescribability.\[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 $\\Pi\_1^1$-indescribability is equivalent to [weak
-compactness](/Weakly_compact "Weakly compact").
+compactness](Weakly_compact "Weakly compact").
 \[[2](#bibkey_Jech2003:SetTheory)\],\[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 
 $\\Pi\_n^m$-indescribablity is equivalent to $m$-$\\Pi\_n$-shrewdness
 (similarly with $\\Sigma\_n^m$).
 \[[3](#bibkey_Rathjen2006:OrdinalAnalysis)\]
 
-[Ineffable](/Ineffable "Ineffable")
+[Ineffable](Ineffable "Ineffable")
 cardinals are $\\Pi^1\_2$-indescribable and limits of totally
 indescribable cardinals. \[[4](#bibkey_JensenKunen1969:Ineffable)\]
 
@@ -128,7 +128,7 @@ least $\\Pi\_{n+1}^m$-indescribable
 cardinal.\[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 
 If $\\kappa$ is
-$Π\_n$-[Ramsey](/Ramsey "Ramsey"),
+$Π\_n$-[Ramsey](Ramsey "Ramsey"),
 then $\\kappa$ is $Π\_{n+1}^1$-indescribable. If $X\\subseteq\\kappa$ is
 a $Π\_n$-Ramsey subset, then $X$ is in the $Π\_{n+1}^1$-indescribable
 filter.\[[5](#bibkey_Feng1990:HierarchyRamsey)\] If $\\kappa$ is
@@ -145,19 +145,19 @@ optimal, as normal $n$-Ramseyness can be described by a $Π^1\_{2
 n+3}$-formula.\[[7](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 
 Every
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinal is $\\Pi\_1^2$-indescribable. Although, the least measurable is
 $\\Sigma\_1^2$-describable. \[[2](#bibkey_Jech2003:SetTheory)\]
 
 Every critical point of a nontrivial elementary embedding
 $j:M\\rightarrow M$ for some transitive inner model $M$ of
-[ZFC](/ZFC "ZFC") is totally
+[ZFC](ZFC "ZFC") is totally
 indescribable in $M$. (For example,
-<a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
 cardinals,
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>
 cardinals, and
-<a href="/Zero_dagger" class="mw-redirect" title="Zero dagger">$0^{\dagger}$</a>
+<a href="Zero_dagger" class="mw-redirect" title="Zero dagger">$0^{\dagger}$</a>
 cardinals). \[[2](#bibkey_Jech2003:SetTheory)\]
 
 If $2^\\kappa\\neq\\kappa^+$ for some $\\Pi\_1^2$-indescribable
@@ -171,7 +171,7 @@ $2^\\kappa\\neq\\kappa^+$.
   
 Transfinite $Π^1\_α$-indescribable has been defined via finite games and
 it turns out that for infinite $α$, if $κ$ is
-$Π\_α$-[Ramsey](/Ramsey "Ramsey"),
+$Π\_α$-[Ramsey](Ramsey "Ramsey"),
 then $κ$ is $Π^1\_{2 ·(1+β)+ 1}$-indescribable for each $β &lt; \\min
 \\{α, κ^+\\}$.\[[9](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 
@@ -217,6 +217,6 @@ then $κ$ is $Π^1\_{2 ·(1+β)+ 1}$-indescribable for each $β &lt; \\min
     <a href="http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075106/http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191005075106/http://www.ams.org/mathscinet-getitem?mr=2817562" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BSharpeWelch2011:GreatlyErdosChang,%20%20%20%20AUTHOR%20=%20%7BSharpe,%20Ian%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BGreatly%20Erdős%20cardinals%20with%20some%20generalizations%20to%20%20%20%20%20%20%20%20%20%20%20%20%20%20the%20Chang%20and%20Ramsey%20properties%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnn.%20Pure%20Appl.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B162%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B11%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B863--902%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0168-0072%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BAPALD7%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E04%20(03E35%2003E45%2003E55)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2817562%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

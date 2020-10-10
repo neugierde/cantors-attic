@@ -35,10 +35,10 @@ that anyone can learn to do, even young children.
 
   
 
-## The ordinals below [$\\epsilon\_0$](/Epsilon_naught "Epsilon naught")
+## The ordinals below [$\\epsilon\_0$](Epsilon_naught "Epsilon naught")
 
 We shall give here an account of the attractive finitary represenation
 of the ordinals below
-[$\\epsilon\_0$](/Epsilon_naught "Epsilon naught").
+[$\\epsilon\_0$](Epsilon_naught "Epsilon naught").
 
 

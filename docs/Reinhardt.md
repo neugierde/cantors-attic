@@ -16,7 +16,7 @@ permalink: Reinhardt
 
 The existence of **Reinhardt cardinals** has been refuted in
 $\\text{ZFC}\_2$ and $\\text{GBC}$ by Kunen ([Kunen
-inconsistency](/Kunen_inconsistency "Kunen inconsistency")),
+inconsistency](Kunen_inconsistency "Kunen inconsistency")),
 the term is used in the $\\text{ZF}\_2$ context, although some
 mathematicians suspect that they are inconsistent even there.
 
@@ -81,12 +81,12 @@ contradiction.\[[1](#bibkey_Corazza2010:TheAxiomOfInfinityAndJVV)\]
 
 $\\mathrm{WR}(\\kappa)$ (1) implies that $\\kappa$ is a measurable limit
 of
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinals and therefore is [strongly
-compact](/Strongly_compact "Strongly compact").
+compact](Strongly_compact "Strongly compact").
 It is not known whether $\\kappa$ must be supercompact itself. Requiring
 it to be
-[extendible](/Extendible "Extendible")
+[extendible](Extendible "Extendible")
 makes the theory
 stronger.\[[1](#bibkey_Corazza2010:TheAxiomOfInfinityAndJVV)\]
 
@@ -103,7 +103,7 @@ such that $(V\_\\gamma , V\_{\\gamma+1})\\vDash \\mathrm{ZF}\_2 +
 cardinal”}$.\[[3](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
 
 If $\\delta\_0$ is the least
-[Berkeley](/Berkeley "Berkeley")
+[Berkeley](Berkeley "Berkeley")
 cardinal, then there is $\\gamma\\lt\\delta\_0$ such that $(V\_\\gamma ,
 V\_{\\gamma+1})\\vDash\\mathrm{ZF}\_2+\\text{“There is a Reinhardt
 cardinal witnessed by $j$ and an $\\omega$-huge above
@@ -128,6 +128,6 @@ Reinhardt.\[[3](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
     <a href="https://events.math.unipd.it/aila2017/sites/default/files/BAGARIA.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2017:LargeCardinalsBeyondChoice,%20%20author%20=%20%20%20%20%20%20%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20title%20=%20%20%20%20%20%20%20%20%7BLarge%20Cardinals%20beyond%20Choice%7D,%3Cbr%3E%20%20year%20=%20%20%20%20%20%20%20%20%20%7B2017%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttps://events.math.unipd.it/aila2017/sites/default/files/BAGARIA.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

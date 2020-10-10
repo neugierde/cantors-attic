@@ -20,7 +20,7 @@ Uplifting cardinals were introduced by Hamkins and Johnstone in
 this text is adapted.
 
 An
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 cardinal $\\kappa$ is **uplifting** if and only if for every ordinal
 $\\theta$ it is **$\\theta$-uplifting**, meaning that there is an
 inaccessible $\\gamma&gt;\\theta$ such that $V\_\\kappa\\prec
@@ -38,7 +38,7 @@ uplifting.
 It is an elementary exercise to see that if $V\_\\kappa\\prec
 V\_\\gamma$ is a proper elementary extension, then $\\kappa$ and hence
 also $\\gamma$ are
-<a href="/Beth_fixed_point" class="mw-redirect" title="Beth fixed point">$\beth$-fixed points</a>,
+<a href="Beth_fixed_point" class="mw-redirect" title="Beth fixed point">$\beth$-fixed points</a>,
 and so $V\_\\kappa=H\_\\kappa$ and $V\_\\gamma=H\_\\gamma$. It follows
 that a cardinal $\\kappa$ is uplifting if and only if it is regular and
 there are arbitrarily large regular cardinals $\\gamma$ such that
@@ -87,14 +87,14 @@ pseudo-uplifting cardinals.
 
 The consistency strength of uplifting and pseudo-uplifting cardinals are
 bounded between the existence of a
-[Mahlo](/Mahlo "Mahlo")
+[Mahlo](Mahlo "Mahlo")
 cardinal and the hypothesis
-<a href="/Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.
+<a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.
 
 **Theorem.**
 
 1\. If $\\delta$ is a
-[Mahlo](/Mahlo "Mahlo")
+[Mahlo](Mahlo "Mahlo")
 cardinal, then $V\_\\delta$ has a proper class of uplifting cardinals.
 
 2\. Every uplifting cardinal is pseudo uplifting and a limit of pseudo
@@ -103,9 +103,9 @@ uplifting cardinals.
 3\. If there is a pseudo uplifting cardinal, or indeed, merely a pseudo
 $0$-uplifting cardinal, then there is a transitive set model of ZFC with
 a
-[reflecting](/Reflecting "Reflecting")
+[reflecting](Reflecting "Reflecting")
 cardinal and consequently also a transitive model of ZFC plus
-<a href="/Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.
+<a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.
 
 Proof. For (1), suppose that $\\delta$ is a Mahlo cardinal. By the
 Lowenheim-Skolem theorem, there is a club set $C\\subset\\delta$ of
@@ -122,7 +122,7 @@ pseudo uplifting cardinals below $\\kappa$. For (3), if $\\kappa$ is
 inaccessible and $V\_\\kappa\\prec V\_\\gamma$, then $V\_\\gamma$ is a
 transitive set model of ZFC in which $\\kappa$ is reflecting, and it is
 thus also a model of
-<a href="/Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.
+<a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.
 QED
 
 ## Uplifting cardinals and $\\Sigma\_3$-reflection
@@ -192,7 +192,7 @@ equiconsistent over ZFC:
 Strongly uplifting cardinals are precisely strongly pseudo uplifting
 ordinals, strongly uplifting cardinals with weakly compact targets,
 superstrongly
-[unfoldable](/Unfoldable "Unfoldable")
+[unfoldable](Unfoldable "Unfoldable")
 cardinals and almost-hugely unfoldable cardinals.
 
 ### <span id="Definitions" class="mw-headline">Definitions</span>
@@ -243,7 +243,7 @@ For any cardinal $κ$ and ordinal $θ$, the following are equivalent:
 -   $κ$ is superstrongly $(θ+1)$-unfoldable.
 -   $κ$ is almost-hugely $(θ+1)$-unfoldable.
 -   For every set $A ∈ H\_{κ^+}$ there is a
-    $κ$-[model](/Model "Model")
+    $κ$-[model](Model "Model")
     $M⊨\\mathrm{ZFC}$ with $A∈M$ and $V\_κ≺M$ and a transitive set $N$
     with an elementary embedding $j:M→N$ having critical point $κ$ with
     $j(κ)&gt; θ$ and $V\_{j(κ)}≺N$, such that $N^{&lt;j(κ)}⊆N$ and
@@ -299,11 +299,11 @@ arbitrarily large targets, and it is almost hugely unfoldable if it is
 weakly almost huge with arbitrarily large targets.
 
 If $κ$ is weakly superstrong, it is
-$0$-[extendible](/Extendible "Extendible")
+$0$-[extendible](Extendible "Extendible")
 and
-$\\Sigma\_3$-[extendible](/Extendible "Extendible").
+$\\Sigma\_3$-[extendible](Extendible "Extendible").
 Weakly almost huge cardinals also are
-$\\Sigma\_3$-[extendible](/Extendible "Extendible").
+$\\Sigma\_3$-[extendible](Extendible "Extendible").
 Because $\\Sigma\_3$-extendibility always can be destroyed, all these
 cardinal properties (among others) are never Lever indestructible.
 
@@ -327,6 +327,6 @@ cardinal properties (among others) are never Lever indestructible.
     <a href="http://jdh.hamkins.org/superstrong-never-indestructible/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075041/http://arxiv.org/abs/1307.3486" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005075041/http://dx.doi.org/10.1007/s00153-015-0458-3" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible,%20%20author%20=%20%20%20%20%20%20%20%7BBagaria,%20Joan%20and%20Hamkins,%20Joel%20David%20and%20Tsaprounis,%20Konstantinos%20and%20Usuba,%20Toshimichi%7D,%3Cbr%3E%20%20title%20=%20%20%20%20%20%20%20%20%7BSuperstrong%20and%20other%20large%20cardinals%20are%20never%20Laver%20indestructible%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1307.3486%7D,%3Cbr%3E%20%20year%20=%20%20%20%20%20%20%20%20%20%7B2013%7D,%3Cbr%3E%20%20journal%20=%20%20%20%20%20%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20volume%20=%20%20%20%20%20%20%20%7B55%7D,%3Cbr%3E%20%20number%20=%20%20%20%20%20%20%20%7B1-2%7D,%3Cbr%3E%20%20pages%20=%20%20%20%20%20%20%20%20%7B19--35%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttp://jdh.hamkins.org/superstrong-never-indestructible/%7D,%3Cbr%3E%20%20doi%20=%20%20%20%20%20%20%20%20%20%20%7B10.1007/s00153-015-0458-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

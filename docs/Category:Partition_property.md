@@ -24,25 +24,25 @@ The following 6 pages are in this category, out of 6 total.
 ### C
 
 -   [Chang's
-    conjecture](/Chang%27s_conjecture "Chang's conjecture")
+    conjecture](Chang%27s_conjecture "Chang's conjecture")
 
 ### E
 
--   [Erdos](/Erdos "Erdos")
+-   [Erdos](Erdos "Erdos")
 
 ### J
 
--   [Jonsson](/Jonsson "Jonsson")
+-   [Jonsson](Jonsson "Jonsson")
 
 ### P
 
 -   [Partition
-    property](/Partition_property "Partition property")
+    property](Partition_property "Partition property")
 
 ### R
 
--   [Ramsey](/Ramsey "Ramsey")
--   [Rowbottom](/Rowbottom "Rowbottom")
+-   [Ramsey](Ramsey "Ramsey")
+-   [Rowbottom](Rowbottom "Rowbottom")
 
 
 

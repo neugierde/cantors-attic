@@ -22,7 +22,7 @@ such cardinals, which can be seen below.
 
 
 
-<a href="/File:DoubleHelix.png" class="image"><img src="/web/20191005075330im_/http://cantorsattic.info/images/thumb/d/dc/DoubleHelix.png/600px-DoubleHelix.png" srcset="/web/20191005075330im_/http://cantorsattic.info/images/thumb/d/dc/DoubleHelix.png/900px-DoubleHelix.png 1.5x, /web/20191005075330im_/http://cantorsattic.info/images/thumb/d/dc/DoubleHelix.png/1200px-DoubleHelix.png 2x" width="600" height="373" alt="DoubleHelix.png" /></a>
+<a href="File:DoubleHelix.png" class="image"><img src="/web/20191005075330im_/http://cantorsattic.info/images/thumb/d/dc/DoubleHelix.png/600px-DoubleHelix.png" srcset="/web/20191005075330im_/http://cantorsattic.info/images/thumb/d/dc/DoubleHelix.png/900px-DoubleHelix.png 1.5x, /web/20191005075330im_/http://cantorsattic.info/images/thumb/d/dc/DoubleHelix.png/1200px-DoubleHelix.png 2x" width="600" height="373" alt="DoubleHelix.png" /></a>
 
 
 
@@ -82,20 +82,20 @@ The $n$-fold variants of large cardinals were given in a very large
 paper by Sato Kentaro. Most of the definitions involve giving large
 closure properties to the $M$ used in the original large cardinal in an
 [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j:V\\rightarrow M$. They are very large, but
-[rank-into-rank](/Rank_into_rank "Rank into rank")
+[rank-into-rank](Rank_into_rank "Rank into rank")
 cardinals are stronger than most $n$-fold variants of large cardinals.
 
 Generally, the $n$-fold variant of a large cardinal axiom is the similar
 to the generalization of
-[superstrong](/Superstrong "Superstrong")
+[superstrong](Superstrong "Superstrong")
 cardinals to
-[$n$-superstrong](/Superstrong "Superstrong")
+[$n$-superstrong](Superstrong "Superstrong")
 cardinals,
-[huge](/Huge "Huge")
+[huge](Huge "Huge")
 cardinals to
-[$n$-huge](/Huge "Huge")
+[$n$-huge](Huge "Huge")
 cardinals, etc. More specifically, if the definition of the original
 axiom is that $j:V\\prec M$ has critical point $\\kappa$ and $M$ has
 some closure property which uses $\\kappa$, then the definition of the
@@ -108,24 +108,24 @@ There were many $n$-fold variants which were simply different names of
 the original large cardinal. This was due to the fact that some n-fold
 variants, if only named n-variants instead, would be confusing to the
 reader (for example the $n$-fold extendibles rather than the
-[$n$-extendibles](/Extendible "Extendible")).
+[$n$-extendibles](Extendible "Extendible")).
 Here are a list of such cardinals:
 
 -   The **$n$-fold superstrong** cardinals are precisely the
-    [$n$-superstrong](/Superstrong "Superstrong")
+    [$n$-superstrong](Superstrong "Superstrong")
     cardinals
 -   The **$n$-fold almost huge** cardinals are precisely the [almost
-    $n$-huge](/Huge "Huge")
+    $n$-huge](Huge "Huge")
     cardinals
 -   The **$n$-fold huge** cardinals are precisely the
-    [$n$-huge](/Huge "Huge")
+    [$n$-huge](Huge "Huge")
     cardinals
 -   The **$n$-fold superhuge** cardinals are precisely the
-    [$n$-superhuge](/Huge "Huge")
+    [$n$-superhuge](Huge "Huge")
     cardinals
 -   The **$\\omega$-fold superstrong** and **$\\omega$-fold Shelah**
     cardinals are precisely the
-    <a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I2</a>
+    <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I2</a>
     cardinals
 
 ### <span id=".24n.24-fold_supercompact_cardinals" class="mw-headline">$n$-fold supercompact cardinals</span>
@@ -136,23 +136,23 @@ $j:V\\rightarrow M$ such that $\\lambda&lt;j(\\kappa)$ and
 $M^{j^{n-1}(\\lambda)}\\subset M$ (i.e. $M$ is closed under all of its
 sequences of length $j^{n-1}(\\lambda)$). This definition is very
 similar to that of the
-[$n$-huge](/Huge "Huge")
+[$n$-huge](Huge "Huge")
 cardinals.
 
 A cardinal $\\kappa$ is **$n$-fold supercompact** iff it is $n$-fold
 $\\lambda$-supercompact for every $\\lambda$. Consistency-wise, the
 $n$-fold supercompact cardinals are stronger than the
-[$n$-superstrong](/Superstrong "Superstrong")
+[$n$-superstrong](Superstrong "Superstrong")
 cardinals and weaker than the $(n+1)$-fold strong cardinals. In fact, if
 an $n$-fold supercompact cardinal exists, then it is consistent for
 there to be a proper class of $n$-superstrong cardinals.
 
 It is clear that the $n+1$-fold $0$-supercompact cardinals are precisely
-the [$n$-huge](/Huge "Huge")
+the [$n$-huge](Huge "Huge")
 cardinals. The $1$-fold supercompact cardinals are precisely the
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinals. The $0$-fold supercompact cardinals are precisely the
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinals.
 
 ### <span id=".24n.24-fold_strong_cardinals" class="mw-headline">$n$-fold strong cardinals</span>
@@ -171,11 +171,11 @@ the rank of an (n+1)-fold Woodin cardinal there is an $(n+1)$-fold
 strong cardinal.
 
 It is clear that the $(n+1)$-fold $0$-strong cardinals are precisely the
-[$n$-superstrong](/Superstrong "Superstrong")
+[$n$-superstrong](Superstrong "Superstrong")
 cardinals. The $1$-fold strong cardinals are precisely the
-[strong](/Strong "Strong")
+[strong](Strong "Strong")
 cardinals. The $0$-fold strong cardinals are precisely the
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 cardinals.
 
 ### <span id=".24n.24-fold_extendible_cardinals" class="mw-headline">$n$-fold extendible cardinals</span>
@@ -212,13 +212,13 @@ $(n+1)$-fold Woodin cardinal, and every $(n+1)$-fold Shelah cardinal is
 also an $(n+1)$-fold Woodin cardinal.
 
 The $2$-fold Woodin cardinals are precisely the
-[Vopěnka](/Vopenka "Vopenka")
+[Vopěnka](Vopenka "Vopenka")
 cardinals (therefore precisely the [Woodin for
-supercompactness](/Woodin#Shelah "Woodin")
+supercompactness](Woodin#Shelah "Woodin")
 cardinals). In fact, the $n+1$-fold Woodin cardinals are precisely the
 $n$-fold Vopěnka cardinals. The $1$-fold Woodin cardinals are precisely
 the
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinals.
 
 *(More to be added)*
@@ -227,14 +227,14 @@ cardinals.
 
 The $\\omega$-fold variant is a very strong version of the $n$-fold
 variant, to the point where they even beat some of the
-<a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
 axioms in consistency strength. Interestingly, they follow a somewhat
 backwards pattern of consistency strength relative to the original
 double helix. For example, $n$-fold strong is much weaker than $n$-fold
 Vopěnka (the jump is similar to the jump between a
-[strong](/Strong "Strong")
+[strong](Strong "Strong")
 cardinal and a
-[Vopěnka](/Vopenka "Vopenka")
+[Vopěnka](Vopenka "Vopenka")
 cardinal), but $\\omega$-fold strong is much, much stronger than
 $\\omega$-fold Vopěnka.
 
@@ -292,7 +292,7 @@ $V\_{j^{\\omega}(f)(\\alpha))}\\subset M$.
 
 Consistency-wise, the existence of an $\\omega$-fold Woodin cardinal is
 stronger than the
-<a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I2</a>
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I2</a>
 axiom, but weaker than the existence of an $\\omega$-fold strong
 cardinal. In particular, if there is an $\\omega$-fold strong cardinal
 $\\kappa$ then $\\kappa$ is $\\omega$-fold Woodin and has $\\kappa$-many
@@ -314,11 +314,11 @@ stronger than the existence of an $\\omega$-fold Woodin cardinal and
 weaker than the assertion that there is a $\\Sigma\_4^1$-elementary
 embedding $j:V\_\\lambda\\prec V\_\\lambda$ with an uncountable critical
 point $\\kappa&lt;\\lambda$ (this is a weakening of the
-<a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I1</a>
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I1</a>
 axiom known as $E\_2$). In particular, if there is a cardinal $\\kappa$
 which is the critical point of some elementary embedding witnessing the
 $E\_2$ axiom, then there is a nonprincipal $\\kappa$-complete
-[ultrafilter](/Filter "Filter")
+[ultrafilter](Filter "Filter")
 over $\\kappa$ which contains the set of all cardinals which are
 $\\omega$-fold strong in $V\_\\kappa$ and therefore $V\_\\kappa$
 satisfies the existence of a proper class of $\\omega$-fold strong
@@ -332,6 +332,6 @@ cardinals.
     <a href="https://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKentaro2007:DoubleHelix,%20%20%20%20AUTHOR%20=%20%7BKentaro,%20Sato%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BDouble%20helix%20in%20large%20large%20cardinals%20and%20iteration%20ofelementary%20embeddings%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BElsevier%20B.V.%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2007%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

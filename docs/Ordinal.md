@@ -16,16 +16,16 @@ permalink: Ordinal
 
   
 Ordinal numbers describe the way a set might be arranged into a
-[well-ordered](/Ordering_Relations "Ordering Relations")
+[well-ordered](Ordering_Relations "Ordering Relations")
 sequence. Thus, ordinals have to do with the way a set is or can be
 ordered, rather than its size or
-[cardinality](/Cardinal "Cardinal").
+[cardinality](Cardinal "Cardinal").
 
 An elegant formulation of the ordinal concept in ZFC was provided by von
 Neumann: an *ordinal* is simply a
-[transitive](/Transitive "Transitive")
+[transitive](Transitive "Transitive")
 set
-[well-ordered](/Ordering_Relations "Ordering Relations")
+[well-ordered](Ordering_Relations "Ordering Relations")
 by the set membership relation $\\in$. Equivalently, an ordinal is a
 hereditarily transitive set, meaning that it is transitive, and all of
 its elements are transitive.

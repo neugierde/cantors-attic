@@ -10,7 +10,7 @@ permalink: Erdős
 
 
 (Redirected from
-[Erdős](/index.php?title=Erd%C5%91s&redirect=no "Erdős"))
+[Erdős](index.php?title=Erd%C5%91s&redirect=no "Erdős"))
 
 
 
@@ -25,7 +25,7 @@ $\\kappa$ such that $\\kappa\\rightarrow (\\alpha)^{\\lt\\omega}\_2$ (if
 any such cardinal exists).
 
 For infinite cardinals $\\kappa$ and $\\lambda$, the [partition
-property](/Partition_property "Partition property")
+property](Partition_property "Partition property")
 $\\kappa\\to(\\lambda)^n\_\\gamma$ asserts that for every function
 $F:\[\\kappa\]^n\\to\\gamma$ there is $H\\subseteq\\kappa$ with
 $\|H\|=\\lambda$ such that $F\\upharpoonright\[H\]^n$ is constant. Here
@@ -85,7 +85,7 @@ definition:\[[2](#bibkey_Wilson2018:WeaklyRemarkableCardinals)\]
 Erdős cardinals and the constructible universe:
 
 -   $\\omega\_1$-Erdős cardinals imply that
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
     exists and hence there cannot be $\\omega\_1$-Erdős cardinals in
     $L$. \[[4](#bibkey_Silver1971:ZeroSharp)\]
     -   “$∀\_{a ∈ {}^\\omega\\omega} \\text{$a^\\sharp$ exists}$” is
@@ -95,29 +95,29 @@ Erdős cardinals and the constructible universe:
 -   $\\alpha$-Erdős cardinals are downward absolute to $L$ for
     $L$-countable $\\alpha$. More generally, $\\alpha$-Erdős cardinals
     are downward absolute to any transitive model of
-    [ZFC](/ZFC "ZFC") for
+    [ZFC](ZFC "ZFC") for
     $M$-countable $\\alpha$. \[[6](#bibkey_Silver1970:ErdosCardinal)\]
 
 Relations with other large cardinals:
 
 -   Every Erdős cardinal is
-    [inaccessible](/Inaccessible "Inaccessible").
+    [inaccessible](Inaccessible "Inaccessible").
     (Silver's PhD thesis)
 -   Every Erdős cardinal is
-    <a href="/Subtle" class="mw-redirect" title="Subtle">subtle</a>.
+    <a href="Subtle" class="mw-redirect" title="Subtle">subtle</a>.
     \[[7](#bibkey_JensenKunen1969:Ineffable)\]
 -   $\\eta\_\\omega$ is a stationary limit of
-    [ineffable](/Ineffable "Ineffable")
+    [ineffable](Ineffable "Ineffable")
     cardinals. \[[8](#bibkey_Jech2003:SetTheory)\]
 -   $\\eta\_\\omega$ is a limit of
-    <a href="/Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
+    <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
     cardinals. \[[9](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
 -   If there is an $\\omega$-Erdős cardinal, than there is a transitive
     set model of $\\mathrm{ZFC} + \\mathrm{BTEE}$
-    (<a href="/Basic_Theory_of_Elementary_Embeddings" class="mw-redirect" title="Basic Theory of Elementary Embeddings">Basic Theory of Elementary Embeddings</a>).\[[10](#bibkey_Corazza2006:TheSpectrumOfElementaryEmbeddings)\]
+    (<a href="Basic_Theory_of_Elementary_Embeddings" class="mw-redirect" title="Basic Theory of Elementary Embeddings">Basic Theory of Elementary Embeddings</a>).\[[10](#bibkey_Corazza2006:TheSpectrumOfElementaryEmbeddings)\]
 -   The existence of $\\eta\_\\omega$ implies the consistency of a
     proper class of
-    [$n$-iterable](/Ramsey#iterable "Ramsey")
+    [$n$-iterable](Ramsey#iterable "Ramsey")
     cardinals for every $1\\leq
     n&lt;\\omega$.\[[11](#bibkey_Gitman2011:RamseyLikeCardinals)\]
 -   For an additively indecomposable ordinal $λ ≤ ω\_1$, $η\_λ$ (the
@@ -128,21 +128,21 @@ Relations with other large cardinals:
 -   The consistency strength of the existence of an Erdős cardinal is
     stronger than that of the existence of an $n$-iterable cardinal for
     every $n&lt;\\omega$ and weaker than that of the existence of
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>.
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>.
 -   The existence of a proper class of Erdős cardinals is equivalent to
     the existence of a proper class of [almost
-    Ramsey](/Ramsey#Almost_Ramsey_cardinal "Ramsey")
+    Ramsey](Ramsey#Almost_Ramsey_cardinal "Ramsey")
     cardinals. The consistency strength of this is weaker than a
-    [worldly](/Worldly "Worldly")
+    [worldly](Worldly "Worldly")
     almost Ramsey cardinal, but stronger than an almost Ramsey cardinal.
 -   The existence of an almost Ramsey cardinal is stronger than the
     existence of an $\\omega\_1$-Erdős cardinal.
     \[[12](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 -   A cardinal $\\kappa$ is
-    [Ramsey](/Ramsey "Ramsey")
+    [Ramsey](Ramsey "Ramsey")
     precisely when it is $\\kappa$-Erdős.
 -   (Baumgartner definition) The existence of
-    non-[remarkable](/Remarkable "Remarkable")
+    non-[remarkable](Remarkable "Remarkable")
     weakly remarkable cardinals is equiconsistent to the existence of
     $ω$-Erdős cardinal (equivalent assuming
     $V=L$):\[[2](#bibkey_Wilson2018:WeaklyRemarkableCardinals)\]
@@ -185,10 +185,10 @@ canonical functions for $κ$):
 Relations:
 
 -   If $κ$ is a $2$-weakly Erdős cardinal then $κ$ is almost
-    [Ramsey](/Ramsey "Ramsey").
+    [Ramsey](Ramsey "Ramsey").
 -   If $κ$ is virtually Ramsey then $κ$ is greatly Erdős.
 -   There are stationarily many completely
-    [ineffable](/Ineffable "Ineffable"),
+    [ineffable](Ineffable "Ineffable"),
     greatly Erdős cardinals below any Ramsey cardinal.
 
 ## References
@@ -245,6 +245,6 @@ Relations:
     <a href="https://web.archive.org/web/20191117021927/http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">www</a>   <a href="https://web.archive.org/web/20191117021927/http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">DOI</a>   <a href="https://web.archive.org/web/20191117021927/http://www.ams.org/mathscinet-getitem?mr=2817562" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BSharpeWelch2011:GreatlyErdosChang,%20%20%20%20AUTHOR%20=%20%7BSharpe,%20Ian%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BGreatly%20Erdős%20cardinals%20with%20some%20generalizations%20to%20%20%20%20%20%20%20%20%20%20%20%20%20%20the%20Chang%20and%20Ramsey%20properties%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnn.%20Pure%20Appl.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B162%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B11%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B863--902%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0168-0072%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BAPALD7%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E04%20(03E35%2003E45%2003E55)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2817562%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

@@ -10,7 +10,7 @@ permalink: Indecomposable
 
 
 (Redirected from
-[Indecomposable](/index.php?title=Indecomposable&redirect=no "Indecomposable"))
+[Indecomposable](index.php?title=Indecomposable&redirect=no "Indecomposable"))
 
 
 
@@ -18,11 +18,11 @@ permalink: Indecomposable
 
 
 A limit ordinal is an
-[ordinal](/Ordinal "Ordinal")
+[ordinal](Ordinal "Ordinal")
 that is neither
-[$0$](/Zero "Zero") nor a
+[$0$](Zero "Zero") nor a
 [successor
-ordinal](/Successor_ordinal "Successor ordinal").
+ordinal](Successor_ordinal "Successor ordinal").
 Some authors classify zero as a limit ordinal.
 
 ## Properties
@@ -34,7 +34,7 @@ contain $\\alpha + 1$.
 
 $\\omega$ is the smallest nonzero limit ordinal, and the smallest
 ordinal of infinite
-[cardinal](/Cardinal "Cardinal")
+[cardinal](Cardinal "Cardinal")
 number.
 
 $(\\omega + \\omega)$, also written $( \\omega \\cdot 2 )$, is the next
@@ -78,9 +78,9 @@ ordinals (or $\\eta$ ordinals) are then obtained by taking
 $f(\\alpha)=\\zeta\_\\alpha$, and so on.
 
 This pattern continues on with the [Veblen
-Hiearchy](/Feferman-Sch%C3%BCtte "Feferman-Schütte"),
+Hiearchy](Feferman-Sch%C3%BCtte "Feferman-Schütte"),
 continuing up to the
-[Feferman-Schütte](/Feferman-Sch%C3%BCtte "Feferman-Schütte")
+[Feferman-Schütte](Feferman-Sch%C3%BCtte "Feferman-Schütte")
 ordinal $\\Gamma\_0$, the smallest ordinal such that this process does
 not generate any larger kind of ordinals.
 

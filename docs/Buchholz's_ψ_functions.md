@@ -168,13 +168,13 @@ name of the ordinal was proposed by David Madore.
 Other ordinal collapsing functions:
 
 [Madore's ψ
-function](/Madore%27s_%CF%88_function "Madore's ψ function")
+function](Madore%27s_%CF%88_function "Madore's ψ function")
 
 [Jäger's ψ
-functions](/J%C3%A4ger%27s_collapsing_functions_and_%CF%81-inaccessible_ordinals "Jäger's collapsing functions and ρ-inaccessible ordinals")
+functions](J%C3%A4ger%27s_collapsing_functions_and_%CF%81-inaccessible_ordinals "Jäger's collapsing functions and ρ-inaccessible ordinals")
 
 [collapsing functions based on a weakly Mahlo
-cardinal](/User_blog:Denis_Maksudov/Ordinal_functions_collapsing_the_least_weakly_Mahlo_cardinal;_a_system_of_fundamental_sequences "User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences")
+cardinal](User_blog:Denis_Maksudov/Ordinal_functions_collapsing_the_least_weakly_Mahlo_cardinal;_a_system_of_fundamental_sequences "User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences")
 
 ## References
 

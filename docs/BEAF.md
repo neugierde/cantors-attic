@@ -30,13 +30,13 @@ function.
     a row (written \\(X^1\\)), a plane (\\(X^2\\)), a realm (\\(X^3\\)),
     or a flune (\\(X^4\\)), not to mention higher-dimensional structures
     (\\(X^5\\), \\(X^6\\), etc.) and
-    <a href="/index.php?title=Tetration&amp;action=edit&amp;redlink=1" class="new" title="Tetration (page does not exist)">tetrational</a>
+    <a href="index.php?title=Tetration&amp;action=edit&amp;redlink=1" class="new" title="Tetration (page does not exist)">tetrational</a>
     structures, e.g. \\(X\\uparrow\\uparrow 3\\). We can also continue
     with
-    <a href="/index.php?title=Pentation&amp;action=edit&amp;redlink=1" class="new" title="Pentation (page does not exist)">pentational</a>,
-    <a href="/index.php?title=Hexation&amp;action=edit&amp;redlink=1" class="new" title="Hexation (page does not exist)">hexational</a>,
+    <a href="index.php?title=Pentation&amp;action=edit&amp;redlink=1" class="new" title="Pentation (page does not exist)">pentational</a>,
+    <a href="index.php?title=Hexation&amp;action=edit&amp;redlink=1" class="new" title="Hexation (page does not exist)">hexational</a>,
     ...,
-    <a href="/index.php?title=Expansion&amp;action=edit&amp;redlink=1" class="new" title="Expansion (page does not exist)">expandal</a>,
+    <a href="index.php?title=Expansion&amp;action=edit&amp;redlink=1" class="new" title="Expansion (page does not exist)">expandal</a>,
     ... structures.
 -   A "previous entry" is an entry that occurs before the pilot, but is
     on the same row as all other previous entries. A "previous row" is a

@@ -26,7 +26,7 @@ This category contains only the following page.
 ### C
 
 -   [Constructible
-    universe](/Constructible_universe "Constructible universe")
+    universe](Constructible_universe "Constructible universe")
 
 
 

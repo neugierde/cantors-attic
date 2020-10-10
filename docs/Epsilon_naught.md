@@ -23,7 +23,7 @@ supremum
 $$\\epsilon\_0=\\sup\\{\\omega,\\omega^\\omega,\\omega^{\\omega^\\omega},\\ldots\\}$$
 
 The [ordinals below
-$\\epsilon\_0$](/Small_countable_ordinals "Small countable ordinals")
+$\\epsilon\_0$](Small_countable_ordinals "Small countable ordinals")
 exhibit an attractive finitistic normal form of representation, arising
 from an iterated Cantor normal form involving only finite numbers and
 the expression $\\omega$ in finitely iterated exponentials, products and

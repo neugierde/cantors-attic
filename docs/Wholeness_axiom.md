@@ -10,7 +10,7 @@ permalink: Wholeness_axiom
 
 
 (Redirected from [Wholeness
-axiom](/index.php?title=Wholeness_axiom&redirect=no "Wholeness axiom"))
+axiom](index.php?title=Wholeness_axiom&redirect=no "Wholeness axiom"))
 
 
 
@@ -22,13 +22,13 @@ The wholeness axioms, proposed by Paul Corazza
 [2](#bibkey_Corazza2003:GapBetweenI3andWA)\], occupy a high place in the
 upper stratosphere of the large cardinal hierarchy, intended as slight
 weakenings of the [Kunen
-inconsistency](/Kunen_inconsistency "Kunen inconsistency"),
+inconsistency](Kunen_inconsistency "Kunen inconsistency"),
 but similar in spirit.
 
 The **wholeness axioms** are formalized in the language $\\{\\in,j\\}$,
 augmenting the usual language of set theory $\\{\\in\\}$ with an
 additional unary function symbol $j$ to represent an [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 from $V$ into itself, with higher and higher degrees of seperation in
 $\\{\\in,j\\}$.
 
@@ -80,7 +80,7 @@ $0,1,\\ldots,\\infty$, consists of the following:
 -   (Nontriviality) The axiom $\\exists x\\,j(x)\\not=x$.
 
 Clearly, this resembles the [Kunen
-inconsistency](/Kunen_inconsistency "Kunen inconsistency").
+inconsistency](Kunen_inconsistency "Kunen inconsistency").
 What is missing from the wholeness axiom schemes, and what figures
 prominantly in Kunen's proof, are the instances of the replacement axiom
 in the full language with $j$. In particular, it is the replacement
@@ -144,15 +144,15 @@ Similar theories can have very different consistency strengths.
 -   The hierarchy of wholeness axioms is strictly increasing, if
     consistent.\[[4](#bibkey_Hamkins2001:WholenessAxiomAndVequalHOD)\]
 -   If $\\mathrm{I}\_4^0(\\kappa)$, then $\\kappa$ is
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     and $\\{\\alpha\\lt\\kappa\|\\alpha\\text{ is measurable}\\}$ has
     measure 1.\[[2](#bibkey_Corazza2003:GapBetweenI3andWA)\]
 -   If $\\mathrm{I}\_4^1(\\kappa)$, then $\\kappa$ is
-    [superstrong](/Superstrong "Superstrong")
+    [superstrong](Superstrong "Superstrong")
     and $\\{\\alpha\\lt\\kappa\|\\alpha\\text{ is superstrong}\\}$ has
     measure 1.\[[2](#bibkey_Corazza2003:GapBetweenI3andWA)\]
 -   If $n\\ge 1$ and $\\mathrm{I}\_4^{n+1}(\\kappa)$, then $\\kappa$ is
-    $n$-[huge](/Huge "Huge")
+    $n$-[huge](Huge "Huge")
     and $\\{\\alpha\\lt\\kappa\|\\alpha\\text{ is }n\\text{-huge}\\}$
     has measure 1.\[[2](#bibkey_Corazza2003:GapBetweenI3andWA)\]
 -   If $i$ witnesses $\\mathrm{I}\_4^n(\\kappa)$, then $i^n(\\kappa)$ is
@@ -168,11 +168,11 @@ Similar theories can have very different consistency strengths.
 -   $\\mathrm{ZFC} + \\mathrm{WA}\_0$ proves the Cofinal
     Axiom.\[[2](#bibkey_Corazza2003:GapBetweenI3andWA)\]
 -   If there is an
-    $\\omega$-[Erdős](/Erdos "Erdos")
+    $\\omega$-[Erdős](Erdos "Erdos")
     cardinal, than there is a transitive set model of $\\mathrm{ZFC} +
     \\mathrm{BTEE}$.\[[3](#bibkey_Corazza2006:TheSpectrumOfElementaryEmbeddings)\]
 -   Consistency of a completely
-    [ineffable](/Ineffable "Ineffable")
+    [ineffable](Ineffable "Ineffable")
     cardinal implies consistency of the theory
     $\\mathrm{BTEE}$.<a href="https://victoriagitman.github.io/research/2019/06/05/completely-ineffable-cardinals.html" class="external autonumber">[1]</a>
 -   For each particular natural number in the metatheory $n ≥ 1$,
@@ -181,7 +181,7 @@ Similar theories can have very different consistency strengths.
     $n$-ineffable.\[[3](#bibkey_Corazza2006:TheSpectrumOfElementaryEmbeddings)\]
 -   $\\mathrm{ZFC} + \\mathrm{BTEE}$ proves that the critical point of
     $j$ is [totally
-    indescribable](/Indescribable "Indescribable").\[[3](#bibkey_Corazza2006:TheSpectrumOfElementaryEmbeddings)\]
+    indescribable](Indescribable "Indescribable").\[[3](#bibkey_Corazza2006:TheSpectrumOfElementaryEmbeddings)\]
 -   If $\\mathrm{ZFC}$ is consistent, then there is a model $\\langle M,
     E, j \\rangle$ of $\\mathrm{ZFC} + \\text{Elementarity} +
     \\text{Nontriviality}$.\[[3](#bibkey_Corazza2006:TheSpectrumOfElementaryEmbeddings)\]
@@ -210,6 +210,6 @@ Similar theories can have very different consistency strengths.
     <a href="http://dx.doi.org/10.1007/s001530050169" class="extiw">www</a>   <a href="http://web.archive.org/web/20191117022103/http://arxiv.org/abs/math/9902079" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191117022103/http://dx.doi.org/10.1007/s001530050169" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191117022103/http://www.ams.org/mathscinet-getitem?mr=1816602" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%7BHamkins2001:WholenessAxiom,%20%20%20%20AUTHOR%20=%20%7BHamkins,%20Joel%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20wholeness%20axioms%20and%20V=HOD%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BArch.%20Math.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B40%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2001%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B1%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B1--8%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0933-5846%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BAMLOEH%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E35%20(03E65)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B1816602%20(2001m:03102)%7D,%3Cbr%3EMRREVIEWER%20=%20%7BRalf-Dieter%20Schindler%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s001530050169%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1007/s001530050169%7D,%3Cbr%3E%20%20%20%20eprint%20=%20%7Bmath/9902079%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

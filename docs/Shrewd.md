@@ -52,7 +52,7 @@ and $\\mathcal{A}$-$η$-$\\mathcal{F}$-shrewd cardinals.
     is $\\mathcal{A}$-$η$-shrewd. This is a difference between the
     properties of shrewdness and indescribability.
 -   For
-    <a href="/Subtle" class="mw-redirect" title="Subtle">subtle</a>
+    <a href="Subtle" class="mw-redirect" title="Subtle">subtle</a>
     $\\pi$,
     -   for every class $\\mathcal{A}$, in every club $B ⊆ π$ there is
         $κ$ such that $\\langle V\_\\pi, \\mathcal{A} ∩ V\_\\pi \\rangle
@@ -69,6 +69,6 @@ and $\\mathcal{A}$-$η$-$\\mathcal{F}$-shrewd cardinals.
     <a href="http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BRathjen2006:OrdinalAnalysis,%20%20%20%20AUTHOR%20=%20%7BRathjen,%20Michael%7D.%20%20%20%20TITLE%20=%20%7BThe%20art%20of%20ordinal%20analysis%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2006%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttp://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

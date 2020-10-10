@@ -10,7 +10,7 @@ permalink: Beth_omega
 
 
 (Redirected from [Beth
-omega](/index.php?title=Beth_omega&redirect=no "Beth omega"))
+omega](index.php?title=Beth_omega&redirect=no "Beth omega"))
 
 
 
@@ -48,11 +48,11 @@ $\|V\_{\\omega+\\alpha}\|=\\beth\_\\alpha$.
 
 The number $\\beth\_1$ is $2^{\\aleph\_0}$, the cardinality of the power
 set $P(\\aleph\_0)$, which is the same as the
-[continuum](/Continuum "Continuum").
+[continuum](Continuum "Continuum").
 The
-<a href="/Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
+<a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
 is equivalent to the assertion that $\\aleph\_1=\\beth\_1$. The
-<a href="/GCH" class="mw-redirect" title="GCH">generalized continuum hypothesis</a>
+<a href="GCH" class="mw-redirect" title="GCH">generalized continuum hypothesis</a>
 is equivalent to the assertion that $\\beth\_\\alpha=\\aleph\_\\alpha$
 for all ordinals $\\alpha$.
 
@@ -81,7 +81,7 @@ form $\\beth\_\\lambda$ for a limit ordinal $\\lambda$.
 
 A cardinal $\\kappa$ is a *$\\beth$-fixed point* when
 $\\kappa=\\beth\_\\kappa$. Just as in the construction of
-<a href="/Aleph_fixed_point" class="mw-redirect" title="Aleph fixed point">aleph fixed points</a>,
+<a href="Aleph_fixed_point" class="mw-redirect" title="Aleph fixed point">aleph fixed points</a>,
 we may similar construct beth fixed points: begin with any cardinal
 $\\beta\_0$ and let $\\beta\_{n+1}=\\beth\_{\\beta\_n}$; it follows that
 $\\kappa=\\sup\_n\\beta\_n$ is a $\\beth$-fixed point, since

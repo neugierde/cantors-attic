@@ -10,7 +10,7 @@ permalink: Proper_forcing_axiom
 
 
 (Redirected from [Proper forcing
-axiom](/index.php?title=Proper_forcing_axiom&redirect=no "Proper forcing axiom"))
+axiom](index.php?title=Proper_forcing_axiom&redirect=no "Proper forcing axiom"))
 
 
 
@@ -19,7 +19,7 @@ axiom](/index.php?title=Proper_forcing_axiom&redirect=no "Proper forcing axiom")
 
 **Forcing** is a method for extending a transitive model $M$ of
 $\\text{ZFC}$ (the *ground
-[model](/Model "Model")*) by
+[model](Model "Model")*) by
 adjoining a new set $G$ (the *generic set*) to produce a new, larger
 model $M\[G\]$ called a *generic extension*. In short, the set $G$ can
 be constructed a certain way using a partially ordered set
@@ -53,10 +53,10 @@ some way, $M\[G\]$ as seen from within the ground model $M$.
 
 Forcing was first introduced by Paul Cohen as a way of proving the
 consistency of the failure of the
-<a href="/GCH" class="mw-redirect" title="GCH">continuum hypothesis</a>
+<a href="GCH" class="mw-redirect" title="GCH">continuum hypothesis</a>
 with $\\text{ZFC}$. He also used it to prove the consistency of the
 failure of the
-<a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>,
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>,
 albeit the proof is more indirect: if $M$ satisfies choice, then so does
 $M\[G\]$, so $\\neg AC$ cannot be forced directly, though it is possible
 to extract a submodel of $M\[G\]$ (for a particular generic extension)
@@ -139,7 +139,7 @@ $r\\in\\mathbb{P}$ such that $r\\leq p$ and $r\\leq q$. They are
 ### <span id="Genericity" class="mw-headline">Genericity</span>
 
 A nonempty set $F\\subseteq\\mathbb{P}$ is a
-*[filter](/Filter "Filter")
+*[filter](Filter "Filter")
 on $\\mathbb{P}$* if all of its elements are pairwise compatible and it
 is closed under implications, i.e. if $p\\leq q$ and $p\\in F$ then
 $q\\in F$.
@@ -373,9 +373,9 @@ axiom of choice unless indicated otherwise.
 
 -   **Violating the Singular Cardinal Hypothesis at
     $\\aleph\_\\omega$:** Assume there is a
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     cardinal of
-    <a href="/Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
+    <a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
     $o(\\kappa)=\\kappa^{++}$. Then there is a generic extension in
     which $\\kappa=\\aleph\_\\omega$ and
     $2^{\\aleph\_\\omega}=\\aleph\_{\\omega+2}$. The hypothesis used
@@ -386,7 +386,7 @@ axiom of choice unless indicated otherwise.
 
 -   **Violating the Singular Cardinal Hypothesis everywhere:** It is
     consistent relative to the existence of a
-    $(\\delta+2)-$[strong](/Strong "Strong")
+    $(\\delta+2)-$[strong](Strong "Strong")
     cardinal $\\delta$ that $2^\\kappa=\\kappa^+$ for every successor
     $\\kappa$ but $2^\\kappa=\\kappa^{++}$ for every limit cardinal
     $\\kappa$.
@@ -399,7 +399,7 @@ axiom of choice unless indicated otherwise.
 
 
 -   **Large cardinal properties of $\\aleph\_1$:** Let $\\kappa$ be
-    measurable/[supercompact](/Supercompact "Supercompact")/[huge](/web/20191005075126/http://cantorsattic.info/Huge "Huge").
+    measurable/[supercompact](Supercompact "Supercompact")/[huge](/web/20191005075126/http://cantorsattic.info/Huge "Huge").
     Then there is a (sub)model (of a generic extension) satisfying
     $\\text{ZF(+}\\neg\\text{AC)}$ in which $\\kappa=\\aleph\_1$ and
     $\\omega\_1$ is measurable/supercompact/huge (by the ultrafilter
@@ -409,26 +409,26 @@ axiom of choice unless indicated otherwise.
 
 -   **Singularity of every uncountable cardinal:** It is consistent
     relative to the existence of a proper class of [strongly
-    compact](/Strongly_compact "Strongly compact")
+    compact](Strongly_compact "Strongly compact")
     cardinals there is model of $\\text{ZF}$ in which (the axiom of
     choice does not hold and) every uncountable cardinal is singular and
     has cofinality $\\omega$. The existence of a such model also implies
     that the [axiom of
-    determinacy](/Axiom_of_determinacy "Axiom of determinacy")
+    determinacy](Axiom_of_determinacy "Axiom of determinacy")
     holds in the $L(\\mathbb{R})$ of some forcing extension of
     $\\text{HOD}$.
 
 
 -   **[Regularity
-    properties](/Projective "Projective")
+    properties](Projective "Projective")
     of all sets of reals:** Assume there is an
-    [inaccessible](/Inaccessible "Inaccessible")
+    [inaccessible](Inaccessible "Inaccessible")
     cardinal $\\kappa$. Then there is a (sub)model (of a generic
     extension) that satisfies $\\text{ZF+DC+}\\neg\\text{AC}$ and in
     which $\\kappa=2^{\\aleph\_0}$ and every set of reals is Lebesgue
     measurable, has the Baire property and the perfect subset property.
     There is also a generic extension in which choice holds and every
-    [projective](/Projective "Projective")
+    [projective](Projective "Projective")
     set of reals has those properties.
 
 
@@ -436,12 +436,12 @@ axiom of choice unless indicated otherwise.
     measurable cardinal. Then there is a generic extension in which
     $\\kappa=2^{\\aleph\_0}$ and $2^{\\aleph\_0}$ is real-valued
     measurable (and thus weakly inaccessible, weakly
-    hyper-[Mahlo](/Mahlo "Mahlo"),
+    hyper-[Mahlo](Mahlo "Mahlo"),
     etc.)
 
 
 -   **Precipitousness of the [nonstationary
-    ideal](/Filter "Filter")
+    ideal](Filter "Filter")
     on $\\omega\_1$:** Assume there is a measurable cardinal $\\kappa$.
     Then there is a generic extension in which $\\kappa=\\aleph\_1$ and
     the nonstationary ideal on $\\omega\_1$ is precipitous.
@@ -449,7 +449,7 @@ axiom of choice unless indicated otherwise.
 
 -   **Saturation of the nonstationary ideal on $\\omega\_1$:** Assume
     there is a
-    [Woodin](/Woodin "Woodin")
+    [Woodin](Woodin "Woodin")
     cardinal $\\kappa$. Then there is a generic extension in which
     $\\kappa=\\aleph\_2$ the nonstationary ideal on $\\omega\_1$ is
     $\\omega\_2$-saturated.
@@ -469,11 +469,11 @@ Some other applications of forcing:
 
 
 -   Let $\\kappa$ be a
-    [superstrong](/Superstrong "Superstrong")
+    [superstrong](Superstrong "Superstrong")
     cardinal. Let $V\[G\]$ be the generic extension of $V$ by the Lévy
     collapse $\\mathrm{Coll}(\\aleph\_0,&lt;\\kappa)$. Then there is a
     nontrivial [elementary
-    embedding](/Elementary_embedding "Elementary embedding")
+    embedding](Elementary_embedding "Elementary embedding")
     $j:L(\\mathbb{R})\\to(L(\\mathbb{R}))^{V\[G\]}$.
 
 
@@ -485,7 +485,7 @@ Some other applications of forcing:
 
 
 -   Let $\\kappa$ be a [weakly
-    compact](/Weakly_compact "Weakly compact")
+    compact](Weakly_compact "Weakly compact")
     cardinal. Then there is a generic extension in which
     $\\kappa=\\aleph\_2$ and $\\omega\_2$ has the tree property. In
     fact, if there is infinitely many weakly compact cardinals then in a
@@ -498,7 +498,7 @@ Some other applications of forcing:
     supercompact cardinals that there exists infinitely many cardinals
     $\\delta$ above $2^{\\aleph\_0}$ such that both $\\delta$ and
     $\\delta^+$ have the tree property. Also, the
-    <a href="/Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
+    <a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
     holds in any such model.
 
 
@@ -536,9 +536,9 @@ For all $\\kappa$, $\\text{MA}\_\\kappa$ implies
 $\\kappa&lt;2^{\\aleph\_0}$. Martin's axiom follows from the continuum
 hypothesis, but is also consistent with the continuum hypothesis.
 $\\text{MA}\_{\\aleph\_1}$ implies there are no
-<a href="/index.php?title=Suslin_tree&amp;action=edit&amp;redlink=1" class="new" title="Suslin tree (page does not exist)">Suslin trees</a>,
+<a href="index.php?title=Suslin_tree&amp;action=edit&amp;redlink=1" class="new" title="Suslin tree (page does not exist)">Suslin trees</a>,
 that every [Aronszajn
-tree](/Tree_property "Tree property")
+tree](Tree_property "Tree property")
 is special, and that the c.c.c. is equivalent to property (K).
 
 Martin's axiom implies that $2^{\\aleph\_0}$ is regular, that it is not
@@ -570,7 +570,7 @@ Every c.c.c. or $\\omega$-closed notion satisfies Axiom A.
 
 We say that a forcing notion $(\\mathbb{P},\\leq)$ is *proper* if for
 every uncountable cardinal $\\lambda$, every
-<a href="/Stationary" class="mw-redirect" title="Stationary">stationary</a>
+<a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
 subset of $\[\\lambda\]^\\omega$ remains stationary in every generic
 extension. Every c.c.c. or $\\omega$-closed notion is proper, and so is
 every notion satisfying Axiom A. Proper forcing does not collapse
@@ -584,34 +584,34 @@ is a collection of $\\aleph\_1$ dense subsets of $\\mathbb{P}$, then
 there is a $\\mathcal{D}$-generic filter on $\\mathbb{P}$. $\\text{PFA}$
 implies $2^{\\aleph\_0}=\\aleph\_2$ and that the continuum (i.e.
 $\\aleph\_2$) has the [tree
-property](/Tree_property "Tree property").
+property](Tree_property "Tree property").
 It also implies that every two $\\aleph\_1$-dense sets of reals are
 isomorphic.
 
 Unlike Martin's axiom, which is equiconsistent with $\\text{ZFC}$, the
 $\\text{PFA}$ has very high consistency strength, slightly below that of
 a
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinal. If there is a supercompact cardinal then there is a generic
 extension in which that supercompact is $\\aleph\_2$ and $\\text{PFA}$
 holds. On the other hand,
 <a href="http://www.math.uni-bonn.de/people/pholy/acc_accepted.pdf" class="external autonumber">[2]</a>
 proves a *quasi lower bound* on the consistency strength of the
 $\\text{PFA}$, which is at least the existence of a proper class of
-<a href="/Subcompact" class="mw-redirect" title="Subcompact">subcompact</a>
+<a href="Subcompact" class="mw-redirect" title="Subcompact">subcompact</a>
 cardinals.
 <a href="https://ac.els-cdn.com/S0001870811002635/1-s2.0-S0001870811002635-main.pdf?_tid=86c2030e-cca4-11e7-b23b-00000aab0f26&amp;acdnat=1511039455_137e37101cda34d46bb0f195cbe43148" class="external autonumber">[3]</a>
 also shows that all known methods of forcing $\\text{PFA}$ requires a
 [strongly
-compact](/Strongly_compact "Strongly compact")
+compact](Strongly_compact "Strongly compact")
 cardinal, and if one wants the forcing to be proper, a supercompact is
 required.
 
 $\\text{PFA}$ implies the failure of the
-<a href="/index.php?title=Square_principle&amp;action=edit&amp;redlink=1" class="new" title="Square principle (page does not exist)">square principle</a>
+<a href="index.php?title=Square_principle&amp;action=edit&amp;redlink=1" class="new" title="Square principle (page does not exist)">square principle</a>
 $\\Box\_\\kappa$ for every uncountable cardinal $\\kappa$, therefore it
 implies the [axiom of quasi-projective
-determinacy](/Axiom_of_determinacy "Axiom of determinacy").
+determinacy](Axiom_of_determinacy "Axiom of determinacy").
 It also implies the **Open Coloring Axiom:** let $X$ be a set of reals,
 and let $K\\subseteq\[X\]^2$. We say that $K$ is *open* if the set
 $\\{(x,y):\\{x,y\\}\\in K\\}$ is an open set in the space $X\\times X$.
@@ -664,7 +664,7 @@ extension (equivalently in $V^{Coll(ω, \\bar{M})}$) such that
 $φ(\\bar{\\mathcal{M}})$ holds.
 
 If there is a
-[remarkable](/Remarkable "Remarkable")
+[remarkable](Remarkable "Remarkable")
 cardinal, then $\\text{wPFA}$ holds in a forcing extension by a proper
 poset. If $\\text{wPFA}$ holds, then $ω\_2^V$ is remarkable in $L$.
 
@@ -699,12 +699,12 @@ implies the failure of $\\square\_{ω\_2}$.
 ## Generic absoluteness and universal Baireness
 
 *Main article:
-<a href="/Universally_Baire" class="mw-redirect" title="Universally Baire">Universally Baire</a>*
+<a href="Universally_Baire" class="mw-redirect" title="Universally Baire">Universally Baire</a>*
 
 ## Generic ultrapowers
 
 *Main article: [Precipitous
-ideals](/Filter#Precipitous_ideals "Filter")*
+ideals](Filter#Precipitous_ideals "Filter")*
 
 ## Other types of forcing
 

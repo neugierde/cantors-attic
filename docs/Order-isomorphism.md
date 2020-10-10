@@ -30,7 +30,7 @@ strictly ordered, founded, or well-ordered, then $( B , &lt;\_B )$ will
 be as well.
 
 All well-ordered sets are isomorphic to a unique
-[ordinal](/Ordinal "Ordinal").
+[ordinal](Ordinal "Ordinal").
 If two ordinals are order-isomorphic with respect to membership, then
 they are equal. Between two well-ordered sets $A$ and $B$, exactly 1 of
 the following will hold:

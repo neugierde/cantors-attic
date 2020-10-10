@@ -27,11 +27,11 @@ every ordinal $\\theta\\geq\\kappa$.
 
 The strongly compact embedding characterizations are closely related to
 that of
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinals, which are characterized by [elementary
-embeddings](/Elementary_embedding "Elementary embedding")
+embeddings](Elementary_embedding "Elementary embedding")
 with a high degree of closure: $\\kappa$ is
-$\\theta$-[supercompact](/Supercompact "Supercompact")
+$\\theta$-[supercompact](Supercompact "Supercompact")
 if and only if there is an embedding $j:V\\to M$ with critical point
 $\\kappa$ such that $\\theta&lt;j(\\kappa)$ and every subset of $M$ of
 size $\\theta$ is an element of $M$. By weakening this closure
@@ -39,7 +39,7 @@ requirement to insist only that $M$ contains a small cover for any
 subset of size $\\theta$, or even just a small cover of the set
 $j''\\theta$ itself, we arrive at the $\\theta$-strongly compact
 cardinals. It follows that every
-$\\theta$-[supercompact](/Supercompact "Supercompact")
+$\\theta$-[supercompact](Supercompact "Supercompact")
 cardinal is $\\theta$-strongly compact and so every supercompact
 cardinal is strongly compact. Furthermore, since every ultrapower
 embedding $j:V\\to M$ with critical point $\\kappa$ has
@@ -122,7 +122,7 @@ satisfiable. Similarly, an uncountable cardinal $\\kappa$ is defined to
 be *strongly compact* if every $\\kappa$-satisfiable
 $L\_{\\kappa,\\kappa}$ theory is satisfiable (and we call this the
 *$\\kappa$-compactness property}*). The cardinal $\\kappa$ is [weakly
-compact](/Weakly_compact "Weakly compact"),
+compact](Weakly_compact "Weakly compact"),
 in contrast, if every $\\kappa$-satisfiable $L\_{\\kappa,\\kappa}$
 theory, in a language having at most $\\kappa$ many constant, function
 and relation symbols, is satisfiable.
@@ -131,7 +131,7 @@ and relation symbols, is satisfiable.
 
 A cardinal $\\kappa$ is $\\theta$-strongly compact if and only if there
 is an [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j:V\\to M$ of the set-theoretic universe $V$ into a transitive class
 $M$ with critical point $\\kappa$, such that $j''\\theta\\subset s\\in
 M$ for some set $s\\in M$ with $\|s\|^M\\lt j(\\kappa)$.
@@ -149,7 +149,7 @@ $t\\subset s$ and $\|s\|^M&lt;j(\\kappa)$.
 
 An uncountable cardinal $\\kappa$ is $\\theta$-strongly compact if and
 only if there is a [fine
-measure](/Filter "Filter")
+measure](Filter "Filter")
 on $\\mathcal{P}\_\\kappa(\\theta)$. The notation
 $\\mathcal{P}\_\\kappa(\\theta)$ means $\\{\\sigma\\subset\\theta\\mid
 \|\\sigma\|&lt;\\kappa\\}$. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
@@ -158,7 +158,7 @@ $\\mathcal{P}\_\\kappa(\\theta)$ means $\\{\\sigma\\subset\\theta\\mid
 
 An uncountable cardinal $\\kappa$ is $\\theta$-strongly compact if and
 only if every $\\kappa$-complete
-[filter](/Filter "Filter")
+[filter](Filter "Filter")
 of size at most $\\theta$ on a set extends to a $\\kappa$-complete
 ultrafilter on that set. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 
@@ -203,16 +203,16 @@ $\|I\|=\\kappa$.
 
 If there is proper class-many strongly compact cardinals, then there is
 a [generic
-model](/Forcing "Forcing")
+model](Forcing "Forcing")
 of $\\text{ZF}$ + "all uncountable cardinals are singular". If each
 strongly compact cardinal is a limit of measurable cardinals, and if the
 limit of any sequence of strongly compact cardinals is singular, then
 there is a forcing extension V\[G\] that is a symmetric model of
 $\\text{ZF}$ + "all uncountable cardinals are singular" + "every
 uncountable cardinal is both almost
-[Ramsey](/Ramsey "Ramsey")
+[Ramsey](Ramsey "Ramsey")
 and a
-[Rowbottom](/Rowbottom "Rowbottom")
+[Rowbottom](Rowbottom "Rowbottom")
 cardinal carrying a Rowbottom filter". This also directly follows from
 the existence of a proper class of supercompact cardinals, as every
 supercomact cardinal is simultaneously strongly compact and a limit of
@@ -221,10 +221,10 @@ measurable cardinals.
 ## Relation to other large cardinal notions
 
 Strongly compact cardinals are
-[measurable](/Measurable "Measurable").
+[measurable](Measurable "Measurable").
 The least strongly compact cardinal can be equal to the least measurable
 cardinal, or to the least
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinal, by results of Magidor. \[[2](#bibkey_Jech2003:SetTheory)\] (It
 cannot be equal to both at once because the least measurable cardinal
 cannot be supercompact.)
@@ -237,18 +237,18 @@ compactness"). \[[2](#bibkey_Jech2003:SetTheory)\]
 
 If there is a strongly compact cardinal $\\kappa$ then for all
 $\\lambda\\geq\\kappa$ and $A\\subseteq\\lambda$, $\\lambda^+$ is
-[ineffable](/Ineffable "Ineffable")
+[ineffable](Ineffable "Ineffable")
 in $L\[A\]$.
 
 It is not currently known whether the existence of a strongly compact
 cardinal is equiconsistent with the existence of a supercompact
 cardinal. The
-<a href="/Ultrapower_axiom" class="mw-redirect" title="Ultrapower axiom">ultrapower axiom</a>
+<a href="Ultrapower_axiom" class="mw-redirect" title="Ultrapower axiom">ultrapower axiom</a>
 gives a positive answer to this, but itself isn't known to be consistent
 with the existence of a supercompact in the first place.
 
 Every strongly compact cardinal is
-<a href="/Strongly_tall" class="mw-redirect" title="Strongly tall">strongly tall</a>,
+<a href="Strongly_tall" class="mw-redirect" title="Strongly tall">strongly tall</a>,
 although the existence of a strongly compact cardinal is equiconsistent
 with "the least measurable cardinal is the least strongly compact
 cardinal, and therefore the least strongly tall cardinal", so it could
@@ -312,6 +312,6 @@ and more dimensions, you get a space which is finite-looking.
     <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

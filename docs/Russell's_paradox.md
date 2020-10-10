@@ -19,7 +19,7 @@ Russell's paradox is the most elementary contradiction that results from
 naive set theory. It is an immediate consequence of a schema of
 unrestricted comprehension (where all classes become sets). It, in part,
 justifies the exploration of axiomatic systems such as
-[ZFC](/ZFC "ZFC"). It was
+[ZFC](ZFC "ZFC"). It was
 first discovered by Bertrand Russell when reviewing Frege's "Die
 Grunderland der Arithmetik".
 

@@ -10,7 +10,7 @@ permalink: V_=_L
 
 
 (Redirected from [V =
-L](/index.php?title=V_%3D_L&redirect=no "V = L"))
+L](index.php?title=V_%3D_L&redirect=no "V = L"))
 
 
 
@@ -25,7 +25,7 @@ contain all sets from Gödel's constructible universe $L$. The axiom is
 compatible with some of the smaller large cardinal notions such as weak
 compactness but is *not* compatible with any large cardinal notion
 implying the existence of
-[$0^{\\sharp}$](/Zero_sharp "Zero sharp")
+[$0^{\\sharp}$](Zero_sharp "Zero sharp")
 such as measurability.
 
   

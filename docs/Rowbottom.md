@@ -17,15 +17,15 @@ permalink: Rowbottom
   
 Rowbottom cardinals were discovered by Frederick Rowbottom in 1971 as a
 strong [large cardinal
-axiom](/Upper_attic "Upper attic")
+axiom](Upper_attic "Upper attic")
 which implies the existence and consistency of
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>.
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>.
 In terms of consistency strength,
-[ZFC](/ZFC "ZFC") +
+[ZFC](ZFC "ZFC") +
 Rowbottom is equiconsistent to ZFC +
-[Jónsson](/Jonsson "Jonsson"),
+[Jónsson](Jonsson "Jonsson"),
 ZFC + Rowbottom is equiconsistent to ZFC +
-[Ramsey](/Ramsey "Ramsey"),
+[Ramsey](Ramsey "Ramsey"),
 and ZFC + Rowbottom is stronger than ZFC + $0^{\\\#}$. Every Rowbottom
 cardinal is Jónsson, and every Ramsey cardinal is Rowbottom.
 \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
@@ -33,7 +33,7 @@ cardinal is Jónsson, and every Ramsey cardinal is Rowbottom.
 ## Definition
 
 Rowbottom cardinals are defined with a [partition
-property](/Partition_property "Partition property"):
+property](Partition_property "Partition property"):
 
 -   $\\kappa$ is *$\\nu$-Rowbottom* iff $\\kappa\\rightarrow
     \[\\kappa\]^{&lt;\\omega}\_{\\lambda,&lt;\\nu}$ for every
@@ -46,16 +46,16 @@ property](/Partition_property "Partition property"):
 Equivalently, $\\kappa$ is Rowbottom if and only if
 $\\kappa&gt;\\aleph\_1$ and $\\kappa$ satisfies a strong generalization
 of [Chang's
-conjecture](/Chang%27s_conjecture "Chang's conjecture"),
+conjecture](Chang%27s_conjecture "Chang's conjecture"),
 namely, any model of type $(\\kappa,\\lambda)$ for some uncountable
 $\\lambda&lt;\\kappa$ has a proper elementary substructure of type
 $(\\kappa,\\aleph\_0)$. \[[2](#bibkey_Jech2003:SetTheory)\]
 
 Rowbottom cardinals are not necessarily "large". In fact, the
-<a href="/Axiom_of_Determinacy" class="mw-redirect" title="Axiom of Determinacy">Axiom of Determinacy</a>
+<a href="Axiom_of_Determinacy" class="mw-redirect" title="Axiom of Determinacy">Axiom of Determinacy</a>
 implies $\\aleph\_\\omega$ is Rowbottom, and it is widely considered
 consistent for $\\aleph\_\\omega$ to be Rowbottom even under the
-<a href="/Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">Axiom of Choice</a>.
+<a href="Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">Axiom of Choice</a>.
 If it is consistent for $\\aleph\_\\omega$ to be Rowbottom, it is
 consistent for $\\aleph\_{\\omega^2}$ to be the least Rowbottom
 cardinal. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
@@ -63,7 +63,7 @@ cardinal. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 ## Facts
 
 -   If a Rowbottom exists, then
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>
     exists and is consistent.
     \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 -   Every Rowbottom cardinal is Jónsson.
@@ -73,19 +73,19 @@ cardinal. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
     \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 -   Every $\\nu$-Rowbottom cardinal either has cofinality less than
     $\\nu$ or is [weakly
-    inaccessible](/Inaccessible "Inaccessible")
+    inaccessible](Inaccessible "Inaccessible")
     (and thus if a $\\nu$-Rowbottom cardinal $\\kappa$ has cofinality
     $\\nu$, then $\\nu=\\kappa$ and $\\kappa$ is $\\kappa$-Rowbottom.)
     \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 -   Any singular limit $\\kappa$ of
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     cardinals is $\\mathrm{cf}(\\kappa)^+$-Rowbottom.
     \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 -   If $\\kappa=2^{&lt;\\nu}$ is a regular $\\nu$-Rowbottom cardinal,
     then for any $\\nu\\leq\\lambda&lt;\\kappa$, $2^\\lambda=\\kappa$.
     Thus, if the first condition holds for $\\kappa$ and $\\nu$ but
     $\\nu &lt; \\kappa$, then
-    <a href="/GCH" class="mw-redirect" title="GCH">GCH</a>
+    <a href="GCH" class="mw-redirect" title="GCH">GCH</a>
     fails at every cardinal $\\lambda\\in\[\\nu,\\kappa)$.
     \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 -   If $\\kappa$ is $\\nu$-Rowbottom and there is a limit cardinal
@@ -107,6 +107,6 @@ cardinal. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
     <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

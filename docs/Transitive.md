@@ -33,6 +33,6 @@ The intersection of two transitive sets is transitive.
 
 In set theory, transitive sets play an important role in models of ZFC.
 See
-<a href="/Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">transitive ZFC model</a>.
+<a href="Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">transitive ZFC model</a>.
 
 

@@ -16,14 +16,14 @@ permalink: Infinitary_logic
 
 Infinitary logic is a type of logic which is used in the standard
 characterizations of several large cardinals, such as [weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 cardinals and [strongly
-compact](/Strongly_compact "Strongly compact")
+compact](Strongly_compact "Strongly compact")
 cardinals. It also is used in alternate characterizations of other large
 cardinals such as
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinals and
-[extendible](/Extendible "Extendible")
+[extendible](Extendible "Extendible")
 cardinals.
 
 More formally, an infinitary logic is a formal logic which has strings

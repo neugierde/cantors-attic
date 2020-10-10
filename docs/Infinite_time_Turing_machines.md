@@ -49,9 +49,9 @@ real.
 Hamkins and Lewis \[[1](#bibkey_HamkinsLewis2000:InfiniteTimeTM)\]
 showed that $\\lambda\\lt\\zeta\\lt\\Sigma$, and while $\\lambda$ and
 $\\zeta$ are
-[admissible](/Admissible "Admissible")
+[admissible](Admissible "Admissible")
 ordinals and [computably
-inaccessible](/Admissible#Computably_inaccessible_ordinal "Admissible"),
+inaccessible](Admissible#Computably_inaccessible_ordinal "Admissible"),
 $\\Sigma$ is not admissible.
 
 Welch \[[4](#bibkey_Welch2000:LengthsOfITTM),
@@ -86,6 +86,6 @@ that $L\_\\zeta$ has a $\\Sigma\_2$-elementary end-extension.
     <a href="javascript:bibpopup(&#39;@article%7BWelch2000:LengthsOfITTM,%20%20%20%20author=%7BWelch,%20Philip%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BThe%20Lengths%20of%20Infinite%20Time%20Turing%20Machine%20Computations%7D,%3Cbr%3E%20%20%20%20journal%20=%20%7BBulletin%20of%20the%20London%20Mathematical%20Society%7D,%3Cbr%3E%20%20%20%20volume%20=%20%7B32%7D,%3Cbr%3E%20%20%20%20number%20=%20%7B2%7D,%3Cbr%3E%20%20%20%20pages%20=%20%7B129--136%7D,%3Cbr%3E%20%20%20%20year%20=%20%7B2000%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

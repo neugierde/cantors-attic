@@ -23,27 +23,27 @@ The following 6 pages are in this category, out of 6 total.
 
 ### E
 
--   [Extendible](/Extendible "Extendible")
+-   [Extendible](Extendible "Extendible")
 
 ### I
 
--   [Indescribable](/Indescribable "Indescribable")
+-   [Indescribable](Indescribable "Indescribable")
 
 ### R
 
--   [Reflecting](/Reflecting "Reflecting")
+-   [Reflecting](Reflecting "Reflecting")
 
 ### S
 
--   [Stable](/Stable "Stable")
+-   [Stable](Stable "Stable")
 
 ### U
 
--   [Uplifting](/Uplifting "Uplifting")
+-   [Uplifting](Uplifting "Uplifting")
 
 ### V
 
--   [Vopenka](/Vopenka "Vopenka")
+-   [Vopenka](Vopenka "Vopenka")
 
 
 

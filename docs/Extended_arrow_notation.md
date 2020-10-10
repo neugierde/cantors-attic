@@ -64,7 +64,7 @@ Wikia User Googleaarex:
 # <span id="Basic_Notation" class="mw-headline">Basic Notation</span>
 
 Basic Notation is very simple. It generalizes the [normal arrow
-notation](/Knuth%27s_up-arrow_notation "Knuth's up-arrow notation").
+notation](Knuth%27s_up-arrow_notation "Knuth's up-arrow notation").
 
 \\(a \\uparrow\_2 b = a
 \\underbrace{\\uparrow\\uparrow\\dots\\uparrow}\_b a\\)

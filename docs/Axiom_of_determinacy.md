@@ -23,25 +23,25 @@ strategy" that allows one player to win regardless of the other player's
 strategy. That strategy is called a *winning strategy* for that player.
 
 The axiom of determinacy is incompatible with the
-<a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>.
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>.
 More precisely, it is incompatible with the existence of a well-ordering
 of the reals. The $\\text{AD}$ is, however, not known to be inconsistent
 with
-[$\\text{ZF}$](/ZFC "ZFC")
+[$\\text{ZF}$](ZFC "ZFC")
 set theory. $\\text{AD}$ is furthermore a very powerful axiom, as
 $\\text{ZF+AD}$ implies the consistency of $\\text{ZF}$,
 $\\text{ZF+Con(ZFC)}$, and much more - it is in fact close of being a
 large cardinal axiom, as Woodin proved that it was equiconsistent with
 the existence of infinitely many
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinals. \[[1](#bibkey_KoellnerWoodin2010:LCFD)\]
 
 It follows from large cardinal axioms (in particular from the existence
 of infinitely many Woodins with a
-[measurable](/Measurable "Measurable")
+[measurable](Measurable "Measurable")
 above them all \[[1](#bibkey_KoellnerWoodin2010:LCFD)\]) that the
 $\\text{AD}$ is true in $L(\\mathbb{R})$, the [constructible
-universe](/Constructible_universe "Constructible universe")
+universe](Constructible_universe "Constructible universe")
 obtained by starting with the transitive closure of the set of all reals
 (i.e. $L\_0(\\mathbb{R})=\\text{TC}(\\{\\mathbb{R}\\})$). This
 assertion, generally refered to as $L(\\mathbb{R})$-determinacy,
@@ -51,9 +51,9 @@ or *quasi-projective determinacy* ($\\text{QPD}$)
 with $\\text{ZFC}$. $\\text{AD}^{L(\\mathbb{R})}$ is furthermore
 equiconsistent with $\\text{AD}$ (in $\\text{V}$). A particular case of
 this is the
-<a href="/Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
+<a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
 ($\\text{PD}$) which states that every
-[projective](/Projective "Projective")
+[projective](Projective "Projective")
 set is determined, projectivity being a weak form of definability (more
 precisely definability in second-order arithmethic).
 
@@ -238,7 +238,7 @@ Assume $\\text{ZF+AD}$. Most of the following results can be found in
     <a href="http://en.wikipedia.org/wiki/axiom_of_dependent_choice" class="extiw" title="wikipedia:axiom of dependent choice">axiom of dependent choice</a>
     is true.
 -   The reals cannot be well-ordered. Thus the full
-    <a href="/Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
+    <a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
     fails.
 -   Every set of reals is
     <a href="http://en.wikipedia.org/wiki/Lebesgue_measurable" class="extiw" title="wikipedia:Lebesgue measurable">Lebesgue measurable</a>.
@@ -253,43 +253,43 @@ Assume $\\text{ZF+AD}$. Most of the following results can be found in
 -   Every set of reals has the
     <a href="http://en.wikipedia.org/wiki/Baire_property" class="extiw" title="wikipedia:Baire property">Baire property</a>.
 -   Every set of reals is either
-    [countable](/Countable "Countable")
+    [countable](Countable "Countable")
     or has a
     <a href="http://en.wikipedia.org/wiki/perfect_set" class="extiw" title="wikipedia:perfect set">perfect subset</a>.
     -   Thus a form of the
-        <a href="/Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
+        <a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
         holds, i.e. every set of reals is either countable or has
         cardinality $2^{\\aleph\_0}$.
     -   Other forms of $\\text{CH}$ however fail, in particular
         $2^{\\aleph\_0}\\neq\\aleph\_1$.
 -   There are no free
-    [ultrafilters](/Filter "Filter")
+    [ultrafilters](Filter "Filter")
     on $\\omega$. Every ultrafilter on $\\omega$ is principal. Thus
     every ultrafilter is countably complete ($\\aleph\_1$-complete).
 -   $\\omega\_1$, $\\omega\_2$, and $\\omega\_{\\omega+1}$ and
     $\\omega\_{\\omega+2}$ are all
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     cardinals.
     -   The
-        [club](/Club "Club")
+        [club](Club "Club")
         filter on $\\omega\_1$ is an ultrafilter. Every subset of
         $\\omega\_1$ either contains a club or is disjoint from one.
     -   The club filter on $\\omega\_2$ restrained to sets of
-        <a href="/Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
+        <a href="Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
         $\\omega$ is $\\omega\_2$-complete.
 -   $\\omega\_n$ is singular for every $n&gt;2$ and has cofinality
     $\\omega\_2$ and is
-    [Jonsson](/Jonsson "Jonsson"),
+    [Jonsson](Jonsson "Jonsson"),
     also $\\aleph\_\\omega$ is
-    [Rowbottom](/Rowbottom "Rowbottom").
--   <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>
+    [Rowbottom](Rowbottom "Rowbottom").
+-   <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>
     exists, thus the
     <a href="http://en.wikipedia.org/wiki/axiom_of_constructibility" class="extiw" title="wikipedia:axiom of constructibility">axiom of constructibility</a>
     ($V=L$) fails.
     -   In fact, $x^{\\\#}$ exists for every $x\\in\\mathbb{R}$ (thus
         $V\\neq L\[x\]$).
 -   The strong [partition
-    property](/Partition_property "Partition property"),
+    property](Partition_property "Partition property"),
     $\\omega\_1\\rightarrow(\\omega\_1)^{\\omega\_1}\_2$, holds. In
     fact,
     $\\omega\_1\\rightarrow(\\omega\_1)^{\\omega\_1}\_{2^{\\aleph\_0}}$
@@ -313,7 +313,7 @@ $\\Theta=\\mathrm{sup}\\{\\alpha\\in\\mathrm{Ord}:\\alpha\\preceq
 $(2^{\\aleph\_0})^{+}$ but under $\\text{AD}$ it is a limit cardinal, in
 fact an aleph fixed point, and $\\text{DC}$ implies it has uncountable
 cofinality. In $L(\\mathbb{R})$ it is also regular and thus
-<a href="/Weakly_inaccessible" class="mw-redirect" title="Weakly inaccessible">weakly inaccessible</a>.
+<a href="Weakly_inaccessible" class="mw-redirect" title="Weakly inaccessible">weakly inaccessible</a>.
 It is conjectured that under $\\text{AD}$ the cofinality function is
 nondecreasing on singular cardinals below $\\Theta$.
 
@@ -325,7 +325,7 @@ $2^{\\aleph\_0}\\not\\preceq\\Theta$
 
 Under $\\text{ZF+AD}$, the cardinal $\\omega\_1$ is
 &lt;$\\Theta$-[strongly
-compact](/Strongly_compact "Strongly compact")
+compact](Strongly_compact "Strongly compact")
 in that for all $\\lambda&lt;\\Theta$, every $\\sigma$-complete filter
 on $\\lambda$ extends to a ultrafilter on $\\lambda$ (and every
 ultrafilter is itself $\\sigma$-complete under $\\text{AD}$.)
@@ -333,7 +333,7 @@ ultrafilter is itself $\\sigma$-complete under $\\text{AD}$.)
 ## Determinacy of $L(\\mathbb{R})$
 
 *See also: [Constructible
-universe](/Constructible_universe "Constructible universe")*
+universe](Constructible_universe "Constructible universe")*
 
 Recall that a formula $\\varphi$ is $\\Delta\_0$ if and only if it only
 contains bounded quantifiers (i.e. $(\\forall x\\in y)$ and $(\\exists
@@ -391,14 +391,14 @@ Busche and Schindler showed that, if there is a model of $\\text{ZF}$ in
 wich every uncountable cardinal is singular (thus has cofinality
 $\\aleph\_0$), then the axiom of determinacy holds in the
 $L(\\mathbb{R})$ of some [generic
-extension](/Forcing "Forcing")
+extension](Forcing "Forcing")
 of $\\text{HOD}$ \[[3](#bibkey_Larson2010:HistoryDeterminacy)\]. This
 notably follows from the existence of a proper class of [strongly
-compact](/Strongly_compact "Strongly compact")
+compact](Strongly_compact "Strongly compact")
 cardinals.
 
 Assume that there is $\\omega\_1$-[dense
-ideal](/Filter "Filter")
+ideal](Filter "Filter")
 over $\\omega\_1$; then $\\text{AD}^{L(\\mathbb{R})}$ holds.
 \[[4](#bibkey_Kanamori2009:HigherInfinite)\] This result is due to
 Woodin.
@@ -408,17 +408,17 @@ $\\text{AD}^{L(\\mathbb{R})}$:
 \[[1](#bibkey_KoellnerWoodin2010:LCFD)\]\[[5](#bibkey_JacksonKetchersidSchlutzenbergWoodin:DeterminacyJonsson)\]
 
 -   Every uncountable cardinal &lt;$\\Theta$ is
-    [Jónsson](/Jonsson "Jonsson"),
+    [Jónsson](Jonsson "Jonsson"),
     also if it is regular or has cofinality $\\omega$ then it is
-    [Rowbottom](/Rowbottom "Rowbottom").
+    [Rowbottom](Rowbottom "Rowbottom").
 -   Every regular cardinal &lt;$\\Theta$ is
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     (note that $2^{\\aleph\_0}\\not\\leq\\Theta$), also $\\Theta$ is a
     limit of measurable cardinals.
 -   $\\Theta$ is weakly
-    hyper-[Mahlo](/Mahlo "Mahlo")
+    hyper-[Mahlo](Mahlo "Mahlo")
     (and thus weakly hyper-inaccessible), but it is not [weakly
-    compact](/Weakly_compact "Weakly compact").
+    compact](Weakly_compact "Weakly compact").
 -   $\\Theta$ is Woodin in the model $\\text{HOD}^{L(\\mathbb{R})}$.
     There exists many strengthnings and variants of this result.
 -   $\\omega\_1$ is &lt;$\\Theta$-supercompact in that for every
@@ -430,7 +430,7 @@ $\\text{AD}^{L(\\mathbb{R})}$:
 ## Axiom of projective determinacy
 
 *Main article: [Projective
-determinacy](/Projective#Projective_determinacy "Projective")*
+determinacy](Projective#Projective_determinacy "Projective")*
 
 ## Axiom of real determinacy
 
@@ -459,7 +459,7 @@ that $\\text{DC}$ is false.
 \[[3](#bibkey_Larson2010:HistoryDeterminacy)\]
 
 Steel showed that under $\\text{AD}\_\\mathbb{R}$, in a [generic
-extension](/Forcing "Forcing")
+extension](Forcing "Forcing")
 there is a proper class model of $\\text{ZFC}$ in which there exists a
 cardinal $\\delta$ of cofinality $\\aleph\_0$ which is a limit of Woodin
 cardinals and &lt;$\\delta$-strong cardinals.
@@ -481,7 +481,7 @@ there exists a Wadge initial segment
 $\\Gamma\\subset\\mathcal{P}(\\mathbb{R})$ such that
 $L(\\Gamma,\\mathbb{R})\\models\\text{AD}^{+}+\\text{AD}\_\\mathbb{R}+\\Gamma=\\mathcal{P}(\\mathbb{R})$
 (see
-<a href="/AD%2B" class="mw-redirect" title="AD+">AD+</a>).
+<a href="AD%2B" class="mw-redirect" title="AD+">AD+</a>).
 Furthermore, whenever $\\mathcal{M}$ is an inner model such that
 $\\mathbb{R}\\subset\\mathcal{M}$ and
 $\\mathcal{M}\\models\\text{AD}^{+}+\\text{AD}\_\\mathbb{R}$, one has
@@ -490,7 +490,7 @@ $\\Gamma\\subset\\mathcal{M}$. *(see the 'Read more' section)*
 ## $\\text{AD}^+$ and models of determinacy
 
 *Main article:
-<a href="/AD%2B" class="mw-redirect" title="AD+">$\text{AD}^+$</a>*
+<a href="AD%2B" class="mw-redirect" title="AD+">$\text{AD}^+$</a>*
 
 ## Consistency strength of determinacy hypotheses
 
@@ -504,11 +504,11 @@ The following theories are equiconsistent:
 -   $\\text{ZFC+}$"the non-stationary ideal over $\\omega\_1$ is
     $\\omega\_1$-dense"
 -   $\\text{ZFC+}$"there exists infinitely many
-    [Woodin](/Woodin "Woodin")
+    [Woodin](Woodin "Woodin")
     cardinals"
 -   $\\text{ZF+DC+}$"$\\omega\_1$ is
     $\\mathcal{P}(\\omega\_1)$-[strongly
-    compact](/Strongly_compact "Strongly compact")"
+    compact](Strongly_compact "Strongly compact")"
 -   $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and
     $\\Theta&gt;\\omega\_2$"
 -   $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and
@@ -520,7 +520,7 @@ Where $\\text{DC}$ is the
 <a href="http://en.wikipedia.org/wiki/axiom_of_dependent_choice" class="extiw" title="wikipedia:axiom of dependent choice">axiom of dependent choice</a>
 and $\\omega\_1$ being $X$-strongly compact means that there exists a
 [fine
-measure](/Filter "Filter")
+measure](Filter "Filter")
 on the set of all subsets of $X$ of cardinality $\\aleph\_1$.
 
 Woodin proved that the theory $\\text{ZF+DC+AD+}$"$\\omega\_1$ is
@@ -528,7 +528,7 @@ supercompact" is consistent relative to $\\text{ZFC+}$ "there is a
 proper class of Woodin cardinals, each of which a limit of Woodin
 cardinals".
 
-<a href="/Projective_determinacy" class="mw-redirect" title="Projective determinacy">Projective determinacy</a>
+<a href="Projective_determinacy" class="mw-redirect" title="Projective determinacy">Projective determinacy</a>
 is a little weaker: it is equiconsistent with $\\text{ZFC}$ plus, for
 all n, an axiom saying "there are n Woodin cardinals". Since
 $\\text{ZFC}$ can only use finitely many of its axioms, this axiom
@@ -548,7 +548,7 @@ equiconsistent: \[[1](#bibkey_KoellnerWoodin2010:LCFD)\]
 And so are $\\text{Z}\_3+$lightface $\\Delta^1\_2$-determinacy and
 $\\text{MK+}$"$\\text{Ord}$ is Woodin" where $\\text{Z}\_3$ is
 *third-order arithmetic* and $\\text{MK}$ is
-<a href="/Morse-Kelley_set_theory" class="mw-redirect" title="Morse-Kelley set theory">Morse-Kelley set theory</a>.
+<a href="Morse-Kelley_set_theory" class="mw-redirect" title="Morse-Kelley set theory">Morse-Kelley set theory</a>.
 It is also conjectured that $\\text{Z}\_2+\\Delta^1\_2$-determinacy and
 $\\text{ZFC+}$"$\\text{Ord}$ is Woodin" are equiconsistent, where
 $\\text{Z}\_2$ is
@@ -617,6 +617,6 @@ As are the following theories:
     <a href="http://arxiv.org/abs/1609.05411v1" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BTrangWilson2016:DetFromStrongCompactness,%20%20%20%20AUTHOR%20=%20%7BTrang,%20Nam%20and%20Wilson,%20Trevor%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BDeterminacy%20from%20Strong%20Compactness%20of%20$\omega_1$%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2016%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1609.05411v1%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

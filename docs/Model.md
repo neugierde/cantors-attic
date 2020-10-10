@@ -18,7 +18,7 @@ A **model** of a theory $T$ is a set $M$ together with relations (eg.
 two: $a$ and $b$) satisfying all axioms of the theory $T$. Symbolically
 $\\langle M, a, b \\rangle \\models T$. According to the Gödel
 completeness theorem, in $\\mathrm{PA}$
-(<a href="/index.php?title=Peano_arithmetic&amp;action=edit&amp;redlink=1" class="new" title="Peano arithmetic (page does not exist)">Peano arithmetic</a>)
+(<a href="index.php?title=Peano_arithmetic&amp;action=edit&amp;redlink=1" class="new" title="Peano arithmetic (page does not exist)">Peano arithmetic</a>)
 (so also in $\\mathrm{ZFC}$) a theory has models iff it is consistent.
 According to Löwenheim–Skolem theorem, in $\\mathrm{ZFC}$ if a countable
 first-order theory has an infinite model, it has infinite models of all
@@ -32,7 +32,7 @@ Löwenheim–Skolem theorem do not apply to transitive models. (But
 Löwenheim–Skolem theorem together with Mostowski collapsing lemma show
 that if there is a transitive model of ZFC, then there is a countable
 such model.) See
-<a href="/Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">Transitive ZFC model</a>.
+<a href="Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">Transitive ZFC model</a>.
 
 
 
@@ -55,26 +55,26 @@ such model.) See
 ## Class-sized transitive models
 
 One can also talk about class-sized transitive models. Inner model is a
-[transitive](/Transitive "Transitive")
+[transitive](Transitive "Transitive")
 class (from other point of view, a class-sized transitive model (of ZFC
 or a weaker theory)) containing all ordinals.
-[Forcing](/Forcing "Forcing")
+[Forcing](Forcing "Forcing")
 creates outer models, but it can also be used in relation with inner
 models.\[[1](#bibkey_FuchsHamkinsReitz2015:SetTheoreticGeology)\]
 
 Among them are *canonical inner models* like
 
 -   the [core
-    model](/Core_model "Core model")
+    model](Core_model "Core model")
 -   the canonical model
-    [$L\[\\mu\]$](/Constructible_universe "Constructible universe")
+    [$L\[\\mu\]$](Constructible_universe "Constructible universe")
     of one measurable cardinal
--   [HOD](/HOD "HOD") and
+-   [HOD](HOD "HOD") and
     generic HOD (gHOD)
 -   mantle $\\mathbb{M}$ (=generic mantle $g\\mathbb{M}$)
 -   outer core
 -   the [constructible
-    universe](/Constructible_universe "Constructible universe")
+    universe](Constructible_universe "Constructible universe")
     $L$
 
 ### <span id="Mantle" class="mw-headline">Mantle</span>
@@ -127,20 +127,20 @@ model of ZFC.\[[3](#bibkey_Usuba2018:ExtendibleCardinalsAndTheMantle)\]
 #### <span id="Mantle_and_large_cardinals" class="mw-headline">Mantle and large cardinals</span>
 
 If $\\kappa$ is
-<a href="/Hyperhuge" class="mw-redirect" title="Hyperhuge">hyperhuge</a>,
+<a href="Hyperhuge" class="mw-redirect" title="Hyperhuge">hyperhuge</a>,
 then $V$ has $&lt;\\kappa$ many
-<a href="/Ground" class="mw-redirect" title="Ground">grounds</a>
+<a href="Ground" class="mw-redirect" title="Ground">grounds</a>
 (so the mantle is a ground
 itself).\[[2](#bibkey_Usuba2017:DDGandVeryLarge)\]
 
 If $κ$ is
-[extendible](/Extendible "Extendible")
+[extendible](Extendible "Extendible")
 then the $κ$-mantle of $V$ is its smallest ground (so of course the
 mantle is a ground of
 $V$).\[[3](#bibkey_Usuba2018:ExtendibleCardinalsAndTheMantle)\]
 
 On the other hand, it s consistent that there is a
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinal and class many grounds of $V$ (because of the indestructibility
 properties of
 supercompactness).\[[2](#bibkey_Usuba2017:DDGandVeryLarge)\]
@@ -148,7 +148,7 @@ supercompactness).\[[2](#bibkey_Usuba2017:DDGandVeryLarge)\]
 ## $\\kappa$-model
 
 A **weak $κ$-model** is a
-[transitive](/Transitive "Transitive")
+[transitive](Transitive "Transitive")
 set $M$ of size $\\kappa$ with $\\kappa \\in M$ and satisfying the
 theory $\\mathrm{ZFC}^-$ ($\\mathrm{ZFC}$ without the axiom of power
 set, with collection, not replacement). It is a **$κ$-model** if
@@ -181,6 +181,6 @@ M$.\[[4](#bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms),
     <a href="https://research-information.bristol.ac.uk/files/185938606/1710.10043.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191117021952/http://arxiv.org/abs/1710.10043" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191117021952/http://dx.doi.org/10.4064/fm396-9-2017" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BHolySchlicht2017:HierarchyRamseylike,%20%20%20%20author%20=%20%7BHoly,%20Peter%20and%20Schlicht,%20Philipp%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BA%20hierarchy%20of%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2018%7D,%3Cbr%3E%20%20%20eprint%20=%20%7B1710.10043%7D,%3Cbr%3E%20%20%20%20%20%20doi%20=%20%7B10.4064/fm396-9-2017%7D,%3Cbr%3E%20%20journal%20=%20%7BFundamenta%20Mathematicae%7D,%3Cbr%3E%20%20%20volume%20=%20%7B242%7D,%3Cbr%3E%20%20%20%20pages%20=%20%7B49-74%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttps://research-information.bristol.ac.uk/files/185938606/1710.10043.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

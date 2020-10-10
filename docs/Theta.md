@@ -10,7 +10,7 @@ permalink: Theta
 
 
 (Redirected from
-[Theta](/index.php?title=Theta&redirect=no "Theta"))  
+[Theta](index.php?title=Theta&redirect=no "Theta"))  
 <span id="redirectsub">Redirect page</span>
 
 
@@ -21,7 +21,7 @@ permalink: Theta
 
 Redirect to:
 
-[Projective](/index.php?title=Projective&redirect=no "Projective")
+[Projective](index.php?title=Projective&redirect=no "Projective")
 
 
 

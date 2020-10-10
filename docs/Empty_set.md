@@ -36,7 +36,7 @@ permalink: Empty_set
 The empty set (denoted $\\emptyset$ or $\\varnothing$) is the only set
 $S$ such that $\\neg\\exists a(a\\in S)$. It contains absolutely no
 elements, and has cardinality 0. It is often thought of to be the only
-<a href="/index.php?title=Urelement&amp;action=edit&amp;redlink=1" class="new" title="Urelement (page does not exist)">urelement</a>
+<a href="index.php?title=Urelement&amp;action=edit&amp;redlink=1" class="new" title="Urelement (page does not exist)">urelement</a>
 (this holds up in $V$), and is *increadibly* important as a result. It
 is also one of the only ranks to also be an ordinal, and contains many
 properties when put in a poset.

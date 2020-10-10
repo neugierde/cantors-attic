@@ -15,14 +15,14 @@ permalink: Rank_into_rank
 
 
 A nontrivial [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j:V\_\\lambda\\to V\_\\lambda$ for some infinite ordinal $\\lambda$ is
 known as a *rank into rank embedding* and the axiom asserting that such
 an embedding exists is usually denoted by $\\text{I3}$, $\\text{I2}$,
 $\\text{I1}$, $\\mathcal{E}(V\_\\lambda)\\neq \\emptyset$ or some
 variant thereof. The term applies to a hierarchy of such embeddings
 increasing in large cardinal strength reaching toward the [Kunen
-inconsistency](/Kunen_inconsistency "Kunen inconsistency").
+inconsistency](Kunen_inconsistency "Kunen inconsistency").
 The axioms in this section are in some sense a technical restriction
 falling out of Kunen's proof that there can be no nontrivial elementary
 embedding $j:V\\to V$ in $\\text{ZFC}$). An analysis of the proof shows
@@ -51,7 +51,7 @@ is the $\\omega^{th}$ $j$-iterate of the critical point.
 
 As a result of the strong closure properties of rank into rank
 embeddings, their critical points are
-[huge](/Huge "Huge") and in
+[huge](Huge "Huge") and in
 fact $n$-huge for every $n$. This aspect of the large cardinal property
 is often called $\\omega$-hugeness and the term *$\\omega$-huge
 cardinal* is sometimes used to refer to the critical point of some rank
@@ -176,8 +176,8 @@ Notes:\[[4](#bibkey_Bagaria2012:CnCardinals)\]
 ### <span id="Weaker_axioms" class="mw-headline">Weaker axioms</span>
 
 The $\\mathrm{I3}$ axiom implies the
-<a href="/Wholeness_axiom" class="mw-redirect" title="Wholeness axiom">wholeness axiom</a>.
-<a href="/I4" class="mw-redirect" title="I4">Axioms $\mathrm{I}_4^n$</a>
+<a href="Wholeness_axiom" class="mw-redirect" title="Wholeness axiom">wholeness axiom</a>.
+<a href="I4" class="mw-redirect" title="I4">Axioms $\mathrm{I}_4^n$</a>
 for natural numbers $n$ are an attempt to measure the gap between
 $\\mathrm{I}\_3$ and
 $\\mathrm{WA}$.\[[5](#bibkey_Corazza2003:GapBetweenI3andWA)\]
@@ -253,7 +253,7 @@ original embedding.
 Strengthening this axiom in a natural way leads to the $\\text{I0}$
 axiom, i.e. asserting that embeddings of the form
 [$j:L(V\_{\\lambda+1})\\to
-L(V\_{\\lambda+1})$](/L_of_V_lambda%2B1 "L of V lambda+1")
+L(V\_{\\lambda+1})$](L_of_V_lambda%2B1 "L of V lambda+1")
 exist.
 
 There are also other natural strengthenings of $\\text{I1}$, though it
@@ -284,30 +284,30 @@ Inconsistency does not hold for virtual embeddings.
 Results:
 
 -   Every virtually rank-into-rank cardinal is a [virtually
-    $n$-huge\*](/Huge "Huge")
+    $n$-huge\*](Huge "Huge")
     limit of virtually $n$-huge\* cardinals for every $n &lt; \\omega$.
 -   The least
-    $\\omega$-<a href="/Erd%C5%91s" class="mw-redirect" title="Erdős">Erdős</a>
+    $\\omega$-<a href="Erd%C5%91s" class="mw-redirect" title="Erdős">Erdős</a>
     cardinal $η\_\\omega$ is a limit of virtually rank-into-rank
     cardinals.
 -   Every virtually rank-into-rank cardinal is an
-    $\\omega$-<a href="/Iterable" class="mw-redirect" title="Iterable">iterable</a>
+    $\\omega$-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
     limit of $\\omega$-iterable cardinals.
 -   Every element of a club $C$ witnessing that $\\kappa$ is a
-    <a href="/Silver_cardinal" class="mw-redirect" title="Silver cardinal">Silver cardinal</a>
+    <a href="Silver_cardinal" class="mw-redirect" title="Silver cardinal">Silver cardinal</a>
     is virtually rank-into-rank.
 -   If [$gVP(Σ\_{n+1})$
-    holds](/Vopenka "Vopenka"),
+    holds](Vopenka "Vopenka"),
     then either there is a proper class of
-    <a href="/N-remarkable" class="mw-redirect" title="N-remarkable">$n$-remarkable</a>
+    <a href="N-remarkable" class="mw-redirect" title="N-remarkable">$n$-remarkable</a>
     cardinals or there is a proper class of virtually rank-into-rank
     cardinals.\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
 -   If
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$ exists</a>,
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$ exists</a>,
     then in $L$ there are numerous virtual rank-into-rank embeddings $j
     : V\_θ^L → V\_θ^L$, where $θ$ is far above the supremum of the
     critical sequence. (By [elementary-embedding absoluteness
-    results](/Elementary_embedding#Absoluteness "Elementary embedding").
+    results](Elementary_embedding#Absoluteness "Elementary embedding").
     The hypothesis can be weakened, because one can chop at off the
     universe at any Silver indiscernible and use
     reflection.)\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
@@ -349,7 +349,7 @@ $\\text{I3}(\\kappa,\\lambda)$, then there must exist another embedding
 witnessing $\\text{I3}(\\kappa',\\lambda)$ with critical point *above*
 $\\kappa$! This upward type of reflection is not exhibited by large
 cardinals below
-[extendible](/Extendible "Extendible")
+[extendible](Extendible "Extendible")
 cardinals in the large cardinal hierarchy.
 
 ## Algebras of elementary embeddings
@@ -408,16 +408,16 @@ $\\mathrm{I3}$ and other $C^{(n)}$ variants:
     Theorem excludes other cases), it is equal to
     $sup\\{j^m(\\kappa):m\\lt \\omega\\}$ where $j$ is the elementary
     embedding. Then $\\kappa$ and $j^m(\\kappa)$ are
-    $C^{(n)}$-[superstrong](/Superstrong "Superstrong"),
-    $C^{(n)}$-[supercompact](/Supercompact "Supercompact"),
-    $C^{(n)}$-[extendible](/Extendible "Extendible"),
-    $C^{(n)}$-$m$-[huge](/Huge "Huge")
+    $C^{(n)}$-[superstrong](Superstrong "Superstrong"),
+    $C^{(n)}$-[supercompact](Supercompact "Supercompact"),
+    $C^{(n)}$-[extendible](Extendible "Extendible"),
+    $C^{(n)}$-$m$-[huge](Huge "Huge")
     and $C^{(n)}$-superhuge in $V\_\\delta$, for all $n$ and $m$.
 
 Definitions of $C^{(n)}$ variants of rank-into-rank cardinals:
 
 -   $\\kappa$ is called
-    **<a href="/Correct" class="mw-redirect" title="Correct">$C^{(n)}$-$\mathrm{I3}$ cardinal</a>**
+    **<a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-$\mathrm{I3}$ cardinal</a>**
     if it is an $\\mathrm{I3}$ cardinal, witnessed by some elementary
     embedding $j: V\_\\delta\\rightarrow V\_\\delta$, with
     $j(\\kappa)\\in C^{(n)}$ (i.e. ($1$-)$C^{(n)}$-$E\_0$).
@@ -477,7 +477,7 @@ Results about $\\mathrm{I3}$:
     $C^{(1)+}$-$\\mathrm{I3}$.
 -   If $\\kappa$ is $C^{(n)}$-$\\mathrm{I3}$, then it is
     $C^{(n)}$-$m$-huge, for all $m$, and there is a normal
-    <a href="/Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
+    <a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
     $\\mathcal{U}$ over $\\kappa$ such that
     $\\{\\alpha\\lt\\kappa: \\alpha$ is $C^{(n)}$-$m$-huge for every
     $m\\}\\in\\mathcal{U}$.
@@ -535,7 +535,7 @@ General results:
 -   The consistency strength of some $\\kappa$ that satisfies
     $B$-$E\_{n+1}$ is above $P$-$E\_n$.
 
-## Relations with [$\\omega$-fold variants](/N-fold_variants "N-fold variants")
+## Relations with [$\\omega$-fold variants](N-fold_variants "N-fold variants")
 
 (Section from \[[3](#bibkey_Kentaro2007:DoubleHelix)\])
 
@@ -562,7 +562,7 @@ General results:
 -   $\\omega$-fold superstrong (=$\\omega$-fold Shelah) is equivalent to
     $\\mathrm{I2}$.
     -   Weaker than $\\omega$-fold Woodin (details in [n-fold
-        variants](/N-fold_variants "N-fold variants")).
+        variants](N-fold_variants "N-fold variants")).
 -   $E\_2$ (with $\\Sigma\_4$) implies consistency of “$\\omega$-fold
     strong cardinals form a proper class”.
 
@@ -600,6 +600,6 @@ General results:
     <a href="http://arxiv.org/abs/1706.00843v2" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BGitmanHamkins2018:GenericVopenkaPrincipleNotMahlo,%20%20%20%20AUTHOR%20=%20%7BGitman,%20Victoria%20and%20Hamkins,%20Joel%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BA%20model%20of%20the%20generic%20Vopěnka%20principle%20in%20which%20the%20ordinals%20are%20not%20Mahlo%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1706.00843v2%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

@@ -25,7 +25,7 @@ operations, such as successor, addition, multiplication and
 exponentiation.
 
 The Church-Kleene ordinal is the least
-[admissible](/Admissible "Admissible")
+[admissible](Admissible "Admissible")
 ordinal.
 
 ## Relativized Church-Kleene ordinal
@@ -33,7 +33,7 @@ ordinal.
 The Church-Kleene idea easily relativizes to oracles, where for any real
 $x$, we define $\\omega\_1^x$ to be the supremum of the $x$-computable
 ordinals. This is also the least
-[admissible](/Admissible "Admissible")
+[admissible](Admissible "Admissible")
 ordinal relative to $x$, and every countable successor admissible
 ordinal is $\\omega\_1^x$ for some $x$.
 

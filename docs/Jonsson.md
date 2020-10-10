@@ -66,7 +66,7 @@ There are several equivalent definitions of Jónsson cardinals.
 ### <span id="Partition_Property" class="mw-headline">Partition Property</span>
 
 A cardinal $\\kappa$ is **Jónsson** iff the [partition
-property](/Partition_property "Partition property")
+property](Partition_property "Partition property")
 $\\kappa\\rightarrow \[\\kappa\]\_\\kappa^{&lt;\\omega}$ holds, i.e.
 that given any function $f:\[\\kappa\]^{&lt;\\omega}\\to\\kappa$ we can
 find a subset $H\\subseteq\\kappa$ of order type $\\kappa$ such that
@@ -116,10 +116,10 @@ All the following facts can be found in
     $\\kappa^{++}$ is never Jónsson, and if $\\kappa$ is weakly
     inaccessible then $\\kappa^+$ is never Jónsson).
 -   A singular limit of
-    [measurables](/Measurable "Measurable")
+    [measurables](Measurable "Measurable")
     is Jónsson.
 -   The least Jónsson is either [weakly
-    inaccessible](/Inaccessible "Inaccessible")
+    inaccessible](Inaccessible "Inaccessible")
     or has cofinality $\\omega$.
 -   $\\aleph\_{\\omega+1}$ is not Jónsson.
 
@@ -132,11 +132,11 @@ being Jónsson.
 Jónsson cardinals have a lot of consistency strength:
 
 -   Jónsson cardinals are equiconsistent with
-    [Ramsey](/Ramsey "Ramsey")
+    [Ramsey](Ramsey "Ramsey")
     cardinals. \[[2](#bibkey_Mitchell1997:JonssonErdosCoreModel)\]
 -   The existence of a Jónsson cardinal $\\kappa$ implies the existence
     of
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$x^\sharp$</a>
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$x^\sharp$</a>
     for every $x\\in V\_\\kappa$ (and therefore for every real number
     $x$, because $\\kappa$ is uncountable).
 
@@ -144,17 +144,17 @@ But in terms of size, they're (ostensibly) quite small:
 
 -   A Jónsson cardinal need not be regular (assuming the consistency of
     a
-    [measurable](/Measurable "Measurable")
+    [measurable](Measurable "Measurable")
     cardinal).
 -   Every Ramsey cardinal is inaccessible and Jónsson.
     \[[3](#bibkey_Kanamori2009:HigherInfinite)\]
 -   Every weakly inaccessible Jónsson is [weakly
-    hyper-Mahlo](/Mahlo "Mahlo").
+    hyper-Mahlo](Mahlo "Mahlo").
     \[[4](#bibkey_Shelah1994:CardinalArithmetic)\]
 
 It's an open question whether or not every inaccessible Jónsson cardinal
 is [weakly
-compact](/Weakly_compact "Weakly compact").
+compact](Weakly_compact "Weakly compact").
 
 ### <span id="J.C3.B3nsson_successors_of_singulars" class="mw-headline">Jónsson successors of singulars</span>
 
@@ -166,7 +166,7 @@ things known:
 -   If $0\\neq\\gamma&lt;\|\\eta\|$ then $\\aleph\_{\\eta+\\gamma+1}$ is
     not Jónsson. \[[5](#bibkey_TrybaJan1983:JonssonUncountable)\]
 -   If there exists a Jónsson successor of a singular cardinal then
-    <a href="/Zero_dagger" class="mw-redirect" title="Zero dagger">$0^\dagger$</a>
+    <a href="Zero_dagger" class="mw-redirect" title="Zero dagger">$0^\dagger$</a>
     exists. \[[6](#bibkey_DonderKoepke1998:AccessibleJonsson)\]
 
 ## Jónsson cardinals and the core model
@@ -175,7 +175,7 @@ In 1998, Welch proved many interesting facts about Jónsson cardinals and
 the core model that can be found in
 \[[7](#bibkey_Welch1998:InnerModels)\]. Assuming there is no inner model
 with a
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinal then:
 
 -   Weak covering holds at every Jónsson cardinal, i.e. that
@@ -185,11 +185,11 @@ cardinal then:
     $\\kappa$.
 
 If we assume that there's no sharp for a
-[strong](/Strong "Strong")
+[strong](Strong "Strong")
 cardinal (known as $0^\\P$ doesn't exist) then:
 
 -   For a Jónsson cardinal $\\kappa$,
-    <a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$A^\sharp$</a>
+    <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$A^\sharp$</a>
     exists for every $A\\subseteq\\kappa$.
 
 ## References
@@ -220,6 +220,6 @@ cardinal (known as $0^\\P$ doesn't exist) then:
     <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.41.7037&amp;rep=rep1&amp;type=pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BWelch1998:InnerModels,%20%20%20%20author%20=%20%7BWelch,%20Philip%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BSome%20remarks%20on%20the%20maximality%20of%20Inner%20Models%7D,%3Cbr%3E%20%20%20%20journal%20=%20%7BLogic%20Colloquium%7D,%3Cbr%3E%20%20%20%20year%20=%20%7B1998%7D,%3Cbr%3E%20%20%20%20url%20=%20%7Bhttp://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.41.7037&amp;rep=rep1&amp;type=pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

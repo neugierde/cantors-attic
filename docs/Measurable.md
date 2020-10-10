@@ -15,15 +15,15 @@ permalink: Measurable
 
 
 A **measurable cardinal** $\\kappa$ is an
-<a href="/Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
-[cardinal](/Cardinal "Cardinal")
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+[cardinal](Cardinal "Cardinal")
 such that it is possible to "measure" the subsets of $\\kappa$ using a
 2-valued
-<a href="/Measure" class="mw-redirect" title="Measure">measure</a>
+<a href="Measure" class="mw-redirect" title="Measure">measure</a>
 on the powerset of $\\kappa$, $\\mathcal{P}(\\kappa)$. There exists
 several other equivalent definitions: For example, $\\kappa$ can also be
 the critical point of a nontrivial [elementary
-embedding](/Elementary_embedding "Elementary embedding")
+embedding](Elementary_embedding "Elementary embedding")
 $j:V\\to M$.
 
 Measurable cardinals were introduced by Stanislaw Ulam in 1930.
@@ -114,7 +114,7 @@ Theorem 2 : The following are equivalent :
     moved (the *critical point*).
 3.  There exists a nonprincipal ultrafilter $U$ on $\\kappa$ such that
     the
-    [ultrapower](/Ultrapower "Ultrapower")
+    [ultrapower](Ultrapower "Ultrapower")
     $(\\text{Ult}\_U(V),\\in\_U)$ of the universe is well-founded.
 
 To see that the second condition implies the first one, one can show
@@ -122,7 +122,7 @@ that if $j:V\\to M$ is a nontrivial elementary embedding, then the set
 $\\mathcal{U}=\\{x\\subset\\kappa\|\\kappa\\in j(x)\\})$ is a
 $\\kappa$-complete nonprincipal ultrafilter on $\\kappa$, and in fact a
 normal fine measure. To show the converse, one needs to use [ultrapower
-embeddings](/Ultrapower "Ultrapower"):
+embeddings](Ultrapower "Ultrapower"):
 if $U$ is a nonprincipal $\\kappa$-complete ultrafilter on $\\kappa$,
 then the canonical ultrapower embedding $j:V\\to\\text{Ult}\_U(V)$ is a
 nontrivial elementary embedding of the universe.
@@ -187,7 +187,7 @@ $\\mathcal{L}\_{\\kappa,\\kappa}^{&lt;\\omega}$ is not almost
 $\\kappa$-favorable, and in fact if $\\kappa$ is the least measurable
 then $\\mathcal{L}\_{\\kappa,\\kappa}^{&lt;\\omega}$ is not
 $\\kappa$-Hayut; however, if $\\kappa$ is
-[extendible](/Extendible "Extendible"),
+[extendible](Extendible "Extendible"),
 then $\\mathcal{L}\_{\\kappa,\\kappa}^{&lt;\\omega}$ is $\\kappa$-Hayut,
 though it still isn't almost $\\kappa$-favorable.
 
@@ -205,7 +205,7 @@ For more information, see
 
 There are also other embedding characterizations of measurable
 cardinals. Namely (under
-[NBG](/Second-order "Second-order")
+[NBG](Second-order "Second-order")
 or ZFC + $j$) the following are equivalent for any cardinal $\\kappa$:
 
 1.  $\\kappa$ is measurable.
@@ -349,11 +349,11 @@ $\\text{ZFC}$, therefore $\\text{ZFC}$ cannot prove the existence of a
 measurable cardinal.
 
 $\\kappa$ is
-[inaccessible](/Inaccessible "Inaccessible"),
+[inaccessible](Inaccessible "Inaccessible"),
 the $\\kappa$th inacessible, the $\\kappa$th [weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 cardinal, the $\\kappa$th
-[Ramsey](/Ramsey "Ramsey"),
+[Ramsey](Ramsey "Ramsey"),
 and similarly bears most of the large cardinal properties under
 Ramsey-ness.
 
@@ -364,12 +364,12 @@ It is notable that every measurable has the mentioned properties in
 $\\text{ZFC}$, but in $\\text{ZF}$ they may not (but their existence
 remains consistency-wise *much* stronger than existence of cardinals
 with those properties), in fact under the [axiom of
-determinacy](/Axiom_of_determinacy "Axiom of determinacy"),
+determinacy](Axiom_of_determinacy "Axiom of determinacy"),
 the first two uncountable cardinals, $\\aleph\_1$ and $\\aleph\_2$, are
 both measurable.
 
 Any measurable cardinal $κ$ has super
-[Ramsey](/Ramsey "Ramsey")
+[Ramsey](Ramsey "Ramsey")
 M-rank $κ^+$\[[3](#bibkey_CarmodyGitmanHabic2016:Mitchelllike)\], is
 super completely Ramsey and a stationary limit of super completely
 Ramsey cardinals\[[4](#bibkey_Feng1990:HierarchyRamsey)\] and is a limit
@@ -381,10 +381,10 @@ in $\[0,1\]$. Also there must be a normal fine measure on
 $\\mathcal{P}\_\\kappa(\\kappa)$.
 
 Every measurable cardinal is
-<a href="/Regular" class="mw-redirect" title="Regular">regular</a>,
+<a href="Regular" class="mw-redirect" title="Regular">regular</a>,
 and (under AC) bears most large cardinal properties weaker than it. It
 is in particular
-$\\Pi^2\_1$-[indescribable](/Indescribable "Indescribable").
+$\\Pi^2\_1$-[indescribable](Indescribable "Indescribable").
 However the least measurable cardinal is not
 $\\Sigma^2\_1$-indescribable. \[[1](#bibkey_Jech2003:SetTheory)\]
 Independently of the truth of AC, the existence of a measurable cardinal
@@ -397,16 +397,16 @@ a strong limit (and since it is regular, it must be strongly
 inaccessible, hence it cannot be $\\omega\_1$).
 
 If there exists a measurable cardinal then
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$</a>
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$</a>
 exists, and therefore $V\\neq L$. In fact, the
-<a href="/Zero_sharp" class="mw-redirect" title="Zero sharp">sharp</a>
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">sharp</a>
 of every real number exists, and therefore
-$\\mathbf{\\Pi}^1\_1$-[determinacy](/Axiom_of_determinacy "Axiom of determinacy")
+$\\mathbf{\\Pi}^1\_1$-[determinacy](Axiom_of_determinacy "Axiom of determinacy")
 holds. Furthermore, assuming the axiom of determinacy, the cardinals
 $\\omega\_1$, $\\omega\_2$, $\\omega\_{\\omega+1}$ and
 $\\omega\_{\\omega+2}$ are measurable, also in $L(\\mathbb{R})$ every
 regular cardinal smaller than
-<a href="/Theta" class="mw-redirect" title="Theta">$\Theta$</a>
+<a href="Theta" class="mw-redirect" title="Theta">$\Theta$</a>
 is measurable.
 
 Every measurable has the following reflection property: let $j:V\\to M$
@@ -414,38 +414,38 @@ be a nontrivial elementary embedding with critical point $\\kappa$. If
 $x\\in V\_\\kappa$ and $M\\models\\varphi(\\kappa,x)$ for some
 first-order formula $\\varphi$, then the set of all ordinals
 $\\alpha&lt;\\kappa$ such that $V\\models\\varphi(\\alpha,x)$ is
-<a href="/Stationary" class="mw-redirect" title="Stationary">stationary</a>
+<a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
 in $\\kappa$ and has the same measure as $\\kappa$ itself by any
 2-valued measure on $\\kappa$.
 
 Measurability of $\\kappa$ is equivalent with $\\kappa$-strong
 compactness of $\\kappa$, and also with $\\kappa$-supercompactness of
 $\\kappa$ (fragments of [strong
-compactness](/Strongly_compact "Strongly compact")
+compactness](Strongly_compact "Strongly compact")
 and
-[supercompactness](/Supercompact "Supercompact")
+[supercompactness](Supercompact "Supercompact")
 respectively.) It is also consistent with $\\text{ZFC}$ that the first
 measurable cardinal and the first [strongly
-compact](/Strongly_compact "Strongly compact")
+compact](Strongly_compact "Strongly compact")
 cardinal are equal.
 
 If a measurable $\\kappa$ is such that there is $\\kappa$ [strongly
-compact](/Strongly_compact "Strongly compact")
+compact](Strongly_compact "Strongly compact")
 cardinals below it, then it is strongly compact. If it is a limit of
 strongly compact cardinals, then it is strongly compact yet not
-[supercompact](/Supercompact "Supercompact").
+[supercompact](Supercompact "Supercompact").
 If a measurable $\\kappa$ has infinitely many
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinals below it, then the axiom of determinacy holds in
 $L(\\mathbb{R})$, also the
-<a href="/Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
+<a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
 holds.
 
 A cardinal $\\kappa$ is measurable if and only if it is
-$\\kappa^+$-<a href="/Hypermeasurable" class="mw-redirect" title="Hypermeasurable">hypermeasurable</a>.
+$\\kappa^+$-<a href="Hypermeasurable" class="mw-redirect" title="Hypermeasurable">hypermeasurable</a>.
 
 Measurable cardinals are not necessarily
-[tall](/Tall "Tall"), but it
+[tall](Tall "Tall"), but it
 is relatively consistent that the least measurable cardinal is tall.
 
 If $\\kappa$ is measurable in a ground model, then it is measurable in
@@ -459,7 +459,7 @@ following are equivalent:
 
 -   $κ$ is measurable.
 -   $κ$ satisfies the
-    $κ^+$-<a href="/Filter_property" class="mw-redirect" title="Filter property">filter property</a>.
+    $κ^+$-<a href="Filter_property" class="mw-redirect" title="Filter property">filter property</a>.
 -   $κ$ satisfies the strategic $κ^+$-filter property.
 
 On the other hand, starting from a $κ^{++}$-tall cardinal $κ$, it is
@@ -470,11 +470,11 @@ measurable.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
 If $κ$ is a measurable cardinal, then $κ$ is $κ$-very Ramsey. If a
 cardinal is $ω\_1$-very Ramsey (=strategic $ω\_1$-Ramsey cardinal), then
 it is measurable in the [core
-model](/Core_model "Core model")
+model](Core_model "Core model")
 unless
-<a href="/Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
+<a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
 exists and an inner model with a
-[Woodin](/Woodin "Woodin")
+[Woodin](Woodin "Woodin")
 cardinal exists.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike),
 [7](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 
@@ -483,14 +483,14 @@ fully Ramsey cardinal) is equiconsistent with the existence of a
 measurable cardinal.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 
 A cardinal $κ$ is
-<a href="/Correct" class="mw-redirect" title="Correct">$C^{(n)}$-measurable</a>
+<a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-measurable</a>
 iff there is a transitive class $M$ and an elementary embedding $j : V →
 M$ with critical point $crit(j) = κ$ and with $j(κ) ∈ C^{(n)}$. Every
 measurable cardinal is $C^{(n)}$-measurable for all
 $n$.\[[8](#bibkey_Bagaria2012:CnCardinals)\]
 
 *See also:
-[Ultrapower](/Ultrapower "Ultrapower")*
+[Ultrapower](Ultrapower "Ultrapower")*
 
 ### <span id="Failure_of_.24.5Ctext.7BGCH.7D.24_at_a_measurable" class="mw-headline">Failure of $\\text{GCH}$ at a measurable</span>
 
@@ -501,7 +501,7 @@ Gitik proved that the following statements are equiconsistent:
 -   The singular cardinal hypothesis fails, i.e. there is a strong limit
     singular $\\kappa$ such that $2^\\kappa &gt; \\kappa^+$
 -   There is a measurable cardinal of [Mitchell
-    order](/Mitchell_rank "Mitchell rank")
+    order](Mitchell_rank "Mitchell rank")
     $\\kappa^{++}$, i.e. $o(\\kappa)=\\kappa^{++}$
 
 Thus violating $\\text{GCH}$ at a measurable (or violating the SCH at
@@ -521,7 +521,7 @@ also it is strongly inaccessible under AC.
 
 If a real-valued measurable cardinal is not measurable, then it must be
 smaller than (or equal to) $2^{\\aleph\_0}$.
-<a href="/index.php?title=Martin%27s_axiom&amp;action=edit&amp;redlink=1" class="new" title="Martin&#39;s axiom (page does not exist)">Martin's axiom</a>
+<a href="index.php?title=Martin%27s_axiom&amp;action=edit&amp;redlink=1" class="new" title="Martin&#39;s axiom (page does not exist)">Martin's axiom</a>
 implies that the continuum is not real-valued measurable.
 \[[1](#bibkey_Jech2003:SetTheory)\]
 
@@ -529,7 +529,7 @@ Solovay showed that the existence of a measurable cardinal is
 equiconsistent with the existence of a real-valued measurable cardinal.
 More precisely, he showed that if there is a measurable then there is
 [generic
-extension](/Forcing "Forcing")
+extension](Forcing "Forcing")
 in which $\\kappa=2^{\\aleph\_0}$ and $\\kappa$ is real-valued
 measurable, and conversely if there exists a real-valued measurable then
 it is measurable in some model of $\\text{ZFC}$.
@@ -540,27 +540,27 @@ it is measurable in some model of $\\text{ZFC}$.
 
 A cardinal $κ$ is **virtually measurable** iff for every regular $ν &gt;
 κ$ there exists a
-[transitive](/Transitive "Transitive")
+[transitive](Transitive "Transitive")
 M and a forcing $\\mathbb{P}$ such that, in $V^\\mathbb{P}$, there is an
 elementary embedding $j : H\_ν^V → M$ with $\\mathrm{crit}(j) = κ$.
 
 Every virtually measurable cardinal is strategic
-$ω$-[Ramsey](/Ramsey "Ramsey"),
+$ω$-[Ramsey](Ramsey "Ramsey"),
 and every strategic $ω$-Ramsey cardinal is virtually measurable in $L$.
 
 If κ is virtually measurable, then either $κ$ is
-[remarkable](/Remarkable "Remarkable")
+[remarkable](Remarkable "Remarkable")
 in $L$ or $L\_κ \\models \\text{“there is a proper class of virtually
 measurables”}$.
 
 ## See also
 
--   [Ultrapower](/Ultrapower "Ultrapower")
--   <a href="/Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
+-   [Ultrapower](Ultrapower "Ultrapower")
+-   <a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
 -   [Axiom of
-    determinacy](/Axiom_of_determinacy "Axiom of determinacy")
+    determinacy](Axiom_of_determinacy "Axiom of determinacy")
 -   [Strongly
-    compact](/Strongly_compact "Strongly compact")
+    compact](Strongly_compact "Strongly compact")
     cardinal
 
 ## Read more
@@ -607,6 +607,6 @@ measurables”}$.
     <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075116/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
 

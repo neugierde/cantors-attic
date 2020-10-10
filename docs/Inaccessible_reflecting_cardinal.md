@@ -10,7 +10,7 @@ permalink: Inaccessible_reflecting_cardinal
 
 
 (Redirected from [Inaccessible reflecting
-cardinal](/index.php?title=Inaccessible_reflecting_cardinal&redirect=no "Inaccessible reflecting cardinal"))
+cardinal](index.php?title=Inaccessible_reflecting_cardinal&redirect=no "Inaccessible reflecting cardinal"))
 
 
 
@@ -19,9 +19,9 @@ cardinal](/index.php?title=Inaccessible_reflecting_cardinal&redirect=no "Inacces
 
 Reflection is a fundamental motivating concern in set theory. The theory
 of ZFC can be equivalently axiomatized over the very weak
-[Kripke-Platek](/Kripke-Platek "Kripke-Platek")
+[Kripke-Platek](Kripke-Platek "Kripke-Platek")
 set theory by the addition of the
-<a href="/Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>
+<a href="Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>
 scheme, below, since instances of the replacement axiom will follow from
 an instance of $\\Delta\_0$-separation after reflection down to a
 $V\_\\alpha$ containing the range of the defined function. Several
@@ -65,15 +65,15 @@ is not necessarily inaccessible, we say that $\\kappa$ is
 -   For each natural number $n$, the $\\Sigma\_n$-correct cardinals form
     a closed unbounded proper class of cardinals, as a consequence of
     the
-    <a href="/Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>.
+    <a href="Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>.
     This class is sometimes denoted by $C^{(n)}$ and the
     $\\Sigma\_n$-correct cardinals are also sometimes referred to as the
     $C^{(n)}$-cardinals.
 -   Every $\\Sigma\_2$-correct cardinal is a
-    <a href="/Beth_fixed_point" class="mw-redirect" title="Beth fixed point">$\beth$-fixed point</a>
+    <a href="Beth_fixed_point" class="mw-redirect" title="Beth fixed point">$\beth$-fixed point</a>
     and a limit of such $\\beth$-fixed points, as well as an
     [$\\aleph$-fixed
-    point](/Aleph "Aleph")
+    point](Aleph "Aleph")
     and a limit of such. Consequently, we may equivalently define for
     $n\\geq 2$ that $\\kappa$ is $\\Sigma\_n$-correct if and only if
     $V\_\\kappa\\prec\_{\\Sigma\_n} V$.
@@ -97,7 +97,7 @@ Just as with the notion of correctness, this is not first-order
 expressible as a single assertion in the language of set theory, but it
 is expressible as a scheme. The existence of such a cardinal is
 equiconsistent to the assertion [ORD is
-Mahlo](/ORD_is_Mahlo "ORD is Mahlo").
+Mahlo](ORD_is_Mahlo "ORD is Mahlo").
 
 ## $\\Sigma\_2$ correct cardinals
 
@@ -144,19 +144,19 @@ than finitely many axioms of ZFC. In particular, a simple compactness
 argument shows that the Feferman theory is consistent provided only that
 ZFC itself is consistent, since any finite subtheory of the Feferman
 theory is true by the
-<a href="/Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>
+<a href="Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>
 in any model of ZFC. It follows that the Feferman theory is actually
 conservative over ZFC, and proves with ZFC no new facts about sets that
 is not already provable in ZFC alone.
 
 The Feferman theory was proposed as a natural theory in which to
 undertake the category-theoretic uses of
-<a href="/Grothendieck_universe" class="mw-redirect" title="Grothendieck universe">Grothendieck universes</a>,
+<a href="Grothendieck_universe" class="mw-redirect" title="Grothendieck universe">Grothendieck universes</a>,
 but without the large cardinal penalty of a proper class of inaccessible
 cardinals. Indeed, the Feferman theory offers the advantage that the
 universes are each elementary substructures of one another, which is a
 feature not generally true under the
-<a href="/Universe_axiom" class="mw-redirect" title="Universe axiom">universe axiom</a>.
+<a href="Universe_axiom" class="mw-redirect" title="Universe axiom">universe axiom</a>.
 
 ## Maximality Principle
 

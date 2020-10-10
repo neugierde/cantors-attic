@@ -66,16 +66,16 @@ for $1&lt;n&lt;\\omega$.
 
 No cardinal can both be a successor cardinal in $L$ and have the tree
 property in $L$ (the [constructible
-universe](/Constructible_universe "Constructible universe")),
+universe](Constructible_universe "Constructible universe")),
 thus the
 <a href="http://en.wikipedia.org/wiki/axiom_of_constructibility" class="extiw" title="wikipedia:axiom of constructibility">axiom of constructibility</a>
 is incompatible with the existence of any successor cardinal with the
 tree property.
 
 [Weakly
-compact](/Weakly_compact "Weakly compact")
+compact](Weakly_compact "Weakly compact")
 cardinals all have the tree property. Every cardinal that is
-[inaccessible](/Inaccessible "Inaccessible")
+[inaccessible](Inaccessible "Inaccessible")
 and has the tree property is weakly compact. Moreover, every uncountable
 cardinal with the tree property is weakly compact in the constructible
 universe, even if it is not inaccessible (in the universe of sets).
@@ -83,18 +83,18 @@ universe, even if it is not inaccessible (in the universe of sets).
 Foreman, Magidor and Schindler showed that if there exists infinitely
 many cardinals $\\delta$ above the continuum such that both $\\delta$
 and $\\delta^{+}$ has the tree property, then the
-<a href="/Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
+<a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
 holds. This hypothesis was shown to be consistent relative to the
 existence of infinitely many
-[supercompact](/Supercompact "Supercompact")
+[supercompact](Supercompact "Supercompact")
 cardinals by Cummings and Foreman.
 
 Magidor and Shelah showed, from the existence of a
-[huge](/Huge "Huge")
+[huge](Huge "Huge")
 cardinals with infinitely many supercompact cardinals above it, the
 consistency of $\\aleph\_{\\omega+1}$ having the tree property, and
 furthermore that the successor of a singular limit of [strongly
-compact](/Strongly_compact "Strongly compact")
+compact](Strongly_compact "Strongly compact")
 cardinals has the tree property.
 
 ## Definable tree property

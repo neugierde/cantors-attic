@@ -10,7 +10,7 @@ permalink: Stationary
 
 
 (Redirected from
-[Stationary](/index.php?title=Stationary&redirect=no "Stationary"))
+[Stationary](index.php?title=Stationary&redirect=no "Stationary"))
 
 
 
@@ -87,7 +87,7 @@ Further, any collection of fewer than $\\kappa$-many club subsets is
 also closed under *diagonal* intersections, a fact used in
 characterizing the stationary subsets of $\\kappa$. In particular, the
 club subsets of $\\kappa$ form a
-[filter](/Filter "Filter")
+[filter](Filter "Filter")
 over $\\kappa$. Note that the intersection of $\\kappa$-many clubs might
 be empty, so this filter is not an ultrafilter in general.
 
@@ -132,7 +132,7 @@ subfamily of size $\\kappa$ which forms a $\\Delta$-system.
 ## References
 
 [Main
-library](/Library "Library")
+library](Library "Library")
 
   
 
