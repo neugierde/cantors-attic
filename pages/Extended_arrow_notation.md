@@ -161,7 +161,7 @@ Limit: \\(\\psi(\\psi\_{\\chi(M(1,0))}(0))\\)
 [Layered arrays]{#Layered_arrays .mw-headline}
 ----------------------------------------------
 
-Limit: \\(\\psi(\\psi\_{{\\Xi(1)}\^\\omega}(0))\\)
+Limit: \\(\\psi(\\psi\_{\\Xi(1)}\^\\omega}(0))\\)
 
 [The hyperseparator]{#The_hyperseparator .mw-headline}
 ------------------------------------------------------
