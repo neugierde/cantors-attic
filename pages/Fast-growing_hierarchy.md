@@ -125,9 +125,9 @@ f\_{\\omega\^{\\omega}+\\omega+1}(n) &&gt;& \\lbrace n,n,1,2 \[2\] 2
 \\rbrace \\\\ f\_{\\omega\^{\\omega}+\\omega2}(n) &&gt;& \\lbrace
 n,n,n,2 \[2\] 2 \\rbrace \\\\ f\_{\\omega\^{\\omega}+\\omega\^2}(n)
 &&gt;& \\lbrace n,n,n,n \[2\] 2 \\rbrace \\\\
-f\_{{\\omega\^{\\omega}}2}(n) &&gt;& \\lbrace n,n \[2\] 3 \\rbrace \\\\
-f\_{{\\omega\^{\\omega}}3}(n) &&gt;& \\lbrace n,n \[2\] 4 \\rbrace \\\\
-f\_{{\\omega\^{\\omega}}m}(n) &&gt;& \\lbrace n,n \[2\] m+1 \\rbrace
+f\_{ {\\omega\^{\\omega}}2}(n) &&gt;& \\lbrace n,n \[2\] 3 \\rbrace \\\\
+f\_{ {\\omega\^{\\omega}}3}(n) &&gt;& \\lbrace n,n \[2\] 4 \\rbrace \\\\
+f\_{ {\\omega\^{\\omega}}m}(n) &&gt;& \\lbrace n,n \[2\] m+1 \\rbrace
 \\\\ f\_{\\omega\^{\\omega+1}}(n) &&gt;& \\lbrace n,n \[2\] n+1 \\rbrace
 &gt; \\lbrace n,n \[2\] n \\rbrace \\\\ f\_{\\omega\^{\\omega+2}}(n)
 &&gt;& \\lbrace n,n \[2\] n,n \\rbrace \\\\ f\_{\\omega\^{\\omega+3}}(n)

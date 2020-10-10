@@ -68,7 +68,7 @@ pieces.\[[1](#bibkey_EvansHamkins:TransfiniteGameValuesInInfiniteChess)\]
 <!-- -->
 
 -   Similarly, \$\\omega\_1\^{\\mathfrak{Ch}\_3}\$ and
-    \$\\omega\_1\^{{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}\_3}\$ are the
+    \$\\omega\_1\^{ {\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}\_3}\$ are the
     analogous ordinals for infinite three-dimensional chess, as
     described in .
 
@@ -109,7 +109,7 @@ Evans and Hamkins
 \[[1](#bibkey_EvansHamkins:TransfiniteGameValuesInInfiniteChess)\] have
 proved that the omega one of infinite 3D chess is true \$\\omega\_1\$,
 as large as it can be:
-\$\\omega\_1\^{{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}\_3}=\\omega\_1\$.
+\$\\omega\_1\^{ {\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}\_3}=\\omega\_1\$.
 Meanwhile, there remains a large gap in the best-known bounds for
 \$\\omega\_1\^{\\mathfrak{Ch}}\$ and
 \$\\omega\_1\^{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}\$, with Evans and

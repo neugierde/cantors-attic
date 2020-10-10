@@ -88,7 +88,7 @@ Note that by conjunction, for any finite family of formulas
 \$\\phi\_0\\land...\\land\\phi\_n\$. Another important fact is that the
 truth predicate for \$\\Sigma\_n\$ formulas is \$\\Sigma\_{n+1}\$, and
 so we can find a (Club class of) ordinals \$\\alpha\$ such that
-\$(V\_\\alpha,\\in)\\prec\_{{T\_{\\Sigma\_n}}\\restriction{V\_\\alpha}}
+\$(V\_\\alpha,\\in)\\prec\_{ {T\_{\\Sigma\_n}}\\restriction{V\_\\alpha}}
 (V,\\in)\$, where \$T\_{\\Sigma\_n}\$ is the truth predicate for
 \$\\Sigma\_n\$ and so \$ZFC\\vdash Con(ZFC(\\Sigma\_n))\$ for every
 \$n\$, where \$ZFC(\\Sigma\_n)\$ is \$ZFC\$ with Replacement and
