@@ -1,39 +1,9 @@
-<div id="mw-page-base" class="noprint">
+---
+title: Regularity properties, projective sets, determinacy, \$\\text{AD}\^+\$
+---
 
-</div>
+# Regularity properties, projective sets, determinacy, \$\\text{AD}\^+\$
 
-<div id="mw-head-base" class="noprint">
-
-</div>
-
-<div id="content" class="mw-body" role="main">
-
-[]{#top}
-[Regularity properties, projective sets, determinacy, \$\\text{AD}\^+\$]{dir="auto"} {#firstHeading .firstHeading lang="en"}
-====================================================================================
-
-<div id="bodyContent" class="mw-body-content">
-
-<div id="siteSub">
-
-From Cantor's Attic
-
-</div>
-
-<div id="contentSub">
-
-(Redirected from
-[AD+](/web/20190816205217/http://cantorsattic.info/index.php?title=AD%2B&redirect=no "AD+"))
-
-</div>
-
-<div id="jump-to-nav" class="mw-jump">
-
-Jump to: [navigation](#mw-navigation), [search](#p-search)
-
-</div>
-
-<div id="mw-content-text" class="mw-content-ltr" lang="en" dir="ltr">
 
 This article covers:
 
@@ -48,14 +18,9 @@ This article covers:
 \[[2](#bibkey_Kanamori2009:HigherInfinite)\], or
 \[[3](#bibkey_Woodin2010:SEM1)\] unless indicated otherwise.*
 
-<div id="toc" class="toc">
 
-<div id="toctitle">
+## Contents
 
-Contents
---------
-
-</div>
 
 -   [[1]{.tocnumber} [Projective sets]{.toctext}](#Projective_sets)
 -   [[2]{.tocnumber} [Properties]{.toctext}](#Properties)
@@ -83,10 +48,8 @@ Contents
         cardinals]{.toctext}](#Woodin_cardinals)
 -   [[6]{.tocnumber} [References]{.toctext}](#References)
 
-</div>
 
-[Projective sets]{#Projective_sets .mw-headline}
-------------------------------------------------
+## Projective sets
 
 We say that \$\\Gamma\$ is a *pointclass* if it is a collection of
 subsets of a [Polish
@@ -153,8 +116,7 @@ the set of the complements of \$\\Gamma\$'s elements, for example
 \$\\Delta\_\\Gamma=\\Gamma\\cap\\neg\\Gamma\$, for example
 \$\\Delta\^1\_n(a)=\\Delta\_{\\Pi\^1\_n(a)}=\\Delta\_{\\Sigma\^1\_n(a)}\$.
 
-[Properties]{#Properties .mw-headline}
---------------------------------------
+## Properties
 
 Every \$\\mathbf{\\Sigma}\^1\_n\$ set is \$\\Sigma\^1\_n(a)\$ for some
 \$a\\in\\omega\^\\omega\$, in fact
@@ -221,8 +183,7 @@ exists then it is a \$\\Sigma\^1\_3\$ real and the singleton
 \$\\Sigma\^1\_3\$ set of reals is the union of \$\\aleph\_2\$ Borel
 sets.
 
-[Regularity properties]{#Regularity_properties .mw-headline}
-------------------------------------------------------------
+## Regularity properties
 
 Let \$A\\subseteq(\\omega\^\\omega)\^k\$ be a k-dimensional set of
 reals. We say that \$A\$ is *null* if it has [outer
@@ -277,7 +238,7 @@ equivalence relation on \$\\omega\^\\omega\$ then either \$E\$ has at
 most \$\\aleph\_1\$ equivalence classes or there exists a perfect set of
 mutually inequivalent reals.
 
-### [Reduction and separation properties]{#Reduction_and_separation_properties .mw-headline}
+### Reduction and separation properties
 
 For any four sets \$A\$, \$B\$, \$A'\$ and \$B'\$, \$(A',B')\$ *reduces*
 \$(A,B)\$ if \$A'\\subseteq A\$, \$B'\\subseteq B\$, \$A'\\cup B'=A\\cup
@@ -298,7 +259,7 @@ If \$\\Gamma\$ has the reduction property, then \$\\neg\\Gamma\$ has the
 separation property but not the reduction property. It is impossible for
 \$\\Gamma\$ to have both the reduction and the separation properties.
 
-### [Prewellordering, scale and uniformization properties]{#Prewellordering.2C_scale_and_uniformization_properties .mw-headline}
+### Prewellordering, scale and uniformization properties
 
 A *norm* on a set \$A\$ is a function \$\\varphi:A\\to\\text{Ord}\$ from
 \$A\$ to the ordinals. A *prewellordering* is a relation \$\\preceq\$
@@ -348,8 +309,7 @@ by a function in \$\\Gamma\$. The pointclasses \$\\Sigma\^1\_2\$ and,
 for all \$a\\in\\omega\^\\omega\$, \$\\Pi\^1\_1(a)\$ have the
 uniformization property.
 
-[Projective determinacy]{#Projective_determinacy .mw-headline}
---------------------------------------------------------------
+## Projective determinacy
 
 *See also: [axiom of
 determinacy](/web/20190816205217/http://cantorsattic.info/Axiom_of_determinacy "Axiom of determinacy")*
@@ -420,7 +380,7 @@ This is known as the *periodicity theorem*. On the other hand, if
 \$\\Sigma\^1\_n(a)\$ has the reduction and prewellordering properties
 for \$n\\geq 2\$ and every \$a\\in\\omega\^\\omega\$.
 
-### [Projective ordinals]{#Projective_ordinals .mw-headline}
+### Projective ordinals
 
 For every pointclass \$\\Gamma\$, define \$\\delta\_\\Gamma\$ as the
 supremum of the length of \$\\Gamma\$ prewellorderings of
@@ -465,7 +425,7 @@ Assume \$\\mathbf{\\Delta}\^1\_{2n}\$-determinacy; then a set of reals
 of \$\\delta\^1\_{2n+1}\$-many sets that are
 \$\\mathbf{\\Delta}\^1\_{2n+1}\$.
 
-### [Projective determinacy from large cardinals]{#Projective_determinacy_from_large_cardinals .mw-headline}
+### Projective determinacy from large cardinals
 
 Woodin showed that \$\\mathbf{\\Pi}\^1\_{n+1}\$-determinacy follows from
 the existence of \$n\$
@@ -516,10 +476,9 @@ shown to be consistent relative to the existence of infinitely many
 cardinals by James Cummings and Foreman.
 \[[5](#bibkey_Larson2010:HistoryDeterminacy)\]
 
-[Other regularity properties]{#Other_regularity_properties .mw-headline}
-------------------------------------------------------------------------
+## Other regularity properties
 
-### [Trees, towers of measures, homogeneity]{#Trees.2C_towers_of_measures.2C_homogeneity .mw-headline}
+### Trees, towers of measures, homogeneity
 
 For any set \$X\$, define \$X\^{&lt;\\omega}\$ to be the set of all
 finite sequences of elements in \$X\$. Given a sequence \$s\\in
@@ -603,7 +562,7 @@ tower. \$T\$ is (&lt;\$\\delta\$)-homogeneous iff it is
 *homogeneous* if it is \$\\delta\$-homogeneous for some \$\\delta\$.
 Homogeneity is a much more restrictive condition than weak homogeneity.
 
-### [Suslin sets and universally Baire sets]{#Suslin_sets_and_universally_Baire_sets .mw-headline}
+### Suslin sets and universally Baire sets
 
 A set of reals \$A\$ is *\$\\kappa\$-Suslin* iff it is the projection of
 some tree on \$\\omega\\times\\kappa\$. \$A\$ is *Suslin* iff it is
@@ -677,7 +636,7 @@ generically absolute and remain generically absolute in all generic
 extensions if and only if every \$\\mathbf{\\Sigma}\^1\_2\$ set of reals
 is universally Baire.
 
-### [\$\\text{AD}\^+\$ and \${}\^\\infty\$borel sets]{#.24.5Ctext.7BAD.7D.5E.2B.24_and_.24.7B.7D.5E.5Cinfty.24borel_sets .mw-headline}
+### \$\\text{AD}\^+\$ and \${}\^\\infty\$borel sets
 
 A set of reals is \${}\^\\infty\$borel iff there is a class of ordinals
 \$S\$, an ordinal \$\\alpha\$ and a formula \$\\varphi(x\_0,x\_1)\$ such
@@ -716,7 +675,7 @@ Then \$L(A,\\mathbb{R})\\models\\text{AD}\^+\$ and if
 \$\\Gamma\\neq\\mathcal{P}(\\mathbb{R})\$ then
 \$L(A,\\mathbb{R})\\models\\text{AD}\_\\mathbb{R}\\text{+DC}\$.
 
-### [Woodin cardinals]{#Woodin_cardinals .mw-headline}
+### Woodin cardinals
 
 If \$\\delta\$ is a limit of Woodin cardinals and \$A\$ is a set of
 reals then the following are equivalent:
@@ -778,8 +737,7 @@ Woodin cardinals, let \$V\[G\_0\]\$ be a generic extension of \$V\$, and
     (L(\\Gamma\^\\infty,\\mathbb{R}))\^{V\[G\_0\]} \\to
     (L(\\Gamma\^\\infty,\\mathbb{R}))\^{V\[G\_0\]\[G\_1\]}\$.
 
-[References]{#References .mw-headline}
---------------------------------------
+## References
 
 1.  <div id="bibkey_Jech2003:SetTheory">
 
@@ -820,354 +778,3 @@ Woodin cardinals, let \$V\[G\_0\]\$ be a generic extension of \$V\$, and
 [Main
 library](/web/20190816205217/http://cantorsattic.info/Library "Library")
 
-</div>
-
-<div class="printfooter">
-
-Retrieved from
-"[http://cantorsattic.info/index.php?title=Projective&oldid=2499\#.24.5Ctext.7BAD.7D.5E.2B.24\_and\_.24.7B.7D.5E.5Cinfty.24borel\_sets](http://web.archive.org/web/20190816205217/http://cantorsattic.info/index.php?title=Projective&oldid=2499#.24.5Ctext.7BAD.7D.5E.2B.24_and_.24.7B.7D.5E.5Cinfty.24borel_sets)"
-
-</div>
-
-<div id="catlinks" class="catlinks catlinks-allhidden">
-
-</div>
-
-<div class="visualClear">
-
-</div>
-
-</div>
-
-</div>
-
-<div id="mw-navigation">
-
-Navigation menu
----------------
-
-<div id="mw-head">
-
-<div id="p-personal" role="navigation"
-aria-labelledby="p-personal-label">
-
-### Personal tools {#p-personal-label}
-
--   <div id="pt-createaccount">
-
-    </div>
-
-    [Create
-    account](/web/20190816205217/http://cantorsattic.info/index.php?title=Special:UserLogin&returnto=Projective&type=signup)
--   <div id="pt-login">
-
-    </div>
-
-    [Log
-    in](/web/20190816205217/http://cantorsattic.info/index.php?title=Special:UserLogin&returnto=Projective "You are encouraged to log in; however, it is not mandatory [o]")
-
-</div>
-
-<div id="left-navigation">
-
-<div id="p-namespaces" class="vectorTabs" role="navigation"
-aria-labelledby="p-namespaces-label">
-
-### Namespaces {#p-namespaces-label}
-
--   <div id="ca-nstab-main">
-
-    </div>
-
-    [[Page](/web/20190816205217/http://cantorsattic.info/Projective "View the content page [c]")]{}
--   <div id="ca-talk">
-
-    </div>
-
-    [[Discussion](/web/20190816205217/http://cantorsattic.info/index.php?title=Talk:Projective&action=edit&redlink=1 "Discussion about the content page [t]")]{}
-
-</div>
-
-<div id="p-variants" class="vectorMenu emptyPortlet" role="navigation"
-aria-labelledby="p-variants-label">
-
-### [Variants]{}[](#) {#p-variants-label}
-
-<div class="menu">
-
-</div>
-
-</div>
-
-</div>
-
-<div id="right-navigation">
-
-<div id="p-views" class="vectorTabs" role="navigation"
-aria-labelledby="p-views-label">
-
-### Views {#p-views-label}
-
--   <div id="ca-view">
-
-    </div>
-
-    [[Read](/web/20190816205217/http://cantorsattic.info/Projective)]{}
--   <div id="ca-viewsource">
-
-    </div>
-
-    [[View
-    source](/web/20190816205217/http://cantorsattic.info/index.php?title=Projective&action=edit "This page is protected.
-    You can view its source [e]")]{}
--   <div id="ca-history">
-
-    </div>
-
-    [[View
-    history](/web/20190816205217/http://cantorsattic.info/index.php?title=Projective&action=history "Past revisions of this page [h]")]{}
-
-</div>
-
-<div id="p-cactions" class="vectorMenu emptyPortlet" role="navigation"
-aria-labelledby="p-cactions-label">
-
-### [More]{}[](#) {#p-cactions-label}
-
-<div class="menu">
-
-</div>
-
-</div>
-
-<div id="p-search" role="search">
-
-### Search
-
-<div id="simpleSearch">
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="mw-panel">
-
-<div id="p-logo" role="banner">
-
-[](/web/20190816205217/http://cantorsattic.info/Cantor%27s_Attic "Visit the main page")
-
-</div>
-
-<div id="p-Directory" class="portal" role="navigation"
-aria-labelledby="p-Directory-label">
-
-### Directory {#p-Directory-label}
-
-<div class="body">
-
--   <div id="n-Upper-attic">
-
-    </div>
-
-    [Upper
-    attic](/web/20190816205217/http://cantorsattic.info/Upper_attic)
--   <div id="n-Middle-attic">
-
-    </div>
-
-    [Middle
-    attic](/web/20190816205217/http://cantorsattic.info/Middle_attic)
--   <div id="n-Lower-attic">
-
-    </div>
-
-    [Lower
-    attic](/web/20190816205217/http://cantorsattic.info/Lower_attic)
--   <div id="n-">
-
-    </div>
-
-    [](INVALID-TITLE)
--   <div id="n-The-parlour">
-
-    </div>
-
-    [The parlour](/web/20190816205217/http://cantorsattic.info/Parlour)
-
-</div>
-
-</div>
-
-<div id="p-Resources" class="portal" role="navigation"
-aria-labelledby="p-Resources-label">
-
-### Resources {#p-Resources-label}
-
-<div class="body">
-
--   <div id="n-The-playroom">
-
-    </div>
-
-    [The
-    playroom](/web/20190816205217/http://cantorsattic.info/Playroom)
--   <div id="n-The-library">
-
-    </div>
-
-    [The library](/web/20190816205217/http://cantorsattic.info/Library)
--   <div id="n-The-cellar">
-
-    </div>
-
-    [The cellar](/web/20190816205217/http://cantorsattic.info/Cellar)
-
-</div>
-
-</div>
-
-<div id="p-Community" class="portal" role="navigation"
-aria-labelledby="p-Community-label">
-
-### Community {#p-Community-label}
-
-<div class="body">
-
--   <div id="n-portal">
-
-    </div>
-
-    [Community
-    portal](/web/20190816205217/http://cantorsattic.info/Cantor%27s_Attic:Community_portal "About the project, what you can do, where to find things")
--   <div id="n-currentevents">
-
-    </div>
-
-    [Current
-    events](/web/20190816205217/http://cantorsattic.info/Cantor%27s_Attic:Current_events "Find background information on current events")
--   <div id="n-recentchanges">
-
-    </div>
-
-    [Recent
-    changes](/web/20190816205217/http://cantorsattic.info/Special:RecentChanges "A list of recent changes in the wiki [r]")
--   <div id="n-randompage">
-
-    </div>
-
-    [Random
-    page](/web/20190816205217/http://cantorsattic.info/Special:Random "Load a random page [x]")
--   <div id="n-help">
-
-    </div>
-
-    [Help](http://web.archive.org/web/20190816205217/https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents "The place to find out")
-
-</div>
-
-</div>
-
-<div id="p-tb" class="portal" role="navigation"
-aria-labelledby="p-tb-label">
-
-### Tools {#p-tb-label}
-
-<div class="body">
-
--   <div id="t-whatlinkshere">
-
-    </div>
-
-    [What links
-    here](/web/20190816205217/http://cantorsattic.info/Special:WhatLinksHere/Projective "A list of all wiki pages that link here [j]")
--   <div id="t-recentchangeslinked">
-
-    </div>
-
-    [Related
-    changes](/web/20190816205217/http://cantorsattic.info/Special:RecentChangesLinked/Projective "Recent changes in pages linked from this page [k]")
--   <div id="t-specialpages">
-
-    </div>
-
-    [Special
-    pages](/web/20190816205217/http://cantorsattic.info/Special:SpecialPages "A list of all special pages [q]")
--   <div id="t-print">
-
-    </div>
-
-    [Printable
-    version](/web/20190816205217/http://cantorsattic.info/index.php?title=Projective&printable=yes "Printable version of this page [p]")
--   <div id="t-permalink">
-
-    </div>
-
-    [Permanent
-    link](/web/20190816205217/http://cantorsattic.info/index.php?title=Projective&oldid=2499 "Permanent link to this revision of the page")
--   <div id="t-info">
-
-    </div>
-
-    [Page
-    information](/web/20190816205217/http://cantorsattic.info/index.php?title=Projective&action=info)
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="footer" role="contentinfo">
-
--   <div id="footer-info-lastmod">
-
-    </div>
-
-    This page was last modified on 4 March 2018, at 09:20.
--   <div id="footer-info-viewcount">
-
-    </div>
-
-    This page has been accessed 47,230 times.
-
-<!-- -->
-
--   <div id="footer-places-privacy">
-
-    </div>
-
-    [Privacy
-    policy](/web/20190816205217/http://cantorsattic.info/Cantor%27s_Attic:Privacy_policy "Cantor's Attic:Privacy policy")
--   <div id="footer-places-about">
-
-    </div>
-
-    [About Cantor's
-    Attic](/web/20190816205217/http://cantorsattic.info/Cantor%27s_Attic:About "Cantor's Attic:About")
--   <div id="footer-places-disclaimer">
-
-    </div>
-
-    [Disclaimers](/web/20190816205217/http://cantorsattic.info/Cantor%27s_Attic:General_disclaimer "Cantor's Attic:General disclaimer")
-
-<!-- -->
-
--   <div id="footer-poweredbyico">
-
-    </div>
-
-    [![Powered by
-    MediaWiki](/web/20190816205217im_/http://cantorsattic.info/resources/assets/poweredby_mediawiki_88x31.png){width="88"
-    height="31"}](//web.archive.org/web/20190816205217/http://www.mediawiki.org/)
-
-<div style="clear:both">
-
-</div>
-
-</div>
