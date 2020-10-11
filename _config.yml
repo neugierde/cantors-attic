@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-baseurl: https://neugierde.github.io/cantors-attic
+baseurl: cantors-attic
 # source: docs
 plugins:
   - jekyll-default-layout
