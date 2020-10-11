@@ -2,7 +2,6 @@
 title: Extended Veblen function
 permalink: Extended_Veblen_function
 ---
-# Extended Veblen function
 
 
 

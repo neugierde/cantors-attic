@@ -1,18 +1,12 @@
 ---
 title: Constructible universe
 permalink: Constructible_universe
+redirect_from:
+  - L
+  - Silver_cardinal
+  - Zero_dagger
+  - Zero_sharp
 ---
-# Constructible universe
-
-
-
-
-
-
-
-
-
-
 
 The Constructible universe (denoted $L$) was invented by Kurt Gödel as a
 transitive inner model of
@@ -27,52 +21,6 @@ $V=L$ (also known as the **Axiom of constructibility**) is undecidable
 from $\\text{ZFC}$, and implies many axioms which are consistent with
 $\\text{ZFC}$. A set $X$ is **constructible** iff $X\\in L$. $V=L$ iff
 every set is constructible.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definition</span>](#Definition)
-    -   [<span class="tocnumber">1.1</span> <span class="toctext">The
-        Relativized constructible universes $L\_\\alpha(W)$ and
-        $L\_\\alpha\[W\]$</span>](#The_Relativized_constructible_universes_.24L_.5Calpha.28W.29.24_and_.24L_.5Calpha.5BW.5D.24)
--   [<span class="tocnumber">2</span> <span class="toctext">The
-    difference between $L\_\\alpha$ and
-    $V\_\\alpha$</span>](#The_difference_between_.24L_.5Calpha.24_and_.24V_.5Calpha.24)
--   [<span class="tocnumber">3</span> <span class="toctext">Statements
-    True in $L$</span>](#Statements_True_in_.24L.24)
--   [<span class="tocnumber">4</span> <span class="toctext">Determinacy
-    of $L(\\R)$</span>](#Determinacy_of_.24L.28.5CR.29.24)
--   [<span class="tocnumber">5</span> <span class="toctext">Using other
-    logic systems than first-order
-    logic</span>](#Using_other_logic_systems_than_first-order_logic)
--   [<span class="tocnumber">6</span> <span class="toctext">Silver
-    indiscernibles</span>](#Silver_indiscernibles)
--   [<span class="tocnumber">7</span> <span class="toctext">Silver
-    cardinals</span>](#Silver_cardinals)
--   [<span class="tocnumber">8</span> <span
-    class="toctext">Sharps</span>](#Sharps)
-    -   [<span class="tocnumber">8.1</span> <span
-        class="toctext">Definition of
-        $0^{\\\#}$</span>](#Definition_of_.240.5E.7B.5C.23.7D.24)
-    -   [<span class="tocnumber">8.2</span> <span
-        class="toctext">Implications, equivalences, and consequences of
-        $0^♯$'s
-        existence</span>](#Implications.2C_equivalences.2C_and_consequences_of_.240.5E.E2.99.AF.24.27s_existence)
-    -   [<span class="tocnumber">8.3</span> <span
-        class="toctext">Nonexistence of $0^\\\#$, Jensen's Covering
-        Theorem</span>](#Nonexistence_of_.240.5E.5C.23.24.2C_Jensen.27s_Covering_Theorem)
-    -   [<span class="tocnumber">8.4</span> <span class="toctext">EM
-        blueprints and alternative characterizations of
-        $0^\\\#$</span>](#EM_blueprints_and_alternative_characterizations_of_.240.5E.5C.23.24)
-    -   [<span class="tocnumber">8.5</span> <span class="toctext">Sharps
-        of arbitrary sets</span>](#Sharps_of_arbitrary_sets)
-    -   [<span class="tocnumber">8.6</span> <span
-        class="toctext">Generalisations</span>](#Generalisations)
--   [<span class="tocnumber">9</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Definition
@@ -90,7 +38,7 @@ defined as follows:
     a limit ordinal
 -   $L=\\bigcup\_{\\alpha\\in\\mathrm{Ord}} L\_\\alpha$
 
-### <span id="The_Relativized_constructible_universes_.24L_.5Calpha.28W.29.24_and_.24L_.5Calpha.5BW.5D.24" class="mw-headline">The Relativized constructible universes $L\_\\alpha(W)$ and $L\_\\alpha\[W\]$</span>
+### The Relativized constructible universes $L\_\\alpha(W)$ and $L\_\\alpha\[W\]$
 
 $L\_\\alpha(W)$ for a class $W$ is defined the same way except
 $L\_0(W)=\\text{TC}(\\{W\\})$ (the transitive closure of $\\{W\\}$).
@@ -209,7 +157,7 @@ but lacks all its important properties. Thus the expression "$0^\\\#$
 exists" is to be understood as "$0^\\\#$ exists *and* there are
 uncountably many Silver indiscernibles".
 
-### <span id="Definition_of_.240.5E.7B.5C.23.7D.24" class="mw-headline">Definition of $0^{\\\#}$</span>
+### Definition of $0^{\\\#}$
 
 Assume there is an uncountable set of Silver indiscernibles. Then
 $0^{\\\#}$ is defined as the set of all Gödel numberings of first-order
@@ -225,7 +173,7 @@ interesting only when there are many (in fact proper class many) Silver
 indiscernibles. Similarly, we say that "$0^{\\\#}$ does not exist" if
 there are no Silver indiscernibles.
 
-### <span id="Implications.2C_equivalences.2C_and_consequences_of_.240.5E.E2.99.AF.24.27s_existence" class="mw-headline">Implications, equivalences, and consequences of $0^♯$'s existence</span>
+### Implications, equivalences, and consequences of $0^♯$'s existence
 
 If $0^♯$ exists then:
 
@@ -346,9 +294,9 @@ $j:L\\rightarrow L$ with that indiscernible as its critical point. Thus
 if any such embedding exists, then a proper class of those embeddings
 exists.
 
-### <span id="Nonexistence_of_.240.5E.5C.23.24.2C_Jensen.27s_Covering_Theorem" class="mw-headline">Nonexistence of $0^\\\#$, Jensen's Covering Theorem</span>
+### Nonexistence of $0^\\\#$, Jensen's Covering Theorem
 
-### <span id="EM_blueprints_and_alternative_characterizations_of_.240.5E.5C.23.24" class="mw-headline">EM blueprints and alternative characterizations of $0^\\\#$</span>
+### EM blueprints and alternative characterizations of $0^\\\#$
 
 An **EM blueprint** (Ehrenfeucht-Mostowski blueprint) $T$ is any theory
 of the form
@@ -416,9 +364,9 @@ $L\_\\delta$ therefore has an uncountable set of indiscernables. On the
 other hand, if some $L\_\\delta$ has an uncountable set of
 indiscernables, then the EM blueprint of $L\_\\delta$ is $0^\\\#$.
 
-### <span id="Sharps_of_arbitrary_sets" class="mw-headline">Sharps of arbitrary sets</span>
+### Sharps of arbitrary sets
 
-### <span id="Generalisations" class="mw-headline">Generalisations</span>
+### Generalisations
 
 $0^\\dagger$ (zero dagger) is a set of integers analogous to $0^\\sharp$
 and connected with inner models of

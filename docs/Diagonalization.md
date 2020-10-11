@@ -2,7 +2,6 @@
 title: Diagonalization
 permalink: Diagonalization
 ---
-# Diagonalization
 
 
 
@@ -22,7 +21,7 @@ ordinal\[number\] to express. You can replace any ordinal with the
 (whatever number you are diagonalizing to)th of the fundemental
 sequence.
 
-# <span id="Sequences" class="mw-headline">Sequences</span>
+# Sequences
 
 The sequence for \\(\\omega\\) is \\(\\lbrace 1,2,\\cdots \\rbrace\\).
 

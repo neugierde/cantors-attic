@@ -1,17 +1,9 @@
 ---
 title: Limit ordinal
 permalink: Limit_ordinal
+redirect_from:
+  - Indecomposable
 ---
-# Limit ordinal
-
-
-
-
-
-
-
-
-
 
 
 A limit ordinal is an

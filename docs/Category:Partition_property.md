@@ -2,7 +2,6 @@
 title: Category:Partition property
 permalink: Category:Partition_property
 ---
-# Category:Partition property
 
 
 

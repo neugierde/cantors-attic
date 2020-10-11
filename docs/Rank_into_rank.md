@@ -1,18 +1,9 @@
 ---
 title: Rank into rank axioms
 permalink: Rank_into_rank
+redirect_from:
+  - Rank-into-rank
 ---
-# Rank into rank axioms
-
-
-
-
-
-
-
-
-
-
 
 A nontrivial [elementary
 embedding](Elementary_embedding "Elementary embedding")
@@ -58,47 +49,6 @@ cardinal* is sometimes used to refer to the critical point of some rank
 into rank embedding.
 
 
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">The
-    $\\text{I3}$ Axiom</span>](#The_.24.5Ctext.7BI3.7D.24_Axiom)
-    -   [<span class="tocnumber">1.1</span> <span class="toctext">$E\_n$
-        axioms</span>](#.24E_n.24_axioms)
-    -   [<span class="tocnumber">1.2</span> <span class="toctext">Weaker
-        axioms</span>](#Weaker_axioms)
--   [<span class="tocnumber">2</span> <span class="toctext">The
-    $\\text{I2}$ Axiom</span>](#The_.24.5Ctext.7BI2.7D.24_Axiom)
-    -   [<span class="tocnumber">2.1</span> <span class="toctext">The
-        $IE$ axiom</span>](#The_.24IE.24_axiom)
-    -   [<span class="tocnumber">2.2</span> <span
-        class="toctext">Ultrapowers</span>](#Ultrapowers)
-    -   [<span class="tocnumber">2.3</span> <span class="toctext">Other
-        results</span>](#Other_results)
--   [<span class="tocnumber">3</span> <span class="toctext">The
-    $\\text{I1}$ Axiom</span>](#The_.24.5Ctext.7BI1.7D.24_Axiom)
-    -   [<span class="tocnumber">3.1</span> <span
-        class="toctext">Strenghtenings</span>](#Strenghtenings)
--   [<span class="tocnumber">4</span> <span class="toctext">Virtually
-    rank-into-rank</span>](#Virtually_rank-into-rank)
--   [<span class="tocnumber">5</span> <span class="toctext">Large
-    Cardinal Properties of Critical
-    Points</span>](#Large_Cardinal_Properties_of_Critical_Points)
--   [<span class="tocnumber">6</span> <span class="toctext">Algebras of
-    elementary embeddings</span>](#Algebras_of_elementary_embeddings)
--   [<span class="tocnumber">7</span> <span class="toctext">$C^{(n)}$
-    variants</span>](#.24C.5E.7B.28n.29.7D.24_variants)
--   [<span class="tocnumber">8</span> <span class="toctext">$B$-$E\_n$,
-    $P$-$E\_n$, and $W$-$E\_n$
-    cardinals</span>](#.24B.24-.24E_n.24.2C_.24P.24-.24E_n.24.2C_and_.24W.24-.24E_n.24_cardinals)
--   [<span class="tocnumber">9</span> <span class="toctext">Relations
-    with $\\omega$-fold
-    variants</span>](#Relations_with_.24.5Comega.24-fold_variants)
--   [<span class="tocnumber">10</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## The $\\text{I3}$ Axiom
 
 The $\\text{I3}$ axiom asserts, generally, that there is some embedding
@@ -120,7 +70,7 @@ rank embedding and so the $\\text{I3}$ notation for the axiom is
 somewhat ambiguous. To eliminate this ambiguity we say $j$ is
 $E\_0(\\lambda)$ when $j$ preserves only first-order structure.
 
-### <span id=".24E_n.24_axioms" class="mw-headline">$E\_n$ axioms</span>
+### $E\_n$ axioms
 
 The axiom can be strengthened and refined in a natural way by asserting
 that various degrees of second-order correctness are preserved by the
@@ -173,7 +123,7 @@ Notes:\[[4](#bibkey_Bagaria2012:CnCardinals)\]
     -   $E\_1$ in both terminologies coincide with each other and with
         $E\_2$ in this one.
 
-### <span id="Weaker_axioms" class="mw-headline">Weaker axioms</span>
+### Weaker axioms
 
 The $\\mathrm{I3}$ axiom implies the
 <a href="Wholeness_axiom" class="mw-redirect" title="Wholeness axiom">wholeness axiom</a>.
@@ -197,7 +147,7 @@ So this axioms preserves *some* second-order structure of $V\_\\lambda$
 and is in fact equivalent to $E\_1(\\lambda)$ in the hierarchy defined
 above.
 
-### <span id="The_.24IE.24_axiom" class="mw-headline">The $IE$ axiom</span>
+### The $IE$ axiom
 
 A specific property of $\\text{I2}$ embeddings is that they are
 *iterable* (i.e. the direct limit of directed system of embeddings is
@@ -216,7 +166,7 @@ direct limit of $\\langle e^{(n)} : V\_\\delta ≺ V\_\\delta \| n \\in
 \\omega \\rangle$ is well
 founded.\[[3](#bibkey_Kentaro2007:DoubleHelix)\]
 
-### <span id="Ultrapowers" class="mw-headline">Ultrapowers</span>
+### Ultrapowers
 
 As a result of the strong closure property of $\\text{I2}$, the
 equivalence mentioned above cannot be through an analysis of some
@@ -228,7 +178,7 @@ preserved by $j^+$. The use of both direct and indirect limits, in
 conjunction with reflection arguments, is typical for establishing the
 properties of rank into rank embeddings.
 
-### <span id="Other_results" class="mw-headline">Other results</span>
+### Other results
 
 An $\\mathrm{I2}$ cardinal can be forced to be the $\\omega$-time target
 of an $\\mathrm{I3}$ cardinal.\[[3](#bibkey_Kentaro2007:DoubleHelix)\]
@@ -248,7 +198,7 @@ written as $E\_\\omega(\\lambda)$. In this case, restricting the
 embedding to $V\_\\lambda$ and forming $j^+$ as above yields the
 original embedding.
 
-### <span id="Strenghtenings" class="mw-headline">Strenghtenings</span>
+### Strenghtenings
 
 Strengthening this axiom in a natural way leads to the $\\text{I0}$
 axiom, i.e. asserting that embeddings of the form

@@ -1,10 +1,8 @@
 ---
 title: Cantor's Attic
 permalink: Cantor's_Attic
+toc: false
 ---
-# Cantor's Attic
-
-
 
 ![Descent into History photo by Ernie Reyes](assets/img/DescentIntoHistoryByErnieReyes.jpg)
 

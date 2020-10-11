@@ -2,17 +2,6 @@
 title: HOD
 permalink: HOD
 ---
-# HOD
-
-
-
-
-
-
-
-
-
-
 
 HOD denotes the class of *Hereditarily Ordinal Definable* sets. It is a
 definable canonical inner
@@ -23,23 +12,6 @@ definable canonical inner
 Although it is definable, this definition is not absolute for transitive
 inner models of ZF, i.e. given two models $M$ and $N$ of $ZF$, $HOD$ as
 computed in $M$ may differ from $HOD$ as computed in $N$.
-
-  
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Ordinal
-    Definable Sets</span>](#Ordinal_Definable_Sets)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Relativizations</span>](#Relativizations)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">gHOD</span>](#gHOD)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Ordinal Definable Sets
 

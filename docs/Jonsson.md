@@ -2,17 +2,6 @@
 title: Jónsson cardinal
 permalink: Jonsson
 ---
-# Jónsson cardinal
-
-
-
-
-
-
-
-
-
-
 
 Jónsson cardinals are named after Bjarni Jónsson, a student of Tarski
 working in universal algebra. In 1962, he asked whether or or not every
@@ -26,44 +15,11 @@ $f\_0,f\_1...f\_n$ for which $A$ is closed under every such function. A
 subalgebra of that algebra is a set $B\\subseteq A$ which $B$ is closed
 under each $f\_k$ for $k\\leq n$.
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Equivalent
-    Definitions</span>](#Equivalent_Definitions)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Partition Property</span>](#Partition_Property)
-    -   [<span class="tocnumber">1.2</span> <span
-        class="toctext">Substructure
-        Characterization</span>](#Substructure_Characterization)
-    -   [<span class="tocnumber">1.3</span> <span
-        class="toctext">Embedding
-        Characterization</span>](#Embedding_Characterization)
-    -   [<span class="tocnumber">1.4</span> <span
-        class="toctext">Abstract Algebra
-        Characterization</span>](#Abstract_Algebra_Characterization)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Properties</span>](#Properties)
-    -   [<span class="tocnumber">2.1</span> <span
-        class="toctext">Relations to other large cardinal
-        notions</span>](#Relations_to_other_large_cardinal_notions)
-    -   [<span class="tocnumber">2.2</span> <span
-        class="toctext">Jónsson successors of
-        singulars</span>](#J.C3.B3nsson_successors_of_singulars)
--   [<span class="tocnumber">3</span> <span class="toctext">Jónsson
-    cardinals and the core
-    model</span>](#J.C3.B3nsson_cardinals_and_the_core_model)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## Equivalent Definitions
 
 There are several equivalent definitions of Jónsson cardinals.
 
-### <span id="Partition_Property" class="mw-headline">Partition Property</span>
+### Partition Property
 
 A cardinal $\\kappa$ is **Jónsson** iff the [partition
 property](Partition_property "Partition property")
@@ -73,7 +29,7 @@ find a subset $H\\subseteq\\kappa$ of order type $\\kappa$ such that
 $f\`\`\[H\]^n\\neq\\kappa$ for every $n&lt;\\omega$.
 \[[1](#bibkey_Kanamori2003:HigherInfinite)\]
 
-### <span id="Substructure_Characterization" class="mw-headline">Substructure Characterization</span>
+### Substructure Characterization
 
 -   A cardinal $\\kappa$ is **Jónsson** iff given any $A$ there exists
     an elementary substructure $\\langle X,\\in, X\\cap
@@ -86,7 +42,7 @@ $f\`\`\[H\]^n\\neq\\kappa$ for every $n&lt;\\omega$.
     universe also having cardinality $\\kappa$.
     \[[1](#bibkey_Kanamori2003:HigherInfinite)\]
 
-### <span id="Embedding_Characterization" class="mw-headline">Embedding Characterization</span>
+### Embedding Characterization
 
 A cardinal $\\kappa$ is **Jónsson** iff for every $\\theta&gt;\\kappa$
 there exists a transitive set $M$ with $\\kappa\\in M$ and an elementary
@@ -99,7 +55,7 @@ $\\text{crit} j&lt;\\kappa$.
 Interestingly, if one such $\\theta&gt;\\kappa$ has this property, then
 every $\\theta&gt;\\kappa$ has this property as well.
 
-### <span id="Abstract_Algebra_Characterization" class="mw-headline">Abstract Algebra Characterization</span>
+### Abstract Algebra Characterization
 
 In terms of abstract algebra, $\\kappa$ is **Jónsson** iff any algebra
 $A$ of size $\\kappa$ has a proper subalgebra of $A$ of size $\\kappa$.
@@ -127,7 +83,7 @@ It is still an open question as to whether or not there is some known
 large cardinal axiom that implies the consistency of $\\aleph\_\\omega$
 being Jónsson.
 
-### <span id="Relations_to_other_large_cardinal_notions" class="mw-headline">Relations to other large cardinal notions</span>
+### Relations to other large cardinal notions
 
 Jónsson cardinals have a lot of consistency strength:
 
@@ -156,7 +112,7 @@ It's an open question whether or not every inaccessible Jónsson cardinal
 is [weakly
 compact](Weakly_compact "Weakly compact").
 
-### <span id="J.C3.B3nsson_successors_of_singulars" class="mw-headline">Jónsson successors of singulars</span>
+### Jónsson successors of singulars
 
 As mentioned above, $\\aleph\_{\\omega+1}$ is not Jónsson (this is due
 to Shelah). The question is then if it's possible for any successor of a

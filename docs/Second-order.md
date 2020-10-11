@@ -1,18 +1,9 @@
 ---
 title: Second-order set theories
 permalink: Second-order
+redirect_from:
+  - Morse-Kelley_set_theory
 ---
-# Second-order set theories
-
-
-
-
-
-
-
-
-
-
 
 *In construction.*
 
@@ -55,28 +46,6 @@ define $\\text{M}X\\equiv X\\in V$ with $V$ a symbol of the language
 representing the universal class containing all sets. That is, a set is
 a class member of another class.
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Axioms of
-    $\\text{NBG}$ and
-    $\\text{MK}$</span>](#Axioms_of_.24.5Ctext.7BNBG.7D.24_and_.24.5Ctext.7BMK.7D.24)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Finitely axiomatizing
-        $\\text{NBG}$</span>](#Finitely_axiomatizing_.24.5Ctext.7BNBG.7D.24)
--   [<span class="tocnumber">2</span> <span class="toctext">Models of
-    $\\text{MK}$</span>](#Models_of_.24.5Ctext.7BMK.7D.24)
--   [<span class="tocnumber">3</span> <span class="toctext">Between
-    $\\text{NBG}$ and
-    $\\text{MK}$</span>](#Between_.24.5Ctext.7BNBG.7D.24_and_.24.5Ctext.7BMK.7D.24)
-    -   [<span class="tocnumber">3.1</span> <span class="toctext">Class
-        forcing theorem and
-        equivalents</span>](#Class_forcing_theorem_and_equivalents)
-    -   [<span class="tocnumber">3.2</span> <span class="toctext">Class
-        determinacy of open
-        games</span>](#Class_determinacy_of_open_games)
 
 
 ## Axioms of $\\text{NBG}$ and $\\text{MK}$
@@ -124,7 +93,7 @@ class of all classes.
 $\\text{MK}$ is obtained by removing the "first-order" restriction in
 class comprehension, i.e. second-order formulas are now allowed.
 
-### <span id="Finitely_axiomatizing_.24.5Ctext.7BNBG.7D.24" class="mw-headline">Finitely axiomatizing $\\text{NBG}$</span>
+### Finitely axiomatizing $\\text{NBG}$
 
 $\\text{NBG}$ can be finitely axiomatized as its class comprehension
 axiom can be replaced by the following set of axioms: For every classes
@@ -171,9 +140,9 @@ one achieves
 
 ## Between $\\text{NBG}$ and $\\text{MK}$
 
-### <span id="Class_forcing_theorem_and_equivalents" class="mw-headline">Class forcing theorem and equivalents</span>
+### Class forcing theorem and equivalents
 
-### <span id="Class_determinacy_of_open_games" class="mw-headline">Class determinacy of open games</span>
+### Class determinacy of open games
 
         This article is a stub. Please help us to improve Cantor's Attic by adding information.
 

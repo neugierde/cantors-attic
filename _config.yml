@@ -2,7 +2,14 @@ theme: jekyll-theme-minimal
 # source: docs
 plugins:
   - jekyll-default-layout
-
+  - jekyll-optional-front-matter
+  - jekyll-redirect-from
+optional_front_matter:
+  remove_originals: true
+defaults:
+  - values:
+      toc: true
+      
 # defaults:
 #   - values:
 #       layout: "default"

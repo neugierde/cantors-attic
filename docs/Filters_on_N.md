@@ -1,39 +1,7 @@
 ---
-title: Filters on $\\mathbb{N}$
+title: Filters on $\mathbb{N}$
 permalink: Filters_on_N
 ---
-# Filters on $\\mathbb{N}$
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Reminder on
-    real numbers</span>](#Reminder_on_real_numbers)
--   [<span class="tocnumber">2</span> <span class="toctext">Beyond real
-    numbers?</span>](#Beyond_real_numbers.3F)
-    -   [<span class="tocnumber">2.1</span> <span
-        class="toctext">Filters</span>](#Filters)
-    -   [<span class="tocnumber">2.2</span> <span
-        class="toctext">Ultrafilters</span>](#Ultrafilters)
-    -   [<span class="tocnumber">2.3</span> <span
-        class="toctext">Sequences of real
-        numbers</span>](#Sequences_of_real_numbers)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Reminder on real numbers
@@ -70,7 +38,7 @@ sequences of real numbers *agreeing almost everywhere* providing a set
 endowed with the usual operations and which extends the field of real
 numbers.
 
-### <span id="Filters" class="mw-headline">Filters</span>
+### Filters
 
 A filter $\\mathcal{F}$ on $\\mathbb{N}$ is a set of subsets of
 $\\mathbb{N}$ satisfying the following conditions:
@@ -93,7 +61,7 @@ finite sets.
 A filter which contains the empty set is the powerset of $\\mathbb{N}$.
 A filter which is not the powerset is a *proper filter*
 
-### <span id="Ultrafilters" class="mw-headline">Ultrafilters</span>
+### Ultrafilters
 
 An ultrafilter on $\\mathbb{N}$ is a proper filter which has the extra
 property that for any subset $A$ of $\\mathbb{N}$ either $A$ or its
@@ -114,7 +82,7 @@ choice, or one of its equivalents such as Zorn's lemma.
 (For more on ultrafilters, see the excellent book by Robert Goldblatt
 \[[1](#bibkey_Goldblatt1998:ultrafilter)\]).
 
-### <span id="Sequences_of_real_numbers" class="mw-headline">Sequences of real numbers</span>
+### Sequences of real numbers
 
 Let $\\{a\_n\\}$ and $\\{b\_n\\}$ be two sequences of real numbers. We
 will say that they *agree almost everywhere*, modulo a nonprincipal

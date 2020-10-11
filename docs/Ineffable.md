@@ -1,17 +1,11 @@
 ---
 title: Ineffable cardinal
 permalink: Ineffable
+redirect_from:
+  - Completely_ineffable
+  - Subtle
+  - Weakly_ineffable
 ---
-# Ineffable cardinal
-
-
-
-
-
-
-
-
-
 
 
 Ineffable cardinals were introduced by Jensen and Kunen in
@@ -39,33 +33,6 @@ An uncountable cardinal κ has the
 <a href="Filter_property" class="mw-redirect" title="Filter property">normal filter property</a>
 iff it is
 ineffable.\[[2](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Ineffable
-    cardinals and the constructible
-    universe</span>](#Ineffable_cardinals_and_the_constructible_universe)
--   [<span class="tocnumber">2</span> <span class="toctext">Relations
-    with other large
-    cardinals</span>](#Relations_with_other_large_cardinals)
--   [<span class="tocnumber">3</span> <span class="toctext">Weakly
-    ineffable cardinal</span>](#Weakly_ineffable_cardinal)
--   [<span class="tocnumber">4</span> <span class="toctext">Subtle
-    cardinal</span>](#Subtle_cardinal)
--   [<span class="tocnumber">5</span> <span class="toctext">Ethereal
-    cardinal</span>](#Ethereal_cardinal)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">$n$-ineffable
-    cardinal</span>](#.24n.24-ineffable_cardinal)
-    -   [<span class="tocnumber">6.1</span> <span
-        class="toctext">Helix</span>](#Helix)
--   [<span class="tocnumber">7</span> <span class="toctext">Completely
-    ineffable cardinal</span>](#Completely_ineffable_cardinal)
--   [<span class="tocnumber">8</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Ineffable cardinals and the constructible universe
@@ -203,7 +170,7 @@ every $n$.
     cardinals. (this follows from material in
     \[[4](#bibkey_Gitman2011:RamseyLikeCardinals)\])
 
-### <span id="Helix" class="mw-headline">Helix</span>
+### Helix
 
 (Information in this subsection come from
 \[[7](#bibkey_Friedman1998:Subtle)\] unless noted otherwise.)

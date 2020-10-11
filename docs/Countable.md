@@ -1,18 +1,9 @@
 ---
 title: Countable and uncountable sets
 permalink: Countable
+redirect_from:
+  - Uncountable
 ---
-# Countable and uncountable sets
-
-
-
-
-
-
-
-
-
-
 
   
 A set is *countable* when it is equinumerous with a subset of $\\omega$.

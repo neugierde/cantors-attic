@@ -1,32 +1,11 @@
 ---
 title: Indescribable cardinal
 permalink: Indescribable
+redirect_from:
+  - Totally_indescribable
 ---
-# Indescribable cardinal
 
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="File:IndescribableStructure.png" class="image"><img src="/web/20191005075106im_/http://cantorsattic.info/images/thumb/e/e6/IndescribableStructure.png/300px-IndescribableStructure.png" class="thumbimage" srcset="/web/20191005075106im_/http://cantorsattic.info/images/thumb/e/e6/IndescribableStructure.png/450px-IndescribableStructure.png 1.5x, /web/20191005075106im_/http://cantorsattic.info/images/thumb/e/e6/IndescribableStructure.png/600px-IndescribableStructure.png 2x" width="300" height="373" /></a>
-
-
-
-<a href="File:IndescribableStructure.png" class="internal" title="Enlarge"></a>
-
-
-The Structure of Indescribability in Consistency Strength
-
-
-
+![The Structure of Indescribability in Consistency Strength](assets/img/IndescribableStructure.png)
 
 A cardinal $\\kappa$ is *indescribable* if it holds the reflection
 theorem up to a certain point. This is important to mathematics because

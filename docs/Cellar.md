@@ -1,18 +1,8 @@
 ---
 title: The cellar
 permalink: Cellar
+toc: false
 ---
-# The cellar
-
-
-
-
-
-
-
-
-
-
 
   
 This page will contain links to summary accounts of supporting
@@ -26,19 +16,6 @@ for an entertaining introduction to infinity.
 Meanwhile, we expect that this page and these resources will be expanded
 as Cantor's attic develops.
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Definition
-    of infinity</span>](#Definition_of_infinity)
--   [<span class="tocnumber">2</span> <span class="toctext">Elementary
-    set-theoretic topics</span>](#Elementary_set-theoretic_topics)
--   [<span class="tocnumber">3</span> <span class="toctext">Axiomatic
-    set theories</span>](#Axiomatic_set_theories)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">Forcing</span>](#Forcing)
 
 
 ## Definition of infinity

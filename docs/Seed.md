@@ -2,7 +2,6 @@
 title: Seed
 permalink: Seed
 ---
-# Seed
 
 
 

@@ -2,7 +2,6 @@
 title: Hypercompact
 permalink: Hypercompact
 ---
-# Hypercompact
 
 
 

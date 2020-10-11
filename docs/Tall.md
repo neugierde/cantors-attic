@@ -1,45 +1,9 @@
 ---
 title: Tall cardinal
 permalink: Tall
+redirect_from:
+  - Strongly_tall
 ---
-# Tall cardinal
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Tall
-    Cardinals</span>](#Tall_Cardinals)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Extender
-        Characterization</span>](#Extender_Characterization)
--   [<span class="tocnumber">2</span> <span class="toctext">Strongly
-    Tall Cardinals</span>](#Strongly_Tall_Cardinals)
-    -   [<span class="tocnumber">2.1</span> <span
-        class="toctext">Ultrapower
-        Characterization</span>](#Ultrapower_Characterization)
-    -   [<span class="tocnumber">2.2</span> <span
-        class="toctext">Embedding
-        Characterization</span>](#Embedding_Characterization)
-    -   [<span class="tocnumber">2.3</span> <span
-        class="toctext">Ultrafilter
-        Characterization</span>](#Ultrafilter_Characterization)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Tall Cardinals
 
@@ -63,7 +27,7 @@ variety of forcing notions, including forcing that pumps up the value of
 $2^\\kappa$ as high as desired. See
 \[[1](#bibkey_Hamkins2009:TallCardinals)\].
 
-### <span id="Extender_Characterization" class="mw-headline">Extender Characterization</span>
+### Extender Characterization
 
 If $\\theta$ is a cardinal, $\\kappa$ is $\\theta$-tall iff there exists
 some $(\\kappa,\\theta^+)$-extender $E$ such that, if $M\\cong Ult\_E$
@@ -97,7 +61,7 @@ strong cardinals, then $κ$ is strong in $K$ and has a proper class of
 measurables above it in $K$ ($K$ being the [core
 model](Core_model "Core model")).
 
-### <span id="Ultrapower_Characterization" class="mw-headline">Ultrapower Characterization</span>
+### Ultrapower Characterization
 
 $\\kappa$ is strongly $\\theta$-tall iff $\\kappa$ is uncountable and
 there is some set $S$ and a $\\kappa$-complete
@@ -106,14 +70,14 @@ $U$ on $S$ such that, letting $j:V\\prec M\\cong Ult\_U(V)$,
 $j(\\kappa)&gt;\\theta$. That is, there is an ultrapower of an
 ultrafilter which witnesses the $\\gamma$-tallness of $\\kappa$.
 
-### <span id="Embedding_Characterization" class="mw-headline">Embedding Characterization</span>
+### Embedding Characterization
 
 If $\\theta\\geq\\kappa$, then $\\kappa$ is strongly $\\theta$-tall iff
 $\\kappa$ is the critical point of some $j:V\\prec M$ for which there is
 a set $S$ and an $A\\in j(S)$ such that for any $\\alpha\\leq\\theta$,
 there is a function $f:S\\rightarrow\\kappa$ with $j(f)(A)=\\alpha$.
 
-### <span id="Ultrafilter_Characterization" class="mw-headline">Ultrafilter Characterization</span>
+### Ultrafilter Characterization
 
 $\\kappa$ is strongly $\\theta$-tall iff there is some set $S$, a
 $\\kappa$-complete

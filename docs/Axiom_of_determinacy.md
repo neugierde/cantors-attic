@@ -1,16 +1,9 @@
 ---
 title: Axiom of determinacy
 permalink: Axiom_of_determinacy
+redirect_from:
+  - Determinacy
 ---
-# Axiom of determinacy
-
-
-
-
-
-
-
-
 
 
 
@@ -57,40 +50,6 @@ this is the
 set is determined, projectivity being a weak form of definability (more
 precisely definability in second-order arithmethic).
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Type of
-    games that are
-    determined</span>](#Type_of_games_that_are_determined)
--   [<span class="tocnumber">2</span> <span class="toctext">Refuting the
-    axiom of determinacy from a well-ordering of the
-    reals</span>](#Refuting_the_axiom_of_determinacy_from_a_well-ordering_of_the_reals)
--   [<span class="tocnumber">3</span> <span class="toctext">Other known
-    limitations of
-    determinacy</span>](#Other_known_limitations_of_determinacy)
--   [<span class="tocnumber">4</span> <span class="toctext">Implications
-    of the axiom of
-    determinacy</span>](#Implications_of_the_axiom_of_determinacy)
--   [<span class="tocnumber">5</span> <span class="toctext">Determinacy
-    of
-    $L(\\mathbb{R})$</span>](#Determinacy_of_.24L.28.5Cmathbb.7BR.7D.29.24)
--   [<span class="tocnumber">6</span> <span class="toctext">Axiom of
-    projective determinacy</span>](#Axiom_of_projective_determinacy)
--   [<span class="tocnumber">7</span> <span class="toctext">Axiom of
-    real determinacy</span>](#Axiom_of_real_determinacy)
--   [<span class="tocnumber">8</span> <span
-    class="toctext">$\\text{AD}^+$ and models of
-    determinacy</span>](#.24.5Ctext.7BAD.7D.5E.2B.24_and_models_of_determinacy)
--   [<span class="tocnumber">9</span> <span class="toctext">Consistency
-    strength of determinacy
-    hypotheses</span>](#Consistency_strength_of_determinacy_hypotheses)
--   [<span class="tocnumber">10</span> <span class="toctext">Read
-    more</span>](#Read_more)
--   [<span class="tocnumber">11</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Type of games that are determined

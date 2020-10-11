@@ -1,19 +1,11 @@
 ---
 title: Continuum
 permalink: Continuum
+redirect_from:
+  - Continuum_hypothesis
+  - GCH
+  - Generalized_continuum_hypothesis
 ---
-# Continuum
-
-
-
-
-
-
-
-
-
-
-
   
 The *continuum* is the cardinality of the reals $\\mathbb{R}$, and is
 variously denoted $\\frak{c}$, $2^{\\aleph\_0}$, $\|\\mathbb{R}\|$,

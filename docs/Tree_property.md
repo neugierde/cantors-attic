@@ -2,17 +2,6 @@
 title: Tree property
 permalink: Tree_property
 ---
-# Tree property
-
-
-
-
-
-
-
-
-
-
 
 An infinite cardinal $\\kappa$ has the **tree property** if every tree
 of height $\\kappa$ whose levels has cardinality smaller than $\\kappa$
@@ -20,24 +9,6 @@ has a branch of height $\\kappa$ (a cofinal branch). Equivalently, there
 is no *$\\kappa$-Aronszajn tree*, when a tree is $\\kappa$-Aronszajn
 when it has height $\\kappa$, levels with cardinality less than
 $\\kappa$, yet has no cofinal branch.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definition</span>](#Definition)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Properties</span>](#Properties)
--   [<span class="tocnumber">3</span> <span class="toctext">Definable
-    tree property</span>](#Definable_tree_property)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">Strengthenings of the tree
-    property</span>](#Strengthenings_of_the_tree_property)
--   [<span class="tocnumber">5</span> <span class="toctext">Special
-    Aronszajn trees</span>](#Special_Aronszajn_trees)
-
 
 ## Definition
 

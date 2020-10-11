@@ -2,7 +2,6 @@
 title: Shrewd
 permalink: Shrewd
 ---
-# Shrewd
 
 
 

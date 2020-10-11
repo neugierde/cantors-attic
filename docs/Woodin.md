@@ -1,18 +1,9 @@
 ---
 title: Woodin cardinal
 permalink: Woodin
+redirect_from:
+  - Shelah
 ---
-# Woodin cardinal
-
-
-
-
-
-
-
-
-
-
 
 **Woodin cardinals** (named after W. Hugh Woodin) are a generalization
 of the notion of strong cardinals and have been used to calibrate the
@@ -23,27 +14,6 @@ below. Their exact definition has several equivalent but different
 characterizations, each of which is somewhat technical in nature.
 Nevertheless, an inner model theory encapsulating infinitely many Woodin
 cardinals and slightly beyond has been developed.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Definition
-    and some properties</span>](#Definition_and_some_properties)
--   [<span class="tocnumber">2</span> <span class="toctext">Shelah
-    cardinals</span>](#Shelah_cardinals)
--   [<span class="tocnumber">3</span> <span class="toctext">Woodin for
-    strong compactness</span>](#Woodin_for_strong_compactness)
--   [<span class="tocnumber">4</span> <span class="toctext">Woodin
-    cardinals and determinacy</span>](#Woodin_cardinals_and_determinacy)
--   [<span class="tocnumber">5</span> <span class="toctext">Role in
-    $\\Omega$-logic</span>](#Role_in_.24.5COmega.24-logic)
--   [<span class="tocnumber">6</span> <span class="toctext">Stationary
-    tower forcing</span>](#Stationary_tower_forcing)
--   [<span class="tocnumber">7</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Definition and some properties
 

@@ -2,17 +2,6 @@
 title: Superstrong
 permalink: Superstrong
 ---
-# Superstrong
-
-
-
-
-
-
-
-
-
-
 
 Superstrong cardinals were first utilized by Hugh Woodin in 1981 as an
 upper bound of consistency strength for the [axiom of
@@ -30,26 +19,6 @@ significant weakening of superstrongness.
 \[[1](#bibkey_Kanamori2009:HigherInfinite)\] unless indicated
 otherwise.*
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definitions</span>](#Definitions)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Elementary Embedding
-        Definition</span>](#Elementary_Embedding_Definition)
-    -   [<span class="tocnumber">1.2</span> <span
-        class="toctext">Extender
-        Definition</span>](#Extender_Definition)
--   [<span class="tocnumber">2</span> <span class="toctext">Relation to
-    other large cardinal
-    notions</span>](#Relation_to_other_large_cardinal_notions)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## Definitions
 
 There are, like most critical point variations on
@@ -61,7 +30,7 @@ definition and an
 <a href="index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extender</a>
 definition.
 
-### <span id="Elementary_Embedding_Definition" class="mw-headline">Elementary Embedding Definition</span>
+### Elementary Embedding Definition
 
 A cardinal $\\kappa$ is **$n$-superstrong** (or $n$-fold superstrong
 when referring to the [$n$-fold
@@ -78,7 +47,7 @@ The definition quite clearly shows that $\\kappa$ is
 $j^n(\\kappa)$-[strong](Strong "Strong").
 However, the least superstrong cardinal is never strong.
 
-### <span id="Extender_Definition" class="mw-headline">Extender Definition</span>
+### Extender Definition
 
 A cardinal $\\kappa$ is **$n$-superstrong** (or $n$-fold superstrong)
 iff there is a

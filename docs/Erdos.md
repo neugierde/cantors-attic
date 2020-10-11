@@ -1,17 +1,9 @@
 ---
 title: Erdős cardinals
 permalink: Erdos
+redirect_from:
+  - Erdős
 ---
-# Erdős cardinals
-
-
-
-
-
-
-
-
-
 
 
 The $\\alpha$-Erdős cardinals were introduced by Erdős and Hajnal in

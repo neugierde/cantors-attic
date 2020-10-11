@@ -1,18 +1,11 @@
 ---
 title: Cardinal numbers
 permalink: Cardinal
+redirect_from:
+  - Infinite
+  - Regular
+  - Successor
 ---
-# Cardinal numbers
-
-
-
-
-
-
-
-
-
-
 
   
 Cardinality is a measure of the size of a set. Two sets have the same
@@ -33,27 +26,6 @@ We therefore adopt the definition that $\\kappa$ is a *cardinal* if it
 is an *initial ordinal*, an
 [ordinal](Ordinal "Ordinal")
 that is not equinumerous with any smaller ordinal.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Finite and
-    infinite cardinals</span>](#Finite_and_infinite_cardinals)
--   [<span class="tocnumber">2</span> <span class="toctext">Countable
-    and uncoutable
-    cardinals</span>](#Countable_and_uncoutable_cardinals)
--   [<span class="tocnumber">3</span> <span class="toctext">Successor
-    cardinals and limit
-    cardinals</span>](#Successor_cardinals_and_limit_cardinals)
--   [<span class="tocnumber">4</span> <span class="toctext">Regular and
-    singular cardinals</span>](#Regular_and_singular_cardinals)
--   [<span class="tocnumber">5</span> <span class="toctext">Cardinals in
-    ZF</span>](#Cardinals_in_ZF)
--   [<span class="tocnumber">6</span> <span class="toctext">Dedekind
-    finite sets</span>](#Dedekind_finite_sets)
-
 
 ## Finite and infinite cardinals
 

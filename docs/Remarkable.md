@@ -2,40 +2,11 @@
 title: Remarkable cardinal
 permalink: Remarkable
 ---
-# Remarkable cardinal
-
-
-
-
-
-
-
-
-
-
 
 Remarkable cardinals were introduced by Schinder in
 \[[1](#bibkey_Schindler2000:RemarkableCardinal)\] to provide precise
 consistency strength of the statement that $L(\\mathbb R)$ cannot be
 modified by proper forcing.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definitions</span>](#Definitions)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Results</span>](#Results)
--   [<span class="tocnumber">3</span> <span class="toctext">Weakly
-    remarkable cardinals</span>](#Weakly_remarkable_cardinals)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">$n$-remarkable
-    cardinals</span>](#.24n.24-remarkable_cardinals)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Definitions
 

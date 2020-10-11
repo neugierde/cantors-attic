@@ -2,7 +2,6 @@
 title: Worldly cardinal
 permalink: Worldly
 ---
-# Worldly cardinal
 
 
 

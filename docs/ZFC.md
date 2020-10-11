@@ -1,18 +1,10 @@
 ---
 title: The axioms of Zermelo-Fraenkel set theory
 permalink: ZFC
+redirect_from:
+  - Con_ZFC
+  - Transitive_ZFC_model
 ---
-# The axioms of Zermelo-Fraenkel set theory
-
-
-
-
-
-
-
-
-
-
 
 Zermelo-Frankel set theory with axiom of choice ($\\text{ZFC}$) is the
 standard collection of axioms used by set theorists. The formal language
@@ -22,71 +14,9 @@ membership. The axiom of the null set and the schema of separation are
 superseded by later, more inclusive axioms.
 
 
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Axioms</span>](#Axioms)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Extensionality</span>](#Extensionality)
-    -   [<span class="tocnumber">1.2</span> <span class="toctext">Empty
-        set</span>](#Empty_set)
-    -   [<span class="tocnumber">1.3</span> <span
-        class="toctext">Pairing</span>](#Pairing)
-    -   [<span class="tocnumber">1.4</span> <span
-        class="toctext">Union</span>](#Union)
-    -   [<span class="tocnumber">1.5</span> <span
-        class="toctext">Foundation (or
-        Regularity)</span>](#Foundation_.28or_Regularity.29)
-    -   [<span class="tocnumber">1.6</span> <span class="toctext">Schema
-        of separation</span>](#Schema_of_separation)
-    -   [<span class="tocnumber">1.7</span> <span
-        class="toctext">Infinity</span>](#Infinity)
-    -   [<span class="tocnumber">1.8</span> <span
-        class="toctext">Powerset</span>](#Powerset)
-    -   [<span class="tocnumber">1.9</span> <span
-        class="toctext">Choice</span>](#Choice)
-    -   [<span class="tocnumber">1.10</span> <span
-        class="toctext">Schema of
-        replacement</span>](#Schema_of_replacement)
-        -   [<span class="tocnumber">1.10.1</span> <span
-            class="toctext">Applications of
-            replacement</span>](#Applications_of_replacement)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">History</span>](#History)
--   [<span class="tocnumber">3</span> <span class="toctext">Consistency
-    of ZFC</span>](#Consistency_of_ZFC)
--   [<span class="tocnumber">4</span> <span class="toctext">Transitive
-    models</span>](#Transitive_models)
-    -   [<span class="tocnumber">4.1</span> <span
-        class="toctext">Minimal transitive model of
-        $\\text{ZFC}$</span>](#Minimal_transitive_model_of_.24.5Ctext.7BZFC.7D.24)
-    -   [<span class="tocnumber">4.2</span> <span
-        class="toctext">$\\omega$-models of
-        $\\text{ZFC}$</span>](#.24.5Comega.24-models_of_.24.5Ctext.7BZFC.7D.24)
-    -   [<span class="tocnumber">4.3</span> <span
-        class="toctext">Consistency
-        hierarchy</span>](#Consistency_hierarchy)
-    -   [<span class="tocnumber">4.4</span> <span
-        class="toctext">Transitive models and
-        forcing</span>](#Transitive_models_and_forcing)
-    -   [<span class="tocnumber">4.5</span> <span
-        class="toctext">Transitive model universe
-        axiom</span>](#Transitive_model_universe_axiom)
-    -   [<span class="tocnumber">4.6</span> <span class="toctext">Every
-        model of $\\text{ZFC}$ contains a model of $\\text{ZFC}$ as an
-        element</span>](#Every_model_of_.24.5Ctext.7BZFC.7D.24_contains_a_model_of_.24.5Ctext.7BZFC.7D.24_as_an_element)
-    -   [<span class="tocnumber">4.7</span> <span
-        class="toctext">Uncountable transitive
-        models</span>](#Uncountable_transitive_models)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## Axioms
 
-### <span id="Extensionality" class="mw-headline">Extensionality</span>
+### Extensionality
 
 Sets are determined uniquely by their elements. This is expressed
 formally as $$ \\forall x \\forall y \\big(\\forall z (z\\in
@@ -101,7 +31,7 @@ axiom can be used in its place: $$\\forall x \\forall y \\big(\\forall a
 
 meaning that sets with the same elements belong to the same sets.
 
-### <span id="Empty_set" class="mw-headline">Empty set</span>
+### Empty set
 
 There exists some set. In fact, there is a set which contains no
 members. This is expressed formally $$ \\exists x \\forall y (y\\not\\in
@@ -110,7 +40,7 @@ x).$$
 Such an $x$ is unique by extensionality and this set is denoted by
 $\\emptyset$.
 
-### <span id="Pairing" class="mw-headline">Pairing</span>
+### Pairing
 
 For any two sets $x$ and $y$ (not necessarily distinct) there is a
 further set $z$ whose members are exactly the sets $x$ and $y$.
@@ -120,7 +50,7 @@ z\\leftrightarrow (w=x\\vee w=y)\\big).$$
 
 Such a $z$ is unique by extensionality and is denoted as $\\{x,y\\}$.
 
-### <span id="Union" class="mw-headline">Union</span>
+### Union
 
 For any set $x$ there is a further set $y$ whose members are exactly all
 the members of the members of $x$. That is, the union of all the members
@@ -132,7 +62,7 @@ $$\\forall x \\exists y \\forall z \\big(z\\in y \\leftrightarrow
 Such a $y$ is unique by extensionality and is written as $y = \\bigcup
 x$.
 
-### <span id="Foundation_.28or_Regularity.29" class="mw-headline">Foundation (or Regularity)</span>
+### Foundation (or Regularity)
 
 Every nonempty set $x$ has a member disjoint from $x$, ensuring that no
 set can contain itself directly or indirectly. This is expressed
@@ -144,7 +74,7 @@ Equivalently, by the
 there's no infinite descending sequence $\\dots \\in x\_2\\in x\_1\\in
 x\_0$.
 
-### <span id="Schema_of_separation" class="mw-headline">Schema of separation</span>
+### Schema of separation
 
 For any set $a$ and any predicate $P(x)$ written in the language of ZFC,
 the set $\\{x\\in a: P(x)\\}$ exists. In more detail, given any formula
@@ -162,7 +92,7 @@ infinitely many instances of separation. Each member of $V\_\\omega$ is
 finite, in fact $V\_\\omega$ is the collection of hereditarily finite
 sets. This is essentially the standard model of $\\mathbb{N}$.
 
-### <span id="Infinity" class="mw-headline">Infinity</span>
+### Infinity
 
 There is an infinite set. This is expressed formally as $$ \\exists x
 \\big(\\emptyset\\in x\\wedge \\forall z (z\\in x \\rightarrow
@@ -174,7 +104,7 @@ induction on $\\omega$ (i.e., we can prove that the Peano Axioms are
 true in $\\langle \\omega, +, \\cdot\\rangle$). But we can't yet prove
 the existence of an uncountable set.
 
-### <span id="Powerset" class="mw-headline">Powerset</span>
+### Powerset
 
 For any set $x$ there is a further set $y$ that has as members all
 subsets of $x$ and no other elements. $y$ is the *powerset* of $x$. This
@@ -186,7 +116,7 @@ Define the ordered pair $(a,b)$ to be $\\{\\{a\\},\\{a,b\\}\\}$. A
 relation as a collection of ordered pairs, and a function as a relation
 $f$ such that $(a,b)\\in f$ and $(a,c)\\in f$ implies $b=c$.
 
-### <span id="Choice" class="mw-headline">Choice</span>
+### Choice
 
 *Main article:
 <a href="Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">Axiom of Choice</a>.*
@@ -204,7 +134,7 @@ theory, but, surprisingly, no ordinals greater than $( \\omega \\cdot 2
 )$ can be proven to exist within this theory (at least to Zermelo, who
 simply overlooked the next axiom discovered by Fraenkel and others).
 
-### <span id="Schema_of_replacement" class="mw-headline">Schema of replacement</span>
+### Schema of replacement
 
 If $a$ is a set and for all $x\\in a$ there's a unique $y$ such that
 $(x,y)$ satisfies a given property, then the collection of such $y$s is
@@ -298,7 +228,7 @@ large cardinal axiom: it expresses a notion of largeness, and the
 existence of such a model is not provable in $\\text{ZFC}$ and has
 consistency strength strictly exceeding $\\text{ZFC}$.
 
-### <span id="Minimal_transitive_model_of_.24.5Ctext.7BZFC.7D.24" class="mw-headline">Minimal transitive model of $\\text{ZFC}$</span>
+### Minimal transitive model of $\\text{ZFC}$
 
 If there is any transitive model $M$ of $\\text{ZFC}$, then $L^M$, the
 constructible universe as computed in $M$, is also a transitive model of
@@ -315,7 +245,7 @@ ordinal although the existence of stable ordinals is provable in ZFC and
 the existence of transitive models is
 not.\[[1](#bibkey_Madore2017:OrdinalZoo)\]
 
-### <span id=".24.5Comega.24-models_of_.24.5Ctext.7BZFC.7D.24" class="mw-headline">$\\omega$-models of $\\text{ZFC}$</span>
+### $\\omega$-models of $\\text{ZFC}$
 
 An *$\\omega$-model* of $\\text{ZFC}$ is a model of $\\text{ZFC}$ whose
 collection of natural numbers is isomorphic to the actual natural
@@ -326,7 +256,7 @@ well-founded part at least $\\alpha$.) Every transitive model of
 $\\text{ZFC}$ is an $\\omega$-model, but the latter concept is strictly
 weaker.
 
-### <span id="Consistency_hierarchy" class="mw-headline">Consistency hierarchy</span>
+### Consistency hierarchy
 
 The existence of an $\\omega$-model of $\\text{ZFC}$ and implies
 $\\text{Con(ZFC)}$, of course, and also $\\text{Con(ZFC+Con(ZFC))}$ and
@@ -346,7 +276,7 @@ Every finite fragment of $\\text{ZFC}$ admits numerous transitive
 models, as a consequence of the
 <a href="Reflection_theorem" class="mw-redirect" title="Reflection theorem">reflection theorem</a>.
 
-### <span id="Transitive_models_and_forcing" class="mw-headline">Transitive models and forcing</span>
+### Transitive models and forcing
 
 Countable transitive models of set theory were used historically as a
 convenient way to formalize
@@ -368,7 +298,7 @@ $\\text{ZFC}$ and works with a countable transitive model of a suitably
 large fragment, producing $\\varphi$ with the desired fragment in a
 forcing extension of it.
 
-### <span id="Transitive_model_universe_axiom" class="mw-headline">Transitive model universe axiom</span>
+### Transitive model universe axiom
 
 The *transitive model universe axiom* is the assertion that every set is
 an element of a transitive model of $\\text{ZFC}$. This axiom makes a
@@ -391,7 +321,7 @@ perspective, investigating how the various actual set-theoretic
 universe, transitive models of full $\\text{ZFC}$, relate to one
 another.
 
-### <span id="Every_model_of_.24.5Ctext.7BZFC.7D.24_contains_a_model_of_.24.5Ctext.7BZFC.7D.24_as_an_element" class="mw-headline">Every model of $\\text{ZFC}$ contains a model of $\\text{ZFC}$ as an element</span>
+### Every model of $\\text{ZFC}$ contains a model of $\\text{ZFC}$ as an element
 
 Every model $M$ of $\\text{ZFC}$ has an element $N$, which it believes
 to be a first-order structure in the language of set theory, which is a
@@ -419,7 +349,7 @@ a model of full $\\text{ZFC}$, the model $M$ need not agree that it is a
 model of $\\text{ZFC}$, in the case that $M$ has nonstandard natural
 numbers and hence nonstandard length axioms of $\\text{ZFC}$.
 
-### <span id="Uncountable_transitive_models" class="mw-headline">Uncountable transitive models</span>
+### Uncountable transitive models
 
 Recall that Löwenheim-Skolem theorem and Mostowski collapsing lemma show
 that if there is a transitive model of ZFC (or other set theory), then

@@ -2,7 +2,6 @@
 title: Category:Reflection principles
 permalink: Category:Reflection_principles
 ---
-# Category:Reflection principles
 
 
 

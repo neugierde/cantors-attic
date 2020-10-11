@@ -2,7 +2,6 @@
 title: Russell's Paradox
 permalink: Russell's_paradox
 ---
-# Russell's Paradox
 
 
 

@@ -1,20 +1,11 @@
 ---
 title: Mitchell rank and the Mitchell order
 permalink: Mitchell_rank
+redirect_from:
+  - Mitchell_order
 ---
-# Mitchell rank and the Mitchell order
 
 
-
-
-
-
-
-
-
-
-
-  
 The *Mitchell rank* of a
 [measurable](Measurable "Measurable")
 cardinal provides an indication of the degree to which the concept of
@@ -62,21 +53,6 @@ $(2^\\kappa)^+$.)\[[3](#bibkey_CarmodyGitmanHabic2016:Mitchelllike)\]
 and Mitchell rank for
 [supercompact](Supercompact "Supercompact")
 cardinals\[[4](#bibkey_Carmody2015:ForceToChangeLargeCardinalStrength)\]
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">$o(\\kappa)=1$</span>](#.24o.28.5Ckappa.29.3D1.24)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">$o(\\kappa)=\\kappa^{++}$</span>](#.24o.28.5Ckappa.29.3D.5Ckappa.5E.7B.2B.2B.7D.24)
--   [<span class="tocnumber">3</span> <span class="toctext">The Mitchell
-    order</span>](#The_Mitchell_order)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## $o(\\kappa)=1$
 

@@ -1,31 +1,22 @@
 ---
-title: The aleph numbers, $\\aleph\_\\alpha$
+title: The aleph numbers, $\aleph_\alpha$
 permalink: Aleph
+redirect_from:
+  - Aleph_fixed_point
+  - Aleph_one
+  - Cofinality
+  - Singular
 ---
-# The aleph numbers, $\\aleph\_\\alpha$
 
 
-
-
-
-
-
-
-
-
-
-The aleph function, denoted $\\aleph$, provides a 1 to 1 correspondence
-between the
-[ordinal](Ordinal "Ordinal")
-and the
-[cardinal](Cardinal "Cardinal")
+The aleph function, denoted $\aleph$, provides a 1 to 1 correspondence
+between the [ordinal](Ordinal "Ordinal") and the [cardinal](Cardinal "Cardinal")
 numbers. In fact, it is the only order-isomorphism between the ordinals
-and cardinals, with respect to membership. It is a strictly
-[monotone](Monotone "Monotone")
+and cardinals, with respect to membership. It is a strictly [monotone](Monotone "Monotone")
 ordinal function which can be defined via transfinite recursion in the
 following manner:
 
-$\\aleph\_0 = \\omega$
+$\\aleph\_0 = \omega$
 
 $\\aleph\_{n+1} = \\bigcap \\{ x \\in \\operatorname{On} : \| \\aleph\_n
 \| \\lt \|x\| \\}$
@@ -42,27 +33,6 @@ $\\aleph\_0$ is the smallest
 <a href="Infinite" class="mw-redirect" title="Infinite">infinite</a>
 [cardinal](Cardinal "Cardinal").
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Aleph
-    one</span>](#Aleph_one)
--   [<span class="tocnumber">2</span> <span class="toctext">The
-    continuum hypothesis</span>](#The_continuum_hypothesis)
--   [<span class="tocnumber">3</span> <span class="toctext">Equivalent
-    Forms</span>](#Equivalent_Forms)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">Generalizations</span>](#Generalizations)
--   [<span class="tocnumber">5</span> <span class="toctext">Aleph
-    two</span>](#Aleph_two)
--   [<span class="tocnumber">6</span> <span class="toctext">Aleph
-    hierarchy</span>](#Aleph_hierarchy)
--   [<span class="tocnumber">7</span> <span class="toctext">Aleph
-    omega</span>](#Aleph_omega)
--   [<span class="tocnumber">8</span> <span class="toctext">Aleph fixed
-    point</span>](#Aleph_fixed_point)
 
 
 ## Aleph one

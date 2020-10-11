@@ -1,17 +1,9 @@
 ---
 title: Dedekind finite
 permalink: Dedekind_finite
+redirect_from:
+  - D-finite
 ---
-# Dedekind finite
-
-
-
-
-
-
-
-
-
 
 
 Let $X$ be a set, we say that $X$ is an *Dedekind infinite* set if there

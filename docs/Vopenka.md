@@ -1,17 +1,9 @@
 ---
 title: Vopěnka's principle and Vopěnka cardinals
 permalink: Vopenka
+redirect_from:
+  - Generic_Vopěnka's_Principle
 ---
-# Vopěnka's principle and Vopěnka cardinals
-
-
-
-
-
-
-
-
-
 
 
 Vopěnka's principle is a large cardinal axiom at the upper end of the
@@ -37,41 +29,6 @@ huge](Huge#Almost_huge "Huge"),
 or even
 [almost-high-jump](High-jump "High-jump"),
 then $V\_\\kappa$ satisfies Vopěnka's principle.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Formalizations</span>](#Formalizations)
--   [<span class="tocnumber">2</span> <span class="toctext">Vopěnka
-    cardinals</span>](#Vop.C4.9Bnka_cardinals)
--   [<span class="tocnumber">3</span> <span class="toctext">Equivalent
-    statements</span>](#Equivalent_statements)
-    -   [<span class="tocnumber">3.1</span> <span
-        class="toctext">Extendible
-        cardinals</span>](#Extendible_cardinals)
-    -   [<span class="tocnumber">3.2</span> <span class="toctext">Strong
-        Compactness of Logics</span>](#Strong_Compactness_of_Logics)
-    -   [<span class="tocnumber">3.3</span> <span
-        class="toctext">Locally Presentable
-        Categories</span>](#Locally_Presentable_Categories)
-    -   [<span class="tocnumber">3.4</span> <span class="toctext">Woodin
-        cardinals</span>](#Woodin_cardinals)
-    -   [<span class="tocnumber">3.5</span> <span
-        class="toctext">Elementary Embeddings Between
-        Ranks</span>](#Elementary_Embeddings_Between_Ranks)
--   [<span class="tocnumber">4</span> <span class="toctext">Other points
-    to note</span>](#Other_points_to_note)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">Variants</span>](#Variants)
-    -   [<span class="tocnumber">5.1</span> <span
-        class="toctext">Generic</span>](#Generic)
--   [<span class="tocnumber">6</span> <span class="toctext">External
-    links</span>](#External_links)
--   [<span class="tocnumber">7</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Formalizations
@@ -132,7 +89,7 @@ As we mentioned above, every almost huge cardinal is a Vopěnka cardinal.
 
 ## Equivalent statements
 
-### <span id="Extendible_cardinals" class="mw-headline">Extendible cardinals</span>
+### Extendible cardinals
 
 The schema form of Vopěnka's principle is equivalent to the existence of
 a proper class of
@@ -151,7 +108,7 @@ statements:\[[2](#bibkey_Hamkins2016:TheVopenkaPrincipleIs)\]
 -   For every class $A$, there is a stationary proper class of
     $A$-extendible cardinals.
 
-### <span id="Strong_Compactness_of_Logics" class="mw-headline">Strong Compactness of Logics</span>
+### Strong Compactness of Logics
 
 Vopěnka's principle is equivalent to the following statement about
 logics as well:
@@ -185,7 +142,7 @@ logics:
     compactness cardinal of $n+1$-th order finitary logic is at most the
     least extendible cardinal.
 
-### <span id="Locally_Presentable_Categories" class="mw-headline">Locally Presentable Categories</span>
+### Locally Presentable Categories
 
 Vopěnka's principle is equivalent to the axiom stating "no large full
 subcategory $C$ of any locally presentable category is discrete."
@@ -219,7 +176,7 @@ presentable category $C$, then any proper class of objects of $C$ has
 some nonisomorphic objects $c$ and $d$ where $c$ has a morphism into
 $d$.
 
-### <span id="Woodin_cardinals" class="mw-headline">Woodin cardinals</span>
+### Woodin cardinals
 
 There is a strange connection between the
 [Woodin](Woodin "Woodin")
@@ -231,7 +188,7 @@ cardinals and the
 <a href="N-fold_Woodin" class="mw-redirect" title="N-fold Woodin">$2$-fold Woodin</a>
 cardinals. As a result, every Vopěnka cardinal is Woodin.
 
-### <span id="Elementary_Embeddings_Between_Ranks" class="mw-headline">Elementary Embeddings Between Ranks</span>
+### Elementary Embeddings Between Ranks
 
 An equivalent statement to Vopěnka's principle is that for any proper
 class $C\\subseteq ORD$, there are $\\alpha\\in C$, $\\beta\\in C$, and
@@ -296,7 +253,7 @@ Results:
     -   $VP$
     -   For every $n$, there is a $C(n)$-extendible cardinal.
 
-### <span id="Generic" class="mw-headline">Generic</span>
+### Generic
 
 (Information in this section from
 \[[7](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\] unless

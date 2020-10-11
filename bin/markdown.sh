@@ -5,8 +5,10 @@ do
     cat _html/$file.html \
     | pandoc -f html -t gfm --atx-headers \
     | sed -n '/^# /,/<div class="printfooter">/p' \
-    | sed -E 's/^# <span dir="auto">(.*)<\/span>$/---\ntitle: \1\npermalink: PERMALINK\n---\n# \1/' \
+    | sed -E 's/^# <span dir="auto">(.*)<\/span>$/---\ntitle: \1\npermalink: PERMALINK\n---/' \
+    | sed -E 's/^# <span [^>]+>(.*)<\/span>$/# \1/' \
     | sed -E 's/^## <span [^>]+>(.*)<\/span>$/## \1/' \
+    | sed -E 's/^### <span [^>]+>(.*)<\/span>$/### \1/' \
     | sed "s/PERMALINK/$file/" \
     | sed -E '/^<[^<]+>$/d' \
     | sed 's/{{/{ {/' \

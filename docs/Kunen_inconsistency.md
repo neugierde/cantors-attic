@@ -2,7 +2,6 @@
 title: The Kunen inconsistency
 permalink: Kunen_inconsistency
 ---
-# The Kunen inconsistency
 
 
 

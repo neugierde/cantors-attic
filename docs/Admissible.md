@@ -2,7 +2,6 @@
 title: Admissible
 permalink: Admissible
 ---
-# Admissible
 
 
 

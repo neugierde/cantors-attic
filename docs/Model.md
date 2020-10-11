@@ -2,17 +2,6 @@
 title: Model
 permalink: Model
 ---
-# Model
-
-
-
-
-
-
-
-
-
-
 
 A **model** of a theory $T$ is a set $M$ together with relations (eg.
 two: $a$ and $b$) satisfying all axioms of the theory $T$. Symbolically
@@ -33,24 +22,6 @@ Löwenheim–Skolem theorem together with Mostowski collapsing lemma show
 that if there is a transitive model of ZFC, then there is a countable
 such model.) See
 <a href="Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">Transitive ZFC model</a>.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Class-sized
-    transitive models</span>](#Class-sized_transitive_models)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Mantle</span>](#Mantle)
-        -   [<span class="tocnumber">1.1.1</span> <span
-            class="toctext">Mantle and large
-            cardinals</span>](#Mantle_and_large_cardinals)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">$\\kappa$-model</span>](#.24.5Ckappa.24-model)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Class-sized transitive models
 
@@ -77,7 +48,7 @@ Among them are *canonical inner models* like
     universe](Constructible_universe "Constructible universe")
     $L$
 
-### <span id="Mantle" class="mw-headline">Mantle</span>
+### Mantle
 
 The **mantle** $\\mathbb{M}$ is the intersection of all grounds. Mantle
 is always a model of ZFC. Mantle is a ground (and is called a

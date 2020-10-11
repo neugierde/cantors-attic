@@ -1,18 +1,9 @@
 ---
 title: Uplifting cardinals
 permalink: Uplifting
+redirect_from:
+  - Weakly_superstrong
 ---
-# Uplifting cardinals
-
-
-
-
-
-
-
-
-
-
 
   
 Uplifting cardinals were introduced by Hamkins and Johnstone in
@@ -48,39 +39,6 @@ Namely, if $V\_\\kappa\\prec V\_\\gamma$, then we may simply restrict to
 the constructible sets to obtain $V\_\\kappa^L=L^{V\_\\kappa}\\prec
 L^{V\_\\gamma}=V\_\\gamma^L$. An analogous result holds for
 pseudo-uplifting cardinals.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Consistency
-    strength of uplifting
-    cardinals</span>](#Consistency_strength_of_uplifting_cardinals)
--   [<span class="tocnumber">2</span> <span class="toctext">Uplifting
-    cardinals and
-    $\\Sigma\_3$-reflection</span>](#Uplifting_cardinals_and_.24.5CSigma_3.24-reflection)
--   [<span class="tocnumber">3</span> <span class="toctext">Uplifting
-    Laver functions</span>](#Uplifting_Laver_functions)
--   [<span class="tocnumber">4</span> <span class="toctext">Connection
-    with the resurrection
-    axioms</span>](#Connection_with_the_resurrection_axioms)
--   [<span class="tocnumber">5</span> <span class="toctext">Strongly
-    Uplifting</span>](#Strongly_Uplifting)
-    -   [<span class="tocnumber">5.1</span> <span
-        class="toctext">Definitions</span>](#Definitions)
-    -   [<span class="tocnumber">5.2</span> <span
-        class="toctext">Equivalence</span>](#Equivalence)
-    -   [<span class="tocnumber">5.3</span> <span
-        class="toctext">Relations to other
-        cardinals</span>](#Relations_to_other_cardinals)
-    -   [<span class="tocnumber">5.4</span> <span
-        class="toctext">Relation to boldface resurrection
-        axiom</span>](#Relation_to_boldface_resurrection_axiom)
--   [<span class="tocnumber">6</span> <span class="toctext">Weakly
-    superstrong cardinal</span>](#Weakly_superstrong_cardinal)
--   [<span class="tocnumber">7</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Consistency strength of uplifting cardinals
@@ -195,7 +153,7 @@ superstrongly
 [unfoldable](Unfoldable "Unfoldable")
 cardinals and almost-hugely unfoldable cardinals.
 
-### <span id="Definitions" class="mw-headline">Definitions</span>
+### Definitions
 
 An ordinal is **strongly pseudo uplifting** iff for every ordinal $θ$ it
 is **strongly $θ$-uplifting**, meaning that for every $A⊆V\_κ$, there
@@ -226,7 +184,7 @@ unfoldable**) iff it is $θ$-strongly unfoldable (resp. $θ$-almost-hugely
 unfoldable) for every $θ$; i.e. the target of the embedding can be made
 arbitrarily large.
 
-### <span id="Equivalence" class="mw-headline">Equivalence</span>
+### Equivalence
 
 For any ordinals $κ$, $θ$, the following are equivalent:
 
@@ -253,7 +211,7 @@ For any cardinal $κ$ and ordinal $θ$, the following are equivalent:
     $j(κ)&gt; θ$ and $V\_{j(κ)}⊆N$, such that $N^{&lt;j(κ)}⊆N$ and
     $j(κ)$ is inaccessible, weakly compact and more in $V$.
 
-### <span id="Relations_to_other_cardinals" class="mw-headline">Relations to other cardinals</span>
+### Relations to other cardinals
 
 -   If $δ$ is a subtle cardinal, then the set of cardinals $κ$ below $δ$
     that are strongly uplifting in $V\_δ$ is stationary.
@@ -268,7 +226,7 @@ For any cardinal $κ$ and ordinal $θ$, the following are equivalent:
     ordinal degree $α$ and a stationary limit of cardinals that are
     strongly unfoldable of every ordinal degree and so on.
 
-### <span id="Relation_to_boldface_resurrection_axiom" class="mw-headline">Relation to boldface resurrection axiom</span>
+### Relation to boldface resurrection axiom
 
 The following theories are equiconsistent over $\\mathrm{ZFC}$:
 

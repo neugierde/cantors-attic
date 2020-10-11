@@ -2,7 +2,6 @@
 title: The small countable ordinals
 permalink: Small_countable_ordinals
 ---
-# The small countable ordinals
 
 
 

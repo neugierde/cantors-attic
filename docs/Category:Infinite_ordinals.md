@@ -2,7 +2,6 @@
 title: Category:Infinite ordinals
 permalink: Category:Infinite_ordinals
 ---
-# Category:Infinite ordinals
 
 
 

@@ -2,42 +2,11 @@
 title: Buchholz's ψ functions
 permalink: Buchholz's_ψ_functions
 ---
-# Buchholz's ψ functions
-
-
-
-
-
-
-
-
-
 
 
 Buchholz's functions are a hierarchy of single-argument ordinal
 functions \\( (\\psi \_{\\nu }:On\\rightarrow On)\_{\\nu\\le\\omega}\\)
 introduced by German mathematician Wilfried Buchholz in 1981.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Basic
-    Notions</span>](#Basic_Notions)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Definition</span>](#Definition)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">Properties</span>](#Properties)
--   [<span class="tocnumber">4</span> <span class="toctext">Fundamental
-    sequences</span>](#Fundamental_sequences)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">Takeuti-Feferman-Buchholz
-    ordinal</span>](#Takeuti-Feferman-Buchholz_ordinal)
--   [<span class="tocnumber">6</span> <span class="toctext">See
-    also</span>](#See_also)
--   [<span class="tocnumber">7</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Basic Notions

@@ -2,7 +2,6 @@
 title: Fast-growing hierarchy
 permalink: Fast-growing_hierarchy
 ---
-# Fast-growing hierarchy
 
 
 

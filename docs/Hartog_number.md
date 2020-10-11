@@ -2,7 +2,6 @@
 title: Hartog number
 permalink: Hartog_number
 ---
-# Hartog number
 
 
 

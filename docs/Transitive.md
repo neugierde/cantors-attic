@@ -2,7 +2,6 @@
 title: Transitive
 permalink: Transitive
 ---
-# Transitive
 
 
 

@@ -2,7 +2,6 @@
 title: Graham's number
 permalink: Graham's_number
 ---
-# Graham's number
 
 
 

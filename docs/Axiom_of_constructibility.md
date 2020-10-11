@@ -1,8 +1,9 @@
 ---
 title: The axiom of constructibility, $V = L$
 permalink: Axiom_of_constructibility
+redirect_from:
+  - V_=_L
 ---
-# The axiom of constructibility, $V = L$
 
 
 

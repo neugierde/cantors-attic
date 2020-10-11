@@ -2,7 +2,6 @@
 title: Well-Ordering Principle
 permalink: Well-ordering_principle
 ---
-# Well-Ordering Principle
 
 
 

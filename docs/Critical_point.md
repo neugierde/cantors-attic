@@ -2,7 +2,6 @@
 title: Critical point
 permalink: Critical_point
 ---
-# Critical point
 
 
 

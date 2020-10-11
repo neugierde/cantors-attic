@@ -1,20 +1,9 @@
 ---
-title: Epsilon naught, $\\epsilon\_0$
+title: Epsilon naught, $\epsilon_0$
 permalink: Epsilon_naught
 ---
-# Epsilon naught, $\\epsilon\_0$
 
 
-
-
-
-
-
-
-
-
-
-  
 The ordinal $\\epsilon\_0$, commonly given the British pronunciation
 "epsilon naught," is the smallest ordinal $\\alpha$ for which
 $\\alpha=\\omega^\\alpha$ and can be equivalently characterized as the

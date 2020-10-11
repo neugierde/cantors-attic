@@ -2,17 +2,6 @@
 title: Partition property
 permalink: Partition_property
 ---
-# Partition property
-
-
-
-
-
-
-
-
-
-
 
 A partition property is an infinitary combinatorical principle in set
 theory. Partition properties are best associated with various [large
@@ -29,26 +18,6 @@ the pigeonhole principle to infinite cardinals. For example, if there
 are $\\aleph\_1$ pigeons and there are $\\aleph\_0$ many holes, then at
 least one hole contains $\\aleph\_1$ pigeons.
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definitions</span>](#Definitions)
-    -   [<span class="tocnumber">1.1</span> <span class="toctext">Square
-        Bracket Notation</span>](#Square_Bracket_Notation)
-    -   [<span class="tocnumber">1.2</span> <span
-        class="toctext">Homogeneous Sets</span>](#Homogeneous_Sets)
-    -   [<span class="tocnumber">1.3</span> <span class="toctext">The
-        Various Partition
-        Properties</span>](#The_Various_Partition_Properties)
--   [<span class="tocnumber">2</span> <span class="toctext">Theorems and
-    Large Cardinal Axioms</span>](#Theorems_and_Large_Cardinal_Axioms)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## Definitions
 
 There are quite a few definitions involved with partition properties. In
@@ -57,7 +26,7 @@ completely either comprisse or describes most of infinitary
 combinatorics itself, so it would make sense that the terminology
 involved with it is quite unique.
 
-### <span id="Square_Bracket_Notation" class="mw-headline">Square Bracket Notation</span>
+### Square Bracket Notation
 
 The square bracket notation is somewhat simple and easy to grasp (and
 used in many other places). Let $X$ be a set of ordinals. $\[X\]^\\beta$
@@ -73,7 +42,7 @@ subsets $x\\subseteq X$ with order-type less than $\\beta$. In the case
 of $\\omega$, $\[X\]^{&lt;\\omega}$ is the set of all finite subsets of
 $X$.
 
-### <span id="Homogeneous_Sets" class="mw-headline">Homogeneous Sets</span>
+### Homogeneous Sets
 
 Let $f:\[\\kappa\]^\\beta\\rightarrow\\lambda$ be a function (in this
 study, such functions are often called partitions). A set
@@ -87,7 +56,7 @@ be a function. A set $H\\subseteq\\kappa$ is then called **homogeneous
 for $f$** when for any two finite subsets $h\_0,h\_1\\subseteq H$ of the
 same size, $f(h\_0)=f(h\_1)$.
 
-### <span id="The_Various_Partition_Properties" class="mw-headline">The Various Partition Properties</span>
+### The Various Partition Properties
 
 Let $\\kappa$ and $\\lambda$ be cardinals and let $\\alpha$ and $\\beta$
 be ordinals. Then, the following notations are used for the partition

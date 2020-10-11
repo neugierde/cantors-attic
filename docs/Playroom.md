@@ -2,45 +2,11 @@
 title: The playroom
 permalink: Playroom
 ---
-# The playroom
 
 ![Tate Slides, photo by Tom Jenkins](assets/img/TateSlidesByTomJenkins.jpg)
 
 Here in the playroom, you will find a variety of stimulating
 entertainments.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Hilbert's
-    Grand Hotel</span>](#Hilbert.27s_Grand_Hotel)
--   [<span class="tocnumber">2</span> <span class="toctext">Diary of
-    Tristram Shandy</span>](#Diary_of_Tristram_Shandy)
--   [<span class="tocnumber">3</span> <span class="toctext">On the
-    number of possible finite
-    books</span>](#On_the_number_of_possible_finite_books)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">Supertasks</span>](#Supertasks)
--   [<span class="tocnumber">5</span> <span class="toctext">Zeno's
-    paradox</span>](#Zeno.27s_paradox)
--   [<span class="tocnumber">6</span> <span class="toctext">Thomson's
-    lamp</span>](#Thomson.27s_lamp)
--   [<span class="tocnumber">7</span> <span class="toctext">Deal with
-    the devil</span>](#Deal_with_the_devil)
--   [<span class="tocnumber">8</span> <span class="toctext">Supertasks
-    in physics</span>](#Supertasks_in_physics)
--   [<span class="tocnumber">9</span> <span class="toctext">Library of
-    Babel</span>](#Library_of_Babel)
--   [<span class="tocnumber">10</span> <span
-    class="toctext">Ross-Littlewood
-    paradox</span>](#Ross-Littlewood_paradox)
--   [<span class="tocnumber">11</span> <span
-    class="toctext">Metagame</span>](#Metagame)
--   [<span class="tocnumber">12</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Hilbert's Grand Hotel
 

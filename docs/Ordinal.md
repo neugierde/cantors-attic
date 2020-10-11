@@ -2,19 +2,7 @@
 title: Ordinal numbers
 permalink: Ordinal
 ---
-# Ordinal numbers
 
-
-
-
-
-
-
-
-
-
-
-  
 Ordinal numbers describe the way a set might be arranged into a
 [well-ordered](Ordering_Relations "Ordering Relations")
 sequence. Thus, ordinals have to do with the way a set is or can be
@@ -35,21 +23,6 @@ case $\\alpha\\in\\beta$, and one can show that this is a total order,
 indeed, a well-order. The collection of all ordinals is a transitive
 proper class. It can be denoted, for example, $\\mathrm{Ord}$,
 $\\mathsf{ORD}$, $\\mathrm{On}$ or $\\mathrm{OR}$.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Successor
-    ordinals</span>](#Successor_ordinals)
--   [<span class="tocnumber">2</span> <span class="toctext">Limit
-    ordinals</span>](#Limit_ordinals)
--   [<span class="tocnumber">3</span> <span class="toctext">Transfinite
-    induction</span>](#Transfinite_induction)
--   [<span class="tocnumber">4</span> <span class="toctext">Transfinite
-    recursion</span>](#Transfinite_recursion)
-
 
 ## Successor ordinals
 

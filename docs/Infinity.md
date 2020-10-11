@@ -2,7 +2,6 @@
 title: Infinity
 permalink: Infinity
 ---
-# Infinity
 
 
 

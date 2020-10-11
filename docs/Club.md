@@ -1,20 +1,10 @@
 ---
 title: Club sets and stationary sets
 permalink: Club
+redirect_from:
+  - Stationary
 ---
-# Club sets and stationary sets
 
-
-
-
-
-
-
-
-
-
-
-  
 Closed and unbounded subsets of ordinals, more commonly referred to as
 *club* sets, play a prominent role in modern set theory. We intuitively
 think of clubs as the "large" subsets of $\\kappa$ and the stationary
@@ -33,21 +23,6 @@ limits, but club (and also stationary) sets favor limit ordinals in the
 sense that they concentrate on them. Hence the opposite view-point is
 more useful when considering club sets, i.e., there are "more" limit
 ordinals.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Club
-    sets</span>](#Club_sets)
--   [<span class="tocnumber">2</span> <span class="toctext">Stationary
-    sets</span>](#Stationary_sets)
--   [<span class="tocnumber">3</span> <span class="toctext">Generalized
-    notions</span>](#Generalized_notions)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Club sets
 

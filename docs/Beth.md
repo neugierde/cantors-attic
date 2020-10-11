@@ -1,18 +1,11 @@
 ---
-title: The beth numbers, $\\beth\_\\alpha$
+title: The beth numbers, $\beth_\alpha$
 permalink: Beth
+redirect_from:
+  - Beth_fixed_point
+  - Beth_omega
+  - Strong_limit
 ---
-# The beth numbers, $\\beth\_\\alpha$
-
-
-
-
-
-
-
-
-
-
 
 The *beth numbers* $\\beth\_\\alpha$ are defined by transfinite
 recursion:
@@ -25,20 +18,6 @@ recursion:
 Thus, the beth numbers are the cardinalities arising from iterating the
 power set operation. It follows by a simple recursive argument that
 $\|V\_{\\omega+\\alpha}\|=\\beth\_\\alpha$.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Beth
-    one</span>](#Beth_one)
--   [<span class="tocnumber">2</span> <span class="toctext">Beth
-    omega</span>](#Beth_omega)
--   [<span class="tocnumber">3</span> <span class="toctext">Strong limit
-    cardinal</span>](#Strong_limit_cardinal)
--   [<span class="tocnumber">4</span> <span class="toctext">Beth fixed
-    point</span>](#Beth_fixed_point)
 
 
 ## Beth one

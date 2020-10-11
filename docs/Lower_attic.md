@@ -1,8 +1,8 @@
 ---
 title: The lower attic
 permalink: Lower_attic
+toc: false
 ---
-# The lower attic
 
 ![Sagrada Spiral photo by David Nikonvscanon](assets/img/SagradaSpiralByDavidNikonvscanon.jpg)
 

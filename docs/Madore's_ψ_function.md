@@ -2,42 +2,9 @@
 title: Madore's ψ function
 permalink: Madore's_ψ_function
 ---
-# Madore's ψ function
-
-
-
-
-
-
-
-
-
-
 
 Madore's \\(\\psi\\) function is an ordinal collapsing function
 introduced by David Madore.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definition</span>](#Definition)
--   [<span class="tocnumber">2</span> <span class="toctext">Fundamental
-    sequences</span>](#Fundamental_sequences)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">Values</span>](#Values)
--   [<span class="tocnumber">4</span> <span class="toctext">Small Veblen
-    ordinal</span>](#Small_Veblen_ordinal)
--   [<span class="tocnumber">5</span> <span class="toctext">Large Veblen
-    ordinal</span>](#Large_Veblen_ordinal)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">Bachmann-Howard
-    ordinal</span>](#Bachmann-Howard_ordinal)
--   [<span class="tocnumber">7</span> <span class="toctext">See
-    also</span>](#See_also)
-
 
 ## Definition
 

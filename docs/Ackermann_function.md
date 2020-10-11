@@ -2,7 +2,6 @@
 title: Ackermann function
 permalink: Ackermann_function
 ---
-# Ackermann function
 
 
 

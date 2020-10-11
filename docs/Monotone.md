@@ -2,7 +2,6 @@
 title: Monotone
 permalink: Monotone
 ---
-# Monotone
 
 
 

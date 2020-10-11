@@ -1,17 +1,9 @@
 ---
 title: Ultrapower
 permalink: Ultrapower
+redirect_from:
+  - Ultrapower_axiom
 ---
-# Ultrapower
-
-
-
-
-
-
-
-
-
 
 
 The intuitive idea behind ultrapower constructions (and ultraproduct
@@ -30,32 +22,6 @@ embeddings. Ultrapowers have a more concrete structure than general
 embeddings and are often easier to work with in proofs. Most of the
 results in this article can be found in
 \[[1](#bibkey_Jech2003:SetTheory)\].
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">General
-    construction</span>](#General_construction)
--   [<span class="tocnumber">2</span> <span class="toctext">Formal
-    definition</span>](#Formal_definition)
--   [<span class="tocnumber">3</span> <span class="toctext">Los'
-    theorem</span>](#Los.27_theorem)
--   [<span class="tocnumber">4</span> <span class="toctext">Properties
-    of ultrapowers of the universe of
-    sets</span>](#Properties_of_ultrapowers_of_the_universe_of_sets)
--   [<span class="tocnumber">5</span> <span class="toctext">Ultrapower
-    axiom</span>](#Ultrapower_axiom)
--   [<span class="tocnumber">6</span> <span class="toctext">Iterated
-    ultrapowers</span>](#Iterated_ultrapowers)
-    -   [<span class="tocnumber">6.1</span> <span
-        class="toctext">Properties</span>](#Properties)
-    -   [<span class="tocnumber">6.2</span> <span class="toctext">The
-        representation lemma</span>](#The_representation_lemma)
--   [<span class="tocnumber">7</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## General construction
 
@@ -228,7 +194,7 @@ construct, within $M$, the iterated ultrapowers. Let us denote by
 $\\text{Ult}^{(\\alpha)}\_U(M)$ the $\\alpha$th iterated ultrapower,
 constructed in $M$.
 
-### <span id="Properties" class="mw-headline">Properties</span>
+### Properties
 
 -   For every $\\alpha$ the $\\alpha$th iterated ultrapower
     $(\\text{Ult}^{(\\alpha)},E^{(\\alpha)})$ is well-founded. This is
@@ -260,7 +226,7 @@ constructed in $M$.
     \\text{Ult}^{(\\alpha)}$ then for all $\\beta\\geq\\alpha$, one has
     $X=\\kappa^{(\\alpha)}\\cap i\_{\\alpha,\\beta}(X)$.
 
-### <span id="The_representation_lemma" class="mw-headline">The representation lemma</span>
+### The representation lemma
 
 ## References
 

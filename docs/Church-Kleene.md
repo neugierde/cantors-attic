@@ -1,8 +1,7 @@
 ---
-title: The Church-Kleene ordinal, $\\omega\_1^{ck}$
+title: The Church-Kleene ordinal, $\omega_1^{ck}$
 permalink: Church-Kleene
 ---
-# The Church-Kleene ordinal, $\\omega\_1^{ck}$
 
 
 

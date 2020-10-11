@@ -1,16 +1,13 @@
 ---
-title: Regularity properties, projective sets, determinacy, $\\text{AD}^+$
+title: Regularity properties, projective sets, determinacy, $\text{AD}^+$
 permalink: Projective
+redirect_from:
+  - AD+
+  - Axiom_of_projective_determinacy
+  - Descriptive_set_theory
+  - Projective_determinacy
+  - Theta
 ---
-# Regularity properties, projective sets, determinacy, $\\text{AD}^+$
-
-
-
-
-
-
-
-
 
 
 
@@ -26,50 +23,6 @@ This article covers:
 \[[1](#bibkey_Jech2003:SetTheory)\] and
 \[[2](#bibkey_Kanamori2009:HigherInfinite)\], or
 \[[3](#bibkey_Woodin2010:SEM1)\] unless indicated otherwise.*
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Projective
-    sets</span>](#Projective_sets)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Properties</span>](#Properties)
--   [<span class="tocnumber">3</span> <span class="toctext">Regularity
-    properties</span>](#Regularity_properties)
-    -   [<span class="tocnumber">3.1</span> <span
-        class="toctext">Reduction and separation
-        properties</span>](#Reduction_and_separation_properties)
-    -   [<span class="tocnumber">3.2</span> <span
-        class="toctext">Prewellordering, scale and uniformization
-        properties</span>](#Prewellordering.2C_scale_and_uniformization_properties)
--   [<span class="tocnumber">4</span> <span class="toctext">Projective
-    determinacy</span>](#Projective_determinacy)
-    -   [<span class="tocnumber">4.1</span> <span
-        class="toctext">Projective
-        ordinals</span>](#Projective_ordinals)
-    -   [<span class="tocnumber">4.2</span> <span
-        class="toctext">Projective determinacy from large
-        cardinals</span>](#Projective_determinacy_from_large_cardinals)
--   [<span class="tocnumber">5</span> <span class="toctext">Other
-    regularity properties</span>](#Other_regularity_properties)
-    -   [<span class="tocnumber">5.1</span> <span class="toctext">Trees,
-        towers of measures,
-        homogeneity</span>](#Trees.2C_towers_of_measures.2C_homogeneity)
-    -   [<span class="tocnumber">5.2</span> <span class="toctext">Suslin
-        sets and universally Baire
-        sets</span>](#Suslin_sets_and_universally_Baire_sets)
-        -   [<span class="tocnumber">5.2.1</span> <span
-            class="toctext">Generically
-            absolute</span>](#Generically_absolute)
-    -   [<span class="tocnumber">5.3</span> <span
-        class="toctext">$\\text{AD}^+$ and ${}^\\infty$borel
-        sets</span>](#.24.5Ctext.7BAD.7D.5E.2B.24_and_.24.7B.7D.5E.5Cinfty.24borel_sets)
-    -   [<span class="tocnumber">5.4</span> <span class="toctext">Woodin
-        cardinals</span>](#Woodin_cardinals)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Projective sets
@@ -249,7 +202,7 @@ $E$ is a $\\mathbf{\\Sigma}^1\_1$ equivalence relation on
 $\\omega^\\omega$ then either $E$ has at most $\\aleph\_1$ equivalence
 classes or there exists a perfect set of mutually inequivalent reals.
 
-### <span id="Reduction_and_separation_properties" class="mw-headline">Reduction and separation properties</span>
+### Reduction and separation properties
 
 For any four sets $A$, $B$, $A'$ and $B'$, $(A',B')$ *reduces* $(A,B)$
 if $A'\\subseteq A$, $B'\\subseteq B$, $A'\\cup B'=A\\cup B$, but
@@ -269,7 +222,7 @@ If $\\Gamma$ has the reduction property, then $\\neg\\Gamma$ has the
 separation property but not the reduction property. It is impossible for
 $\\Gamma$ to have both the reduction and the separation properties.
 
-### <span id="Prewellordering.2C_scale_and_uniformization_properties" class="mw-headline">Prewellordering, scale and uniformization properties</span>
+### Prewellordering, scale and uniformization properties
 
 A *norm* on a set $A$ is a function $\\varphi:A\\to\\text{Ord}$ from $A$
 to the ordinals. A *prewellordering* is a relation $\\preceq$ that is
@@ -385,7 +338,7 @@ $U$ on a measurable cardinal $\\kappa$, then every $\\Sigma^1\_n(a)$ has
 the reduction and prewellordering properties for $n\\geq 2$ and every
 $a\\in\\omega^\\omega$.
 
-### <span id="Projective_ordinals" class="mw-headline">Projective ordinals</span>
+### Projective ordinals
 
 For every pointclass $\\Gamma$, define $\\delta\_\\Gamma$ as the
 supremum of the length of $\\Gamma$ prewellorderings of
@@ -426,7 +379,7 @@ $\\delta^1\_{2n+1}$-Borel. Now, assume $\\text{AD+DC}$; then a set $A$
 is $\\mathbf{\\Sigma}^1\_{2n+2}$ if and only if it is the union of
 $\\delta^1\_{2n+1}$-many sets that are $\\mathbf{\\Delta}^1\_{2n+1}$.
 
-### <span id="Projective_determinacy_from_large_cardinals" class="mw-headline">Projective determinacy from large cardinals</span>
+### Projective determinacy from large cardinals
 
 Woodin showed that $\\mathbf{\\Pi}^1\_{n+1}$-determinacy follows from
 the existence of $n$
@@ -477,7 +430,7 @@ cardinals by James Cummings and Foreman.
 
 ## Other regularity properties
 
-### <span id="Trees.2C_towers_of_measures.2C_homogeneity" class="mw-headline">Trees, towers of measures, homogeneity</span>
+### Trees, towers of measures, homogeneity
 
 For any set $X$, define $X^{&lt;\\omega}$ to be the set of all finite
 sequences of elements in $X$. Given a sequence $s\\in X^{&lt;\\omega}$,
@@ -557,7 +510,7 @@ $\\alpha$-homogeneous for all $\\alpha&lt;\\delta$. It is *homogeneous*
 if it is $\\delta$-homogeneous for some $\\delta$. Homogeneity is a much
 more restrictive condition than weak homogeneity.
 
-### <span id="Suslin_sets_and_universally_Baire_sets" class="mw-headline">Suslin sets and universally Baire sets</span>
+### Suslin sets and universally Baire sets
 
 A set of reals $A$ is *$\\kappa$-Suslin* iff it is the projection of
 some tree on $\\omega\\times\\kappa$. $A$ is *Suslin* iff it is
@@ -632,7 +585,7 @@ $\\mathbf{\\Sigma}^1\_2$ set of reals is universally Baire.
 (compare [Axioms of generic
 absoluteness](Axioms_of_generic_absoluteness "Axioms of generic absoluteness"))
 
-### <span id=".24.5Ctext.7BAD.7D.5E.2B.24_and_.24.7B.7D.5E.5Cinfty.24borel_sets" class="mw-headline">$\\text{AD}^+$ and ${}^\\infty$borel sets</span>
+### $\\text{AD}^+$ and ${}^\\infty$borel sets
 
 A set of reals is ${}^\\infty$borel iff there is a class of ordinals
 $S$, an ordinal $\\alpha$ and a formula $\\varphi(x\_0,x\_1)$ such that
@@ -669,7 +622,7 @@ Then $L(A,\\mathbb{R})\\models\\text{AD}^+$ and if
 $\\Gamma\\neq\\mathcal{P}(\\mathbb{R})$ then
 $L(A,\\mathbb{R})\\models\\text{AD}\_\\mathbb{R}\\text{+DC}$.
 
-### <span id="Woodin_cardinals" class="mw-headline">Woodin cardinals</span>
+### Woodin cardinals
 
 If $\\delta$ is a limit of Woodin cardinals and $A$ is a set of reals
 then the following are equivalent:

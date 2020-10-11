@@ -2,7 +2,6 @@
 title: Zero
 permalink: Zero
 ---
-# Zero
 
 
 

@@ -2,7 +2,6 @@
 title: Category:Infinite cardinals
 permalink: Category:Infinite_cardinals
 ---
-# Category:Infinite cardinals
 
 
 

@@ -2,7 +2,6 @@
 title: The ordinals of infinite time Turing machines
 permalink: Infinite_time_Turing_machines
 ---
-# The ordinals of infinite time Turing machines
 
 
 

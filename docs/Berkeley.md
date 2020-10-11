@@ -2,7 +2,6 @@
 title: Berkeley
 permalink: Berkeley
 ---
-# Berkeley
 
 
 

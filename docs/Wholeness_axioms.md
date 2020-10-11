@@ -1,17 +1,10 @@
 ---
 title: The Wholeness Axioms
 permalink: Wholeness_axioms
+redirect_from:
+  - I4
+  - Wholeness_axiom
 ---
-# The Wholeness Axioms
-
-
-
-
-
-
-
-
-
 
 
 The wholeness axioms, proposed by Paul Corazza

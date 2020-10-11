@@ -2,7 +2,6 @@
 title: Hardy hierarchy
 permalink: Hardy_hierarchy
 ---
-# Hardy hierarchy
 
 
 

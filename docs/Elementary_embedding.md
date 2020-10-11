@@ -2,16 +2,6 @@
 title: Elementary embedding
 permalink: Elementary_embedding
 ---
-# Elementary embedding
-
-
-
-
-
-
-
-
-
 
 
 Given two transitive structures $\\mathcal{M}$ and $\\mathcal{N}$, an
@@ -28,24 +18,6 @@ The critical point is the smallest ordinal moved by $j$. By $j$'s
 elementarity, $j(\\kappa)$ must also be an ordinal, and therefore it is
 comparable with $\\kappa$. It is easy to see why
 $j(\\kappa)\\leq\\kappa$ is impossible, thus $j(\\kappa)&gt;\\kappa$.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definition</span>](#Definition)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Tarski-Vaught Test</span>](#Tarski-Vaught_Test)
--   [<span class="tocnumber">3</span> <span class="toctext">Use in Large
-    Cardinal Axioms</span>](#Use_in_Large_Cardinal_Axioms)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">Absoluteness</span>](#Absoluteness)
-    -   [<span class="tocnumber">4.1</span> <span class="toctext">In the
-        language of game theory</span>](#In_the_language_of_game_theory)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Definition
@@ -263,7 +235,7 @@ arrange that $j^∗$ agrees with $j$ on any given finite set of values and
 that, if appropriate, $crit(j) =
 crit(j^\*)$.\[[2](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
 
-### <span id="In_the_language_of_game_theory" class="mw-headline">In the language of game theory</span>
+### In the language of game theory
 
 To every pair of structures B and A of the same type, one can associate
 a closed game $G(B, A)$ (variant of an Ehrenfeucht-Fraı̈ssé game) such

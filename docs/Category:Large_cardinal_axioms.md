@@ -2,7 +2,6 @@
 title: Category:Large cardinal axioms
 permalink: Category:Large_cardinal_axioms
 ---
-# Category:Large cardinal axioms
 
 
 

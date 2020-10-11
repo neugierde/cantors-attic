@@ -2,7 +2,6 @@
 title: Busy beaver function
 permalink: Busy_beaver_function
 ---
-# Busy beaver function
 
 
 

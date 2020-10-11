@@ -2,19 +2,7 @@
 title: Mahlo cardinal
 permalink: Mahlo
 ---
-# Mahlo cardinal
 
-
-
-
-
-
-
-
-
-
-
-  
 A cardinal $\\kappa$ is *Mahlo* if and only if it is
 [inaccessible](Inaccessible "Inaccessible")
 and the
@@ -35,22 +23,6 @@ cardinals below $\\kappa$ are stationary.
 
 Mahlo cardinals belong to the oldest large cardinals together with
 inaccessible and measurable. *Please add more history.*
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Weakly
-    Mahlo</span>](#Weakly_Mahlo)
--   [<span class="tocnumber">2</span> <span class="toctext">Hyper-Mahlo
-    etc.</span>](#Hyper-Mahlo_etc.)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">$\\Sigma\_n$-Mahlo
-    etc.</span>](#.24.5CSigma_n.24-Mahlo_etc.)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Weakly Mahlo
 

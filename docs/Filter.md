@@ -1,17 +1,10 @@
 ---
 title: Filters and ideals
 permalink: Filter
+redirect_from:
+  - Measure
+  - Ultrafilter
 ---
-# Filters and ideals
-
-
-
-
-
-
-
-
-
 
 
 A *filter* on a set $S$ is a special subset of $\\mathcal{P}(S)$ that
@@ -51,45 +44,6 @@ then it is itself too small.
 *Most of the results in this article can be found in
 \[[1](#bibkey_Jech2003:SetTheory)\] or
 \[[2](#bibkey_Kanamori2009:HigherInfinite)\].*
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definitions</span>](#Definitions)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Properties</span>](#Properties)
--   [<span class="tocnumber">3</span> <span class="toctext">The
-    nonstationary ideal and the club
-    filter</span>](#The_nonstationary_ideal_and_the_club_filter)
--   [<span class="tocnumber">4</span> <span class="toctext">Saturated
-    ideals</span>](#Saturated_ideals)
--   [<span class="tocnumber">5</span> <span class="toctext">Dense
-    ideals</span>](#Dense_ideals)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">Ultrapowers</span>](#Ultrapowers)
--   [<span class="tocnumber">7</span> <span class="toctext">Precipitous
-    ideals</span>](#Precipitous_ideals)
-    -   [<span class="tocnumber">7.1</span> <span
-        class="toctext">Equivalent
-        definitions</span>](#Equivalent_definitions)
-    -   [<span class="tocnumber">7.2</span> <span
-        class="toctext">Consistency
-        results</span>](#Consistency_results)
--   [<span class="tocnumber">8</span> <span
-    class="toctext">Measures</span>](#Measures)
-    -   [<span class="tocnumber">8.1</span> <span
-        class="toctext">Properties</span>](#Properties_2)
--   [<span class="tocnumber">9</span> <span class="toctext">Normal and
-    fine filters</span>](#Normal_and_fine_filters)
--   [<span class="tocnumber">10</span> <span class="toctext">Large
-    cardinals</span>](#Large_cardinals)
--   [<span class="tocnumber">11</span> <span class="toctext">See
-    Also</span>](#See_Also)
--   [<span class="tocnumber">12</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Definitions
@@ -369,7 +323,7 @@ $\\kappa$ is precipitous. If $\\kappa$ is the successor of a regular
 cardinal then there is no normal fine precipitous ideal on
 $\[\\kappa\]^\\kappa$.
 
-### <span id="Equivalent_definitions" class="mw-headline">Equivalent definitions</span>
+### Equivalent definitions
 
 Consider the following infinite game $\\mathcal{G}\_I$: two players,
 Empty and Nonempty, alternatively choose sets $S\_n$ such that
@@ -406,7 +360,7 @@ $\\kappa$:
     that $X\_n\\in W\_n$ for all $n$ and $\\bigcap^\\infty\_{n=0}X\_n$
     is nonempty.
 
-### <span id="Consistency_results" class="mw-headline">Consistency results</span>
+### Consistency results
 
 The existence of a precipitous ideal on a regular uncountable cardinal
 implies the consistency of the existence of an inner model of
@@ -471,7 +425,7 @@ determinacy](Axiom_of_determinacy "Axiom of determinacy").
 *(See also
 [projective](Projective "Projective"))*
 
-### <span id="Properties_2" class="mw-headline">Properties</span>
+### Properties
 
 -   Let $\\mu$ be a 2-valued measure on $S$. Then $\\{X\\subseteq S :
     \\mu(X)=1\\}$ is a $\\sigma$-complete ultrafilter on $S$.

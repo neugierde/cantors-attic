@@ -2,17 +2,6 @@
 title: Unfoldable cardinal
 permalink: Unfoldable
 ---
-# Unfoldable cardinal
-
-
-
-
-
-
-
-
-
-
 
 The unfoldable cardinals were introduced by Andres Villaveces in order
 to generalize the definition of [weak
@@ -24,31 +13,6 @@ generalization of
 [huge](Huge "Huge")
 cardinals to superhuge cardinals.
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definition</span>](#Definition)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Unfoldable</span>](#Unfoldable)
-    -   [<span class="tocnumber">1.2</span> <span class="toctext">Long
-        Unfoldable</span>](#Long_Unfoldable)
-    -   [<span class="tocnumber">1.3</span> <span
-        class="toctext">Strongly
-        Unfoldable</span>](#Strongly_Unfoldable)
-    -   [<span class="tocnumber">1.4</span> <span
-        class="toctext">Superstrongly
-        Unfoldable</span>](#Superstrongly_Unfoldable)
--   [<span class="tocnumber">2</span> <span class="toctext">Relations to
-    Other Cardinals</span>](#Relations_to_Other_Cardinals)
--   [<span class="tocnumber">3</span> <span class="toctext">Relation to
-    forcing</span>](#Relation_to_forcing)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## Definition
 
 There are unfoldable cardinals and strongly unfoldable cardinals, as
@@ -58,7 +22,7 @@ uplifting](Uplifting "Uplifting"))
 cardinals. All of these are generalizations of [weak
 compactness](Weakly_compact "Weakly compact").
 
-### <span id="Unfoldable" class="mw-headline">Unfoldable</span>
+### Unfoldable
 
 A cardinal $\\kappa$ is **$\\theta$-unfoldable** iff for every
 $A\\subseteq\\kappa$, there is some transitive $M$ with $A\\in
@@ -108,7 +72,7 @@ and a bit of excess information, and this can be done arbitrarily many
 times on the iterated results of "unfolding".
 \[[1](#bibkey_Villaveces1996:ChainsEndElementaryExtensionsModels)\]
 
-### <span id="Long_Unfoldable" class="mw-headline">Long Unfoldable</span>
+### Long Unfoldable
 
 $\\kappa$ is **long unfoldable** iff for any $S\\subseteq\\kappa$,
 letting $\\mathcal{E}$ be the class of all eees of
@@ -118,7 +82,7 @@ $\\text{Ord}$.
 Every long unfoldable cardinal is unfoldable.
 \[[1](#bibkey_Villaveces1996:ChainsEndElementaryExtensionsModels)\]
 
-### <span id="Strongly_Unfoldable" class="mw-headline">Strongly Unfoldable</span>
+### Strongly Unfoldable
 
 A cardinal $\\kappa$ is **$\\theta$-strongly unfoldable** iff for every
 $A\\subseteq\\kappa$, there is some transitive $M$ with $A\\in
@@ -146,7 +110,7 @@ critical point $\\kappa$ with $j(\\kappa)&gt;\\max\\{\\theta,
 unfoldable of every degree $\\beta &lt; \\alpha$ in
 $N$.\[[3](#bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms)\]
 
-### <span id="Superstrongly_Unfoldable" class="mw-headline">Superstrongly Unfoldable</span>
+### Superstrongly Unfoldable
 
 Superstrongly unfoldable and almost-hugely unfoldable cardinals are
 defined and shown to be equivalent to [strongly

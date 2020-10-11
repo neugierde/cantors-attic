@@ -2,17 +2,6 @@
 title: Measurable cardinal
 permalink: Measurable
 ---
-# Measurable cardinal
-
-
-
-
-
-
-
-
-
-
 
 A **measurable cardinal** $\\kappa$ is an
 <a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
@@ -27,41 +16,6 @@ embedding](Elementary_embedding "Elementary embedding")
 $j:V\\to M$.
 
 Measurable cardinals were introduced by Stanislaw Ulam in 1930.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definitions</span>](#Definitions)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Embedding
-        Characterization</span>](#Embedding_Characterization)
-    -   [<span class="tocnumber">1.2</span> <span class="toctext">Hayut
-        Property</span>](#Hayut_Property)
-    -   [<span class="tocnumber">1.3</span> <span class="toctext">Other
-        Embedding
-        Characterizations</span>](#Other_Embedding_Characterizations)
-    -   [<span class="tocnumber">1.4</span> <span
-        class="toctext">Category Theoretic
-        Characterization</span>](#Category_Theoretic_Characterization)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Properties</span>](#Properties)
-    -   [<span class="tocnumber">2.1</span> <span
-        class="toctext">Failure of $\\text{GCH}$ at a
-        measurable</span>](#Failure_of_.24.5Ctext.7BGCH.7D.24_at_a_measurable)
--   [<span class="tocnumber">3</span> <span class="toctext">Real-valued
-    measurable cardinal</span>](#Real-valued_measurable_cardinal)
--   [<span class="tocnumber">4</span> <span class="toctext">Virtually
-    measurable cardinal</span>](#Virtually_measurable_cardinal)
--   [<span class="tocnumber">5</span> <span class="toctext">See
-    also</span>](#See_also)
--   [<span class="tocnumber">6</span> <span class="toctext">Read
-    more</span>](#Read_more)
--   [<span class="tocnumber">7</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Definitions
 
@@ -103,7 +57,7 @@ the 2-measurable cardinals, the first one being an initial segment of
 $C$, and therefore this notion is of weak interest for the study of the
 hierarchy of large cardinals.
 
-### <span id="Embedding_Characterization" class="mw-headline">Embedding Characterization</span>
+### Embedding Characterization
 
 Theorem 2 : The following are equivalent :
 
@@ -144,7 +98,7 @@ Therefore, the two notions are equiconsistent, but in the general case
 they differ : every measurable cardinal is 2-measurable, and the
 converse is false.
 
-### <span id="Hayut_Property" class="mw-headline">Hayut Property</span>
+### Hayut Property
 
 There is also another quite interesting model-theoretic characterization
 of measurability. Let a theory $T$ be $\\kappa$-unboundedly satisfiable
@@ -201,7 +155,7 @@ logic is $\\kappa$-Hayut.
 For more information, see
 <a href="https://mathoverflow.net/questions/309896/a-weakening-of-cardinal-compactness-is-it-equivalent/309937" class="external text">this post</a>.
 
-### <span id="Other_Embedding_Characterizations" class="mw-headline">Other Embedding Characterizations</span>
+### Other Embedding Characterizations
 
 There are also other embedding characterizations of measurable
 cardinals. Namely (under
@@ -328,7 +282,7 @@ little more difficult than usual:
     $\\kappa\\in j(\\cap F)$ and so $\\cap F\\in U$. ($U$ is
     $\\kappa$-complete).
 
-### <span id="Category_Theoretic_Characterization" class="mw-headline">Category Theoretic Characterization</span>
+### Category Theoretic Characterization
 
 Interestingly, measurable cardinals have certain category theoretic
 properties about them. This connection is likely at heart due to the
@@ -492,7 +446,7 @@ $n$.\[[8](#bibkey_Bagaria2012:CnCardinals)\]
 *See also:
 [Ultrapower](Ultrapower "Ultrapower")*
 
-### <span id="Failure_of_.24.5Ctext.7BGCH.7D.24_at_a_measurable" class="mw-headline">Failure of $\\text{GCH}$ at a measurable</span>
+### Failure of $\\text{GCH}$ at a measurable
 
 Gitik proved that the following statements are equiconsistent:
 

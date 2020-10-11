@@ -2,36 +2,9 @@
 title: The Empty Set
 permalink: Empty_set
 ---
-# The Empty Set
 
 
-
-
-
-
-
-
-
-
-
-  
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definition</span>](#Definition)
-    -   [<span class="tocnumber">1.1</span> <span class="toctext">As A
-        Poset</span>](#As_A_Poset)
-    -   [<span class="tocnumber">1.2</span> <span class="toctext">As An
-        Ordinal</span>](#As_An_Ordinal)
-    -   [<span class="tocnumber">1.3</span> <span class="toctext">As a
-        Function\\Relation</span>](#As_a_Function.5CRelation)
-
-
-# <span id="Definition" class="mw-headline">Definition</span>
+# Definition
 
 The empty set (denoted $\\emptyset$ or $\\varnothing$) is the only set
 $S$ such that $\\neg\\exists a(a\\in S)$. It contains absolutely no

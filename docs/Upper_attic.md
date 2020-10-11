@@ -1,8 +1,8 @@
 ---
 title: The upper attic
 permalink: Upper_attic
+toc: false
 ---
-# The upper attic
 
 
 ![Cape Pogue Lighthouse photo by Timothy Valentine](assets/img/CapePogueLighthouse_medium.jpg)

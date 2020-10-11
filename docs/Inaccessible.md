@@ -1,19 +1,11 @@
 ---
 title: Inaccessible cardinal
 permalink: Inaccessible
+redirect_from:
+  - Grothendieck_universe
+  - Universe_axiom
+  - Weakly_inaccessible
 ---
-# Inaccessible cardinal
-
-
-
-
-
-
-
-
-
-
-
   
 Inaccessible cardinals are the traditional entry-point to the large
 cardinal hierarchy, although weaker notions such as the
@@ -65,27 +57,6 @@ An ordinal $\\alpha$ being inaccessible is equivalent to the following:
 -   $\\alpha = R\_{\\beth\_\\alpha}$.
 -   $\\alpha$ is a weakly inaccessible strong limit cardinal (see weakly
     inaccessible below).
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Weakly
-    inaccessible cardinal</span>](#Weakly_inaccessible_cardinal)
--   [<span class="tocnumber">2</span> <span class="toctext">Levy
-    collapse</span>](#Levy_collapse)
--   [<span class="tocnumber">3</span> <span class="toctext">Inaccessible
-    to reals</span>](#Inaccessible_to_reals)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">Universes</span>](#Universes)
--   [<span class="tocnumber">5</span> <span class="toctext">Degrees of
-    inaccessibility</span>](#Degrees_of_inaccessibility)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">Hyper-inaccessible and
-    more</span>](#Hyper-inaccessible_and_more)
--   [<span class="tocnumber">7</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Weakly inaccessible cardinal

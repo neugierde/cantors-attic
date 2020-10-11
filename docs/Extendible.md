@@ -1,17 +1,10 @@
 ---
 title: Extendible cardinal
 permalink: Extendible
+redirect_from:
+  - Completely_remarkable
+  - N-remarkable
 ---
-# Extendible cardinal
-
-
-
-
-
-
-
-
-
 
 
 A cardinal $\\kappa$ is *$\\eta$-extendible* for an ordinal $\\eta$ if
@@ -24,40 +17,6 @@ Equivalently, for every ordinal $\\alpha$ there is a nontrivial
 elementary embedding $j:V\_{\\kappa+\\alpha+1}\\to
 V\_{j(\\kappa)+j(\\alpha)+1}$ with critical point $\\kappa$.
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Alternative
-    definition</span>](#Alternative_definition)
--   [<span class="tocnumber">2</span> <span class="toctext">Relation to
-    Other Large Cardinals</span>](#Relation_to_Other_Large_Cardinals)
-    -   [<span class="tocnumber">2.1</span> <span
-        class="toctext">Supercompactness</span>](#Supercompactness)
-    -   [<span class="tocnumber">2.2</span> <span class="toctext">Strong
-        Compactness</span>](#Strong_Compactness)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">Variants</span>](#Variants)
-    -   [<span class="tocnumber">3.1</span> <span
-        class="toctext">$C^{(n)}$-extendible
-        cardinals</span>](#.24C.5E.7B.28n.29.7D.24-extendible_cardinals)
-    -   [<span class="tocnumber">3.2</span> <span
-        class="toctext">$(\\Sigma\_n,\\eta)$-extendible
-        cardinals</span>](#.24.28.5CSigma_n.2C.5Ceta.29.24-extendible_cardinals)
-    -   [<span class="tocnumber">3.3</span> <span
-        class="toctext">$\\Sigma\_n$-extendible
-        cardinals</span>](#.24.5CSigma_n.24-extendible_cardinals)
-    -   [<span class="tocnumber">3.4</span> <span
-        class="toctext">$A$-extendible
-        cardinals</span>](#.24A.24-extendible_cardinals)
-    -   [<span class="tocnumber">3.5</span> <span
-        class="toctext">Virtually extendible
-        cardinals</span>](#Virtually_extendible_cardinals)
--   [<span class="tocnumber">4</span> <span class="toctext">In
-    set-theoretic geology</span>](#In_set-theoretic_geology)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## Alternative definition
@@ -104,7 +63,7 @@ Hyper-[huge](Huge "Huge")
 cardinals are extendible limits of extendible
 cardinals.\[[1](#bibkey_Usuba2018:ExtendibleCardinalsAndTheMantle)\]
 
-### <span id="Supercompactness" class="mw-headline">Supercompactness</span>
+### Supercompactness
 
 Extendibility is connected in strength with
 [supercompactness](Supercompact "Supercompact").
@@ -131,7 +90,7 @@ then there is a normal measure $U$ over $\\kappa$ such that
 $\\{\\lambda&lt;\\kappa:\\lambda\\text{ is
 }\\eta\\text{-extendible}\\}\\in U$.
 
-### <span id="Strong_Compactness" class="mw-headline">Strong Compactness</span>
+### Strong Compactness
 
 Interestingly, extendibility is also related to [strong
 compactness](Strongly_compact "Strongly compact").
@@ -151,7 +110,7 @@ least extendible cardinal.
 
 ## Variants
 
-### <span id=".24C.5E.7B.28n.29.7D.24-extendible_cardinals" class="mw-headline">$C^{(n)}$-extendible cardinals</span>
+### $C^{(n)}$-extendible cardinals
 
 (Information in this subsection from
 \[[3](#bibkey_Bagaria2012:CnCardinals)\] unless noted otherwise)
@@ -210,7 +169,7 @@ Properties:
     Then $κ$ and $j^m(κ)$ are $C^{(n)}$-extendible (inter alia) in
     $V\_δ$, for all $n$ and $m$.
 
-### <span id=".24.28.5CSigma_n.2C.5Ceta.29.24-extendible_cardinals" class="mw-headline">$(\\Sigma\_n,\\eta)$-extendible cardinals</span>
+### $(\\Sigma\_n,\\eta)$-extendible cardinals
 
 There are some variants of extendible cardinals because of the
 interesting jump in consistency strength from $0$-extendible cardinals
@@ -223,7 +182,7 @@ with critical point $\\kappa$, for some ordinal $\\theta$. These
 cardinals were introduced by Bagaria, Hamkins, Tsaprounis and Usuba
 \[[5](#bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible)\].
 
-### <span id=".24.5CSigma_n.24-extendible_cardinals" class="mw-headline">$\\Sigma\_n$-extendible cardinals</span>
+### $\\Sigma\_n$-extendible cardinals
 
 The special case of $\\eta=0$ leads to a much weaker notion.
 Specifically, a cardinal $\\kappa$ is *$\\Sigma\_n$-extendible* if it is
@@ -258,7 +217,7 @@ extendible, (almost)
 cardinals also
 cannot.\[[5](#bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible)\]
 
-### <span id=".24A.24-extendible_cardinals" class="mw-headline">$A$-extendible cardinals</span>
+### $A$-extendible cardinals
 
 (this subsection from
 \[[6](#bibkey_Hamkins2016:TheVopenkaPrincipleIs)\])
@@ -288,7 +247,7 @@ Results:
         $A$-extendible cardinals.
 -   ......
 
-### <span id="Virtually_extendible_cardinals" class="mw-headline">Virtually extendible cardinals</span>
+### Virtually extendible cardinals
 
 Definitions:
 

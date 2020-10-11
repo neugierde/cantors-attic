@@ -2,17 +2,6 @@
 title: The axioms of Kripke-Platek set theory
 permalink: Kripke-Platek
 ---
-# The axioms of Kripke-Platek set theory
-
-
-
-
-
-
-
-
-
-
 
 Kripke-Platek set theory ($\\text{KP}$) is a collection of axioms that
 is considerably weaker than
@@ -24,31 +13,6 @@ denote set membership.
 $L\_\\alpha$ is a model of $\\mathrm{KP}$ for
 [admissible](Admissible "Admissible")
 $\\alpha$.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Axiom of
-    Extensionality</span>](#Axiom_of_Extensionality)
--   [<span class="tocnumber">2</span> <span class="toctext">Axiom of
-    Null Set</span>](#Axiom_of_Null_Set)
--   [<span class="tocnumber">3</span> <span class="toctext">Axiom of
-    Pairing</span>](#Axiom_of_Pairing)
--   [<span class="tocnumber">4</span> <span class="toctext">Axiom of
-    Union</span>](#Axiom_of_Union)
--   [<span class="tocnumber">5</span> <span class="toctext">Axiom Schema
-    of Foundation</span>](#Axiom_Schema_of_Foundation)
--   [<span class="tocnumber">6</span> <span class="toctext">Axiom Schema
-    of
-    $\\Sigma\_0$-Separation</span>](#Axiom_Schema_of_.24.5CSigma_0.24-Separation)
--   [<span class="tocnumber">7</span> <span class="toctext">Axiom Schema
-    of
-    $\\Sigma\_0$-Collection</span>](#Axiom_Schema_of_.24.5CSigma_0.24-Collection)
--   [<span class="tocnumber">8</span> <span class="toctext">Axiom of
-    Infinity</span>](#Axiom_of_Infinity)
-
 
 ## Axiom of Extensionality
 

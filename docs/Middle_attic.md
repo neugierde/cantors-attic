@@ -1,8 +1,10 @@
 ---
 title: The middle attic
 permalink: Middle_attic
+redirect_from:
+  - The_middle_attic
+toc: false
 ---
-# The middle attic
 
 ![St. Augustine Lighthouse photo by Madrigar](assets/img/StAugustineLighthouse.jpg)
 

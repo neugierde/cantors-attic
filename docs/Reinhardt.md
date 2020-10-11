@@ -2,7 +2,6 @@
 title: Reinhardt
 permalink: Reinhardt
 ---
-# Reinhardt
 
 
 

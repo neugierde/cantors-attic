@@ -2,19 +2,7 @@
 title: Weakly measurable cardinals
 permalink: Weakly_measurable
 ---
-# Weakly measurable cardinals
 
-
-
-
-
-
-
-
-
-
-
-  
 The weakly measurable cardinals were introduced by Jason Schanker in
 \[[1](#bibkey_Schanker2011:WeaklyMeasurableCardinals)\],
 \[[2](#bibkey_Schanker2011:Thesis)\]. As their name suggests, they
@@ -27,29 +15,6 @@ concepts can separate. Nevertheless, the existence of a weakly
 measurable cardinal is equiconsistent with the existence of a measurable
 cardinal, since if $\\kappa$ is weakly measurable, then it is measurable
 in an inner model.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Formal
-    Definition</span>](#Formal_Definition)
--   [<span class="tocnumber">2</span> <span class="toctext">Embedding
-    characterizations of weak
-    measurability</span>](#Embedding_characterizations_of_weak_measurability)
--   [<span class="tocnumber">3</span> <span class="toctext">Weakly
-    measurable cardinals and inner
-    models</span>](#Weakly_measurable_cardinals_and_inner_models)
--   [<span class="tocnumber">4</span> <span class="toctext">Weakly
-    measurable cardinals and
-    forcing</span>](#Weakly_measurable_cardinals_and_forcing)
--   [<span class="tocnumber">5</span> <span class="toctext">Place in the
-    large cardinal
-    hierarchy</span>](#Place_in_the_large_cardinal_hierarchy)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Formal Definition
 

@@ -2,17 +2,6 @@
 title: Positive set theory
 permalink: Positive_set_theory
 ---
-# Positive set theory
-
-
-
-
-
-
-
-
-
-
 
 *Positive set theory* is the name of a certain group of axiomatic set
 theories originally created as an example of a (nonstandard) set
@@ -38,28 +27,6 @@ plus an axiom asserting that the class of all
 is [weakly
 compact](Weakly_compact "Weakly compact").
 \[[2](#bibkey_Esser96:InterpretationZFCandMKinPositiveTheory)\]
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Positive
-    formulas</span>](#Positive_formulas)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">$\\text{GPK}$ positive set
-    theories</span>](#.24.5Ctext.7BGPK.7D.24_positive_set_theories)
--   [<span class="tocnumber">3</span> <span class="toctext">As a
-    topological set theory</span>](#As_a_topological_set_theory)
--   [<span class="tocnumber">4</span> <span class="toctext">The axiom of
-    choice and $\\text{GPK}$ set
-    theories</span>](#The_axiom_of_choice_and_.24.5Ctext.7BGPK.7D.24_set_theories)
--   [<span class="tocnumber">5</span> <span class="toctext">Other
-    positive set theories and the inconsistency of the axiom of
-    extensionality</span>](#Other_positive_set_theories_and_the_inconsistency_of_the_axiom_of_extensionality)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Positive formulas
 

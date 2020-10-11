@@ -2,17 +2,6 @@
 title: High-jump
 permalink: High-jump
 ---
-# High-jump
-
-
-
-
-
-
-
-
-
-
 
 *High-jump* cardinals are a certain kind of large cardinals. A cardinal
 $\\kappa$ is *high-jump* if it is the critical point of an [elementary
@@ -22,21 +11,6 @@ $\\text{sup}\\{j(f)(\\kappa)\|f:\\kappa\\to\\kappa\\}$. This closure
 condition is a weakening of the definition of a
 [huge](Huge "Huge")
 cardinal.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definition</span>](#Definition)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Properties</span>](#Properties)
--   [<span class="tocnumber">3</span> <span class="toctext">Name
-    origin</span>](#Name_origin)
--   [<span class="tocnumber">4</span> <span class="toctext">Read
-    More</span>](#Read_More)
-
 
 ## Definition
 

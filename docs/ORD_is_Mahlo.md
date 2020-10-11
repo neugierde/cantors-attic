@@ -1,8 +1,7 @@
 ---
-title: $\\text{Ord}$ is Mahlo
+title: $\text{Ord}$ is Mahlo
 permalink: ORD_is_Mahlo
 ---
-# $\\text{Ord}$ is Mahlo
 
 
 

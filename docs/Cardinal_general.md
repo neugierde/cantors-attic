@@ -2,7 +2,6 @@
 title: General cardinal, without the axiom of choice
 permalink: Cardinal_general
 ---
-# General cardinal, without the axiom of choice
 
 
 

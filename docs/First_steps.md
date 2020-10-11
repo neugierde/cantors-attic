@@ -2,40 +2,8 @@
 title: First steps to infinity and beyond
 permalink: First_steps
 ---
-# First steps to infinity and beyond
 
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Axioms</span>](#Axioms)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Finitism</span>](#Finitism)
-    -   [<span class="tocnumber">1.2</span> <span
-        class="toctext">Letting Infinity
-        Exist</span>](#Letting_Infinity_Exist)
--   [<span class="tocnumber">2</span> <span class="toctext">Cardinals
-    and Ordinals</span>](#Cardinals_and_Ordinals)
--   [<span class="tocnumber">3</span> <span class="toctext">The
-    Intuition of Large Cardinal
-    Axioms</span>](#The_Intuition_of_Large_Cardinal_Axioms)
-
-
-# <span id="Axioms" class="mw-headline">Axioms</span>
+# Axioms
 
 In math, there are several philosophical liberties that could be taken.
 **The axioms** declare the absolute rules of math; what can and can't be
@@ -92,7 +60,7 @@ When there is a **bijection** between two sets, we say the sets have the
 same **cardinality**. We then assign numbers to sets based upon their
 cardinality; a measure of size.
 
-# <span id="Cardinals_and_Ordinals" class="mw-headline">Cardinals and Ordinals</span>
+# Cardinals and Ordinals
 
 The **ordinals** are defined in a way that extends the natural numbers.
 
@@ -135,7 +103,7 @@ For ordinals, $\\alpha,\\beta,\\gamma,$ and $\\delta$ are often used as
 variables. For cardinals, $\\kappa,\\lambda,$ and $\\mu$ are often used,
 though $\\mu$ is used less often.
 
-# <span id="The_Intuition_of_Large_Cardinal_Axioms" class="mw-headline">The Intuition of Large Cardinal Axioms</span>
+# The Intuition of Large Cardinal Axioms
 
 Large cardinal axioms may have some intuition behind them. For example:
 

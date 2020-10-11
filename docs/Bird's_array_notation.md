@@ -2,65 +2,12 @@
 title: Bird's array notation
 permalink: Bird's_array_notation
 ---
-# Bird's array notation
-
-
-
-
-
-
-
-
-
 
 
 Bird's array notation is a parallel notation to
 [BEAF](BEAF "BEAF").
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Linear
-    arrays</span>](#Linear_arrays)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Example</span>](#Example)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Multidimentional
-    arrays</span>](#Multidimentional_arrays)
-    -   [<span class="tocnumber">2.1</span> <span
-        class="toctext">Example</span>](#Example_2)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">Hyperdimentional
-    arrays</span>](#Hyperdimentional_arrays)
-    -   [<span class="tocnumber">3.1</span> <span
-        class="toctext">Example</span>](#Example_3)
--   [<span class="tocnumber">4</span> <span class="toctext">Nested
-    arrays</span>](#Nested_arrays)
-    -   [<span class="tocnumber">4.1</span> <span
-        class="toctext">Example</span>](#Example_4)
--   [<span class="tocnumber">5</span> <span class="toctext">Hyper-Nested
-    arrays</span>](#Hyper-Nested_arrays)
-    -   [<span class="tocnumber">5.1</span> <span
-        class="toctext">Examples</span>](#Examples)
--   [<span class="tocnumber">6</span> <span class="toctext">Nested
-    Hyper-Nested arrays</span>](#Nested_Hyper-Nested_arrays)
-    -   [<span class="tocnumber">6.1</span> <span
-        class="toctext">Negations</span>](#Negations)
-        -   [<span class="tocnumber">6.1.1</span> <span
-            class="toctext">Examples</span>](#Examples_2)
-    -   [<span class="tocnumber">6.2</span> <span
-        class="toctext">Hierarchal
-        backslashes</span>](#Hierarchal_backslashes)
--   [<span class="tocnumber">7</span> <span class="toctext">Hierarchal
-    Hyper-Nested arrays</span>](#Hierarchal_Hyper-Nested_arrays)
--   [<span class="tocnumber">8</span> <span class="toctext">Nested
-    Hierarchal Hyper-Nested
-    arrays</span>](#Nested_Hierarchal_Hyper-Nested_arrays)
-
-
-# <span id="Linear_arrays" class="mw-headline">Linear arrays</span>
+# Linear arrays
 
 -   **Rule 1**. With one or two entries, we have \\(\\{a\\} = a\\),
     \\(\\{a,b\\} = a^b\\).
@@ -90,7 +37,7 @@ Limit: \\(\\{n,n\[2\]2\\}\\) has growth rate \\(\\omega^\\omega\\)
 \\{3,3,\\{3,7625597484987,2\\}\\} \\\\ &=&
 3\\uparrow^{3\\uparrow\\uparrow7625597484987}3 \\end{eqnarray\*}
 
-# <span id="Multidimentional_arrays" class="mw-headline">Multidimentional arrays</span>
+# Multidimentional arrays
 
 -   **Rule M1**. If there are only two entries, \\(\\{a, b\\} = a^b\\).
 -   **Rule M2**. If \\(m &lt; n\\), we have \\(\\{\\\# \[m\] 1 \[n\]
@@ -135,7 +82,7 @@ Limit: \\(\\{n,n\[1,2\]2\\}\\) has growth rate
 \\{3,\\{3,\\{3,\\{3,\\{3,3\[2\]1,3\\}\[2\]1,3\\},2\[2\]1,3\\}\[2\]2,3\\},2\[2\]2,3\\}
 \\end{eqnarray\*}
 
-# <span id="Hyperdimentional_arrays" class="mw-headline">Hyperdimentional arrays</span>
+# Hyperdimentional arrays
 
 -   **Rule M1**. If there are only two entries, \\(\\{a, b\\} = a^b\\).
 -   **Rule M2**. If \\(m &lt; n\\), we have \\(\\{\\\# \[m\] 1 \[n\]
@@ -186,7 +133,7 @@ Limit: \\(\\{n,n\[1\[2\]2\]2\\}\\) has growth rate \\(^4 \\omega\\)
 \\{3,3\[2\]3,3\[1,2\]3,3\[2\]3,3\[2,2\]3,3\[2\]3,3\[1,2\]3,3\[2\]3,3\\}
 \\end{eqnarray\*}
 
-# <span id="Nested_arrays" class="mw-headline">Nested arrays</span>
+# Nested arrays
 
 Main rules will remain the same forever.
 
@@ -221,7 +168,7 @@ Limit: \\(\\{n,n\[1\\backslash2\]2\\}\\) has growth rate
 \\{3,3\[2\]3,3\[1,2\]3,3\[2\]3,3\[2,2\]3,3\[2\]3,3\[1,2\]3,3\[2\]3,3\\}
 \\end{eqnarray\*}
 
-# <span id="Hyper-Nested_arrays" class="mw-headline">Hyper-Nested arrays</span>
+# Hyper-Nested arrays
 
 -   **Rule A1**. If \\(c = 0\\), we have \\(\\textrm\` a \\langle 0
     \\rangle b \\textrm' = \\textrm\` a \\textrm'\\) and \\(\\textrm\` a
@@ -306,7 +253,7 @@ Limit: \\(\\{n,n\[1/2\]2\\}\\) has growth rate \\(\\Gamma\_0\\).
 \\backslash 2\]3,3\[2\]3,3\[2 \\backslash 2\]3,3\[2\]3,3\[1 \\backslash
 2\]3,3\[2\]3,3\\} \\end{eqnarray\*}
 
-# <span id="Nested_Hyper-Nested_arrays" class="mw-headline">Nested Hyper-Nested arrays</span>
+# Nested Hyper-Nested arrays
 
 This part consists of 2 parts.
 
@@ -377,7 +324,7 @@ Note: \\(\\\#, \\\#^\*, and \\%\\) does not contain \\(\\neg\\)s.
 Limit: \\(\\{n,n\[1\[1\\neg1\\neg2\]2\]2\\}\\) has growth rate
 \\(\\theta(\\Omega^\\Omega)\\).
 
-### <span id="Examples_2" class="mw-headline">Examples</span>
+### Examples
 
 \\begin{eqnarray\*} \\{3 \\langle 0 \[1 \\neg 1 \\backslash 2\] 2
 \\rangle 3\\} &=& \\{3 \\langle 3 \\langle 3 \\neg
@@ -451,8 +398,8 @@ A\_{i,1,1}' \\rangle b \[A\_{i,1,1}\] b \\langle A\_{i,1,2}' \\rangle b
     \[c \\\#\] \\cdots \[c \\\#\] a \\langle c-1 \\\# \\rangle b}\_b
     \\textrm'\\).
 
-# <span id="Hierarchal_Hyper-Nested_arrays" class="mw-headline">Hierarchal Hyper-Nested arrays</span>
+# Hierarchal Hyper-Nested arrays
 
-# <span id="Nested_Hierarchal_Hyper-Nested_arrays" class="mw-headline">Nested Hierarchal Hyper-Nested arrays</span>
+# Nested Hierarchal Hyper-Nested arrays
 
 

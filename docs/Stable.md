@@ -2,17 +2,6 @@
 title: Stable
 permalink: Stable
 ---
-# Stable
-
-
-
-
-
-
-
-
-
-
 
 Stability was developed as a large countable ordinal property in order
 to try to generalize the different strengthened variants of
@@ -24,21 +13,6 @@ argue that stability is a weakening of
 [$\\Sigma\_1$-correctness](Reflecting "Reflecting")
 (which is trivial) to a nontrivial form.
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Definition
-    and Variants</span>](#Definition_and_Variants)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Variants</span>](#Variants)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Properties</span>](#Properties)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## Definition and Variants
 
 Stability is defined using a reflection principle. A countable ordinal
@@ -46,7 +20,7 @@ $\\alpha$ is called **stable** iff $L\_\\alpha\\prec\_{\\Sigma\_1}L$;
 equivalently, $L\_\\alpha\\prec\_{\\Sigma\_1}L\_{\\omega\_1}$.
 \[[1](#bibkey_Madore2017:OrdinalZoo)\]
 
-### <span id="Variants" class="mw-headline">Variants</span>
+### Variants
 
 There are quite a few (weakened) variants of
 stability:\[[1](#bibkey_Madore2017:OrdinalZoo)\]

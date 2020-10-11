@@ -2,17 +2,6 @@
 title: Supercompact cardinal
 permalink: Supercompact
 ---
-# Supercompact cardinal
-
-
-
-
-
-
-
-
-
-
 
 Supercompact cardinals are best motivated as a generalization of
 [measurable](Measurable "Measurable")
@@ -32,33 +21,6 @@ the program itself. Curiously, by results of Woodin, should the inner
 program reach the level of a supercompact, there is a sense in which it
 will have reached all greater large cardinals, a startling contrast to
 previous advances in the program.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Formal
-    definition and equivalent
-    characterizations</span>](#Formal_definition_and_equivalent_characterizations)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">Properties</span>](#Properties)
--   [<span class="tocnumber">3</span> <span class="toctext">Supercompact
-    cardinals and forcing</span>](#Supercompact_cardinals_and_forcing)
-    -   [<span class="tocnumber">3.1</span> <span class="toctext">The
-        continuum hypothesis and supercompact
-        cardinals</span>](#The_continuum_hypothesis_and_supercompact_cardinals)
-    -   [<span class="tocnumber">3.2</span> <span class="toctext">Laver
-        preparation</span>](#Laver_preparation)
-    -   [<span class="tocnumber">3.3</span> <span class="toctext">Proper
-        forcing axiom</span>](#Proper_forcing_axiom)
-    -   [<span class="tocnumber">3.4</span> <span
-        class="toctext">Martin's Maximum</span>](#Martin.27s_Maximum)
--   [<span class="tocnumber">4</span> <span class="toctext">Relation to
-    other large cardinals</span>](#Relation_to_other_large_cardinals)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Formal definition and equivalent characterizations
 
@@ -145,7 +107,7 @@ function*.
 
 ## Supercompact cardinals and forcing
 
-### <span id="The_continuum_hypothesis_and_supercompact_cardinals" class="mw-headline">The continuum hypothesis and supercompact cardinals</span>
+### The continuum hypothesis and supercompact cardinals
 
 If $\\kappa$ is $\\lambda$-supercompact and $2^\\alpha=\\alpha^{+}$ for
 every $\\alpha&lt;\\kappa$, then $2^\\alpha=\\alpha^{+}$ for every
@@ -180,11 +142,11 @@ The
 if consistent with a supercompact, implies that the $\\text{GCH}$ holds
 above the least supercompact.
 
-### <span id="Laver_preparation" class="mw-headline">Laver preparation</span>
+### Laver preparation
 
 *Indestructibility, including the Laver diamond.*
 
-### <span id="Proper_forcing_axiom" class="mw-headline">Proper forcing axiom</span>
+### Proper forcing axiom
 
 Baumgartner proved that if there is a supercompact cardinal, then the
 <a href="Proper_forcing_axiom" class="mw-redirect" title="Proper forcing axiom">proper forcing axiom</a>
@@ -193,7 +155,7 @@ holds in a
 extension. $\\text{PFA}$'s strengthening, $\\text{PFA}^{+}$, is also
 consistent relative to the existence of a supercompact cardinal.
 
-### <span id="Martin.27s_Maximum" class="mw-headline">Martin's Maximum</span>
+### Martin's Maximum
 
 ## Relation to other large cardinals
 

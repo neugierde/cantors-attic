@@ -2,7 +2,6 @@
 title: Knuth's up-arrow notation
 permalink: Knuth's_up-arrow_notation
 ---
-# Knuth's up-arrow notation
 
 
 

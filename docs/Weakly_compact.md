@@ -2,17 +2,6 @@
 title: Weakly compact cardinal
 permalink: Weakly_compact
 ---
-# Weakly compact cardinal
-
-
-
-
-
-
-
-
-
-
 
 Weakly compact cardinals lie at the focal point of a number of diverse
 concepts in infinite combinatorics, admitting various characterizations
@@ -157,30 +146,6 @@ $H\\subset\\kappa$ of size $\\kappa$ such that $\[H\]^2$ lies on one
 side of the partition. When defining $F:\[\\kappa\]^n\\to\\gamma$, we
 define $F(\\alpha\_1,\\ldots,\\alpha\_n)$ only when
 $\\alpha\_1&lt;\\cdots&lt;\\alpha\_n$.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Weakly
-    compact cardinals and the constructible
-    universe</span>](#Weakly_compact_cardinals_and_the_constructible_universe)
--   [<span class="tocnumber">2</span> <span class="toctext">Weakly
-    compact cardinals and
-    forcing</span>](#Weakly_compact_cardinals_and_forcing)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">Indestructibility of a weakly compact
-    cardinal</span>](#Indestructibility_of_a_weakly_compact_cardinal)
--   [<span class="tocnumber">4</span> <span class="toctext">Relations
-    with other large
-    cardinals</span>](#Relations_with_other_large_cardinals)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">$\\Sigma\_n$-weakly compact
-    etc.</span>](#.24.5CSigma_n.24-weakly_compact_etc.)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## Weakly compact cardinals and the constructible universe
 

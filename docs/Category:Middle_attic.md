@@ -2,7 +2,6 @@
 title: Category:Middle attic
 permalink: Category:Middle_attic
 ---
-# Category:Middle attic
 
 
 

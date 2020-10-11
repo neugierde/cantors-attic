@@ -2,19 +2,7 @@
 title: Basic Order Theory
 permalink: Ordering_Relations
 ---
-# Basic Order Theory
 
-
-
-
-
-
-
-
-
-
-
-  
 We will denote an arbitrary ordering relation by $R$. We will establish
 some preliminary definitions:
 
@@ -27,22 +15,6 @@ some preliminary definitions:
     implies $x=y$.
 -   An ordering $R$ is *trichotomous* if and only if $xRy$, $x=y$, or
     $yRx$ for all $x$ and $y$ in the field of $R$.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Partial
-    Ordering</span>](#Partial_Ordering)
--   [<span class="tocnumber">2</span> <span class="toctext">Total
-    Ordering</span>](#Total_Ordering)
--   [<span class="tocnumber">3</span> <span class="toctext">Well-Founded
-    Relations</span>](#Well-Founded_Relations)
--   [<span class="tocnumber">4</span> <span
-    class="toctext">Well-Ordering
-    Relations</span>](#Well-Ordering_Relations)
-
 
 ## Partial Ordering
 

@@ -1,17 +1,9 @@
 ---
 title: Forcing
 permalink: Forcing
+redirect_from:
+  - Proper_forcing_axiom
 ---
-# Forcing
-
-
-
-
-
-
-
-
-
 
 
 **Forcing** is a method for extending a transitive model $M$ of
@@ -63,61 +55,6 @@ In particular, an inner model can be a ground of $V$.
 
 
 
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Definitions
-    and some properties</span>](#Definitions_and_some_properties)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Genericity</span>](#Genericity)
-    -   [<span class="tocnumber">1.2</span> <span
-        class="toctext">$\\mathbb{P}$-names and interpretation by
-        $G$</span>](#.24.5Cmathbb.7BP.7D.24-names_and_interpretation_by_.24G.24)
-    -   [<span class="tocnumber">1.3</span> <span class="toctext">The
-        forcing relation</span>](#The_forcing_relation)
-    -   [<span class="tocnumber">1.4</span> <span
-        class="toctext">Separativity</span>](#Separativity)
--   [<span class="tocnumber">2</span> <span class="toctext">Boolean
-    algebras</span>](#Boolean_algebras)
--   [<span class="tocnumber">3</span> <span class="toctext">Consistency
-    proofs</span>](#Consistency_proofs)
--   [<span class="tocnumber">4</span> <span class="toctext">Chain
-    conditions, distributivity, closure and
-    property (K)</span>](#Chain_conditions.2C_distributivity.2C_closure_and_property_.28K.29)
--   [<span class="tocnumber">5</span> <span class="toctext">Cohen
-    forcing, adding subsets of regular cardinals, and independence of
-    the continuum
-    hypothesis</span>](#Cohen_forcing.2C_adding_subsets_of_regular_cardinals.2C_and_independence_of_the_continuum_hypothesis)
--   [<span class="tocnumber">6</span> <span class="toctext">Other
-    examples of consistency results proved using
-    forcing</span>](#Other_examples_of_consistency_results_proved_using_forcing)
--   [<span class="tocnumber">7</span> <span class="toctext">Product
-    forcing</span>](#Product_forcing)
--   [<span class="tocnumber">8</span> <span class="toctext">Iterated
-    forcing</span>](#Iterated_forcing)
--   [<span class="tocnumber">9</span> <span class="toctext">Forcing
-    axioms</span>](#Forcing_axioms)
-    -   [<span class="tocnumber">9.1</span> <span class="toctext">Proper
-        forcing</span>](#Proper_forcing)
-    -   [<span class="tocnumber">9.2</span> <span
-        class="toctext">Martin's maximum and the semiproper forcing
-        axiom</span>](#Martin.27s_maximum_and_the_semiproper_forcing_axiom)
-    -   [<span class="tocnumber">9.3</span> <span
-        class="toctext">$\\text{wPFA}$ and
-        $\\text{PFA}\_κ$</span>](#.24.5Ctext.7BwPFA.7D.24_and_.24.5Ctext.7BPFA.7D_.CE.BA.24)
--   [<span class="tocnumber">10</span> <span class="toctext">Generic
-    absoluteness and universal
-    Baireness</span>](#Generic_absoluteness_and_universal_Baireness)
--   [<span class="tocnumber">11</span> <span class="toctext">Generic
-    ultrapowers</span>](#Generic_ultrapowers)
--   [<span class="tocnumber">12</span> <span class="toctext">Other types
-    of forcing</span>](#Other_types_of_forcing)
-    -   [<span class="tocnumber">12.1</span> <span class="toctext">The
-        Lévy collapse</span>](#The_L.C3.A9vy_collapse)
-    -   [<span class="tocnumber">12.2</span> <span
-        class="toctext">Prikry forcing</span>](#Prikry_forcing)
-
-
 ## Definitions and some properties
 
 Let $(\\mathbb{P},\\leq)$ be a partially ordered set, the *forcing
@@ -133,7 +70,7 @@ $r\\in\\mathbb{P}$ such that $r\\leq p$ and $r\\leq q$. They are
 *incompatible* otherwise. A set $W\\subseteq\\mathbb{P}$ is an
 *antichain* if all its elements are pairwise incompatible.
 
-### <span id="Genericity" class="mw-headline">Genericity</span>
+### Genericity
 
 A nonempty set $F\\subseteq\\mathbb{P}$ is a
 *[filter](Filter "Filter")
@@ -168,7 +105,7 @@ minimal model $M\[G\]\\supseteq M$ with $M\[G\]\\models\\text{ZFC}$,
 $G\\in M\[G\]$, and if $M\\models$ "$x$ is an ordinal" then so does
 $M\[G\]$.
 
-### <span id=".24.5Cmathbb.7BP.7D.24-names_and_interpretation_by_.24G.24" class="mw-headline">$\\mathbb{P}$-names and interpretation by $G$</span>
+### $\\mathbb{P}$-names and interpretation by $G$
 
 Using transfinite recursion, define the following cumulative hierarchy:
 
@@ -197,7 +134,7 @@ $G\\subseteq\\mathbb{P}$, we can now define the generic extension
 $M\[G\]$ to be $\\{x^G : x\\in M^\\mathbb{P}\\}$. This $M\[G\]$
 satisfies the Generic Model Theorem.
 
-### <span id="The_forcing_relation" class="mw-headline">The forcing relation</span>
+### The forcing relation
 
 Define the *forcing language* to be the first-order language of set
 theory augmented by a constant symbol for every $\\mathbb{P}$-name in
@@ -234,7 +171,7 @@ language:
 -   $\\forall p\\exists q\\leq p (q\\Vdash\\varphi\\lor
     q\\Vdash\\neg\\varphi)$
 
-### <span id="Separativity" class="mw-headline">Separativity</span>
+### Separativity
 
 A forcing notion $(\\mathbb{P},\\leq)$ is *separative* if for all
 $p,q\\in\\mathbb{P}$, if $p\\not\\leq q$ then there exists a $r\\leq p$
@@ -563,7 +500,7 @@ holds:
 
 Every c.c.c. or $\\omega$-closed notion satisfies Axiom A.
 
-### <span id="Proper_forcing" class="mw-headline">Proper forcing</span>
+### Proper forcing
 
 We say that a forcing notion $(\\mathbb{P},\\leq)$ is *proper* if for
 every uncountable cardinal $\\lambda$, every
@@ -632,7 +569,7 @@ elementary embedding $j : \\bar{\\mathcal{M}} → \\mathcal{M}$ such that
 $φ(\\bar{\\mathcal{M}})$
 holds.\[[1](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
 
-### <span id="Martin.27s_maximum_and_the_semiproper_forcing_axiom" class="mw-headline">Martin's maximum and the semiproper forcing axiom</span>
+### Martin's maximum and the semiproper forcing axiom
 
 **Martin's Maximum** is a strengthening of the proper forcing axiom
 defined the following way: suppose $(\\mathbb{P},\\leq)$ is a forcing
@@ -644,7 +581,7 @@ nonstationary ideal on $\\omega\_1$ is $\\aleph\_2$-saturated. It also
 implies that for all $\\kappa\\geq\\aleph\_2$, if $\\kappa$ is regular
 then $\\kappa^{\\aleph\_0}=\\kappa$.
 
-### <span id=".24.5Ctext.7BwPFA.7D.24_and_.24.5Ctext.7BPFA.7D_.CE.BA.24" class="mw-headline">$\\text{wPFA}$ and $\\text{PFA}\_κ$</span>
+### $\\text{wPFA}$ and $\\text{PFA}\_κ$
 
 (information in this subsection from
 \[[1](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\])
@@ -705,9 +642,9 @@ ideals](Filter#Precipitous_ideals "Filter")*
 
 ## Other types of forcing
 
-### <span id="The_L.C3.A9vy_collapse" class="mw-headline">The Lévy collapse</span>
+### The Lévy collapse
 
-### <span id="Prikry_forcing" class="mw-headline">Prikry forcing</span>
+### Prikry forcing
 
         This article is a stub. Please help us to improve Cantor's Attic by adding information.
 

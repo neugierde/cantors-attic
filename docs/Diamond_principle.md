@@ -2,7 +2,6 @@
 title: Diamond principle
 permalink: Diamond_principle
 ---
-# Diamond principle
 
 
 

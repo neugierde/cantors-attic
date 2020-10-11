@@ -2,7 +2,6 @@
 title: Chang's conjecture
 permalink: Chang's_conjecture
 ---
-# Chang's conjecture
 
 
 

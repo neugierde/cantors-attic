@@ -2,12 +2,8 @@
 title: The parlour
 permalink: Parlour
 ---
-# The parlour
-
 
 ![PT Loma Lighthouse photo by wagbogwest](assets/img/PTLomaLighthouseByWagbogwest.jpg)
-
-
 
 Welcome to the parlour, where finite numbers dream.
 

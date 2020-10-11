@@ -2,17 +2,6 @@
 title: Strongly compact cardinal
 permalink: Strongly_compact
 ---
-# Strongly compact cardinal
-
-
-
-
-
-
-
-
-
-
 
 The strongly compact cardinals have their origins in the generalization
 of the compactness theorem of first order logic to infinitary languages,
@@ -46,59 +35,12 @@ embedding $j:V\\to M$ with critical point $\\kappa$ has
 $M^\\kappa\\subset M$, for $\\theta$-strong compactness we may restrict
 our attention to the case when $\\kappa\\leq\\theta$.
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Diverse
-    characterizations</span>](#Diverse_characterizations)
-    -   [<span class="tocnumber">1.1</span> <span class="toctext">Strong
-        compactness
-        characterization</span>](#Strong_compactness_characterization)
-    -   [<span class="tocnumber">1.2</span> <span class="toctext">Strong
-        compactness embedding
-        characterization</span>](#Strong_compactness_embedding_characterization)
-    -   [<span class="tocnumber">1.3</span> <span class="toctext">Cover
-        property
-        characterization</span>](#Cover_property_characterization)
-    -   [<span class="tocnumber">1.4</span> <span class="toctext">Fine
-        measure characterization</span>](#Fine_measure_characterization)
-    -   [<span class="tocnumber">1.5</span> <span class="toctext">Filter
-        extension
-        characterization</span>](#Filter_extension_characterization)
-    -   [<span class="tocnumber">1.6</span> <span
-        class="toctext">Discontinuous ultrapower
-        characterization</span>](#Discontinuous_ultrapower_characterization)
-    -   [<span class="tocnumber">1.7</span> <span
-        class="toctext">Discontinuous embedding
-        characterization</span>](#Discontinuous_embedding_characterization)
-    -   [<span class="tocnumber">1.8</span> <span
-        class="toctext">Ketonen
-        characterization</span>](#Ketonen_characterization)
-    -   [<span class="tocnumber">1.9</span> <span
-        class="toctext">Regular ultrafilter
-        characterization</span>](#Regular_ultrafilter_characterization)
--   [<span class="tocnumber">2</span> <span class="toctext">Strongly
-    compact cardinals and
-    forcing</span>](#Strongly_compact_cardinals_and_forcing)
--   [<span class="tocnumber">3</span> <span class="toctext">Relation to
-    other large cardinal
-    notions</span>](#Relation_to_other_large_cardinal_notions)
--   [<span class="tocnumber">4</span> <span class="toctext">Topological
-    Relevance</span>](#Topological_Relevance)
-    -   [<span class="tocnumber">4.1</span> <span
-        class="toctext">Intuition</span>](#Intuition)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## Diverse characterizations
 
 There are diverse equivalent characterizations of the strongly compact
 cardinals.
 
-### <span id="Strong_compactness_characterization" class="mw-headline">Strong compactness characterization</span>
+### Strong compactness characterization
 
 An uncountable cardinal $\\kappa$ is *strongly compact* if every
 $\\kappa$-satisfiable theory in the infinitary logic
@@ -127,7 +69,7 @@ in contrast, if every $\\kappa$-satisfiable $L\_{\\kappa,\\kappa}$
 theory, in a language having at most $\\kappa$ many constant, function
 and relation symbols, is satisfiable.
 
-### <span id="Strong_compactness_embedding_characterization" class="mw-headline">Strong compactness embedding characterization</span>
+### Strong compactness embedding characterization
 
 A cardinal $\\kappa$ is $\\theta$-strongly compact if and only if there
 is an [elementary
@@ -137,7 +79,7 @@ $M$ with critical point $\\kappa$, such that $j''\\theta\\subset s\\in
 M$ for some set $s\\in M$ with $\|s\|^M\\lt j(\\kappa)$.
 \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 
-### <span id="Cover_property_characterization" class="mw-headline">Cover property characterization</span>
+### Cover property characterization
 
 A cardinal $\\kappa$ is $\\theta$-strongly compact if and only if there
 is an ultrapower embedding $j:V\\to M$, with critical point $\\kappa$,
@@ -145,7 +87,7 @@ that exhibits the *$\\theta$-strong compactness cover property*, meaning
 that for every $t\\subset M$ of size $\\theta$ there is $s\\in M$ with
 $t\\subset s$ and $\|s\|^M&lt;j(\\kappa)$.
 
-### <span id="Fine_measure_characterization" class="mw-headline">Fine measure characterization</span>
+### Fine measure characterization
 
 An uncountable cardinal $\\kappa$ is $\\theta$-strongly compact if and
 only if there is a [fine
@@ -154,7 +96,7 @@ on $\\mathcal{P}\_\\kappa(\\theta)$. The notation
 $\\mathcal{P}\_\\kappa(\\theta)$ means $\\{\\sigma\\subset\\theta\\mid
 \|\\sigma\|&lt;\\kappa\\}$. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 
-### <span id="Filter_extension_characterization" class="mw-headline">Filter extension characterization</span>
+### Filter extension characterization
 
 An uncountable cardinal $\\kappa$ is $\\theta$-strongly compact if and
 only if every $\\kappa$-complete
@@ -162,7 +104,7 @@ only if every $\\kappa$-complete
 of size at most $\\theta$ on a set extends to a $\\kappa$-complete
 ultrafilter on that set. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
 
-### <span id="Discontinuous_ultrapower_characterization" class="mw-headline">Discontinuous ultrapower characterization</span>
+### Discontinuous ultrapower characterization
 
 A cardinal $\\kappa$ is $\\theta$-strongly compact if and only if there
 is an ultrapower embedding $j:V\\to M$ with critical point $\\kappa$,
@@ -170,7 +112,7 @@ such that $\\sup j''\\lambda&lt;j(\\lambda)$ for every regular
 $\\lambda$ with $\\kappa\\leq\\lambda\\leq\\theta^{\\lt\\kappa}$. In
 other words, the embedding is discontinuous at all such $\\lambda$.
 
-### <span id="Discontinuous_embedding_characterization" class="mw-headline">Discontinuous embedding characterization</span>
+### Discontinuous embedding characterization
 
 A cardinal $\\kappa$ is $\\theta$-strongly compact if and only if for
 every regular $\\lambda$ with
@@ -178,7 +120,7 @@ $\\kappa\\leq\\lambda\\leq\\theta^{\\lt\\kappa}$, there is an embedding
 $j:V\\to M$ with critical point $\\kappa$ and $\\sup
 j''\\lambda&lt;j(\\lambda)$.
 
-### <span id="Ketonen_characterization" class="mw-headline">Ketonen characterization</span>
+### Ketonen characterization
 
 An uncountable regular cardinal $\\kappa$ is $\\theta$-strongly compact
 if and only if there is a $\\kappa$-complete uniform ultrafilter on
@@ -189,7 +131,7 @@ $\[\\beta,\\lambda)= \\{\\alpha&lt;\\lambda\\mid \\beta\\leq\\alpha\\}$
 are in $\\mu$. When $\\lambda$ is regular, this is equivalent to
 requiring that all elements of $\\mu$ have the same cardinality.
 
-### <span id="Regular_ultrafilter_characterization" class="mw-headline">Regular ultrafilter characterization</span>
+### Regular ultrafilter characterization
 
 An uncountable cardinal $\\kappa$ is $\\theta$-strongly compact if and
 only if there is a $(\\kappa,\\theta)$-regular ultrafilter on some set.
@@ -260,7 +202,7 @@ strongly compact cardinals all line up.
 Strongly compact cardinals are related to the topological notion of
 compactness, interestingly enough.
 
-### <span id="Intuition" class="mw-headline">Intuition</span>
+### Intuition
 
 A topological space $X$ is called $\\kappa$-compact when every open
 cover has a subcover of size below $\\kappa$. More intuitively, it

@@ -1,18 +1,12 @@
 ---
 title: Cardinal characteristics of the continuum
 permalink: Cardinal_characteristics
+redirect_from:
+  - Additivity_number
+  - Bounding_number
+  - Covering_number
+  - Dominating_number
 ---
-# Cardinal characteristics of the continuum
-
-
-
-
-
-
-
-
-
-
 
   
 The subject known as *cardinal characteristics of the continuum*
@@ -62,24 +56,6 @@ their relations to each other.
 
 An excellent general resource on the subject is
 \[[1](#bibkey_Blass2010:CardinalCharacteristicsHandbook)\].
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">The bounding
-    number</span>](#The_bounding_number)
--   [<span class="tocnumber">2</span> <span class="toctext">The
-    dominating number</span>](#The_dominating_number)
--   [<span class="tocnumber">3</span> <span class="toctext">The covering
-    numbers</span>](#The_covering_numbers)
--   [<span class="tocnumber">4</span> <span class="toctext">The
-    additivity numbers</span>](#The_additivity_numbers)
--   [<span class="tocnumber">5</span> <span class="toctext">Cichoń's
-    diagram</span>](#Cicho.C5.84.27s_diagram)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">References</span>](#References)
 
 
 ## The bounding number

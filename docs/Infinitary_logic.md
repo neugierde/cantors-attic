@@ -2,7 +2,6 @@
 title: Infinitary logic
 permalink: Infinitary_logic
 ---
-# Infinitary logic
 
 
 
@@ -38,7 +37,7 @@ products in a row, and $\\lambda$-many quantifiers in a row. This is
 called **Hilbert-type Infinitary Logic.** You can also use $(n+1)$-th
 order quantifiers in $\\mathcal{L}\_{\\kappa,\\lambda}^n$.
 
-### <span id="Formal_Definition" class="mw-headline">Formal Definition</span>
+### Formal Definition
 
 Let $\\kappa$ and $\\lambda$ be regular cardinals. Then,
 $\\mathcal{L}\_{\\kappa,\\lambda}$ allows for all first-order finitary
@@ -60,7 +59,7 @@ of any ordinal length. You can even have
 $\\mathcal{L}\_{\\infty^+,\\infty^+}$ which allows for
 $\\text{ORD}$-length statements.
 
-### <span id="Expressiveness" class="mw-headline">Expressiveness</span>
+### Expressiveness
 
 $\\mathcal{L}\_{\\kappa,\\kappa}$ is unable to express some
 $\\Pi\_1^1$-formulae under ZFC. Contrastively,

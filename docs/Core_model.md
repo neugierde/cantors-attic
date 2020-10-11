@@ -1,17 +1,9 @@
 ---
 title: Core model
 permalink: Core_model
+redirect_from:
+  - Mouse
 ---
-# Core model
-
-
-
-
-
-
-
-
-
 
 
 Core models are inner

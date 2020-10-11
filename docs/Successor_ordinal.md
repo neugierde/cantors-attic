@@ -2,7 +2,6 @@
 title: Successor Ordinal
 permalink: Successor_ordinal
 ---
-# Successor Ordinal
 
 
 

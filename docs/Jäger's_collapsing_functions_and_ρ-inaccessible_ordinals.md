@@ -2,47 +2,13 @@
 title: Jäger's collapsing functions and ρ-inaccessible ordinals
 permalink: Jäger's_collapsing_functions_and_ρ-inaccessible_ordinals
 ---
-# Jäger's collapsing functions and ρ-inaccessible ordinals
-
-
-
-
-
-
-
-
-
-
 
 Jäger's collapsing functions are a hierarchy of single-argument ordinal
 functions \\(\\psi\_\\pi\\) introduced by German mathematician Gerhard
 Jäger in 1984. This is an extension of [Buchholz's
 notation](Buchholz%27s_%CF%88_functions "Buchholz's ψ functions").
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Basic
-    Notions</span>](#Basic_Notions)
--   [<span class="tocnumber">2</span> <span class="toctext">Veblen
-    function</span>](#Veblen_function)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">\\(\\rho\\)-Inaccessible
-    Ordinals</span>](#.5C.28.5Crho.5C.29-Inaccessible_Ordinals)
--   [<span class="tocnumber">4</span> <span class="toctext">The Ordinal
-    Functions
-    \\(\\psi\_\\kappa\\)</span>](#The_Ordinal_Functions_.5C.28.5Cpsi_.5Ckappa.5C.29)
--   [<span class="tocnumber">5</span> <span class="toctext">Fundamental
-    sequences</span>](#Fundamental_sequences)
--   [<span class="tocnumber">6</span> <span class="toctext">See
-    also</span>](#See_also)
--   [<span class="tocnumber">7</span> <span
-    class="toctext">References</span>](#References)
-
-
-### <span id="Basic_Notions" class="mw-headline">Basic Notions</span>
+### Basic Notions
 
 \\(M\_0\\) is the least Mahlo cardinal, small Greek letters denote
 ordinals less than \\(M\_0\\). Each ordinal \\(\\alpha\\) is identified
@@ -78,7 +44,7 @@ increasing function such that
 \\(F\\), \\(\\text{dom}(F)\\) is an ordinal number. We use
 \\(\\text{Enum}(X)\\) to donate \\(F\\).
 
-### <span id="Veblen_function" class="mw-headline">Veblen function</span>
+### Veblen function
 
 \\(\\varphi\_\\alpha=\\text{Enum}(\\{\\beta\\in
 P\|\\forall\\gamma&lt;\\alpha(\\varphi\_\\gamma(\\beta)=\\beta)\\})\\)
@@ -101,7 +67,7 @@ Definition of \\(S(\\gamma)\\) for arbitrary \\(\\gamma\\).
 \\(S(\\gamma)=\\{\\alpha,\\beta\\}\\) if
 \\(\\gamma=\_{NF}\\varphi\_\\alpha(\\beta)\\notin S\\)
 
-### <span id=".5C.28.5Crho.5C.29-Inaccessible_Ordinals" class="mw-headline">\\(\\rho\\)-Inaccessible Ordinals</span>
+### \\(\\rho\\)-Inaccessible Ordinals
 
 An ordinal is \\(\\rho\\)-inaccessible if it is a regular cardinal and
 limit of \\(\\alpha\\)-inaccessible ordinals for all
@@ -135,7 +101,7 @@ Definition of \\(\\gamma^{-}\\) for \\(\\gamma\\in R\\).
 | \\(\\beta&lt;\\gamma\\Rightarrow\\varphi\_\\alpha(\\beta)&lt;\\varphi\_\\alpha(\\gamma)\\)                 | \\(\\beta&lt;\\gamma\\Rightarrow I\_\\alpha(\\beta)&lt;I\_\\alpha(\\gamma)\\)          |
 | \\(\\alpha&lt;\\beta\\Rightarrow\\varphi\_\\alpha(0)&lt;\\varphi\_\\beta(0)\\)                             | \\(\\alpha&lt;\\beta\\Rightarrow I\_\\alpha(0)&lt;I\_\\beta(0)\\)                      |
 
-### <span id="The_Ordinal_Functions_.5C.28.5Cpsi_.5Ckappa.5C.29" class="mw-headline">The Ordinal Functions \\(\\psi\_\\kappa\\)</span>
+### The Ordinal Functions \\(\\psi\_\\kappa\\)
 
 Every \\(\\psi\_\\kappa\\) is a function from \\(M\_0\\) to
 \\(\\kappa\\) which "collapses" the elements of \\(M\_0\\) below

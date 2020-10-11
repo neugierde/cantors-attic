@@ -2,17 +2,6 @@
 title: Huge cardinal
 permalink: Huge
 ---
-# Huge cardinal
-
-
-
-
-
-
-
-
-
-
 
 **Huge** cardinals (and their variants) were introduced by Kenneth Kunen
 in 1972 as a very large cardinal axiom. Kenneth Kunen first used them to
@@ -26,57 +15,6 @@ existence of an $\\omega\_2$-complete $\\omega\_3$-saturated
 $\\sigma$-ideal on $\\omega\_2$, as far as the set theory world is
 concerned, still requires an almost huge cardinal.
 \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span
-    class="toctext">Definitions</span>](#Definitions)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Elementary embedding
-        definitions</span>](#Elementary_embedding_definitions)
-    -   [<span class="tocnumber">1.2</span> <span
-        class="toctext">Ultrahuge
-        cardinals</span>](#Ultrahuge_cardinals)
-    -   [<span class="tocnumber">1.3</span> <span
-        class="toctext">Hyperhuge
-        cardinals</span>](#Hyperhuge_cardinals)
-    -   [<span class="tocnumber">1.4</span> <span class="toctext">Huge\*
-        cardinals</span>](#Huge.2A_cardinals)
-    -   [<span class="tocnumber">1.5</span> <span
-        class="toctext">Ultrafilter
-        definition</span>](#Ultrafilter_definition)
-    -   [<span class="tocnumber">1.6</span> <span
-        class="toctext">Coherent sequence characterization of almost
-        hugeness</span>](#Coherent_sequence_characterization_of_almost_hugeness)
-    -   [<span class="tocnumber">1.7</span> <span
-        class="toctext">$C^{(n)}$-$m$-huge
-        cardinals</span>](#.24C.5E.7B.28n.29.7D.24-.24m.24-huge_cardinals)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">References</span>](#References)
--   [<span class="tocnumber">3</span> <span class="toctext">Consistency
-    strength and size</span>](#Consistency_strength_and_size)
-    -   [<span class="tocnumber">3.1</span> <span class="toctext">The
-        $\\omega$-huge
-        cardinals</span>](#The_.24.5Comega.24-huge_cardinals)
--   [<span class="tocnumber">4</span> <span class="toctext">Relative
-    consistency results</span>](#Relative_consistency_results)
-    -   [<span class="tocnumber">4.1</span> <span
-        class="toctext">Hugeness of
-        $\\omega\_1$</span>](#Hugeness_of_.24.5Comega_1.24)
-    -   [<span class="tocnumber">4.2</span> <span
-        class="toctext">Generalizations of Chang's
-        conjecture</span>](#Generalizations_of_Chang.27s_conjecture)
-    -   [<span class="tocnumber">4.3</span> <span
-        class="toctext">Cardinal arithmetic in
-        $\\text{ZF}$</span>](#Cardinal_arithmetic_in_.24.5Ctext.7BZF.7D.24)
--   [<span class="tocnumber">5</span> <span class="toctext">In set
-    theoretic geology</span>](#In_set_theoretic_geology)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">References</span>](#References_2)
-
 
 ## Definitions
 
@@ -102,7 +40,7 @@ definition can be seen as a (very strong) strengthening of the
 first-order definition of
 [measurability](Measurable "Measurable").
 
-### <span id="Elementary_embedding_definitions" class="mw-headline">Elementary embedding definitions</span>
+### Elementary embedding definitions
 
 The elementary embedding definitions are somewhat standard. Let
 $j:V\\rightarrow M$ be a nontrivial [elementary
@@ -133,7 +71,7 @@ class $M$ with critical point $\\kappa$. Then:
     **superhuge** iff it is **almost 1-huge**, **1-huge**, etc.
     respectively.
 
-### <span id="Ultrahuge_cardinals" class="mw-headline">Ultrahuge cardinals</span>
+### Ultrahuge cardinals
 
 A cardinal $\\kappa$ is **$\\lambda$-ultrahuge** for
 $\\lambda&gt;\\kappa$ if there exists a nontrivial elementary embedding
@@ -149,7 +87,7 @@ cardinals. Furthermore, this definition can be extended in the obvious
 way to define $\\lambda$-ultra n-hugeness and ultra n-hugeness, as well
 as the "*almost*" variants.
 
-### <span id="Hyperhuge_cardinals" class="mw-headline">Hyperhuge cardinals</span>
+### Hyperhuge cardinals
 
 A cardinal $\\kappa$ is **$\\lambda$-hyperhuge** for
 $\\lambda&gt;\\kappa$ if there exists a nontrivial elementary embedding
@@ -159,7 +97,7 @@ cardinal is **hyperhuge** if it is $\\lambda$-hyperhuge for all
 $\\lambda&gt;\\kappa$.\[[3](#bibkey_Usuba2017:DDGandVeryLarge),
 [4](#bibkey_Boney2017:ModelTheoreticCharacterizations)\]
 
-### <span id="Huge.2A_cardinals" class="mw-headline">Huge\* cardinals</span>
+### Huge\* cardinals
 
 A cardinal $κ$ is **$n$-huge\*** if for some $α &gt; κ$, $\\kappa$ is
 the critical point of an elementary embedding $j : V\_α → V\_β$ such
@@ -172,7 +110,7 @@ some $α &gt; κ$, in a set-forcing extension, $\\kappa$ is the critical
 point of an elementary embedding $j : V\_α → V\_β$ such that $j^n(κ)
 &lt; α$.\[[5](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
 
-### <span id="Ultrafilter_definition" class="mw-headline">Ultrafilter definition</span>
+### Ultrafilter definition
 
 The first-order definition of n-huge is somewhat similar to
 [measurability](Measurable "Measurable").
@@ -221,9 +159,9 @@ equivalent:\[[4](#bibkey_Boney2017:ModelTheoreticCharacterizations)\]
 -   $\\mathbb{L}\_{κ,κ}$ is $\[μ\]^λ\_{∗κ}$-$κ$-compact for type
     omission.
 
-### <span id="Coherent_sequence_characterization_of_almost_hugeness" class="mw-headline">Coherent sequence characterization of almost hugeness</span>
+### Coherent sequence characterization of almost hugeness
 
-### <span id=".24C.5E.7B.28n.29.7D.24-.24m.24-huge_cardinals" class="mw-headline">$C^{(n)}$-$m$-huge cardinals</span>
+### $C^{(n)}$-$m$-huge cardinals
 
 (this section from \[[6](#bibkey_Bagaria2012:CnCardinals)\])
 
@@ -424,7 +362,7 @@ $n$-huge\*:\[[5](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
     cardinal is a virtually $n$-huge\* limit of virtually $n$-huge\*
     cardinals for every $n &lt; ω$.
 
-### <span id="The_.24.5Comega.24-huge_cardinals" class="mw-headline">The $\\omega$-huge cardinals</span>
+### The $\\omega$-huge cardinals
 
 A cardinal $\\kappa$ is **almost $\\omega$-huge** iff there is some
 transitive model $M$ and an elementary embedding $j:V\\prec M$ with
@@ -440,7 +378,7 @@ describe critical points of
 
 ## Relative consistency results
 
-### <span id="Hugeness_of_.24.5Comega_1.24" class="mw-headline">Hugeness of $\\omega\_1$</span>
+### Hugeness of $\\omega\_1$
 
 In
 <a href="https://projecteuclid.org/euclid.rmjm/1181073173" class="external autonumber">[2]</a>
@@ -448,9 +386,9 @@ it is shown that if $\\text{ZFC +}$ "there is a huge cardinal" is
 consistent then so is $\\text{ZF +}$ "$\\omega\_1$ is a huge cardinal"
 (with the ultrafilter characterization of hugeness).
 
-### <span id="Generalizations_of_Chang.27s_conjecture" class="mw-headline">Generalizations of Chang's conjecture</span>
+### Generalizations of Chang's conjecture
 
-### <span id="Cardinal_arithmetic_in_.24.5Ctext.7BZF.7D.24" class="mw-headline">Cardinal arithmetic in $\\text{ZF}$</span>
+### Cardinal arithmetic in $\\text{ZF}$
 
 If there is an almost huge cardinal then there is a model of
 $\\text{ZF+}\\neg\\text{AC}$ in which every successor cardinal is a

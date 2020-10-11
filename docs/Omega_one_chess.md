@@ -2,7 +2,6 @@
 title: The omega one of chess
 permalink: Omega_one_chess
 ---
-# The omega one of chess
 
 
 

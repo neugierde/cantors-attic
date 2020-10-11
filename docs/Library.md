@@ -1,11 +1,10 @@
 ---
 title: The Cantor's attic library
 permalink: Library
+toc: false
 ---
-# The Cantor's attic library
 
 ![Step up the ladder towards wisdom, photo by Sigfrid Lundberg](assets/img/StepUpTheLadderTowardsWisdomBySigfridLundberg.jpg)
-
 
 
 Welcome to the library, our central repository for references cited here

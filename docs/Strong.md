@@ -2,17 +2,6 @@
 title: Strong cardinal
 permalink: Strong
 ---
-# Strong cardinal
-
-
-
-
-
-
-
-
-
-
 
 Strong cardinals were created as a weakening of
 [supercompact](Supercompact "Supercompact")
@@ -29,33 +18,6 @@ strong cardinal is often called strongness), although if
 $\\lambda=\\beth\_\\lambda$ then a cardinal is $\\lambda$-strong iff it
 is $\\lambda$-hypermeasurable.
 
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Definitions
-    of Strongness</span>](#Definitions_of_Strongness)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Elementary Embedding
-        Characterization</span>](#Elementary_Embedding_Characterization)
-    -   [<span class="tocnumber">1.2</span> <span
-        class="toctext">Extender
-        Characterization</span>](#Extender_Characterization)
--   [<span class="tocnumber">2</span> <span class="toctext">Definitions
-    of Hypermeasurability</span>](#Definitions_of_Hypermeasurability)
-    -   [<span class="tocnumber">2.1</span> <span
-        class="toctext">Elementary Embedding
-        Characterization</span>](#Elementary_Embedding_Characterization_2)
--   [<span class="tocnumber">3</span> <span class="toctext">Facts about
-    Strongness and
-    Hypermeasurability</span>](#Facts_about_Strongness_and_Hypermeasurability)
--   [<span class="tocnumber">4</span> <span class="toctext">Core Model
-    up to Strongness</span>](#Core_Model_up_to_Strongness)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## Definitions of Strongness
 
 There are multiple equivalent definitions of strongness, using
@@ -64,7 +26,7 @@ embeddings](Elementary_embedding "Elementary embedding")
 and
 <a href="index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extenders</a>.
 
-### <span id="Elementary_Embedding_Characterization" class="mw-headline">Elementary Embedding Characterization</span>
+### Elementary Embedding Characterization
 
 A cardinal $\\kappa$ is **$\\gamma$-strong** iff it is the critical
 point of some elementary embedding $j:V\\rightarrow M$ for some
@@ -78,7 +40,7 @@ More intuitively, there are elementary embeddings from $V$ into
 transitive classes which have critical point $\\kappa$ and (in total)
 contain any set one wishes.
 
-### <span id="Extender_Characterization" class="mw-headline">Extender Characterization</span>
+### Extender Characterization
 
 A cardinal $\\kappa$ is **strong** iff it is
 <a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
@@ -99,7 +61,7 @@ definitions of strongness, mainly because hypermeasurability is a
 generalized version of strongness. The intuition behind each definition
 is also very similar to that of the matching definitions of strongness.
 
-### <span id="Elementary_Embedding_Characterization_2" class="mw-headline">Elementary Embedding Characterization</span>
+### Elementary Embedding Characterization
 
 A cardinal $\\kappa$ is **$x$-hypermeasurable** for a set $x$ iff it is
 the critical point of some elementary embedding $j:V\\rightarrow M$ for

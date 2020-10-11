@@ -2,7 +2,6 @@
 title: Category:Critical points
 permalink: Category:Critical_points
 ---
-# Category:Critical points
 
 
 

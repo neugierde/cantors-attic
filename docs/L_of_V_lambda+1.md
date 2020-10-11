@@ -1,18 +1,7 @@
 ---
-title: $\\exists j:L(V\_{\\lambda+1})\\to L(V\_{\\lambda+1})$
+title: $\exists j:L(V_{\lambda+1})\to L(V_{\lambda+1})$
 permalink: L_of_V_lambda+1
 ---
-# $\\exists j:L(V\_{\\lambda+1})\\to L(V\_{\\lambda+1})$
-
-
-
-
-
-
-
-
-
-
 
 *See first: [rank into rank
 axioms](Rank_into_rank "Rank into rank")*
@@ -51,29 +40,6 @@ An immediate observation due to the [Kunen
 inconsistency](Kunen_inconsistency "Kunen inconsistency")
 is that, under the $\\text{I0}$ axiom, $L(V\_{\\lambda+1})$ *cannot*
 satisfy the axiom of choice.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">The
-    $L(V\_{\\lambda+1})$
-    Hierarchy</span>](#The_.24L.28V_.7B.5Clambda.2B1.7D.29.24_Hierarchy)
--   [<span class="tocnumber">2</span> <span class="toctext">Relation to
-    the I1 Axiom</span>](#Relation_to_the_I1_Axiom)
--   [<span class="tocnumber">3</span> <span class="toctext">Ultrapower
-    Reformulation</span>](#Ultrapower_Reformulation)
--   [<span class="tocnumber">4</span> <span class="toctext">Similarities
-    with $L(\\mathbb{R})$ under
-    Determinacy</span>](#Similarities_with_.24L.28.5Cmathbb.7BR.7D.29.24_under_Determinacy)
--   [<span class="tocnumber">5</span> <span
-    class="toctext">Strengthenings of $\\text{I0}$ and Woodin's
-    $E\_\\alpha(V\_{\\lambda+1})$
-    Sequence</span>](#Strengthenings_of_.24.5Ctext.7BI0.7D.24_and_Woodin.27s_.24E_.5Calpha.28V_.7B.5Clambda.2B1.7D.29.24_Sequence)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## The $L(V\_{\\lambda+1})$ Hierarchy
 

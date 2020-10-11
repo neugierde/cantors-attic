@@ -1,20 +1,10 @@
 ---
-title: Omega, $\\omega$
+title: Omega, $\omega$
 permalink: Omega
+redirect_from:
+  - Aleph_zero
 ---
-# Omega, $\\omega$
 
-
-
-
-
-
-
-
-
-
-
-  
 
 The smallest infinite ordinal, often denoted $\\omega$ (omega), has the
 order type of the natural numbers. As a [von Neumann

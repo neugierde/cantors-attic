@@ -1,17 +1,10 @@
 ---
 title: Ramsey cardinal
 permalink: Ramsey
+redirect_from:
+  - Filter_property
+  - Iterable
 ---
-# Ramsey cardinal
-
-
-
-
-
-
-
-
-
 
 
 Ramsey cardinals were introduced by Erdős and Hajnal in
@@ -27,83 +20,9 @@ compact and measurable cardinals inclusively.
 [6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 
 
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">Ramsey
-    cardinals</span>](#Ramsey_cardinals)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">Definitions</span>](#Definitions)
-    -   [<span class="tocnumber">1.2</span> <span class="toctext">Ramsey
-        cardinals and the constructible
-        universe</span>](#Ramsey_cardinals_and_the_constructible_universe)
-    -   [<span class="tocnumber">1.3</span> <span
-        class="toctext">Relations with other large
-        cardinals</span>](#Relations_with_other_large_cardinals)
-    -   [<span class="tocnumber">1.4</span> <span class="toctext">Ramsey
-        cardinals and forcing</span>](#Ramsey_cardinals_and_forcing)
--   [<span class="tocnumber">2</span> <span class="toctext">Completely
-    Romsey cardinals etc.</span>](#Completely_Romsey_cardinals_etc.)
-    -   [<span class="tocnumber">2.1</span> <span class="toctext">Basic
-        definitions</span>](#Basic_definitions)
-    -   [<span class="tocnumber">2.2</span> <span
-        class="toctext">$Π\_α$-Ramsey and completely
-        Ramsey</span>](#.24.CE.A0_.CE.B1.24-Ramsey_and_completely_Ramsey)
-    -   [<span class="tocnumber">2.3</span> <span
-        class="toctext">$α$-hyper completely Ramsey and super completely
-        Ramsey</span>](#.24.CE.B1.24-hyper_completely_Ramsey_and_super_completely_Ramsey)
-    -   [<span class="tocnumber">2.4</span> <span
-        class="toctext">Terminology</span>](#Terminology)
-    -   [<span class="tocnumber">2.5</span> <span
-        class="toctext">Results</span>](#Results)
--   [<span class="tocnumber">3</span> <span class="toctext">Almost
-    Ramsey cardinal</span>](#Almost_Ramsey_cardinal)
--   [<span class="tocnumber">4</span> <span class="toctext">Strongly
-    Ramsey cardinal</span>](#Strongly_Ramsey_cardinal)
--   [<span class="tocnumber">5</span> <span class="toctext">Super Ramsey
-    cardinal</span>](#Super_Ramsey_cardinal)
--   [<span class="tocnumber">6</span> <span
-    class="toctext">$\\alpha$-iterable
-    cardinal</span>](#.24.5Calpha.24-iterable_cardinal)
-    -   [<span class="tocnumber">6.1</span> <span
-        class="toctext">Results</span>](#Results_2)
--   [<span class="tocnumber">7</span> <span class="toctext">Mahlo–Ramsey
-    cardinals</span>](#Mahlo.E2.80.93Ramsey_cardinals)
--   [<span class="tocnumber">8</span> <span class="toctext">Very Ramsey
-    cardinals</span>](#Very_Ramsey_cardinals)
--   [<span class="tocnumber">9</span> <span class="toctext">Virtually
-    Ramsey cardinal</span>](#Virtually_Ramsey_cardinal)
--   [<span class="tocnumber">10</span> <span class="toctext">Super
-    weakly Ramsey cardinal</span>](#Super_weakly_Ramsey_cardinal)
--   [<span class="tocnumber">11</span> <span class="toctext">$α$-Ramsey
-    cardinal etc.</span>](#.24.CE.B1.24-Ramsey_cardinal_etc.)
-    -   [<span class="tocnumber">11.1</span> <span
-        class="toctext">$α$-Ramsey cardinal for cardinal
-        $α$</span>](#.24.CE.B1.24-Ramsey_cardinal_for_cardinal_.24.CE.B1.24)
-    -   [<span class="tocnumber">11.2</span> <span class="toctext">Games
-        for definitions</span>](#Games_for_definitions)
-    -   [<span class="tocnumber">11.3</span> <span
-        class="toctext">Generalisations</span>](#Generalisations)
-    -   [<span class="tocnumber">11.4</span> <span
-        class="toctext">Filter property</span>](#Filter_property)
-    -   [<span class="tocnumber">11.5</span> <span
-        class="toctext">Results</span>](#Results_3)
-    -   [<span class="tocnumber">11.6</span> <span class="toctext">$(α,
-        β)$-Ramsey
-        cardinals</span>](#.24.28.CE.B1.2C_.CE.B2.29.24-Ramsey_cardinals)
-    -   [<span class="tocnumber">11.7</span> <span class="toctext">$(γ,
-        θ)$-Ramsey
-        cardinals</span>](#.24.28.CE.B3.2C_.CE.B8.29.24-Ramsey_cardinals)
--   [<span class="tocnumber">12</span> <span
-    class="toctext">M-rank</span>](#M-rank)
--   [<span class="tocnumber">13</span> <span
-    class="toctext">References</span>](#References)
-
-
 ## Ramsey cardinals
 
-### <span id="Definitions" class="mw-headline">Definitions</span>
+### Definitions
 
 A cardinal $\\kappa$ is Ramsey if it has the partition property
 $\\kappa\\rightarrow (\\kappa)^{\\lt\\omega}\_2$.
@@ -198,14 +117,14 @@ is contained in a weak $\\kappa$-model $M$ for which there exists a
 weakly amenable countably complete $M$-ultrafilter on $\\kappa$.
 \[[8](#bibkey_DoddJensen1982:CoreModel)\]
 
-### <span id="Ramsey_cardinals_and_the_constructible_universe" class="mw-headline">Ramsey cardinals and the constructible universe</span>
+### Ramsey cardinals and the constructible universe
 
 Ramsey cardinals imply that
 <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
 exists and hence there cannot be Ramsey cardinals in $L$.
 \[[9](#bibkey_Kanamori2009:HigherInfinite)\]
 
-### <span id="Relations_with_other_large_cardinals" class="mw-headline">Relations with other large cardinals</span>
+### Relations with other large cardinals
 
 -   [Measurable](Measurable "Measurable")
     cardinals are Ramsey and stationary limits of Ramsey cardinals.
@@ -260,7 +179,7 @@ Stronger Ramsey-like:
 -   Mahlo–Ramsey cardinals are a direct strengthening of
     Ramseyness.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
 
-### <span id="Ramsey_cardinals_and_forcing" class="mw-headline">Ramsey cardinals and forcing</span>
+### Ramsey cardinals and forcing
 
 -   Ramsey cardinals are preserved by small forcing.
     \[[9](#bibkey_Kanamori2009:HigherInfinite)\]
@@ -293,7 +212,7 @@ Stronger Ramsey-like:
 (All information in this section are from
 \[[2](#bibkey_Feng1990:HierarchyRamsey)\] unless otherwise noted)
 
-### <span id="Basic_definitions" class="mw-headline">Basic definitions</span>
+### Basic definitions
 
 -   $\\mathcal{P}(x)$ is the powerset (set of all subsets) of $x$.
     $\\mathcal{P}\_k(x)$ is the set of all subsets of $x$ with exactly
@@ -303,7 +222,7 @@ Stronger Ramsey-like:
 -   $E$ is $f$-homogenous iff $E \\subseteq λ$ and for all $B,C \\in
     \\mathcal{P}\_k(E)$, we have $f(B) = f(C)$.
 
-### <span id=".24.CE.A0_.CE.B1.24-Ramsey_and_completely_Ramsey" class="mw-headline">$Π\_α$-Ramsey and completely Ramsey</span>
+### $Π\_α$-Ramsey and completely Ramsey
 
 Suppose that $κ$ is a regular uncountable cardinal and $I \\supseteq
 \\mathcal{P}\_{&lt;κ}(κ)$ is an ideal on $κ$. For every $X \\subseteq
@@ -347,7 +266,7 @@ completely Ramsey filter* and every subset of $κ$ not in $I\_{θ\_κ}^κ$
 = I\_{α+1}^κ$ — it must exist before $(2^κ)^+$ <span class="small">for
 every regular uncountable $κ$ — even if the ideals are trivial</span>)
 
-### <span id=".24.CE.B1.24-hyper_completely_Ramsey_and_super_completely_Ramsey" class="mw-headline">$α$-hyper completely Ramsey and super completely Ramsey</span>
+### $α$-hyper completely Ramsey and super completely Ramsey
 
 A sequence $⟨f\_α:α&lt;κ^+⟩$ of elements of $^κκ$ is a *canonical
 sequence* on $κ$ if both
@@ -389,7 +308,7 @@ be the canonical sequence on $κ$.
 -   $κ$ is **super completely Ramsey** iff $κ$ is $κ^+$-hyper completely
     Ramsey.
 
-### <span id="Terminology" class="mw-headline">Terminology</span>
+### Terminology
 
 (This subsection compares (Sharpe&Welch, 2011) and (Feng, 1990))
 
@@ -404,7 +323,7 @@ $Π\_{2 n}$-Ramsey cardinals are Sharpe-Welch $n$-Ramsey and $Π\_{2 n +
 For infinite $α$, $Π\_α$-Ramsey, Sharpe-Welch $α$-Ramsey and
 $α$-Ramsey$^s$ are identical.
 
-### <span id="Results" class="mw-headline">Results</span>
+### Results
 
 Absoluteness:
 
@@ -621,7 +540,7 @@ weakly compact cardinals and below Ramsey cardinals.
 The $1$-iterable cardinals are sometimes called the **weakly Ramsey**
 cardinals.
 
-### <span id="Results_2" class="mw-headline">Results</span>
+### Results
 
 Lower limit:
 
@@ -838,7 +757,7 @@ Strength:
 
 ## $α$-Ramsey cardinal etc.
 
-### <span id=".24.CE.B1.24-Ramsey_cardinal_for_cardinal_.24.CE.B1.24" class="mw-headline">$α$-Ramsey cardinal for cardinal $α$</span>
+### $α$-Ramsey cardinal for cardinal $α$
 
 (All from \[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\])
 
@@ -862,7 +781,7 @@ This characterisation works better for singular alpha $α$ (the original
 one would imply being $α^+$-Ramsey; well-founded $α$-filter property is
 better for countable cofinality).
 
-### <span id="Games_for_definitions" class="mw-headline">Games for definitions</span>
+### Games for definitions
 
 (from \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\] unless otherwise
 noted)
@@ -919,7 +838,7 @@ all equivalent for all limit ordinals $γ \\leq κ$. $\\mathcal{G}^θ\_γ(κ,
 ζ)$ is equivalent to $\\mathcal{G}^θ\_γ(κ)$ whenever $\\mathrm{cof}(γ)
 &gt; ω$.
 
-### <span id="Generalisations" class="mw-headline">Generalisations</span>
+### Generalisations
 
 (from \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\])
 
@@ -948,7 +867,7 @@ variants: Let $κ$ be a cardinal and $γ \\leq κ$ an ordinal:
 \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\] were not new, but
 gained more convenient names.)
 
-### <span id="Filter_property" class="mw-headline">Filter property</span>
+### Filter property
 
 (from \[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\])
 
@@ -971,7 +890,7 @@ Strengthenings:
 For $γ\_1 &gt; γ\_0$, the $γ\_1$-filter property implies the
 $γ\_0$-filter property.
 
-### <span id="Results_3" class="mw-headline">Results</span>
+### Results
 
 Results in the finite case (for $n &lt;
 ω$):\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
@@ -1113,7 +1032,7 @@ Other:
     cardinals are limits of fully Ramsey
     cardinals.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
 
-### <span id=".24.28.CE.B1.2C_.CE.B2.29.24-Ramsey_cardinals" class="mw-headline">$(α, β)$-Ramsey cardinals</span>
+### $(α, β)$-Ramsey cardinals
 
 (All information from \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\])
 
@@ -1137,7 +1056,7 @@ iterable cardinals:
 This means also that $(ω, α)$-Ramsey cardinals are consistent with $V =
 L$ if $α &lt; ω\_1^L$ and that they are not if $α = ω\_1$ .
 
-### <span id=".24.28.CE.B3.2C_.CE.B8.29.24-Ramsey_cardinals" class="mw-headline">$(γ, θ)$-Ramsey cardinals</span>
+### $(γ, θ)$-Ramsey cardinals
 
 $κ$ is **$(γ, θ)$-Ramsey** iff player I has no winning strategy in
 $\\mathcal{G}^θ\_γ(κ)$ (i.e. $κ$ is $γ$-Ramsey iff it is $(γ, θ)$-Ramsey

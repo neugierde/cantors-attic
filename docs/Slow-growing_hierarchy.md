@@ -2,7 +2,6 @@
 title: Slow-growing hierarchy
 permalink: Slow-growing_hierarchy
 ---
-# Slow-growing hierarchy
 
 
 

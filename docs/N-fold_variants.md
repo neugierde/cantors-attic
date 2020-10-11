@@ -2,16 +2,6 @@
 title: $n$-fold Variants of Large Cardinals
 permalink: N-fold_variants
 ---
-# $n$-fold Variants of Large Cardinals
-
-
-
-
-
-
-
-
-
 
 
 *This page is a WIP.* The $n$-fold variants of large cardinal axioms
@@ -21,10 +11,7 @@ helix phenomena is the strange pattern in consistency strength between
 such cardinals, which can be seen below.
 
 
-
-<a href="File:DoubleHelix.png" class="image"><img src="/web/20191005075330im_/http://cantorsattic.info/images/thumb/d/dc/DoubleHelix.png/600px-DoubleHelix.png" srcset="/web/20191005075330im_/http://cantorsattic.info/images/thumb/d/dc/DoubleHelix.png/900px-DoubleHelix.png 1.5x, /web/20191005075330im_/http://cantorsattic.info/images/thumb/d/dc/DoubleHelix.png/1200px-DoubleHelix.png 2x" width="600" height="373" alt="DoubleHelix.png" /></a>
-
-
+![File:DoubleHelix.png](assets/img/DoubleHelix.png)
 
 This diagram was created by Kentaro. The arrows denote consistency
 strength, and the double lines denote equivalency. The large cardinals
@@ -33,48 +20,6 @@ this website).
 
 This page will only use facts from
 \[[1](#bibkey_Kentaro2007:DoubleHelix)\] unless otherwise stated.
-
-
-
-## Contents
-
-
--   [<span class="tocnumber">1</span> <span class="toctext">$n$-fold
-    Variants</span>](#.24n.24-fold_Variants)
-    -   [<span class="tocnumber">1.1</span> <span
-        class="toctext">$n$-fold Variants Which Are Simply the Original
-        Large
-        Cardinal</span>](#.24n.24-fold_Variants_Which_Are_Simply_the_Original_Large_Cardinal)
-    -   [<span class="tocnumber">1.2</span> <span
-        class="toctext">$n$-fold supercompact
-        cardinals</span>](#.24n.24-fold_supercompact_cardinals)
-    -   [<span class="tocnumber">1.3</span> <span
-        class="toctext">$n$-fold strong
-        cardinals</span>](#.24n.24-fold_strong_cardinals)
-    -   [<span class="tocnumber">1.4</span> <span
-        class="toctext">$n$-fold extendible
-        cardinals</span>](#.24n.24-fold_extendible_cardinals)
-    -   [<span class="tocnumber">1.5</span> <span
-        class="toctext">$n$-fold Woodin
-        cardinals</span>](#.24n.24-fold_Woodin_cardinals)
--   [<span class="tocnumber">2</span> <span
-    class="toctext">$\\omega$-fold
-    variants</span>](#.24.5Comega.24-fold_variants)
-    -   [<span class="tocnumber">2.1</span> <span
-        class="toctext">$\\omega$-fold
-        extendible</span>](#.24.5Comega.24-fold_extendible)
-    -   [<span class="tocnumber">2.2</span> <span
-        class="toctext">$\\omega$-fold
-        Vopěnka</span>](#.24.5Comega.24-fold_Vop.C4.9Bnka)
-    -   [<span class="tocnumber">2.3</span> <span
-        class="toctext">$\\omega$-fold
-        Woodin</span>](#.24.5Comega.24-fold_Woodin)
-    -   [<span class="tocnumber">2.4</span> <span
-        class="toctext">$\\omega$-fold
-        strong</span>](#.24.5Comega.24-fold_strong)
--   [<span class="tocnumber">3</span> <span
-    class="toctext">References</span>](#References)
-
 
 ## $n$-fold Variants
 
@@ -102,7 +47,7 @@ some closure property which uses $\\kappa$, then the definition of the
 $n$-fold variant of the axiom is that $M$ has that closure property on
 $j^n{\\kappa}$.
 
-### <span id=".24n.24-fold_Variants_Which_Are_Simply_the_Original_Large_Cardinal" class="mw-headline">$n$-fold Variants Which Are Simply the Original Large Cardinal</span>
+### $n$-fold Variants Which Are Simply the Original Large Cardinal
 
 There were many $n$-fold variants which were simply different names of
 the original large cardinal. This was due to the fact that some n-fold
@@ -128,7 +73,7 @@ Here are a list of such cardinals:
     <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I2</a>
     cardinals
 
-### <span id=".24n.24-fold_supercompact_cardinals" class="mw-headline">$n$-fold supercompact cardinals</span>
+### $n$-fold supercompact cardinals
 
 A cardinal $\\kappa$ is **$n$-fold $\\lambda$-supercompact** iff it is
 the critical point of some nontrivial elementary embedding
@@ -155,7 +100,7 @@ cardinals. The $0$-fold supercompact cardinals are precisely the
 [measurable](Measurable "Measurable")
 cardinals.
 
-### <span id=".24n.24-fold_strong_cardinals" class="mw-headline">$n$-fold strong cardinals</span>
+### $n$-fold strong cardinals
 
 A cardinal $\\kappa$ is **$n$-fold $\\lambda$-strong** iff it is the
 critical point of some nontrivial elementary embedding $j:V\\rightarrow
@@ -178,7 +123,7 @@ cardinals. The $0$-fold strong cardinals are precisely the
 [measurable](Measurable "Measurable")
 cardinals.
 
-### <span id=".24n.24-fold_extendible_cardinals" class="mw-headline">$n$-fold extendible cardinals</span>
+### $n$-fold extendible cardinals
 
 For ordinal $η$, class $F$, positive natural $n$ and
 $κ+η&lt;κ\_1&lt;···&lt;κ\_n$:
@@ -198,7 +143,7 @@ $n$-fold extendible cardinals are precisely $n+1$ strong cardinals.
 $n$-fold $1$-extendibility is implied by $(n+1)$-fold $1$-strongness and
 implies $n$-fold superstrongness.
 
-### <span id=".24n.24-fold_Woodin_cardinals" class="mw-headline">$n$-fold Woodin cardinals</span>
+### $n$-fold Woodin cardinals
 
 A cardinal $\\kappa$ is **$n$-fold Woodin** iff for every function
 $f:\\kappa\\rightarrow\\kappa$ there is some ordinal
@@ -238,7 +183,7 @@ cardinal and a
 cardinal), but $\\omega$-fold strong is much, much stronger than
 $\\omega$-fold Vopěnka.
 
-### <span id=".24.5Comega.24-fold_extendible" class="mw-headline">$\\omega$-fold extendible</span>
+### $\\omega$-fold extendible
 
 For ordinal $η$ and class $F$:
 
@@ -261,7 +206,7 @@ Results:
 -   If there is an $ω$-fold Vopěnka cardinal, then the existence of a
     proper class of $ω$-fold extendible cardinals is consistent.
 
-### <span id=".24.5Comega.24-fold_Vop.C4.9Bnka" class="mw-headline">$\\omega$-fold Vopěnka</span>
+### $\\omega$-fold Vopěnka
 
 Definition:
 
@@ -282,7 +227,7 @@ Results:
 -   The critical point $κ$ of a witness of $IE^ω$ is the $κ$-th $ω$-fold
     Vopěnka cardinal.
 
-### <span id=".24.5Comega.24-fold_Woodin" class="mw-headline">$\\omega$-fold Woodin</span>
+### $\\omega$-fold Woodin
 
 A cardinal $\\kappa$ is **$\\omega$-fold Woodin** iff for every function
 $f:\\kappa\\rightarrow\\kappa$ there is some ordinal
@@ -299,7 +244,7 @@ $\\kappa$ then $\\kappa$ is $\\omega$-fold Woodin and has $\\kappa$-many
 $\\omega$-fold Woodin cardinals below it, and $V\_\\kappa$ satisfies the
 existence of a proper class of $\\omega$-fold Woodin cardinals.
 
-### <span id=".24.5Comega.24-fold_strong" class="mw-headline">$\\omega$-fold strong</span>
+### $\\omega$-fold strong
 
 A cardinal $\\kappa$ is **$\\omega$-fold $\\lambda$-strong** iff it is
 the critical point of some nontrivial elementary embedding

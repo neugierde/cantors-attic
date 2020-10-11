@@ -1,8 +1,7 @@
 ---
-title: The Feferman-Schütte ordinal, $\\Gamma\_0$
+title: The Feferman-Schütte ordinal, $\Gamma_0$
 permalink: Feferman-Schütte
 ---
-# The Feferman-Schütte ordinal, $\\Gamma\_0$
 
 
 

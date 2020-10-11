@@ -2,7 +2,6 @@
 title: Category:Lower attic
 permalink: Category:Lower_attic
 ---
-# Category:Lower attic
 
 
 
