@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-baseurl: cantors-attic
+baseurl: /cantors-attic
 # source: docs
 plugins:
   - jekyll-default-layout
