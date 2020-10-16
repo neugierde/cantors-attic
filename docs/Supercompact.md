@@ -72,7 +72,7 @@ $j(\\mathrm{crit}(j))=\\kappa$.
 ([Remarkable](Remarkable "Remarkable")
 cardinals could be called virtually supercompact, because one of their
 definitions is an exact analogue of this one (with forcing
-extension))\[[1](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+extension)){% cite Gitmana %}
 
 ## Properties
 
@@ -216,7 +216,7 @@ n-huge cardinal, for all n. If $\\kappa$ is supercompact and there is an
 n-huge cardinal above $\\kappa$, then there are $\\kappa$-many n-huge
 cardinals below $\\kappa$.
 
-From \[[2](#bibkey_Bagaria2012:CnCardinals)\]:
+From {% cite Bagaria2012 %}:
 
 -   If κ is $2^κ$-supercompact and belongs to $C^{(n)}$, then there is a
     $κ$-complete normal
@@ -234,18 +234,3 @@ From \[[2](#bibkey_Bagaria2012:CnCardinals)\]:
   
 
         This article is a stub. Please help us to improve Cantor's Attic by adding information.
-
-## References
-
-1.  <span id="bibkey_GitmanSchindler:VirtualLargeCardinals">Gitman,
-    Victoria and Shindler, Ralf. *Virtual large cardinals.*
-    <a href="https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BGitmanSchindler:VirtualLargeCardinals,AUTHOR=%20%7BGitman,%20Victoria%20and%20Shindler,%20Ralf%7D,%3Cbr%3ETITLE=%20%7BVirtual%20large%20cardinals%7D,%3Cbr%3EURL=%20%7Bhttps://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Bagaria2012:CnCardinals">Bagaria, Joan.
-    *$C^{(n)}$-cardinals.* Archive for Mathematical Logic
-    51(3--4):213--240, 2012.
-    <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005051211/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

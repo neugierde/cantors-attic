@@ -68,7 +68,7 @@ properties:
     $\\alpha$ is a cardinal (which it most often is), then the
     requirement on $H$ can be loosened to $H$ having cardinality
     $\\alpha$ and being homogeneous for $f$ without loss of generality.
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   A common abbreviation for $\\kappa\\rightarrow (\\alpha)\_2^n$ is
     $\\kappa\\rightarrow (\\alpha)^n$.
 -   $\\kappa\\rightarrow (\\alpha)\_\\lambda^{&lt;\\omega}$ iff for
@@ -77,7 +77,7 @@ properties:
     $f$. If $\\alpha$ is a cardinal (which it most often is), then the
     requirement on $H$ can be loosened to $H$ having cardinality
     $\\alpha$ and being homogeneous for $f$ without loss of generality.
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 
 Let $\\nu$ be a cardinal. The **square bracket partition properties**
 are defined as follows:
@@ -109,34 +109,34 @@ There are several theorems in the study of partition calculus. Namely:
 
 -   Ramsey's theorem, which states that $\\aleph\_0\\rightarrow
     (\\omega)\_m^n$ for each finite $m$ and $n$.
-    \[[2](#bibkey_Jech2003:SetTheory)\]
+    {% cite Jech2003 %}
 -   $2^\\kappa\\not\\rightarrow (\\kappa^+)^2$
-    \[[2](#bibkey_Jech2003:SetTheory)\]
+    {% cite Jech2003 %}
 -   The Erdős-Rado theorem, which states that
     $\\beth\_n(\\kappa)^+\\rightarrow (\\kappa^+)\_\\kappa^{n+1}$.
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   $\\kappa\\not\\rightarrow(\\omega)\_2^\\omega$
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   For any finite nonzero $n$ and ordinals $\\alpha$ and $\\beta$,
     there is a $\\kappa$ such that
     $\\kappa\\rightarrow(\\alpha)\_\\beta^n$.
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   The Gödel-Erdős-Kakutani theorem, which states that
     $2^\\kappa\\not\\rightarrow (3)^2\_\\kappa$.
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   $\\kappa\\not\\rightarrow \[\\kappa\]\_\\kappa^\\omega$.
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   $\\lambda^+\\not\\rightarrow\[\\lambda+1\]^2\_{\\lambda,&lt;\\lambda}$
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   $\\lambda\\not\\rightarrow\[\\lambda\]^1\_{\\mathrm{cf}(\\lambda),&lt;\\mathrm{cf}(\\lambda)}$
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   For any regular $\\kappa$,
     $\\kappa^+\\not\\rightarrow\[\\kappa^+\]^2\_{\\kappa^+}$.
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   For any
     [inaccessible](Inaccessible "Inaccessible")
     cardinal $\\kappa$, $\\kappa\\rightarrow(\\lambda)\_\\lambda^2$ for
-    any $\\lambda&lt;\\kappa$ \[[3](#bibkey_Drake1974:SetTheory)\] .
+    any $\\lambda&lt;\\kappa$ {% cite Drake1974 %} .
     However, this may not be an equivalence; if the
     <a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
     holds at $\\kappa$, then
@@ -154,14 +154,14 @@ partition property. Here are those which can be found on this website:
     $\\aleph\_2\\rightarrow\[\\omega\_1\]^{n}\_{\\aleph\_1,&lt;\\aleph\_1}$
     for some $n$, iff
     $\\aleph\_2\\rightarrow\[\\omega\_1\]^{n}\_{\\aleph\_1,&lt;\\aleph\_1}$
-    for every finite $n$. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    for every finite $n$. {% cite Kanamori2009 %}
 -   A cardinal $\\kappa$ is
     [Ramsey](Ramsey "Ramsey")
     iff $\\kappa\\rightarrow(\\kappa)\_\\lambda^{&lt;\\omega}$ for some
     $\\lambda&gt;1$, iff
     $\\kappa\\rightarrow(\\kappa)\_\\lambda^{&lt;\\omega}$ for every
     $\\lambda&lt;\\kappa$.
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]\[[2](#bibkey_Jech2003:SetTheory)\]
+    {% cite Kanamori2009 Jech2003 %}
 -   A cardinal $\\kappa$ is the
     [$\\alpha$-Erdős](Erdos "Erdos")
     cardinal iff it is the smallest $\\kappa$ such that
@@ -174,29 +174,9 @@ partition property. Here are those which can be found on this website:
 -   A cardinal $\\kappa$ is
     [Jónsson](Jonsson "Jonsson")
     iff $\\kappa\\rightarrow\[\\kappa\]\_\\kappa^{&lt;\\omega}$.
-    \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   A cardinal $\\kappa$ is [weakly
     compact](Weakly_compact "Weakly compact")
     iff $\\kappa\\rightarrow(\\kappa)^2\_\\lambda$ for some
     $\\lambda&gt;1$, iff $\\kappa\\rightarrow(\\kappa)^2\_\\lambda$ for
-    every $\\lambda&lt;\\kappa$. \[[2](#bibkey_Jech2003:SetTheory)\]
-
-## References
-
-1.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Jech2003:SetTheory">Jech, Thomas J. ***Set
-    Theory.*** Third, Springer-Verlag, Berlin, 2003. (The third
-    millennium edition, revised and expanded)
-    <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Drake1974:SetTheory">Drake, Frank. ***Set Theory:
-    An Introduction to Large Cardinals.*** North-Holland Pub. Co., 1974.
-    <a href="javascript:bibpopup(&#39;@book%7BDrake1974:SetTheory,%20%20%20TITLE%20=%20%7BSet%20Theory:%20An%20Introduction%20to%20Large%20Cardinals%7D,%3Cbr%3E%20%20%20AUTHOR%20=%20%7BDrake,%20Frank%7D,%3Cbr%3E%20%20%20PUBLISHER%20=%20%7BNorth-Holland%20Pub.%20Co.%7D,%3Cbr%3E%20%20%20ISBN%20=%20%7B0444105352,%209780444105356%7D,%3Cbr%3E%20%20%20YEAR%20=%20%7B1974%7D,%3Cbr%3E%20%20%20SERIES%20=%20%7BStudies%20in%20Logic%20and%20the%20Foundations%20of%20Mathematics,%20Volume%2076%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-
+    every $\\lambda&lt;\\kappa$. {% cite Jech2003 %}

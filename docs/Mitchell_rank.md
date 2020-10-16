@@ -43,16 +43,16 @@ $o(\\gamma)$ is defined for $\\gamma\\lt\\kappa$, then it is defined at
 $\\kappa$ in $M$.)
 
 Analogous properties include degree for
-<a href="Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strong unfoldability</a>\[[1](#bibkey_HamkinsJohnstone2010:IndestructibleStrongUnfoldability),
-[2](#bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms)\], M-ranks for
+<a href="Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strong unfoldability</a>
+{% cite Hamkins2010 Hamkins2014a %}, M-ranks for
 [Ramsey](Ramsey "Ramsey")
 and Ramsey-like cardinals (A difference is that M-rank for Ramsey-like
 cardinals can be at most $\\kappa^+$ and Mitchell rank for measurable
 cardinals can be at most
-$(2^\\kappa)^+$.)\[[3](#bibkey_CarmodyGitmanHabic2016:Mitchelllike)\]
+$(2^\\kappa)^+$.){% cite Carmody2016 %}
 and Mitchell rank for
 [supercompact](Supercompact "Supercompact")
-cardinals\[[4](#bibkey_Carmody2015:ForceToChangeLargeCardinalStrength)\]
+cardinals{% cite Carmody2015 %}
 
 ## $o(\\kappa)=1$
 
@@ -96,29 +96,3 @@ be the rank of this order, and in this case, one has $o(\\kappa)=0$ for
 non-measurable cardinals, $o(\\kappa)=1$ for measurable cardinals that
 have no normal measure concentrating on measurable cardinals, and so on,
 shifting by one.)
-
-## References
-
-1.  <span
-    id="bibkey_HamkinsJohnstone2010:IndestructibleStrongUnfoldability">Hamkins,
-    Joel David and Johnstone, Thomas A. *Indestructible strong
-    un-foldability.* Notre Dame J Form Log 51(3):291--321, 2010.
-    <a href="javascript:bibpopup(&#39;@article%7BHamkinsJohnstone2010:IndestructibleStrongUnfoldability,%20%20AUTHOR%20=%20%20%20%20%20%20%20%7BHamkins,%20Joel%20David%20and%20Johnstone,%20Thomas%20A.%7D,%3Cbr%3E%20%20TITLE%20=%20%20%20%20%20%20%20%20%7BIndestructible%20strong%20un-foldability%7D,%3Cbr%3E%20%20YEAR%20=%20%20%20%20%20%20%20%20%20%7B2010%7D,%3Cbr%3E%20%20JOURNAL%20=%20%20%20%20%20%20%7BNotre%20Dame%20J.%20Form.%20Log.%7D,%3Cbr%3E%20%20VOLUME%20=%20%20%20%20%20%20%20%7B51%7D,%3Cbr%3E%20%20NUMBER%20=%20%20%20%20%20%20%20%7B3%7D,%3Cbr%3E%20%20PAGES%20=%20%20%20%20%20%20%20%20%7B291--321%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span
-    id="bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms">Hamkins,
-    Joel David and Johnstone, Thomas A. *Strongly uplifting cardinals
-    and the boldface resurrection axioms.* , 2014.
-    <a href="http://arxiv.org/abs/1403.2788" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BHamkinsJohnstone:BoldfaceResurrectionAxioms,%20%20AUTHOR%20=%20%20%20%20%20%20%20%7BHamkins,%20Joel%20David%20and%20Johnstone,%20Thomas%20A.%7D,%3Cbr%3E%20%20TITLE%20=%20%20%20%20%20%20%20%20%7BStrongly%20uplifting%20cardinals%20and%20the%20boldface%20resurrection%20axioms%7D,%3Cbr%3E%20%20YEAR%20=%20%20%20%20%20%20%20%20%20%7B2014%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1403.2788%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_CarmodyGitmanHabic2016:Mitchelllike">Carmody, Erin
-    and Gitman, Victoria and Habič, Miha E. *A Mitchell-like order for
-    Ramsey and Ramsey-like cardinals.* , 2016.
-    <a href="http://arxiv.org/abs/1609.07645" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BCarmodyGitmanHabic2016:Mitchelllike,%20%20%20%20author%20=%20%7BCarmody,%20Erin%20and%20Gitman,%20Victoria%20and%20Habič,%20Miha%20E.%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BA%20Mitchell-like%20order%20for%20Ramsey%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2016%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1609.07645%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span
-    id="bibkey_Carmody2015:ForceToChangeLargeCardinalStrength">Carmody,
-    Erin Kathryn. *Force to change large cardinal strength.* , 2015.
-    <a href="https://academicworks.cuny.edu/gc_etds/879/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075012/http://arxiv.org/abs/1506.03432" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BCarmody2015:ForceToChangeLargeCardinalStrength,%20%20%20%20author%20=%20%7BCarmody,%20Erin%20Kathryn%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BForce%20to%20change%20large%20cardinal%20strength%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2015%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1506.03432%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttps://academicworks.cuny.edu/gc_etds/879/%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

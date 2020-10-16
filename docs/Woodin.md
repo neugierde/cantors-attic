@@ -39,7 +39,7 @@ $V\_{j(f)(\\kappa)}\\subseteq M$.
 An
 [inaccessible](Inaccessible "Inaccessible")
 cardinal $\\delta$ is **Woodin** if any of the following (equivalent)
-characterizations holds \[[1](#bibkey_Kanamori2009:HigherInfinite)\]:
+characterizations holds {% cite Kanamori2009 %}:
 
 -   For any set $A\\subseteq V\_\\delta$, there exists a
     $\\kappa&lt;\\delta$ that is &lt;$\\delta$-$A$-strong.
@@ -62,7 +62,7 @@ characterizations holds \[[1](#bibkey_Kanamori2009:HigherInfinite)\]:
 Let $\\delta$ be Woodin, $F$ be the Woodin filter over $\\delta$, and
 $S=\\{\\kappa&lt;\\delta:\\kappa$ is &lt;$\\delta$-$A$-strong$\\}$. Then
 $F$ is normal and $S\\in F$.
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\] This implies every Woodin
+{% cite Kanamori2009 %} This implies every Woodin
 cardinal is
 [Mahlo](Mahlo "Mahlo") and
 preceeded by a stationary set of
@@ -149,11 +149,11 @@ cardinals for every $n &lt; ω$ and if κ is
 2-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>,
 then $V\_κ$ is a model of proper class many virtually Shelah for
 supercompactness
-cardinals.\[[2](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+cardinals.{% cite Gitmana %}
 
 ## Woodin for strong compactness
 
-(from \[[3](#bibkey_Dimopoulos2019:WoodinForStrongCompactness)\] unless
+(from {% cite Dimopoulos2019 %} unless
 otherwise noted)
 
 A cardinal $δ$ is **Woodin for strong compactness** (or *Woodinised
@@ -164,7 +164,7 @@ for $A$.
 
 This definition is obviously analogous to one of the characterisations
 of Woodin and *Woodin-for-supercompactness* (Perlmutter proved that
-\[[4](#bibkey_Perlmutter2010:TheLargeCardinalsBetweenSupercompactAlmostHuge)\]
+{% cite Perlmutter2010 %}
 it is equivalent to
 [Vopěnkaness](Vopenka "Vopenka"))
 cardinals.
@@ -190,7 +190,7 @@ determinacy](Projective#Projective_determinacy "Projective")*
 
 Woodin cardinals are linked to different forms of the [axiom of
 determinacy](Axiom_of_determinacy "Axiom of determinacy")
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\]\[[5](#bibkey_Larson2010:HistoryDeterminacy)\]\[[6](#bibkey_KoellnerWoodin2010:LCFD)\]:
+{% cite Kanamori2009 Larson2013 Koellner2010 %}:
 
 -   $\\text{ZF+AD}$, $\\text{ZFC+AD}^{L(\\mathbb{R})}$, ZFC+"the
     non-stationary ideal over $\\omega\_1$ is $\\omega\_1$-dense" and
@@ -198,7 +198,7 @@ determinacy](Axiom_of_determinacy "Axiom of determinacy")
     equiconsistent.
 -   Under $\\text{ZF+AD}$, the model $\\text{HOD}^{L(\\mathbb{R})}$
     satisfies $\\text{ZFC}$+"$\\Theta^{L(\\mathbb{R})}$ is a Woodin
-    cardinal". \[[6](#bibkey_KoellnerWoodin2010:LCFD)\] gives many
+    cardinal". {% cite Koellner2010 %} gives many
     generalizations of this result.
 -   If there exists infinitely many Woodin cardinals with a measurable
     above them all, then $\\text{AD}^{L(\\mathbb{R})}$. If there
@@ -234,36 +234,3 @@ determinacy](Axiom_of_determinacy "Axiom of determinacy")
 ## Role in $\\Omega$-logic
 
 ## Stationary tower forcing
-
-## References
-
-1.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_GitmanSchindler:VirtualLargeCardinals">Gitman,
-    Victoria and Shindler, Ralf. *Virtual large cardinals.*
-    <a href="https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BGitmanSchindler:VirtualLargeCardinals,AUTHOR=%20%7BGitman,%20Victoria%20and%20Shindler,%20Ralf%7D,%3Cbr%3ETITLE=%20%7BVirtual%20large%20cardinals%7D,%3Cbr%3EURL=%20%7Bhttps://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span
-    id="bibkey_Dimopoulos2019:WoodinForStrongCompactness">Dimopoulos,
-    Stamatis. *Woodin for strong compactness cardinals.* The Journal of
-    Symbolic Logic 84(1):301–319, 2019.
-    <a href="http://arxiv.org/abs/1710.05743" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005074946/http://dx.doi.org/10.1017/jsl.2018.67" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%20%7BDimopoulos2019:WoodinForStrongCompactness,title=%7BWoodin%20for%20strong%20compactness%20cardinals%7D,%3Cbr%3Evolume=%7B84%7D,%3Cbr%3EDOI=%7B10.1017/jsl.2018.67%7D,%3Cbr%3Enumber=%7B1%7D,%3Cbr%3Ejournal=%7BThe%20Journal%20of%20Symbolic%20Logic%7D,%3Cbr%3Epublisher=%7BCambridge%20University%20Press%7D,%3Cbr%3Eauthor=%7BDimopoulos,%20Stamatis%7D,%3Cbr%3Eyear=%7B2019%7D,%3Cbr%3Epages=%7B301–319%7D,%3Cbr%3Eeprint=%7B1710.05743%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span
-    id="bibkey_Perlmutter2010:TheLargeCardinalsBetweenSupercompactAlmostHuge">Perlmutter,
-    Norman. *The large cardinals between supercompact and almost-huge.*
-    , 2010.
-    <a href="http://arxiv.org/abs/1307.7387" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BPerlmutter2010:TheLargeCardinalsBetweenSupercompactAlmostHuge,%20%20%20%20AUTHOR%20=%20%7BPerlmutter,%20Norman%7D.%20%20%20%20TITLE%20=%20%7BThe%20large%20cardinals%20between%20supercompact%20and%20almost-huge%7D,%3Cbr%3E%20%20%20%20YEAR%20=%20%7B2010%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1307.7387%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_Larson2010:HistoryDeterminacy">Larson, Paul B. *A
-    brief history of determinacy.* , 2013.
-    <a href="http://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7B%7BLarson2010:HistoryDeterminacy,%20%20%20%20AUTHOR%20=%20%7BLarson,%20Paul%20B.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BA%20brief%20history%20of%20determinacy%7D,%3Cbr%3E%20%20%20%20YEAR%20=%20%7B2013%7D,%3Cbr%3E%20%20%20%20URL%20=%20%7Bhttp://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_KoellnerWoodin2010:LCFD">Koellner, Peter and
-    Woodin, W Hugh. *Chapter 23: Large cardinals from Determinacy.*
-    Handbook of Set Theory , 2010.
-    <a href="http://logic.harvard.edu/koellner/LCFD.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKoellnerWoodin2010:LCFD,%20%20%20author%20=%20%7BKoellner,%20Peter%20and%20Woodin,%20W.%20Hugh%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BChapter%2023:%20Large%20cardinals%20from%20Determinacy%7D,%3Cbr%3E%20%20journal%20=%20%7BHandbook%20of%20Set%20Theory%7D,%3Cbr%3E%20%20%20editor%20=%20%7BForeman,%20Mathew;%20Kanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20year%20=%20%7B2010%7D,%3Cbr%3Epublisher%20=%20%7BSpringer%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttp://logic.harvard.edu/koellner/LCFD.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

@@ -567,7 +567,7 @@ $\\mathbb{Q}$ is a proper forcing such that $\\Vdash\_\\mathbb{Q}
 = (\\bar{M} ; ∈, (\\bar{R}\_i \| i &lt; ω\_1 ))$ together with an
 elementary embedding $j : \\bar{\\mathcal{M}} → \\mathcal{M}$ such that
 $φ(\\bar{\\mathcal{M}})$
-holds.\[[1](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+holds.{% cite Bagaria2017a %}
 
 ### Martin's maximum and the semiproper forcing axiom
 
@@ -584,7 +584,7 @@ then $\\kappa^{\\aleph\_0}=\\kappa$.
 ### $\\text{wPFA}$ and $\\text{PFA}\_κ$
 
 (information in this subsection from
-\[[1](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\])
+{% cite Bagaria2017a %})
 
 The **weak Proper Forcing Axiom** is obtained by requiring only that
 embedding $j$ (like in the last statement equivalent to $\\text{PFA}$)

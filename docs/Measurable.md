@@ -40,7 +40,7 @@ $\\sigma$-complete because of $\\mu$'s $\\sigma$-additivity. Similarly,
 if $U$ is a $\\sigma$-complete nonprincipal ultrafilter on $\\kappa$,
 then $\\mu:\\mathcal{P}(\\kappa)\\to\[0,1\]$ defined by $\\mu(X)=1$
 whenever $X\\in U$, $\\mu(X)=0$ otherwise is a 2-valued measure on
-$\\kappa$. \[[1](#bibkey_Jech2003:SetTheory)\]
+$\\kappa$. {% cite Jech2003 %}
 
 An uncountable cardinal which satisfies the equivalent conditions of
 theorem 1 is sometimes called a 2-measurable cardinal (because
@@ -80,7 +80,7 @@ embeddings](Ultrapower "Ultrapower"):
 if $U$ is a nonprincipal $\\kappa$-complete ultrafilter on $\\kappa$,
 then the canonical ultrapower embedding $j:V\\to\\text{Ult}\_U(V)$ is a
 nontrivial elementary embedding of the universe.
-\[[1](#bibkey_Jech2003:SetTheory)\]
+{% cite Jech2003 %}
 
 An uncountable cardinal $\\kappa$ is called measurable if the equivalent
 conditions of theorem 2 are satisfied.
@@ -292,9 +292,9 @@ cardinals can be characterized in terms of those embeddings.
 
 Specifically a measurable cardinal exists if and only if there is a
 nonidentity exact functor $F:\\text{Set}\\rightarrow\\text{Set}$
-\[[2](#bibkey_Blass1976:ExactFunctors)\].
+{% cite Blass1976 %}.
 
-For more information, read \[[2](#bibkey_Blass1976:ExactFunctors)\].
+For more information, read {% cite Blass1976 %}.
 
 ## Properties
 
@@ -324,11 +324,11 @@ both measurable.
 
 Any measurable cardinal $κ$ has super
 [Ramsey](Ramsey "Ramsey")
-M-rank $κ^+$\[[3](#bibkey_CarmodyGitmanHabic2016:Mitchelllike)\], is
+M-rank $κ^+${% cite Carmody2016 %}, is
 super completely Ramsey and a stationary limit of super completely
-Ramsey cardinals\[[4](#bibkey_Feng1990:HierarchyRamsey)\] and is a limit
+Ramsey cardinals{% cite Feng1990 %} and is a limit
 of regular cardinals $α$ which are
-$α$-Ramsey.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+$α$-Ramsey.{% cite Holy2018 %}
 
 If $\\kappa$ is measurable, then it has a measure that take every value
 in $\[0,1\]$. Also there must be a normal fine measure on
@@ -340,7 +340,7 @@ and (under AC) bears most large cardinal properties weaker than it. It
 is in particular
 $\\Pi^2\_1$-[indescribable](Indescribable "Indescribable").
 However the least measurable cardinal is not
-$\\Sigma^2\_1$-indescribable. \[[1](#bibkey_Jech2003:SetTheory)\]
+$\\Sigma^2\_1$-indescribable. {% cite Jech2003 %}
 Independently of the truth of AC, the existence of a measurable cardinal
 implies the consistency of the existence of large cardinals with the
 said properties, even if that measurable is merely $\\omega\_1$.
@@ -419,7 +419,7 @@ following are equivalent:
 On the other hand, starting from a $κ^{++}$-tall cardinal $κ$, it is
 consistent that there is a cardinal $κ$ with the strategic $κ+$-filter
 property, however $κ$ is not
-measurable.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+measurable.{% cite Holy2018 %}
 
 If $κ$ is a measurable cardinal, then $κ$ is $κ$-very Ramsey. If a
 cardinal is $ω\_1$-very Ramsey (=strategic $ω\_1$-Ramsey cardinal), then
@@ -429,19 +429,18 @@ unless
 <a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
 exists and an inner model with a
 [Woodin](Woodin "Woodin")
-cardinal exists.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike),
-[7](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+cardinal exists. {% cite Nielsen2018 Sharpe2011 %}
 
 The existence of a strategic $ω+1$-Ramsey cardinal (and of a strategic
 fully Ramsey cardinal) is equiconsistent with the existence of a
-measurable cardinal.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+measurable cardinal.{% cite Nielsen2018 %}
 
 A cardinal $κ$ is
 <a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-measurable</a>
 iff there is a transitive class $M$ and an elementary embedding $j : V →
 M$ with critical point $crit(j) = κ$ and with $j(κ) ∈ C^{(n)}$. Every
 measurable cardinal is $C^{(n)}$-measurable for all
-$n$.\[[8](#bibkey_Bagaria2012:CnCardinals)\]
+$n$.{% cite Bagaria2012 %}
 
 *See also:
 [Ultrapower](Ultrapower "Ultrapower")*
@@ -477,7 +476,7 @@ If a real-valued measurable cardinal is not measurable, then it must be
 smaller than (or equal to) $2^{\\aleph\_0}$.
 <a href="index.php?title=Martin%27s_axiom&amp;action=edit&amp;redlink=1" class="new" title="Martin&#39;s axiom (page does not exist)">Martin's axiom</a>
 implies that the continuum is not real-valued measurable.
-\[[1](#bibkey_Jech2003:SetTheory)\]
+{% cite Jech2003 %}
 
 Solovay showed that the existence of a measurable cardinal is
 equiconsistent with the existence of a real-valued measurable cardinal.
@@ -490,7 +489,7 @@ it is measurable in some model of $\\text{ZFC}$.
 
 ## Virtually measurable cardinal
 
-(all information from \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\])
+(all information from {% cite Nielsen2018 %})
 
 A cardinal $κ$ is **virtually measurable** iff for every regular $ν &gt;
 κ$ there exists a
@@ -523,44 +522,4 @@ measurables”}$.
 
 
 -   Bering A., Edgar - *A brief introduction to measurable cardinals*
-
-## References
-
-1.  <span id="bibkey_Jech2003:SetTheory">Jech, Thomas J. ***Set
-    Theory.*** Third, Springer-Verlag, Berlin, 2003. (The third
-    millennium edition, revised and expanded)
-    <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Blass1976:ExactFunctors">Blass, Andreas. *Exact
-    functors and measurable cardinals..* Pacific J Math
-    63(2):335--346, 1976.
-    <a href="https://projecteuclid.org:443/euclid.pjm/1102867389" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BBlass1976:ExactFunctors,author%20=%20%22Blass,%20Andreas%22,fjournal%20=%20%22Pacific%20Journal%20of%20Mathematics%22,journal%20=%20%22Pacific%20J.%20Math.%22,number%20=%20%222%22,pages%20=%20%22335--346%22,publisher%20=%20%22Pacific%20Journal%20of%20Mathematics,%20A%20Non-profit%20Corporation%22,title%20=%20%22Exact%20functors%20and%20measurable%20cardinals.%22,url%20=%20%22http://web.archive.org/web/20191005075116/https://projecteuclid.org:443/euclid.pjm/1102867389%22,volume%20=%20%2263%22,year%20=%20%221976%22%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_CarmodyGitmanHabic2016:Mitchelllike">Carmody, Erin
-    and Gitman, Victoria and Habič, Miha E. *A Mitchell-like order for
-    Ramsey and Ramsey-like cardinals.* , 2016.
-    <a href="http://arxiv.org/abs/1609.07645" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BCarmodyGitmanHabic2016:Mitchelllike,%20%20%20%20author%20=%20%7BCarmody,%20Erin%20and%20Gitman,%20Victoria%20and%20Habič,%20Miha%20E.%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BA%20Mitchell-like%20order%20for%20Ramsey%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2016%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1609.07645%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_Feng1990:HierarchyRamsey">Feng, Qi. *A hierarchy of
-    Ramsey cardinals.* Annals of Pure and Applied Logic 49(3):257 -
-    277, 1990.
-    <a href="http://dx.doi.org/10.1016/0168-0072(90)90028-Z" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BFeng1990:HierarchyRamsey,title%20=%20%22A%20hierarchy%20of%20Ramsey%20cardinals%22,journal%20=%20%22Annals%20of%20Pure%20and%20Applied%20Logic%22,volume%20=%20%2249%22,number%20=%20%223%22,pages%20=%20%22257%20-%20277%22,year%20=%20%221990%22,issn%20=%20%220168-0072%22,doi%20=%20%2210.1016/0168-0072(90)90028-Z%22,author%20=%20%22Feng,%20Qi%22,%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_HolySchlicht2017:HierarchyRamseylike">Holy, Peter
-    and Schlicht, Philipp. *A hierarchy of Ramsey-like cardinals.*
-    Fundamenta Mathematicae 242:49-74, 2018.
-    <a href="https://research-information.bristol.ac.uk/files/185938606/1710.10043.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075116/http://arxiv.org/abs/1710.10043" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005075116/http://dx.doi.org/10.4064/fm396-9-2017" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BHolySchlicht2017:HierarchyRamseylike,%20%20%20%20author%20=%20%7BHoly,%20Peter%20and%20Schlicht,%20Philipp%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BA%20hierarchy%20of%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2018%7D,%3Cbr%3E%20%20%20eprint%20=%20%7B1710.10043%7D,%3Cbr%3E%20%20%20%20%20%20doi%20=%20%7B10.4064/fm396-9-2017%7D,%3Cbr%3E%20%20journal%20=%20%7BFundamenta%20Mathematicae%7D,%3Cbr%3E%20%20%20volume%20=%20%7B242%7D,%3Cbr%3E%20%20%20%20pages%20=%20%7B49-74%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttps://research-information.bristol.ac.uk/files/185938606/1710.10043.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_NielsenWelch2018:GamesRamseylike">Nielsen, Dan
-    Saattrup and Welch, Philip. *Games and Ramsey-like cardinals.*
-    , 2018.
-    <a href="http://arxiv.org/abs/1804.10383" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BNielsenWelch2018:GamesRamseylike,%20%20%20%20author%20=%20%7BNielsen,%20Dan%20Saattrup%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BGames%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1804.10383%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-7.  <span id="bibkey_SharpeWelch2011:GreatlyErdosChang">Sharpe, Ian and
-    Welch, Philip. *Greatly Erdős cardinals with some generalizations to
-    the Chang and Ramsey properties.* Ann Pure Appl Logic
-    162(11):863--902, 2011.
-    <a href="http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075116/http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191005075116/http://www.ams.org/mathscinet-getitem?mr=2817562" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BSharpeWelch2011:GreatlyErdosChang,%20%20%20%20AUTHOR%20=%20%7BSharpe,%20Ian%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BGreatly%20Erdős%20cardinals%20with%20some%20generalizations%20to%20%20%20%20%20%20%20%20%20%20%20%20%20%20the%20Chang%20and%20Ramsey%20properties%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnn.%20Pure%20Appl.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B162%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B11%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B863--902%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0168-0072%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BAPALD7%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E04%20(03E35%2003E45%2003E55)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2817562%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-8.  <span id="bibkey_Bagaria2012:CnCardinals">Bagaria, Joan.
-    *$C^{(n)}$-cardinals.* Archive for Mathematical Logic
-    51(3--4):213--240, 2012.
-    <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075116/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
 

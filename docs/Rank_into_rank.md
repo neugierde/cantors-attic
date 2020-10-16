@@ -31,7 +31,7 @@ avoided), often denoted $\\mathrm{crit}(j)$ or sometimes $\\kappa\_0$,
 and the other (not quite so large) cardinal is $\\lambda$. In order to
 emphasize the two cardinals, the axiom is sometimes written as
 $E(\\kappa,\\lambda)$ (or $\\text{I3}(\\kappa,\\lambda)$, etc.) as in
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\]. The cardinal $\\lambda$ is
+{% cite Kanamori2009 %}. The cardinal $\\lambda$ is
 determined by defining the *critical sequence of $j$*. Set $\\kappa\_0 =
 \\mathrm{crit}(j)$ and $\\kappa\_{n+1}=j(\\kappa\_n)$. Then $\\lambda =
 \\sup \\langle \\kappa\_n : n &lt;\\omega\\rangle$ and is the first
@@ -89,13 +89,13 @@ strictly increasing in strength. This is somewhat subtle. For $n$ odd,
 $j$ is $\\Sigma^1\_n$ if and only if $j$ is $\\Sigma^1\_{n+1}$ (shown by
 Donald Martin). However, for $n$ even, $j$ being $\\Sigma^1\_{n+1}$ is
 *significantly* stronger than a $j$ being
-$\\Sigma^1\_n$\[[2](#bibkey_Laver1997:Implications)\].
+$\\Sigma^1\_n${% cite Laver1997 %}.
 
 $E\_{n+1}$ strongly implies $E\_n$. It also implies the consistency of
 $E\_n$ strengthened by adding “with an arbitrarily large first
-target”.\[[3](#bibkey_Kentaro2007:DoubleHelix)\]
+target”.{% cite Kentaro2007 %}
 
-Notes:\[[4](#bibkey_Bagaria2012:CnCardinals)\]
+Notes:{% cite Bagaria2012 %}
 
 -   $\\kappa$ is $\\mathrm{I3}$, i.e. $E\_0$, i.e. the critical point of
     an elementary embedding $j : V\_\\delta \\to V\_\\delta$, if and
@@ -130,7 +130,7 @@ The $\\mathrm{I3}$ axiom implies the
 <a href="I4" class="mw-redirect" title="I4">Axioms $\mathrm{I}_4^n$</a>
 for natural numbers $n$ are an attempt to measure the gap between
 $\\mathrm{I}\_3$ and
-$\\mathrm{WA}$.\[[5](#bibkey_Corazza2003:GapBetweenI3andWA)\]
+$\\mathrm{WA}$.{% cite Corazza2003 %}
 
 ## The $\\text{I2}$ Axiom
 
@@ -158,13 +158,13 @@ $E\_0(\\lambda)$ and $E\_1(\\lambda)$.
 
 In other words, $IE$ asserts that there is $e : V\_\\delta \\prec
 V\_\\delta$ whose $\\alpha$-th iteration is well-founded for all
-$\\alpha \\in \\mathrm{Ord}$.\[[3](#bibkey_Kentaro2007:DoubleHelix)\]
+$\\alpha \\in \\mathrm{Ord}$.{% cite Kentaro2007 %}
 
 $IE^\\omega$ asserts that there is a non-trivial elementary embedding $e
 : V\_\\delta \\prec V\_\\delta$ with $crit(e) = \\kappa$ such that the
 direct limit of $\\langle e^{(n)} : V\_\\delta ≺ V\_\\delta \| n \\in
 \\omega \\rangle$ is well
-founded.\[[3](#bibkey_Kentaro2007:DoubleHelix)\]
+founded.{% cite Kentaro2007 %}
 
 ### Ultrapowers
 
@@ -181,7 +181,7 @@ properties of rank into rank embeddings.
 ### Other results
 
 An $\\mathrm{I2}$ cardinal can be forced to be the $\\omega$-time target
-of an $\\mathrm{I3}$ cardinal.\[[3](#bibkey_Kentaro2007:DoubleHelix)\]
+of an $\\mathrm{I3}$ cardinal.{% cite Kentaro2007 %}
 
 ## The $\\text{I1}$ Axiom
 
@@ -221,7 +221,7 @@ large in $M$, etc.
 ## Virtually rank-into-rank
 
 (Information in this subsection from
-\[[6](#bibkey_GitmanSchindler:VirtualLargeCardinals)\] unless noted
+{% cite Gitmana %} unless noted
 otherwise)
 
 A cardinal $\\kappa$ is **virtually rank-into-rank** iff in a
@@ -251,7 +251,7 @@ Results:
     then either there is a proper class of
     <a href="N-remarkable" class="mw-redirect" title="N-remarkable">$n$-remarkable</a>
     cardinals or there is a proper class of virtually rank-into-rank
-    cardinals.\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    cardinals.{% cite Gitman2018 %}
 -   If
     <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$ exists</a>,
     then in $L$ there are numerous virtual rank-into-rank embeddings $j
@@ -260,11 +260,11 @@ Results:
     results](Elementary_embedding#Absoluteness "Elementary embedding").
     The hypothesis can be weakened, because one can chop at off the
     universe at any Silver indiscernible and use
-    reflection.)\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    reflection.){% cite Gitman2018 %}
     -   Therefore every Silver indiscernible is the critical point of
         virtual rank-into-rank embeddings with targets as high as
         desired and fixed points as high above the critical sequence as
-        desired.\[[7](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+        desired.{% cite Gitman2018 %}
 
 ## Large Cardinal Properties of Critical Points
 
@@ -348,7 +348,7 @@ $(\\mathcal{E}\_{\\lambda}/\\equiv^{\\gamma},\*,\\circ)$ is finite.
 
 ## $C^{(n)}$ variants
 
-(section from \[[4](#bibkey_Bagaria2012:CnCardinals)\], including 2019
+(section from {% cite Bagaria2012 %}, including 2019
 arXiv extended version)
 
 $\\mathrm{I3}$ and other $C^{(n)}$ variants:
@@ -465,7 +465,7 @@ General results:
 
 ## $B$-$E\_n$, $P$-$E\_n$, and $W$-$E\_n$ cardinals
 
-(Section from \[[3](#bibkey_Kentaro2007:DoubleHelix)\])
+(Section from {% cite Kentaro2007 %})
 
 -   $\\kappa$ is $B$-$E\_n$ if and only if $E\_n(\\kappa)$; i.e. there
     is some $j: V\_\\lambda\\prec V\_\\lambda$ such that $j^+$ preserves
@@ -487,7 +487,7 @@ General results:
 
 ## Relations with [$\\omega$-fold variants](N-fold_variants "N-fold variants")
 
-(Section from \[[3](#bibkey_Kentaro2007:DoubleHelix)\])
+(Section from {% cite Kentaro2007 %})
 
 -   For any $n \\in \\omega$, $\\mathrm{I3}$ is equivalent to the
     existence of an $\\omega$-fold $n$-extendible cardinal.
@@ -515,41 +515,3 @@ General results:
         variants](N-fold_variants "N-fold variants")).
 -   $E\_2$ (with $\\Sigma\_4$) implies consistency of “$\\omega$-fold
     strong cardinals form a proper class”.
-
-## References
-
-1.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Laver1997:Implications">Laver, Richard.
-    *Implications between strong large cardinal axioms.* Ann Math Logic
-    90(1--3):79--90, 1997.
-    <a href="http://www.ams.org/mathscinet-getitem?mr=1489305" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BLaver1997:Implications,%20%20%20%20AUTHOR%20=%20%7BLaver,%20Richard%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BImplications%20between%20strong%20large%20cardinal%20axioms%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnn.%20Math.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B90%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B1997%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B1--3%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B79--90%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0168-0072%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E55%20(03E35)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B1489305%20(99c:03074)%7D,%3Cbr%3EMRREVIEWER%20=%20%7BDouglas%20R.%20Burke%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Kentaro2007:DoubleHelix">Kentaro, Sato. *Double
-    helix in large large cardinals and iteration of elementary
-    embeddings.* Annals of Pure and Applied Logic 146(2-3):199-236,
-    May, 2007.
-    <a href="https://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00" class="extiw">www</a>   <a href="http://web.archive.org/web/20191116153225/http://dx.doi.org/10.1016/j.apal.2007.02.003" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BKentaro2007:DoubleHelix,%20%20%20%20AUTHOR%20=%20%7BKentaro,%20Sato%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BDouble%20helix%20in%20large%20large%20cardinals%20and%20iteration%20of%20elementary%20embeddings%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BElsevier%20B.V.%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B146%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B2-3%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B199-236%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2007%7D,%3Cbr%3E%20%20%20%20%20MONTH%20=%20%7BMay%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1016/j.apal.2007.02.003%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_Bagaria2012:CnCardinals">Bagaria, Joan.
-    *$C^{(n)}$-cardinals.* Archive for Mathematical Logic
-    51(3--4):213--240, 2012.
-    <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191116153225/http://arxiv.org/abs/1908.09664" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191116153225/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1908.09664%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_Corazza2003:GapBetweenI3andWA">Corazza, Paul. *The
-    gap between ${\\rm I}\_3$ and the wholeness axiom.* Fund Math
-    179(1):43--60, 2003.
-    <a href="http://dx.doi.org/10.4064/fm179-1-4" class="extiw">www</a>   <a href="http://web.archive.org/web/20191116153225/http://dx.doi.org/10.4064/fm179-1-4" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191116153225/http://www.ams.org/mathscinet-getitem?mr=2028926" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BCorazza2003:GapBetweenI3andWA,%20%20%20%20AUTHOR%20=%20%7BCorazza,%20Paul%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20gap%20between%20$%7B\rm%20I%7D_3$%20and%20the%20wholeness%20axiom%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BFund.%20Math.%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BFundamenta%20Mathematicae%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B179%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B1%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B43--60%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0016-2736%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E55%20(03E65)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7BMR2028926%20(2004k:03100)%7D,%3Cbr%3EMRREVIEWER%20=%20%7BA.%20Kanamori%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.4064/fm179-1-4%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.4064/fm179-1-4%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_GitmanSchindler:VirtualLargeCardinals">Gitman,
-    Victoria and Shindler, Ralf. *Virtual large cardinals.*
-    <a href="https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BGitmanSchindler:VirtualLargeCardinals,AUTHOR=%20%7BGitman,%20Victoria%20and%20Shindler,%20Ralf%7D,%3Cbr%3ETITLE=%20%7BVirtual%20large%20cardinals%7D,%3Cbr%3EURL=%20%7Bhttps://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-7.  <span
-    id="bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo">Gitman,
-    Victoria and Hamkins, Joel David. *A model of the generic Vopěnka
-    principle in which the ordinals are not Mahlo.* , 2018.
-    <a href="http://arxiv.org/abs/1706.00843v2" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BGitmanHamkins2018:GenericVopenkaPrincipleNotMahlo,%20%20%20%20AUTHOR%20=%20%7BGitman,%20Victoria%20and%20Hamkins,%20Joel%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BA%20model%20of%20the%20generic%20Vopěnka%20principle%20in%20which%20the%20ordinals%20are%20not%20Mahlo%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1706.00843v2%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

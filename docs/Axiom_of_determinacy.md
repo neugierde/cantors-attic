@@ -27,20 +27,20 @@ $\\text{ZF+Con(ZFC)}$, and much more - it is in fact close of being a
 large cardinal axiom, as Woodin proved that it was equiconsistent with
 the existence of infinitely many
 [Woodin](Woodin "Woodin")
-cardinals. \[[1](#bibkey_KoellnerWoodin2010:LCFD)\]
+cardinals. {% cite Koellner2010 %}
 
 It follows from large cardinal axioms (in particular from the existence
 of infinitely many Woodins with a
 [measurable](Measurable "Measurable")
-above them all \[[1](#bibkey_KoellnerWoodin2010:LCFD)\]) that the
+above them all {% cite Koellner2010 %}) that the
 $\\text{AD}$ is true in $L(\\mathbb{R})$, the [constructible
 universe](Constructible_universe "Constructible universe")
 obtained by starting with the transitive closure of the set of all reals
 (i.e. $L\_0(\\mathbb{R})=\\text{TC}(\\{\\mathbb{R}\\})$). This
 assertion, generally refered to as $L(\\mathbb{R})$-determinacy,
-$\\text{AD}^{L(\\mathbb{R})}$ \[[1](#bibkey_KoellnerWoodin2010:LCFD)\]
+$\\text{AD}^{L(\\mathbb{R})}$ {% cite Koellner2010 %}
 or *quasi-projective determinacy* ($\\text{QPD}$)
-\[[2](#bibkey_Maddy88:BelAxiomsII)\] is not known to be inconsistent
+{% cite Maddy1988 %} is not known to be inconsistent
 with $\\text{ZFC}$. $\\text{AD}^{L(\\mathbb{R})}$ is furthermore
 equiconsistent with $\\text{AD}$ (in $\\text{V}$). A particular case of
 this is the
@@ -81,7 +81,7 @@ strategy for one of the players
 
 The **axiom of determinacy** ($\\text{AD}$) states that every payoff set
 $S\\subset\\omega^\\omega$ is determined
-\[[3](#bibkey_Larson2010:HistoryDeterminacy)\]. It is possible to show
+{% cite Larson2013 %}. It is possible to show
 that every finite or countable payoff set is determined, so this
 equivalent to the assertion that every uncountable payoff set is
 determined.
@@ -185,8 +185,8 @@ For the rest of this article we use the following conventions:
     there can be infinite Dedekind-finite sets under $\\text{AD}$.)
 
 Assume $\\text{ZF+AD}$. Most of the following results can be found in
-\[[4](#bibkey_Kanamori2009:HigherInfinite)\], in
-\[[3](#bibkey_Larson2010:HistoryDeterminacy)\] or in
+{% cite Kanamori2009 %}, in
+{% cite Larson2013 %} or in
 <a href="http://mathoverflow.net/questions/129036/counterintuitive-consequences-of-the-axiom-of-determinacy" class="external autonumber">[2]</a>:
 
 -   The
@@ -318,8 +318,8 @@ L(\\mathbb{R})$ (if any such set exists; it is consistent with
 $\\text{ZF+AD}$ that they do not).
 
 $L(\\mathbb{R})$-determinacy, also known as
-$\\text{AD}^{L(\\mathbb{R})}$ \[[1](#bibkey_KoellnerWoodin2010:LCFD)\]
-or *quasi-projective determinacy* \[[2](#bibkey_Maddy88:BelAxiomsII)\]
+$\\text{AD}^{L(\\mathbb{R})}$ {% cite Koellner2010 %}
+or *quasi-projective determinacy* {% cite Maddy1988 %}
 is the assertion that every set of reals in $L(\\mathbb{R})$ is
 determined. Equivalently, "$L(\\mathbb{R})$ is a model of
 $\\text{ZF+AD}$".
@@ -328,20 +328,20 @@ $\\text{AD}^{L(\\mathbb{R})}$ appears to be a very "natural" statement
 in that, empirically, every natural extension of $\\text{ZFC}$ (i.e. not
 made specifically to contradict this) that is not proved consistent by
 $\\text{AD}$ seems to imply $\\text{AD}^{L(\\mathbb{R})}$ or some weaker
-form of determinacy. \[[3](#bibkey_Larson2010:HistoryDeterminacy)\] This
+form of determinacy. {% cite Larson2013 %} This
 is often considered to be an argument toward the "truth" of
 $\\text{AD}^{L(\\mathbb{R})}$.
 
 Assuming $\\text{ZF+DC+}V=L(\\mathbb{R})$, $\\text{AD}$ follows from
 three of its consequences:
-\[[3](#bibkey_Larson2010:HistoryDeterminacy)\]
+{% cite Larson2013 %}
 
 1.  Every set of reals is Lebesgue measurable.
 2.  Every set of reals has the Baire property.
 3.  Every $\\Sigma^1\_2$ set of reals can be uniformized.
 
 In $L(\\mathbb{R})$, the axiom of determinacy is equivalent to the axiom
-of Turing determinacy \[[3](#bibkey_Larson2010:HistoryDeterminacy)\],
+of Turing determinacy {% cite Larson2013 %},
 i.e. the assertion that payoff sets closed under
 <a href="http://en.wikipedia.org/wiki/Turing_equivalence" class="extiw" title="wikipedia:Turing equivalence">Turing equivalence</a>
 are determined.
@@ -351,7 +351,7 @@ wich every uncountable cardinal is singular (thus has cofinality
 $\\aleph\_0$), then the axiom of determinacy holds in the
 $L(\\mathbb{R})$ of some [generic
 extension](Forcing "Forcing")
-of $\\text{HOD}$ \[[3](#bibkey_Larson2010:HistoryDeterminacy)\]. This
+of $\\text{HOD}$ {% cite Larson2013 %}. This
 notably follows from the existence of a proper class of [strongly
 compact](Strongly_compact "Strongly compact")
 cardinals.
@@ -359,12 +359,12 @@ cardinals.
 Assume that there is $\\omega\_1$-[dense
 ideal](Filter "Filter")
 over $\\omega\_1$; then $\\text{AD}^{L(\\mathbb{R})}$ holds.
-\[[4](#bibkey_Kanamori2009:HigherInfinite)\] This result is due to
+{% cite Kanamori2009 %} This result is due to
 Woodin.
 
 The following holds in $L(\\mathbb{R})$ assuming
 $\\text{AD}^{L(\\mathbb{R})}$:
-\[[1](#bibkey_KoellnerWoodin2010:LCFD)\]\[[5](#bibkey_JacksonKetchersidSchlutzenbergWoodin:DeterminacyJonsson)\]
+{% cite Koellner2010 Jackson2015 %}
 
 -   Every uncountable cardinal &lt;$\\Theta$ is
     [Jónsson](Jonsson "Jonsson"),
@@ -415,21 +415,21 @@ $\\text{ZF+AD}\_\\mathbb{R}\\text{+DC}$) proves
 $\\text{ZF+AD}\_\\mathbb{R}$ consistent; it is therefore consistent with
 $\\text{ZF+AD}\_\\mathbb{R}$ that $\\Theta$ has cofinality $\\omega$ and
 that $\\text{DC}$ is false.
-\[[3](#bibkey_Larson2010:HistoryDeterminacy)\]
+{% cite Larson2013 %}
 
 Steel showed that under $\\text{AD}\_\\mathbb{R}$, in a [generic
 extension](Forcing "Forcing")
 there is a proper class model of $\\text{ZFC}$ in which there exists a
 cardinal $\\delta$ of cofinality $\\aleph\_0$ which is a limit of Woodin
 cardinals and &lt;$\\delta$-strong cardinals.
-\[[3](#bibkey_Larson2010:HistoryDeterminacy)\]
+{% cite Larson2013 %}
 
 Under $\\text{AD}\_\\mathbb{R}$, $\\omega\_1$ is
 &lt;$\\Theta$-supercompact, i.e. for every ordinal $\\gamma&lt;\\Theta$
 there is a normal fine ultrafilter on the set of all subsets of
 $\\gamma$ of size $\\aleph\_1$. $\\text{AD}$ suffices for this result to
 hold in $L(\\mathbb{R})$, but is not known to suffice for it to hold in
-$\\text{V}$. \[[3](#bibkey_Larson2010:HistoryDeterminacy)\]
+$\\text{V}$. {% cite Larson2013 %}
 
 A set $\\Gamma\\subset\\mathcal{P}(\\mathbb{R})$ is a *Wadge initial
 segment* of $\\mathcal{P}(\\mathbb{R})$ if for every $X\\in\\Gamma$, if
@@ -454,7 +454,7 @@ $\\Gamma\\subset\\mathcal{M}$. *(see the 'Read more' section)*
 ## Consistency strength of determinacy hypotheses
 
 The following theories are equiconsistent:
-\[[4](#bibkey_Kanamori2009:HigherInfinite)\]\[[6](#bibkey_TrangWilson2016:DetFromStrongCompactness)\]
+{% cite Kanamori2009 Trang2016 %}
 
 -   $\\text{ZF+AD}$
 -   $\\text{ZF+AD+DC}$
@@ -496,7 +496,7 @@ infinitely many Woodins, despite making it able to prove every
 particular instance of "there exists at least n Woodin cardinals".
 
 Koellner annd Woodin showed that the following theories are also
-equiconsistent: \[[1](#bibkey_KoellnerWoodin2010:LCFD)\]
+equiconsistent: {% cite Koellner2010 %}
 
 -   $\\text{ZFC+}\\Delta^1\_2$-determinacy
 -   $\\text{ZFC+OD}$-determinacy
@@ -517,7 +517,7 @@ and "$\\text{Ord}$ is Woodin" is expressed as an axiom scheme.
   
 Finally, Trang and Wilson proved that the following theories are
 equiconsistent:
-\[[6](#bibkey_TrangWilson2016:DetFromStrongCompactness)\]
+{% cite Trang2016 %}
 
 -   $\\text{ZF+DC+AD}\_\\mathbb{R}$
 -   $\\text{ZF+DC+}$"$\\omega\_1$ is
@@ -547,35 +547,3 @@ As are the following theories:
 
 -   *"Counterintuitive consequences of the Axiom of Determinacy?"*
     <a href="https://mathoverflow.net/questions/129036/counterintuitive-consequences-of-the-axiom-of-determinacy" class="external autonumber">[5]</a>
-
-## References
-
-1.  <span id="bibkey_KoellnerWoodin2010:LCFD">Koellner, Peter and
-    Woodin, W Hugh. *Chapter 23: Large cardinals from Determinacy.*
-    Handbook of Set Theory , 2010.
-    <a href="http://logic.harvard.edu/koellner/LCFD.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKoellnerWoodin2010:LCFD,%20%20%20author%20=%20%7BKoellner,%20Peter%20and%20Woodin,%20W.%20Hugh%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BChapter%2023:%20Large%20cardinals%20from%20Determinacy%7D,%3Cbr%3E%20%20journal%20=%20%7BHandbook%20of%20Set%20Theory%7D,%3Cbr%3E%20%20%20editor%20=%20%7BForeman,%20Mathew;%20Kanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20year%20=%20%7B2010%7D,%3Cbr%3Epublisher%20=%20%7BSpringer%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttp://logic.harvard.edu/koellner/LCFD.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Maddy88:BelAxiomsII">Maddy, Penelope. *Believing
-    the axioms. II.* J Symbolic Logic 53(3):736--764, 1988.
-    <a href="http://www.jstor.org/stable/2274569" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075228/http://dx.doi.org/10.2307/2274569" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BMaddy88:BelAxiomsII,%20%20%20%20AUTHOR%20=%20%7BMaddy,%20Penelope%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BBelieving%20the%20axioms.%20II%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BJ.%20Symbolic%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BThe%20Journal%20of%20Symbolic%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B53%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B1988%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B3%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B736--764%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.2307/2274569%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.jstor.org/stable/2274569%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Larson2010:HistoryDeterminacy">Larson, Paul B. *A
-    brief history of determinacy.* , 2013.
-    <a href="http://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7B%7BLarson2010:HistoryDeterminacy,%20%20%20%20AUTHOR%20=%20%7BLarson,%20Paul%20B.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BA%20brief%20history%20of%20determinacy%7D,%3Cbr%3E%20%20%20%20YEAR%20=%20%7B2013%7D,%3Cbr%3E%20%20%20%20URL%20=%20%7Bhttp://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span
-    id="bibkey_JacksonKetchersidSchlutzenbergWoodin:DeterminacyJonsson">Jackson,
-    Steve; Ketchersid, Richard; Schlutzenberg, Farmer; Woodin, W Hugh.
-    *Determinacy and Jónsson cardinals in $L(\\mathbb{R})$.* , 2015.
-    <a href="http://arxiv.org/abs/1304.2323" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005075228/http://dx.doi.org/10.1017/jsl.2014.49" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BJacksonKetchersidSchlutzenbergWoodin:DeterminacyJonsson,%20%20%20AUTHOR%20=%20%7BJackson,%20Steve;%20Ketchersid,%20Richard;%20Schlutzenberg,%20Farmer;%20Woodin,%20W.%20Hugh%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7BDeterminacy%20and%20Jónsson%20cardinals%20in%20$L(\mathbb%7BR%7D)$%7D,%3Cbr%3E%20%20%20YEAR%20=%20%7B2015%7D,%3Cbr%3E%20%20%20DOI%20=%20%7B10.1017/jsl.2014.49%7D,%3Cbr%3E%20%20%20EPRINT%20=%20%7B1304.2323%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_TrangWilson2016:DetFromStrongCompactness">Trang,
-    Nam and Wilson, Trevor. *Determinacy from Strong Compactness of
-    $\\omega\_1$.* , 2016.
-    <a href="http://arxiv.org/abs/1609.05411v1" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BTrangWilson2016:DetFromStrongCompactness,%20%20%20%20AUTHOR%20=%20%7BTrang,%20Nam%20and%20Wilson,%20Trevor%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BDeterminacy%20from%20Strong%20Compactness%20of%20$\omega_1$%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2016%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1609.05411v1%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

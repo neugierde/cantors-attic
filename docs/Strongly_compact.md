@@ -77,7 +77,7 @@ embedding](Elementary_embedding "Elementary embedding")
 $j:V\\to M$ of the set-theoretic universe $V$ into a transitive class
 $M$ with critical point $\\kappa$, such that $j''\\theta\\subset s\\in
 M$ for some set $s\\in M$ with $\|s\|^M\\lt j(\\kappa)$.
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+{% cite Kanamori2009 %}
 
 ### Cover property characterization
 
@@ -94,7 +94,7 @@ only if there is a [fine
 measure](Filter "Filter")
 on $\\mathcal{P}\_\\kappa(\\theta)$. The notation
 $\\mathcal{P}\_\\kappa(\\theta)$ means $\\{\\sigma\\subset\\theta\\mid
-\|\\sigma\|&lt;\\kappa\\}$. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+\|\\sigma\|&lt;\\kappa\\}$. {% cite Kanamori2009 %}
 
 ### Filter extension characterization
 
@@ -102,7 +102,7 @@ An uncountable cardinal $\\kappa$ is $\\theta$-strongly compact if and
 only if every $\\kappa$-complete
 [filter](Filter "Filter")
 of size at most $\\theta$ on a set extends to a $\\kappa$-complete
-ultrafilter on that set. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+ultrafilter on that set. {% cite Kanamori2009 %}
 
 ### Discontinuous ultrapower characterization
 
@@ -167,7 +167,7 @@ Strongly compact cardinals are
 The least strongly compact cardinal can be equal to the least measurable
 cardinal, or to the least
 [supercompact](Supercompact "Supercompact")
-cardinal, by results of Magidor. \[[2](#bibkey_Jech2003:SetTheory)\] (It
+cardinal, by results of Magidor. {% cite Jech2003 %} (It
 cannot be equal to both at once because the least measurable cardinal
 cannot be supercompact.)
 
@@ -175,7 +175,7 @@ Even though strongly compact cardinals imply the consistency of the
 negation of the singular cardinal hypothesis, SCH, for any singular
 strong limit cardinal $\\kappa$ above the least strongly compact
 cardinal, $2^\\kappa=\\kappa^+$ (also known as "SCH holds above strong
-compactness"). \[[2](#bibkey_Jech2003:SetTheory)\]
+compactness"). {% cite Jech2003 %}
 
 If there is a strongly compact cardinal $\\kappa$ then for all
 $\\lambda\\geq\\kappa$ and $A\\subseteq\\lambda$, $\\lambda^+$ is
@@ -238,22 +238,3 @@ combine a bunch of finite-looking spaces together and keep adding more
 and more dimensions, you get a space which is finite-looking.
 
 *(Sources to be added)*
-
-  
-
-## References
-
-1.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Jech2003:SetTheory">Jech, Thomas J. ***Set
-    Theory.*** Third, Springer-Verlag, Berlin, 2003. (The third
-    millennium edition, revised and expanded)
-    <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

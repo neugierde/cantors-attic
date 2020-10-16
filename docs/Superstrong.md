@@ -16,7 +16,7 @@ cardinals was equiconsistent to $\\text{AD}$. Woodin-ness is a
 significant weakening of superstrongness.
 
 *Most results in this article can be found in
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\] unless indicated
+{% cite Kanamori2009 %} unless indicated
 otherwise.*
 
 ## Definitions
@@ -65,7 +65,7 @@ A cardinal is **superstrong** iff it is $1$-superstrong.
 The consistency strength of $n$-superstrongness follows the [double
 helix
 pattern](N-fold_variants "N-fold variants")
-\[[2](#bibkey_Kentaro2007:DoubleHelix)\]. Specifically:
+{% cite Kentaro2007 %}. Specifically:
 
 -   [measurable](Measurable "Measurable")
     = $0$-superstrong = [almost
@@ -136,23 +136,23 @@ If there is a superstrong cardinal, then in
 [$L(\\mathbb{R})$](Constructible_universe "Constructible universe"),
 the [axiom of
 determinacy](Axiom_of_determinacy "Axiom of determinacy")
-holds. \[[3](#bibkey_Jech2003:SetTheory)\]
+holds. {% cite Jech2003 %}
 
 Letting $\\kappa$ be superstrong, $\\kappa$ can be
 [forced](Forcing "Forcing")
 to $\\aleph\_2$ with an $\\omega$-distributive, $\\kappa$-c.c. notion of
 forcing, and in this forcing extension there is a normal
 $\\omega\_2$-saturated ideal on $\\omega\_1$.
-\[[3](#bibkey_Jech2003:SetTheory)\]
+{% cite Jech2003 %}
 
 Superstrongness is not Laver indestructible.
-\[[4](#bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible)\]
+{% cite Bagaria2013 %}
 
 A cardinal $κ$ is
 **<a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-superstrong</a>**
 iff there exists an elementary embedding $j : V → M$ for transitive $M$,
 with $crit(j) = κ$, $V\_{j(κ)} ⊆ M$ and $j(κ) ∈
-C^{(n)}$.\[[5](#bibkey_Bagaria2012:CnCardinals)\]
+C^{(n)}$.{% cite Bagaria2012 %}
 
 -   Every $C^{(n)}$-superstrong cardinal belongs to $C^{(n)}$.
 -   Every superstrong cardinal is $C^{(1)}$-superstrong.
@@ -181,35 +181,3 @@ C^{(n)}$.\[[5](#bibkey_Bagaria2012:CnCardinals)\]
     $sup\\{j^m(κ) : m ∈ ω\\}$ where $j$ is the elementary embedding.
     Then $κ$ and $j^m(κ)$ are $C^{(n)}$-superstrong (inter alia) in
     $V\_δ$, for all $n$ and $m$.
-
-## References
-
-1.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Kentaro2007:DoubleHelix">Kentaro, Sato. *Double
-    helix in large large cardinals and iteration ofelementary
-    embeddings.* , 2007.
-    <a href="https://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKentaro2007:DoubleHelix,%20%20%20%20AUTHOR%20=%20%7BKentaro,%20Sato%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BDouble%20helix%20in%20large%20large%20cardinals%20and%20iteration%20ofelementary%20embeddings%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BElsevier%20B.V.%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2007%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Jech2003:SetTheory">Jech, Thomas J. ***Set
-    Theory.*** Third, Springer-Verlag, Berlin, 2003. (The third
-    millennium edition, revised and expanded)
-    <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span
-    id="bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible">Bagaria,
-    Joan and Hamkins, Joel David and Tsaprounis, Konstantinos and Usuba,
-    Toshimichi. *Superstrong and other large cardinals are never Laver
-    indestructible.* Archive for Mathematical Logic
-    55(1-2):19--35, 2013.
-    <a href="http://jdh.hamkins.org/superstrong-never-indestructible/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075026/http://arxiv.org/abs/1307.3486" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005075026/http://dx.doi.org/10.1007/s00153-015-0458-3" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible,%20%20author%20=%20%20%20%20%20%20%20%7BBagaria,%20Joan%20and%20Hamkins,%20Joel%20David%20and%20Tsaprounis,%20Konstantinos%20and%20Usuba,%20Toshimichi%7D,%3Cbr%3E%20%20title%20=%20%20%20%20%20%20%20%20%7BSuperstrong%20and%20other%20large%20cardinals%20are%20never%20Laver%20indestructible%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1307.3486%7D,%3Cbr%3E%20%20year%20=%20%20%20%20%20%20%20%20%20%7B2013%7D,%3Cbr%3E%20%20journal%20=%20%20%20%20%20%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20volume%20=%20%20%20%20%20%20%20%7B55%7D,%3Cbr%3E%20%20number%20=%20%20%20%20%20%20%20%7B1-2%7D,%3Cbr%3E%20%20pages%20=%20%20%20%20%20%20%20%20%7B19--35%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttp://jdh.hamkins.org/superstrong-never-indestructible/%7D,%3Cbr%3E%20%20doi%20=%20%20%20%20%20%20%20%20%20%20%7B10.1007/s00153-015-0458-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_Bagaria2012:CnCardinals">Bagaria, Joan.
-    *$C^{(n)}$-cardinals.* Archive for Mathematical Logic
-    51(3--4):213--240, 2012.
-    <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075026/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

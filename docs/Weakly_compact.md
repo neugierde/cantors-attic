@@ -151,7 +151,7 @@ $\\alpha\_1&lt;\\cdots&lt;\\alpha\_n$.
 
 Every weakly compact cardinal is weakly compact in
 [$L$](Constructible_universe "Constructible universe").
-\[[1](#bibkey_Jech2003:SetTheory)\]
+{% cite Jech2003 %}
 
 Nevertheless, the weak compactness property is not generally downward
 absolute between transitive models of set theory.
@@ -175,7 +175,7 @@ absolute between transitive models of set theory.
 -   If the existence of weakly compact cardinals is consistent with ZFC,
     then there is a model of ZFC in which $\\kappa$ is not weakly
     compact, but becomes weakly compact in a forcing extension
-    \[[2](#bibkey_Kunen1978:SaturatedIdeals)\].
+    {% cite Kunen1978 %}.
 
 ## Indestructibility of a weakly compact cardinal
 
@@ -201,22 +201,22 @@ absolute between transitive models of set theory.
     compact cardinal to be the least
     [unfoldable](Unfoldable "Unfoldable")
     cardinal.
-    \[[3](#bibkey_CodyGitikHamkinsSchanker2013:TheLeastWeaklyCompactCardinal)\]
+    {% cite Cody2013 %}
 -   If GCH holds, then the least weakly compact cardinal is not [weakly
     measurable](Weakly_measurable "Weakly measurable").
     However, if there is a
     [measurable](Measurable "Measurable")
     cardinal, then it is consistent for the least weakly compact
     cardinal to be weakly measurable.
-    \[[3](#bibkey_CodyGitikHamkinsSchanker2013:TheLeastWeaklyCompactCardinal)\]
+    {% cite Cody2013 %}
 -   If it is consistent for there to be a [nearly
     supercompact](Nearly_supercompact "Nearly supercompact"),
     then it is consistent for the least weakly compact cardinal to be
     nearly supercompact.
-    \[[3](#bibkey_CodyGitikHamkinsSchanker2013:TheLeastWeaklyCompactCardinal)\]
+    {% cite Cody2013 %}
 -   For a cardinal $κ=κ^{&lt;κ}$, $κ$ is weakly compact iff it is
     0-[Ramsey](Ramsey "Ramsey").
-    \[[4](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    {% cite Nielsen2018 %}
 
 ## $\\Sigma\_n$-weakly compact etc.
 
@@ -236,7 +236,7 @@ $a\_0 , ..., a\_k ∈ V\_κ$, if $V κ \\models Φ(a\_0 , ..., a\_k )$, then
 there is $λ ∈ I\_n := \\{λ &lt; κ : λ$ is inaccessible and $V\_λ
 \\preccurlyeq\_n V\_κ\\}$ such that $V\_λ \\models Φ(a\_0 , ..., a\_k)$.
 
-In \[[5](#bibkey_Bosch2006:SmallDefinablyLargeCardinals)\] it is shown
+In {% cite Bosch2006 %} it is shown
 that every $Σ\_ω$-w.c. cardinal is
 $Σ\_ω$-[Mahlo](Mahlo "Mahlo")
 and the set of $Σ\_ω$-Mahlo cardinals below a $Σ\_ω$-w.c. cardinal is
@@ -251,41 +251,4 @@ $\\mathcal{A}(L(\\mathbb{R}), \\underset{\\sim}{Σ}\_ω , Γ)$ where $Γ$ is
 the class of projective ccc forcing notions.
 
 This section
-from\[[6](#bibkey_Leshem2000:OCDefinableTreeProperty)\]\[[7](#bibkey_Bagaria2002:AxiomsOfGenericAbsoluteness)\]\[[7](#bibkey_Bagaria2002:AxiomsOfGenericAbsoluteness)\]
-
-## References
-
-1.  <span id="bibkey_Jech2003:SetTheory">Jech, Thomas J. ***Set
-    Theory.*** Third, Springer-Verlag, Berlin, 2003. (The third
-    millennium edition, revised and expanded)
-    <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Kunen1978:SaturatedIdeals">Kunen, Kenneth.
-    *Saturated Ideals.* J Symbolic Logic 43(1):65--76, 1978.
-    <a href="http://www.jstor.org/stable/2271949" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKunen1978:SaturatedIdeals,%20%20%20%20%20%20AUTHOR%20=%20%7BKunen,%20Kenneth%7D,%3Cbr%3E%20%20%20%20%20%20TITLE%20=%20%7BSaturated%20Ideals%7D,%3Cbr%3E%20%20%20%20%20%20%20YEAR%20=%20%7B1978%7D,%3Cbr%3E%20%20%20%20%20%20%20JOURNAL%20=%20%7BJ.%20Symbolic%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20FJOURNAL%20=%20%7BThe%20Journal%20of%20Symbolic%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20VOLUME%20=%20%7B43%7D,%3Cbr%3E%20%20%20%20%20%20%20NUMBER%20=%20%7B1%7D,%3Cbr%3E%20%20%20%20%20%20%20PAGES%20=%20%7B65--76%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.jstor.org/stable/2271949%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span
-    id="bibkey_CodyGitikHamkinsSchanker2013:TheLeastWeaklyCompactCardinal">Cody,
-    Brent, Gitik, Moti, Hamkins, Joel David, and Schanker, Jason. *The
-    Least Weakly Compact Cardinal Can Be Unfoldable, Weakly Measurable
-    and Nearly θ-Supercompact.* , 2013.
-    <a href="http://arxiv.org/abs/1305.5961" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BCodyGitikHamkinsSchanker2003:TheLeastWeaklyCompactCardinal,%20%20%20%20author%20=%20%7BCody,%20Brent,%20Gitik,%20Moti,%20Hamkins,%20Joel%20David,%20and%20Schanker,%20Jason%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BThe%20Least%20Weakly%20Compact%20Cardinal%20Can%20Be%20Unfoldable,%20Weakly%20Measurable%20and%20Nearly%20θ-Supercompact%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2013%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1305.5961%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_NielsenWelch2018:GamesRamseylike">Nielsen, Dan
-    Saattrup and Welch, Philip. *Games and Ramsey-like cardinals.*
-    , 2018.
-    <a href="http://arxiv.org/abs/1804.10383" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BNielsenWelch2018:GamesRamseylike,%20%20%20%20author%20=%20%7BNielsen,%20Dan%20Saattrup%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BGames%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1804.10383%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_Bosch2006:SmallDefinablyLargeCardinals">Bosch,
-    Roger. *Small Definably-large Cardinals.* Set Theory Trends in
-    Mathematics pp. 55-82, 2006.
-    <a href="http://dx.doi.org/10.1007/3-7643-7692-9_3" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%20%7BBosch2006:SmallDefinablyLargeCardinals,%20%20%20%20AUTHOR%20=%20%7BBosch,%20Roger%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BSmall%20Definably-large%20Cardinals%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BSet%20Theory.%20Trends%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2006%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B55-82%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/3-7643-7692-9_3%7D,%3Cbr%3E%20%20%20%20%20%20ISBN%20=%20%7B978-3-7643-7692-5%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_Leshem2000:OCDefinableTreeProperty">Leshem, Amir.
-    *On the consistency of the definable tree property on $\\aleph\_1$.*
-    J Symbolic Logic 65(3):1204-1214, 2000.
-    <a href="http://arxiv.org/abs/math/0005208" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005075051/http://dx.doi.org/10.2307/2586696" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%20%7BLeshem2000:OCDefinableTreeProperty,%20%20%20%20AUTHOR%20=%20%7BLeshem,%20Amir%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BOn%20the%20consistency%20of%20the%20definable%20tree%20property%20on%20$\aleph_1$%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BJ.%20Symbolic%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BThe%20%20Journal%20of%20Symbolic%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B65%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B3%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2000%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B1204-1214%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.2307/2586696%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7Bmath/0005208%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-7.  <span id="bibkey_Bagaria2002:AxiomsOfGenericAbsoluteness">Bagaria,
-    Joan. *Axioms of generic absoluteness.* Logic Colloquium 2002
-    , 2006.
-    <a href="https://www.academia.edu/2561575/AXIOMS_OF_GENERIC_ABSOLUTENESS" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075051/http://dx.doi.org/10.1201/9781439865903" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%20%7BBagaria2002:AxiomsOfGenericAbsoluteness,%20%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BAxioms%20of%20generic%20absoluteness%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BLogic%20Colloquium%202002%7D,%3Cbr%3E%20BOOKTITLE%20=%20%7BLogic%20Colloquium%20\&#39;02:%20Lecture%20Notes%20in%20Logic%2027%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2006%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1201/9781439865903%7D,%3Cbr%3E%20%20%20%20%20%20ISBN%20=%20%7B9780429065262%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://www.academia.edu/2561575/AXIOMS_OF_GENERIC_ABSOLUTENESS%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-
+from {% cite Leshem2000 Bagaria2006 %}

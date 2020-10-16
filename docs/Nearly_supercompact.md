@@ -5,8 +5,8 @@ permalink: Nearly_supercompact
 
 The near $\\theta$-supercompactness hierarchy of cardinals was
 introduced by Jason Schanker in
-\[[1](#bibkey_Schanker:PartialNearSupercompactness)\] and
-\[[2](#bibkey_Schanker2011:Thesis)\]. The hierarchy stratifies the
+{% cite Schanker2012 %} and
+{% cite Schanker2011a %}. The hierarchy stratifies the
 $\\theta$-supercompactness hierarchy in the sense that every
 $\\theta$-supercompact cardinal is nearly $\\theta$-supercompact, and
 every nearly $2^{\\theta^{ {&lt;}\\kappa}}$-supercompact cardinal
@@ -82,19 +82,4 @@ f(\\sigma) = \\alpha\_f\\} \\in F$.
 Hauser Embedding   
 
 ## Nearly strongly compact
-
-## References
-
-1.  <span id="bibkey_Schanker:PartialNearSupercompactness">Schanker,
-    Jason A. *Partial near supercompactness.* Ann Pure Appl Logic
-    , 2012. (In Press.)
-    <a href="http://dx.doi.org/10.1016/j.apal.2012.08.001" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075121/http://dx.doi.org/10.1016/j.apal.2012.08.001" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BSchanker:PartialNearSupercompactness,%20%20%20%20AUTHOR%20=%20%7BSchanker,%20Jason%20A.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BPartial%20near%20supercompactness%7D,%3Cbr%3E%20%20%20%20FJOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20%20%20%20JOURNAL%20=%20%7BAnn.%20Pure%20Appl.%20Logic%7D,%3Cbr%3E%20%20%20%20DOI%20=%20%7B10.1016/j.apal.2012.08.001%7D,%3Cbr%3E%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1016/j.apal.2012.08.001%7D,%3Cbr%3E%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20NOTE%20=%20%7BIn%20Press.%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Schanker2011:Thesis">Schanker, Jason A. *Weakly
-    measurable cardinals and partial near supercompactness.* Ph.D.
-    Thesis, CUNY Graduate Center, 2011.
-    <a href="javascript:bibpopup(&#39;@phdthesis%7BSchanker2011:Thesis,%20%20%20%20%20%20AUTHOR%20=%20%7BSchanker,%20Jason%20A.%7D,%3Cbr%3E%20%20%20%20%20%20TITLE%20=%20%7BWeakly%20measurable%20cardinals%20and%20partial%20near%20supercompactness%7D,%3Cbr%3E%20%20%20%20%20%20SCHOOL%20=%20%7BCUNY%20Graduate%20Center%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
 

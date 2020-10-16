@@ -132,7 +132,7 @@ model of $\\text{ZFC}$ closed under sequences of length $&lt;\\kappa$.
 A cardinal $κ$ is **Silver** if in a set-forcing extension there is a
 club in $κ$ of generating indiscernibles for $V\_κ$ of order-type $κ$.
 This is a very strong property downwards absolute to $L$,
-e.g.:\[[1](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+e.g.:{% cite Gitmana %}
 
 -   Every element of a club $C$ witnessing that $κ$ is a Silver cardinal
     is
@@ -199,14 +199,14 @@ If $0^♯$ exists then:
     <a href="Completely_remarkable" class="mw-redirect" title="Completely remarkable">completely remarkable</a>
     and has most other virtual large cardinal properties and other large
     cardinal properties consistent with
-    $V=L$.\[[1](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]\[[2](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+    $V=L$.{% cite Gitmana Bagaria2017a %}
 -   There are only countably many reals in $L$, i.e. $\|\\R\\cap
     L\|=\\aleph\_0$ in $V$.
 -   By [elementary-embedding absoluteness
     results](Elementary_embedding#Absoluteness "Elementary embedding")
     (The hypothesis can be weakened, because one can chop at off the
     universe at any Silver indiscernible and use
-    reflection.):\[[3](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    reflection.):{% cite Gitman2018 %}
     -   $L$, equipped with only its definable classes, is a model of the
         <a href="Generic_Vop%C4%9Bnka%27s_Principle" class="mw-redirect" title="Generic Vopěnka&#39;s Principle">generic Vopěnka principle</a>.
     -   In $L$ there are numerous [virtual
@@ -224,7 +224,7 @@ If $0^♯$ exists then:
     that in any $L$-generic extension $L\[C\]$ by this forcing,
     $\\text{GBC}$ and the generic Vopěnka principle hold, yet
     [$\\text{Ord}$ is not
-    Mahlo](ORD_is_Mahlo "ORD is Mahlo").\[[3](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    Mahlo](ORD_is_Mahlo "ORD is Mahlo").{% cite Gitman2018 %}
     -   Proof includes a lemma stating: For any ordinal $δ$ and any
         natural number (of the meta-theory — this lemma is a scheme)
         $n$, if $D\_{δ,n} ⊂ \\mathbb{P}$ is the collection of conditions
@@ -248,7 +248,7 @@ If $0^♯$ exists then:
     \\mathbf{Σ\_{n+1}})$ and $gVP(Π\_n)$ hold for any $κ$ and $n$), but
     there are no $Σ\_2$-reflecting cardinals and hence no remarkable
     cardinals (or $n$-remarkable
-    cardinals).\[[3](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    cardinals).{% cite Gitman2018 %}
 
 The following statements are equivalent:
 
@@ -370,14 +370,14 @@ indiscernables, then the EM blueprint of $L\_\\delta$ is $0^\\\#$.
 
 $0^\\dagger$ (zero dagger) is a set of integers analogous to $0^\\sharp$
 and connected with inner models of
-[measurability](Measurable "Measurable").\[[4](#bibkey_KanamoriAwerbuchFriedlander1990:Compleat0Dagger)\]
+[measurability](Measurable "Measurable").{% cite Kanamori1990 %}
 
 $0^{sword}$ is connected with nontrivial [Mitchell
 rank](Mitchell_rank "Mitchell rank").
 $¬ 0 ^{sword}$ (*not zero sword*) means that there is no
 <a href="Mouse" class="mw-redirect" title="Mouse">mouse</a>
 with a measure of Mitchell order $&gt;
-0$.\[[5](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+0$.{% cite Sharpe2011 %}
 
 $0^\\P$ (zero pistol) is connected with
 [strong](Strong "Strong")
@@ -385,55 +385,18 @@ cardinals. $¬ 0^\\P$ (*not zero pistol*) means that a [core
 model](Core_model "Core model")
 may be built with a strong cardinal, but that there is no class of
 indiscernibles for it that is closed and unbounded in
-$\\mathrm{Ord}$).\[[5](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+$\\mathrm{Ord}$).{% cite Sharpe2011 %}
 $0^¶$ is “the sharp for a strong cardinal”, meaning the minimal sound
 active mouse $\\mathcal{M}$ with $M \| \\mathrm{crit}(\\dot
 F^{\\mathcal{M}}) \\models \\text{“There exists a strong cardinaly”}$,
 with $\\dot F^{\\mathcal{M}}$ being the top extender of
-$\\mathcal{M}$.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+$\\mathcal{M}$.{% cite Nielsen2018 %}
 
-## References
+## Additional References
 
--   Jech, *Thomas J. Set Theory* (The 3rd Millennium Ed.).
-    Springer, 2003.
+-   {% cite Jech2003 %}
 -   user46667, *Gödel's Constructible Universe in Infinitary Logics (A
     Possible Approach to HOD Problem)*, URL (version: 2014-03-17):
     <a href="https://mathoverflow.net/q/156940" class="external free">https://mathoverflow.net/q/156940</a>
--   Chang, C. C. (1971), "Sets Constructible Using
-    $\\mathcal{L}\_{\\kappa,\\kappa}$", *Axiomatic Set Theory*, Proc.
-    Sympos. Pure Math., XIII, Part I, Providence, R.I.: Amer. Math.
-    Soc., pp. 1–8
-
-1.  <span id="bibkey_GitmanSchindler:VirtualLargeCardinals">Gitman,
-    Victoria and Shindler, Ralf. *Virtual large cardinals.*
-    <a href="https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BGitmanSchindler:VirtualLargeCardinals,AUTHOR=%20%7BGitman,%20Victoria%20and%20Shindler,%20Ralf%7D,%3Cbr%3ETITLE=%20%7BVirtual%20large%20cardinals%7D,%3Cbr%3EURL=%20%7Bhttps://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span
-    id="bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple">Bagaria,
-    Joan and Gitman, Victoria and Schindler, Ralf. *Generic {V}opěnka's
-    {P}rinciple, remarkable cardinals, and the weak {P}roper {F}orcing
-    {A}xiom.* Arch Math Logic 56(1-2):1--20, 2017.
-    <a href="https://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html" class="extiw">www</a>   <a href="http://web.archive.org/web/20191022214445/http://dx.doi.org/10.1007/s00153-016-0511-x" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191022214445/http://www.ams.org/mathscinet-getitem?mr=3598793" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BBagariaGitmanSchindler2017:VopenkaPrinciple,%20AUTHOR%20=%20%7BBagaria,%20Joan%20and%20Gitman,%20Victoria%20and%20Schindler,%20Ralf%7D,%3Cbr%3E%20TITLE%20=%20%7BGeneric%20%7BV%7Dopěnka\&#39;s%20%7BP%7Drinciple,%20remarkable%20cardinals,%20and%20the%20weak%20%7BP%7Droper%20%7BF%7Dorcing%20%7BA%7Dxiom%7D,%3Cbr%3E%20JOURNAL%20=%20%7BArch.%20Math.%20Logic%7D,%3Cbr%3E%20FJOURNAL%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20VOLUME%20=%20%7B56%7D,%3Cbr%3E%20YEAR%20=%20%7B2017%7D,%3Cbr%3E%20NUMBER%20=%20%7B1-2%7D,%3Cbr%3E%20PAGES%20=%20%7B1--20%7D,%3Cbr%3E%20ISSN%20=%20%7B0933-5846%7D,%3Cbr%3E%20MRCLASS%20=%20%7B03E35%20(03E55%2003E57)%7D,%3Cbr%3E%20MRNUMBER%20=%20%7B3598793%7D,%3Cbr%3E%20DOI%20=%20%7B10.1007/s00153-016-0511-x%7D,%3Cbr%3E%20URL%20=%20%7Bhttps://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span
-    id="bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo">Gitman,
-    Victoria and Hamkins, Joel David. *A model of the generic Vopěnka
-    principle in which the ordinals are not Mahlo.* , 2018.
-    <a href="http://arxiv.org/abs/1706.00843v2" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BGitmanHamkins2018:GenericVopenkaPrincipleNotMahlo,%20%20%20%20AUTHOR%20=%20%7BGitman,%20Victoria%20and%20Hamkins,%20Joel%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BA%20model%20of%20the%20generic%20Vopěnka%20principle%20in%20which%20the%20ordinals%20are%20not%20Mahlo%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1706.00843v2%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span
-    id="bibkey_KanamoriAwerbuchFriedlander1990:Compleat0Dagger">Kanamori,
-    Akihiro and Awerbuch-Friedlander, Tamara. *The compleat 0†.*
-    Mathematical Logic Quarterly 36(2):133-141, 1990.
-    <a href="http://dx.doi.org/10.1002/malq.19900360206" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BKanamoriAwerbuchFriedlander1990:Compleat0Dagger,author%20=%20%7BKanamori,%20Akihiro%20and%20Awerbuch-Friedlander,%20Tamara%7D,%3Cbr%3Etitle%20=%20%7BThe%20compleat%200†%7D,%3Cbr%3Ejournal%20=%20%7BMathematical%20Logic%20Quarterly%7D,%3Cbr%3Evolume%20=%20%7B36%7D,%3Cbr%3Enumber%20=%20%7B2%7D,%3Cbr%3Epages%20=%20%7B133-141%7D,%3Cbr%3Edoi%20=%20%7B10.1002/malq.19900360206%7D,%3Cbr%3Eyear%20=%20%7B1990%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_SharpeWelch2011:GreatlyErdosChang">Sharpe, Ian and
-    Welch, Philip. *Greatly Erdős cardinals with some generalizations to
-    the Chang and Ramsey properties.* Ann Pure Appl Logic
-    162(11):863--902, 2011.
-    <a href="http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">www</a>   <a href="http://web.archive.org/web/20191022214445/http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191022214445/http://www.ams.org/mathscinet-getitem?mr=2817562" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BSharpeWelch2011:GreatlyErdosChang,%20%20%20%20AUTHOR%20=%20%7BSharpe,%20Ian%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BGreatly%20Erdős%20cardinals%20with%20some%20generalizations%20to%20%20%20%20%20%20%20%20%20%20%20%20%20%20the%20Chang%20and%20Ramsey%20properties%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnn.%20Pure%20Appl.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B162%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B11%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B863--902%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0168-0072%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BAPALD7%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E04%20(03E35%2003E45%2003E55)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2817562%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_NielsenWelch2018:GamesRamseylike">Nielsen, Dan
-    Saattrup and Welch, Philip. *Games and Ramsey-like cardinals.*
-    , 2018.
-    <a href="http://arxiv.org/abs/1804.10383" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BNielsenWelch2018:GamesRamseylike,%20%20%20%20author%20=%20%7BNielsen,%20Dan%20Saattrup%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BGames%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1804.10383%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
+-   {% cite Chang1971 %}
 

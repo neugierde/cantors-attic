@@ -80,7 +80,7 @@ The existence of nonprincipal ultrafilters is proven using the axiom of
 choice, or one of its equivalents such as Zorn's lemma.
 
 (For more on ultrafilters, see the excellent book by Robert Goldblatt
-\[[1](#bibkey_Goldblatt1998:ultrafilter)\]).
+{% cite Goldblatt1998 %}).
 
 ### Sequences of real numbers
 
@@ -110,10 +110,3 @@ whether one accepts the
 <a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>.
 With the CH, the answer is *no*, the construction of the hyperreals does
 not depend on the ultrafilter.
-
-## References
-
-[Main
-library](Library "Library")
-
-

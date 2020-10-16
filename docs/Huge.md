@@ -14,7 +14,7 @@ cardinal is needed for this result. However, the consistency of the
 existence of an $\\omega\_2$-complete $\\omega\_3$-saturated
 $\\sigma$-ideal on $\\omega\_2$, as far as the set theory world is
 concerned, still requires an almost huge cardinal.
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+{% cite Kanamori2009 %}
 
 ## Definitions
 
@@ -31,7 +31,7 @@ than n-$P\_1$, which has less consistency strength than (n+1)-$P\_0$,
 and so on. This phenomenon is seen only around the [n-fold
 variants](N-fold_variants "N-fold variants")
 as of modern set theoretic concerns.
-\[[2](#bibkey_Kentaro2007:DoubleHelix)\]
+{% cite Kentaro2007 %}
 
 Although they are very large, there is a first-order definition which is
 equivalent to n-hugeness, so the $\\theta$-th n-huge cardinal is
@@ -94,21 +94,20 @@ $\\lambda&gt;\\kappa$ if there exists a nontrivial elementary embedding
 $j:V\\to M$ for some inner model $M$ such that $\\mathrm{crit}(j) =
 \\kappa$, $j(\\kappa)&gt;\\lambda$ and $^{j(\\lambda)}M\\subseteq M$. A
 cardinal is **hyperhuge** if it is $\\lambda$-hyperhuge for all
-$\\lambda&gt;\\kappa$.\[[3](#bibkey_Usuba2017:DDGandVeryLarge),
-[4](#bibkey_Boney2017:ModelTheoreticCharacterizations)\]
+$\\lambda&gt;\\kappa$. {% cite Usuba2017 Boney2017 %}
 
 ### Huge\* cardinals
 
 A cardinal $κ$ is **$n$-huge\*** if for some $α &gt; κ$, $\\kappa$ is
 the critical point of an elementary embedding $j : V\_α → V\_β$ such
 that $j^n (κ) &lt;
-α$.\[[5](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+α$.{% cite Gitmana %}
 
 Hugeness\* variant is formulated in a way allowing for a virtual variant
 consistent with $V=L$: A cardinal $κ$ is **virtually $n$-huge\*** if for
 some $α &gt; κ$, in a set-forcing extension, $\\kappa$ is the critical
 point of an elementary embedding $j : V\_α → V\_β$ such that $j^n(κ)
-&lt; α$.\[[5](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+&lt; α$.{% cite Gitmana %}
 
 ### Ultrafilter definition
 
@@ -129,7 +128,7 @@ U)$$
 
 Where $\\text{order-type}(X)$ is the
 [order-type](Order-isomorphism "Order-isomorphism")
-of the poset $(X,\\in)$. \[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+of the poset $(X,\\in)$. {% cite Kanamori2009 %}
 $\\kappa$ is then super n-huge if for all ordinals $\\theta$ there is a
 $\\lambda&gt;\\theta$ such that $\\kappa$ is n-huge with target
 $\\lambda$, i.e. $\\lambda\_n$ can be made arbitrarily large. If
@@ -150,7 +149,7 @@ $\\{x\\subseteq\\lambda:\\text{order-type}(x)=\\kappa\\}$ as a subset is
 considered a "large set."
 
 As for hyperhugeness, the following are
-equivalent:\[[4](#bibkey_Boney2017:ModelTheoreticCharacterizations)\]
+equivalent:{% cite Boney2017 %}
 
 -   $κ$ is $λ$-hyperhuge;
 -   $μ &gt; λ$ and a normal, fine, κ-complete ultrafilter exists on
@@ -163,7 +162,7 @@ equivalent:\[[4](#bibkey_Boney2017:ModelTheoreticCharacterizations)\]
 
 ### $C^{(n)}$-$m$-huge cardinals
 
-(this section from \[[6](#bibkey_Bagaria2012:CnCardinals)\])
+(this section from {% cite Bagaria2012 %})
 
 $κ$ is
 **<a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-$m$-huge</a>**
@@ -204,35 +203,6 @@ that
 
 $\\{α &lt; κ : α$ is $C^{(n)}$-$m$-huge for every $m\\} ∈ \\mathcal{U}$.
 
-## References
-
-1.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Kentaro2007:DoubleHelix">Kentaro, Sato. *Double
-    helix in large large cardinals and iteration ofelementary
-    embeddings.* , 2007.
-    <a href="https://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKentaro2007:DoubleHelix,%20%20%20%20AUTHOR%20=%20%7BKentaro,%20Sato%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BDouble%20helix%20in%20large%20large%20cardinals%20and%20iteration%20ofelementary%20embeddings%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BElsevier%20B.V.%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2007%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Usuba2017:DDGandVeryLarge">Usuba, Toshimichi. *The
-    downward directed grounds hypothesis and very large cardinals.*
-    Journal of Mathematical Logic 17(02):1750009, 2017.
-    <a href="http://arxiv.org/abs/1707.05132" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005051016/http://dx.doi.org/10.1142/S021906131750009X" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BUsuba2017:DDGandVeryLarge,%20%20%20%20author%20=%20%7BUsuba,%20Toshimichi%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BThe%20downward%20directed%20grounds%20hypothesis%20and%20very%20large%20cardinals%7D,%3Cbr%3E%20%20%20%20year%20=%20%7B2017%7D,%3Cbr%3E%20%20%20%20eprint%20=%20%7B1707.05132%7D,%3Cbr%3E%20%20%20%20doi%20=%20%7B10.1142/S021906131750009X%7D,%3Cbr%3E%20%20%20%20journal%20=%20%7BJournal%20of%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20volume%20=%20%7B17%7D,%3Cbr%3E%20%20%20%20number%20=%20%7B02%7D,%3Cbr%3E%20%20%20%20pages%20=%20%7B1750009%7D,%3Cbr%3E%20%20%20%20issn%20=%20%7B0219-0613%7D,%3Cbr%3E%20%20%20%20publisher%20=%20%7BWorld%20Scientific%20Publishing%20Co.%20Pte%20Ltd%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_Boney2017:ModelTheoreticCharacterizations">Boney,
-    Will. *Model Theoretic Characterizations of Large Cardinals.*
-    <a href="http://arxiv.org/abs/1708.07561" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BBBoney2017:ModelTheoreticCharacterizations,%20%20%20author%20=%20%7BBoney,%20Will%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BModel%20Theoretic%20Characterizations%20of%20Large%20Cardinals%7D,%3Cbr%3E\%20%20%20%20%20year%20=%20%7B2017%7D,%3Cbr%3E%20%20%20eprint%20=%20%7B1708.07561%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_GitmanSchindler:VirtualLargeCardinals">Gitman,
-    Victoria and Shindler, Ralf. *Virtual large cardinals.*
-    <a href="https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BGitmanSchindler:VirtualLargeCardinals,AUTHOR=%20%7BGitman,%20Victoria%20and%20Shindler,%20Ralf%7D,%3Cbr%3ETITLE=%20%7BVirtual%20large%20cardinals%7D,%3Cbr%3EURL=%20%7Bhttps://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_Bagaria2012:CnCardinals">Bagaria, Joan.
-    *$C^{(n)}$-cardinals.* Archive for Mathematical Logic
-    51(3--4):213--240, 2012.
-    <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005051016/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
 ## Consistency strength and size
 
 Hugeness exhibits a phenomenon associated with similarly defined large
@@ -241,14 +211,13 @@ variants](N-fold_variants "N-fold variants"))
 known as the *double helix*. This phenomenon is when for one n-fold
 variant, letting a cardinal be called n-$P\_0$ iff it has the property,
 and another variant, n-$P\_1$, n-$P\_0$ is weaker than n-$P\_1$, which
-is weaker than (n+1)-$P\_0$. \[[2](#bibkey_Kentaro2007:DoubleHelix)\] In
+is weaker than (n+1)-$P\_0$. {% cite Kentaro2007 %} In
 the consistency strength hierarchy, here is where these lay (top being
 weakest):
 
--   [measurable](Measurable "Measurable")
-    =
-    0-[superstrong](Superstrong "Superstrong")
-    = 0-huge
+-   [measurable](Measurable "Measurable") = 
+    0-[superstrong](Superstrong "Superstrong") = 
+    0-huge
 -   n-superstrong
 -   n-fold supercompact
 -   (n+1)-fold strong, n-fold extendible
@@ -270,7 +239,7 @@ cardinals (the [critical
 points](Elementary_embedding "Elementary embedding")
 of the I3 elementary embeddings). In fact, every I3 is preceeded by a
 stationary set of n-huge cardinals, for all n.
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\]
+{% cite Kanamori2009 %}
 
 Similarly, every huge cardinal $\\kappa$ is almost huge, and there is a
 normal measure over $\\kappa$ which contains every almost huge cardinal
@@ -280,7 +249,7 @@ and there is a normal measure over $\\kappa$ which contains every
 extendible cardinal $\\lambda&lt;\\kappa$. Every (n+1)-huge cardinal
 $\\kappa$ has a normal measure which contains every cardinal $\\lambda$
 such that $V\_\\kappa\\models$"$\\lambda$ is super n-huge"
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\], in fact it contains every
+{% cite Kanamori2009 %}, in fact it contains every
 cardinal $\\lambda$ such that $V\_\\kappa\\models$"$\\lambda$ is ultra
 n-huge".
 
@@ -290,7 +259,7 @@ huge cardinal is
 [Vopěnka](Vopenka "Vopenka")
 (therefore the consistency of the existence of an almost-huge cardinal
 implies the consistency of Vopěnka's principle).
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\] Every ultra n-huge is super
+{% cite Kanamori2009 %} Every ultra n-huge is super
 n-huge and a stationary limit of super n-huge cardinals. Every super
 almost (n+1)-huge is ultra n-huge and a stationary limit of ultra n-huge
 cardinals.
@@ -299,7 +268,7 @@ In terms of size, however, the least n-huge cardinal is smaller than the
 least
 [supercompact](Supercompact "Supercompact")
 cardinal (assuming both exist).
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\] This is because n-huge
+{% cite Kanamori2009 %} This is because n-huge
 cardinals have upward reflection properties, while supercompacts have
 downward reflection properties. Thus for any $\\kappa$ which is
 supercompact and has an n-huge cardinal above it, $\\kappa$ "reflects
@@ -335,16 +304,16 @@ $\\lambda\_n$-supercompact.
 
 For $2$-huge $κ$, $V\_κ$ is a model of $\\mathrm{ZFC}$+“there are proper
 class many hyper-huge
-cardinals”.\[[3](#bibkey_Usuba2017:DDGandVeryLarge)\] Hyper-huge
+cardinals”.{% cite Usuba2017 %} Hyper-huge
 cardinals are extendible limits of extendible
-cardinals.\[[7](#bibkey_Usuba2018:ExtendibleCardinalsAndTheMantle)\]
+cardinals.{% cite Usuba2019 %}
 
 An $n$-huge\* cardinal is an $n$-huge limit of $n$-huge cardinals. Every
 $n + 1$-huge cardinal is
-$n$-huge\*.\[[5](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+$n$-huge\*.{% cite Gitmana %}
 
 As for virtually
-$n$-huge\*:\[[5](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+$n$-huge\*:{% cite Gitmana %}
 
 -   If $κ$ is virtually huge\*, then $V\_κ$ is a model of proper class
     many [virtually
@@ -410,43 +379,13 @@ If $\\kappa$ is hyperhuge, then $V$ has $&lt;\\kappa$ many
 <a href="Ground" class="mw-redirect" title="Ground">grounds</a>
 (so the
 <a href="Mantle" class="mw-redirect" title="Mantle">mantle</a>
-is a ground itself).\[[3](#bibkey_Usuba2017:DDGandVeryLarge)\] This
+is a ground itself).{% cite Usuba2017 %} This
 result has been strenghtened to
 [extendible](Extendible "Extendible")
-cardinals\[[7](#bibkey_Usuba2018:ExtendibleCardinalsAndTheMantle)\]. On
+cardinals{% cite Usuba2019 %}. On
 the other hand, it s consistent that there is a
 [supercompact](Supercompact "Supercompact")
 cardinal and class many grounds of $V$ (because of the indestructibility
 properties of
-supercompactness).\[[3](#bibkey_Usuba2017:DDGandVeryLarge)\]
-
-## References
-
-1.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Kentaro2007:DoubleHelix">Kentaro, Sato. *Double
-    helix in large large cardinals and iteration ofelementary
-    embeddings.* , 2007.
-    <a href="https://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKentaro2007:DoubleHelix,%20%20%20%20AUTHOR%20=%20%7BKentaro,%20Sato%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BDouble%20helix%20in%20large%20large%20cardinals%20and%20iteration%20ofelementary%20embeddings%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BElsevier%20B.V.%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2007%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Usuba2017:DDGandVeryLarge">Usuba, Toshimichi. *The
-    downward directed grounds hypothesis and very large cardinals.*
-    Journal of Mathematical Logic 17(02):1750009, 2017.
-    <a href="http://arxiv.org/abs/1707.05132" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005051016/http://dx.doi.org/10.1142/S021906131750009X" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BUsuba2017:DDGandVeryLarge,%20%20%20%20author%20=%20%7BUsuba,%20Toshimichi%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BThe%20downward%20directed%20grounds%20hypothesis%20and%20very%20large%20cardinals%7D,%3Cbr%3E%20%20%20%20year%20=%20%7B2017%7D,%3Cbr%3E%20%20%20%20eprint%20=%20%7B1707.05132%7D,%3Cbr%3E%20%20%20%20doi%20=%20%7B10.1142/S021906131750009X%7D,%3Cbr%3E%20%20%20%20journal%20=%20%7BJournal%20of%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20volume%20=%20%7B17%7D,%3Cbr%3E%20%20%20%20number%20=%20%7B02%7D,%3Cbr%3E%20%20%20%20pages%20=%20%7B1750009%7D,%3Cbr%3E%20%20%20%20issn%20=%20%7B0219-0613%7D,%3Cbr%3E%20%20%20%20publisher%20=%20%7BWorld%20Scientific%20Publishing%20Co.%20Pte%20Ltd%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_Boney2017:ModelTheoreticCharacterizations">Boney,
-    Will. *Model Theoretic Characterizations of Large Cardinals.*
-    <a href="http://arxiv.org/abs/1708.07561" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BBBoney2017:ModelTheoreticCharacterizations,%20%20%20author%20=%20%7BBoney,%20Will%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BModel%20Theoretic%20Characterizations%20of%20Large%20Cardinals%7D,%3Cbr%3E\%20%20%20%20%20year%20=%20%7B2017%7D,%3Cbr%3E%20%20%20eprint%20=%20%7B1708.07561%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_GitmanSchindler:VirtualLargeCardinals">Gitman,
-    Victoria and Shindler, Ralf. *Virtual large cardinals.*
-    <a href="https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BGitmanSchindler:VirtualLargeCardinals,AUTHOR=%20%7BGitman,%20Victoria%20and%20Shindler,%20Ralf%7D,%3Cbr%3ETITLE=%20%7BVirtual%20large%20cardinals%7D,%3Cbr%3EURL=%20%7Bhttps://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_Bagaria2012:CnCardinals">Bagaria, Joan.
-    *$C^{(n)}$-cardinals.* Archive for Mathematical Logic
-    51(3--4):213--240, 2012.
-    <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005051016/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
+supercompactness).{% cite Usuba2017 %}
 

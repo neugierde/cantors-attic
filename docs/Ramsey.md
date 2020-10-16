@@ -8,16 +8,12 @@ redirect_from:
 
 
 Ramsey cardinals were introduced by Erdős and Hajnal in
-\[[1](#bibkey_ErdosHajnal1962:Ramsey)\]. Their consistency strength lies
+{% cite Erdoes1962 %}. Their consistency strength lies
 strictly between $0^\\sharp$ and measurable cardinals.
 
 There are many Ramsey-like cardinals with strength between weakly
-compact and measurable cardinals inclusively.
-\[[2](#bibkey_Feng1990:HierarchyRamsey),
-[3](#bibkey_Gitman2011:RamseyLikeCardinals),
-[4](#bibkey_SharpeWelch2011:GreatlyErdosChang),
-[5](#bibkey_HolySchlicht2017:HierarchyRamseylike),
-[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+compact and measurable cardinals inclusively. 
+{% cite Feng1990 Gitman2011 Sharpe2011 Holy2018 Nielsen2018 %}
 
 
 ## Ramsey cardinals
@@ -65,7 +61,7 @@ is, for every formula $\\varphi(\\overline x)$ of $\\mathcal L$ and
 every pair of tuples $\\overline \\alpha$ and $\\overline \\beta$ of
 elements of $H$, we have $\\mathcal A\\models\\varphi (\\overline
 \\alpha)\\leftrightarrow \\varphi(\\overline \\beta)$.
-\[[7](#bibkey_Jech2003:SetTheory)\]
+{% cite Jech2003 %}
 
 **Good sets of indiscernibles**: Suppose $A\\subseteq\\kappa$ and
 $L\_\\kappa\[A\]$ denotes the $\\kappa^{\\text{th}}$-level of the
@@ -81,7 +77,7 @@ $\\langle L\_\\kappa\[A\],A\\rangle$ if for all $\\gamma\\in I$,
 A cardinal $\\kappa$ is Ramsey if and only if for every
 $A\\subseteq\\kappa$, there is a $\\kappa$-sized good set of
 indiscernibles for the model $\\langle L\_\\kappa\[A\], A\\rangle$.
-\[[8](#bibkey_DoddJensen1982:CoreModel)\]
+{% cite Dodd1981 %}
 
 **$M$-<a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilters</a>**:
 Suppose a transitive $M\\models {\\rm ZFC}^-$, the theory ${\\rm ZFC}$
@@ -109,26 +105,26 @@ be constructed from images of the pieces of $U$ that are in $M$. The
 ultrapower construction may be iterated in this manner, taking direct
 limits at limit stages, and in this case the countable completeness of
 the $M$-ultrafilter ensures that every stage of the iteration produces a
-well-founded model. \[[9](#bibkey_Kanamori2009:HigherInfinite)\] (Ch.
+well-founded model. {% cite Kanamori2009 %} (Ch.
 19)
 
 A cardinal $\\kappa$ is Ramsey if and only if every $A\\subseteq\\kappa$
 is contained in a weak $\\kappa$-model $M$ for which there exists a
 weakly amenable countably complete $M$-ultrafilter on $\\kappa$.
-\[[8](#bibkey_DoddJensen1982:CoreModel)\]
+{% cite Dodd1981 %}
 
 ### Ramsey cardinals and the constructible universe
 
 Ramsey cardinals imply that
 <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
 exists and hence there cannot be Ramsey cardinals in $L$.
-\[[9](#bibkey_Kanamori2009:HigherInfinite)\]
+{% cite Kanamori2009 %}
 
 ### Relations with other large cardinals
 
 -   [Measurable](Measurable "Measurable")
     cardinals are Ramsey and stationary limits of Ramsey cardinals.
-    \[[1](#bibkey_ErdosHajnal1962:Ramsey)\]
+    {% cite Erdoes1962 %}
 -   Ramsey cardinals are
     [unfoldable](Unfoldable "Unfoldable")
     (using the $M$-ultrafilters characterization) and stationary limits
@@ -141,11 +137,11 @@ exists and hence there cannot be Ramsey cardinals in $L$.
     but the least Ramsey cardinal is not ineffable. Ineffable Ramsey
     cardinals are limits of Ramsey cardinals, because ineffable
     cardinals are $Π^1\_2$-indescribable and being Ramsey is a
-    $Π^1\_2$-statement.\[[3](#bibkey_Gitman2011:RamseyLikeCardinals)\]
+    $Π^1\_2$-statement.{% cite Gitman2011 %}
 -   There are stationarily many completely ineffable, [greatly
     Erdős](Erdos "Erdos")
     cardinals below any Ramsey
-    cardinal.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+    cardinal.{% cite Sharpe2011 %}
 
 Weaker Ramsey-like:
 
@@ -159,38 +155,36 @@ Weaker Ramsey-like:
 -   A Ramsey cardinal is $\\omega\_1$-iterable and a stationary limit of
     $\\omega\_1$-iterable cardinals. This is already true of an
     $\\omega\_1$-[Erdős](Erdos "Erdos")
-    cardinal. \[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+    cardinal. {% cite Sharpe2011 %}
 -   A virtually Ramsey cardinal that is [weakly
     compact](Weakly_compact "Weakly compact")
     is already Ramsey. If $κ$ is Ramsey, then there is a forcing
     extension destroying this, while preserving that $κ$ is virtually
     Ramsey. It is open whether virtually Ramsey cardinals are weaker
     than Ramsey
-    cardinals.\[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII),
-    [11](#bibkey_GitmanJohnstone:IndestructiblyRamsey)\]
+    cardinals. {% cite Gitman2011a Gitman %}
 
 Stronger Ramsey-like:
 
 -   If $κ$ is $Π\_1$-Ramsey, then the set of Ramsey cardinals less then
     $κ$ is in the $Π\_1$-Ramsey filter on
-    $κ$.\[[2](#bibkey_Feng1990:HierarchyRamsey)\]
+    $κ$.{% cite Feng1990 %}
 -   Strongly Ramsey cardinals are Ramsey and stationary limits of Ramsey
-    cardinals.\[[3](#bibkey_Gitman2011:RamseyLikeCardinals)\]
+    cardinals.{% cite Gitman2011 %}
 -   Mahlo–Ramsey cardinals are a direct strengthening of
-    Ramseyness.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+    Ramseyness.{% cite Sharpe2011 %}
 
 ### Ramsey cardinals and forcing
 
 -   Ramsey cardinals are preserved by small forcing.
-    \[[9](#bibkey_Kanamori2009:HigherInfinite)\]
+    {% cite Kanamori2009 %}
 -   Ramsey cardinals $\\kappa$ are preserved by the canonical forcing of
     the ${\\rm GCH}$, by fast function forcing, and by the forcing to
     add a slim $\\kappa$-Kurepa tree.
-    \[[11](#bibkey_GitmanJohnstone:IndestructiblyRamsey)\]
+    {% cite Gitman %}
 -   If $\\kappa$ is Ramsey, there is a forcing extension in which
     $\\kappa$ remains Ramsey and
-    $2^\\kappa\\gt\\kappa$.\[[11](#bibkey_GitmanJohnstone:IndestructiblyRamsey),
-    [12](#bibkey_CodyGitman:EastonTheoremRamsey)\]
+    $2^\\kappa\\gt\\kappa$. {% cite Gitman Cody2015 %}
     -   If the ${\\rm GCH}$ holds and $F$ is a class function on the
         regular cardinals having a closure point at $\\kappa$ and
         satisfying $F(\\alpha)\\leq F(\\beta)$ for $\\alpha&lt;\\beta$
@@ -198,19 +192,19 @@ Stronger Ramsey-like:
         cofinality preserving forcing extension in which $\\kappa$
         remains Ramsey and $2^\\delta=F(\\delta)$ for every regular
         cardinal $\\delta$.
-        \[[12](#bibkey_CodyGitman:EastonTheoremRamsey)\]
+        {% cite Cody2015 %}
     -   There is a forcing extension in which $κ$ is the first cardinal
         at which the $\\mathrm{GCH}$ fails.
-        \[[11](#bibkey_GitmanJohnstone:IndestructiblyRamsey)\]
+        {% cite Gitman %}
 -   If the existence of Ramsey cardinals is consistent with ZFC, then
     there is a model of ZFC in which $\\kappa$ is not Ramsey, but
     becomes Ramsey in a forcing extension.
-    \[[11](#bibkey_GitmanJohnstone:IndestructiblyRamsey)\]
+    {% cite Gitman %}
 
 ## Completely Romsey cardinals etc.
 
 (All information in this section are from
-\[[2](#bibkey_Feng1990:HierarchyRamsey)\] unless otherwise noted)
+{% cite Feng1990 %} unless otherwise noted)
 
 ### Basic definitions
 
@@ -313,9 +307,9 @@ be the canonical sequence on $κ$.
 (This subsection compares (Sharpe&Welch, 2011) and (Feng, 1990))
 
 $Π\_α$-Ramsey cardinals correspond to $α$-Ramsey and $α$-Ramsey$^s$ in
-\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\].\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+{% cite Sharpe2011 Holy2018 %}
 (The “$^s$” stands for
-“stationary”.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\])
+“stationary”.{% cite Sharpe2011 %})
 
 $Π\_{2 n}$-Ramsey cardinals are Sharpe-Welch $n$-Ramsey and $Π\_{2 n +
 1}$-Ramsey cardinals are $n$-Ramsey$^s$.
@@ -356,26 +350,25 @@ Indescribability:
 -   For infinite $α$, if $κ$ is $Π\_α$-Ramsey, then $κ$ is $Π^1\_{2
     ·(1+β)+ 1}$-indescribable for each $β &lt; \\min \\{α, κ^+\\}$
     (Transfinite $Π^1\_α$-indescribable is defined via finite
-    games.).\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+    games.).{% cite Sharpe2011 %}
 -   If $κ$ is completely Ramsey, then $κ$ is
-    $Π\_1^2$-[indescribable](Indescribable "Indescribable").\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+    $Π\_1^2$-[indescribable](Indescribable "Indescribable").{% cite Holy2018 %}
 
 Equivalence:
 
 -   A cardinal is completely Ramsey iff it is $ω$-very
-    Ramsey.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang),
-    [6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    Ramsey. {% cite Sharpe2011 Nielsen2018 %}
 
 Relation with other variants of Ramseyness:
 
 -   Strongly Ramsey cardinals are limits of completely Ramsey cardinals,
     but are not necessarily completely Ramsey
-    themselves.\[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
+    themselves.{% cite Gitman2011a %}
 -   Every $(ω+1)$-Ramsey cardinal is a completely Ramsey stationary
     limit of completely Ramsey
-    cardinals.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    cardinals.{% cite Nielsen2018 %}
 -   Any $\\Pi\_2$-Ramsey cardinal is $α$-Mahlo–Ramsey for all $α &lt;
-    κ^+$. \[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+    κ^+$. {% cite Sharpe2011 %}
 
 ## Almost Ramsey cardinal
 
@@ -439,12 +432,12 @@ compact](Weakly_compact "Weakly compact")
 almost Ramsey cardinals.
 
 If $κ$ is a $2$-weakly Erdős cardinal, then $κ$ is almost
-Ramsey.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+Ramsey.{% cite Sharpe2011 %}
 
 ## Strongly Ramsey cardinal
 
 Strongly Ramsey cardinals were introduced by Gitman in
-\[[3](#bibkey_Gitman2011:RamseyLikeCardinals)\] (all information from
+{% cite Gitman2011 %} (all information from
 there unless otherwise noted). They strengthen the $M$-ultrafilters
 characterization of Ramsey cardinals from weak $\\kappa$-models to
 $\\kappa$-models.
@@ -463,23 +456,23 @@ Properties:
     cardinals.
 -   Strongly Ramsey cardinals are limits of completely Ramsey cardinals,
     but are not necessarily completely Ramsey
-    themselves.\[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
+    themselves.{% cite Gitman2011a %}
 -   Every strongly Ramsey cardinal is a stationary limit of almost fully
-    Ramseys.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    Ramseys.{% cite Nielsen2018 %}
 -   Strongly Ramsey cardinals are Ramsey and stationary limits of Ramsey
     cardinals.
 -   The least strongly Ramsey cardinal is not
     [ineffable](Ineffable "Ineffable").
 -   Forcing related properties of strongly Ramsey cardinals are the same
     as those of Ramsey cardinals described above.
-    \[[11](#bibkey_GitmanJohnstone:IndestructiblyRamsey)\]
+    {% cite Gitman %}
 -   Strong Ramseyness is downward absolute to $K$.
-    \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
+    {% cite Gitman2011a %}
 
 ## Super Ramsey cardinal
 
 Super Ramsey cardinals were introduced by Gitman in
-\[[3](#bibkey_Gitman2011:RamseyLikeCardinals)\] (all information from
+{% cite Gitman2011 %} (all information from
 there unless otherwise noted). They strengthen one definition of strong
 Ramseyness.
 
@@ -497,11 +490,11 @@ The following are some facts about super Ramsey cardinals:
 -   [Measurable](Measurable "Measurable")
     cardinals are super Ramsey limits of super Ramsey cardinals.
 -   Fully Ramsey cardinals are super Ramsey limits of super Ramsey
-    cardinals.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+    cardinals.{% cite Holy2018 %}
 -   Super Ramsey cardinals are strongly Ramsey limits of strongly Ramsey
     cardinals.
 -   Super Ramseyness is downward absolute to $K$.
-    \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
+    {% cite Gitman2011a %}
 -   The required $M$ for a super Ramsey embedding is stationarily
     correct.
 
@@ -509,7 +502,7 @@ The following are some facts about super Ramsey cardinals:
 
 The $\\alpha$-iterable cardinals for $1\\leq\\alpha\\leq\\omega\_1$ were
 introduced by Gitman in
-\[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]. They form a
+{% cite Gitman2011a %}. They form a
 hierarchy of large cardinal notions strengthening [weakly
 compact](Weakly_compact "Weakly compact")
 cardinals, while weakening the $M$-ultrafilter characterization of
@@ -525,7 +518,7 @@ $\\kappa$-model and $U$ is an $M$-ultrafilter on $\\kappa$. Define that:
     at least $\\alpha$-many well-founded iterated ultrapowers.
 
 Using a theorem of Gaifman
-\[[13](#bibkey_Gaifman1974:ElementaryEmbeddings)\], if an
+{% cite Gaifman1974 %}, if an
 $M$-ultrafilter is $\\omega\_1$-good, then it is already $\\alpha$-good
 for every ordinal $\\alpha$.
 
@@ -549,7 +542,7 @@ Lower limit:
     and stationary limits of
     <a href="Completely_ineffable" class="mw-redirect" title="Completely ineffable">completely ineffable</a>
     cardinals. The least $1$-iterable cardinal is not ineffable.
-    \[[3](#bibkey_Gitman2011:RamseyLikeCardinals)\]
+    {% cite Gitman2011 %}
 -   Super weakly Ramsey cardinals are weakly Ramsey (=$1$-iterable)
     limits of weakly Ramsey cardinals.
 
@@ -558,22 +551,22 @@ Upper limit:
 -   A Ramsey cardinal is $\\omega\_1$-iterable and a stationary limit of
     $\\omega\_1$-iterable cardinals. This is already true of an
     $\\omega\_1$-[Erdős](Erdos "Erdos")
-    cardinal. \[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+    cardinal. {% cite Sharpe2011 %}
 -   If $C ∈ V\[H\]$, a forcing extension by $\\mathrm{Coll}(ω, V\_κ)$,
     is a club in $κ$ of generating indiscernibles for $V\_κ$ of
     order-type $κ$ (like in the definition of
     <a href="Silver_cardinal" class="mw-redirect" title="Silver cardinal">Silver cardinals</a>),
     then each $ξ ∈ C$ is $&lt;
-    ω\_1$-iterable.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+    ω\_1$-iterable.{% cite Gitmana %}
 -   $ω\_1$-iterable cardinals are
     <a href="Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strongly unfoldable</a>
-    in $L$.\[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
+    in $L$.{% cite Gitman2011a %}
 
 Hierarchy:
 
 -   An $\\alpha$-iterable cardinal is $\\beta$-iterable and a stationary
     limit of $\\beta$-iterable cardinals for every $\\beta&lt;\\alpha$.
-    \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
+    {% cite Gitman2011a %}
 -   For $β &gt; 0$, every $(α, β)$-Ramsey is a $β$-iterable stationary
     limit of $β$-iterables.
 -   It is consistent from an
@@ -584,40 +577,40 @@ Hierarchy:
     least $λ$-Erdős cardinal) is a limit of $λ$-iterable cardinals and
     if there is a $λ + 1$-iterable cardinal, then there is a $λ$-Erdős
     cardinal below
-    it.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+    it.{% cite Gitmana %}
 -   A [virtually
     $n$-huge\*](Huge "Huge")
     cardinal is an $n+1$-iterable limit of $n+1$-iterable cardinals. If
     $κ$ is $n+2$-iterable, then $V\_κ$ is a model of proper class many
     virtually $n$-huge\*
-    cardinals.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+    cardinals.{% cite Gitmana %}
 -   Every virtually rank-into-rank cardinal is an
     $ω$-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
     limit of $ω$-iterable
-    cardinals.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+    cardinals.{% cite Gitmana %}
 
 Between $1$- and $2$-iterable:
 
 -   A $2$-iterable cardinal implies the consistency of a
     [remarkable](Remarkable "Remarkable")
     cardinal: Every $2$-iterable cardinal is a limit of remarkable
-    cardinals. \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
+    cardinals. {% cite Gitman2011a %}
 -   Remarkable cardinals imply the consistency of $1$-iterable
     cardinals: If there is a remarkable cardinal, then there is a
     countable transitive model of ZFC with a proper class of
     $1$-iterable cardinals.
-    \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
+    {% cite Gitman2011a %}
 -   If $κ$ is $2$-iterable, then $V\_κ$ is a model of proper class many
     [virtually
     $C^{(n)}$-extendible](Extendible "Extendible")
     cardinals for every $n &lt; ω$, of proper class many
     <a href="Shelah" class="mw-redirect" title="Shelah">virtually Shelah for supercompactness</a>
-    cardinals\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\] and
+    cardinals{% cite Gitmana %} and
     of proper class many
     <a href="Completely_remarkable" class="mw-redirect" title="Completely remarkable">completely remarkable</a>
-    cardinals.\[[15](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+    cardinals.{% cite Bagaria2017a %}
 -   Virtually extendible cardinals are 1-iterable limits of 1-iterable
-    cardinals.\[[14](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+    cardinals.{% cite Gitmana %}
 
 Absoluteness:
 
@@ -629,21 +622,21 @@ Absoluteness:
     <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
     exists, then every Silver indiscernible is $\\alpha$-iterable in $L$
     for every $L$-countable $\\alpha$.
-    \[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII)\]
+    {% cite Gitman2011a %}
 -   $\\alpha$-iterable cardinals $\\kappa$ are preserved by small
     forcing, by the canonical forcing of the ${\\rm GCH}$, by fast
     function forcing, and by the forcing to add a slim $\\kappa$-Kurepa
     tree. If $\\kappa$ is $\\alpha$-iterable, there is a forcing
     extension in which $\\kappa$ remains $\\alpha$-iterable and
     $2^\\kappa\\gt\\kappa$.
-    \[[11](#bibkey_GitmanJohnstone:IndestructiblyRamsey)\]
+    {% cite Gitman %}
 
 ## Mahlo–Ramsey cardinals
 
 The property of being Mahlo–Ramsey (MR) is a slight strengthening of
 Ramseyness introduced in analogy to
 [Mahlo](Mahlo "Mahlo")
-cardinals in \[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\] (all
+cardinals in {% cite Sharpe2011 %} (all
 information from there).
 
 For a regular cardinal $κ$ and a sequence of canonical functions $⟨ f\_α
@@ -665,27 +658,26 @@ players with finitely many moves defined in (Sharpe&Welch11). $X$ is
 Sharpe-Welch $\\alpha$-Ramsey iff (II) wins $G\_R(X, α)$. $G\_r(X, α)$
 (also defined there) is a modification of the game allowing $1+α$ moves.
 $X$ is **$\\alpha$-very Ramsey** iff (II) has a winning strategy in
-$G\_r(X, α)$.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+$G\_r(X, α)$.{% cite Sharpe2011 %}
 
 For $n &lt; ω$, the games $G\_R(X, n)$ and $G\_r(X, n)$
-coincide.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+coincide.{% cite Sharpe2011 %}
 
 In analogy to coherent $&lt;α$-very Ramsey, one can define coherent
 $&lt;α$-very Ramsey cardinals. $α$-very Ramsey cardinals are equivalent
 to coherent $&lt;α$-very Ramsey cardinals for limit $α$ and to
 $&lt;(α+1)$-very Ramsey cardinals in general. (This just allows to
 “subtract one” for successor
-ordinals.)\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+ordinals.){% cite Nielsen2018 %}
 
 Results:
 
 -   A cardinal is completely Ramsey iff it is $ω$-very
-    Ramsey.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang),
-    [6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    Ramsey. {% cite Sharpe2011 Nielsen2018 %}
 -   If $κ$ is a
     [measurable](Measurable "Measurable")
     cardinal, then $κ$ is $κ$-very
-    Ramsey.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+    Ramsey.{% cite Sharpe2011 %}
 -   If a cardinal is $ω\_1$-very Ramsey (=strategic $ω\_1$-Ramsey
     cardinal), then it is measurable in the [core
     model](Core_model "Core model")
@@ -693,11 +685,10 @@ Results:
     <a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
     exists and an inner model with a
     [Woodin](Woodin "Woodin")
-    cardinal exists.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang),
-    [6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    cardinal exists. {% Sharpe2011 Nielsen2018 %} 
 
 Additional results from
-\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]:
+{% cite Nielsen2018 %}:
 
 -   For limit ordinal $α$, every coherent $&lt;ωα$-Ramsey is $ωα$-very
     Ramsey.
@@ -711,11 +702,11 @@ Additional results from
 ## Virtually Ramsey cardinal
 
 Virtually Ramsey cardinals were introduced by Sharpe and Welch in
-\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]. They weaken the good
+{% cite Sharpe2011 %}. They weaken the good
 indiscernibles characterization of Ramsey cardinals and were motivated
 by finding an upper bound on the consistency strength of a variant of
 Chang's Conjecture studied in
-\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]. For
+{% cite Sharpe2011 %}. For
 $A\\subseteq\\kappa$, define that $\\mathscr
 I=\\{\\alpha&lt;\\kappa\\mid$ there is an unbounded good set of
 indiscernibles $I\_\\alpha\\subseteq\\alpha$ for $\\langle
@@ -730,15 +721,14 @@ compact](Weakly_compact "Weakly compact")
 is already Ramsey. If $κ$ is Ramsey, then there is a forcing extension
 destroying this, while preserving that $κ$ is virtually Ramsey. It is
 open whether virtually Ramsey cardinals are weaker than Ramsey
-cardinals.\[[10](#bibkey_GitmanWelch2011:RamseyLikeCardinalsII),
-[11](#bibkey_GitmanJohnstone:IndestructiblyRamsey)\]
+cardinals. {% cite Gitman2011a Gitman %} 
 
 If κ is virtually Ramsey then κ is [greatly
-Erdős](Erdos "Erdos").\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang)\]
+Erdős](Erdos "Erdos").{% cite Sharpe2011 %}
 
 ## Super weakly Ramsey cardinal
 
-(All from \[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\])
+(All from {% cite Holy2018 %})
 
 A cardinal $κ$ is **super weakly Ramsey** iff every $A ⊆ κ$ is
 contained, as an element, in a weak
@@ -759,7 +749,7 @@ Strength:
 
 ### $α$-Ramsey cardinal for cardinal $α$
 
-(All from \[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\])
+(All from {% cite Holy2018 %})
 
 For regular cardinal $α ≤ κ$, $κ$ is $α$-Ramsey iff for arbitrarily
 large regular cardinals $θ$, every $A ⊆ κ$ is contained, as an element,
@@ -783,7 +773,7 @@ better for countable cofinality).
 
 ### Games for definitions
 
-(from \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\] unless otherwise
+(from {% cite Nielsen2018 %} unless otherwise
 noted)
 
 For a weak
@@ -797,14 +787,14 @@ Games $G\_1$ and $G\_2$ are *equivalent* when each of two players has a
 winning strategy in $G\_1$ if and only if he has one in $G\_2$.
 
 The $α$-Ramsey cardinals are based upon *well-founded filter
-games*\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+games*{% cite Holy2018 %}
 $wfG^θ\_γ(κ)$ (full definition in sources).
 
 -   Player I
-    (*challenger*\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\])
+    (*challenger*{% cite Holy2018 %})
     gives $\\subseteq$-increasing $κ$-models $\\mathcal{M}\_α ≺ H\_θ$,
 -   player II
-    (*judge*\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]) gives
+    (*judge*{% cite Holy2018 %}) gives
     $\\subseteq$-increasing filters $μ\_α$ that are
     $\\mathcal{M}\_α$-measures
 -   and II wins iff after $γ$ rounds $μ$ is an $\\mathcal{M}$-normal
@@ -840,7 +830,7 @@ all equivalent for all limit ordinals $γ \\leq κ$. $\\mathcal{G}^θ\_γ(κ,
 
 ### Generalisations
 
-(from \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\])
+(from {% cite Nielsen2018 %})
 
 Now we can define $γ$-Ramsey cardinals for any ordinal $γ$ and other
 variants: Let $κ$ be a cardinal and $γ \\leq κ$ an ordinal:
@@ -861,15 +851,15 @@ variants: Let $κ$ be a cardinal and $γ \\leq κ$ an ordinal:
     $\\mathcal{G}\_α(κ)$ for every $α &lt; γ$.
     -   I.e., in a choice of strategies for each $α$, strategies for
         greater $α$ contain strategies for lesser $α$. Full definition
-        in \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\].
+        in {% cite Nielsen2018 %}.
 
 (Some of the notions defined in
-\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\] were not new, but
+{% cite Nielsen2018 %} were not new, but
 gained more convenient names.)
 
 ### Filter property
 
-(from \[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\])
+(from {% cite Holy2018 %})
 
 $κ$ has the **filter property** iff for every subset $X$ of
 $\\mathcal{P}(κ)$ of size $≤κ$, there is a $&lt;κ$-complete filter $F$
@@ -893,7 +883,7 @@ $γ\_0$-filter property.
 ### Results
 
 Results in the finite case (for $n &lt;
-ω$):\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+ω$):{% cite Nielsen2018 %}
 
 -   For a cardinal $κ=κ^{&lt;κ}$
     -   $κ$ is [weakly
@@ -906,7 +896,7 @@ Results in the finite case (for $n &lt;
         [ineffable](Ineffable "Ineffable")
         iff it is normal 0-Ramsey. (An uncountable cardinal κ has the
         normal filter property iff it is
-        ineffable.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\])
+        ineffable.{% cite Holy2018 %})
 -   Every $n$-Ramsey $κ$ is $Π^1\_{2 n+1}$-indescribable. This is
     optimal, as $n$-Ramseyness can be described by a $Π^1\_{2
     n+2}$-formula.
@@ -922,19 +912,19 @@ Results in the finite case (for $n &lt;
     $&lt;ω$-Ramseys are downwards absolute to $L$.
 
 Results for
-$ω$-Ramsey:\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+$ω$-Ramsey:{% cite Holy2018 %}
 
 -   $ω$-Ramsey cardinals are super weakly Ramsey limits of super weakly
     Ramsey cardinals.
 -   $ω$-Ramsey cardinals are limits of cardinals with the $ω$-filter
     property (=completely
-    [ineffable](Ineffable "Ineffable")\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]).
+    [ineffable](Ineffable "Ineffable"){% cite Nielsen2018 %}).
 -   $ω$-Ramsey cardinals are downwards absolute to $L$. If
     <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^♯$</a>
     exists, then all Silver indiscernibles are $ω$-Ramsey in $L$.
 
 Results for strategic
-$ω$-Ramsey:\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+$ω$-Ramsey:{% cite Nielsen2018 %}
 
 -   <a href="Virtually_measurable" class="mw-redirect" title="Virtually measurable">Virtually measurable</a>
     cardinals, strategic $ω$-Ramsey cardinals and
@@ -959,7 +949,7 @@ cardinal:
 -   The existence of a strategic $(ω+1)$-Ramsey cardinal (and of
     strategic fully Ramsey cardinal) is equiconsistent with the
     existence of a measurable
-    cardinal.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    cardinal.{% cite Nielsen2018 %}
 -   If $κ$ is a measurable cardinal, then $κ$ is $κ$-very Ramsey. If a
     cardinal is $ω\_1$-very Ramsey (=strategic $ω\_1$-Ramsey cardinal),
     then it is measurable in the [core
@@ -968,11 +958,10 @@ cardinal:
     <a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
     exists and an inner model with a
     [Woodin](Woodin "Woodin")
-    cardinal exists.\[[4](#bibkey_SharpeWelch2011:GreatlyErdosChang),
-    [6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    cardinal exists. {% cite Sharpe2011 Nielsen2018 %}
 -   If $κ$ is uncountable, $κ = κ^{&lt;κ}$ and $2^κ = κ^+$, then the
     following are
-    equivalent:\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+    equivalent:{% cite Holy2018 %}
     -   $κ$ is measurable.
     -   $κ$ satisfies the $κ^+$-filter property.
     -   $κ$ satisfies the strategic $κ^+$-filter property.
@@ -981,7 +970,7 @@ cardinal:
     $κ^+$-filter property, however $κ$ is not measurable.
 
 Being downwards absolute to the [core
-model](Core_model "Core model"):\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+model](Core_model "Core model"):{% cite Nielsen2018 %}
 
 -   If
     <a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
@@ -995,7 +984,7 @@ model](Core_model "Core model"):\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\
         downwards absolute to $\\mathbf{K}$.
 
 Strategic $α$-Ramsey (including coherent $&lt;α$-Ramsey) and $α$-very
-Ramsey:\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+Ramsey:{% cite Nielsen2018 %}
 
 -   For limit ordinal $α$, every coherent $&lt;ωα$-Ramsey is $ωα$-very
     Ramsey.
@@ -1006,7 +995,7 @@ Ramsey:\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
 -   $κ$ is $λ$-very Ramsey iff it is strategic $λ$-Ramsey for any $λ$
     with uncountable cofinality.
 
-Hierarchy:\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+Hierarchy:{% cite Holy2018 %}
 
 -   If $ω ≤ α\_0 &lt; α\_1 ≤ κ$, both $α\_0$ and $α\_1$ are cardinals,
     and $κ$ is $α\_1$-Ramsey, then there is a proper class of
@@ -1023,18 +1012,18 @@ Other:
 
 -   Every $(ω+1)$-Ramsey cardinal is a completely Ramsey stationary
     limit of completely Ramsey
-    cardinals.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    cardinals.{% cite Nielsen2018 %}
 -   Every strongly Ramsey cardinal is a stationary limit of almost fully
-    Ramseys.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+    Ramseys.{% cite Nielsen2018 %}
 -   Fully Ramsey cardinals are super Ramsey limits of super Ramsey
-    cardinals.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+    cardinals.{% cite Holy2018 %}
 -   [Measurable](Measurable "Measurable")
     cardinals are limits of fully Ramsey
-    cardinals.\[[5](#bibkey_HolySchlicht2017:HierarchyRamseylike)\]
+    cardinals.{% cite Holy2018 %}
 
 ### $(α, β)$-Ramsey cardinals
 
-(All information from \[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\])
+(All information from {% cite Nielsen2018 %})
 
 $κ$ is **$(α, β)$-Ramsey** iff player I has no winning strategy in
 $\\mathcal{G}^θ\_α(κ, β)$ for all regular $θ &gt; κ$.
@@ -1061,11 +1050,11 @@ L$ if $α &lt; ω\_1^L$ and that they are not if $α = ω\_1$ .
 $κ$ is **$(γ, θ)$-Ramsey** iff player I has no winning strategy in
 $\\mathcal{G}^θ\_γ(κ)$ (i.e. $κ$ is $γ$-Ramsey iff it is $(γ, θ)$-Ramsey
 for every $θ &gt; κ$). Not much is known about them in
-general.\[[6](#bibkey_NielsenWelch2018:GamesRamseylike)\]
+general.{% cite Nielsen2018 %}
 
 ## M-rank
 
-(from \[[16](#bibkey_CarmodyGitmanHabic2016:Mitchelllike)\])
+(from {% cite Carmody2016 %})
 
 M-rank for Ramsey and Ramsey-like cardinals is analogous to [Mitchell
 rank](Mitchell_rank "Mitchell rank").
@@ -1095,81 +1084,3 @@ Results:
 Ramsey and Ramsey-like M-orders can be softly killed (Rank $α$ can be
 turned into rank $β$ for any $β &lt; α$) using cofinality-preserving
 forcing extension.
-
-## References
-
-1.  <span id="bibkey_ErdosHajnal1962:Ramsey">Erdős, Paul and Hajnal,
-    Andras. *Some remarks concerning our paper \`\`On the structure of
-    set-mappings''. Non-existence of a two-valued $\\sigma $-measure for
-    the first uncountable inaccessible cardinal.* Acta Math Acad Sci
-    Hungar 13:223--226, 1962.
-    <a href="http://www.ams.org/mathscinet-getitem?mr=0141603" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BErdosHajnal1962:Ramsey,%20%20%20%20AUTHOR%20=%20%7BErdős,%20Paul%20and%20Hajnal,%20Andras%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BSome%20remarks%20concerning%20our%20paper%20%60%60On%20the%20structure%20of%20%20%20%20%20%20%20%20%20%20%20%20%20%20set-mappings\&#39;\&#39;.%20Non-existence%20of%20a%20two-valued%20$\sigma%20%20%20%20%20%20%20%20%20%20%20%20%20%20$-measure%20for%20the%20first%20uncountable%20inaccessible%20cardinal%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BActa%20Math.%20Acad.%20Sci.%20Hungar.%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BActa%20Mathematica%20Academiae%20Scientiarum%20Hungaricae%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B13%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B1962%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B223--226%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0001-5954%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B04.60%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B0141603%20(25%20\#5001)%7D,%3Cbr%3EMRREVIEWER%20=%20%7BL.%20Gillman%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Feng1990:HierarchyRamsey">Feng, Qi. *A hierarchy of
-    Ramsey cardinals.* Annals of Pure and Applied Logic 49(3):257 -
-    277, 1990.
-    <a href="http://dx.doi.org/10.1016/0168-0072(90)90028-Z" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BFeng1990:HierarchyRamsey,title%20=%20%22A%20hierarchy%20of%20Ramsey%20cardinals%22,journal%20=%20%22Annals%20of%20Pure%20and%20Applied%20Logic%22,volume%20=%20%2249%22,number%20=%20%223%22,pages%20=%20%22257%20-%20277%22,year%20=%20%221990%22,issn%20=%20%220168-0072%22,doi%20=%20%2210.1016/0168-0072(90)90028-Z%22,author%20=%20%22Feng,%20Qi%22,%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Gitman2011:RamseyLikeCardinals">Gitman, Victoria.
-    *Ramsey-like cardinals.* The Journal of Symbolic Logic
-    76(2):519-540, 2011.
-    <a href="http://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinals.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074901/http://arxiv.org/abs/0801.4723" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005074901/http://www.ams.org/mathscinet-getitem?mr=2830415" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%20%7BGitman2011:RamseyLikeCardinals,AUTHOR%20=%20%7BGitman,%20Victoria%7D,%3Cbr%3ETITLE%20=%20%7BRamsey-like%20cardinals%7D,%3Cbr%3EJOURNAL%20=%20%7BThe%20Journal%20of%20Symbolic%20Logic%7D,%3Cbr%3EVOLUME%20=%20%7B76%7D,%3Cbr%3EYEAR%20=%20%7B2011%7D,%3Cbr%3ENUMBER%20=%20%7B2%7D,%3Cbr%3EPAGES%20=%20%7B519-540%7D,%3Cbr%3EMRNUMBER%20=%20%7B2830415%7D,%3Cbr%3EEPRINT=%7B0801.4723%7D,%3Cbr%3EURL=%7Bhttp://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinals.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_SharpeWelch2011:GreatlyErdosChang">Sharpe, Ian and
-    Welch, Philip. *Greatly Erdős cardinals with some generalizations to
-    the Chang and Ramsey properties.* Ann Pure Appl Logic
-    162(11):863--902, 2011.
-    <a href="http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074901/http://dx.doi.org/10.1016/j.apal.2011.04.002" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191005074901/http://www.ams.org/mathscinet-getitem?mr=2817562" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BSharpeWelch2011:GreatlyErdosChang,%20%20%20%20AUTHOR%20=%20%7BSharpe,%20Ian%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BGreatly%20Erdős%20cardinals%20with%20some%20generalizations%20to%20%20%20%20%20%20%20%20%20%20%20%20%20%20the%20Chang%20and%20Ramsey%20properties%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnn.%20Pure%20Appl.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B162%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B11%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B863--902%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0168-0072%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BAPALD7%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E04%20(03E35%2003E45%2003E55)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2817562%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1016/j.apal.2011.04.002%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_HolySchlicht2017:HierarchyRamseylike">Holy, Peter
-    and Schlicht, Philipp. *A hierarchy of Ramsey-like cardinals.*
-    Fundamenta Mathematicae 242:49-74, 2018.
-    <a href="https://research-information.bristol.ac.uk/files/185938606/1710.10043.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074901/http://arxiv.org/abs/1710.10043" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005074901/http://dx.doi.org/10.4064/fm396-9-2017" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BHolySchlicht2017:HierarchyRamseylike,%20%20%20%20author%20=%20%7BHoly,%20Peter%20and%20Schlicht,%20Philipp%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BA%20hierarchy%20of%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2018%7D,%3Cbr%3E%20%20%20eprint%20=%20%7B1710.10043%7D,%3Cbr%3E%20%20%20%20%20%20doi%20=%20%7B10.4064/fm396-9-2017%7D,%3Cbr%3E%20%20journal%20=%20%7BFundamenta%20Mathematicae%7D,%3Cbr%3E%20%20%20volume%20=%20%7B242%7D,%3Cbr%3E%20%20%20%20pages%20=%20%7B49-74%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttps://research-information.bristol.ac.uk/files/185938606/1710.10043.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_NielsenWelch2018:GamesRamseylike">Nielsen, Dan
-    Saattrup and Welch, Philip. *Games and Ramsey-like cardinals.*
-    , 2018.
-    <a href="http://arxiv.org/abs/1804.10383" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BNielsenWelch2018:GamesRamseylike,%20%20%20%20author%20=%20%7BNielsen,%20Dan%20Saattrup%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BGames%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1804.10383%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-7.  <span id="bibkey_Jech2003:SetTheory">Jech, Thomas J. ***Set
-    Theory.*** Third, Springer-Verlag, Berlin, 2003. (The third
-    millennium edition, revised and expanded)
-    <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-8.  <span id="bibkey_DoddJensen1982:CoreModel">Dodd, Anthony and Jensen,
-    Ronald. *The core model.* Ann Math Logic 20(1):43--75, 1981.
-    <a href="http://dx.doi.org/10.1016/0003-4843(81)90011-5" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074901/http://dx.doi.org/10.1016/0003-4843(81)90011-5" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191005074901/http://www.ams.org/mathscinet-getitem?mr=611394" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BMR611394,%20%20%20%20AUTHOR%20=%20%7BDodd,%20Anthony%20and%20Jensen,%20Ronald%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20core%20model%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BAnn.%20Math.%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BAnnals%20of%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B20%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B1981%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B1%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B43--75%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0003-4843%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BAMLOAD%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E45%20(03C62%2003E35)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B611394%20(82i:03063)%7D,%3Cbr%3EMRREVIEWER%20=%20%7BF.%20R.%20Drake%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1016/0003-4843(81)90011-5%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://dx.doi.org/10.1016/0003-4843(81)90011-5%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-9.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-10. <span id="bibkey_GitmanWelch2011:RamseyLikeCardinalsII">Gitman,
-    Victoria and Welch, Philip. *Ramsey-like cardinals II.* J Symbolic
-    Logic 76(2):541--560, 2011.
-    <a href="http://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinalsii.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074901/http://arxiv.org/abs/1104.4448" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005074901/http://www.ams.org/mathscinet-getitem?mr=2830435" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@article%20%7BGitmanWelch2011:RamseyLikeCardinalsII,%20%20%20%20AUTHOR%20=%20%7BGitman,%20Victoria%20and%20Welch,%20Philip%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BRamsey-like%20cardinals%20II%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BJ.%20Symbolic%20Logic%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BJournal%20of%20Symbolic%20Logic%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B76%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2011%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B2%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B541--560%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0022-4812%7D,%3Cbr%3E%20%20%20%20%20CODEN%20=%20%7BJSYLA6%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E55%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2830435%7D,%3Cbr%3EEPRINT%20=%7B1104.4448%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinalsii.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-11. <span id="bibkey_GitmanJohnstone:IndestructiblyRamsey">Gitman,
-    Victoria and Johnstone, Thomas A. *Indestructibility for Ramsey and
-    Ramsey-like cardinals.* (In preparation)
-    <a href="https://victoriagitman.github.io/files/indestructibleramseycardinalsnew.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BGitmanJohnstone:IndestructiblyRamsey,AUTHOR=%20%7BGitman,%20Victoria%20and%20Johnstone,%20Thomas%20A.%7D,%3Cbr%3ETITLE=%20%7BIndestructibility%20for%20Ramsey%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3ENOTE=%20%7BIn%20preparation%7D,%3Cbr%3EURL=%20%7Bhttps://victoriagitman.github.io/files/indestructibleramseycardinalsnew.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-12. <span id="bibkey_CodyGitman:EastonTheoremRamsey">Cody, Brent and
-    Gitman, Victoria. *Easton's theorem for Ramsey and strongly Ramsey
-    cardinals.* Annals of Pure and Applied Logic 166(9):934 - 952, 2015.
-    <a href="https://victoriagitman.github.io/files/eastonramsey.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074901/http://dx.doi.org/10.1016/j.apal.2015.04.006" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BCodyGitman:EastonTheoremRamsey,title%20=%20%22Easton\&#39;s%20theorem%20for%20Ramsey%20and%20strongly%20Ramsey%20cardinals%22,journal%20=%20%22Annals%20of%20Pure%20and%20Applied%20Logic%22,volume%20=%20%22166%22,number%20=%20%229%22,pages%20=%20%22934%20-%20952%22,year%20=%20%222015%22,issn%20=%20%220168-0072%22,doi%20=%20%2210.1016/j.apal.2015.04.006%22,url=%7Bhttps://victoriagitman.github.io/files/eastonramsey.pdf%7D,%3Cbr%3EAUTHOR=%20%7BCody,%20Brent%20and%20Gitman,%20Victoria%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-13. <span id="bibkey_Gaifman1974:ElementaryEmbeddings">Gaifman, Haim.
-    *Elementary embeddings of models of set-theory and certain
-    subtheories.* Axiomatic set theory (Proc. Sympos. Pure Math., Vol.
-    XIII, Part II, Univ. California, Los Angeles, Calif., 1967), pp.
-    33--101, Providence R.I., 1974.
-    <a href="http://www.ams.org/mathscinet-getitem?mr=0376347" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@incollection%7BGaifman1974:ElementaryEmbeddings,%20%20%20%20AUTHOR%20=%20%7BGaifman,%20Haim%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BElementary%20embeddings%20of%20models%20of%20set-theory%20and%20certain%20%20%20%20%20%20%20%20%20%20%20%20%20%20subtheories%7D,%3Cbr%3E%20BOOKTITLE%20=%20%7BAxiomatic%20set%20theory%20(Proc.%20Sympos.%20Pure%20Math.,%20Vol.%20%20%20%20%20%20%20%20%20%20%20%20%20%20XIII,%20Part%20II,%20Univ.%20California,%20Los%20Angeles,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Calif.,%201967)%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B33--101%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BAmer.%20Math.%20Soc.%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BProvidence%20R.I.%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B1974%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B02K15%20(02H13)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B0376347%20(51%20\#12523)%7D,%3Cbr%3EMRREVIEWER%20=%20%7BL.%20Bukovsky%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-14. <span id="bibkey_GitmanSchindler:VirtualLargeCardinals">Gitman,
-    Victoria and Shindler, Ralf. *Virtual large cardinals.*
-    <a href="https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BGitmanSchindler:VirtualLargeCardinals,AUTHOR=%20%7BGitman,%20Victoria%20and%20Shindler,%20Ralf%7D,%3Cbr%3ETITLE=%20%7BVirtual%20large%20cardinals%7D,%3Cbr%3EURL=%20%7Bhttps://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-15. <span
-    id="bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple">Bagaria,
-    Joan and Gitman, Victoria and Schindler, Ralf. *Generic {V}opěnka's
-    {P}rinciple, remarkable cardinals, and the weak {P}roper {F}orcing
-    {A}xiom.* Arch Math Logic 56(1-2):1--20, 2017.
-    <a href="https://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074901/http://dx.doi.org/10.1007/s00153-016-0511-x" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191005074901/http://www.ams.org/mathscinet-getitem?mr=3598793" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BBagariaGitmanSchindler2017:VopenkaPrinciple,%20AUTHOR%20=%20%7BBagaria,%20Joan%20and%20Gitman,%20Victoria%20and%20Schindler,%20Ralf%7D,%3Cbr%3E%20TITLE%20=%20%7BGeneric%20%7BV%7Dopěnka\&#39;s%20%7BP%7Drinciple,%20remarkable%20cardinals,%20and%20the%20weak%20%7BP%7Droper%20%7BF%7Dorcing%20%7BA%7Dxiom%7D,%3Cbr%3E%20JOURNAL%20=%20%7BArch.%20Math.%20Logic%7D,%3Cbr%3E%20FJOURNAL%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20VOLUME%20=%20%7B56%7D,%3Cbr%3E%20YEAR%20=%20%7B2017%7D,%3Cbr%3E%20NUMBER%20=%20%7B1-2%7D,%3Cbr%3E%20PAGES%20=%20%7B1--20%7D,%3Cbr%3E%20ISSN%20=%20%7B0933-5846%7D,%3Cbr%3E%20MRCLASS%20=%20%7B03E35%20(03E55%2003E57)%7D,%3Cbr%3E%20MRNUMBER%20=%20%7B3598793%7D,%3Cbr%3E%20DOI%20=%20%7B10.1007/s00153-016-0511-x%7D,%3Cbr%3E%20URL%20=%20%7Bhttps://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-16. <span id="bibkey_CarmodyGitmanHabic2016:Mitchelllike">Carmody, Erin
-    and Gitman, Victoria and Habič, Miha E. *A Mitchell-like order for
-    Ramsey and Ramsey-like cardinals.* , 2016.
-    <a href="http://arxiv.org/abs/1609.07645" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BCarmodyGitmanHabic2016:Mitchelllike,%20%20%20%20author%20=%20%7BCarmody,%20Erin%20and%20Gitman,%20Victoria%20and%20Habič,%20Miha%20E.%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BA%20Mitchell-like%20order%20for%20Ramsey%20and%20Ramsey-like%20cardinals%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2016%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1609.07645%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

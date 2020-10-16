@@ -7,7 +7,7 @@ redirect_from:
 
   
 Uplifting cardinals were introduced by Hamkins and Johnstone in
-\[[1](#bibkey_HamkinsJohnstone:ResurrectionAxioms)\], from which some of
+{% cite Hamkins2014 %}, from which some of
 this text is adapted.
 
 An
@@ -145,7 +145,7 @@ equiconsistent over ZFC:
 ## Strongly Uplifting
 
 (Information in this section comes from
-\[[2](#bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms)\])
+{% cite Hamkins2014a %})
 
 Strongly uplifting cardinals are precisely strongly pseudo uplifting
 ordinals, strongly uplifting cardinals with weakly compact targets,
@@ -240,7 +240,7 @@ The following theories are equiconsistent over $\\mathrm{ZFC}$:
 ## Weakly superstrong cardinal
 
 (Information in this section comes from
-\[[3](#bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible)\])
+{% cite Bagaria2013 %})
 
 Hamkins and Johnstone called an inaccessible cardinal $κ$ **weakly
 superstrong** if for every transitive set $M$ of size $κ$ with $κ∈M$ and
@@ -264,27 +264,3 @@ Weakly almost huge cardinals also are
 $\\Sigma\_3$-[extendible](Extendible "Extendible").
 Because $\\Sigma\_3$-extendibility always can be destroyed, all these
 cardinal properties (among others) are never Lever indestructible.
-
-## References
-
-1.  <span id="bibkey_HamkinsJohnstone:ResurrectionAxioms">Hamkins, Joel
-    David and Johnstone, Thomas A. *Resurrection axioms and uplifting
-    cardinals.* , 2014.
-    <a href="http://jdh.hamkins.org/resurrection-axioms-and-uplifting-cardinals/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075041/http://arxiv.org/abs/1307.3602" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BHamkinsJohnstone:ResurrectionAxioms,%20%20AUTHOR%20=%20%20%20%20%20%20%20%7BHamkins,%20Joel%20David%20and%20Johnstone,%20Thomas%20A.%7D,%3Cbr%3E%20%20TITLE%20=%20%20%20%20%20%20%20%20%7BResurrection%20axioms%20and%20uplifting%20cardinals%7D,%3Cbr%3E%20%20YEAR%20=%20%20%20%20%20%20%20%20%20%7B2014%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttp://jdh.hamkins.org/resurrection-axioms-and-uplifting-cardinals/%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1307.3602%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span
-    id="bibkey_HamkinsJohnstone:BoldfaceResurrectionAxioms">Hamkins,
-    Joel David and Johnstone, Thomas A. *Strongly uplifting cardinals
-    and the boldface resurrection axioms.* , 2014.
-    <a href="http://arxiv.org/abs/1403.2788" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BHamkinsJohnstone:BoldfaceResurrectionAxioms,%20%20AUTHOR%20=%20%20%20%20%20%20%20%7BHamkins,%20Joel%20David%20and%20Johnstone,%20Thomas%20A.%7D,%3Cbr%3E%20%20TITLE%20=%20%20%20%20%20%20%20%20%7BStrongly%20uplifting%20cardinals%20and%20the%20boldface%20resurrection%20axioms%7D,%3Cbr%3E%20%20YEAR%20=%20%20%20%20%20%20%20%20%20%7B2014%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1403.2788%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span
-    id="bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible">Bagaria,
-    Joan and Hamkins, Joel David and Tsaprounis, Konstantinos and Usuba,
-    Toshimichi. *Superstrong and other large cardinals are never Laver
-    indestructible.* Archive for Mathematical Logic
-    55(1-2):19--35, 2013.
-    <a href="http://jdh.hamkins.org/superstrong-never-indestructible/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075041/http://arxiv.org/abs/1307.3486" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005075041/http://dx.doi.org/10.1007/s00153-015-0458-3" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible,%20%20author%20=%20%20%20%20%20%20%20%7BBagaria,%20Joan%20and%20Hamkins,%20Joel%20David%20and%20Tsaprounis,%20Konstantinos%20and%20Usuba,%20Toshimichi%7D,%3Cbr%3E%20%20title%20=%20%20%20%20%20%20%20%20%7BSuperstrong%20and%20other%20large%20cardinals%20are%20never%20Laver%20indestructible%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1307.3486%7D,%3Cbr%3E%20%20year%20=%20%20%20%20%20%20%20%20%20%7B2013%7D,%3Cbr%3E%20%20journal%20=%20%20%20%20%20%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20volume%20=%20%20%20%20%20%20%20%7B55%7D,%3Cbr%3E%20%20number%20=%20%20%20%20%20%20%20%7B1-2%7D,%3Cbr%3E%20%20pages%20=%20%20%20%20%20%20%20%20%7B19--35%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttp://jdh.hamkins.org/superstrong-never-indestructible/%7D,%3Cbr%3E%20%20doi%20=%20%20%20%20%20%20%20%20%20%20%7B10.1007/s00153-015-0458-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

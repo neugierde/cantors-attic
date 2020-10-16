@@ -61,7 +61,7 @@ cardinals.
 
 Hyper-[huge](Huge "Huge")
 cardinals are extendible limits of extendible
-cardinals.\[[1](#bibkey_Usuba2018:ExtendibleCardinalsAndTheMantle)\]
+cardinals.{% cite Usuba2019 %}
 
 ### Supercompactness
 
@@ -99,7 +99,7 @@ $\\mathcal{L}\_{\\kappa,\\kappa}$ has the $\\kappa$-compactness
 property. A cardinal $\\kappa$ is extendible iff the infinitary language
 $\\mathcal{L}\_{\\kappa,\\kappa}^n$ (the infinitary language but with
 $(n+1)$-th order logic) has the $\\kappa$-compactness property for every
-natural number $n$. \[[2](#bibkey_Kanamori2009:HigherInfinite)\]
+natural number $n$. {% cite Kanamori2009 %}
 
 Given a logic $\\mathcal{L}$, the minimum cardinal $\\kappa$ such that
 $\\mathcal{L}$ satisfies the $\\kappa$-compactness theorem is called the
@@ -113,7 +113,7 @@ least extendible cardinal.
 ### $C^{(n)}$-extendible cardinals
 
 (Information in this subsection from
-\[[3](#bibkey_Bagaria2012:CnCardinals)\] unless noted otherwise)
+{% cite Bagaria2012 %} unless noted otherwise)
 
 A cardinal $κ$ is called **$C^{(n)}$-extendible** if for all $λ &gt; κ$
 it is $λ$-$C^{(n)}$-extendible, i.e. if there is an ordinal $µ$ and an
@@ -131,7 +131,7 @@ Properties:
 
 -   The notions of $C^{(n)}$-extendible cardinals and
     $C^{(n)+}$-extendible cardinals are
-    equivalent.\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    equivalent.{% cite Gitman2018 %}
 -   Every extendible cardinal is $C^{(1)}$-extendible.
 -   If $κ$ is $C^{(n)}$-extendible, then $κ ∈ C^{(n+2)}$.
 -   For every $n ≥ 1$, if $κ$ is $C^{(n)}$-extendible and
@@ -180,7 +180,7 @@ A cardinal $\\kappa$ is $(\\Sigma\_n,\\eta)$-extendible, if there is a
 $\\Sigma\_n$-elementary embedding $j:V\_{\\kappa+\\eta}\\to V\_\\theta$
 with critical point $\\kappa$, for some ordinal $\\theta$. These
 cardinals were introduced by Bagaria, Hamkins, Tsaprounis and Usuba
-\[[5](#bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible)\].
+{% cite Bagaria2013 %}.
 
 ### $\\Sigma\_n$-extendible cardinals
 
@@ -215,12 +215,12 @@ extendible, (almost)
 [huge](Huge "Huge") or
 <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
 cardinals also
-cannot.\[[5](#bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible)\]
+cannot.{% cite Bagaria2013 %}
 
 ### $A$-extendible cardinals
 
 (this subsection from
-\[[6](#bibkey_Hamkins2016:TheVopenkaPrincipleIs)\])
+{% cite Hamkins2016 %})
 
 Definitions:
 
@@ -235,7 +235,7 @@ Definitions:
 -   A cardinal $κ$ is **$(Σ\_n)$-extendible**, iff it is $A$-extendible,
     where $A$ is the $Σ\_n$-truth predicate. (This is a different notion
     than $\\Sigma\_n$-extendible
-    cardinals.)\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    cardinals.){% cite Gitman2018 %}
 
 Results:
 
@@ -257,7 +257,7 @@ Definitions:
     $\\mathrm{crit(j)} = κ$ and $j(κ) &gt; α$.
     -   **$C^{(n)}$-virtually extendible** cardinals require
         additionally that $j(κ)$ has property $C^{(n)}$ (i.e.
-        $\\Sigma\_n$-<a href="Correct" class="mw-redirect" title="Correct">correctness</a>).\[[7](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+        $\\Sigma\_n$-<a href="Correct" class="mw-redirect" title="Correct">correctness</a>).{% cite Gitmana %}
 -   A cardinal $κ$ is **(weakly) virtually $A$-extendible**, for a class
     $A$, iff for every ordinal $λ &gt; κ$ there is an ordinal $θ$ such
     that in a set-forcing extension, there is an elementary embedding
@@ -266,7 +266,7 @@ Definitions:
     with critical point $κ$.
     -   For **(strongly) virtually $A$-extendible** $κ$, we require
         additionally $λ &lt;
-        j(κ)$.\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+        j(κ)$.{% cite Gitman2018 %}
 -   A cardinal $κ$ is
     **$n$-[remarkable](Remarkable "Remarkable")**,
     for $n &gt; 0$, iff for every $η &gt; κ$ in
@@ -276,31 +276,31 @@ Definitions:
     $j(\\mathrm{crit}(j)) = κ$.
     -   A cardinal is **completely remarkable** iff it is $n$-remarkable
         for all $n &gt;
-        0$.\[[8](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+        0$.{% cite Bagaria2017a %}
 -   A cardinal κ is weakly or strongly virtually $(Σ\_n)$-extendible,
     iff it is respectively weakly or strongly virtually $A$-extendible,
     where $A$ is the $Σ\_n$-truth
-    predicate.\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    predicate.{% cite Gitman2018 %}
 
 Equivalence and hierarchy:
 
 -   $1$-remarkability is equivalent to remarkability. A cardinal is
     virtually $C^{(n)}$-extendible iff it is $n + 1$-remarkable
     (virtually extendible cardinals are virtually
-    $C^{(1)}$-extendible).\[[8](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+    $C^{(1)}$-extendible).{% cite Bagaria2017a %}
 -   Weakly and strongly $A$-extendible cardinal are non-equivalent,
     although in the non-virtual context, the weak and strong forms of
     $A$-extendibility
-    coincide.\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    coincide.{% cite Gitman2018 %}
 -   It is relatively consistent with GBC that every class $A$ admits a
     (weakly) virtually $A$-extendible cardinal (and so the generic
     Vopěnka principle holds), but no class $A$ admits a (strongly)
     virtually $A$-extendible
-    cardinal.\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    cardinal.{% cite Gitman2018 %}
 -   Every $n$-remarkable cardinal is in
-    $C^{(n+1)}$.\[[8](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+    $C^{(n+1)}$.{% cite Bagaria2017a %}
 -   Every $n+1$-remarkable cardinal is a limit of $n$-remarkable
-    cardinals.\[[8](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+    cardinals.{% cite Bagaria2017a %}
 
 Upper limits for strength:
 
@@ -308,24 +308,23 @@ Upper limits for strength:
     <a href="Shelah" class="mw-redirect" title="Shelah">virtually Shelah for supercompactness</a>
     or 2-iterable, then $V\_κ$ is a model of proper class many virtually
     $C^{(n)}$-extendible cardinals for every $n &lt;
-    ω$.\[[7](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+    ω$.{% cite Gitmana %}
 -   If $κ$ is [virtually
     huge\*](Huge "Huge"),
     then $V\_κ$ is a model of proper class many virtually extendible
-    cardinals.\[[7](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+    cardinals.{% cite Gitmana %}
 -   Completely remarkable cardinals can exist in
-    $L$.\[[8](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+    $L$.{% cite Bagaria2017a %}
 -   For a
     $2$-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
     cardinal $κ$, $V\_κ$ is a model of proper class many completely
     remarkable
-    cardinals.\[[8](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+    cardinals.{% cite Bagaria2017a %}
 -   If $0^\\\#$ exists, then every
     <a href="Silver_indiscernible" class="mw-redirect" title="Silver indiscernible">Silver indiscernible</a>
     is in $L$ completely remarkable and virtually $A$-extendible for
     every definable class
-    $A$.\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo),
-    [8](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\]
+    $A$. {% cite Gitman2018 Bagaria2017a %} 
 
 Lower limit for strength:
 
@@ -334,11 +333,11 @@ Lower limit for strength:
     limits of remarkable cardinals and
     1-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
     limits of 1-iterable
-    cardinals.\[[7](#bibkey_GitmanSchindler:VirtualLargeCardinals)\]
+    cardinals.{% cite Gitmana %}
 
 In relation to
 <a href="Generic_Vop%C4%9Bnka%27s_Principle" class="mw-redirect" title="Generic Vopěnka&#39;s Principle">Generic Vopěnka's Principle</a>:(from
-\[[8](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\] unless
+{% cite Bagaria2017a %} unless
 noted otherwise)
 
 -   The following are equiconsistent
@@ -356,15 +355,15 @@ noted otherwise)
     $n$-remarkable cardinals.
 -   If there is a proper class of $n$-remarkable cardinals, then
     $gVP(Σ\_{n+1})$
-    holds.\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    holds.{% cite Gitman2018 %}
 -   If $gVP(Σ\_{n+1})$ holds, then either there is a proper class of
     $n$-remarkable cardinals or there is a proper class of
     <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
-    cardinals.\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    cardinals.{% cite Gitman2018 %}
 -   The generic Vopěnka scheme is equivalent over ZFC to the scheme
     asserting of every definable class $A$ that there is a proper class
     of weakly virtually $A$-extendible
-    cardinals.\[[4](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+    cardinals.{% cite Gitman2018 %}
 -   Open problems: Must there be an $n$-remarkable cardinal
     -   if $gVP(κ, \\mathbf{Σ\_{n+1}})$ holds for some $κ$.
     -   if $gVP(Π\_n)$ holds.
@@ -376,54 +375,8 @@ noted otherwise)
 If $κ$ is extendible then the
 $κ$-<a href="Mantle" class="mw-redirect" title="Mantle">mantle</a>
 of $V$ is its smallest ground (so of course the mantle is a ground of
-V).\[[1](#bibkey_Usuba2018:ExtendibleCardinalsAndTheMantle)\]
+V).{% cite Usuba2019 %}
 
   
 
         This article is a stub. Please help us to improve Cantor's Attic by adding information.
-
-## References
-
-1.  <span id="bibkey_Usuba2018:ExtendibleCardinalsAndTheMantle">Usuba,
-    Toshimichi. *Extendible cardinals and the mantle.* Archive for
-    Mathematical Logic 58(1-2):71-75, 2019.
-    <a href="http://arxiv.org/abs/1803.03944" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005045824/http://dx.doi.org/10.1007/s00153-018-0625-4" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BUsuba2018:ExtendibleCardinalsAndTheMantle,%20%20%20%20author%20=%20%7BUsuba,%20Toshimichi%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BExtendible%20cardinals%20and%20the%20mantle%7D,%3Cbr%3E%20%20%20%20year%20=%20%7B2019%7D,%3Cbr%3E%20%20%20%20eprint%20=%20%7B1803.03944%7D,%3Cbr%3E%20%20%20%20doi%20=%20%7B10.1007/s00153-018-0625-4%7D,%3Cbr%3E%20%20%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20volume%20=%20%7B58%7D,%3Cbr%3E%20%20%20%20number%20=%20%7B1-2%7D,%3Cbr%3E%20%20%20%20pages%20=%20%7B71-75%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Bagaria2012:CnCardinals">Bagaria, Joan.
-    *$C^{(n)}$-cardinals.* Archive for Mathematical Logic
-    51(3--4):213--240, 2012.
-    <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005045824/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span
-    id="bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo">Gitman,
-    Victoria and Hamkins, Joel David. *A model of the generic Vopěnka
-    principle in which the ordinals are not Mahlo.* , 2018.
-    <a href="http://arxiv.org/abs/1706.00843v2" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BGitmanHamkins2018:GenericVopenkaPrincipleNotMahlo,%20%20%20%20AUTHOR%20=%20%7BGitman,%20Victoria%20and%20Hamkins,%20Joel%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BA%20model%20of%20the%20generic%20Vopěnka%20principle%20in%20which%20the%20ordinals%20are%20not%20Mahlo%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1706.00843v2%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span
-    id="bibkey_BagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible">Bagaria,
-    Joan and Hamkins, Joel David and Tsaprounis, Konstantinos and Usuba,
-    Toshimichi. *Superstrong and other large cardinals are never Laver
-    indestructible.* Archive for Mathematical Logic
-    55(1-2):19--35, 2013.
-    <a href="http://jdh.hamkins.org/superstrong-never-indestructible/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005045824/http://arxiv.org/abs/1307.3486" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005045824/http://dx.doi.org/10.1007/s00153-015-0458-3" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagariaHamkinsTsaprounisUsuba:SuperstrongAndOtherLargeCardinalsAreNeverLaverIndestructible,%20%20author%20=%20%20%20%20%20%20%20%7BBagaria,%20Joan%20and%20Hamkins,%20Joel%20David%20and%20Tsaprounis,%20Konstantinos%20and%20Usuba,%20Toshimichi%7D,%3Cbr%3E%20%20title%20=%20%20%20%20%20%20%20%20%7BSuperstrong%20and%20other%20large%20cardinals%20are%20never%20Laver%20indestructible%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1307.3486%7D,%3Cbr%3E%20%20year%20=%20%20%20%20%20%20%20%20%20%7B2013%7D,%3Cbr%3E%20%20journal%20=%20%20%20%20%20%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20volume%20=%20%20%20%20%20%20%20%7B55%7D,%3Cbr%3E%20%20number%20=%20%20%20%20%20%20%20%7B1-2%7D,%3Cbr%3E%20%20pages%20=%20%20%20%20%20%20%20%20%7B19--35%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttp://jdh.hamkins.org/superstrong-never-indestructible/%7D,%3Cbr%3E%20%20doi%20=%20%20%20%20%20%20%20%20%20%20%7B10.1007/s00153-015-0458-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-6.  <span id="bibkey_Hamkins2016:TheVopenkaPrincipleIs">Hamkins, Joel
-    David. *The Vopěnka principle is inequivalent to but conservative
-    over the Vopěnka scheme.* , 2016.
-    <a href="http://jdh.hamkins.org/vopenka-principle-vopenka-scheme/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005045824/http://arxiv.org/abs/1606.03778" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BHamkins2016:TheVopenkaPrincipleIs,%20%20%20author%20=%20%7BHamkins,%20Joel%20David%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BThe%20Vopěnka%20principle%20is%20inequivalent%20to%20but%20conservative%20over%20the%20Vopěnka%20scheme%7D,%3Cbr%3E%20%20%20%20%20year%20=%20%7B2016%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttp://jdh.hamkins.org/vopenka-principle-vopenka-scheme/%7D%20%20%20eprint%20=%20%7B1606.03778%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-7.  <span id="bibkey_GitmanSchindler:VirtualLargeCardinals">Gitman,
-    Victoria and Shindler, Ralf. *Virtual large cardinals.*
-    <a href="https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BGitmanSchindler:VirtualLargeCardinals,AUTHOR=%20%7BGitman,%20Victoria%20and%20Shindler,%20Ralf%7D,%3Cbr%3ETITLE=%20%7BVirtual%20large%20cardinals%7D,%3Cbr%3EURL=%20%7Bhttps://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-8.  <span
-    id="bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple">Bagaria,
-    Joan and Gitman, Victoria and Schindler, Ralf. *Generic {V}opěnka's
-    {P}rinciple, remarkable cardinals, and the weak {P}roper {F}orcing
-    {A}xiom.* Arch Math Logic 56(1-2):1--20, 2017.
-    <a href="https://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005045824/http://dx.doi.org/10.1007/s00153-016-0511-x" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191005045824/http://www.ams.org/mathscinet-getitem?mr=3598793" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BBagariaGitmanSchindler2017:VopenkaPrinciple,%20AUTHOR%20=%20%7BBagaria,%20Joan%20and%20Gitman,%20Victoria%20and%20Schindler,%20Ralf%7D,%3Cbr%3E%20TITLE%20=%20%7BGeneric%20%7BV%7Dopěnka\&#39;s%20%7BP%7Drinciple,%20remarkable%20cardinals,%20and%20the%20weak%20%7BP%7Droper%20%7BF%7Dorcing%20%7BA%7Dxiom%7D,%3Cbr%3E%20JOURNAL%20=%20%7BArch.%20Math.%20Logic%7D,%3Cbr%3E%20FJOURNAL%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20VOLUME%20=%20%7B56%7D,%3Cbr%3E%20YEAR%20=%20%7B2017%7D,%3Cbr%3E%20NUMBER%20=%20%7B1-2%7D,%3Cbr%3E%20PAGES%20=%20%7B1--20%7D,%3Cbr%3E%20ISSN%20=%20%7B0933-5846%7D,%3Cbr%3E%20MRCLASS%20=%20%7B03E35%20(03E55%2003E57)%7D,%3Cbr%3E%20MRNUMBER%20=%20%7B3598793%7D,%3Cbr%3E%20DOI%20=%20%7B10.1007/s00153-016-0511-x%7D,%3Cbr%3E%20URL%20=%20%7Bhttps://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

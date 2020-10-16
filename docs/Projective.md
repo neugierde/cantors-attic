@@ -20,9 +20,9 @@ This article covers:
     $\\text{AD}^+$
 
 *Most results in this article can be found in
-\[[1](#bibkey_Jech2003:SetTheory)\] and
-\[[2](#bibkey_Kanamori2009:HigherInfinite)\], or
-\[[3](#bibkey_Woodin2010:SEM1)\] unless indicated otherwise.*
+{% cite Jech2003 %} and
+{% cite Kanamori2009 %}, or
+{% cite Woodin2010 %} unless indicated otherwise.*
 
 
 ## Projective sets
@@ -392,7 +392,7 @@ $\\delta$ is a Woodin cardinal in some inner model of $\\text{ZFC}$
 containing $x$, and that $\\mathbf{\\Delta}^1\_2$-determinacy is
 equivalent to "for every $x\\in\\mathbb{R}$, there is an inner model M
 such that $x\\in M$ and $M\\models\\text{ZFC}+$"there is a Woodin
-cardinal". \[[4](#bibkey_KoellnerWoodin2010:LCFD)\]
+cardinal". {% cite Koellner2010 %}
 
 $\\text{ZFC}$ + (lightface) $\\Delta^1\_2$-determinacy implies that
 there many $x$ such that $\\text{HOD}^{L\[x\]}$ is a model of
@@ -416,7 +416,7 @@ below it such that the GCH holds is both
 and costationary, then again the axiom of projective determinacy holds.
 It is not known whether these two results extends to
 $L(\\mathbb{R})$-determinacy.
-\[[5](#bibkey_Larson2010:HistoryDeterminacy)\]
+{% cite Larson2013 %}
 
 Foreman, Magidor and Schindler showed that if there exists infinitely
 many cardinals $\\delta$ above the continuum such that both $\\delta$
@@ -426,7 +426,7 @@ then the axiom of projective determinacy holds. This hypothesis was
 shown to be consistent relative to the existence of infinitely many
 [supercompact](Supercompact "Supercompact")
 cardinals by James Cummings and Foreman.
-\[[5](#bibkey_Larson2010:HistoryDeterminacy)\]
+{% cite Larson2013 %}
 
 ## Other regularity properties
 
@@ -681,30 +681,3 @@ $V\_{\\delta+2}$ is countable in $V\[G\_0\]$, then:
 -   There is a nontrivial elementary embedding $j :
     (L(\\Gamma^\\infty,\\mathbb{R}))^{V\[G\_0\]} \\to
     (L(\\Gamma^\\infty,\\mathbb{R}))^{V\[G\_0\]\[G\_1\]}$.
-
-## References
-
-1.  <span id="bibkey_Jech2003:SetTheory">Jech, Thomas J. ***Set
-    Theory.*** Third, Springer-Verlag, Berlin, 2003. (The third
-    millennium edition, revised and expanded)
-    <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Woodin2010:SEM1">Woodin, W Hugh. *Suitable extender
-    models I.* Journal of Mathematical Logic 10(01n02):101-339, 2010.
-    <a href="http://www.worldscientific.com/doi/pdf/10.1142/S021906131000095X" class="extiw">www</a>   <a href="http://web.archive.org/web/20191028003647/http://dx.doi.org/10.1142/S021906131000095X" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7Bdoi:10.1142/S021906131000095X,author%20=%20%7BWoodin,%20W.%20Hugh%7D,%3Cbr%3Etitle%20=%20%7BSuitable%20extender%20models%20I%7D,%3Cbr%3Ejournal%20=%20%7BJournal%20of%20Mathematical%20Logic%7D,%3Cbr%3Evolume%20=%20%7B10%7D,%3Cbr%3Enumber%20=%20%7B01n02%7D,%3Cbr%3Epages%20=%20%7B101-339%7D,%3Cbr%3Eyear%20=%20%7B2010%7D,%3Cbr%3Edoi%20=%20%7B10.1142/S021906131000095X%7D,%3Cbr%3EURL%20=%20%7Bhttp://www.worldscientific.com/doi/pdf/10.1142/S021906131000095X%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_KoellnerWoodin2010:LCFD">Koellner, Peter and
-    Woodin, W Hugh. *Chapter 23: Large cardinals from Determinacy.*
-    Handbook of Set Theory , 2010.
-    <a href="http://logic.harvard.edu/koellner/LCFD.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKoellnerWoodin2010:LCFD,%20%20%20author%20=%20%7BKoellner,%20Peter%20and%20Woodin,%20W.%20Hugh%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BChapter%2023:%20Large%20cardinals%20from%20Determinacy%7D,%3Cbr%3E%20%20journal%20=%20%7BHandbook%20of%20Set%20Theory%7D,%3Cbr%3E%20%20%20editor%20=%20%7BForeman,%20Mathew;%20Kanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20year%20=%20%7B2010%7D,%3Cbr%3Epublisher%20=%20%7BSpringer%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttp://logic.harvard.edu/koellner/LCFD.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-5.  <span id="bibkey_Larson2010:HistoryDeterminacy">Larson, Paul B. *A
-    brief history of determinacy.* , 2013.
-    <a href="http://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7B%7BLarson2010:HistoryDeterminacy,%20%20%20%20AUTHOR%20=%20%7BLarson,%20Paul%20B.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BA%20brief%20history%20of%20determinacy%7D,%3Cbr%3E%20%20%20%20YEAR%20=%20%7B2013%7D,%3Cbr%3E%20%20%20%20URL%20=%20%7Bhttp://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

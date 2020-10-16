@@ -6,7 +6,7 @@ permalink: Strong
 Strong cardinals were created as a weakening of
 [supercompact](Supercompact "Supercompact")
 cardinals introduced by Dodd and Jensen in 1982
-\[[1](#bibkey_Jech2003:SetTheory)\]. They are defined as a strengthening
+{% cite Jech2003 %}. They are defined as a strengthening
 of
 [measurability](Measurable "Measurable"),
 being that they are critical points of [elementary
@@ -49,7 +49,7 @@ $(\\kappa,\\beth\_\\lambda^+)$-extender $E$ such that, letting the
 [ultrapower](Ultrapower "Ultrapower")
 of $V$ by $E$ be called $Ult\_E$ and the canonical ultrapower embedding
 from $V$ to $Ult\_E$ be called $j$, $X\\in Ult\_E$ and
-$\\lambda&lt;j(\\kappa)$. \[[1](#bibkey_Jech2003:SetTheory)\]
+$\\lambda&lt;j(\\kappa)$. {% cite Jech2003 %}
 
 Once again, a more intuitive way to think about strongness is that there
 are many $(\\kappa,\\lambda)$-extenders $E$.
@@ -91,7 +91,7 @@ Here is a list of facts about these cardinals:
     $\\mathcal{P}(\\kappa)\\subset M$ for any $j:V\\to M$ with critical
     point $\\kappa$.
 -   If there is an $x$-hypermeasurable cardinal, then $V\\neq L\[x\]$.
-    \[[1](#bibkey_Jech2003:SetTheory)\]
+    {% cite Jech2003 %}
 -   Every
     [supercompact](Supercompact "Supercompact")
     cardinal $\\kappa$ is strong and has $\\kappa$ strong cardinals
@@ -100,15 +100,15 @@ Here is a list of facts about these cardinals:
 -   The [Mitchell
     rank](Mitchell_rank "Mitchell rank")
     of any strong cardinal $o(\\kappa)=(2^\\kappa)^+$.
-    \[[1](#bibkey_Jech2003:SetTheory)\]
+    {% cite Jech2003 %}
 -   Any strong cardinal is
     [$\\Sigma\_2$-reflecting](Reflecting "Reflecting").
-    \[[1](#bibkey_Jech2003:SetTheory)\]
+    {% cite Jech2003 %}
 -   Every strong cardinal is [strongly
     unfoldable](Unfoldable "Unfoldable")
     and thus [totally
     indescribable](Indescribable "Indescribable").
-    \[[2](#bibkey_Gitman2011:RamseyLikeCardinals)\] Therefore, each of
+    {% cite Gitman2011 %} Therefore, each of
     the following is never strong:
     -   The least
         [measurable](Measurable "Measurable")
@@ -149,13 +149,13 @@ Here is a list of facts about these cardinals:
     iff for every $λ &gt; κ$, $κ$ is $λ$-$C^{(n)}$-strong, that is,
     there exists an elementary embedding $j : V → M$ for transitive $M$,
     with $crit(j) = κ$, $j(κ) &gt; λ$, $V\_λ ⊆ M$ and $j(κ) ∈ C^{(n)}$.
-    -   Equivalently (see \[[3](#bibkey_Kanamori2009:HigherInfinite)\]
+    -   Equivalently (see {% cite Kanamori2009 %}
         26.7), κ is $λ$-$C^{(n)}$-strong iff there exists a $(κ,
         β)$-extender $E$, for some $β &gt; \|V\_λ\|$, with $V\_λ ⊆ M\_E$
         and $λ &lt; j\_E(κ) ∈ C^{(n)}$.
     -   Every $λ$-strong cardinal is $λ$-$C^{(n)}$-strong for all $n$.
         Hence, every strong cardinal is $C^{(n)}$-strong for all
-        $n$.\[[4](#bibkey_Bagaria2012:CnCardinals)\]
+        $n$.{% cite Bagaria2012 %}
 
 ## Core Model up to Strongness
 
@@ -164,7 +164,7 @@ model](Core_model "Core model")
 based on sequences of
 <a href="index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extenders</a>
 of strong cardinals. They constructed a sequence of extenders
-$\\mathcal{E}$ such that: \[[1](#bibkey_Jech2003:SetTheory)\]
+$\\mathcal{E}$ such that: {% cite Jech2003 %}
 
 -   <a href="L" class="mw-redirect" title="L">$L[\mathcal{E}]$</a>
     is an inner model of
@@ -189,30 +189,5 @@ Dodd and Jensen also constructed a "sharp" defined analogously to
 but instead of using $L$ one uses $L\[\\mathcal{E}\]$. They then showed
 that there is a nontrivial elementary embedding
 $j:L\[\\mathcal{E}\]\\rightarrow L\[\\mathcal{E}\]$ iff such a real
-exists. \[[1](#bibkey_Jech2003:SetTheory)\] This real is commonly
+exists. {% cite Jech2003 %} This real is commonly
 referred to as *the sharp for a strong cardinal*.
-
-## References
-
-1.  <span id="bibkey_Jech2003:SetTheory">Jech, Thomas J. ***Set
-    Theory.*** Third, Springer-Verlag, Berlin, 2003. (The third
-    millennium edition, revised and expanded)
-    <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Gitman2011:RamseyLikeCardinals">Gitman, Victoria.
-    *Ramsey-like cardinals.* The Journal of Symbolic Logic
-    76(2):519-540, 2011.
-    <a href="http://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinals.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005051156/http://arxiv.org/abs/0801.4723" class="extiw">arχiv</a>   <a href="http://web.archive.org/web/20191005051156/http://www.ams.org/mathscinet-getitem?mr=2830415" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%20%7BGitman2011:RamseyLikeCardinals,AUTHOR%20=%20%7BGitman,%20Victoria%7D,%3Cbr%3ETITLE%20=%20%7BRamsey-like%20cardinals%7D,%3Cbr%3EJOURNAL%20=%20%7BThe%20Journal%20of%20Symbolic%20Logic%7D,%3Cbr%3EVOLUME%20=%20%7B76%7D,%3Cbr%3EYEAR%20=%20%7B2011%7D,%3Cbr%3ENUMBER%20=%20%7B2%7D,%3Cbr%3EPAGES%20=%20%7B519-540%7D,%3Cbr%3EMRNUMBER%20=%20%7B2830415%7D,%3Cbr%3EEPRINT=%7B0801.4723%7D,%3Cbr%3EURL=%7Bhttp://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinals.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_Bagaria2012:CnCardinals">Bagaria, Joan.
-    *$C^{(n)}$-cardinals.* Archive for Mathematical Logic
-    51(3--4):213--240, 2012.
-    <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005051156/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

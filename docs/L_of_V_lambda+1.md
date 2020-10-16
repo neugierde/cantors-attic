@@ -31,11 +31,11 @@ hypothesis, it is now known to be obsolete for this purpose (it is far
 stronger than necessary). Nevertheless, research on the axiom and its
 variants is still widely pursued and there are numerous intriguing open
 questions regarding the axiom and its variants, see
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\].
+{% cite Kanamori2009 %}.
 
 The axiom subsumes a hierarchy of the strongest large cardinals not
 known to be inconsistent with $\\text{ZFC}$ and so is seen as "straining
-the limits of consistency" \[[1](#bibkey_Kanamori2009:HigherInfinite)\].
+the limits of consistency" {% cite Kanamori2009 %}.
 An immediate observation due to the [Kunen
 inconsistency](Kunen_inconsistency "Kunen inconsistency")
 is that, under the $\\text{I0}$ axiom, $L(V\_{\\lambda+1})$ *cannot*
@@ -79,12 +79,12 @@ $$L\_{\\alpha\_n}(V\_{\\lambda+1}, \\in, \\alpha\_0, \\alpha\_1, \\dots,
 The axiom $I0$ was originally formulated by Woodin to establish the
 consistency of the Axiom of Determinancy. What Woodin established was
 that $AD^{L(\\mathbb R)}$ follows from the existence of an $I0$ cardinal
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\]. It is now known that this
+{% cite Kanamori2009 %}. It is now known that this
 is a massive overkill; namely, $AD$, $AD^{L(\\mathbb R)}$, and
 infinitely many Woodin cardinals are equiconsistent, and furthermore,
 $AD^{L(\\mathbb R)}$ follows from infinitely many Woodin cardinals with
 a measurable above them all
-\[[1](#bibkey_Kanamori2009:HigherInfinite)\]. This seems like it should
+{% cite Kanamori2009 %}. This seems like it should
 be the end of it; $I0$ was simply an axiom to strong for the purpose for
 which it was created. But there are deeper connections between
 $AD^{L(\\mathbb R)}$ and $I0$.
@@ -96,7 +96,7 @@ is measurable in $L(\\mathbb R)$. Similarly, if $X\\subseteq
 V\_{\\lambda+1}$ and there is some $j: L(X,V\_{\\lambda+1})\\prec
 L(X,V\_{\\lambda+1})$, then $\\lambda^+$ is measurable. The connections
 between $I0$ and determinancy are still not fully
-understand.\[[2](#bibkey_Dimonte2017:I0AndRankIntoRankAxioms)\]
+understand.{% cite Dimonte2017 %}
 
 \[WIP\]
 
@@ -107,29 +107,9 @@ embedding $j : L(X, V\_{λ+1}) ≺ L(X, V\_{λ+1})$ with $\\mathrm{crit}(j)
 &lt; λ$. In particular, “$(V\_{λ+1})^{(n+1)♯}$ is Icarus” strongly
 implies “$(V\_{λ+1})^{n♯}$ is Icarus”, but above the first $ω$ sharps it
 becomes more
-difficult.\[[2](#bibkey_Dimonte2017:I0AndRankIntoRankAxioms),
-[3](#bibkey_Woodin2011:SEM2)\]
+difficult. {% cite Dimonte2017  Woodin2011 %}
 
 *to complete*
-
-## References
-
-1.  <span id="bibkey_Kanamori2009:HigherInfinite">Kanamori, Akihiro.
-    ***The higher infinite.*** Second, Springer-Verlag, Berlin, 2009.
-    (Large cardinals in set theory from their beginnings, Paperback
-    reprint of the 2003 edition)
-    <a href="https://link.springer.com/book/10.1007%2F978-3-540-88867-3" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BKanamori2009:HigherInfinite,%20%20%20%20AUTHOR%20=%20%7BKanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BThe%20higher%20infinite%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20EDITION%20=%20%7BSecond%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BLarge%20cardinals%20in%20set%20theory%20from%20their%20beginnings,%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paperback%20reprint%20of%20the%202003%20edition%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7Bxxii+536%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://link.springer.com/book/10.1007%2F978-3-540-88867-3%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Dimonte2017:I0AndRankIntoRankAxioms">Dimonte,
-    Vincenzo. *I0 and rank-into-rank axioms.* , 2017.
-    <a href="http://arxiv.org/abs/1707.02613" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%20%7BDimonte2017:I0AndRankIntoRankAxioms,%20%20%20%20AUTHOR%20=%20%7BDimonte,%20Vincenzo%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BI0%20and%20rank-into-rank%20axioms%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2017%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1707.02613%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_Woodin2011:SEM2">Woodin, W Hugh. *Suitable extender
-    models II: beyond $\\omega$-huge.* Journal of Mathematical Logic
-    11(02):115-436, 2011.
-    <a href="http://www.worldscientific.com/doi/pdf/10.1142/S021906131100102X" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075319/http://dx.doi.org/10.1142/S021906131100102X" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7Bdoi:10.1142/S021906131100102X,author%20=%20%7BWoodin,%20W.%20Hugh%7D,%3Cbr%3Etitle%20=%20%7BSuitable%20extender%20models%20II:%20beyond%20$\omega$-huge%7D,%3Cbr%3Ejournal%20=%20%7BJournal%20of%20Mathematical%20Logic%7D,%3Cbr%3Evolume%20=%20%7B11%7D,%3Cbr%3Enumber%20=%20%7B02%7D,%3Cbr%3Epages%20=%20%7B115-436%7D,%3Cbr%3Eyear%20=%20%7B2011%7D,%3Cbr%3Edoi%20=%20%7B10.1142/S021906131100102X%7D,%3Cbr%3EURL%20=%20%7Bhttp://www.worldscientific.com/doi/pdf/10.1142/S021906131100102X%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
   
 
         This article is a stub. Please help us to improve Cantor's Attic by adding information.

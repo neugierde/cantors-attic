@@ -79,7 +79,7 @@ Similar hierarchy exists for
 [inaccessible](Inaccessible "Inaccessible")
 cardinals below Mahlo. All such properties can be killed softly by
 forcing to make them any weaker properties from this
-family.\[[1](#bibkey_Carmody2015:ForceToChangeLargeCardinalStrength)\]
+family.{% cite Carmody2015 %}
 
 ## $\\Sigma\_n$-Mahlo etc.
 
@@ -93,7 +93,7 @@ Every $Π\_1$-Mahlo cardinal is an inaccessible limit of inaccessible
 cardinals. For Mahlo $κ$, the set of $Σ\_ω$-Mahlo cardinals is
 stationary on $κ$.
 
-In \[[2](#bibkey_Bosch2006:SmallDefinablyLargeCardinals)\] it is shown
+In {% cite Bosch2006 %} it is shown
 that every $Σ\_ω$-[weakly
 compact](Weakly_compact "Weakly compact")
 cardinal is $Σ\_ω$-Mahlo and the set of $Σ\_ω$-Mahlo cardinals below a
@@ -109,28 +109,4 @@ $\\mathcal{A}(L(\\mathbb{R}), Σ\_ω , Γ ∩ absolutely−ccc)$ where $Γ$ is
 the class of projective posets.
 
 This section
-from\[[3](#bibkey_BagariaBosch2004:PFESolovay)\]\[[4](#bibkey_Bagaria2002:AxiomsOfGenericAbsoluteness)\]
-
-## References
-
-1.  <span
-    id="bibkey_Carmody2015:ForceToChangeLargeCardinalStrength">Carmody,
-    Erin Kathryn. *Force to change large cardinal strength.* , 2015.
-    <a href="https://academicworks.cuny.edu/gc_etds/879/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074931/http://arxiv.org/abs/1506.03432" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BCarmody2015:ForceToChangeLargeCardinalStrength,%20%20%20%20author%20=%20%7BCarmody,%20Erin%20Kathryn%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BForce%20to%20change%20large%20cardinal%20strength%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2015%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1506.03432%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttps://academicworks.cuny.edu/gc_etds/879/%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span id="bibkey_Bosch2006:SmallDefinablyLargeCardinals">Bosch,
-    Roger. *Small Definably-large Cardinals.* Set Theory Trends in
-    Mathematics pp. 55-82, 2006.
-    <a href="http://dx.doi.org/10.1007/3-7643-7692-9_3" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%20%7BBosch2006:SmallDefinablyLargeCardinals,%20%20%20%20AUTHOR%20=%20%7BBosch,%20Roger%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BSmall%20Definably-large%20Cardinals%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BSet%20Theory.%20Trends%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2006%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B55-82%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/3-7643-7692-9_3%7D,%3Cbr%3E%20%20%20%20%20%20ISBN%20=%20%7B978-3-7643-7692-5%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-3.  <span id="bibkey_BagariaBosch2004:PFESolovay">Bagaria, Joan and
-    Bosch, Roger. *Proper forcing extensions and Solovay models.*
-    Archive for Mathematical Logic , 2004.
-    <a href="https://www.academia.edu/2561570/Proper_forcing_extensions_and_Solovay_models" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074931/http://dx.doi.org/10.1007/s00153-003-0210-2" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%20%7BBagariaBosch2004:PFESolovay,%20%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%20and%20Bosch,%20Roger%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BProper%20forcing%20extensions%20and%20Solovay%20models%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2004%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-003-0210-2%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://www.academia.edu/2561570/Proper_forcing_extensions_and_Solovay_models%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-4.  <span id="bibkey_Bagaria2002:AxiomsOfGenericAbsoluteness">Bagaria,
-    Joan. *Axioms of generic absoluteness.* Logic Colloquium 2002
-    , 2006.
-    <a href="https://www.academia.edu/2561575/AXIOMS_OF_GENERIC_ABSOLUTENESS" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074931/http://dx.doi.org/10.1201/9781439865903" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%20%7BBagaria2002:AxiomsOfGenericAbsoluteness,%20%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BAxioms%20of%20generic%20absoluteness%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BLogic%20Colloquium%202002%7D,%3Cbr%3E%20BOOKTITLE%20=%20%7BLogic%20Colloquium%20\&#39;02:%20Lecture%20Notes%20in%20Logic%2027%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2006%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1201/9781439865903%7D,%3Cbr%3E%20%20%20%20%20%20ISBN%20=%20%7B9780429065262%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttps://www.academia.edu/2561575/AXIOMS_OF_GENERIC_ABSOLUTENESS%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-
+from{% cite Bagaria2004 Bagaria2006 %}

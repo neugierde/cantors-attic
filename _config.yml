@@ -11,3 +11,5 @@ optional_front_matter:
 defaults:
   - values:
       toc: true
+scholar:
+  # bibtex_filters: []

@@ -191,7 +191,7 @@ The following results can be used in theorems about
 cardinals and other virtual variants.
 
 (section from
-\[[1](#bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple)\] unless
+{% cite Bagaria2017 %} unless
 otherwise noted)
 
 The existence of an embedding of a countable model into another fixed
@@ -233,7 +233,7 @@ extension, then there is such an embedding $j^∗ : M → N$ in any forcing
 extension in which $M$ has been made countable. Moreover, one can
 arrange that $j^∗$ agrees with $j$ on any given finite set of values and
 that, if appropriate, $crit(j) =
-crit(j^\*)$.\[[2](#bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo)\]
+crit(j^\*)$.{% cite Gitman2018 %}
 
 ### In the language of game theory
 
@@ -264,22 +264,3 @@ of
 <a href="index.php?title=Generic_Vop%C4%9Bnka%E2%80%99s_Principle&amp;action=edit&amp;redlink=1" class="new" title="Generic Vopěnka’s Principle (page does not exist)">Generic Vopěnka’s Principle</a>
 is characterised by the existence of certain winning strategies in its
 associated class of closed games.
-
-## References
-
-1.  <span
-    id="bibkey_BagariaGitmanSchindler2017:VopenkaPrinciple">Bagaria,
-    Joan and Gitman, Victoria and Schindler, Ralf. *Generic {V}opěnka's
-    {P}rinciple, remarkable cardinals, and the weak {P}roper {F}orcing
-    {A}xiom.* Arch Math Logic 56(1-2):1--20, 2017.
-    <a href="https://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005044227/http://dx.doi.org/10.1007/s00153-016-0511-x" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191005044227/http://www.ams.org/mathscinet-getitem?mr=3598793" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BBagariaGitmanSchindler2017:VopenkaPrinciple,%20AUTHOR%20=%20%7BBagaria,%20Joan%20and%20Gitman,%20Victoria%20and%20Schindler,%20Ralf%7D,%3Cbr%3E%20TITLE%20=%20%7BGeneric%20%7BV%7Dopěnka\&#39;s%20%7BP%7Drinciple,%20remarkable%20cardinals,%20and%20the%20weak%20%7BP%7Droper%20%7BF%7Dorcing%20%7BA%7Dxiom%7D,%3Cbr%3E%20JOURNAL%20=%20%7BArch.%20Math.%20Logic%7D,%3Cbr%3E%20FJOURNAL%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20VOLUME%20=%20%7B56%7D,%3Cbr%3E%20YEAR%20=%20%7B2017%7D,%3Cbr%3E%20NUMBER%20=%20%7B1-2%7D,%3Cbr%3E%20PAGES%20=%20%7B1--20%7D,%3Cbr%3E%20ISSN%20=%20%7B0933-5846%7D,%3Cbr%3E%20MRCLASS%20=%20%7B03E35%20(03E55%2003E57)%7D,%3Cbr%3E%20MRNUMBER%20=%20%7B3598793%7D,%3Cbr%3E%20DOI%20=%20%7B10.1007/s00153-016-0511-x%7D,%3Cbr%3E%20URL%20=%20%7Bhttps://victoriagitman.github.io/publications/2016/02/10/generic-vopenkas-principle-remarkable-cardinals-and-the-weak-proper-forcing-axiom.html%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-2.  <span
-    id="bibkey_GitmanHamkins2018:GenericVopenkaPrincipleNotMahlo">Gitman,
-    Victoria and Hamkins, Joel David. *A model of the generic Vopěnka
-    principle in which the ordinals are not Mahlo.* , 2018.
-    <a href="http://arxiv.org/abs/1706.00843v2" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BGitmanHamkins2018:GenericVopenkaPrincipleNotMahlo,%20%20%20%20AUTHOR%20=%20%7BGitman,%20Victoria%20and%20Hamkins,%20Joel%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BA%20model%20of%20the%20generic%20Vopěnka%20principle%20in%20which%20the%20ordinals%20are%20not%20Mahlo%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2018%7D,%3Cbr%3E%20%20%20%20EPRINT%20=%20%7B1706.00843v2%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-
