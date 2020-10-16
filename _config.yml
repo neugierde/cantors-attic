@@ -5,16 +5,9 @@ plugins:
   - jekyll-default-layout
   - jekyll-optional-front-matter
   - jekyll-redirect-from
+  - jekyll/scholar
 optional_front_matter:
   remove_originals: true
 defaults:
   - values:
       toc: true
-      
-# defaults:
-#   - values:
-#       layout: "default"
-#   - scope:
-#       path: "assets/img"
-#     values:
-#       image: true
