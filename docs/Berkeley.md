@@ -13,10 +13,10 @@ permalink: Berkeley
 
 
 
-A cardinal $\\kappa$ is a **Berkeley** cardinal, if for any transitive
-set $M$ with $\\kappa\\in M$ and any ordinal $\\alpha\\lt\\kappa$ there
-is an elementary embedding $j:M\\prec M$ with $\\alpha&lt;\\text{crit
-}j&lt;\\kappa$. These cardinals are defined in the context of ZF set
+A cardinal $κ$ is a **Berkeley** cardinal, if for any transitive
+set $M$ with $κ\\in M$ and any ordinal $α\\ltκ$ there
+is an elementary embedding $j:M\\prec M$ with $α&lt;\\text{crit
+}j&lt;κ$. These cardinals are defined in the context of ZF set
 theory without the axiom of choice.
 
 The Berkeley cardinals were defined by W. Hugh Woodin in about 1992 at
@@ -27,52 +27,52 @@ axiom. Nevertheless, the existence of these cardinals remains unrefuted
 in ZF.
 
 If there is a Berkeley cardinal, then there is a forcing extension that
-forces that the least Berkeley cardinal has cofinality $\\omega$. It
+forces that the least Berkeley cardinal has cofinality $ω$. It
 seems that various strengthenings of the Berkeley property can be
-obtained by imposing conditions on the cofinality of $\\kappa$ (the
+obtained by imposing conditions on the cofinality of $κ$ (the
 larger cofinality, the stronger theory is believed to be, up to regular
-$\\kappa$). {% cite Bagaria2017 %}
+$κ$). {% cite Bagaria2017 %}
 
-A cardinal $\\kappa$ is called **proto-Berkeley** if for any transitive
-$M\\ni\\kappa$, there is some $j: M\\prec M$ with $\\text{crit
-}j\\lt\\kappa$. More generally, a cardinal is
-**$\\alpha$-proto-Berkeley** if and only if for any transitive set
-$M\\ni\\kappa$, there is some $j: M\\prec M$ with
-$\\alpha\\lt\\text{crit }j\\lt\\kappa$, so that if $\\delta\\ge\\kappa$,
-$\\delta$ is also $\\alpha$-proto-Berkeley. The least
-$\\alpha$-proto-Berkeley cardinal is called $\\delta\_\\alpha$.
+A cardinal $κ$ is called **proto-Berkeley** if for any transitive
+$M\\niκ$, there is some $j: M\\prec M$ with $\\text{crit
+}j\\ltκ$. More generally, a cardinal is
+**$α$-proto-Berkeley** if and only if for any transitive set
+$M\\niκ$, there is some $j: M\\prec M$ with
+$α\\lt\\text{crit }j\\ltκ$, so that if $\\delta\\geκ$,
+$\\delta$ is also $α$-proto-Berkeley. The least
+$α$-proto-Berkeley cardinal is called $\\delta\_α$.
 
-We call $\\kappa$ a **club Berkeley** cardinal if $\\kappa$ is regular
-and for all clubs $C\\subseteq\\kappa$ and all transitive sets $M$ with
-$\\kappa\\in M$ there is $j\\in \\mathcal{E}(M)$ with $\\mathrm{crit}(j)
+We call $κ$ a **club Berkeley** cardinal if $κ$ is regular
+and for all clubs $C\\subseteqκ$ and all transitive sets $M$ with
+$κ\\in M$ there is $j\\in \\mathcal{E}(M)$ with $\\mathrm{crit}(j)
 ∈ C$. {% cite Bagaria2017 %}
 
-We call $\\kappa$ a **limit club Berkeley** cardinal if it is a club
+We call $κ$ a **limit club Berkeley** cardinal if it is a club
 Berkeley cardinal and a limit of Berkeley
 cardinals. {% cite Bagaria2017 %}
 
 ## Relations
 
--   If $\\kappa$ is the least Berkeley cardinal, then there is
-    $\\gamma\\lt\\kappa$ such that $(V\_\\gamma ,
+-   If $κ$ is the least Berkeley cardinal, then there is
+    $\\gamma\\ltκ$ such that $(V\_\\gamma ,
     V\_{\\gamma+1})\\vDash\\mathrm{ZF}\_2 + \\text{“There is a Reinhardt
-    cardinal witnessed by $j$ and an $\\omega$-huge above
-    $\\kappa\_\\omega(j)”$}$. {% cite Bagaria2017 %}
--   For every $\\alpha$, $\\delta\_\\alpha$ is Berkeley. Therefore
-    $\\delta\_\\alpha$ is the least Berkeley cardinal above
-    $\\alpha$. {% cite Bagaria2017 %}
+    cardinal witnessed by $j$ and an $ω$-huge above
+    $κ\_ω(j)”$}$. {% cite Bagaria2017 %}
+-   For every $α$, $\\delta\_α$ is Berkeley. Therefore
+    $\\delta\_α$ is the least Berkeley cardinal above
+    $α$. {% cite Bagaria2017 %}
 -   In particular, the least proto-Berkeley cardinal $\\delta\_0$ is
     also the least Berkeley
     cardinal. {% cite Bagaria2017 %}
--   If $\\kappa$ is a limit of Berkeley cardinals, then $\\kappa$ is not
+-   If $κ$ is a limit of Berkeley cardinals, then $κ$ is not
     among the
-    $\\delta\_\\alpha$. {% cite Bagaria2017 %}
+    $\\delta\_α$. {% cite Bagaria2017 %}
 -   Each club Berkeley cardinal is totally
     Reinhardt. {% cite Bagaria2017 %}.
 -   The relation between Berkeley cardinals and club Berkeley cardinals
     is unknown. {% cite Bagaria2017 %}
--   If $\\kappa$ is a limit club Berkeley cardinal, then $(V\_\\kappa ,
-    V\_{\\kappa+1})\\vDash\\text{“There is a Berkeley cardinal that is
+-   If $κ$ is a limit club Berkeley cardinal, then $(V\_κ ,
+    V\_{κ+1})\\vDash\\text{“There is a Berkeley cardinal that is
     super
     Reinhardt”}$. {% cite Bagaria2017 %}
     Moreover, the class of such cardinals are stationary.
@@ -82,9 +82,9 @@ cardinals. {% cite Bagaria2017 %}
 If $\\delta$ is a singular Berkeley cardinal, $DC(cf(\\delta)^+)$, and
 $\\delta$ is a limit of cardinals themselves limits of extendible
 cardinals, then the structure of $L(V\_{\\delta+1})$ is similar to the
-structure of $L(V\_{\\lambda+1})$ under the assumption $\\lambda$ is
-$I0$; i.e. there is some $j: L(V\_{\\lambda+1})\\prec
-L(V\_{\\lambda+1})$. For example,
+structure of $L(V\_{λ+1})$ under the assumption $λ$ is
+$I0$; i.e. there is some $j: L(V\_{λ+1})\\prec
+L(V\_{λ+1})$. For example,
 $\\Theta=\\Theta\_{V\_{\\delta+1}}^{L(V\_{\\delta+1})}$, then $\\Theta$
 is a strong limit in $L(V\_{\\delta+1})$, $\\delta^+$ is regular and
 measurable in $L(V\_{\\delta+1})$, and $\\Theta$ is a limit of

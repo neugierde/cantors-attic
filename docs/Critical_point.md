@@ -26,7 +26,7 @@ classes containing ordinals.
 Given two transitive classes $\\mathcal{M}$ and $\\mathcal{N}$, and an
 elementary embedding $j:\\mathcal{M}\\rightarrow\\mathcal{N}$, the
 critical point of $j$ (often denoted $\\mathrm{cp}(j)$) is the smallest
-ordinal $\\alpha$ in $\\mathrm{M}$ such that $\\alpha\\neq j(\\alpha)$.
+ordinal $α$ in $\\mathrm{M}$ such that $α\\neq j(α)$.
 
 ## Use in Large Cardinal Axioms
 
@@ -51,7 +51,7 @@ following axioms mention critical points:
         super-n-huge](Huge "Huge")
     -   [n-huge](Huge "Huge")
     -   [super-n-huge](Huge "Huge")
-    -   [$\\omega$-huge](Huge "Huge")
+    -   [$ω$-huge](Huge "Huge")
 -   High jump cardinals:
     -   [almost
         high-jump](High-jump "High-jump")
@@ -60,9 +60,9 @@ following axioms mention critical points:
         high-jump](High-jump "High-jump")
     -   [high-jump with unbounded excess
         closure](High-jump "High-jump")
--   [$\\alpha$-extendible](Extendible "Extendible")
+-   [$α$-extendible](Extendible "Extendible")
 -   Compact cardinals:
-    -   [$\\lambda$-supercompact](Supercompact "Supercompact")
+    -   [$λ$-supercompact](Supercompact "Supercompact")
     -   [strongly
         compact](Strongly_compact "Strongly compact")
     -   [nearly

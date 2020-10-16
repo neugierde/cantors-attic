@@ -6,13 +6,13 @@ permalink: Huge
 **Huge** cardinals (and their variants) were introduced by Kenneth Kunen
 in 1972 as a very large cardinal axiom. Kenneth Kunen first used them to
 prove that the consistency of the existence of a huge cardinal implies
-the consistency of $\\text{ZFC}$+"there is a $\\omega\_2$-saturated
+the consistency of $\\text{ZFC}$+"there is a $ω\_2$-saturated
 $\\sigma$-[ideal](Filter "Filter")
-on $\\omega\_1$". It is now known that only a
+on $ω\_1$". It is now known that only a
 [Woodin](Woodin "Woodin")
 cardinal is needed for this result. However, the consistency of the
-existence of an $\\omega\_2$-complete $\\omega\_3$-saturated
-$\\sigma$-ideal on $\\omega\_2$, as far as the set theory world is
+existence of an $ω\_2$-complete $ω\_3$-saturated
+$\\sigma$-ideal on $ω\_2$, as far as the set theory world is
 concerned, still requires an almost huge cardinal.
 {% cite Kanamori2009 %}
 
@@ -47,65 +47,65 @@ $j:V\\rightarrow M$ be a nontrivial [elementary
 embedding](Elementary_embedding "Elementary embedding")
 of $V$ into a
 [transitive](Transitive "Transitive")
-class $M$ with critical point $\\kappa$. Then:
+class $M$ with critical point $κ$. Then:
 
--   $\\kappa$ is **almost n-huge with target $\\lambda$** iff
-    $\\lambda=j^n(\\kappa)$ and $M$ is closed under all of its sequences
-    of length less than $\\lambda$ (that is, $M^{&lt;\\lambda}\\subseteq
+-   $κ$ is **almost n-huge with target $λ$** iff
+    $λ=j^n(κ)$ and $M$ is closed under all of its sequences
+    of length less than $λ$ (that is, $M^{&lt;λ}\\subseteq
     M$).
--   $\\kappa$ is **n-huge with target $\\lambda$** iff
-    $\\lambda=j^n(\\kappa)$ and $M$ is closed under all of its sequences
-    of length $\\lambda$ ($M^\\lambda\\subseteq M$).
--   $\\kappa$ is **almost n-huge** iff it is almost n-huge with target
-    $\\lambda$ for some $\\lambda$.
--   $\\kappa$ is **n-huge** iff it is n-huge with target $\\lambda$ for
-    some $\\lambda$.
--   $\\kappa$ is **super almost n-huge** iff for every $\\gamma$, there
-    is some $\\lambda&gt;\\gamma$ for which $\\kappa$ is almost n-huge
-    with target $\\lambda$ (that is, the target can be made arbitrarily
+-   $κ$ is **n-huge with target $λ$** iff
+    $λ=j^n(κ)$ and $M$ is closed under all of its sequences
+    of length $λ$ ($M^λ\\subseteq M$).
+-   $κ$ is **almost n-huge** iff it is almost n-huge with target
+    $λ$ for some $λ$.
+-   $κ$ is **n-huge** iff it is n-huge with target $λ$ for
+    some $λ$.
+-   $κ$ is **super almost n-huge** iff for every $\\gamma$, there
+    is some $λ&gt;\\gamma$ for which $κ$ is almost n-huge
+    with target $λ$ (that is, the target can be made arbitrarily
     large).
--   $\\kappa$ is **super n-huge** iff for every $\\gamma$, there is some
-    $\\lambda&gt;\\gamma$ for which $\\kappa$ is n-huge with target
-    $\\lambda$.
--   $\\kappa$ is **almost huge**, **huge**, **super almost huge**, and
+-   $κ$ is **super n-huge** iff for every $\\gamma$, there is some
+    $λ&gt;\\gamma$ for which $κ$ is n-huge with target
+    $λ$.
+-   $κ$ is **almost huge**, **huge**, **super almost huge**, and
     **superhuge** iff it is **almost 1-huge**, **1-huge**, etc.
     respectively.
 
 ### Ultrahuge cardinals
 
-A cardinal $\\kappa$ is **$\\lambda$-ultrahuge** for
-$\\lambda&gt;\\kappa$ if there exists a nontrivial elementary embedding
+A cardinal $κ$ is **$λ$-ultrahuge** for
+$λ&gt;κ$ if there exists a nontrivial elementary embedding
 $j:V\\to M$ for some transitive class $M$ such that
-$j(\\kappa)&gt;\\lambda$, $M^{j(\\kappa)}\\subseteq M$ and
-$V\_{j(\\lambda)}\\subseteq M$. A cardinal is **ultrahuge** if it is
-$\\lambda$-ultrahuge for all $\\lambda\\geq\\kappa$.
+$j(κ)&gt;λ$, $M^{j(κ)}\\subseteq M$ and
+$V\_{j(λ)}\\subseteq M$. A cardinal is **ultrahuge** if it is
+$λ$-ultrahuge for all $λ\\geqκ$.
 <a href="http://logicatorino.altervista.org/slides/150619tsaprounis.pdf" class="external autonumber">[1]</a>
 Notice how similar this definition is to the alternative
 characterization of
 [extendible](Extendible "Extendible")
 cardinals. Furthermore, this definition can be extended in the obvious
-way to define $\\lambda$-ultra n-hugeness and ultra n-hugeness, as well
+way to define $λ$-ultra n-hugeness and ultra n-hugeness, as well
 as the "*almost*" variants.
 
 ### Hyperhuge cardinals
 
-A cardinal $\\kappa$ is **$\\lambda$-hyperhuge** for
-$\\lambda&gt;\\kappa$ if there exists a nontrivial elementary embedding
+A cardinal $κ$ is **$λ$-hyperhuge** for
+$λ&gt;κ$ if there exists a nontrivial elementary embedding
 $j:V\\to M$ for some inner model $M$ such that $\\mathrm{crit}(j) =
-\\kappa$, $j(\\kappa)&gt;\\lambda$ and $^{j(\\lambda)}M\\subseteq M$. A
-cardinal is **hyperhuge** if it is $\\lambda$-hyperhuge for all
-$\\lambda&gt;\\kappa$. {% cite Usuba2017 Boney2017 %}
+κ$, $j(κ)&gt;λ$ and $^{j(λ)}M\\subseteq M$. A
+cardinal is **hyperhuge** if it is $λ$-hyperhuge for all
+$λ&gt;κ$. {% cite Usuba2017 Boney2017 %}
 
 ### Huge\* cardinals
 
-A cardinal $κ$ is **$n$-huge\*** if for some $α &gt; κ$, $\\kappa$ is
+A cardinal $κ$ is **$n$-huge\*** if for some $α &gt; κ$, $κ$ is
 the critical point of an elementary embedding $j : V\_α → V\_β$ such
 that $j^n (κ) &lt;
 α$.{% cite Gitmana %}
 
 Hugeness\* variant is formulated in a way allowing for a virtual variant
 consistent with $V=L$: A cardinal $κ$ is **virtually $n$-huge\*** if for
-some $α &gt; κ$, in a set-forcing extension, $\\kappa$ is the critical
+some $α &gt; κ$, in a set-forcing extension, $κ$ is the critical
 point of an elementary embedding $j : V\_α → V\_β$ such that $j^n(κ)
 &lt; α$.{% cite Gitmana %}
 
@@ -113,39 +113,39 @@ point of an elementary embedding $j : V\_α → V\_β$ such that $j^n(κ)
 
 The first-order definition of n-huge is somewhat similar to
 [measurability](Measurable "Measurable").
-Specifically, $\\kappa$ is measurable iff there is a nonprincipal
-$\\kappa$-complete
+Specifically, $κ$ is measurable iff there is a nonprincipal
+$κ$-complete
 [ultrafilter](Filter "Filter"),
-$U$, over $\\kappa$. A cardinal $\\kappa$ is n-huge with target
-$\\lambda$ iff there is a normal $\\kappa$-complete ultrafilter, $U$,
-over $\\mathcal{P}(\\lambda)$, and cardinals
-$\\kappa=\\lambda\_0&lt;\\lambda\_1&lt;\\lambda\_2...&lt;\\lambda\_{n-1}&lt;\\lambda\_n=\\lambda$
+$U$, over $κ$. A cardinal $κ$ is n-huge with target
+$λ$ iff there is a normal $κ$-complete ultrafilter, $U$,
+over $\\mathcal{P}(λ)$, and cardinals
+$κ=λ\_0&lt;λ\_1&lt;λ\_2...&lt;λ\_{n-1}&lt;λ\_n=λ$
 such that:
 
 $$\\forall
-i&lt;n(\\{x\\subseteq\\lambda:\\text{order-type}(x\\cap\\lambda\_{i+1})=\\lambda\_i\\}\\in
+i&lt;n(\\{x\\subseteqλ:\\text{order-type}(x\\capλ\_{i+1})=λ\_i\\}\\in
 U)$$
 
 Where $\\text{order-type}(X)$ is the
 [order-type](Order-isomorphism "Order-isomorphism")
 of the poset $(X,\\in)$. {% cite Kanamori2009 %}
-$\\kappa$ is then super n-huge if for all ordinals $\\theta$ there is a
-$\\lambda&gt;\\theta$ such that $\\kappa$ is n-huge with target
-$\\lambda$, i.e. $\\lambda\_n$ can be made arbitrarily large. If
-$j:V\\to M$ is such that $M^{j^n(\\kappa)}\\subseteq M$ (i.e. $j$
+$κ$ is then super n-huge if for all ordinals $\\theta$ there is a
+$λ&gt;\\theta$ such that $κ$ is n-huge with target
+$λ$, i.e. $λ\_n$ can be made arbitrarily large. If
+$j:V\\to M$ is such that $M^{j^n(κ)}\\subseteq M$ (i.e. $j$
 witnesses n-hugeness) then there is a ultrafilter $U$ as above such
-that, for all $k\\leq n$, $\\lambda\_k = j^k(\\kappa)$, i.e. it is not
-only $\\lambda=\\lambda\_n$ that is an iterate of $\\kappa$ by $j$; all
-members of the $\\lambda\_k$ sequence are.
+that, for all $k\\leq n$, $λ\_k = j^k(κ)$, i.e. it is not
+only $λ=λ\_n$ that is an iterate of $κ$ by $j$; all
+members of the $λ\_k$ sequence are.
 
-As an example, $\\kappa$ is 1-huge with target $\\lambda$ iff there is a
-normal $\\kappa$-complete ultrafilter, $U$, over
-$\\mathcal{P}(\\lambda)$ such that
-$\\{x\\subseteq\\lambda:\\text{order-type}(x)=\\kappa\\}\\in U$. The
+As an example, $κ$ is 1-huge with target $λ$ iff there is a
+normal $κ$-complete ultrafilter, $U$, over
+$\\mathcal{P}(λ)$ such that
+$\\{x\\subseteqλ:\\text{order-type}(x)=κ\\}\\in U$. The
 reason why this would be so surprising is that every set
-$x\\subseteq\\lambda$ with every set of order-type $\\kappa$ would be in
+$x\\subseteqλ$ with every set of order-type $κ$ would be in
 the ultrafilter; that is, every set containing
-$\\{x\\subseteq\\lambda:\\text{order-type}(x)=\\kappa\\}$ as a subset is
+$\\{x\\subseteqλ:\\text{order-type}(x)=κ\\}$ as a subset is
 considered a "large set."
 
 As for hyperhugeness, the following are
@@ -241,16 +241,16 @@ of the I3 elementary embeddings). In fact, every I3 is preceeded by a
 stationary set of n-huge cardinals, for all n.
 {% cite Kanamori2009 %}
 
-Similarly, every huge cardinal $\\kappa$ is almost huge, and there is a
-normal measure over $\\kappa$ which contains every almost huge cardinal
-$\\lambda&lt;\\kappa$. Every superhuge cardinal $\\kappa$ is
+Similarly, every huge cardinal $κ$ is almost huge, and there is a
+normal measure over $κ$ which contains every almost huge cardinal
+$λ&lt;κ$. Every superhuge cardinal $κ$ is
 [extendible](Extendible "Extendible")
-and there is a normal measure over $\\kappa$ which contains every
-extendible cardinal $\\lambda&lt;\\kappa$. Every (n+1)-huge cardinal
-$\\kappa$ has a normal measure which contains every cardinal $\\lambda$
-such that $V\_\\kappa\\models$"$\\lambda$ is super n-huge"
+and there is a normal measure over $κ$ which contains every
+extendible cardinal $λ&lt;κ$. Every (n+1)-huge cardinal
+$κ$ has a normal measure which contains every cardinal $λ$
+such that $V\_κ\\models$"$λ$ is super n-huge"
 {% cite Kanamori2009 %}, in fact it contains every
-cardinal $\\lambda$ such that $V\_\\kappa\\models$"$\\lambda$ is ultra
+cardinal $λ$ such that $V\_κ\\models$"$λ$ is ultra
 n-huge".
 
 Every n-huge cardinal is m-huge for every m&lt;n. Similarly with almost
@@ -270,10 +270,10 @@ least
 cardinal (assuming both exist).
 {% cite Kanamori2009 %} This is because n-huge
 cardinals have upward reflection properties, while supercompacts have
-downward reflection properties. Thus for any $\\kappa$ which is
-supercompact and has an n-huge cardinal above it, $\\kappa$ "reflects
-downward" that n-huge cardinal: there are $\\kappa$-many n-huge
-cardinals below $\\kappa$. On the other hand, the least super n-huge
+downward reflection properties. Thus for any $κ$ which is
+supercompact and has an n-huge cardinal above it, $κ$ "reflects
+downward" that n-huge cardinal: there are $κ$-many n-huge
+cardinals below $κ$. On the other hand, the least super n-huge
 cardinals have *both* upward and downward reflection properties, and are
 all *much* larger than the least supercompact cardinal. It is notable
 that, while almost 2-huge cardinals have higher consistency strength
@@ -282,25 +282,25 @@ the least super almost huge.
 
 While not every $n$-huge cardinal is
 [strong](Strong "Strong"),
-if $\\kappa$ is almost $n$-huge with targets
-$\\lambda\_1,\\lambda\_2...\\lambda\_n$, then $\\kappa$ is
-$\\lambda\_n$-strong as witnessed by the generated $j:V\\prec M$. This
-is because $j^n(\\kappa)=\\lambda\_n$ is
+if $κ$ is almost $n$-huge with targets
+$λ\_1,λ\_2...λ\_n$, then $κ$ is
+$λ\_n$-strong as witnessed by the generated $j:V\\prec M$. This
+is because $j^n(κ)=λ\_n$ is
 [measurable](Measurable "Measurable")
-and therefore $\\beth\_{\\lambda\_n}=\\lambda\_n$ and so
-$V\_{\\lambda\_n}=H\_{\\lambda\_n}$ and because
-$M^{&lt;\\lambda\_n}\\subset M$, $H\_\\theta\\subset M$ for each
-$\\theta&lt;\\lambda\_n$ and so
-$\\cup\\{H\_\\theta:\\theta&lt;\\lambda\_n\\} =
-\\cup\\{V\_\\theta:\\theta&lt;\\lambda\_n\\} = V\_{\\lambda\_n}\\subset
+and therefore $\\beth\_{λ\_n}=λ\_n$ and so
+$V\_{λ\_n}=H\_{λ\_n}$ and because
+$M^{&lt;λ\_n}\\subset M$, $H\_\\theta\\subset M$ for each
+$\\theta&lt;λ\_n$ and so
+$\\cup\\{H\_\\theta:\\theta&lt;λ\_n\\} =
+\\cup\\{V\_\\theta:\\theta&lt;λ\_n\\} = V\_{λ\_n}\\subset
 M$.
 
 Every almost $n$-huge cardinal with targets
-$\\lambda\_1,\\lambda\_2...\\lambda\_n$ is also
+$λ\_1,λ\_2...λ\_n$ is also
 [$\\theta$-supercompact](Supercompact "Supercompact")
-for each $\\theta&lt;\\lambda\_n$, and every $n$-huge cardinal with
-targets $\\lambda\_1,\\lambda\_2...\\lambda\_n$ is also
-$\\lambda\_n$-supercompact.
+for each $\\theta&lt;λ\_n$, and every $n$-huge cardinal with
+targets $λ\_1,λ\_2...λ\_n$ is also
+$λ\_n$-supercompact.
 
 For $2$-huge $κ$, $V\_κ$ is a model of $\\mathrm{ZFC}$+“there are proper
 class many hyper-huge
@@ -331,28 +331,28 @@ $n$-huge\*:{% cite Gitmana %}
     cardinal is a virtually $n$-huge\* limit of virtually $n$-huge\*
     cardinals for every $n &lt; ω$.
 
-### The $\\omega$-huge cardinals
+### The $ω$-huge cardinals
 
-A cardinal $\\kappa$ is **almost $\\omega$-huge** iff there is some
+A cardinal $κ$ is **almost $ω$-huge** iff there is some
 transitive model $M$ and an elementary embedding $j:V\\prec M$ with
-critical point $\\kappa$ such that $M^{&lt;\\lambda}\\subset M$ where
-$\\lambda$ is the smallest cardinal above $\\kappa$ such that
-$j(\\lambda)=\\lambda$. Similarly, $\\kappa$ is **$\\omega$-huge** iff
-the model $M$ can be required to have $M^\\lambda\\subset M$.
+critical point $κ$ such that $M^{&lt;λ}\\subset M$ where
+$λ$ is the smallest cardinal above $κ$ such that
+$j(λ)=λ$. Similarly, $κ$ is **$ω$-huge** iff
+the model $M$ can be required to have $M^λ\\subset M$.
 
-Sadly, $\\omega$-huge cardinals are inconsistent with ZFC by a version
-of Kunen's inconsistency theorem. Now, $\\omega$-hugeness is used to
+Sadly, $ω$-huge cardinals are inconsistent with ZFC by a version
+of Kunen's inconsistency theorem. Now, $ω$-hugeness is used to
 describe critical points of
 <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I1 embeddings</a>.
 
 ## Relative consistency results
 
-### Hugeness of $\\omega\_1$
+### Hugeness of $ω\_1$
 
 In
 <a href="https://projecteuclid.org/euclid.rmjm/1181073173" class="external autonumber">[2]</a>
 it is shown that if $\\text{ZFC +}$ "there is a huge cardinal" is
-consistent then so is $\\text{ZF +}$ "$\\omega\_1$ is a huge cardinal"
+consistent then so is $\\text{ZF +}$ "$ω\_1$ is a huge cardinal"
 (with the ultrafilter characterization of hugeness).
 
 ### Generalizations of Chang's conjecture
@@ -363,9 +363,9 @@ If there is an almost huge cardinal then there is a model of
 $\\text{ZF+}\\neg\\text{AC}$ in which every successor cardinal is a
 [Ramsey](Ramsey "Ramsey")
 cardinal. It follows that (1) for all inner models $W$ of $\\text{ZFC}$
-and every singular cardinal $\\kappa$, one has $\\kappa^{+W} &lt;
-\\kappa^+$ and that (2) for all ordinal $\\alpha$ there is no injection
-$\\aleph\_{\\alpha+1}\\to 2^{\\aleph\_\\alpha}$. This in turn imply the
+and every singular cardinal $κ$, one has $κ^{+W} &lt;
+κ^+$ and that (2) for all ordinal $α$ there is no injection
+$\\aleph\_{α+1}\\to 2^{\\aleph\_α}$. This in turn imply the
 failure of the
 <a href="index.php?title=Square_principle&amp;action=edit&amp;redlink=1" class="new" title="Square principle (page does not exist)">square principle</a>
 at every infinite cardinal (and consequently
@@ -375,7 +375,7 @@ $\\text{AD}^{L(\\mathbb{R})}$, see
 
 ## In set theoretic geology
 
-If $\\kappa$ is hyperhuge, then $V$ has $&lt;\\kappa$ many
+If $κ$ is hyperhuge, then $V$ has $&lt;κ$ many
 <a href="Ground" class="mw-redirect" title="Ground">grounds</a>
 (so the
 <a href="Mantle" class="mw-redirect" title="Mantle">mantle</a>

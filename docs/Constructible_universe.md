@@ -15,8 +15,8 @@ transitive inner model of
 cannot disprove $\\text{GCH}$. It was then shown to be an important
 model of $\\text{ZFC}$ for its satisfying of other axioms, thus making
 them consistent with $\\text{ZFC}$. The idea is that $L$ is built up by
-ranks like $V$. $L\_0$ is the empty set, and $L\_{\\alpha+1}$ is the set
-of all easily definable subsets of $L\_\\alpha$. The assumption that
+ranks like $V$. $L\_0$ is the empty set, and $L\_{α+1}$ is the set
+of all easily definable subsets of $L\_α$. The assumption that
 $V=L$ (also known as the **Axiom of constructibility**) is undecidable
 from $\\text{ZFC}$, and implies many axioms which are consistent with
 $\\text{ZFC}$. A set $X$ is **constructible** iff $X\\in L$. $V=L$ iff
@@ -29,20 +29,20 @@ $\\mathrm{def}(X)$ is the set of all "easily definable" subsets of $X$
 (specifically the $\\Delta\_0$ definable subsets). More specifically, a
 subset $x$ of $X$ is in $\\mathrm{def}(X)$ iff there is a first-order
 formula $\\varphi$ and $v\_0,v\_1...v\_n\\in X$ such that $x=\\{y\\in
-X:\\varphi^X\[y,v\_0,v\_1...v\_n\]\\}$. Then, $L\_\\alpha$ and $L$ are
+X:\\varphi^X\[y,v\_0,v\_1...v\_n\]\\}$. Then, $L\_α$ and $L$ are
 defined as follows:
 
 -   $L\_0=\\emptyset$
--   $L\_{\\alpha+1}=\\mathrm{def}(L\_\\alpha)$
--   $L\_\\beta=\\bigcup\_{\\alpha&lt;\\beta} L\_\\alpha$ if $\\beta$ is
+-   $L\_{α+1}=\\mathrm{def}(L\_α)$
+-   $L\_β=\\bigcup\_{α&lt;β} L\_α$ if $β$ is
     a limit ordinal
--   $L=\\bigcup\_{\\alpha\\in\\mathrm{Ord}} L\_\\alpha$
+-   $L=\\bigcup\_{α\\in\\mathrm{Ord}} L\_α$
 
-### The Relativized constructible universes $L\_\\alpha(W)$ and $L\_\\alpha\[W\]$
+### The Relativized constructible universes $L\_α(W)$ and $L\_α\[W\]$
 
-$L\_\\alpha(W)$ for a class $W$ is defined the same way except
+$L\_α(W)$ for a class $W$ is defined the same way except
 $L\_0(W)=\\text{TC}(\\{W\\})$ (the transitive closure of $\\{W\\}$).
-$L\_\\alpha\[W\]$ for a class $W$ is defined in the same way as $L$
+$L\_α\[W\]$ for a class $W$ is defined in the same way as $L$
 except using $\\mathrm{def}\_W(X)$, where $\\mathrm{def}\_W(X)$ is the
 set of all $x\\subseteq X$ such that there is a first-order formula
 $\\varphi$ and $v\_0,v\_1...v\_n\\in X$ such that $x=\\{y\\in
@@ -50,43 +50,43 @@ X:\\varphi^X\[y,W,v\_0,v\_1...v\_n\]\\}$ (because the relativization of
 $\\varphi$ to $X$ is used and $\\langle X,\\in\\rangle$ is not used,
 this definition makes sense even when $W$ is not in $X$).
 
-$L\[W\]=\\bigcup\_{\\alpha\\in\\mathrm{Ord}}L\_\\alpha\[W\]$ is always a
+$L\[W\]=\\bigcup\_{α\\in\\mathrm{Ord}}L\_α\[W\]$ is always a
 model of $\\text{ZFC}$, and always satisfies $\\text{GCH}$ past a
 certain cardinality.
-$L(W)=\\bigcup\_{\\alpha\\in\\mathrm{Ord}}L\_\\alpha(W)$ is always a
+$L(W)=\\bigcup\_{α\\in\\mathrm{Ord}}L\_α(W)$ is always a
 model of $\\text{ZF}$ but need not satisfy $\\text{AC}$ (the axiom of
 choice). In particular, $L(\\mathbb{R})$ is, under large cardinal
 assumptions, a model of the [axiom of
 determinacy](Axiom_of_determinacy "Axiom of determinacy").
-However, Shelah proved that if $\\lambda$ is a strong limit cardinal of
-uncountable cofinality then $L(\\mathcal{P}(\\lambda))$ is a model of
+However, Shelah proved that if $λ$ is a strong limit cardinal of
+uncountable cofinality then $L(\\mathcal{P}(λ))$ is a model of
 $\\text{AC}$.
 
-## The difference between $L\_\\alpha$ and $V\_\\alpha$
+## The difference between $L\_α$ and $V\_α$
 
-For $\\alpha\\leq\\omega$, $L\_\\alpha=V\_\\alpha$. However,
-$\|L\_{\\omega+\\alpha}\|=\\aleph\_0 + \|\\alpha\|$ whilst
-$\|V\_{\\omega+\\alpha}\|=\\beth\_\\alpha$. Unless $\\alpha$ is a
+For $α\\leqω$, $L\_α=V\_α$. However,
+$\|L\_{ω+α}\|=\\aleph\_0 + \|α\|$ whilst
+$\|V\_{ω+α}\|=\\beth\_α$. Unless $α$ is a
 [$\\beth$-fixed
 point](Beth "Beth"),
-$\|L\_{\\omega+\\alpha}\|&lt;\|V\_{\\omega+\\alpha}\|$. Although
-$L\_\\alpha$ is quite small compared to $V\_\\alpha$, $L$ is a tall
+$\|L\_{ω+α}\|&lt;\|V\_{ω+α}\|$. Although
+$L\_α$ is quite small compared to $V\_α$, $L$ is a tall
 model, meaning $L$ contains every ordinal. In fact,
-$V\_\\alpha\\cap\\mathrm{Ord}=L\_\\alpha\\cap\\mathrm{Ord}=\\alpha$, so
-the ordinals in $V\_\\alpha$ are precisely those in $L\_\\alpha$.
+$V\_α\\cap\\mathrm{Ord}=L\_α\\cap\\mathrm{Ord}=α$, so
+the ordinals in $V\_α$ are precisely those in $L\_α$.
 
 If $0^{\\\#}$ exists (see below), then every uncountable cardinal
-$\\kappa$ has $L\\models$"$\\kappa$is [totally
+$κ$ has $L\\models$"$κ$is [totally
 ineffable](Ineffable "Ineffable")
 (and therefore the smallest actually totally ineffable cardinal
-$\\lambda$ has many more large cardinal properties in $L$).
+$λ$ has many more large cardinal properties in $L$).
 
-However, if $\\kappa$ is
+However, if $κ$ is
 [inaccessible](Inaccessible "Inaccessible")
-and $V=L$, then $V\_\\kappa=L\_\\kappa$. Furthermore,
-$V\_\\kappa\\models (V=L)$. In the case where $V\\neq L$, it is still
-true that $V\_\\kappa^L=L\_\\kappa$, although $V\_\\kappa^L$ will not be
-$V\_\\kappa$. In fact, $\\mathcal{P}(\\omega)\\not\\in V\_\\kappa^L$ if
+and $V=L$, then $V\_κ=L\_κ$. Furthermore,
+$V\_κ\\models (V=L)$. In the case where $V\\neq L$, it is still
+true that $V\_κ^L=L\_κ$, although $V\_κ^L$ will not be
+$V\_κ$. In fact, $\\mathcal{P}(ω)\\not\\in V\_κ^L$ if
 $0^{\\\#}$ exists.
 
 ## Statements True in $L$
@@ -112,16 +112,16 @@ determinacy](Axiom_of_determinacy#Determinacy_of_.24L.28.5Cmathbb.7BR.7D.29.24 "
 ## Using other logic systems than first-order logic
 
 When using second order logic in the definition of $\\mathrm{def}$, the
-new hierarchy is called $L\_\\alpha^{II}$. Interestingly,
-$L^{II}=\\text{HOD}$. When using $\\mathcal{L}\_{\\kappa,\\kappa}$, the
-hierarchy is called $L\_\\alpha^{\\mathcal{L}\_{\\kappa,\\kappa}}$, and
-$L\\subseteq L^{\\mathcal{L}\_{\\kappa,\\kappa}}\\subseteq
-L(V\_\\kappa)$. Finally, when using $\\mathcal{L}\_{\\infty,\\infty}$,
+new hierarchy is called $L\_α^{II}$. Interestingly,
+$L^{II}=\\text{HOD}$. When using $\\mathcal{L}\_{κ,κ}$, the
+hierarchy is called $L\_α^{\\mathcal{L}\_{κ,κ}}$, and
+$L\\subseteq L^{\\mathcal{L}\_{κ,κ}}\\subseteq
+L(V\_κ)$. Finally, when using $\\mathcal{L}\_{\\infty,\\infty}$,
 it turns out that the result is $V$.
 
-Chang's Model is $L^{\\mathcal{L}\_{\\omega\_1,\\omega\_1}}$. Chang
-proved that $L^{\\mathcal{L}\_{\\kappa,\\kappa}}$ is the smallest inner
-model of $\\text{ZFC}$ closed under sequences of length $&lt;\\kappa$.
+Chang's Model is $L^{\\mathcal{L}\_{ω\_1,ω\_1}}$. Chang
+proved that $L^{\\mathcal{L}\_{κ,κ}}$ is the smallest inner
+model of $\\text{ZFC}$ closed under sequences of length $&lt;κ$.
 
 ## Silver indiscernibles
 
@@ -162,11 +162,11 @@ uncountably many Silver indiscernibles".
 Assume there is an uncountable set of Silver indiscernibles. Then
 $0^{\\\#}$ is defined as the set of all Gödel numberings of first-order
 formula $\\varphi$ such that
-$L\_{\\aleph\_{\\omega}}\\models\\varphi(\\aleph\_0,\\aleph\_1...\\aleph\_n)$
+$L\_{\\aleph\_{ω}}\\models\\varphi(\\aleph\_0,\\aleph\_1...\\aleph\_n)$
 for some $n$.
 
 "$0^{\\\#}$ exists" is used as a shorthand for "there is an uncountable
-set of Silver indiscernibles"; since $L\_{\\aleph\_\\omega}$ is a set,
+set of Silver indiscernibles"; since $L\_{\\aleph\_ω}$ is a set,
 $\\text{ZFC}$ can define a truth predicate for it, and so the existence
 of $0^{\\\#}$ as a mere set of formulas would be trivial. It is
 interesting only when there are many (in fact proper class many) Silver
@@ -177,22 +177,22 @@ there are no Silver indiscernibles.
 
 If $0^♯$ exists then:
 
--   $L\_{\\aleph\_\\omega}\\prec L$ and so $0^♯$ also corresponds to the
+-   $L\_{\\aleph\_ω}\\prec L$ and so $0^♯$ also corresponds to the
     set of the Gödel numberings of first-order formulas $\\varphi$ such
     that $L\\models\\varphi(\\aleph\_0,\\aleph\_1...\\aleph\_n)$
--   In fact, $L\_\\kappa\\prec L$ for every Silver indiscernible, and
+-   In fact, $L\_κ\\prec L$ for every Silver indiscernible, and
     thus for every uncountable cardinal.
 -   Given any set $X\\in L$ which is first-order definable in $L$,
-    $X\\in L\_{\\omega\_1}$. This of course implies that $\\aleph\_1$ is
+    $X\\in L\_{ω\_1}$. This of course implies that $\\aleph\_1$ is
     not first-order definable in $L$, because $\\aleph\_1\\not\\in
-    L\_{\\omega\_1}$. This is already a disproof of $V=L$ (because
+    L\_{ω\_1}$. This is already a disproof of $V=L$ (because
     $\\aleph\_1$ is first-order definable).
--   For every $\\alpha\\in\\omega\_1^L$, every Silver indiscernible (and
+-   For every $α\\inω\_1^L$, every Silver indiscernible (and
     in particular every uncountable cardinal) in $L$ is a Silver
     cardinal,
-    [$\\alpha$-iterable](Ramsey#iterable "Ramsey"),
+    [$α$-iterable](Ramsey#iterable "Ramsey"),
     $\\geq$ an
-    [$\\alpha$-Erdős](Erdos "Erdos"),
+    [$α$-Erdős](Erdos "Erdos"),
     [totally
     ineffable](Ineffable "Ineffable")
     and
@@ -258,32 +258,32 @@ The following statements are equivalent:
     of them).
 -   There is a unique well-founded remarkable E.M. set (see below).
 -   Jensen's Covering Theorem fails (see below).
--   $L$ is thin, i.e. $\|L\\cap V\_\\alpha\|=\|\\alpha\|$ for all
-    $\\alpha\\geq\\omega$.
+-   $L$ is thin, i.e. $\|L\\cap V\_α\|=\|α\|$ for all
+    $α\\geqω$.
 -   $\\Sigma^1\_1$-<a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">determinacy</a>
     (lightface form).
--   $\\aleph\_\\omega$ is regular (hence weakly inaccessible) in $L$.
+-   $\\aleph\_ω$ is regular (hence weakly inaccessible) in $L$.
 -   There is a nontrivial [elementary
     embedding](Elementary_embedding "Elementary embedding")
     $j:L\\to L$.
 -   There is a proper class of nontrivial elementary embeddings $j:L\\to
     L$.
--   There is a nontrivial elementary embedding $j:L\_\\alpha\\to
-    L\_\\beta$ with $\\text{crit}(j)&lt;\|\\alpha\|$.
+-   There is a nontrivial elementary embedding $j:L\_α\\to
+    L\_β$ with $\\text{crit}(j)&lt;\|α\|$.
 
 The existence of $0^♯$ is implied by:
 
 -   [Chang's
     conjecture](Chang%27s_conjecture "Chang's conjecture")
--   Both $\\omega\_1$ and $\\omega\_2$ being singular (requires
+-   Both $ω\_1$ and $ω\_2$ being singular (requires
     $\\neg\\text{AC}$).
 -   The negation of the singular cardinal hypothesis ($\\text{SCH}$).
--   The existence of an $\\omega\_1$-iterable cardinal or of a
-    $\\omega\_1$-Erdős cardinal.
--   The existence of a weakly compact cardinal $\\kappa$ such that
-    $\|(\\kappa^+)^L\|=\\kappa$.
--   The existence of some uncountable regular cardinal $\\kappa$ such
-    that every constructible $X\\subseteq\\kappa$ either contains or is
+-   The existence of an $ω\_1$-iterable cardinal or of a
+    $ω\_1$-Erdős cardinal.
+-   The existence of a weakly compact cardinal $κ$ such that
+    $\|(κ^+)^L\|=κ$.
+-   The existence of some uncountable regular cardinal $κ$ such
+    that every constructible $X\\subseteqκ$ either contains or is
     disjoint from a closed unbounded set.
 
 Note that if $0^♯$ exists then for every Silver indiscernible (in
@@ -300,66 +300,66 @@ exists.
 
 An **EM blueprint** (Ehrenfeucht-Mostowski blueprint) $T$ is any theory
 of the form
-$\\{\\varphi:(L\_\\delta;\\in,\\alpha\_0,\\alpha\_1...)\\models\\varphi\\}$
-for some ordinal $\\delta&gt;\\omega$ and
-$\\alpha\_0&lt;\\alpha\_1&lt;\\alpha\_2...$ are indiscernible in the
+$\\{\\varphi:(L\_\\delta;\\in,α\_0,α\_1...)\\models\\varphi\\}$
+for some ordinal $\\delta&gt;ω$ and
+$α\_0&lt;α\_1&lt;α\_2...$ are indiscernible in the
 structure $L\_\\delta$. Roughly speaking, it's the set of all true
-statements about $\\alpha\_0,\\alpha\_1,\\alpha\_2...$ in $L\_\\delta$.
+statements about $α\_0,α\_1,α\_2...$ in $L\_\\delta$.
 
 For an EM blueprint
-$T=\\{\\varphi:(L\_\\delta;\\in,\\alpha\_0,\\alpha\_1...)\\models\\varphi\\}$,
+$T=\\{\\varphi:(L\_\\delta;\\in,α\_0,α\_1...)\\models\\varphi\\}$,
 **the theory $T^{-}$** is defined as
 $\\{\\varphi:L\_\\delta\\models\\varphi\\}$ (the set of truths about any
 definable elements of $L\_\\delta$). Then, **the structure
-$\\mathcal{M}(T,\\alpha)=(M(T,\\alpha);E)\\models T^{-}$** has a very
+$\\mathcal{M}(T,α)=(M(T,α);E)\\models T^{-}$** has a very
 technical definition, but it is indeed uniquely (up to isomorphism) the
 only structure which satisfies the existence of a set $X$ of
-$\\mathcal{M}(T,\\alpha)$-ordinals such that:
+$\\mathcal{M}(T,α)$-ordinals such that:
 
-1.  $X$ is a set of indiscernibles for $\\mathcal{M}(T,\\alpha)$ and
-    $(X;E)\\cong\\alpha$ ($X$ has order-type $\\alpha$ with respect to
-    $\\mathcal{M}(T,\\alpha)$)
+1.  $X$ is a set of indiscernibles for $\\mathcal{M}(T,α)$ and
+    $(X;E)\\congα$ ($X$ has order-type $α$ with respect to
+    $\\mathcal{M}(T,α)$)
 2.  For any formula $\\varphi$ and any $x&lt;y&lt;z...$ with
     $x,y,z...\\in X$,
-    $\\mathcal{M}(T,\\alpha)\\models\\varphi(x,y,z...)$ iff
-    $\\mathcal{M}(T,\\alpha)\\models\\varphi(\\alpha\_0,\\alpha\_1,\\alpha\_2...)$
-    where $\\alpha\_0,\\alpha\_1...$ are the indiscernibles used in the
+    $\\mathcal{M}(T,α)\\models\\varphi(x,y,z...)$ iff
+    $\\mathcal{M}(T,α)\\models\\varphi(α\_0,α\_1,α\_2...)$
+    where $α\_0,α\_1...$ are the indiscernibles used in the
     EM blueprint.
-3.  If $&lt;$ is an $\\mathcal{M}(T,\\alpha)$-definable
-    $\\mathcal{M}(T,\\alpha)$-well-ordering of
-    $\\mathcal{M}(T,\\alpha)$, then:
-    $$\\mathcal{M}(T,\\alpha)=\\{\\min{}\_&lt;^{\\mathcal{M}(T,\\alpha)}\\{x:\\mathcal{M}(T,\\alpha)\\models\\varphi\[x,a,b,c...\]\\}:\\varphi\\in\\mathcal{L}\_\\in\\text{
+3.  If $&lt;$ is an $\\mathcal{M}(T,α)$-definable
+    $\\mathcal{M}(T,α)$-well-ordering of
+    $\\mathcal{M}(T,α)$, then:
+    $$\\mathcal{M}(T,α)=\\{\\min{}\_&lt;^{\\mathcal{M}(T,α)}\\{x:\\mathcal{M}(T,α)\\models\\varphi\[x,a,b,c...\]\\}:\\varphi\\in\\mathcal{L}\_\\in\\text{
     and } a,b,c...\\in X\\}$$
 
 $0^\\\#$ is then defined as the **unique** EM blueprint $T$ such that:
 
-1.  $\\mathcal{M}(T,\\alpha)$ is isomorphic to a transitive model
-    $M(T,\\alpha)$ of ZFC for every $\\alpha$
-2.  For any infinite $\\alpha$, the set of indiscernibles $X$ associated
-    with $M(T,\\alpha)$ can be made cofinal in
-    $\\text{Ord}^{M(T,\\alpha)}$.
-3.  The $L\_\\delta$-indiscernables $\\beta\_0&lt;\\beta\_1...$ can be
-    made so that if $&lt;$ is an $M(T,\\alpha)$-definable well-ordering
-    of $M(T,\\alpha)$, then for any $(m+n+2)$-ary formula $\\varphi$
+1.  $\\mathcal{M}(T,α)$ is isomorphic to a transitive model
+    $M(T,α)$ of ZFC for every $α$
+2.  For any infinite $α$, the set of indiscernibles $X$ associated
+    with $M(T,α)$ can be made cofinal in
+    $\\text{Ord}^{M(T,α)}$.
+3.  The $L\_\\delta$-indiscernables $β\_0&lt;β\_1...$ can be
+    made so that if $&lt;$ is an $M(T,α)$-definable well-ordering
+    of $M(T,α)$, then for any $(m+n+2)$-ary formula $\\varphi$
     such that
-    $\\min\_&lt;^{M(T,\\alpha)}\\{x:\\varphi\[x,\\beta\_0,\\beta\_1...\\beta\_{m+n}\]\\}&lt;\\beta\_m$,
+    $\\min\_&lt;^{M(T,α)}\\{x:\\varphi\[x,β\_0,β\_1...β\_{m+n}\]\\}&lt;β\_m$,
     then:
-    $$\\min{}\_&lt;^{M(T,\\alpha)}\\{x:\\varphi\[x,\\beta\_0,\\beta\_1...\\beta\_{m+n}\]\\}=\\min{}\_&lt;^{M(T,\\alpha)}\\{x:\\varphi\[x,\\beta\_0,\\beta\_1...\\beta\_{m-1},\\beta\_{m+n+1}...\\beta\_{m+2n+1}\]\\}$$
+    $$\\min{}\_&lt;^{M(T,α)}\\{x:\\varphi\[x,β\_0,β\_1...β\_{m+n}\]\\}=\\min{}\_&lt;^{M(T,α)}\\{x:\\varphi\[x,β\_0,β\_1...β\_{m-1},β\_{m+n+1}...β\_{m+2n+1}\]\\}$$
 
 If the EM blueprint meets 1. then it is called *well-founded.* If it
 meets 2. and 3. then it is called *remarkable.*
 
 If $0^\\\#$ exists (i.e. there is a well-founded remarkable EM
 blueprint) then it happens to be equivalent to the set of all $\\varphi$
-such that $L\\models\\varphi\[\\kappa\_0,\\kappa\_1...\]$ for some
-uncountable cardinals $\\kappa\_0,\\kappa\_1...&lt;\\aleph\_\\omega$.
-This is because the associated $M(T,\\alpha)$ will always have
-$M(T,\\alpha)\\prec L$ and furthermore $\\kappa\_0,\\kappa\_1...$ would
+such that $L\\models\\varphi\[κ\_0,κ\_1...\]$ for some
+uncountable cardinals $κ\_0,κ\_1...&lt;\\aleph\_ω$.
+This is because the associated $M(T,α)$ will always have
+$M(T,α)\\prec L$ and furthermore $κ\_0,κ\_1...$ would
 be indiscernibles for $L$.
 
 $0^\\\#$ exists interestingly iff some $L\_\\delta$ has an uncountable
 set of indiscernables. If $0^\\\#$ exists, then there is some
-uncountable $\\delta$ such that $M(0^\\\#,\\omega\_1)=L\_\\delta$ and
+uncountable $\\delta$ such that $M(0^\\\#,ω\_1)=L\_\\delta$ and
 $L\_\\delta$ therefore has an uncountable set of indiscernables. On the
 other hand, if some $L\_\\delta$ has an uncountable set of
 indiscernables, then the EM blueprint of $L\_\\delta$ is $0^\\\#$.

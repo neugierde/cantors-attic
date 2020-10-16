@@ -1,23 +1,23 @@
 ---
-title: Omega, $\omega$
+title: Omega, $ω$
 permalink: Omega
 redirect_from:
   - Aleph_zero
 ---
 
 
-The smallest infinite ordinal, often denoted $\\omega$ (omega), has the
+The smallest infinite ordinal, often denoted $ω$ (omega), has the
 order type of the natural numbers. As a [von Neumann
 ordinal](Ordinal "Ordinal"),
-$\\omega$ is in fact equal to the set of natural numbers. Since
-$\\omega$ is infinite, it is not equinumerous with any smaller ordinal,
+$ω$ is in fact equal to the set of natural numbers. Since
+$ω$ is infinite, it is not equinumerous with any smaller ordinal,
 and so it is an
 <a href="index.php?title=Initial_ordinal&amp;action=edit&amp;redlink=1" class="new" title="Initial ordinal (page does not exist)">initial ordinal</a>,
 that is, a
 [cardinal](Cardinal "Cardinal").
-When considered as a cardinal, the ordinal $\\omega$ is denoted
+When considered as a cardinal, the ordinal $ω$ is denoted
 $\\aleph\_0$. So while these two notations are intensionally
-different---we use the term $\\omega$ when using this number as an
+different---we use the term $ω$ when using this number as an
 ordinal and $\\aleph\_0$ when using it as a cardinal---nevertheless in
 the contemporary treatment of cardinals in ZFC as initial ordinals, they
 are extensionally the same and refer to the same object.
@@ -27,7 +27,7 @@ are extensionally the same and refer to the same object.
 ## Countable sets
 
 A set is *countable* if it can be put into bijective correspondence with
-a subset of $\\omega$. This includes all finite sets, and a set is
+a subset of $ω$. This includes all finite sets, and a set is
 *countably infinite* if it is countable and also infinite. Some famous
 examples of countable sets include:
 

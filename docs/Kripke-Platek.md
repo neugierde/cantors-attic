@@ -10,9 +10,9 @@ formal language used to express each axiom is first-order with equality
 ($=$) together with one binary relation symbol, $\\in$, intended to
 denote set membership.
 
-$L\_\\alpha$ is a model of $\\mathrm{KP}$ for
+$L\_α$ is a model of $\\mathrm{KP}$ for
 [admissible](Admissible "Admissible")
-$\\alpha$.
+$α$.
 
 ## Axiom of Extensionality
 

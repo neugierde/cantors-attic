@@ -111,35 +111,35 @@ $j\_U:M\\to\\text{Ult}\_U(M)$.
 
 ## Properties of ultrapowers of the universe of sets
 
-Let $U$ be a nonprincipal $\\kappa$-complete ultrafilter on some
+Let $U$ be a nonprincipal $κ$-complete ultrafilter on some
 [measurable](Measurable "Measurable")
-cardinal $\\kappa$ and $j\_U:V\\to\\text{Ult}\_U(V)$ be the canonical
+cardinal $κ$ and $j\_U:V\\to\\text{Ult}\_U(V)$ be the canonical
 ultrapower embedding of the universe. Let
 $\\text{Ult}=\\text{Ult}\_U(V)$ to simplify the notation. Then:
 
 -   $U\\not\\in\\text{Ult}$
--   $\\text{Ult}^\\kappa\\subseteq\\text{Ult}$
--   $2^\\kappa\\leq(2^\\kappa)^{\\text{Ult}}&lt;j\_U(\\kappa)&lt;(2^\\kappa)^+$
--   If $\\lambda&gt;\\kappa$ is a strong limit cardinal of cofinality
-    $\\neq\\kappa$ then $j(\\lambda)=\\lambda$.
--   If $\\lambda$ is a limit ordinal of cofinality $\\kappa$ then
-    $j\_U(\\lambda)&gt;lim\_{\\alpha\\to\\lambda}$ $j\_U(\\alpha)$, but
-    if $\\lambda$ has cofinality $\\neq\\kappa$, then
-    $j\_U(\\lambda)=lim\_{\\alpha\\to\\lambda}$ $j\_U(\\alpha)$.
+-   $\\text{Ult}^κ\\subseteq\\text{Ult}$
+-   $2^κ\\leq(2^κ)^{\\text{Ult}}&lt;j\_U(κ)&lt;(2^κ)^+$
+-   If $λ&gt;κ$ is a strong limit cardinal of cofinality
+    $\\neqκ$ then $j(λ)=λ$.
+-   If $λ$ is a limit ordinal of cofinality $κ$ then
+    $j\_U(λ)&gt;lim\_{α\\toλ}$ $j\_U(α)$, but
+    if $λ$ has cofinality $\\neqκ$, then
+    $j\_U(λ)=lim\_{α\\toλ}$ $j\_U(α)$.
 
 Also, the following statements are equivalent:
 
 -   $U$ is a normal measure
--   For every $X\\subseteq\\kappa$, $X\\in U$ if and only if
-    $\\kappa\\in j\_U(X)$.
--   In $(\\text{Ult}\_U(V),\\in\_U)$, $\\kappa=\[d\]$ where
-    $d:\\kappa\\to\\kappa$ is defined by $d(\\alpha)=\\alpha$ for every
-    $\\alpha&lt;\\kappa$.
+-   For every $X\\subseteqκ$, $X\\in U$ if and only if
+    $κ\\in j\_U(X)$.
+-   In $(\\text{Ult}\_U(V),\\in\_U)$, $κ=\[d\]$ where
+    $d:κ\\toκ$ is defined by $d(α)=α$ for every
+    $α&lt;κ$.
 
 Let $j:V\\to M$ be a nontrivial elementary embedding of $V$ into some
-transitive model $M$ with critical point $\\kappa$ (which is a
-measurable cardinal), also let $D=\\{X\\subseteq\\kappa:\\kappa\\in
-j(X)\\}$ be the canonical normal fine measure on $\\kappa$. Then:
+transitive model $M$ with critical point $κ$ (which is a
+measurable cardinal), also let $D=\\{X\\subseteqκ:κ\\in
+j(X)\\}$ be the canonical normal fine measure on $κ$. Then:
 
 -   There exists an elementary embedding $k:\\text{Ult}\\to M$ such that
     $k(j\_D(x))=j(x)$ for every $x\\in V$.
@@ -169,61 +169,61 @@ compact, then there is a model with a supercompact.
 
 ## Iterated ultrapowers
 
-Given a nonprincipal $\\kappa$-complete ultrafilter $U$ on some
-measurable cardinal $\\kappa$, we define the *iterated ultrapowers* the
+Given a nonprincipal $κ$-complete ultrafilter $U$ on some
+measurable cardinal $κ$, we define the *iterated ultrapowers* the
 following way: $$(\\text{Ult}^{(0)},E^{(0)})=(V,\\in)$$
-$$(\\text{Ult}^{(\\alpha+1)},E^{(\\alpha+1)})=\\text{Ult}\_{U^{(\\alpha)}}(\\text{Ult}^{(\\alpha)},E^{(\\alpha)})$$
-$$(\\text{Ult}^{(\\lambda)},E^{(\\lambda)})=\\text{lim
-dir}\_{\\alpha\\to\\lambda}\\{(\\text{Ult}^{(\\alpha)},E^{(\\alpha)}),i\_{\\alpha,\\beta})$$
-where $\\lambda$ is a limit ordinal, $limdir$ denotes direct limit,
-$i\_{\\alpha,\\beta} : \\text{Ult}^{(\\alpha)}\\to
-\\text{Ult}^{(\\beta)}$ is an elementary embedding defined as follows:
-$$i\_{\\alpha,\\alpha}(x)=j^{(\\alpha)}(x)$$
-$$i\_{\\alpha,\\alpha+n}(x)=j^{(\\alpha)}(j^{(\\alpha+1)}(...(j^{(\\alpha+n)}(x))...))$$
-$$i\_{\\alpha,\\lambda}(x)=\\mathrm{lim}\_{\\beta\\to\\lambda}i\_{\\alpha,\\beta}(x)$$
-and $j^{(\\alpha)}:\\text{Ult}^{(\\alpha)}\\to
-\\text{Ult}^{(\\alpha+1)}$ is the canonical ultrapower embedding from
-$\\text{Ult}^{(\\alpha)}$ to $\\text{Ult}^{(\\alpha+1)}$. Also,
-$U^{(\\alpha)}=i\_{0,\\alpha}(U)$ and
-$\\kappa^{(\\alpha+1)}=i\_{0,\\alpha}(\\kappa)$ where
-$\\kappa=\\kappa^{(0)}=\\text{crit}(j^{(0)})$.
+$$(\\text{Ult}^{(α+1)},E^{(α+1)})=\\text{Ult}\_{U^{(α)}}(\\text{Ult}^{(α)},E^{(α)})$$
+$$(\\text{Ult}^{(λ)},E^{(λ)})=\\text{lim
+dir}\_{α\\toλ}\\{(\\text{Ult}^{(α)},E^{(α)}),i\_{α,β})$$
+where $λ$ is a limit ordinal, $limdir$ denotes direct limit,
+$i\_{α,β} : \\text{Ult}^{(α)}\\to
+\\text{Ult}^{(β)}$ is an elementary embedding defined as follows:
+$$i\_{α,α}(x)=j^{(α)}(x)$$
+$$i\_{α,α+n}(x)=j^{(α)}(j^{(α+1)}(...(j^{(α+n)}(x))...))$$
+$$i\_{α,λ}(x)=\\mathrm{lim}\_{β\\toλ}i\_{α,β}(x)$$
+and $j^{(α)}:\\text{Ult}^{(α)}\\to
+\\text{Ult}^{(α+1)}$ is the canonical ultrapower embedding from
+$\\text{Ult}^{(α)}$ to $\\text{Ult}^{(α+1)}$. Also,
+$U^{(α)}=i\_{0,α}(U)$ and
+$κ^{(α+1)}=i\_{0,α}(κ)$ where
+$κ=κ^{(0)}=\\text{crit}(j^{(0)})$.
 
 If $M$ is a transitive model of set theory and $U$ is (in $M$) a
-$\\kappa$-complete nonprincipal ultrafilter on $\\kappa$, we can
+$κ$-complete nonprincipal ultrafilter on $κ$, we can
 construct, within $M$, the iterated ultrapowers. Let us denote by
-$\\text{Ult}^{(\\alpha)}\_U(M)$ the $\\alpha$th iterated ultrapower,
+$\\text{Ult}^{(α)}\_U(M)$ the $α$th iterated ultrapower,
 constructed in $M$.
 
 ### Properties
 
--   For every $\\alpha$ the $\\alpha$th iterated ultrapower
-    $(\\text{Ult}^{(\\alpha)},E^{(\\alpha)})$ is well-founded. This is
-    due to $U$ being nonprincipal and $\\kappa$-complete.
+-   For every $α$ the $α$th iterated ultrapower
+    $(\\text{Ult}^{(α)},E^{(α)})$ is well-founded. This is
+    due to $U$ being nonprincipal and $κ$-complete.
 
 
--   *The Factor Lemma*: for every $\\beta$, the iterated ultrapower
-    $\\text{Ult}^{(\\beta)}\_{U^{(\\alpha)}}(\\text{Ult}^{(\\alpha)})$
+-   *The Factor Lemma*: for every $β$, the iterated ultrapower
+    $\\text{Ult}^{(β)}\_{U^{(α)}}(\\text{Ult}^{(α)})$
     is isomorphic to the iterated ultrapower
-    $\\text{Ult}^{(\\alpha+\\beta)}$.
+    $\\text{Ult}^{(α+β)}$.
 
 
--   For every limit ordinal $\\lambda$,
-    $\\text{Ult}^{(\\lambda)}\\subseteq \\text{Ult}^{(\\alpha)}$ for
-    every $\\alpha&lt;\\lambda$. Also,
-    $\\kappa^{(\\lambda)}=\\text{lim}\_{\\alpha\\to\\lambda}$
-    $\\kappa^{(\\alpha)}$.
+-   For every limit ordinal $λ$,
+    $\\text{Ult}^{(λ)}\\subseteq \\text{Ult}^{(α)}$ for
+    every $α&lt;λ$. Also,
+    $κ^{(λ)}=\\text{lim}\_{α\\toλ}$
+    $κ^{(α)}$.
 
 
--   For every $\\alpha$, $\\beta$ such that $\\alpha&gt;\\beta$, one has
-    $\\kappa^{(\\alpha)}&gt;\\kappa^{(\\beta)}$.
+-   For every $α$, $β$ such that $α&gt;β$, one has
+    $κ^{(α)}&gt;κ^{(β)}$.
 
 
--   If $\\gamma&lt;\\kappa^{(\\alpha)}$ then
-    $i\_{\\alpha,\\beta}(\\gamma)=\\gamma$ for all $\\beta\\geq\\alpha$.
+-   If $\\gamma&lt;κ^{(α)}$ then
+    $i\_{α,β}(\\gamma)=\\gamma$ for all $β\\geqα$.
 
 
--   If $X\\subseteq\\kappa^{(\\alpha)}$ and $X\\in
-    \\text{Ult}^{(\\alpha)}$ then for all $\\beta\\geq\\alpha$, one has
-    $X=\\kappa^{(\\alpha)}\\cap i\_{\\alpha,\\beta}(X)$.
+-   If $X\\subseteqκ^{(α)}$ and $X\\in
+    \\text{Ult}^{(α)}$ then for all $β\\geqα$, one has
+    $X=κ^{(α)}\\cap i\_{α,β}(X)$.
 
 ### The representation lemma

@@ -42,10 +42,10 @@ cardinals,
 cardinals to
 [$n$-huge](Huge "Huge")
 cardinals, etc. More specifically, if the definition of the original
-axiom is that $j:V\\prec M$ has critical point $\\kappa$ and $M$ has
-some closure property which uses $\\kappa$, then the definition of the
+axiom is that $j:V\\prec M$ has critical point $κ$ and $M$ has
+some closure property which uses $κ$, then the definition of the
 $n$-fold variant of the axiom is that $M$ has that closure property on
-$j^n{\\kappa}$.
+$j^n{κ}$.
 
 ### $n$-fold Variants Which Are Simply the Original Large Cardinal
 
@@ -68,24 +68,24 @@ Here are a list of such cardinals:
 -   The **$n$-fold superhuge** cardinals are precisely the
     [$n$-superhuge](Huge "Huge")
     cardinals
--   The **$\\omega$-fold superstrong** and **$\\omega$-fold Shelah**
+-   The **$ω$-fold superstrong** and **$ω$-fold Shelah**
     cardinals are precisely the
     <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I2</a>
     cardinals
 
 ### $n$-fold supercompact cardinals
 
-A cardinal $\\kappa$ is **$n$-fold $\\lambda$-supercompact** iff it is
+A cardinal $κ$ is **$n$-fold $λ$-supercompact** iff it is
 the critical point of some nontrivial elementary embedding
-$j:V\\rightarrow M$ such that $\\lambda&lt;j(\\kappa)$ and
-$M^{j^{n-1}(\\lambda)}\\subset M$ (i.e. $M$ is closed under all of its
-sequences of length $j^{n-1}(\\lambda)$). This definition is very
+$j:V\\rightarrow M$ such that $λ&lt;j(κ)$ and
+$M^{j^{n-1}(λ)}\\subset M$ (i.e. $M$ is closed under all of its
+sequences of length $j^{n-1}(λ)$). This definition is very
 similar to that of the
 [$n$-huge](Huge "Huge")
 cardinals.
 
-A cardinal $\\kappa$ is **$n$-fold supercompact** iff it is $n$-fold
-$\\lambda$-supercompact for every $\\lambda$. Consistency-wise, the
+A cardinal $κ$ is **$n$-fold supercompact** iff it is $n$-fold
+$λ$-supercompact for every $λ$. Consistency-wise, the
 $n$-fold supercompact cardinals are stronger than the
 [$n$-superstrong](Superstrong "Superstrong")
 cardinals and weaker than the $(n+1)$-fold strong cardinals. In fact, if
@@ -102,13 +102,13 @@ cardinals.
 
 ### $n$-fold strong cardinals
 
-A cardinal $\\kappa$ is **$n$-fold $\\lambda$-strong** iff it is the
+A cardinal $κ$ is **$n$-fold $λ$-strong** iff it is the
 critical point of some nontrivial elementary embedding $j:V\\rightarrow
-M$ such that $\\kappa+\\lambda&lt;j(\\kappa)$ and
-$V\_{j^{n-1}(\\kappa+\\lambda)}\\subset M$.
+M$ such that $κ+λ&lt;j(κ)$ and
+$V\_{j^{n-1}(κ+λ)}\\subset M$.
 
-A cardinal $\\kappa$ is **$n$-fold strong** iff it is $n$-fold
-$\\lambda$-strong for every $\\lambda$. Consistency-wise, the
+A cardinal $κ$ is **$n$-fold strong** iff it is $n$-fold
+$λ$-strong for every $λ$. Consistency-wise, the
 $(n+1)$-fold strong cardinals are stronger than the $n$-fold
 supercompact cardinals, equivalent to the $n$-fold extendible cardinals,
 and weaker than the $(n+1)$-fold Woodin cardinals. More specifically, in
@@ -145,11 +145,11 @@ implies $n$-fold superstrongness.
 
 ### $n$-fold Woodin cardinals
 
-A cardinal $\\kappa$ is **$n$-fold Woodin** iff for every function
-$f:\\kappa\\rightarrow\\kappa$ there is some ordinal
-$\\alpha&lt;\\kappa$ such that
-$\\{f(\\beta):\\beta&lt;\\alpha\\}\\subseteq\\alpha$ and
-$V\_{j^{n}(f)(j^{n-1}(\\alpha))}\\subset M$. Consistency-wise, the
+A cardinal $κ$ is **$n$-fold Woodin** iff for every function
+$f:κ\\rightarrowκ$ there is some ordinal
+$α&lt;κ$ such that
+$\\{f(β):β&lt;α\\}\\subseteqα$ and
+$V\_{j^{n}(f)(j^{n-1}(α))}\\subset M$. Consistency-wise, the
 $(n+1)$-fold Woodin cardinals are stronger than the $(n+1)$-fold strong
 cardinals, and weaker than the $(n+1)$-fold Shelah cardinals.
 Specifically, in the rank of an $(n+1)$-fold Shelah cardinal there is an
@@ -168,9 +168,9 @@ cardinals.
 
 *(More to be added)*
 
-## $\\omega$-fold variants
+## $ω$-fold variants
 
-The $\\omega$-fold variant is a very strong version of the $n$-fold
+The $ω$-fold variant is a very strong version of the $n$-fold
 variant, to the point where they even beat some of the
 <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
 axioms in consistency strength. Interestingly, they follow a somewhat
@@ -180,10 +180,10 @@ Vopěnka (the jump is similar to the jump between a
 [strong](Strong "Strong")
 cardinal and a
 [Vopěnka](Vopenka "Vopenka")
-cardinal), but $\\omega$-fold strong is much, much stronger than
-$\\omega$-fold Vopěnka.
+cardinal), but $ω$-fold strong is much, much stronger than
+$ω$-fold Vopěnka.
 
-### $\\omega$-fold extendible
+### $ω$-fold extendible
 
 For ordinal $η$ and class $F$:
 
@@ -206,7 +206,7 @@ Results:
 -   If there is an $ω$-fold Vopěnka cardinal, then the existence of a
     proper class of $ω$-fold extendible cardinals is consistent.
 
-### $\\omega$-fold Vopěnka
+### $ω$-fold Vopěnka
 
 Definition:
 
@@ -227,44 +227,44 @@ Results:
 -   The critical point $κ$ of a witness of $IE^ω$ is the $κ$-th $ω$-fold
     Vopěnka cardinal.
 
-### $\\omega$-fold Woodin
+### $ω$-fold Woodin
 
-A cardinal $\\kappa$ is **$\\omega$-fold Woodin** iff for every function
-$f:\\kappa\\rightarrow\\kappa$ there is some ordinal
-$\\alpha&lt;\\kappa$ such that
-$\\{f(\\beta):\\beta&lt;\\alpha\\}\\subseteq\\alpha$ and
-$V\_{j^{\\omega}(f)(\\alpha))}\\subset M$.
+A cardinal $κ$ is **$ω$-fold Woodin** iff for every function
+$f:κ\\rightarrowκ$ there is some ordinal
+$α&lt;κ$ such that
+$\\{f(β):β&lt;α\\}\\subseteqα$ and
+$V\_{j^{ω}(f)(α))}\\subset M$.
 
-Consistency-wise, the existence of an $\\omega$-fold Woodin cardinal is
+Consistency-wise, the existence of an $ω$-fold Woodin cardinal is
 stronger than the
 <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I2</a>
-axiom, but weaker than the existence of an $\\omega$-fold strong
-cardinal. In particular, if there is an $\\omega$-fold strong cardinal
-$\\kappa$ then $\\kappa$ is $\\omega$-fold Woodin and has $\\kappa$-many
-$\\omega$-fold Woodin cardinals below it, and $V\_\\kappa$ satisfies the
-existence of a proper class of $\\omega$-fold Woodin cardinals.
+axiom, but weaker than the existence of an $ω$-fold strong
+cardinal. In particular, if there is an $ω$-fold strong cardinal
+$κ$ then $κ$ is $ω$-fold Woodin and has $κ$-many
+$ω$-fold Woodin cardinals below it, and $V\_κ$ satisfies the
+existence of a proper class of $ω$-fold Woodin cardinals.
 
-### $\\omega$-fold strong
+### $ω$-fold strong
 
-A cardinal $\\kappa$ is **$\\omega$-fold $\\lambda$-strong** iff it is
+A cardinal $κ$ is **$ω$-fold $λ$-strong** iff it is
 the critical point of some nontrivial elementary embedding
-$j:V\\rightarrow M$ such that $\\kappa+\\lambda&lt;j(\\kappa)$ and
-$V\_{j^\\omega(\\kappa+\\lambda)}\\subset M$.
+$j:V\\rightarrow M$ such that $κ+λ&lt;j(κ)$ and
+$V\_{j^ω(κ+λ)}\\subset M$.
 
-$\\kappa$ is **$\\omega$-fold strong** iff it is $\\omega$-fold
-$\\lambda$-strong for every $\\lambda$.
+$κ$ is **$ω$-fold strong** iff it is $ω$-fold
+$λ$-strong for every $λ$.
 
-Consistency-wise, the existence of an $\\omega$-fold strong cardinal is
-stronger than the existence of an $\\omega$-fold Woodin cardinal and
+Consistency-wise, the existence of an $ω$-fold strong cardinal is
+stronger than the existence of an $ω$-fold Woodin cardinal and
 weaker than the assertion that there is a $\\Sigma\_4^1$-elementary
-embedding $j:V\_\\lambda\\prec V\_\\lambda$ with an uncountable critical
-point $\\kappa&lt;\\lambda$ (this is a weakening of the
+embedding $j:V\_λ\\prec V\_λ$ with an uncountable critical
+point $κ&lt;λ$ (this is a weakening of the
 <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I1</a>
-axiom known as $E\_2$). In particular, if there is a cardinal $\\kappa$
+axiom known as $E\_2$). In particular, if there is a cardinal $κ$
 which is the critical point of some elementary embedding witnessing the
-$E\_2$ axiom, then there is a nonprincipal $\\kappa$-complete
+$E\_2$ axiom, then there is a nonprincipal $κ$-complete
 [ultrafilter](Filter "Filter")
-over $\\kappa$ which contains the set of all cardinals which are
-$\\omega$-fold strong in $V\_\\kappa$ and therefore $V\_\\kappa$
-satisfies the existence of a proper class of $\\omega$-fold strong
+over $κ$ which contains the set of all cardinals which are
+$ω$-fold strong in $V\_κ$ and therefore $V\_κ$
+satisfies the existence of a proper class of $ω$-fold strong
 cardinals.

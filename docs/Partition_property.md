@@ -29,119 +29,119 @@ involved with it is quite unique.
 ### Square Bracket Notation
 
 The square bracket notation is somewhat simple and easy to grasp (and
-used in many other places). Let $X$ be a set of ordinals. $\[X\]^\\beta$
-for some ordinal $\\beta$ is the set of all subsets $x\\subseteq X$ such
-that $(x,&lt;)$ has order-type $\\beta$; that is, there is a bijection
-$f$ from $x$ to $\\beta$ such that $f(a)&lt;f(b)$ iff $a&lt;b$ for each
+used in many other places). Let $X$ be a set of ordinals. $\[X\]^β$
+for some ordinal $β$ is the set of all subsets $x\\subseteq X$ such
+that $(x,&lt;)$ has order-type $β$; that is, there is a bijection
+$f$ from $x$ to $β$ such that $f(a)&lt;f(b)$ iff $a&lt;b$ for each
 $a$ and $b$ in $x$. Such a bijection is often called an
 order-isomorphism.
 
-$\[X\]^{&lt;\\beta}$ for some ordinal $\\beta$ is simply defined as the
-union of all $\[X\]^{\\alpha}$ for $\\alpha&lt;\\beta$, the set of all
-subsets $x\\subseteq X$ with order-type less than $\\beta$. In the case
-of $\\omega$, $\[X\]^{&lt;\\omega}$ is the set of all finite subsets of
+$\[X\]^{&lt;β}$ for some ordinal $β$ is simply defined as the
+union of all $\[X\]^{α}$ for $α&lt;β$, the set of all
+subsets $x\\subseteq X$ with order-type less than $β$. In the case
+of $ω$, $\[X\]^{&lt;ω}$ is the set of all finite subsets of
 $X$.
 
 ### Homogeneous Sets
 
-Let $f:\[\\kappa\]^\\beta\\rightarrow\\lambda$ be a function (in this
+Let $f:\[κ\]^β\\rightarrowλ$ be a function (in this
 study, such functions are often called partitions). A set
-$H\\subseteq\\kappa$ is then called **homogeneous for $f$** when for any
-two subsets $h\_0,h\_1\\subseteq H$ of order type $\\beta$,
+$H\\subseteqκ$ is then called **homogeneous for $f$** when for any
+two subsets $h\_0,h\_1\\subseteq H$ of order type $β$,
 $f(h\_0)=f(h\_1)$. This is equivalent to $f$ being constant on
-$\[H\]^\\beta$.
+$\[H\]^β$.
 
-In another case, let $f:\[\\kappa\]^{&lt;\\omega}\\rightarrow\\lambda$
-be a function. A set $H\\subseteq\\kappa$ is then called **homogeneous
+In another case, let $f:\[κ\]^{&lt;ω}\\rightarrowλ$
+be a function. A set $H\\subseteqκ$ is then called **homogeneous
 for $f$** when for any two finite subsets $h\_0,h\_1\\subseteq H$ of the
 same size, $f(h\_0)=f(h\_1)$.
 
 ### The Various Partition Properties
 
-Let $\\kappa$ and $\\lambda$ be cardinals and let $\\alpha$ and $\\beta$
+Let $κ$ and $λ$ be cardinals and let $α$ and $β$
 be ordinals. Then, the following notations are used for the partition
 properties:
 
--   $\\kappa\\rightarrow (\\alpha)\_\\lambda^\\beta$ iff for every
-    function $f:\[\\kappa\]^\\beta\\rightarrow\\lambda$, there is set
-    $H$ of order-type $\\alpha$ which is homogeneous for $f$. If
-    $\\alpha$ is a cardinal (which it most often is), then the
+-   $κ\\rightarrow (α)\_λ^β$ iff for every
+    function $f:\[κ\]^β\\rightarrowλ$, there is set
+    $H$ of order-type $α$ which is homogeneous for $f$. If
+    $α$ is a cardinal (which it most often is), then the
     requirement on $H$ can be loosened to $H$ having cardinality
-    $\\alpha$ and being homogeneous for $f$ without loss of generality.
+    $α$ and being homogeneous for $f$ without loss of generality.
     {% cite Kanamori2009 %}
--   A common abbreviation for $\\kappa\\rightarrow (\\alpha)\_2^n$ is
-    $\\kappa\\rightarrow (\\alpha)^n$.
--   $\\kappa\\rightarrow (\\alpha)\_\\lambda^{&lt;\\omega}$ iff for
-    every function $f:\[\\kappa\]^{&lt;\\omega}\\rightarrow\\lambda$,
-    there is set $H$ of order-type $\\alpha$ which is homogeneous for
-    $f$. If $\\alpha$ is a cardinal (which it most often is), then the
+-   A common abbreviation for $κ\\rightarrow (α)\_2^n$ is
+    $κ\\rightarrow (α)^n$.
+-   $κ\\rightarrow (α)\_λ^{&lt;ω}$ iff for
+    every function $f:\[κ\]^{&lt;ω}\\rightarrowλ$,
+    there is set $H$ of order-type $α$ which is homogeneous for
+    $f$. If $α$ is a cardinal (which it most often is), then the
     requirement on $H$ can be loosened to $H$ having cardinality
-    $\\alpha$ and being homogeneous for $f$ without loss of generality.
+    $α$ and being homogeneous for $f$ without loss of generality.
     {% cite Kanamori2009 %}
 
 Let $\\nu$ be a cardinal. The **square bracket partition properties**
 are defined as follows:
 
--   $\\kappa\\rightarrow \[\\alpha\]\_\\lambda^\\beta$ iff for every
-    function $f:\[\\kappa\]^\\beta\\rightarrow\\lambda$, there is set
-    $H$ of order-type $\\alpha$ and an ordinal $\\gamma&lt;\\lambda$
-    such that $f(h)\\neq\\gamma$ for any $h\\in \[H\]^\\beta$.
--   $\\kappa\\rightarrow \[\\alpha\]\_\\lambda^{&lt;\\omega}$ iff for
-    every function $f:\[\\kappa\]^{&lt;\\omega}\\rightarrow\\lambda$,
-    there is set $H$ of order-type $\\alpha$ and an ordinal
-    $\\gamma&lt;\\lambda$ such that $f(h)\\neq\\gamma$ for any finite
+-   $κ\\rightarrow \[α\]\_λ^β$ iff for every
+    function $f:\[κ\]^β\\rightarrowλ$, there is set
+    $H$ of order-type $α$ and an ordinal $\\gamma&lt;λ$
+    such that $f(h)\\neq\\gamma$ for any $h\\in \[H\]^β$.
+-   $κ\\rightarrow \[α\]\_λ^{&lt;ω}$ iff for
+    every function $f:\[κ\]^{&lt;ω}\\rightarrowλ$,
+    there is set $H$ of order-type $α$ and an ordinal
+    $\\gamma&lt;λ$ such that $f(h)\\neq\\gamma$ for any finite
     subset $h$ of $H$.
--   $\\kappa\\rightarrow \[\\alpha\]\_{\\lambda,&lt;\\nu}^\\beta$ iff
-    for every function $f:\[\\kappa\]^\\beta\\rightarrow\\lambda$, there
-    is set $H$ of order-type $\\alpha$ such that $f$ restricted to
-    $\[H\]^\\beta$ yields less than $\\nu$-many distinct outputs. Note
-    that $\\kappa\\rightarrow\[\\alpha\]\_{\\lambda,&lt;2}^\\beta$ iff
-    $\\kappa\\rightarrow(\\alpha)\_\\lambda^\\beta$.
--   $\\kappa\\rightarrow \[\\alpha\]\_{\\lambda,&lt;\\nu}^{&lt;\\omega}$
+-   $κ\\rightarrow \[α\]\_{λ,&lt;\\nu}^β$ iff
+    for every function $f:\[κ\]^β\\rightarrowλ$, there
+    is set $H$ of order-type $α$ such that $f$ restricted to
+    $\[H\]^β$ yields less than $\\nu$-many distinct outputs. Note
+    that $κ\\rightarrow\[α\]\_{λ,&lt;2}^β$ iff
+    $κ\\rightarrow(α)\_λ^β$.
+-   $κ\\rightarrow \[α\]\_{λ,&lt;\\nu}^{&lt;ω}$
     iff for every function
-    $f:\[\\kappa\]^{&lt;\\omega}\\rightarrow\\lambda$, there is set $H$
-    of order-type $\\alpha$ such that $f$ restricted to
-    $\[H\]^{&lt;\\omega}$ yields less than $\\nu$-many distinct outputs.
+    $f:\[κ\]^{&lt;ω}\\rightarrowλ$, there is set $H$
+    of order-type $α$ such that $f$ restricted to
+    $\[H\]^{&lt;ω}$ yields less than $\\nu$-many distinct outputs.
 
 ## Theorems and Large Cardinal Axioms
 
 There are several theorems in the study of partition calculus. Namely:
 
 -   Ramsey's theorem, which states that $\\aleph\_0\\rightarrow
-    (\\omega)\_m^n$ for each finite $m$ and $n$.
+    (ω)\_m^n$ for each finite $m$ and $n$.
     {% cite Jech2003 %}
--   $2^\\kappa\\not\\rightarrow (\\kappa^+)^2$
+-   $2^κ\\not\\rightarrow (κ^+)^2$
     {% cite Jech2003 %}
 -   The Erdős-Rado theorem, which states that
-    $\\beth\_n(\\kappa)^+\\rightarrow (\\kappa^+)\_\\kappa^{n+1}$.
+    $\\beth\_n(κ)^+\\rightarrow (κ^+)\_κ^{n+1}$.
     {% cite Kanamori2009 %}
--   $\\kappa\\not\\rightarrow(\\omega)\_2^\\omega$
+-   $κ\\not\\rightarrow(ω)\_2^ω$
     {% cite Kanamori2009 %}
--   For any finite nonzero $n$ and ordinals $\\alpha$ and $\\beta$,
-    there is a $\\kappa$ such that
-    $\\kappa\\rightarrow(\\alpha)\_\\beta^n$.
+-   For any finite nonzero $n$ and ordinals $α$ and $β$,
+    there is a $κ$ such that
+    $κ\\rightarrow(α)\_β^n$.
     {% cite Kanamori2009 %}
 -   The Gödel-Erdős-Kakutani theorem, which states that
-    $2^\\kappa\\not\\rightarrow (3)^2\_\\kappa$.
+    $2^κ\\not\\rightarrow (3)^2\_κ$.
     {% cite Kanamori2009 %}
--   $\\kappa\\not\\rightarrow \[\\kappa\]\_\\kappa^\\omega$.
+-   $κ\\not\\rightarrow \[κ\]\_κ^ω$.
     {% cite Kanamori2009 %}
--   $\\lambda^+\\not\\rightarrow\[\\lambda+1\]^2\_{\\lambda,&lt;\\lambda}$
+-   $λ^+\\not\\rightarrow\[λ+1\]^2\_{λ,&lt;λ}$
     {% cite Kanamori2009 %}
--   $\\lambda\\not\\rightarrow\[\\lambda\]^1\_{\\mathrm{cf}(\\lambda),&lt;\\mathrm{cf}(\\lambda)}$
+-   $λ\\not\\rightarrow\[λ\]^1\_{\\mathrm{cf}(λ),&lt;\\mathrm{cf}(λ)}$
     {% cite Kanamori2009 %}
--   For any regular $\\kappa$,
-    $\\kappa^+\\not\\rightarrow\[\\kappa^+\]^2\_{\\kappa^+}$.
+-   For any regular $κ$,
+    $κ^+\\not\\rightarrow\[κ^+\]^2\_{κ^+}$.
     {% cite Kanamori2009 %}
 -   For any
     [inaccessible](Inaccessible "Inaccessible")
-    cardinal $\\kappa$, $\\kappa\\rightarrow(\\lambda)\_\\lambda^2$ for
-    any $\\lambda&lt;\\kappa$ {% cite Drake1974 %} .
+    cardinal $κ$, $κ\\rightarrow(λ)\_λ^2$ for
+    any $λ&lt;κ$ {% cite Drake1974 %} .
     However, this may not be an equivalence; if the
     <a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
-    holds at $\\kappa$, then
-    $(\\kappa^{++})\\rightarrow(\\lambda)^2\_\\kappa$ for any
-    $\\lambda&lt;\\kappa^{++}$.
+    holds at $κ$, then
+    $(κ^{++})\\rightarrow(λ)^2\_κ$ for any
+    $λ&lt;κ^{++}$.
 
 In terms of large cardinal axioms, many can be described using a
 partition property. Here are those which can be found on this website:
@@ -149,34 +149,34 @@ partition property. Here are those which can be found on this website:
 -   Although not a large cardinal itself, [Chang's
     conjecture](Chang%27s_conjecture "Chang's conjecture")
     holds iff
-    $\\aleph\_2\\rightarrow\[\\omega\_1\]^{&lt;\\omega}\_{\\aleph\_1,&lt;\\aleph\_1}$,
+    $\\aleph\_2\\rightarrow\[ω\_1\]^{&lt;ω}\_{\\aleph\_1,&lt;\\aleph\_1}$,
     iff
-    $\\aleph\_2\\rightarrow\[\\omega\_1\]^{n}\_{\\aleph\_1,&lt;\\aleph\_1}$
+    $\\aleph\_2\\rightarrow\[ω\_1\]^{n}\_{\\aleph\_1,&lt;\\aleph\_1}$
     for some $n$, iff
-    $\\aleph\_2\\rightarrow\[\\omega\_1\]^{n}\_{\\aleph\_1,&lt;\\aleph\_1}$
+    $\\aleph\_2\\rightarrow\[ω\_1\]^{n}\_{\\aleph\_1,&lt;\\aleph\_1}$
     for every finite $n$. {% cite Kanamori2009 %}
--   A cardinal $\\kappa$ is
+-   A cardinal $κ$ is
     [Ramsey](Ramsey "Ramsey")
-    iff $\\kappa\\rightarrow(\\kappa)\_\\lambda^{&lt;\\omega}$ for some
-    $\\lambda&gt;1$, iff
-    $\\kappa\\rightarrow(\\kappa)\_\\lambda^{&lt;\\omega}$ for every
-    $\\lambda&lt;\\kappa$.
+    iff $κ\\rightarrow(κ)\_λ^{&lt;ω}$ for some
+    $λ&gt;1$, iff
+    $κ\\rightarrow(κ)\_λ^{&lt;ω}$ for every
+    $λ&lt;κ$.
     {% cite Kanamori2009 Jech2003 %}
--   A cardinal $\\kappa$ is the
-    [$\\alpha$-Erdős](Erdos "Erdos")
-    cardinal iff it is the smallest $\\kappa$ such that
-    $\\kappa\\rightarrow(\\alpha)^{&lt;\\omega}$.
--   A cardinal $\\kappa$ is defined to be
+-   A cardinal $κ$ is the
+    [$α$-Erdős](Erdos "Erdos")
+    cardinal iff it is the smallest $κ$ such that
+    $κ\\rightarrow(α)^{&lt;ω}$.
+-   A cardinal $κ$ is defined to be
     [$\\nu$-Rowbottom](Rowbottom "Rowbottom")
     iff
-    $\\kappa\\rightarrow\[\\kappa\]\_{\\lambda,&lt;\\nu}^{&lt;\\omega}$
-    for every $\\lambda&lt;\\kappa$.
--   A cardinal $\\kappa$ is
+    $κ\\rightarrow\[κ\]\_{λ,&lt;\\nu}^{&lt;ω}$
+    for every $λ&lt;κ$.
+-   A cardinal $κ$ is
     [Jónsson](Jonsson "Jonsson")
-    iff $\\kappa\\rightarrow\[\\kappa\]\_\\kappa^{&lt;\\omega}$.
+    iff $κ\\rightarrow\[κ\]\_κ^{&lt;ω}$.
     {% cite Kanamori2009 %}
--   A cardinal $\\kappa$ is [weakly
+-   A cardinal $κ$ is [weakly
     compact](Weakly_compact "Weakly compact")
-    iff $\\kappa\\rightarrow(\\kappa)^2\_\\lambda$ for some
-    $\\lambda&gt;1$, iff $\\kappa\\rightarrow(\\kappa)^2\_\\lambda$ for
-    every $\\lambda&lt;\\kappa$. {% cite Jech2003 %}
+    iff $κ\\rightarrow(κ)^2\_λ$ for some
+    $λ&gt;1$, iff $κ\\rightarrow(κ)^2\_λ$ for
+    every $λ&lt;κ$. {% cite Jech2003 %}

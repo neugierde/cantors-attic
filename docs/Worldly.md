@@ -13,8 +13,8 @@ permalink: Worldly
 
 
 
-A cardinal $\\kappa$ is *worldly* if $V\_\\kappa$ is a model of
-$\\text{ZF}$. It follows that $\\kappa$ is a
+A cardinal $κ$ is *worldly* if $V\_κ$ is a model of
+$\\text{ZF}$. It follows that $κ$ is a
 <a href="Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>,
 a
 <a href="Beth_fixed_point" class="mw-redirect" title="Beth fixed point">beth fixed point</a>
@@ -29,28 +29,28 @@ and a fixed point of the enumeration of these, and more.
     [inaccessible](Inaccessible "Inaccessible").
 -   The least worldly cardinal has
     <a href="Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
-    $\\omega$.
+    $ω$.
 -   Indeed, the next worldly cardinal above any ordinal, if any exist,
     has
     <a href="Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
-    $\\omega$.
--   Any worldly cardinal $\\kappa$ of uncountable cofinality is a limit
-    of $\\kappa$ many worldly cardinals.
+    $ω$.
+-   Any worldly cardinal $κ$ of uncountable cofinality is a limit
+    of $κ$ many worldly cardinals.
 
 ## Degrees of worldliness
 
-A cardinal $\\kappa$ is *$1$-worldly* if it is worldly and a limit of
-worldly cardinals. More generally, $\\kappa$ is *$\\alpha$-worldly* if
-it is worldly and for every $\\beta\\lt\\alpha$, the $\\beta$-worldly
-cardinals are unbounded in $\\kappa$. The cardinal $\\kappa$ is
-*hyper-worldly* if it is $\\kappa$-worldly. One may proceed to define
-notions of $\\alpha$-hyper-worldly and
-$\\alpha$-hyper${}^\\beta$-worldly in analogy with the
+A cardinal $κ$ is *$1$-worldly* if it is worldly and a limit of
+worldly cardinals. More generally, $κ$ is *$α$-worldly* if
+it is worldly and for every $β\\ltα$, the $β$-worldly
+cardinals are unbounded in $κ$. The cardinal $κ$ is
+*hyper-worldly* if it is $κ$-worldly. One may proceed to define
+notions of $α$-hyper-worldly and
+$α$-hyper${}^β$-worldly in analogy with the
 [hyper-inaccessible
 cardinals](Inaccessible#hyper-inaccessible "Inaccessible").
 Every
 [inaccessible](Inaccessible "Inaccessible")
-cardinal $\\kappa$ is hyper${}^\\kappa$-worldly, and a limit of such
+cardinal $κ$ is hyper${}^κ$-worldly, and a limit of such
 kinds of cardinals.
 
 The consistency strength of a $1$-worldly cardinal is stronger than that
@@ -62,13 +62,13 @@ Hamkins at the CUNY Graduate Center and at NYU.
 
 ## Replacement Characterization
 
-As long as $\\kappa$ is an uncountable cardinal, $V\_\\kappa$ already
+As long as $κ$ is an uncountable cardinal, $V\_κ$ already
 satisfies $\\text{ZF}^-$ ($\\text{ZF}$ without the axiom schema of
-replacement). So, $\\kappa$ is worldly if and only if $\\kappa$ is
-uncountable and $V\_\\kappa$ satisfies the axiom schema of replacement.
-More analytically, $\\kappa$ is worldly if and only if $\\kappa$ is
-uncountable and for any function $f:A\\rightarrow V\_\\kappa$ definable
-from parameters in $V\_\\kappa$ for some $A\\in V\_\\kappa$, $f"A\\in
-V\_\\kappa$ also.
+replacement). So, $κ$ is worldly if and only if $κ$ is
+uncountable and $V\_κ$ satisfies the axiom schema of replacement.
+More analytically, $κ$ is worldly if and only if $κ$ is
+uncountable and for any function $f:A\\rightarrow V\_κ$ definable
+from parameters in $V\_κ$ for some $A\\in V\_κ$, $f"A\\in
+V\_κ$ also.
 
 

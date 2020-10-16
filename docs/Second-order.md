@@ -119,16 +119,16 @@ and weaker than the existence of an
 cardinal. It directly implies the consistency of $\\text{ZFC}$ plus
 "there is a proper class of
 [worldly](Worldly "Worldly")
-cardinals stationary in $\\text{Ord}$". However, if a cardinal $\\kappa$
-is inaccessible then $V\_{\\kappa+1}\\models\\text{MK}$, also
-$\\text{def}(V\_\\kappa)$ satisfies $\\text{NBG}$ minus global choice
+cardinals stationary in $\\text{Ord}$". However, if a cardinal $κ$
+is inaccessible then $V\_{κ+1}\\models\\text{MK}$, also
+$\\text{def}(V\_κ)$ satisfies $\\text{NBG}$ minus global choice
 (i.e. replacing limitation of size by $\\text{ZFC}$'s axiom of
 replacement).
 
 Because it uses classes, set models of $\\text{MK}$ are generally taken
 to be the powerset of some model of $\\text{ZFC}$. For this reason, a
-large cardinal axiom with $V\_\\kappa$ having some elementary property
-can be strengthened by instead using $V\_{\\kappa+1}$. When doing this
+large cardinal axiom with $V\_κ$ having some elementary property
+can be strengthened by instead using $V\_{κ+1}$. When doing this
 with
 [$\\Pi\_m^0$-indescribability](Indescribable "Indescribable"),
 one achieves

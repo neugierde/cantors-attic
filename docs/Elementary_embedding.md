@@ -15,9 +15,9 @@ embedding. An embedding is **nontrivial** if there exists
 $x\\in\\mathcal{M}$ such that $j(x)\\neq x$.
 
 The critical point is the smallest ordinal moved by $j$. By $j$'s
-elementarity, $j(\\kappa)$ must also be an ordinal, and therefore it is
-comparable with $\\kappa$. It is easy to see why
-$j(\\kappa)\\leq\\kappa$ is impossible, thus $j(\\kappa)&gt;\\kappa$.
+elementarity, $j(κ)$ must also be an ordinal, and therefore it is
+comparable with $κ$. It is easy to see why
+$j(κ)\\leqκ$ is impossible, thus $j(κ)&gt;κ$.
 
 
 ## Definition
@@ -29,7 +29,7 @@ parameters $x\_1,...,x\_n\\in\\mathcal{N}$, one has:
 $$\\mathcal{M}\\models\\varphi(x\_1,...,x\_2)\\iff\\mathcal{N}\\models\\varphi(j(x\_1),...,j(x\_2))$$
 
 $j$ is nontrivial if and only if it has a critical point, i.e.
-$\\exists\\kappa(j(\\kappa)\\neq\\kappa)$. Indeed, one can show by
+$\\existsκ(j(κ)\\neqκ)$. Indeed, one can show by
 transfinite induction that if $j$ does not move any ordinal then $j$
 does not move any set at all, thus a critical point must exists whenever
 $j$ is nontrivial.
@@ -90,7 +90,7 @@ important consequences, such as the existence of
 <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$</a>
 (and thus $V\\neq L$) and implies that every ordinal that is an
 uncountable cardinal in V is strongly inaccessible in L. By taking
-$\\mathcal{M}=\\mathcal{N}=V\_\\lambda$, i.e. a rank of the cumulative
+$\\mathcal{M}=\\mathcal{N}=V\_λ$, i.e. a rank of the cumulative
 hiearchy, one obtains the very powerful
 <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
 axioms, which sit near the very top of the large cardinal hiearchy.
@@ -101,25 +101,25 @@ the
 a theorem now known as the **[Kunen
 inconsistency](Kunen_inconsistency "Kunen inconsistency")**.
 He also showed that a natural strengthening of the rank-into-rank
-axioms, $\\mathcal{M}=\\mathcal{N}=V\_{\\lambda+2}$ for some
-$\\lambda\\in Ord$, was inconsistent with the $AC$.
+axioms, $\\mathcal{M}=\\mathcal{N}=V\_{λ+2}$ for some
+$λ\\in Ord$, was inconsistent with the $AC$.
 
 Most large cardinal axioms inbetween measurables and rank-into-rank
 axioms are obtained by mixing those two methods: one usually sets
 $\\mathcal{M}=V$ then requires $\\mathcal{N}$ to satisfies strong
 closure properties to make it "larger", i.e. closer to $V$ (that is, to
 $\\mathcal{M}$). For example, $j:V\\to\\mathcal{N}$ is nontrivial with
-critical point $\\kappa$ and the cumulative hiearchy rank
-$V\_{j(\\kappa)}$ is a subset of $\\mathcal{N}$ then $\\kappa$ is
+critical point $κ$ and the cumulative hiearchy rank
+$V\_{j(κ)}$ is a subset of $\\mathcal{N}$ then $κ$ is
 [superstrong](Superstrong "Superstrong");
 if $\\mathcal{N}$ contains all sequences of elements of $\\mathcal{N}$
-of length $\\lambda$ for some $\\lambda&gt;\\kappa$ then $\\kappa$ is
-$\\lambda$-[supercompact](Supercompact "Supercompact"),
+of length $λ$ for some $λ&gt;κ$ then $κ$ is
+$λ$-[supercompact](Supercompact "Supercompact"),
 and so on.
 
 The existence of a nontrivial elementary embedding
 $j:\\mathcal{M}\\to\\mathcal{N}$ *that is definable in $\\mathcal{M}$*
-implies that the critical point $\\kappa$ of $j$ is
+implies that the critical point $κ$ of $j$ is
 [measurable](Measurable "Measurable")
 in $\\mathcal{M}$ (not necessarily in $V$). Every measurable ordinal is
 [weakly
@@ -145,7 +145,7 @@ embeddings:
     super-n-huge](Huge "Huge"),
     [n-huge](Huge "Huge"),
     [super-n-huge](Huge "Huge"),
-    [$\\omega$-huge](Huge "Huge")
+    [$ω$-huge](Huge "Huge")
 -   High jump cardinals: [almost
     high-jump](High-jump "High-jump"),
     [high-jump](High-jump "High-jump"),
@@ -155,10 +155,10 @@ embeddings:
     closure](High-jump "High-jump")
 -   [Extendible](Extendible "Extendible")
     cardinals,
-    [$\\alpha$-extendible](Extendible "Extendible")
+    [$α$-extendible](Extendible "Extendible")
 -   Compact cardinals:
     [supercompact](Supercompact "Supercompact"),
-    [$\\lambda$-supercompact](Supercompact "Supercompact"),
+    [$λ$-supercompact](Supercompact "Supercompact"),
     [strongly
     compact](Strongly_compact "Strongly compact"),
     [nearly

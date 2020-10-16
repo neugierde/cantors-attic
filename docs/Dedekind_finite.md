@@ -22,9 +22,9 @@ and only if $\\aleph\_0\\le\|X\|$.
 There are several classes of Dedekind finite sets: (in this context
 ordered means linearly ordered)
 
-1.  $\\omega$, the set of finite cardinals.
-2.  $\\Delta\_1 = \\{x\\mid x=y+z\\rightarrow y\\in\\omega\\lor
-    z\\in\\omega\\}$, all those cardinals that cannot be written as the
+1.  $ω$, the set of finite cardinals.
+2.  $\\Delta\_1 = \\{x\\mid x=y+z\\rightarrow y\\inω\\lor
+    z\\inω\\}$, all those cardinals that cannot be written as the
     disjoint union of infinite sets (also known as
     <a href="index.php?title=Amorphous&amp;action=edit&amp;redlink=1" class="new" title="Amorphous (page does not exist)">amorphous</a>
     sets).
@@ -32,13 +32,13 @@ ordered means linearly ordered)
     is finite}$, all those that cannot be mapped surjectively onto an
     infinite ordered set.
 4.  $\\Delta\_3 = \\{x\\mid y\\subseteq x\\text{ can be
-    ordered}\\Leftrightarrow \|y\|\\in\\omega\\}$, all those that have
+    ordered}\\Leftrightarrow \|y\|\\inω\\}$, all those that have
     no injection from an infinite ordered set.
-5.  $\\Delta\_4 = \\{x\\mid \\omega\\nleq^\\ast x\\}$, all those that
-    cannot be mapped surjectively onto $\\omega$.
+5.  $\\Delta\_4 = \\{x\\mid ω\\nleq^\\ast x\\}$, all those that
+    cannot be mapped surjectively onto $ω$.
 6.  $\\Delta\_5 = \\{x\\mid x+1\\nleq^\\ast x\\}$, all the cardinals
     that cannot be surjectively mapped onto a finitely larger set.
-7.  $\\Delta = \\{x\\mid \\omega\\nleq x\\}$, all the Dedekind finite
+7.  $\\Delta = \\{x\\mid ω\\nleq x\\}$, all the Dedekind finite
     cardinals.
 
 In \[Tru74\] the relations between the different classes is established,
@@ -50,7 +50,7 @@ implications between different choice principles. For example:
 
 -   By adding a Dedekind finite set of real numbers it is possible to
     show that the ultrafilter lemma holds; that every set can be
-    linearly ordered; every set can be mapped onto $\\omega$; however
+    linearly ordered; every set can be mapped onto $ω$; however
     the axiom of choice fails (for countable families).
 -   By adding an amorphous set one shows that it is possible to have
     that not every set can be linearly ordered.

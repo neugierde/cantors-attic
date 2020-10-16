@@ -54,33 +54,33 @@ precisely definability in second-order arithmethic).
 
 ## Type of games that are determined
 
-Given a set $S$ of infinite sequences of order-type (length) $\\omega$
-(i.e, a subset of the Baire Space $\\omega^{\\omega}$), the *payoff*
+Given a set $S$ of infinite sequences of order-type (length) $ω$
+(i.e, a subset of the Baire Space $ω^{ω}$), the *payoff*
 set, the game begins as such: Player I says a natural number $n\_0$,
 then Player II says a natural number $n\_1$, and so on, until a sequence
-of order-type $\\omega$ is constructed. At this point, a natural number
+of order-type $ω$ is constructed. At this point, a natural number
 $n\_i$ has been given for every natural number $i$. Player I wins if
 $(n\_0,n\_1,n\_2...)\\in S$, Player II wins otherwise. Since
-$\\omega^\\omega$ and the set $\\mathbb{R}$ of the real numbers are in
+$ω^ω$ and the set $\\mathbb{R}$ of the real numbers are in
 bijection with the other, we shall often identify the elements of
-$\\omega^\\omega$ as the *real numbers*, like if $\\omega^\\omega$ and
+$ω^ω$ as the *real numbers*, like if $ω^ω$ and
 $\\mathbb{R}$ were equal. Thus the game considered here produces a real
 number.
 
 A *strategy* for player I (resp. player II) is a function $\\Sigma$ with
 domain the set of sequences of integers of even (odd) length such that
-for each $a\\in dom(\\Sigma)$, $\\Sigma(a)\\in\\omega$. A run of the
+for each $a\\in dom(\\Sigma)$, $\\Sigma(a)\\inω$. A run of the
 game (partial or complete) is said to be according to a strategy
 $\\Sigma$ for player player I (player II) if every initial segment of
 the run of odd (nonzero even) length is of the form
 $a\\frown⟨\\Sigma(a)⟩$ for some sequence $a$. A strategy $\\Sigma$ for
 player player I (player II) is a winning strategy if every complete run
 of the game according to $\\Sigma$ is in (out of) $S$. We say that a set
-$S\\subset\\omega^\\omega$ is determined if there exists a winning
+$S\\subsetω^ω$ is determined if there exists a winning
 strategy for one of the players
 
 The **axiom of determinacy** ($\\text{AD}$) states that every payoff set
-$S\\subset\\omega^\\omega$ is determined
+$S\\subsetω^ω$ is determined
 {% cite Larson2013 %}. It is possible to show
 that every finite or countable payoff set is determined, so this
 equivalent to the assertion that every uncountable payoff set is
@@ -94,60 +94,60 @@ of determinacy fails. We outline a construction of an undetermined game
 starting from a well-ordering of continuum.
 
 A strategy for either player is a function with countable domain (a
-subset of the set of all finite sequences of integers) to $\\omega$, so
+subset of the set of all finite sequences of integers) to $ω$, so
 there are $2^{\\aleph\_0}$ many strategies for player I and
 $2^{\\aleph\_0}$ continuum many strategies for player II. Let
-$\\{s^{I}\_\\alpha:\\alpha&lt;2^{\\aleph\_0}\\},
-\\{s^{II}\_\\alpha:\\alpha&lt;2^{\\aleph\_0}\\}$ be enumerations of
+$\\{s^{I}\_α:α&lt;2^{\\aleph\_0}\\},
+\\{s^{II}\_α:α&lt;2^{\\aleph\_0}\\}$ be enumerations of
 strategies for the respective players. We shall now construct, by
 transfinite recursion, two disjoint sets of sequences
-$\\{a\_\\alpha:\\alpha&lt;2^{\\aleph\_0}\\},
-\\{b\_\\alpha:\\alpha&lt;2^{\\aleph\_0}\\}\\subseteq\\omega^\\omega$
-such that $\\{a\_\\alpha:\\alpha&lt;2^{\\aleph\_0}\\}$ is not
+$\\{a\_α:α&lt;2^{\\aleph\_0}\\},
+\\{b\_α:α&lt;2^{\\aleph\_0}\\}\\subseteqω^ω$
+such that $\\{a\_α:α&lt;2^{\\aleph\_0}\\}$ is not
 determined.
 
-Suppose that, for some $\\beta&lt;2^{\\aleph\_0}$,
-$\\{a\_\\alpha:\\alpha&lt;\\beta\\},\\{b\_\\alpha:\\alpha&lt;\\beta\\}$
-have already been constructed. Take strategy $s^I\_\\beta$. There are
+Suppose that, for some $β&lt;2^{\\aleph\_0}$,
+$\\{a\_α:α&lt;β\\},\\{b\_α:α&lt;β\\}$
+have already been constructed. Take strategy $s^I\_β$. There are
 continuum many possible plays according to this strategy (since player
 II can play in arbitrary way at any of their turns), so not all of them
-can be already contained in $\\{a\_\\alpha:\\alpha&lt;\\beta\\}$ (which
-has cardinality $\|\\beta\|&lt;2^{\\aleph\_0}$). Therefore, using
+can be already contained in $\\{a\_α:α&lt;β\\}$ (which
+has cardinality $\|β\|&lt;2^{\\aleph\_0}$). Therefore, using
 well-ordering of continuum, we can pick one of these plays and define it
-to be $b\_\\beta$. Similarly, we can pick $a\_\\beta$ according to
-strategy $s^{II}\_\\beta$ which is not already in
-$\\{b\_\\alpha:\\alpha\\leq\\beta\\}$. This way the sets
-$\\{a\_\\alpha:\\alpha&lt;2^{\\aleph\_0}\\},\\{b\_\\alpha:\\alpha&lt;2^{\\aleph\_0}\\}$
+to be $b\_β$. Similarly, we can pick $a\_β$ according to
+strategy $s^{II}\_β$ which is not already in
+$\\{b\_α:α\\leqβ\\}$. This way the sets
+$\\{a\_α:α&lt;2^{\\aleph\_0}\\},\\{b\_α:α&lt;2^{\\aleph\_0}\\}$
 are clearly disjoint.
 
-Letting $A=\\{a\_\\alpha:\\alpha&lt;2^{\\aleph\_0}\\}$, we now claim the
+Letting $A=\\{a\_α:α&lt;2^{\\aleph\_0}\\}$, we now claim the
 game with payoff set $A$ is undetermined. Indeed, suppose player I has a
-winning strategy. This must be one of the strategies $s^I\_\\beta$. By
+winning strategy. This must be one of the strategies $s^I\_β$. By
 construction, player II can arrange the play so that the resulting play
-is $b\_\\beta$ (since we have chosen it so that it's consistent with
-strategy $b\_\\beta$), which is not an element of $A$, contradicting the
-assumption that $s^I\_\\beta$ is a winning strategy. Analogously, for
-any strategy $s^{II}\_\\beta$ for player II, player I can force the play
-to be $a\_\\beta\\in A$. Therefore no strategy for either player is a
+is $b\_β$ (since we have chosen it so that it's consistent with
+strategy $b\_β$), which is not an element of $A$, contradicting the
+assumption that $s^I\_β$ is a winning strategy. Analogously, for
+any strategy $s^{II}\_β$ for player II, player I can force the play
+to be $a\_β\\in A$. Therefore no strategy for either player is a
 winning strategy and it follows that the game is undetermined.
 
 ## Other known limitations of determinacy
 
 Assuming the axiom of choice there is a non-determined game of length
-$\\omega$. However, choice isn't known to contradict the determinacy of
-all *definable* games of length $\\omega$.
+$ω$. However, choice isn't known to contradict the determinacy of
+all *definable* games of length $ω$.
 
 With or without assuming choice, there is a non-determined game of
-length $\\omega\_1$ and a a non-determined definable game of length
-$\\omega\_1+\\omega$. There is also a non-determined game of length
-$\\omega$ with moves in $\\omega\_1$ (i.e. the payoff sets are subsets
-of $\\omega\_1^\\omega$ instead of subsets of $\\omega^\\omega$. There
-is a non-determined game of length $\\omega$ with moves in
+length $ω\_1$ and a a non-determined definable game of length
+$ω\_1+ω$. There is also a non-determined game of length
+$ω$ with moves in $ω\_1$ (i.e. the payoff sets are subsets
+of $ω\_1^ω$ instead of subsets of $ω^ω$. There
+is a non-determined game of length $ω$ with moves in
 $\\mathcal{P}(\\mathbb{R})$, and using choice one can show there is such
 a game that is definable.
 <a href="http://mathoverflow.net/questions/271507/limitations-of-determinacy-hypotheses-in-zfc" class="external autonumber">[1]</a>
 
-Definable games of length $\\omega$ with moves in $\\mathbb{R}$ are
+Definable games of length $ω$ with moves in $\\mathbb{R}$ are
 provably determined from large cardinal axioms. Determinacy of such
 games that are projective follows from the existence of sufficiently
 many Woodin cardinals.
@@ -155,31 +155,31 @@ many Woodin cardinals.
 By a result of Woodin, if there is an iterable model of $\\text{ZFC}$
 with a countable (in $\\text{V}$) Woodin cardinal which is a limit of
 Woodin cardinals, then it is consistent (even with choice) that all
-ordinal-definable games of length $\\omega\_1$ are determined. This is
+ordinal-definable games of length $ω\_1$ are determined. This is
 only a consistency result, not a proof of "all ordinal-definable games
-of length $\\omega\_1$ are determined".
+of length $ω\_1$ are determined".
 
 ## Implications of the axiom of determinacy
 
 For the rest of this article we use the following conventions:
 
 1.  We identify the cardinal $2^{\\aleph\_0}$ with $\\mathbb{R}$ and
-    more generally $2^\\alpha$ with $\\mathcal{P}(\\alpha)$ for every
-    cardinal $\\alpha$. This is because under $\\text{AD}$,
+    more generally $2^α$ with $\\mathcal{P}(α)$ for every
+    cardinal $α$. This is because under $\\text{AD}$,
     $\\mathbb{R}$ isn't bijective with any ordinal, so the usual
     definitions of cardinals using ordinals doesn't work - $\\mathbb{R}$
     wouldn't have a cardinal at all.
 2.  Cardinals that are bijective with some ordinal will be called alephs
-    and cardinals of the form $2^\\alpha$ will be called beths. Under
+    and cardinals of the form $2^α$ will be called beths. Under
     $\\text{AC}$ every beth is an aleph but under $\\text{AD}$ many
     beths aren't alephs, in particular $2^{\\aleph\_0}$.
-3.  For all cardinals (beths or alephs) $\\kappa,\\lambda$, we define
-    $\\kappa\\leq\\lambda$ iff there is an injection
-    $f:\\kappa\\to\\lambda$ and $\\kappa\\preceq\\lambda$ iff there is a
-    surjection $f:\\lambda\\to\\kappa$. Those notions corresponds if
-    $\\kappa$ and $\\lambda$ are both alephs (i.e. they correspond to
+3.  For all cardinals (beths or alephs) $κ,λ$, we define
+    $κ\\leqλ$ iff there is an injection
+    $f:κ\\toλ$ and $κ\\preceqλ$ iff there is a
+    surjection $f:λ\\toκ$. Those notions corresponds if
+    $κ$ and $λ$ are both alephs (i.e. they correspond to
     ordinals). Under $\\text{AD}$ they need not correspond when either
-    $\\kappa$ or $\\lambda$ is a beth cardinal.
+    $κ$ or $λ$ is a beth cardinal.
 4.  Under $\\text{AD}$ there may still be more cardinals then the alephs
     and beths, but we won't need to talk about them. (For instance,
     there can be infinite Dedekind-finite sets under $\\text{AD}$.)
@@ -204,8 +204,8 @@ Assume $\\text{ZF+AD}$. Most of the following results can be found in
     Thus the
     <a href="http://en.wikipedia.org/wiki/Banach-Tarski_paradox" class="extiw" title="wikipedia:Banach-Tarski paradox">Banach-Tarski paradox</a>
     fails.
-    -   It follows by a theorem of Raisonnier that $\\omega\_1\\not\\leq
-        2^{\\aleph\_0}$ (yet $2^{\\aleph\_0}\\not\\leq\\omega\_1$).
+    -   It follows by a theorem of Raisonnier that $ω\_1\\not\\leq
+        2^{\\aleph\_0}$ (yet $2^{\\aleph\_0}\\not\\leqω\_1$).
     -   Furthermore, it implies $2^{\\aleph\_0}$ can be partitioned in
         more than $2^{\\aleph\_0}$ many pairwise disjoint nonempty
         subsets.
@@ -223,23 +223,23 @@ Assume $\\text{ZF+AD}$. Most of the following results can be found in
         $2^{\\aleph\_0}\\neq\\aleph\_1$.
 -   There are no free
     [ultrafilters](Filter "Filter")
-    on $\\omega$. Every ultrafilter on $\\omega$ is principal. Thus
+    on $ω$. Every ultrafilter on $ω$ is principal. Thus
     every ultrafilter is countably complete ($\\aleph\_1$-complete).
--   $\\omega\_1$, $\\omega\_2$, and $\\omega\_{\\omega+1}$ and
-    $\\omega\_{\\omega+2}$ are all
+-   $ω\_1$, $ω\_2$, and $ω\_{ω+1}$ and
+    $ω\_{ω+2}$ are all
     [measurable](Measurable "Measurable")
     cardinals.
     -   The
         [club](Club "Club")
-        filter on $\\omega\_1$ is an ultrafilter. Every subset of
-        $\\omega\_1$ either contains a club or is disjoint from one.
-    -   The club filter on $\\omega\_2$ restrained to sets of
+        filter on $ω\_1$ is an ultrafilter. Every subset of
+        $ω\_1$ either contains a club or is disjoint from one.
+    -   The club filter on $ω\_2$ restrained to sets of
         <a href="Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
-        $\\omega$ is $\\omega\_2$-complete.
--   $\\omega\_n$ is singular for every $n&gt;2$ and has cofinality
-    $\\omega\_2$ and is
+        $ω$ is $ω\_2$-complete.
+-   $ω\_n$ is singular for every $n&gt;2$ and has cofinality
+    $ω\_2$ and is
     [Jonsson](Jonsson "Jonsson"),
-    also $\\aleph\_\\omega$ is
+    also $\\aleph\_ω$ is
     [Rowbottom](Rowbottom "Rowbottom").
 -   <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{\#}$</a>
     exists, thus the
@@ -249,15 +249,15 @@ Assume $\\text{ZF+AD}$. Most of the following results can be found in
         $V\\neq L\[x\]$).
 -   The strong [partition
     property](Partition_property "Partition property"),
-    $\\omega\_1\\rightarrow(\\omega\_1)^{\\omega\_1}\_2$, holds. In
+    $ω\_1\\rightarrow(ω\_1)^{ω\_1}\_2$, holds. In
     fact,
-    $\\omega\_1\\rightarrow(\\omega\_1)^{\\omega\_1}\_{2^{\\aleph\_0}}$
-    and $\\omega\_1\\rightarrow(\\omega\_1)^{\\omega\_1}\_\\alpha$ for
-    every $\\alpha&lt;\\omega\_1$.
--   If there is a surjection $\\mathbb{R}\\to\\alpha$, then there is
-    surjection $\\mathbb{R}\\to\\mathcal{P}(\\alpha)$.
-    -   Equivalently, if $\\alpha\\preceq 2^{\\aleph\_0}$ then
-        $2^\\alpha\\preceq 2^{\\aleph\_0}$
+    $ω\_1\\rightarrow(ω\_1)^{ω\_1}\_{2^{\\aleph\_0}}$
+    and $ω\_1\\rightarrow(ω\_1)^{ω\_1}\_α$ for
+    every $α&lt;ω\_1$.
+-   If there is a surjection $\\mathbb{R}\\toα$, then there is
+    surjection $\\mathbb{R}\\to\\mathcal{P}(α)$.
+    -   Equivalently, if $α\\preceq 2^{\\aleph\_0}$ then
+        $2^α\\preceq 2^{\\aleph\_0}$
 -   <a href="http://en.wikipedia.org/wiki/Hall%27s_marriage_theorem" class="extiw" title="wikipedia:Hall&#39;s marriage theorem">Hall's marriage theorem</a>
     fails for infinite graphs. For example there is there is a 2-regular
     bipartite graph on $\\mathbb{R}$ with no perfect matching.
@@ -267,7 +267,7 @@ Assume $\\text{ZF+AD}$. Most of the following results can be found in
 
 Let $\\Theta$ be the supremum of the ordinals that $\\mathbb{R}$ can be
 mapped onto:
-$\\Theta=\\mathrm{sup}\\{\\alpha\\in\\mathrm{Ord}:\\alpha\\preceq
+$\\Theta=\\mathrm{sup}\\{α\\in\\mathrm{Ord}:α\\preceq
 2^{\\aleph\_0}\\}$. Under $\\text{AC}$ this is just
 $(2^{\\aleph\_0})^{+}$ but under $\\text{AD}$ it is a limit cardinal, in
 fact an aleph fixed point, and $\\text{DC}$ implies it has uncountable
@@ -282,11 +282,11 @@ $\\Theta\\not\\leq 2^{\\aleph\_0}$ yet $2^{\\aleph\_0}\\not\\leq\\Theta$
 and $\\Theta\\not\\preceq 2^{\\aleph\_0}$ yet
 $2^{\\aleph\_0}\\not\\preceq\\Theta$
 
-Under $\\text{ZF+AD}$, the cardinal $\\omega\_1$ is
+Under $\\text{ZF+AD}$, the cardinal $ω\_1$ is
 &lt;$\\Theta$-[strongly
 compact](Strongly_compact "Strongly compact")
-in that for all $\\lambda&lt;\\Theta$, every $\\sigma$-complete filter
-on $\\lambda$ extends to a ultrafilter on $\\lambda$ (and every
+in that for all $λ&lt;\\Theta$, every $\\sigma$-complete filter
+on $λ$ extends to a ultrafilter on $λ$ (and every
 ultrafilter is itself $\\sigma$-complete under $\\text{AD}$.)
 
 ## Determinacy of $L(\\mathbb{R})$
@@ -301,10 +301,10 @@ definable by a $\\Delta\_0$ formula with parameters only from
 $X\\cup\\{X\\}\\}$. Then let:
 
 -   $L\_0(X)=\\text{TC}(\\{X\\})$
--   $L\_{\\alpha+1}(X)=\\text{def}(L\_\\alpha(X))$
--   $L\_\\lambda(X)=\\bigcup\_{\\alpha&lt;\\lambda}L\_\\alpha(X)$ for
-    limit $\\lambda$
--   $L(X)=\\bigcup\_{\\alpha\\in \\text{Ord}}L\_\\alpha(X)$
+-   $L\_{α+1}(X)=\\text{def}(L\_α(X))$
+-   $L\_λ(X)=\\bigcup\_{α&lt;λ}L\_α(X)$ for
+    limit $λ$
+-   $L(X)=\\bigcup\_{α\\in \\text{Ord}}L\_α(X)$
 
 where $\\text{TC}({X})$ is the smallest transitive set containing $X$,
 the elements of $X$, the elements of the elements of $X$, and so on.
@@ -356,9 +356,9 @@ notably follows from the existence of a proper class of [strongly
 compact](Strongly_compact "Strongly compact")
 cardinals.
 
-Assume that there is $\\omega\_1$-[dense
+Assume that there is $ω\_1$-[dense
 ideal](Filter "Filter")
-over $\\omega\_1$; then $\\text{AD}^{L(\\mathbb{R})}$ holds.
+over $ω\_1$; then $\\text{AD}^{L(\\mathbb{R})}$ holds.
 {% cite Kanamori2009 %} This result is due to
 Woodin.
 
@@ -368,7 +368,7 @@ $\\text{AD}^{L(\\mathbb{R})}$:
 
 -   Every uncountable cardinal &lt;$\\Theta$ is
     [Jónsson](Jonsson "Jonsson"),
-    also if it is regular or has cofinality $\\omega$ then it is
+    also if it is regular or has cofinality $ω$ then it is
     [Rowbottom](Rowbottom "Rowbottom").
 -   Every regular cardinal &lt;$\\Theta$ is
     [measurable](Measurable "Measurable")
@@ -380,10 +380,10 @@ $\\text{AD}^{L(\\mathbb{R})}$:
     compact](Weakly_compact "Weakly compact").
 -   $\\Theta$ is Woodin in the model $\\text{HOD}^{L(\\mathbb{R})}$.
     There exists many strengthnings and variants of this result.
--   $\\omega\_1$ is &lt;$\\Theta$-supercompact in that for every
-    $\\lambda&lt;\\Theta$ there is a normal ultrafilter on
-    $P\_{\\omega\_1}(\\lambda)$. This is a strengthening of the above
-    result that $\\omega\_1$ is &lt;$\\Theta$-strongly compact under
+-   $ω\_1$ is &lt;$\\Theta$-supercompact in that for every
+    $λ&lt;\\Theta$ there is a normal ultrafilter on
+    $P\_{ω\_1}(λ)$. This is a strengthening of the above
+    result that $ω\_1$ is &lt;$\\Theta$-strongly compact under
     $\\text{AD}$ alone.
 
 ## Axiom of projective determinacy
@@ -403,7 +403,7 @@ $\\text{AD}\_\\mathbb{R}$ is equivalent (over $\\text{ZF}$) to
 $\\text{AD}$ plus the
 <a href="http://en.wikipedia.org/wiki/Uniformization_(set_theory)" class="extiw" title="wikipedia:Uniformization (set theory)">axiom of uniformization</a>
 (which is false in $L(\\mathbb{R})$). $\\text{AD}\_\\mathbb{R}$ is also
-equivalent to determinacy for games of length $\\omega^2$. In fact,
+equivalent to determinacy for games of length $ω^2$. In fact,
 $\\text{AD}\_\\mathbb{R}$ is equivalent to the assertion that every game
 of bounded countable length is determined. It is however possible to
 show (in $\\text{ZF}$) that there are non-determined games of length
@@ -413,7 +413,7 @@ Solovay showed that $\\text{ZF+AD}\_\\mathbb{R}+$"$\\Theta$ has
 uncountable cofinality" (which follows from
 $\\text{ZF+AD}\_\\mathbb{R}\\text{+DC}$) proves
 $\\text{ZF+AD}\_\\mathbb{R}$ consistent; it is therefore consistent with
-$\\text{ZF+AD}\_\\mathbb{R}$ that $\\Theta$ has cofinality $\\omega$ and
+$\\text{ZF+AD}\_\\mathbb{R}$ that $\\Theta$ has cofinality $ω$ and
 that $\\text{DC}$ is false.
 {% cite Larson2013 %}
 
@@ -424,7 +424,7 @@ cardinal $\\delta$ of cofinality $\\aleph\_0$ which is a limit of Woodin
 cardinals and &lt;$\\delta$-strong cardinals.
 {% cite Larson2013 %}
 
-Under $\\text{AD}\_\\mathbb{R}$, $\\omega\_1$ is
+Under $\\text{AD}\_\\mathbb{R}$, $ω\_1$ is
 &lt;$\\Theta$-supercompact, i.e. for every ordinal $\\gamma&lt;\\Theta$
 there is a normal fine ultrafilter on the set of all subsets of
 $\\gamma$ of size $\\aleph\_1$. $\\text{AD}$ suffices for this result to
@@ -460,29 +460,29 @@ The following theories are equiconsistent:
 -   $\\text{ZF+AD+DC}$
 -   $\\text{ZFC+AD}^{L(\\mathbb{R})}$
 -   $\\text{ZFC+AD}^{\\text{OD}(\\mathbb{R})}$
--   $\\text{ZFC+}$"the non-stationary ideal over $\\omega\_1$ is
-    $\\omega\_1$-dense"
+-   $\\text{ZFC+}$"the non-stationary ideal over $ω\_1$ is
+    $ω\_1$-dense"
 -   $\\text{ZFC+}$"there exists infinitely many
     [Woodin](Woodin "Woodin")
     cardinals"
--   $\\text{ZF+DC+}$"$\\omega\_1$ is
-    $\\mathcal{P}(\\omega\_1)$-[strongly
+-   $\\text{ZF+DC+}$"$ω\_1$ is
+    $\\mathcal{P}(ω\_1)$-[strongly
     compact](Strongly_compact "Strongly compact")"
--   $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and
-    $\\Theta&gt;\\omega\_2$"
--   $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and
-    $\\omega\_2$-strongly compact"
--   $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and
-    Jensens's square principle fails for $\\omega\_1$"
+-   $\\text{ZF+DC+}$"$ω\_1$ is $\\mathbb{R}$-strongly compact and
+    $\\Theta&gt;ω\_2$"
+-   $\\text{ZF+DC+}$"$ω\_1$ is $\\mathbb{R}$-strongly compact and
+    $ω\_2$-strongly compact"
+-   $\\text{ZF+DC+}$"$ω\_1$ is $\\mathbb{R}$-strongly compact and
+    Jensens's square principle fails for $ω\_1$"
 
 Where $\\text{DC}$ is the
 <a href="http://en.wikipedia.org/wiki/axiom_of_dependent_choice" class="extiw" title="wikipedia:axiom of dependent choice">axiom of dependent choice</a>
-and $\\omega\_1$ being $X$-strongly compact means that there exists a
+and $ω\_1$ being $X$-strongly compact means that there exists a
 [fine
 measure](Filter "Filter")
 on the set of all subsets of $X$ of cardinality $\\aleph\_1$.
 
-Woodin proved that the theory $\\text{ZF+DC+AD+}$"$\\omega\_1$ is
+Woodin proved that the theory $\\text{ZF+DC+AD+}$"$ω\_1$ is
 supercompact" is consistent relative to $\\text{ZFC+}$ "there is a
 proper class of Woodin cardinals, each of which a limit of Woodin
 cardinals".
@@ -501,8 +501,8 @@ equiconsistent: {% cite Koellner2010 %}
 -   $\\text{ZFC+}\\Delta^1\_2$-determinacy
 -   $\\text{ZFC+OD}$-determinacy
 -   $\\text{ZFC+}$"there exists a Woodin cardinal"
--   $\\text{ZFC+}$"the nonstationary ideal on $\\omega\_1$ is
-    $\\omega\_2$-saturated"
+-   $\\text{ZFC+}$"the nonstationary ideal on $ω\_1$ is
+    $ω\_2$-saturated"
 
 And so are $\\text{Z}\_3+$lightface $\\Delta^1\_2$-determinacy and
 $\\text{MK+}$"$\\text{Ord}$ is Woodin" where $\\text{Z}\_3$ is
@@ -520,20 +520,20 @@ equiconsistent:
 {% cite Trang2016 %}
 
 -   $\\text{ZF+DC+AD}\_\\mathbb{R}$
--   $\\text{ZF+DC+}$"$\\omega\_1$ is
+-   $\\text{ZF+DC+}$"$ω\_1$ is
     $\\mathcal{P}(\\mathbb{R})$-strongly compact"
--   $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and
+-   $\\text{ZF+DC+}$"$ω\_1$ is $\\mathbb{R}$-strongly compact and
     $\\Theta$ is singular"
--   $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and
+-   $\\text{ZF+DC+}$"$ω\_1$ is $\\mathbb{R}$-strongly compact and
     $\\Theta$-strongly compact"
 
 As are the following theories:
 
 -   $\\text{ZF+AD}\_\\mathbb{R}$
--   $\\text{ZF+DC}\_{\\mathcal{P}(\\omega\_1)}+$"$\\omega\_1$ is
+-   $\\text{ZF+DC}\_{\\mathcal{P}(ω\_1)}+$"$ω\_1$ is
     $\\mathbb{R}$-strongly compact and $\\Theta$ is singular"
--   $\\text{ZFC+}$"there is a cardinal $\\lambda$ that is a limit of
-    Woodin cardinals and &lt;$\\lambda$-strong cardinals".
+-   $\\text{ZFC+}$"there is a cardinal $λ$ that is a limit of
+    Woodin cardinals and &lt;$λ$-strong cardinals".
 
 ## Read more
 

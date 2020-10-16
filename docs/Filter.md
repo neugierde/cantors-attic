@@ -82,39 +82,39 @@ X\\in F$. Equivalently, there is no filter (resp. ideal) $F'$ such that
 $F\\subseteq F'$ but $F\\neq F'$ (i.e. $F$ is *maximal*).
 
 $F$ is $\\theta$-complete for a cardinal $\\theta$ if for every family
-$\\{X\_\\alpha : \\alpha&lt;\\lambda\\}$ with $\\lambda&lt;\\theta$ and
-$X\_\\alpha\\in F$ for all $\\alpha&lt;\\lambda$, then
-$\\bigcap\_{\\alpha&lt;\\lambda}X\_\\alpha\\in F$. The completeness of
+$\\{X\_α : α&lt;λ\\}$ with $λ&lt;\\theta$ and
+$X\_α\\in F$ for all $α&lt;λ$, then
+$\\bigcap\_{α&lt;λ}X\_α\\in F$. The completeness of
 $F$ is the smallest cardinal such that there is a subset $X\\subseteq F$
 such that $\|X\|=\\theta$ and $\\bigcap X\\not\\in F$, i.e. it is the
 largest $\\theta$ such that $F$ is $\\theta$-complete. Similarly for
 ideals, by replacing intersections by unions. A filter or an ideal being
 *countably complete* (or $\\sigma$-complete) means that it is
-$\\omega\_1$-complete. It is customary to use the term $\\sigma$-ideal
+$ω\_1$-complete. It is customary to use the term $\\sigma$-ideal
 instead of $\\sigma$-complete ideal.
 
-A filter $F$ on $\\kappa$ is *normal* if it is closed under diagonal
-intersections: $\\Delta\_{\\alpha\\in \\kappa}X\_\\alpha = \\{\\xi\\in
-\\kappa : \\xi\\in\\bigcap\_{\\alpha\\in\\xi}X\_\\alpha\\}$. That is,
-for every family $\\{X\_\\alpha : \\alpha&lt;\\kappa\\}$ and
-$X\_\\alpha\\in F$ for all $\\alpha&lt;\\kappa$, one have
-$\\Delta\_{\\alpha&lt;\\kappa}X\_\\alpha\\in F$. Similarly for ideals,
+A filter $F$ on $κ$ is *normal* if it is closed under diagonal
+intersections: $\\Delta\_{α\\in κ}X\_α = \\{\\xi\\in
+κ : \\xi\\in\\bigcap\_{α\\in\\xi}X\_α\\}$. That is,
+for every family $\\{X\_α : α&lt;κ\\}$ and
+$X\_α\\in F$ for all $α&lt;κ$, one have
+$\\Delta\_{α&lt;κ}X\_α\\in F$. Similarly for ideals,
 by replacing intersections by unions.
 
 Whenever a filter is either nontrivial, nonprincipal,
 $\\theta$-complete, normal or maximal, so is its dual ideal.
 
 The following definitions will be useful later in this article:
-$\\mathcal{P}\_\\kappa(A)$ for $\|A\|\\geq\\kappa$ is the set of all
-subsets of $A$ of cardinality at most $\\kappa$. $\[A\]^{&lt;\\kappa}$
-and $\[A\]^\\kappa$ are the sets of all subsets of $A$ of cardinality
-$&lt;\\kappa$ and $\\kappa$, respectively. Note that
-$\\mathcal{P}\_\\kappa(A)=\[A\]^{&lt;\\kappa}\\cup\[A\]^\\kappa$.
+$\\mathcal{P}\_κ(A)$ for $\|A\|\\geqκ$ is the set of all
+subsets of $A$ of cardinality at most $κ$. $\[A\]^{&lt;κ}$
+and $\[A\]^κ$ are the sets of all subsets of $A$ of cardinality
+$&lt;κ$ and $κ$, respectively. Note that
+$\\mathcal{P}\_κ(A)=\[A\]^{&lt;κ}\\cup\[A\]^κ$.
 
 ## Properties
 
 The finite intersection property is equivalent to
-$\\omega$-completeness. Every set $G\\subseteq \\mathcal{P}(S)$ with the
+$ω$-completeness. Every set $G\\subseteq \\mathcal{P}(S)$ with the
 finite intersection property can be extended to a filter, i.e. there
 exists a filter $F$ such that $G\\subseteq F$. The completeness of a
 countably complete nonprincipal ultrafilter or prime ideal on S is
@@ -123,7 +123,7 @@ cardinal](Measurable "Measurable").
 However, every countably complete filter on a countable or finite set is
 principal.
 
-Every infinite cardinal $\\kappa$ has $2^{2^\\kappa}$ ultrafilters and
+Every infinite cardinal $κ$ has $2^{2^κ}$ ultrafilters and
 prime ideals. Under the
 <a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>,
 every filter can be extended to an ultrafilter, and every ideal can be
@@ -135,51 +135,51 @@ filter.
 
 Let $j:M\\to N$ be a (nontrivial) [elementary
 embedding](Elementary_embedding "Elementary embedding")
-with critical point $\\kappa$. Then the set
-$\\mathcal{U}\_j=\\{x\\subseteq \\kappa : \\kappa\\in j(x)\\}$ is a
-$\\kappa$-complete nonprincipal ultrafilter on
-$(\\mathcal{P}(\\kappa))^M$; in particular if $M=V$ then
-$(\\mathcal{P}(\\kappa))^M=\\mathcal{P}(\\kappa)$ and thus $\\kappa$ is
+with critical point $κ$. Then the set
+$\\mathcal{U}\_j=\\{x\\subseteq κ : κ\\in j(x)\\}$ is a
+$κ$-complete nonprincipal ultrafilter on
+$(\\mathcal{P}(κ))^M$; in particular if $M=V$ then
+$(\\mathcal{P}(κ))^M=\\mathcal{P}(κ)$ and thus $κ$ is
 [measurable](Measurable "Measurable").
 
 ## The nonstationary ideal and the club filter
 
-Given a regular uncountable cardinal $\\kappa$, the collection of all
+Given a regular uncountable cardinal $κ$, the collection of all
 [clubs](Club "Club") in
-$\\kappa$ has the finite intersection property, thus it can be extended
-to a filter. This filter contains precisely the subsets of $\\kappa$
-with a subset that is a club in $\\kappa$. We we call this filter the
-*club filter* of $\\kappa$. This filter is $\\kappa$-complete and normal
+$κ$ has the finite intersection property, thus it can be extended
+to a filter. This filter contains precisely the subsets of $κ$
+with a subset that is a club in $κ$. We we call this filter the
+*club filter* of $κ$. This filter is $κ$-complete and normal
 (i.e. closed under diagonal intersections).
 
-Let $I\_{NS}$, the *nonstationary ideal on $\\kappa$*, be the dual ideal
-of the club filter of $\\kappa$. This is a normal $\\kappa$-complete
+Let $I\_{NS}$, the *nonstationary ideal on $κ$*, be the dual ideal
+of the club filter of $κ$. This is a normal $κ$-complete
 ideal. Both $I\_{NS}$ and the club filter are minimal: if $F$ is a
-normal filter containing all initial segements $\\{\\alpha :
-\\alpha\_0&lt;\\alpha&lt;\\kappa \\}$ then it contains the club filter
-of $\\kappa$. This means $I\_{NS}$ and the club filter are not maximal,
+normal filter containing all initial segements $\\{α :
+α\_0&lt;α&lt;κ \\}$ then it contains the club filter
+of $κ$. This means $I\_{NS}$ and the club filter are not maximal,
 in particular the club filter is not a normal measure despite being
-normal and $\\kappa$-complete, as it is not an ultrafilter.
+normal and $κ$-complete, as it is not an ultrafilter.
 
-Note that if $I$ is a $\\kappa$-complete ideal on $\\kappa$ containing
-all singletons of elements of $\\kappa$, then $I$ contains all subsets
-of $\\kappa$ of cardinality less than $\\kappa$.
+Note that if $I$ is a $κ$-complete ideal on $κ$ containing
+all singletons of elements of $κ$, then $I$ contains all subsets
+of $κ$ of cardinality less than $κ$.
 
 ## Saturated ideals
 
-We say that an ideal $I$ is $\\lambda$-saturated if there is no
-collection $W$ of subsets of $\\kappa$ such that $\|W\|=\\lambda$, $I$
+We say that an ideal $I$ is $λ$-saturated if there is no
+collection $W$ of subsets of $κ$ such that $\|W\|=λ$, $I$
 and $W$ are disjoint, but the intersection of any two elements of $W$ is
-in $I$. $\\omega\_1$-saturation is called $\\sigma$-saturation. $I$'s
-*saturation*, $\\text{sat}(I)$ is the smallest $\\lambda$ such that $I$
-is $\\lambda$-saturated. An ideal $I$ is prime if and only if
-$\\text{sat}(I)=2$. Trivially every ideal is $(2^\\kappa)^+$-saturated.
+in $I$. $ω\_1$-saturation is called $\\sigma$-saturation. $I$'s
+*saturation*, $\\text{sat}(I)$ is the smallest $λ$ such that $I$
+is $λ$-saturated. An ideal $I$ is prime if and only if
+$\\text{sat}(I)=2$. Trivially every ideal is $(2^κ)^+$-saturated.
 
-If there exists a $\\kappa$-saturated $\\kappa$-complete ideal on
-$\\kappa$, then there is a such ideal that is additionally normal; same
-for $\\kappa^+$-saturation. If $\\kappa$ carries a normal
-$\\lambda$-saturated $\\kappa$-complete ideal $I$ for some
-$\\lambda&lt;\\kappa$ then $\\kappa$ has the [tree
+If there exists a $κ$-saturated $κ$-complete ideal on
+$κ$, then there is a such ideal that is additionally normal; same
+for $κ^+$-saturation. If $κ$ carries a normal
+$λ$-saturated $κ$-complete ideal $I$ for some
+$λ&lt;κ$ then $κ$ has the [tree
 property](Tree_property "Tree property")
 and also it is
 [measurable](Measurable "Measurable")
@@ -189,90 +189,90 @@ universe](Constructible_universe "Constructible universe")).
 Any cardinal carrying a 2-saturated $\\sigma$-ideal is measurable. Any
 cardinal carrying a $\\sigma$-saturated $\\sigma$-ideal must be either
 measurable or $\\leq 2^{\\aleph\_0}$ and real-valued measurable. No
-successor cardinal $\\kappa$ carries a $\\kappa$-saturated
-$\\kappa$-complete ideal. On the other hand it is consistent (relative
-to large cardinals) for a successor $\\kappa$ to carry a
-$\\kappa^+$-saturated $\\kappa$-complete ideal.
+successor cardinal $κ$ carries a $κ$-saturated
+$κ$-complete ideal. On the other hand it is consistent (relative
+to large cardinals) for a successor $κ$ to carry a
+$κ^+$-saturated $κ$-complete ideal.
 
 It is consistent relative to a
 [huge](Huge "Huge")
-cardinal that every regular cardinal $\\kappa$ there is a
-$\\kappa^+$-saturated $\\kappa$-complete ideal. It is consistent
+cardinal that every regular cardinal $κ$ there is a
+$κ^+$-saturated $κ$-complete ideal. It is consistent
 relative to a 2-huge cardinal that, for every $n&gt;0$,
-$\[\\omega\_{n+1}\]^{\\omega\_n}$ carries a normal fine
-$\\omega\_{n+1}$-saturated $\\omega\_n$-complete ideal. Suppose that
-$\\kappa$ is an almost huge cardinal and $\\mu&lt;\\kappa$ is regular.
-Then there is a forcing extension in which $\\kappa=\\mu^+$ and there is
-a $\\kappa$-complete, $\\kappa^+$-saturated ideal on $\\kappa$.
+$\[ω\_{n+1}\]^{ω\_n}$ carries a normal fine
+$ω\_{n+1}$-saturated $ω\_n$-complete ideal. Suppose that
+$κ$ is an almost huge cardinal and $\\mu&lt;κ$ is regular.
+Then there is a forcing extension in which $κ=\\mu^+$ and there is
+a $κ$-complete, $κ^+$-saturated ideal on $κ$.
 
 Suppose that $\\mu$ is a
 [supercompact](Supercompact "Supercompact")
-cardinal and $\\kappa&gt;\\mu$ is an almost huge cardinal. Then there is
+cardinal and $κ&gt;\\mu$ is an almost huge cardinal. Then there is
 a forcing extension that satisfies the generalized continuum hypothesis
-and "there is a stationary subset $S$ of $\\omega\_{\\omega+1}$ such
-that the nonstationary ideal on $\\omega\_{\\omega+1}$ restricted to
-subsets of $S$ is $\\omega\_{\\omega+2}$-saturated"
+and "there is a stationary subset $S$ of $ω\_{ω+1}$ such
+that the nonstationary ideal on $ω\_{ω+1}$ restricted to
+subsets of $S$ is $ω\_{ω+2}$-saturated"
 
-If there exists a $\\omega\_2$-saturated $\\sigma$-ideal on $\\omega\_1$
+If there exists a $ω\_2$-saturated $\\sigma$-ideal on $ω\_1$
 then:
 
 -   $2^{\\aleph\_0}=\\aleph\_1$ implies $2^{\\aleph\_1}=\\aleph\_2$
--   $2^{\\aleph\_0}=\\aleph\_{\\omega\_1}$ implies
-    $2^{\\aleph\_1}\\leq\\aleph\_{\\omega\_2}$.
--   $\\aleph\_1 &lt; 2^{\\aleph\_0} &lt; \\aleph\_{\\omega\_1}$ implies
+-   $2^{\\aleph\_0}=\\aleph\_{ω\_1}$ implies
+    $2^{\\aleph\_1}\\leq\\aleph\_{ω\_2}$.
+-   $\\aleph\_1 &lt; 2^{\\aleph\_0} &lt; \\aleph\_{ω\_1}$ implies
     $2^{\\aleph\_0} = 2^{\\aleph\_1}$.
--   $2^{&lt;\\aleph\_{\\omega\_1}}=\\aleph\_{\\omega\_1}$ implies
-    $2^{\\aleph\_{\\omega\_1}}&lt;\\aleph\_{\\omega\_2}$
+-   $2^{&lt;\\aleph\_{ω\_1}}=\\aleph\_{ω\_1}$ implies
+    $2^{\\aleph\_{ω\_1}}&lt;\\aleph\_{ω\_2}$
 
 This hypothesis, which follows from
 <a href="Martin%27s_Maximum" class="mw-redirect" title="Martin&#39;s Maximum">Martin's Maximum</a>,
 is consistent relative to a
 [Woodin](Woodin "Woodin")
 cardinal, in fact that ideal can be the nonstationary ideal on
-$\\omega\_1$. Similarly, if there is a [almost
+$ω\_1$. Similarly, if there is a [almost
 huge](Huge "Huge") cardinal
 then in some [generic
 extension](Forcing "Forcing"),
-$\\omega\_2$ carries a $\\omega\_3$-saturated $\\omega\_2$-complete
+$ω\_2$ carries a $ω\_3$-saturated $ω\_2$-complete
 ideal. This ideal however cannot be the nonstationary ideal on
-$\\omega\_2$: for every cardinal $\\kappa\\geq\\omega\_2$, the
-nonstationary ideal on $\\kappa$ is not $\\kappa^+$-saturated.
+$ω\_2$: for every cardinal $κ\\geqω\_2$, the
+nonstationary ideal on $κ$ is not $κ^+$-saturated.
 
-If there exists a uniform $\\omega\_2$-saturated ideal on $\\omega\_2$
-then $\\Theta^{L(\\mathbb{R})}\\leq\\omega\_2$. This inequality if known
+If there exists a uniform $ω\_2$-saturated ideal on $ω\_2$
+then $\\Theta^{L(\\mathbb{R})}\\leqω\_2$. This inequality if known
 as the *constructive continuum hypothesis*, and means that it is
 impossible to effectively construct a counterexample of the continuum
 hypothesis within $L(\\mathbb{R})$. In the presence of a measurable
-cardinal, $\\Theta^{L(\\mathbb{R})}$ has cofinality $\\omega$ and so it
-is then strictly below $\\omega\_2$. Note that this ideal cannot be
-$\\omega\_2$-complete: only limit cardinals $\\kappa$ can carry
-$\\kappa$-saturated $\\kappa$-complete ideals.
+cardinal, $\\Theta^{L(\\mathbb{R})}$ has cofinality $ω$ and so it
+is then strictly below $ω\_2$. Note that this ideal cannot be
+$ω\_2$-complete: only limit cardinals $κ$ can carry
+$κ$-saturated $κ$-complete ideals.
 
 The above result is linked to a more general theorem:
-$\\Theta^{L(\\mathbb{R})}\\leq\\omega\_n$ follows both from the
-existence of a $\\sigma$-ideal on $\\omega\_n$ such that the forcing
-notion $\\mathcal{P}(\\omega\_n)/I$ is proper, and from the
-$\\omega\_{n+1}$-saturation of the nonstationary ideal on $\\omega\_n$
-restrained to sets of cofinality $\\omega\_{n-1}$.
+$\\Theta^{L(\\mathbb{R})}\\leqω\_n$ follows both from the
+existence of a $\\sigma$-ideal on $ω\_n$ such that the forcing
+notion $\\mathcal{P}(ω\_n)/I$ is proper, and from the
+$ω\_{n+1}$-saturation of the nonstationary ideal on $ω\_n$
+restrained to sets of cofinality $ω\_{n-1}$.
 
-There is no uniform $\\omega\_2$-saturated $\\sigma$-ideal on any
-cardinal between $\\omega\_\\omega$ and $\\omega\_{\\omega\_1}$. Let
-$\\lambda$ be a singular cardinal. Then there is no $\\lambda$-saturated
-normal fine ideal on $\[\\lambda\]^\\lambda$. In particular, there is no
-normal fine $\\omega\_n$-saturated $\\sigma$ ideal on
-$\[\\omega\_\\omega\]^{\\omega\_\\omega}$, for all $n&lt;\\omega$.
+There is no uniform $ω\_2$-saturated $\\sigma$-ideal on any
+cardinal between $ω\_ω$ and $ω\_{ω\_1}$. Let
+$λ$ be a singular cardinal. Then there is no $λ$-saturated
+normal fine ideal on $\[λ\]^λ$. In particular, there is no
+normal fine $ω\_n$-saturated $\\sigma$ ideal on
+$\[ω\_ω\]^{ω\_ω}$, for all $n&lt;ω$.
 
 ## Dense ideals
 
-Let $I$ be an ideal on $S$. We say that $I$ is *$\\lambda$-dense* if
+Let $I$ be an ideal on $S$. We say that $I$ is *$λ$-dense* if
 there is a family $D\\subseteq\\mathcal{P}(S)\\setminus I$ of
-cardinality $\\lambda$ such that for every
+cardinality $λ$ such that for every
 $X\\in\\mathcal{P}(S)\\setminus I$ there is a $Y\\in D$ such that
-$Y\\setminus X\\in I$. Every $\\lambda$-dense ideal is $\\mu$-saturated
-for all $\\mu&gt;\\lambda$. $I$ is *$\\sigma$-dense* if it is
-$\\omega\_1$-dense.
+$Y\\setminus X\\in I$. Every $λ$-dense ideal is $\\mu$-saturated
+for all $\\mu&gt;λ$. $I$ is *$\\sigma$-dense* if it is
+$ω\_1$-dense.
 
-If there is a $\\sigma$-dense $\\sigma$-ideal on $\\omega\_1$ then the
+If there is a $\\sigma$-dense $\\sigma$-ideal on $ω\_1$ then the
 [axiom of
 determinacy](Axiom_of_determinacy "Axiom of determinacy")
 holds in $L(\\mathbb{R})$, in fact the existence of such an ideal is
@@ -280,25 +280,25 @@ equiconsistent with the axiom of determinacy itself. The existence of a
 such ideal also implies the failure of one of [Martin's
 axioms](Forcing#Forcing_axioms "Forcing"),
 namely $\\text{MA}\_{\\aleph\_1}$. In particular the proper forcing
-axiom fails. Also, there is a Suslin tree on $\\omega\_1$.
+axiom fails. Also, there is a Suslin tree on $ω\_1$.
 
-If the nonstationary ideal on $\\omega\_1$ is $\\sigma$-dense, then the
+If the nonstationary ideal on $ω\_1$ is $\\sigma$-dense, then the
 continuum hypothesis fails and $2^{\\aleph\_0}=2^{\\aleph\_1}$. If there
-is a uniform $\\sigma$-dense $\\sigma$-ideal on $\\omega\_2$ then the
+is a uniform $\\sigma$-dense $\\sigma$-ideal on $ω\_2$ then the
 continuum hypothesis holds.
 
-If there is a $\\kappa$-dense $\\kappa$-complete ideal on a regular
-cardinal $\\kappa$ then the [partition
+If there is a $κ$-dense $κ$-complete ideal on a regular
+cardinal $κ$ then the [partition
 property](Partition_property "Partition property")
-$\\kappa^+\\to(\\kappa^2+1,\\alpha)^2\_2$ holds for all
-$\\alpha&lt;\\kappa^+$.
+$κ^+\\to(κ^2+1,α)^2\_2$ holds for all
+$α&lt;κ^+$.
 
 If there is a $2^{\\aleph\_0}$-dense ideal $I$ on
-$\[(2^{\\aleph\_0})^+\]^{\\omega\_1}$ or on
-$\[2^{\\aleph\_0}\]^{&lt;\\omega\_1}$ then in $L(\\mathbb{R})$, every
+$\[(2^{\\aleph\_0})^+\]^{ω\_1}$ or on
+$\[2^{\\aleph\_0}\]^{&lt;ω\_1}$ then in $L(\\mathbb{R})$, every
 set of reals is Lebesgue measurable, completely Ramsey and has the
 property of Baire, also the partition property
-$\\omega\\to(\\omega)^\\omega\_2$ holds.
+$ω\\to(ω)^ω\_2$ holds.
 
 ## Ultrapowers
 
@@ -311,17 +311,17 @@ Let $I$ be an ideal on $S$. Consider the [notion of
 forcing](Forcing "Forcing")
 $(P,\\subseteq)$ where $P=\\{X\\subseteq S:X\\not\\in I\\}$, and let $G$
 be a generic filter on $P$. Then $G$ is an ultrafilter on $S$ that
-extends the filter dual to $I$. If $I$ is normal or $\\kappa$-complete,
+extends the filter dual to $I$. If $I$ is normal or $κ$-complete,
 so is $G$. In the generic extension $V\[G\]$, consider the ultrapower
 $\\text{Ult}\_G(V)$, which we will call the *generic ultrapower*. It is
 always a model of $\\text{ZFC}$ but need not be well-founded. An ideal
 is *precipitous* is the associated generic ultrapower is well-founded.
 
-The ideal $\\{X\\subseteq\\kappa:\|X\|&lt;\\kappa\\}$ is never
-precipitous. Every $\\kappa^+$-saturated $\\kappa$-complete ideal on
-$\\kappa$ is precipitous. If $\\kappa$ is the successor of a regular
+The ideal $\\{X\\subseteqκ:\|X\|&lt;κ\\}$ is never
+precipitous. Every $κ^+$-saturated $κ$-complete ideal on
+$κ$ is precipitous. If $κ$ is the successor of a regular
 cardinal then there is no normal fine precipitous ideal on
-$\[\\kappa\]^\\kappa$.
+$\[κ\]^κ$.
 
 ### Equivalent definitions
 
@@ -344,17 +344,17 @@ functionals on $S$ the following way: $F\_0&lt;F\_1$ if each $f$ in $F$
 and $G$ is a function into the ordinals, $\\{\\text{dom}(f):f\\in
 F\\}\\leq\\{\\text{dom}(g):g\\in G\\}$ and for every $f\\in F$, $g\\in
 G$ such that $\\text{dom}(f)\\subseteq\\text{dom}(g)$, one has
-$f(\\alpha)&lt;g(\\alpha)$ for every $\\alpha\\in\\text{dom}(f)$.
+$f(α)&lt;g(α)$ for every $α\\in\\text{dom}(f)$.
 
-The following are equivalent for a $\\kappa$-complete ideal $I$ on
-$\\kappa$:
+The following are equivalent for a $κ$-complete ideal $I$ on
+$κ$:
 
 -   $I$ is precipitous.
 -   Empty has no winning strategy in $\\mathcal{G}\_I$.
 -   For every $S$ not in $I$ there is no sequence of functionals on $S$
     such that $F\_0&gt;F\_1&gt;...&gt;F\_n&gt;...$.
 -   For every $S$ not in $I$ and $I$-partitions
-    $\\{W\_n:n&lt;\\omega\\}$ of $S$ such that $W\_0\\geq
+    $\\{W\_n:n&lt;ω\\}$ of $S$ such that $W\_0\\geq
     W\_1\\geq...\\geq W\_n\\geq...$ there exists a sequence
     $X\_0\\supseteq X\_1\\supseteq...\\supseteq X\_n\\supseteq...$ such
     that $X\_n\\in W\_n$ for all $n$ and $\\bigcap^\\infty\_{n=0}X\_n$
@@ -366,22 +366,22 @@ The existence of a precipitous ideal on a regular uncountable cardinal
 implies the consistency of the existence of an inner model of
 $\\text{ZFC}$ that contains a
 [measurable](Measurable "Measurable")
-cardinal. The existence of a measurable cardinal $\\kappa$ implies the
-existence of a generic extension in which $\\kappa=\\omega\_1$ and
-$\\omega\_1$ carries a precipitous ideal.
+cardinal. The existence of a measurable cardinal $κ$ implies the
+existence of a generic extension in which $κ=ω\_1$ and
+$ω\_1$ carries a precipitous ideal.
 
 It is consistent, relative to the existence of a measurable cardinal,
-that the nonstationary ideal on $\\omega\_1$ is precipitous. This
+that the nonstationary ideal on $ω\_1$ is precipitous. This
 statement is in fact equiconsistent with the existence of a measurable.
-On the other hand, the nonstationary ideal on $\\omega\_2$ being
+On the other hand, the nonstationary ideal on $ω\_2$ being
 precipitous is a much stronger statement, and is equiconsistent with the
 existence of measurable of
 <a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
 2, and thus stronger than the existence of a proper class of
 measurables. The consistency strength of the nonstationary ideal on a
-successor cardinal $\\kappa\\geq\\omega\_3$ is inbetween the existence
-of a measurable of Mitchell order $\\kappa^+$ and one of order
-$\\kappa^{++}$. For limit cardinals, the consistency strength is in the
+successor cardinal $κ\\geqω\_3$ is inbetween the existence
+of a measurable of Mitchell order $κ^+$ and one of order
+$κ^{++}$. For limit cardinals, the consistency strength is in the
 region of Woodin cardinals.
 
 ## Measures
@@ -393,19 +393,19 @@ on $S$ is a function $\\mu:\\mathcal{P}(S)\\to\[0,+\\infty\]$ such that:
 
 -   $\\mu(\\empty)=0$, $\\mu(S)&gt;0$
 -   $\\mu(X)\\leq\\mu(Y)$ whenever $X\\subseteq Y$
--   Let $\\{X\_n : n&lt;\\omega\\}$ such that $X\_i\\cap X\_j=\\empty$
+-   Let $\\{X\_n : n&lt;ω\\}$ such that $X\_i\\cap X\_j=\\empty$
     whenever $i&lt;j$, then
-    $\\mu(\\bigcup\_{n&lt;\\omega}X\_n)=\\sum\_{n=0}^{\\infty}\\mu(X\_n)$
+    $\\mu(\\bigcup\_{n&lt;ω}X\_n)=\\sum\_{n=0}^{\\infty}\\mu(X\_n)$
 
 $\\mu$ is *probabilist* if $\\mu(S)=1$. $\\mu$ is *nontrivial* because
 there exists a set $A$ of positive measure, i.e. $\\mu(A)&gt;0$, since
 we required $\\mu(S)&gt;0$.
 
-$\\mu$ is $\\theta$-additive if $\\{X\_\\alpha : \\alpha&lt;\\lambda\\}$
-with $\\lambda&lt;\\theta$ is such that $X\_i\\cap X\_j=\\empty$
+$\\mu$ is $\\theta$-additive if $\\{X\_α : α&lt;λ\\}$
+with $λ&lt;\\theta$ is such that $X\_i\\cap X\_j=\\empty$
 whenever $i&lt;j$, then
-$\\mu(\\bigcup\_{\\alpha&lt;\\lambda}X\_\\alpha)=\\sum\_{\\alpha&lt;\\lambda}\\mu(X\_\\alpha)$.
-Every measure $\\mu$ is $\\omega\_1$-additive (i.e. countably additive /
+$\\mu(\\bigcup\_{α&lt;λ}X\_α)=\\sum\_{α&lt;λ}\\mu(X\_α)$.
+Every measure $\\mu$ is $ω\_1$-additive (i.e. countably additive /
 $\\sigma$-additive).
 
 $\\mu$ is *2-valued* (or *0-1-valued*) if for all $X\\subseteq S$,
@@ -453,33 +453,33 @@ determinacy](Axiom_of_determinacy "Axiom of determinacy").
 
 ## Normal and fine filters
 
-Let $\\kappa$ be an
+Let $κ$ be an
 <a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
 [cardinal](Cardinal "Cardinal").
-By "filter on $\\mathcal{P}\_\\kappa(A)$" we mean that $F$ contains
-subsets of $\\mathcal{P}\_\\kappa(A)$, not elements of it. For
-$\\{X\_i:i\\in A\\}$ a sequence of subsets of $\\mathcal{P}\_\\kappa(A)$
+By "filter on $\\mathcal{P}\_κ(A)$" we mean that $F$ contains
+subsets of $\\mathcal{P}\_κ(A)$, not elements of it. For
+$\\{X\_i:i\\in A\\}$ a sequence of subsets of $\\mathcal{P}\_κ(A)$
 indexed by elements of $A$, we define the *diagonal intersection*
 $\\Delta\_{i\\in A}X\_i$ of this sequence to be
-$\\{x\\in\\mathcal{P}\_\\kappa(A) : x\\in\\bigcap\_{i\\in x}X\_i\\}$,
-itself a subset of $\\mathcal{P}\_\\kappa(A)$.
+$\\{x\\in\\mathcal{P}\_κ(A) : x\\in\\bigcap\_{i\\in x}X\_i\\}$,
+itself a subset of $\\mathcal{P}\_κ(A)$.
 
-If $U$ is a $\\kappa$-complete nonprincipal ultrafilter on some set $S$
-with $\|S\|\\geq\\kappa$ we can associate $U$ with its dual 2-valued
+If $U$ is a $κ$-complete nonprincipal ultrafilter on some set $S$
+with $\|S\|\\geqκ$ we can associate $U$ with its dual 2-valued
 measure $\\mu(X)$ which is 1 iff $X$ is in $U$, and is 0 otherwise. It
 is usual to refer to $U$ as a *measure*.
 
-We are going to define fineness and normality for filters on $\\kappa$
-or on some $\\mathcal{P}\_\\kappa(A)$. Different authors often have
+We are going to define fineness and normality for filters on $κ$
+or on some $\\mathcal{P}\_κ(A)$. Different authors often have
 different terminology for the concepts defined below, for instance some
 call *normal ultrafilter* what we are going to call a *normal fine
 measure*. The terminology used here will be used throughout *Cantor's
 Attic*, but when reading papers or other sites on set theory, one should
 be cautious about the possible differences in terminology.
 
-Let $F$ be a filter on some set $S$ with $\|S\|\\geq\\kappa$ (usually
-the only cases considered will be $S=\\kappa$ and
-$S=\\mathcal{P}\_\\kappa(A)$ for some $A$ with $\|A\|\\geq\\kappa$).
+Let $F$ be a filter on some set $S$ with $\|S\|\\geqκ$ (usually
+the only cases considered will be $S=κ$ and
+$S=\\mathcal{P}\_κ(A)$ for some $A$ with $\|A\|\\geqκ$).
 
 -   $F$ is a *fine filter* if for every $a\\in S$, one has $\\{x\\in S :
     a\\in x\\}\\in F$.
@@ -488,91 +488,91 @@ $S=\\mathcal{P}\_\\kappa(A)$ for some $A$ with $\|A\|\\geq\\kappa$).
     : i\\in S\\}$ such that $X\_i\\in F$ for all $i\\in S$.
 
 Not every normal filter needs to be fine. Fineness is usually
-unimportant when $S=\\kappa$, but it is an important property when
-$S=\\mathcal{P}\_\\kappa(A)$. Every set in a normal measure on $\\kappa$
-is stationary in $\\kappa$. If $V=L\[D\]$ where $D$ is a normal measure
-on some cardinal $\\kappa$ then the generalized continuum hypothesis
+unimportant when $S=κ$, but it is an important property when
+$S=\\mathcal{P}\_κ(A)$. Every set in a normal measure on $κ$
+is stationary in $κ$. If $V=L\[D\]$ where $D$ is a normal measure
+on some cardinal $κ$ then the generalized continuum hypothesis
 holds.
 
-Given a function $f:\\kappa\\to\\kappa$ and a set $X\\subseteq\\kappa$,
-we say that $f$ is *regressive on $X$* if $f(\\alpha)\\leq\\alpha$ for
-all $\\alpha\\in X$. If $D$ is a measure on $\\kappa$, then it is normal
+Given a function $f:κ\\toκ$ and a set $X\\subseteqκ$,
+we say that $f$ is *regressive on $X$* if $f(α)\\leqα$ for
+all $α\\in X$. If $D$ is a measure on $κ$, then it is normal
 if and only if every function regressive on $X$ for $X\\in D$, that
 function is also constant on a set in $D$. This reminds of *Fodor's
-theorem*: every regressive function on $\\kappa$ is constant on a
-stationary subset of $\\kappa$. A normal measure contains all the said
+theorem*: every regressive function on $κ$ is constant on a
+stationary subset of $κ$. A normal measure contains all the said
 stationary subsets (but not only them).
 
 Another characterization of normal measures is: a measure $D$ on
-$\\kappa$ is normal if for all $X\\subseteq\\kappa$, one has $X\\in D$
-if and only if $\\kappa\\in j\_D(X)$ where $j\_D$ is the canonical
+$κ$ is normal if for all $X\\subseteqκ$, one has $X\\in D$
+if and only if $κ\\in j\_D(X)$ where $j\_D$ is the canonical
 [ultrapower](Ultrapower "Ultrapower")
 [embedding](Elementary_embedding "Elementary embedding")
 generated by $D$. Similarly, a measure $D$ on
-$\\mathcal{P}\_\\kappa(\\lambda)$ for some $\\lambda\\geq\\kappa$ is
-normal if for all $X\\subseteq\\mathcal{P}\_\\kappa(\\lambda)$, one has
-$X\\in D$ if and only if $j\`\`\\lambda\\in j(X)$ where
-$j\`\`\\lambda=\\{j(\\alpha) : \\alpha&lt;\\lambda\\}$.
+$\\mathcal{P}\_κ(λ)$ for some $λ\\geqκ$ is
+normal if for all $X\\subseteq\\mathcal{P}\_κ(λ)$, one has
+$X\\in D$ if and only if $j\`\`λ\\in j(X)$ where
+$j\`\`λ=\\{j(α) : α&lt;λ\\}$.
 
-If there is a normal fine $\\lambda$-saturated measure on
-$\[\\lambda\]^{&lt;\\kappa}$ then
-$\\lambda^{&lt;\\kappa}=\\text{max}(\\lambda,2^{&lt;\\kappa})$.
+If there is a normal fine $λ$-saturated measure on
+$\[λ\]^{&lt;κ}$ then
+$λ^{&lt;κ}=\\text{max}(λ,2^{&lt;κ})$.
 
 ## Large cardinals
 
-If there exists a 2-valued $\\kappa$-additive measure on $\\kappa$, then
-$\\kappa$ is a
+If there exists a 2-valued $κ$-additive measure on $κ$, then
+$κ$ is a
 **[measurable](Measurable "Measurable")**
 cardinal. This equivalent to saying that there is a measure (i.e. a
-$\\kappa$-complete nonprincipal ultrafilter) on $\\kappa$. If $j:V\\to
-M$ is a nontrivial elementary embedding with critical point $\\kappa$,
-then $\\mathcal{U}\_j=\\{x\\subseteq \\kappa : \\kappa\\in j(x)\\}$ is a
-$\\kappa$-complete nonprincipal ultrafilter on $\\mathcal{P}(\\kappa)$
-and $\\kappa$ is measurable. In fact, $\\mathcal{U}\_j$ is a normal fine
-measure on $\\kappa$, which we can call the "canonical" normal fine
+$κ$-complete nonprincipal ultrafilter) on $κ$. If $j:V\\to
+M$ is a nontrivial elementary embedding with critical point $κ$,
+then $\\mathcal{U}\_j=\\{x\\subseteq κ : κ\\in j(x)\\}$ is a
+$κ$-complete nonprincipal ultrafilter on $\\mathcal{P}(κ)$
+and $κ$ is measurable. In fact, $\\mathcal{U}\_j$ is a normal fine
+measure on $κ$, which we can call the "canonical" normal fine
 measure generated by $j$. The canonical measure contains the set of all
 [inaccessible](Inaccessible "Inaccessible"),
 [Mahlo](Mahlo "Mahlo"), and
 even
 [Ramsey](Ramsey "Ramsey")
-cardinals below $\\kappa$, and much more.
+cardinals below $κ$, and much more.
 
-If, for every set $S$, every $\\kappa$-complete filter on $S$ can be
-extended to a $\\kappa$-complete ultrafilter on $S$, then $\\kappa$ is
+If, for every set $S$, every $κ$-complete filter on $S$ can be
+extended to a $κ$-complete ultrafilter on $S$, then $κ$ is
 **[strongly
 compact](Strongly_compact "Strongly compact")**.
 Every strongly compact cardinal is measurable, and it is consistent that
 the first measurable and the first strongly compact cardinals are equal.
 Strong compactness is furthermore equivalent to the assertion that for
-every set $A$ such that $\|A\|\\geq\\kappa$ there exists a fine measure
-on $\\mathcal{P}\_\\kappa(A)$. Those measures don't have to be normal.
+every set $A$ such that $\|A\|\\geqκ$ there exists a fine measure
+on $\\mathcal{P}\_κ(A)$. Those measures don't have to be normal.
 
-If there is a set $\\lambda$ with $\\lambda\\geq\\kappa$ such that there
-is a normal fine measure on $\\mathcal{P}\_\\kappa(\\lambda)$, then
-$\\kappa$ is
-$\\lambda$-[supercompact](Supercompact "Supercompact");
-if it is $\\lambda$-supercompact for every $\\lambda\\geq\\kappa$, then
+If there is a set $λ$ with $λ\\geqκ$ such that there
+is a normal fine measure on $\\mathcal{P}\_κ(λ)$, then
+$κ$ is
+$λ$-[supercompact](Supercompact "Supercompact");
+if it is $λ$-supercompact for every $λ\\geqκ$, then
 it is
 **[supercompact](Supercompact "Supercompact")**.
 This is equivalent to saying that for every set $A$ with
-$\|A\|\\geq\\kappa$, there is a normal fine measure on
-$\\mathcal{P}\_\\kappa(A)$. Clearly, every supercompact is strongly
+$\|A\|\\geqκ$, there is a normal fine measure on
+$\\mathcal{P}\_κ(A)$. Clearly, every supercompact is strongly
 compact by the last characterization of strong compactness. It is open
 whether supercompactness is stronger than strong compactness
 consistency-wise.
 
-If there are cardinals $\\kappa$ and $\\lambda$ such that there is a
-normal measure $D$ on $\\{X\\subseteq\\lambda :
-\\text{order-type}(X)=\\kappa\\}$ then $\\kappa$ is
+If there are cardinals $κ$ and $λ$ such that there is a
+normal measure $D$ on $\\{X\\subseteqλ :
+\\text{order-type}(X)=κ\\}$ then $κ$ is
 **[huge](Huge "Huge")** and
 there is a nontrivial elementary embedding $j:V\\to M$ for a transitive
-class $M$ such that $\\kappa = \\mathrm{crit}(j)$, $\\lambda =
-j(\\kappa)$, $M^\\lambda\\subseteq M$ and $X\\in D$ if and only if
-$j\`\`\\lambda\\in j(X)$. The ordinal $\\lambda$ is always a measurable
+class $M$ such that $κ = \\mathrm{crit}(j)$, $λ =
+j(κ)$, $M^λ\\subseteq M$ and $X\\in D$ if and only if
+$j\`\`λ\\in j(X)$. The ordinal $λ$ is always a measurable
 cardinal and is called the *target* of $j$. It is itself quite big,
-though it is $\\kappa$ that bears most of the strong large cardinal
+though it is $κ$ that bears most of the strong large cardinal
 properties. While the least huge cardinal is less than the least
-supercompact (assuming both exists), the rank $V\_\\kappa$ satisfies the
+supercompact (assuming both exists), the rank $V\_κ$ satisfies the
 existence of unboundedly many supercompact cardinals, thus the existence
 of a such cardinal has *much* higher consistency strength than the
 existence of a supercompact cardinal.

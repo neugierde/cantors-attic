@@ -51,8 +51,8 @@ What is missing from the wholeness axiom schemes, and what figures
 prominantly in Kunen's proof, are the instances of the replacement axiom
 in the full language with $j$. In particular, it is the replacement
 axiom in the language with $j$ that allows one to define the critical
-sequence $\\langle \\kappa\_n\\mid n\\lt\\omega\\rangle$, where
-$\\kappa\_{n+1}=j(\\kappa\_n)$, which figures in all the proofs of the
+sequence $\\langle κ\_n\\mid n\\ltω\\rangle$, where
+$κ\_{n+1}=j(κ\_n)$, which figures in all the proofs of the
 Kunen inconsistency. Thus, none of the proofs of the Kunen inconsistency
 can be carried out with $\\text{WA}$, and indeed, in every model of
 $\\text{WA}$ the critical sequence is unbounded in the ordinals.
@@ -60,23 +60,23 @@ $\\text{WA}$ the critical sequence is unbounded in the ordinals.
 The hiearchy of wholeness axioms is strictly increasing in strength, if
 consistent. {% cite Hamkins2001 %}
 
-If $j:V\_\\lambda\\to V\_\\lambda$ witnesses a [rank into
+If $j:V\_λ\\to V\_λ$ witnesses a [rank into
 rank](Rank_into_rank "Rank into rank")
-cardinal, then $\\langle V\_\\lambda,\\in,j\\rangle$ is a model of the
+cardinal, then $\\langle V\_λ,\\in,j\\rangle$ is a model of the
 wholeness axiom.
 
 **Axioms $\\mathrm{I}\_4^n$** for natural numbers $n$ (starting from
 $0$) are an attempt to measure the gap between $\\mathrm{I}\_3$ and
 $\\mathrm{WA}$. Each of these axioms asserts the existence of a
 transitive model of $\\mathrm{ZFC} + \\mathrm{WA}$ with additional,
-stronger and stronger properties. Namely, $\\mathrm{I}\_4^n(\\kappa)$
+stronger and stronger properties. Namely, $\\mathrm{I}\_4^n(κ)$
 holds if and only if there is a transitive model $(M,\\in,j)$ of
-$\\mathrm ZFC+WA$ with $V\_{j^n(\\kappa)+1}\\subseteq M$ and $\\kappa$
+$\\mathrm ZFC+WA$ with $V\_{j^n(κ)+1}\\subseteq M$ and $κ$
 the critical point of $j$. $\\mathrm{I}\_3(κ)$ is equivalent to the
 existence of an $\\mathrm{I}\_4(κ)$-coherent set of embeddings. On the
 other hand, it is not known whether the $\\mathrm{I}\_4^n$ axioms really
 increase in consistency strength and whether it is possible in
-$\\mathrm{ZFC}$ that $\\forall \_{n\\in\\omega} \\mathrm{I}\_4^n(κ)
+$\\mathrm{ZFC}$ that $\\forall \_{n\\inω} \\mathrm{I}\_4^n(κ)
 \\land \\neg
 \\mathrm{I}\_3(κ)$.{% cite Corazza2003 %}
 

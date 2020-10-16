@@ -86,17 +86,17 @@ $\\text{ZFC}$, in fact mutually interpretable with second-order
 arithmetic. However a much stronger theory,
 **$\\text{GPK}^+\_\\infty$**, is obtained by adding the following axiom:
 
--   **Infinity**: the von Neumann ordinal $\\omega$ is a set.
+-   **Infinity**: the von Neumann ordinal $ω$ is a set.
 
 By "von Neumann ordinal" we mean the usual definition of ordinals as
 well-ordered-by-inclusion sets containing all the smaller ordinals. Here
-$\\omega$ is the set of all finite ordinals (the natural numbers). The
+$ω$ is the set of all finite ordinals (the natural numbers). The
 point of this axiom is not implying the existence of an infinite set;
-the *class* $\\omega$ exists, so it has a set closure which is
+the *class* $ω$ exists, so it has a set closure which is
 certainely infinite. This set closure happens to satisfy the usual axiom
 of infinity of $\\text{ZFC}$ (i.e. it contains 0 and the successor of
 all its members) but in $\\text{GPK}^+$ this is not enough to deduce
-that $\\omega$ itself is a set (an improper class).
+that $ω$ itself is a set (an improper class).
 
 Olivier Esser showed that $\\text{GPK}^+\_\\infty$ can not only
 interpret $\\text{ZFC}$ (and prove it consistent), but is in fact

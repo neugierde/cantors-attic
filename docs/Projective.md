@@ -35,15 +35,15 @@ pointclasses of some Polish space $X$ defined by repeated applications
 of projections and complementations from either recursively enumerable
 or closed sets respectively.
 
-The following definitions are made by taking $X=\\omega^\\omega$, the
+The following definitions are made by taking $X=ω^ω$, the
 *Baire space*, i.e. the set of all functions
 $f:\\mathbb{N}\\to\\mathbb{N}$. We will identify its members with the
 corresponding real numbers under some fixed bijection between
-$\\mathbb{R}$ and $\\omega^\\omega$. The definitions presented here can
+$\\mathbb{R}$ and $ω^ω$. The definitions presented here can
 be easily extended to other Polish spaces than the Baire space.
 
 Let $\\mathbf{\\Sigma}^0\_1$ be the pointclass that contains all open
-subsets of the Polish space $\\omega^\\omega$. Let $\\mathbf{\\Pi}^0\_1$
+subsets of the Polish space $ω^ω$. Let $\\mathbf{\\Pi}^0\_1$
 be the pointclass containing the complements of the
 $\\mathbf{\\Sigma}^0\_1$ sets.
 
@@ -64,22 +64,22 @@ $\\mathbf{\\Delta}^1\_n$ the following way:
     The members of $\\mathbf{\\Delta}^1\_1$ are the *Borel* sets.
 
 The **relativized lightface projective pointclasses** $\\Sigma^1\_n(a)$,
-$\\Pi^1\_n(a)$ and $\\Delta^1\_n(a)$ (for $a\\in\\omega^\\omega$) are
+$\\Pi^1\_n(a)$ and $\\Delta^1\_n(a)$ (for $a\\inω^ω$) are
 defined similarly except that $\\Sigma^1\_1(a)$ is defined as the set of
-all $A\\subseteq\\omega^\\omega$ such that
-$A=\\{x\\in\\omega^\\omega:\\exists y\\in\\omega^\\omega$ $\\exists
-n\\in\\omega$ $R(x\\restriction n,y\\restriction n,a\\restriction
+all $A\\subseteqω^ω$ such that
+$A=\\{x\\inω^ω:\\exists y\\inω^ω$ $\\exists
+n\\inω$ $R(x\\restriction n,y\\restriction n,a\\restriction
 n)\\}$, that is, $A$ is recursively definable by a formula with only
-existential quantifiers ranging on members of $\\omega^\\omega$ or on
-$\\omega$ and whose only parameter is $a$.
+existential quantifiers ranging on members of $ω^ω$ or on
+$ω$ and whose only parameter is $a$.
 
 The (non-relativized) **lightface projective classes**, also known as
 *analytical pointclasses*, are the special cases $\\Sigma^1\_n$,
 $\\Pi^1\_n$ and $\\Delta^1\_n$ of relativized lightface projective
 pointclasses where $a=\\empty$. Let $\\Sigma^0\_1$ be the pointclass of
 all *recursively enumerable* sets, i.e. the sets $A$ such there exists a
-recursive relation $R$ such that $A=\\{x\\in\\omega^\\omega:\\exists
-n\\in\\omega$ $R(x\\restriction n)\\}$, and $\\Pi^0\_1$ contain the
+recursive relation $R$ such that $A=\\{x\\inω^ω:\\exists
+n\\inω$ $R(x\\restriction n)\\}$, and $\\Pi^0\_1$ contain the
 completements of $\\Sigma^0\_1$ sets. Then the $\\Sigma^1\_1$ sets are
 precisely the projections of $\\Pi^0\_1$ sets.
 
@@ -92,8 +92,8 @@ $\\Delta^1\_n(a)=\\Delta\_{\\Pi^1\_n(a)}=\\Delta\_{\\Sigma^1\_n(a)}$.
 ## Properties
 
 Every $\\mathbf{\\Sigma}^1\_n$ set is $\\Sigma^1\_n(a)$ for some
-$a\\in\\omega^\\omega$, in fact
-$\\mathbf{\\Sigma}^1\_n=\\bigcup\_{a\\in\\omega^\\omega}\\Sigma^1\_n(a)$.
+$a\\inω^ω$, in fact
+$\\mathbf{\\Sigma}^1\_n=\\bigcup\_{a\\inω^ω}\\Sigma^1\_n(a)$.
 A similar statement holds for $\\mathbf{\\Pi}^1\_n$ sets and
 $\\mathbf{\\Delta}^1\_n$ sets. This means the boldface projective sets
 are precisely the set definable using only real and arithmetical
@@ -103,11 +103,11 @@ The following statements also holds when replacing relativized lightface
 pointclasses by their boldface counterparts:
 
 -   If $A$ and $B$ are $\\Sigma^1\_n(a)$ relations, then so are
-    $\\exists x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$,
-    $\\exists n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
+    $\\exists x\\inω^ω$ $A$, $A\\land B$, $A\\lor B$,
+    $\\exists n\\inω$ $A$ and $\\forall n\\inω$ $A$.
 -   If $A$ and $B$ are $\\Pi^1\_n(a)$ relations, then so are $\\forall
-    x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$, $\\exists
-    n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
+    x\\inω^ω$ $A$, $A\\land B$, $A\\lor B$, $\\exists
+    n\\inω$ $A$ and $\\forall n\\inω$ $A$.
 -   If $A$ is a $\\Sigma^1\_n(a)$ relation then $\\neg A$ is a
     $\\Pi^1\_n(a)$ relation. If $A$ is $\\Pi^1\_n(a)$ then $\\neg A$ is
     $\\Sigma^1\_n(a)$.
@@ -117,7 +117,7 @@ pointclasses by their boldface counterparts:
     relation, then $A\\Rightarrow B$ is a $\\Sigma^1\_n(a)$ relation.
 -   If $A$ and $B$ are $\\Delta^1\_n(a)$, then so are $\\neg A$,
     $A\\land B$, $A\\lor B$, $A\\Rightarrow B$, $A\\Leftrightarrow B$,
-    $\\exists n\\in\\omega$ $A$, $\\forall n\\in\\omega$ $A$.
+    $\\exists n\\inω$ $A$, $\\forall n\\inω$ $A$.
 -   $\\Delta^1\_n(a)\\subsetneq\\Sigma^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
 -   $\\Delta^1\_n(a)\\subsetneq\\Pi^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
 
@@ -131,27 +131,27 @@ $\\Sigma^1\_2(a)$ or $\\Pi^1\_2(a)$ relation is absolute for every inner
 model of $\\text{ZF+DC}$ that contains $a$ (as an element). It follows
 that $\\mathbf{\\Sigma}^1\_2$ and $\\mathbf{\\Pi}^1\_2$ relations are
 absolute for $L$, and also that every $\\Sigma^1\_2(a)$ real (by taking
-$X=\\omega$) is in $L\[a\]$, in particular every $\\Sigma^1\_2$ (or
+$X=ω$) is in $L\[a\]$, in particular every $\\Sigma^1\_2$ (or
 $\\Pi^1\_2$) real is constructible. The set of all constructible reals
 is $\\Sigma^1\_2$, and so is the canonical well-ordering $&lt;\_L$ of
-$L$. For $U$ a nonprincipal $\\kappa$-complete
+$L$. For $U$ a nonprincipal $κ$-complete
 <a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
 on some
 [measurable](Measurable "Measurable")
-cardinal $\\kappa$, then the collection of all sets of reals in $L\[U\]$
+cardinal $κ$, then the collection of all sets of reals in $L\[U\]$
 is $\\Sigma^1\_3$, and so is the canonical well-ordering
 $&lt;\_{L\[U\]}$ of $L\[U\]$.
 
 If
 <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$</a>
 exists then it is a $\\Sigma^1\_3$ real and the singleton $\\{0^\\\#\\}$
-is a $\\Pi^1\_2$ set of reals. If for every real $a\\in\\omega^\\omega$,
+is a $\\Pi^1\_2$ set of reals. If for every real $a\\inω^ω$,
 the sharp $a^\\\#$ exists then every $\\Sigma^1\_3$ set of reals is the
 union of $\\aleph\_2$ Borel sets.
 
 ## Regularity properties
 
-Let $A\\subseteq(\\omega^\\omega)^k$ be a k-dimensional set of reals. We
+Let $A\\subseteq(ω^ω)^k$ be a k-dimensional set of reals. We
 say that $A$ is *null* if it has
 <a href="http://en.wikipedia.org/wiki/outer_measure#Method_I" class="extiw" title="wikipedia:outer measure">outer measure</a>
 0. We say that $A$ is *nowhere dense* if its complement contains an open
@@ -196,10 +196,10 @@ The following statements are equivalent:
 -   Every $\\mathbf{\\Sigma}^1\_2$ set has the perfect set property.
 
 If $E$ is a $\\mathbf{\\Pi}^1\_1$ equivalence relation on
-$\\omega^\\omega$ then either $E$ has at most $\\aleph\_0$ equivalence
+$ω^ω$ then either $E$ has at most $\\aleph\_0$ equivalence
 classes or there exists a perfect set of mutually inequivalent reals. If
 $E$ is a $\\mathbf{\\Sigma}^1\_1$ equivalence relation on
-$\\omega^\\omega$ then either $E$ has at most $\\aleph\_1$ equivalence
+$ω^ω$ then either $E$ has at most $\\aleph\_1$ equivalence
 classes or there exists a perfect set of mutually inequivalent reals.
 
 ### Reduction and separation properties
@@ -210,13 +210,13 @@ $A'\\cap B'=\\empty$. Thus $A'$ and $B'$ partition $A\\cup B$. A
 pointclass $\\Gamma$ has the *reduction property* if for every $A$, $B$
 in $\\Gamma$ there exists $A'$, $B'$ in $\\Gamma$ such that $(A',B')$
 reduces $(A,B)$. $\\Pi^1\_1(a)$ has the reduction property for every
-$a\\in\\omega^\\omega$.
+$a\\inω^ω$.
 
 A pointclass $\\Gamma$ has the *separation property* if for any disjoint
-subsets $A$, $B$ of $(\\omega^\\omega)^k$ for some $k$, if $A$ and $B$
+subsets $A$, $B$ of $(ω^ω)^k$ for some $k$, if $A$ and $B$
 are in $\\Gamma$ then there is a $C$ in $\\Delta\_\\Gamma$ such that
 $A\\subseteq C$ and $B\\cap C=\\empty$. $\\Sigma^1\_1(a)$ has the
-separation property for every $a\\in\\omega^\\omega$.
+separation property for every $a\\inω^ω$.
 
 If $\\Gamma$ has the reduction property, then $\\neg\\Gamma$ has the
 separation property but not the reduction property. It is impossible for
@@ -238,34 +238,34 @@ $A$ in $\\Gamma$ has a $\\Gamma$-norm: a norm
 $\\varphi:A\\to\\text{Ord}$, a $\\Gamma$ relation $P(x,y)$ and a
 $\\neg\\Gamma$ relation $Q(x,y)$ such that for every $y\\in A$ and all
 $x$: $x\\in A\\land\\varphi(x)\\leq\\varphi(y)\\iff P(x,y)\\iff Q(x,y)$.
-The pointclasses $\\Sigma^1\_2$ and, for all $a\\in\\omega^\\omega$,
+The pointclasses $\\Sigma^1\_2$ and, for all $a\\inω^ω$,
 $\\Pi^1\_1(a)$ have the prewellordering property.
 
-A *scale* on $A$ is a sequence of norms $\\{\\varphi\_n:n\\in\\omega\\}$
-such that for every sequence of points $\\{x\_i:i\\in\\omega\\}$, if for
-every $n$ the sequence $\\{\\varphi\_n(x\_i):i\\in\\omega\\}$ is
-eventually constant with value $\\alpha\_n$, then
-$(\\mathrm{lim}\_{i\\to\\omega}$ $x\_i)\\in A$ and for every $n$,
-$\\varphi\_n(\\mathrm{lim}\_{i\\to\\omega}$ $x\_i)\\leq\\alpha\_n$. A
+A *scale* on $A$ is a sequence of norms $\\{\\varphi\_n:n\\inω\\}$
+such that for every sequence of points $\\{x\_i:i\\inω\\}$, if for
+every $n$ the sequence $\\{\\varphi\_n(x\_i):i\\inω\\}$ is
+eventually constant with value $α\_n$, then
+$(\\mathrm{lim}\_{i\\toω}$ $x\_i)\\in A$ and for every $n$,
+$\\varphi\_n(\\mathrm{lim}\_{i\\toω}$ $x\_i)\\leqα\_n$. A
 pointclass $\\Gamma$ has the *scale property* if for every set $A$ in
 $\\Gamma$, there exists a $\\Gamma$-scale for $A$: a scale
-$\\{\\varphi\_n:n\\in\\omega\\}$, a $\\Gamma$ relation $P(n,x,y)$ and a
+$\\{\\varphi\_n:n\\inω\\}$, a $\\Gamma$ relation $P(n,x,y)$ and a
 $\\neg\\Gamma$ relation $Q(x,y)$ such that for every $n$, every $y\\in
 A$ and all $x$: $x\\in A\\land\\varphi\_n(x)\\leq\\varphi\_n(y)\\iff
 P(n,x,y)\\iff Q(n,x,y)$. Again, the pointclasses $\\Sigma^1\_2$ and, for
-all $a\\in\\omega^\\omega$, $\\Pi^1\_1(a)$ have the scale property.
+all $a\\inω^ω$, $\\Pi^1\_1(a)$ have the scale property.
 
 Every pointclass with the prewellordering property has the reduction
 property. Thus it is impossible for both a pointclass and its complement
 to have the prewellordering or scale properties.
 
-A set $A\\subseteq\\omega^\\omega\\times\\omega^\\omega$ is
+A set $A\\subseteqω^ω\\timesω^ω$ is
 *uniformized* by a function $F$ if
-$\\mathrm{dom}(F)=\\{x\\in\\omega^\\omega:\\exists y\\in\\omega^\\omega$
+$\\mathrm{dom}(F)=\\{x\\inω^ω:\\exists y\\inω^ω$
 $(x,y)\\in A\\}$ and $(x,F(x))\\in A$ for all $x\\in\\mathrm{dom}(F)$. A
 pointclass $\\Gamma$ has the *uniformization* property if every set in
 $\\Gamma$ can be uniformized by a function in $\\Gamma$. The
-pointclasses $\\Sigma^1\_2$ and, for all $a\\in\\omega^\\omega$,
+pointclasses $\\Sigma^1\_2$ and, for all $a\\inω^ω$,
 $\\Pi^1\_1(a)$ have the uniformization property.
 
 ## Projective determinacy
@@ -275,8 +275,8 @@ determinacy](Axiom_of_determinacy "Axiom of determinacy")*
 
 *Determinacy* is a kind of regularity property. For every set of reals
 $A$, the game $G\_A$ is the infinite game of perfect information of
-length $\\omega$ where both players constructs a sequence (i.e. a real)
-by playing elements of $\\omega$, one after the other, such that the
+length $ω$ where both players constructs a sequence (i.e. a real)
+by playing elements of $ω$, one after the other, such that the
 first player's goal is to have the constructed real be in $A$, and the
 second player's goal is to have the constructed real be in $A$'s
 complement. $A$ is *determined* if the game $G\_A$ is determined, i.e.
@@ -285,14 +285,14 @@ one of the two players have a winning strategy for $G\_A$.
 Given a pointclass $\\Gamma$, *$\\Gamma$-determinacy* is the statement
 "every $A\\in\\Gamma$ is determined". $\\Gamma$-determinacy and
 $\\neg\\Gamma$-determinacy are always equivalent.
-$\\omega^\\omega$-determinacy is the *axiom of determinacy* and is
+$ω^ω$-determinacy is the *axiom of determinacy* and is
 implied false by the
 <a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>.
 The **axiom of projective determinacy** ($\\text{PD}$) is precisely
-$(\\bigcup\_{n\\in\\omega}\\mathbf{\\Sigma}^1\_n)$-determinacy. Given
+$(\\bigcup\_{n\\inω}\\mathbf{\\Sigma}^1\_n)$-determinacy. Given
 some class $M$ (e.g. $\\text{OD}$, $L(\\mathbb{R})$, ...),
 *$M$-determinacy* is an abbreviation for
-$(M\\cap\\mathcal{P}(\\omega^\\omega))$-determinacy.
+$(M\\cap\\mathcal{P}(ω^ω))$-determinacy.
 $L(\\mathbb{R})$-determinacy notably follows from large cardinal axioms,
 in particular the existence of infinitely many
 [Woodin](Woodin "Woodin")
@@ -302,7 +302,7 @@ above them all.
 
 Martin showed that $\\text{ZFC}$ alone is sufficient to prove Borel
 determinacy (i.e. $\\mathbf{\\Delta}^1\_1$-determinacy). However, for
-every $a\\in\\omega^\\omega$, $\\Sigma^1\_1(a)$-determinacy is
+every $a\\inω^ω$, $\\Sigma^1\_1(a)$-determinacy is
 equivalent to "the sharp $a^\\\#$ exists", thus Borel determinacy is the
 best result possible in $\\text{ZFC}$ alone. Analytic (i.e.
 $\\mathbf{\\Sigma^1\_1}$) determinacy follows from the existence of a
@@ -317,7 +317,7 @@ Note that for every $n$, $\\mathbf{\\Sigma}^1\_n$-determinacy is
 equivalent to $\\mathbf{\\Pi}^1\_n$-determinacy. Furthertmore, under
 $\\text{DC}$ (the
 *<a href="http://en.wikipedia.org/wiki/axiom_of_dependent_choice" class="extiw" title="wikipedia:axiom of dependent choice">axiom of dependent choice</a>*)
-for every $n\\in\\omega$, $\\mathbf{\\Delta}^1\_{2n}$-determinacy is
+for every $n\\inω$, $\\mathbf{\\Delta}^1\_{2n}$-determinacy is
 equivalent to $\\mathbf{\\Sigma}^1\_{2n}$-determinacy
 ($\\mathbf{\\Pi}^1\_{2n}$-determinacy)
 
@@ -329,45 +329,45 @@ perfect set property.
 
 Assume projective determinacy; then the following pointclasses have the
 reduction, prewellordering, scale and uniformization properties, for
-every $a\\in\\omega^\\omega$: $\\Pi^1\_1(a), \\Sigma^1\_2(a),
+every $a\\inω^ω$: $\\Pi^1\_1(a), \\Sigma^1\_2(a),
 \\Pi^1\_3(a), ..., \\Pi^1\_{2n+1}(a), \\Sigma^1\_{2n+2}(a), ...$ This is
 known as the *periodicity theorem*. On the other hand, if $L\[U\]$
-contains every real for some nonprincipal $\\kappa$-complete
+contains every real for some nonprincipal $κ$-complete
 <a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
-$U$ on a measurable cardinal $\\kappa$, then every $\\Sigma^1\_n(a)$ has
+$U$ on a measurable cardinal $κ$, then every $\\Sigma^1\_n(a)$ has
 the reduction and prewellordering properties for $n\\geq 2$ and every
-$a\\in\\omega^\\omega$.
+$a\\inω^ω$.
 
 ### Projective ordinals
 
 For every pointclass $\\Gamma$, define $\\delta\_\\Gamma$ as the
 supremum of the length of $\\Gamma$ prewellorderings of
-$\\omega^\\omega$. One then defines the *projective ordinals* to be
+$ω^ω$. One then defines the *projective ordinals* to be
 $\\delta^1\_n=\\delta\_{\\mathbf{\\Sigma}^1\_n}=\\delta\_{\\mathbf{\\Pi}^1\_n}$.
-It can be shown without $\\text{AD}$ that $\\delta^1\_1=\\omega\_1$ and
-that $\\delta^1\_2\\leq\\omega\_2$. Under $\\text{AD}$, each projective
+It can be shown without $\\text{AD}$ that $\\delta^1\_1=ω\_1$ and
+that $\\delta^1\_2\\leqω\_2$. Under $\\text{AD}$, each projective
 ordinal is a regular cardinal and the sequence
-$\\{\\delta^1\_n:n\\in\\omega\\}$ is a strictly increasing sequence of
-measurable cardinals, also $\\delta^1\_2=\\omega\_2$,
-$\\delta^1\_3=\\omega\_{\\omega+1}$ and
-$\\delta^1\_4=\\omega\_{\\omega+2}$. In general,
+$\\{\\delta^1\_n:n\\inω\\}$ is a strictly increasing sequence of
+measurable cardinals, also $\\delta^1\_2=ω\_2$,
+$\\delta^1\_3=ω\_{ω+1}$ and
+$\\delta^1\_4=ω\_{ω+2}$. In general,
 $\\delta^1\_{2n+2}\\leq(\\delta^1\_{2n+1})^{+}$ and in any case every
 $\\delta^1\_{2n+1}$ is the successor of a cardinal of cofinality
-$\\omega$. Under $\\text{DC}$ the above inequality becomes an equality.
+$ω$. Under $\\text{DC}$ the above inequality becomes an equality.
 
-Define $E:\\omega\\to\\omega\_1$ by recursion the following way:
-$E(0)=1$, $E(n+1)=\\omega^{E(n)}$ (ordinal exponentiation). Then, under
-$\\text{AD+DC}$, one has $\\delta^1\_{2n+3}=\\omega\_{E(2n+1)+1}$, also
+Define $E:ω\\toω\_1$ by recursion the following way:
+$E(0)=1$, $E(n+1)=ω^{E(n)}$ (ordinal exponentiation). Then, under
+$\\text{AD+DC}$, one has $\\delta^1\_{2n+3}=ω\_{E(2n+1)+1}$, also
 every $\\delta^1\_{2n+3}$ has the strong [partition
 property](Partition_property "Partition property")
-$\\delta^1\_{2n+3}\\to(\\delta^1\_{2n+3})^{\\delta^1\_{2n+3}}\_\\alpha$
-for every $\\alpha&lt;\\delta^1\_{2n+3}$. In particular,
+$\\delta^1\_{2n+3}\\to(\\delta^1\_{2n+3})^{\\delta^1\_{2n+3}}\_α$
+for every $α&lt;\\delta^1\_{2n+3}$. In particular,
 $\\delta^1\_{2n+3}$ is
 [Ramsey](Ramsey "Ramsey").
 
 One calls a set of reals $A$ is $\\gamma$-Borel (for a cardinal
 $\\gamma$) if it is in the smallest collection of sets containing all
-closed sets of $(\\omega^\\omega)^k$ that is closed under
+closed sets of $(ω^ω)^k$ that is closed under
 complementations and unions of less than $\\gamma$ sets. If $\\gamma$ is
 not a cardinal then $A$ is $\\gamma$-Borel if it is $\\gamma^{+}$-Borel
 where $\\gamma^{+}$ is the smallest cardinal &gt;$\\gamma$. Note that a
@@ -396,7 +396,7 @@ cardinal". {% cite Koellner2010 %}
 
 $\\text{ZFC}$ + (lightface) $\\Delta^1\_2$-determinacy implies that
 there many $x$ such that $\\text{HOD}^{L\[x\]}$ is a model of
-$\\text{ZFC+}$"$\\omega\_2^{L\[x\]}$ is a Woodin cardinal".
+$\\text{ZFC+}$"$ω\_2^{L\[x\]}$ is a Woodin cardinal".
 $\\text{Z}\_2$+$\\Delta^1\_2$-determinacy is conjectured to be
 equiconsistent with $\\text{ZFC+}$"$\\text{Ord}$ is Woodin", where
 "$\\text{Ord}$ is Woodin" is expressed as an axiom scheme and
@@ -407,8 +407,8 @@ with $\\text{NBG+}$"$\\text{Ord}$ is Woodin" where $\\text{NBG}$ is
 <a href="http://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory" class="extiw" title="wikipedia:Von Neumann–Bernays–Gödel set theory">Von Neumann–Bernays–Gödel set theory</a>
 and $\\text{Z}\_3$ is third-order arithmetic.
 
-Gitik and Schindler showed that if $\\aleph\_\\omega$ is a strong limit
-cardinal and $2^{\\aleph\_\\omega}&gt;\\aleph\_{\\omega\_1}$, then the
+Gitik and Schindler showed that if $\\aleph\_ω$ is a strong limit
+cardinal and $2^{\\aleph\_ω}&gt;\\aleph\_{ω\_1}$, then the
 axiom of projective determinacy holds. Also, if there is a singular
 cardinal of uncountable cofinality such that the sets of the cardinals
 below it such that the GCH holds is both
@@ -432,106 +432,106 @@ cardinals by James Cummings and Foreman.
 
 ### Trees, towers of measures, homogeneity
 
-For any set $X$, define $X^{&lt;\\omega}$ to be the set of all finite
-sequences of elements in $X$. Given a sequence $s\\in X^{&lt;\\omega}$,
+For any set $X$, define $X^{&lt;ω}$ to be the set of all finite
+sequences of elements in $X$. Given a sequence $s\\in X^{&lt;ω}$,
 define $\\text{len}(s)$ to be the length of $s$ (which is always a
 finite number).
 
-A set $T\\subseteq\\omega^{&lt;\\omega}\\times\\kappa^{\\omega}$ is a
-*tree on $\\omega\\times\\kappa$*, where $\\kappa$ is an ordinal, if for
+A set $T\\subseteqω^{&lt;ω}\\timesκ^{ω}$ is a
+*tree on $ω\\timesκ$*, where $κ$ is an ordinal, if for
 every pair $(s,t)\\in T$, $s$ and $t$ have the same length, and for all
 $i&lt;\\text{len}(s)$, one has
 $(s\\restriction\_i,t\\restriction\_i)\\in T$, i.e. $T$ is closed under
 initial sequences.
 
-Given a tree $T$ on $\\omega\\times\\kappa$ and
-$s\\in\\omega^{&lt;\\omega}$, we define
-$T\_s=\\{t\\in\\kappa^{&lt;\\omega}:(s,t)\\in T\\}$, and for every real
-$x\\in\\omega^\\omega$, we define
-$T\_x=\\bigcup\\{T\_{x\\restriction\_k}:k\\in\\omega\\}$, which is
-always a tree on $\\kappa$. We also define $\[T\]$ to be the set of all
+Given a tree $T$ on $ω\\timesκ$ and
+$s\\inω^{&lt;ω}$, we define
+$T\_s=\\{t\\inκ^{&lt;ω}:(s,t)\\in T\\}$, and for every real
+$x\\inω^ω$, we define
+$T\_x=\\bigcup\\{T\_{x\\restriction\_k}:k\\inω\\}$, which is
+always a tree on $κ$. We also define $\[T\]$ to be the set of all
 infinite branches of $T$, that is,
-$\[T\]=\\{(x,f):x\\in\\omega^\\omega,f\\in\\kappa^\\omega\\land\\forall
-k\\in\\omega$ $((x\\restriction k,f\\restriction k)\\in T\\}$. Finally
+$\[T\]=\\{(x,f):x\\inω^ω,f\\inκ^ω\\land\\forall
+k\\inω$ $((x\\restriction k,f\\restriction k)\\in T\\}$. Finally
 we define the **projection** of $T$ to be
-$p\[T\]=\\{x\\in\\omega^\\omega:\\exists f\\in\\kappa^\\omega$
+$p\[T\]=\\{x\\inω^ω:\\exists f\\inκ^ω$
 $((x,f)\\in\[T\])\\}$, a set of reals.
 
 Given a nonempty set $X$, we define $m(X)$ to be the set of
 $\\sigma$-complete
 [ultrafilters](Filter "Filter")
 on $X$ (we do not require nonprincipality). We will call $m(X)$'s
-elements "measures". Let $U\_1,U\_2$ be measures on $X^{&lt;\\omega}$
+elements "measures". Let $U\_1,U\_2$ be measures on $X^{&lt;ω}$
 for some set $X$. Let $k\_1,k\_2$ be such that $X^{k\_1}\\in U\_1$ and
 $X^{k\_2}\\in U\_2$. We say that $U\_2$ *projects to* $U\_1$, denoted
 $U\_1&lt;U\_2$, if $k\_1&lt;k\_2$ and for all $A\\subseteq Y^{k\_1}$,
 $A\\in U\_1$ iff $A^\*\\in U\_2$ where $A^\*=\\{s\\in
 Y^{k\_2}:s\\restriction\_{k\_1}\\in A\\}$.
 
-Consider a sequence of measures $\\{U\_k:k\\in\\omega\\}$ on
-$Y^{&lt;\\omega}$ such that $Y^k\\in U\_k$ for every $k\\in\\omega$.
+Consider a sequence of measures $\\{U\_k:k\\inω\\}$ on
+$Y^{&lt;ω}$ such that $Y^k\\in U\_k$ for every $k\\inω$.
 That sequence is a *tower of measures* if $k\_1&lt;k\_2$ implues
 $U\_{k\_1}&lt;U\_{k\_2}$. It is a *countably complete tower* if for all
-sequences $\\{A\_k:k\\in\\omega\\}$ such that $A\_k\\in U\_k$ for all
-$k&lt;\\omega$, there is $f\\in Y^\\omega$ such that $f\\restriction\_k$
-$\\in A\_k$ for every $k\\in\\omega$.
+sequences $\\{A\_k:k\\inω\\}$ such that $A\_k\\in U\_k$ for all
+$k&lt;ω$, there is $f\\in Y^ω$ such that $f\\restriction\_k$
+$\\in A\_k$ for every $k\\inω$.
 
-Let $\\kappa$ be a nonzero ordinal, and $T$ be a tree on
-$\\omega\\times\\kappa$. Then $T$ is *$\\delta$-weakly homogeneous* if
+Let $κ$ be a nonzero ordinal, and $T$ be a tree on
+$ω\\timesκ$. Then $T$ is *$\\delta$-weakly homogeneous* if
 there is a partial function
-$\\pi:\\omega^{&lt;\\omega}\\times\\omega^{&lt;\\omega}\\to
-m(\\kappa^{&lt;\\omega})$ such that for all
+$\\pi:ω^{&lt;ω}\\timesω^{&lt;ω}\\to
+m(κ^{&lt;ω})$ such that for all
 $(s,t)\\in\\text{dom}(\\pi)$, $\\pi(s,t)$ is a $\\delta$-complete
-measure, $T\_s\\in\\pi(s,t)$ and for all reals $x\\in\\omega^\\omega$,
-$x\\in p\[T\]$ if and only if there exists $y\\in\\omega^\\omega$ such
-that $\\{\\pi(x\\restriction\_k,y\\restriction\_k):k\\in\\omega\\}$ is a
+measure, $T\_s\\in\\pi(s,t)$ and for all reals $x\\inω^ω$,
+$x\\in p\[T\]$ if and only if there exists $y\\inω^ω$ such
+that $\\{\\pi(x\\restriction\_k,y\\restriction\_k):k\\inω\\}$ is a
 countably complete tower. $T$ is (&lt;$\\delta$)-weakly homogeneous iff
-it is $\\alpha$-weakly homogeneous for all $\\alpha&lt;\\delta$. It is
+it is $α$-weakly homogeneous for all $α&lt;\\delta$. It is
 *weakly homogeneous* if it is $\\delta$-weakly homogeneous for some
-$\\delta$. If $\\kappa=\\omega$ or $\\kappa=1$ then every tree on
-$\\omega\\times\\kappa$ is $\\delta$-weakly homogeneous for all
+$\\delta$. If $κ=ω$ or $κ=1$ then every tree on
+$ω\\timesκ$ is $\\delta$-weakly homogeneous for all
 $\\delta$.
 
 An equivalent characterization of $\\delta$-weakly homogeneous trees is
 the following: $T$ is $\\delta$-weakly homogeneous if and only if there
-is a countable $\\sigma\\subseteq m(\\kappa^{&lt;\\omega})$ containing
+is a countable $\\sigma\\subseteq m(κ^{&lt;ω})$ containing
 only $\\delta$-complete measures and for all reals
-$x\\in\\omega^\\omega$, $x\\in p\[T\]$ if and only if there is a
-countably complete tower $\\{U\_k:k\\in\\omega\\}$ such that
-$T\_{x\\restriction\_k}\\in U\_k$ for all $k\\in\\omega$.
+$x\\inω^ω$, $x\\in p\[T\]$ if and only if there is a
+countably complete tower $\\{U\_k:k\\inω\\}$ such that
+$T\_{x\\restriction\_k}\\in U\_k$ for all $k\\inω$.
 
 $T$ is $\\delta$-homogeneous if there is a partial function
-$\\pi:\\omega^{&lt;\\omega}\\to m(\\kappa^{&lt;\\omega})$ such that for
+$\\pi:ω^{&lt;ω}\\to m(κ^{&lt;ω})$ such that for
 all $s\\in\\text{dom}(\\pi)$, $\\pi(s)$ is a $\\delta$-complete measure,
-$T\_s\\in\\pi(s)$, and for all reals $x\\in\\omega^\\omega$, $x\\in
-p\[T\]$ if and only if $\\{\\pi(x\\restriction\_k):k\\in\\omega\\}$ is a
+$T\_s\\in\\pi(s)$, and for all reals $x\\inω^ω$, $x\\in
+p\[T\]$ if and only if $\\{\\pi(x\\restriction\_k):k\\inω\\}$ is a
 countably complete tower. $T$ is (&lt;$\\delta$)-homogeneous iff it is
-$\\alpha$-homogeneous for all $\\alpha&lt;\\delta$. It is *homogeneous*
+$α$-homogeneous for all $α&lt;\\delta$. It is *homogeneous*
 if it is $\\delta$-homogeneous for some $\\delta$. Homogeneity is a much
 more restrictive condition than weak homogeneity.
 
 ### Suslin sets and universally Baire sets
 
-A set of reals $A$ is *$\\kappa$-Suslin* iff it is the projection of
-some tree on $\\omega\\times\\kappa$. $A$ is *Suslin* iff it is
-$\\kappa$-Suslin for some ordinal $\\kappa$. Under the axiom of choice
+A set of reals $A$ is *$κ$-Suslin* iff it is the projection of
+some tree on $ω\\timesκ$. $A$ is *Suslin* iff it is
+$κ$-Suslin for some ordinal $κ$. Under the axiom of choice
 every set of reals is Suslin. Under the axiom of determinacy, every set
 of reals being Suslin is equivalent to the *axiom of real determinacy*,
 $\\text{AD}\_\\mathbb{R}$.
 
-The $\\omega$-Suslin sets of reals are exacactly the
+The $ω$-Suslin sets of reals are exacactly the
 $\\mathbf{\\Sigma}^1\_1$ sets of reals. Every $\\mathbf{\\Sigma}^1\_2$
-set of reals is $\\omega\_2$-Suslin. If the sharp of every real number
+set of reals is $ω\_2$-Suslin. If the sharp of every real number
 exists, then every $\\mathbf{\\Sigma}^1\_3$ set of reals is
-$\\omega\_2$-Suslin. Under the axiom of projective determinacy, the
+$ω\_2$-Suslin. Under the axiom of projective determinacy, the
 $\\mathbf{\\Sigma}^1\_{2n+2}$ sets of reals are precisely the
 $\\delta^1\_{2n+1}$-Suslin sets of reals.
 
 A set of reals $A$ is *$\\delta$-weakly homogeneously Suslin* if it is
 the projection of a $\\delta$-weakly homogeneous tree on
-$\\omega\\times\\kappa$ for some $\\kappa$. It is
-*(&lt;$\\delta$)-weakly homogeneously Suslin* if it is $\\alpha$-weakly
-homogeneously Suslin for all $\\alpha&lt;\\delta$. Those definitions are
+$ω\\timesκ$ for some $κ$. It is
+*(&lt;$\\delta$)-weakly homogeneously Suslin* if it is $α$-weakly
+homogeneously Suslin for all $α&lt;\\delta$. Those definitions are
 extended to $\\delta$-homogeneously Suslin in the obvious way.
 
 A set of reals is $\\delta$-weakly homogeneously Suslin iff it is the
@@ -545,7 +545,7 @@ following equivalent charactezations holds:
     for all [forcing
     notions](Forcing "Forcing")
     $\\mathbb{P}$ with $\|\\mathbb{P}\|=\\delta$ there are trees $S$ and
-    $T$ on $\\omega\\times\\kappa$ for some $\\kappa$ such that
+    $T$ on $ω\\timesκ$ for some $κ$ such that
     $A=p\[T\]$ and for all $V$-generic $G\\subseteq\\mathbb{P}$, in
     $V\[G\]$ one has $p\[T\]=\\mathbb{R}^{V\[G\]}\\setminus p\[S\]$.
 -   For every compact Hausdorff space $\\Omega$ and continuous function
@@ -554,11 +554,11 @@ following equivalent charactezations holds:
 -   For every topological space $X$ and continuous function
     $\\pi:X\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}\[A\]$ has
     the Baire property.
--   For every infinite cardinal $\\lambda$ and continuous function
-    $\\pi:\\lambda^\\omega\\to\\mathbb{R}$, the preimage
+-   For every infinite cardinal $λ$ and continuous function
+    $\\pi:λ^ω\\to\\mathbb{R}$, the preimage
     $\\pi^{\\text{-1}}\[A\]$ has the Baire property.
 
-where $\\pi^{\\text{-1}}\[A\]=\\{x\\in\\lambda^\\omega:\\pi(x)\\in
+where $\\pi^{\\text{-1}}\[A\]=\\{x\\inλ^ω:\\pi(x)\\in
 A\\}$. We use $\\Gamma^\\infty$ to denote the collection of all
 universally Baire set of reals.
 
@@ -588,8 +588,8 @@ absoluteness](Axioms_of_generic_absoluteness "Axioms of generic absoluteness"))
 ### $\\text{AD}^+$ and ${}^\\infty$borel sets
 
 A set of reals is ${}^\\infty$borel iff there is a class of ordinals
-$S$, an ordinal $\\alpha$ and a formula $\\varphi(x\_0,x\_1)$ such that
-$A=\\{y\\in\\mathbb{R}:L\_\\alpha\[S,y\]\\models\\varphi\[S,y\]\\}$.
+$S$, an ordinal $α$ and a formula $\\varphi(x\_0,x\_1)$ such that
+$A=\\{y\\in\\mathbb{R}:L\_α\[S,y\]\\models\\varphi\[S,y\]\\}$.
 Under $\\text{AD+DC}$ this is equivalent to the existence of a class of
 ordinals $S$ such that $A\\in L(S,\\mathbb{R})$.
 
@@ -597,8 +597,8 @@ The axiom $\\text{AD}^+$ is the conjunction of the following statements:
 
 -   Every $A\\subseteq\\mathbb{R}$ is ${}^\\infty$borel.
 -   $\\text{DC}\_\\mathbb{R}$, dependent choice for sets of reals.
--   *Ordinal determinacy*: if $\\lambda&lt;\\Theta$ and
-    $\\pi:\\lambda^\\omega\\to\\omega^\\omega$ is a continuous function
+-   *Ordinal determinacy*: if $λ&lt;\\Theta$ and
+    $\\pi:λ^ω\\toω^ω$ is a continuous function
     then for every $A\\subseteq\\mathbb{R}$ the preimage
     $\\pi^{\\text{-1}}\[A\]$ is determined.
 
@@ -636,8 +636,8 @@ then the following are equivalent:
     which is (&lt;$\\delta$)-universally Baire.
 
 If $\\delta$ is a Woodin cardinal and $T$ is a tree on
-$\\omega\\times\\kappa$ then there exists some $\\alpha&lt;\\delta$ such
-that if $G\\subseteq\\text{Coll}(\\omega,\\alpha)$ is $V$-generic then
+$ω\\timesκ$ then there exists some $α&lt;\\delta$ such
+that if $G\\subseteq\\text{Coll}(ω,α)$ is $V$-generic then
 in $V\[G\]$, $T$ is (&lt;$\\delta$)-weakly homogeneous. Also, if
 $A\\subseteq\\mathbb{R}$ is ($\\delta^+$)-weakly homogeneously Suslin
 then $\\mathbb{R}\\setminus A$ is (&lt;$\\delta$)-homogeneously Suslin.
@@ -658,9 +658,9 @@ $\\Gamma=\\mathcal{P}(\\mathbb{R})\\cap L(\\Gamma,\\mathbb{R})$, and
 $L(\\Gamma,\\mathbb{R})\\models\\text{AD}\_\\mathbb{R}\\text{+DC}$.
 
 The *derived model theorem:* let $\\delta$ be a limit of Woodin
-cardinals, let $G\\subseteq\\text{Coll}(\\omega,&lt;\\delta)$ be
+cardinals, let $G\\subseteq\\text{Coll}(ω,&lt;\\delta)$ be
 $V$-generic and let
-$\\mathbb{R}\_G=\\bigcup\\{(\\mathbb{R})^{V\[G\\restriction\_\\alpha\]}:\\alpha&lt;\\delta\\}$.
+$\\mathbb{R}\_G=\\bigcup\\{(\\mathbb{R})^{V\[G\\restriction\_α\]}:α&lt;\\delta\\}$.
 Let $\\Gamma=\\{A\\in\\mathcal{P}(\\mathbb{R}\_G\\cap V(\\mathbb{R}\_G)
 : L(A,\\mathbb{R}\_G\\models\\text{AD}^+\\}$. Then in
 $V(\\mathbb{R}\_G)$ the following holds:

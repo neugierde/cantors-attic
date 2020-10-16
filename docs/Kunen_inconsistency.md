@@ -24,10 +24,10 @@ existence of elementary embeddings $j:V\\to M$ where $M$ exhibits
 increasing affinity with $V$ as one climbs the hierarchy. The
 $\\theta$-[strong](Strong "Strong")
 cardinals, for example, have $V\_\\theta\\subset M$; the
-$\\lambda$-[supercompact](Supercompact "Supercompact")
-cardinals have $M^\\lambda\\subset M$; and the
+$λ$-[supercompact](Supercompact "Supercompact")
+cardinals have $M^λ\\subset M$; and the
 [huge](Huge "Huge")
-cardinals have $M^{j(\\kappa)}\\subset M$. The natural limit of this
+cardinals have $M^{j(κ)}\\subset M$. The natural limit of this
 trend, first suggested by Reinhardt, is a nontrivial elementary
 embedding $j:V\\to V$, the critical point of which is accordingly known
 as a
@@ -56,8 +56,8 @@ Suzuki {% cite Suzuki1998 Suzuki1999 %}.
     $j:M\\to N$ when both $M$ and $N$ are eventually stationary correct.
 -   There is no nontrivial elementary embedding $j:V\\to \\text{HOD}$,
     and neither is there $j:V\\to M$ for a variety of other definable
-    classes, including $\\text{gHOD}$ and the $\\text{HOD}^\\eta$,
-    $\\text{gHOD}^\\eta$.
+    classes, including $\\text{gHOD}$ and the $\\text{HOD}^η$,
+    $\\text{gHOD}^η$.
 -   If $j:V\\to M$ is elementary, then $V=\\text{HOD}(M)$.
 -   There is no nontrivial elementary embedding $j:\\text{HOD}\\to V$.
 -   More generally, for any definable class $M$, there is no nontrivial

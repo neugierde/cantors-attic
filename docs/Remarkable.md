@@ -10,16 +10,16 @@ modified by proper forcing.
 
 ## Definitions
 
-A cardinal $\\kappa$ is remarkable if for each regular
-$\\lambda&gt;\\kappa$, there exists a countable transitive $M$ and an
-elementary embedding $e:M\\rightarrow H\_\\lambda$ with $\\kappa\\in
+A cardinal $κ$ is remarkable if for each regular
+$λ&gt;κ$, there exists a countable transitive $M$ and an
+elementary embedding $e:M\\rightarrow H\_λ$ with $κ\\in
 \\text{ran}(e)$ and also a countable transitive $N$ and an elementary
 embedding $\\theta:M\\to N$ such that:
 
--   the critical point of $\\theta$ is $e^{-1}(\\kappa)$,
+-   the critical point of $\\theta$ is $e^{-1}(κ)$,
 -   $\\text{Ord}^M$ is a regular cardinal in $N$,
 -   $M=H^N\_{\\text{Ord}^M}$,
--   $\\theta(e^{-1}(\\kappa))&gt;\\text{Ord}^M$.
+-   $\\theta(e^{-1}(κ))&gt;\\text{Ord}^M$.
 
 Remarkable cardinals could be called virtually
 [supercompact](Supercompact "Supercompact"),

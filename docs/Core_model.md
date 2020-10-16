@@ -22,29 +22,29 @@ model is often denoted $\\mathbf{K}$.
 
 Definition 6.3:
 
--   $D = \\{ \\langle \\xi, \\kappa \\rangle : \\xi \\in C\_N,
-    \\text{$N$ is a mouse at $\\kappa$}, \|C\_N\| = \\omega \\}$
--   $D\_\\alpha = \\{ \\langle \\xi, \\kappa \\rangle : \\xi \\in C\_N,
-    \\text{$N$ is a mouse at $\\kappa$}, \|C\_N\| = \\omega,
-    \\mathrm{Ord} \\cap N &lt; \\omega\_\\alpha \\}$
+-   $D = \\{ \\langle \\xi, κ \\rangle : \\xi \\in C\_N,
+    \\text{$N$ is a mouse at $κ$}, \|C\_N\| = ω \\}$
+-   $D\_α = \\{ \\langle \\xi, κ \\rangle : \\xi \\in C\_N,
+    \\text{$N$ is a mouse at $κ$}, \|C\_N\| = ω,
+    \\mathrm{Ord} \\cap N &lt; ω\_α \\}$
 -   $K = L\[D\]$ — **the core model**
--   $K\_\\alpha = \|J\_\\alpha^D\|$
+-   $K\_α = \|J\_α^D\|$
 
 Definition 5.4: $N$ is a *mouse* iff $N$ is a critical premouse, $N'$ is
 iterable and for each $i \\in \\mathrm{Ord}$ there is $N\_i$, a critical
 premouse, such that $(N\_i)' = N\_i'$ where $\\langle N\_i',
-\\pi\_{ij}', \\kappa\_i \\rangle$ is the iteration of $N'$, and $n(N\_i)
+\\pi\_{ij}', κ\_i \\rangle$ is the iteration of $N'$, and $n(N\_i)
 = n(N)$.
 
-Definition 5.1: Premouse $N = J\_\\alpha^U$ is *critical* iff
-$\\mathcal{P}(\\kappa) \\cap \\Sigma\_\\omega(N) \\not\\subseteq N$ and
+Definition 5.1: Premouse $N = J\_α^U$ is *critical* iff
+$\\mathcal{P}(κ) \\cap \\Sigma\_ω(N) \\not\\subseteq N$ and
 $N$ is acceptable.
 
-Definition 3.1: For $\\kappa &lt; \\alpha$, $N = J\_\\alpha^U$ is a
-*premouse* at $\\kappa$ iff $N \\models \\text{“$U$ is a normal measure
-on $\\kappa$”}$.
+Definition 3.1: For $κ &lt; α$, $N = J\_α^U$ is a
+*premouse* at $κ$ iff $N \\models \\text{“$U$ is a normal measure
+on $κ$”}$.
 
-$J\_\\alpha^A$ is defined using functions rudimentary in $A$
+$J\_α^A$ is defined using functions rudimentary in $A$
 (definitions 1.1, 1.2).
 
 ## Properties

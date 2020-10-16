@@ -22,7 +22,7 @@ an *initial ordinal*. By this means, in ZFC we are able to assing to
 every set $X$ a canonical representative of its equinumerosity class,
 the smallest ordinal bijective with $X$.
 
-We therefore adopt the definition that $\\kappa$ is a *cardinal* if it
+We therefore adopt the definition that $κ$ is a *cardinal* if it
 is an *initial ordinal*, an
 [ordinal](Ordinal "Ordinal")
 that is not equinumerous with any smaller ordinal.
@@ -30,11 +30,11 @@ that is not equinumerous with any smaller ordinal.
 ## Finite and infinite cardinals
 
 The set
-[$\\omega$](Omega "Omega")
+[$ω$](Omega "Omega")
 of [natural
 numbers](Omega "Omega") is
 the smallest inductive set, that is, the smallest set for which
-$0\\in\\omega$ and whenever $n\\in\\omega$ then also $n+1\\in\\omega$,
+$0\\inω$ and whenever $n\\inω$ then also $n+1\\inω$,
 where $n+1=n\\cup\\{n\\}$ is the [successor
 ordinal](Successor_ordinal "Successor ordinal")
 of $n$. A set is *finite* if it is equinumerous with a natural number,
@@ -50,7 +50,7 @@ membership.
 
 ## Countable and uncoutable cardinals
 
-A set is *countable* when it is equinumerous with a subset of $\\omega$.
+A set is *countable* when it is equinumerous with a subset of $ω$.
 This includes all finite sets, including the empty set, and the infinite
 countable sets are said to be *countably infinite*. An
 <a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
@@ -64,9 +64,9 @@ Hartog established that for every set $X$, there is a smallest ordinal
 that does not have an injection into $X$, and this ordinal is now known
 as the **[Hartog
 number](Hartog_number "Hartog number")**
-of $X$. When $\\kappa$ is a cardinal, then the **successor cardinal** of
-$\\kappa$, denoted $\\kappa^+$, is the Hartog number of $\\kappa$, the
-smallest ordinal of strictly larger cardinality than $\\kappa$. The
+of $X$. When $κ$ is a cardinal, then the **successor cardinal** of
+$κ$, denoted $κ^+$, is the Hartog number of $κ$, the
+smallest ordinal of strictly larger cardinality than $κ$. The
 existence of successor cardinals can be proved in ZF without the axiom
 of choice. Iteratively taking the successor cardinal leads to the [aleph
 hierarchy](Aleph "Aleph").
@@ -77,8 +77,8 @@ the successor of any cardinal. These cardinals are known as **limit
 cardinals**. Cardinals which are not limit cardinals are known as
 **successor cardinals**. The limit cardinals are precisely those which
 are limit points in the topology of cardinals (hence the name). That is,
-for any cardinal $\\lambda&lt;\\kappa$, there is some $\\nu&gt;\\lambda$
-with $\\nu&lt;\\kappa$.
+for any cardinal $λ&lt;κ$, there is some $\\nu&gt;λ$
+with $\\nu&lt;κ$.
 
 The limit cardinals share an incredible affinity towards the singular
 cardinals; there does not exist a [weakly
@@ -90,21 +90,21 @@ any cardinal is singular if and only if it is a limit cardinal.
 
 ## Regular and singular cardinals
 
-A cardinal $\\kappa$ is *regular* when $\\kappa$ not the union of fewer
-than $\\kappa$ many sets of size each less than $\\kappa$. Otherwise,
-when $\\kappa$ is the union of fewer than $\\kappa$ many sets of size
-less than $\\kappa$, then $\\kappa$ is said to be *singular*.
+A cardinal $κ$ is *regular* when $κ$ not the union of fewer
+than $κ$ many sets of size each less than $κ$. Otherwise,
+when $κ$ is the union of fewer than $κ$ many sets of size
+less than $κ$, then $κ$ is said to be *singular*.
 
 The
 <a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
-implies that every successor cardinal $\\kappa^+$ is regular, but it is
+implies that every successor cardinal $κ^+$ is regular, but it is
 known to be consistent with ZF that successor cardinals may be singular.
 
-The *cofinality* of an infinite cardinal $\\kappa$, denoted
-$\\text{cof}(\\kappa)$, is the smallest size family of sets, each
-smaller than $\\kappa$, whose union is all of $\\kappa$. Thus, $\\kappa$
-is regular if and only if $\\text{cof}(\\kappa)=\\kappa$, and singular
-if and only if $\\text{cof}(\\kappa)\\lt\\kappa$.
+The *cofinality* of an infinite cardinal $κ$, denoted
+$\\text{cof}(κ)$, is the smallest size family of sets, each
+smaller than $κ$, whose union is all of $κ$. Thus, $κ$
+is regular if and only if $\\text{cof}(κ)=κ$, and singular
+if and only if $\\text{cof}(κ)\\ltκ$.
 
 ## Cardinals in ZF
 
@@ -121,10 +121,10 @@ directly with the equinumerosity relation.
 In ZF, the
 <a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
 is equivalent to the assertion that the cardinals are linearly ordered.
-This is because for every set $X$, there is a smallest ordinal $\\alpha$
+This is because for every set $X$, there is a smallest ordinal $α$
 that does not inject into $X$, the [Hartog
 number](Hartog_number "Hartog number")
-of $X$, and conversely, if $X$ injects into $\\alpha$, then $X$ would be
+of $X$, and conversely, if $X$ injects into $α$, then $X$ would be
 well-orderable.
 
 ## Dedekind finite sets

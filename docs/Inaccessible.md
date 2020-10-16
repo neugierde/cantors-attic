@@ -12,56 +12,56 @@ cardinal hierarchy, although weaker notions such as the
 [worldly](Worldly "Worldly")
 cardinals can still be viewed as large cardinals.
 
-A cardinal $\\kappa$ is *inaccessible*, also called *strongly
+A cardinal $κ$ is *inaccessible*, also called *strongly
 inaccessible*, if it is an
 <a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
 <a href="Regular" class="mw-redirect" title="Regular">regular</a>
 <a href="Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>
 cardinal.
 
-A cardinal $\\kappa$ being inaccessible implies the following:
+A cardinal $κ$ being inaccessible implies the following:
 
--   $V\_\\kappa$ is a model of ZFC and so inaccessible cardinals are
+-   $V\_κ$ is a model of ZFC and so inaccessible cardinals are
     [worldly](Worldly "Worldly").
--   The worldly cardinals are unbounded in $\\kappa$, so $V\_\\kappa$
+-   The worldly cardinals are unbounded in $κ$, so $V\_κ$
     satisfies the existence of a proper class of worldly cardinals.
--   $\\kappa$ is an
+-   $κ$ is an
     <a href="Aleph_fixed_point" class="mw-redirect" title="Aleph fixed point">aleph fixed point</a>
     and a
     <a href="Beth_fixed_point" class="mw-redirect" title="Beth fixed point">beth fixed point</a>,
-    and consequently $V\_\\kappa=H\_\\kappa$.
+    and consequently $V\_κ=H\_κ$.
 -   (Solovay)there is an inner model of a forcing extension satisfying
     ZF+DC in which every set of reals is Lebesgue measurable; in fact,
     this is equiconsistent to the existence of an inaccessible cardinal.
--   For any $A\\subseteq V\_\\kappa$, the set of all
-    $\\alpha&lt;\\kappa$ such that $\\langle V\_\\alpha;\\in,A\\cap
-    V\_\\alpha\\rangle\\prec\\langle V\_\\kappa;\\in,A\\rangle$ is
+-   For any $A\\subseteq V\_κ$, the set of all
+    $α&lt;κ$ such that $\\langle V\_α;\\in,A\\cap
+    V\_α\\rangle\\prec\\langle V\_κ;\\in,A\\rangle$ is
     [club](Club "Club") in
-    $\\kappa$.
+    $κ$.
 
-An ordinal $\\alpha$ being inaccessible is equivalent to the following:
+An ordinal $α$ being inaccessible is equivalent to the following:
 
--   $V\_{\\alpha+1}$ satisfies $\\mathrm{KM}$.
--   $\\alpha&gt;\\omega$ and $V\_\\alpha$ is a Grothendiek universe.
--   $\\alpha$ is
+-   $V\_{α+1}$ satisfies $\\mathrm{KM}$.
+-   $α&gt;ω$ and $V\_α$ is a Grothendiek universe.
+-   $α$ is
     [$\\Pi\_0^1$-Indescribable](Indescribable "Indescribable").
--   $\\alpha$ is $\\Sigma\_1^1$-Indescribable.
--   $\\alpha$ is $\\Pi\_2^0$-Indescribable.
--   $\\alpha$ is $0$-Indescribable.
--   $\\alpha$ is a nonzero limit ordinal and
-    $\\beth\_\\alpha=R\_\\alpha$ where $R\_\\beta$ is the $\\beta$-th
+-   $α$ is $\\Sigma\_1^1$-Indescribable.
+-   $α$ is $\\Pi\_2^0$-Indescribable.
+-   $α$ is $0$-Indescribable.
+-   $α$ is a nonzero limit ordinal and
+    $\\beth\_α=R\_α$ where $R\_β$ is the $β$-th
     regular cardinal, i.e. the least regular $\\gamma$ such that
-    $\\{\\kappa\\in\\gamma:\\mathrm{cf}(\\kappa)=\\kappa\\}$ has
-    order-type $\\beta$.
--   $\\alpha = \\beth\_{R\_\\alpha}$.
--   $\\alpha = R\_{\\beth\_\\alpha}$.
--   $\\alpha$ is a weakly inaccessible strong limit cardinal (see weakly
+    $\\{κ\\in\\gamma:\\mathrm{cf}(κ)=κ\\}$ has
+    order-type $β$.
+-   $α = \\beth\_{R\_α}$.
+-   $α = R\_{\\beth\_α}$.
+-   $α$ is a weakly inaccessible strong limit cardinal (see weakly
     inaccessible below).
 
 
 ## Weakly inaccessible cardinal
 
-A cardinal $\\kappa$ is *weakly inaccessible* if it is an
+A cardinal $κ$ is *weakly inaccessible* if it is an
 <a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
 <a href="Regular" class="mw-redirect" title="Regular">regular</a>
 <a href="Limit_cardinal" class="mw-redirect" title="Limit cardinal">limit cardinal</a>.
@@ -87,38 +87,38 @@ In particular:
 
 -   Letting $R$ be the transfinite enumeration of
     <a href="Regular" class="mw-redirect" title="Regular">regular</a>
-    cardinals, a limit ordinal $\\alpha$ is weakly inaccessible if and
-    only if $R\_\\alpha=\\aleph\_\\alpha$
--   A nonzero cardinal $\\kappa$ is weakly inaccessible if and only if
-    $\\kappa$ is regular and there are $\\kappa$-many regular cardinals
-    below $\\kappa$; that is, $\\kappa=R\_\\kappa$.
--   A regular cardinal $\\kappa$ is weakly inaccessible if and only if
-    $\\mathrm{REG}$ is unbounded in $\\kappa$ (showing the correlation
+    cardinals, a limit ordinal $α$ is weakly inaccessible if and
+    only if $R\_α=\\aleph\_α$
+-   A nonzero cardinal $κ$ is weakly inaccessible if and only if
+    $κ$ is regular and there are $κ$-many regular cardinals
+    below $κ$; that is, $κ=R\_κ$.
+-   A regular cardinal $κ$ is weakly inaccessible if and only if
+    $\\mathrm{REG}$ is unbounded in $κ$ (showing the correlation
     between [weakly
     Mahlo](Mahlo "Mahlo")
     cardinals and weakly inaccessible cardinals, as stationary in
-    $\\kappa$ is replaced with unbounded in $\\kappa$)
+    $κ$ is replaced with unbounded in $κ$)
 
 ## Levy collapse
 
-The Levy collapse of an inaccessible cardinal $\\kappa$ is the
-$\\lt\\kappa$-support product of $\\text{Coll}(\\omega,\\gamma)$ for all
-$\\gamma\\lt\\kappa$. This forcing collapses all cardinals below
-$\\kappa$ to $\\omega$, but since it is $\\kappa$-c.c., it preserves
-$\\kappa$ itself, and hence ensures $\\kappa=\\omega\_1$ in the forcing
+The Levy collapse of an inaccessible cardinal $κ$ is the
+$\\ltκ$-support product of $\\text{Coll}(ω,\\gamma)$ for all
+$\\gamma\\ltκ$. This forcing collapses all cardinals below
+$κ$ to $ω$, but since it is $κ$-c.c., it preserves
+$κ$ itself, and hence ensures $κ=ω\_1$ in the forcing
 extension.
 
 ## Inaccessible to reals
 
-A cardinal $\\kappa$ is *inaccessible to reals* if it is inaccessible in
+A cardinal $κ$ is *inaccessible to reals* if it is inaccessible in
 $L\[x\]$ for every real $x$. For example, after the Levy collapse of an
-inaccessible cardinal $\\kappa$, which forces $\\kappa=\\omega\_1$ in
-the extension, the cardinal $\\kappa$ is of course no longer
+inaccessible cardinal $κ$, which forces $κ=ω\_1$ in
+the extension, the cardinal $κ$ is of course no longer
 inaccessible, but it remains inaccessible to reals.
 
 ## Universes
 
-When $\\kappa$ is inaccessible, then $V\_\\kappa$ provides a highly
+When $κ$ is inaccessible, then $V\_κ$ provides a highly
 natural transitive model of set theory, a universe in which one can view
 a large part of classical mathematics as taking place. In what appears
 to be an instance of convergent evolution, the same universe concept
@@ -136,10 +136,10 @@ under pairing, power set and unions. That is,
 -   (union) If $a\\in W$, then $\\cup a\\in W$.
 
 It follows by a simple inductive argument that the Grothendieck
-universes are precisely the sets of the form $V\_\\kappa$, where
-$\\kappa$ is either
+universes are precisely the sets of the form $V\_κ$, where
+$κ$ is either
 [$0$](Zero "Zero"),
-[$\\omega$](Omega "Omega")
+[$ω$](Omega "Omega")
 or an inaccessible cardinal.
 
 The *Grothendieck universe axiom* is the assertion that every set is an
@@ -148,60 +148,60 @@ that the inaccessible cardinals form a proper class.
 
 ## Degrees of inaccessibility
 
-A cardinal $\\kappa$ is *$1$-inaccessible* if it is inaccessible and a
-limit of inaccessible cardinals. In other words, $\\kappa$ is
-$1$-inaccessible if $\\kappa$ is the $\\kappa^{\\rm th}$ inaccessible
-cardinal, that is, if $\\kappa$ is a fixed point in the enumeration of
-all inaccessible cardinals. Equivalently, $\\kappa$ is $1$-inaccessible
-if $V\_\\kappa$ is a universe and satisfies the universe axiom.
+A cardinal $κ$ is *$1$-inaccessible* if it is inaccessible and a
+limit of inaccessible cardinals. In other words, $κ$ is
+$1$-inaccessible if $κ$ is the $κ^{\\rm th}$ inaccessible
+cardinal, that is, if $κ$ is a fixed point in the enumeration of
+all inaccessible cardinals. Equivalently, $κ$ is $1$-inaccessible
+if $V\_κ$ is a universe and satisfies the universe axiom.
 
-More generally, $\\kappa$ is $\\alpha$-inaccessible if it is
-inaccessible and for every $\\beta\\lt\\alpha$ it is a limit of
-$\\beta$-inaccessible cardinals.
+More generally, $κ$ is $α$-inaccessible if it is
+inaccessible and for every $β\\ltα$ it is a limit of
+$β$-inaccessible cardinals.
 
 $1$-inaccessibility is already consistency-wise stronger than the
 existence of a proper class of inaccessible cardinals, and
 $2$-inaccessibility is stronger than the existence of a proper class of
-$1$-inaccessible cardinals. More specifically, a cardinal $\\kappa$ is
-$\\alpha$-inaccessible if and only if for every $\\beta&lt;\\alpha$:
-$$V\_{\\kappa+1}\\models\\mathrm{KM}+\\text{There is a proper class of
-}\\beta\\text{-inaccessible cardinals}$$
+$1$-inaccessible cardinals. More specifically, a cardinal $κ$ is
+$α$-inaccessible if and only if for every $β&lt;α$:
+$$V\_{κ+1}\\models\\mathrm{KM}+\\text{There is a proper class of
+}β\\text{-inaccessible cardinals}$$
 
-As a result, if $\\kappa$ is $\\alpha$-inaccessible then for every
-$\\beta&lt;\\alpha$: $$V\_\\kappa\\models\\mathrm{ZFC}+\\text{There
-exists a }\\beta\\text{-inaccessible cardinal}$$
+As a result, if $κ$ is $α$-inaccessible then for every
+$β&lt;α$: $$V\_κ\\models\\mathrm{ZFC}+\\text{There
+exists a }β\\text{-inaccessible cardinal}$$
 
 Therefore $2$-inaccessibility is weaker than $3$-inaccessibility, which
 is weaker than $4$-inaccessibility... all of which are weaker than
-$\\omega$-inaccessibility, which is weaker than
-$\\omega+1$-inaccessibility, which is weaker than
-$\\omega+2$-inaccessibility...... all of which are weaker than
+$ω$-inaccessibility, which is weaker than
+$ω+1$-inaccessibility, which is weaker than
+$ω+2$-inaccessibility...... all of which are weaker than
 hyperinaccessibility, etc.
 
 ## Hyper-inaccessible and more
 
-A cardinal $\\kappa$ is *hyperinaccessible* if it is
-$\\kappa$-inaccessible. One may similarly define that $\\kappa$ is
-$\\alpha$-hyperinaccessible if it is hyperinaccessible and for every
-$\\beta\\lt\\alpha$, it is a limit of $\\beta$-hyperinaccessible
-cardinals. Continuing, $\\kappa$ is *hyperhyperinaccessible* if
-$\\kappa$ is $\\kappa$-hyperinaccessible.
+A cardinal $κ$ is *hyperinaccessible* if it is
+$κ$-inaccessible. One may similarly define that $κ$ is
+$α$-hyperinaccessible if it is hyperinaccessible and for every
+$β\\ltα$, it is a limit of $β$-hyperinaccessible
+cardinals. Continuing, $κ$ is *hyperhyperinaccessible* if
+$κ$ is $κ$-hyperinaccessible.
 
-More generally, $\\kappa$ is *hyper${}^\\alpha$-inaccessible* if it is
-hyperinaccessible and for every $\\beta\\lt\\alpha$ it is
-$\\kappa$-hyper${}^\\beta$-inaccessible, where $\\kappa$ is
-*$\\alpha$-hyper${}^\\beta$-inaccessible* if it is
-hyper${}^\\beta$-inaccessible and for every $\\gamma&lt;\\alpha$, it is
-a limit of $\\gamma$-hyper${}^\\beta$-inaccessible cardinals.
+More generally, $κ$ is *hyper${}^α$-inaccessible* if it is
+hyperinaccessible and for every $β\\ltα$ it is
+$κ$-hyper${}^β$-inaccessible, where $κ$ is
+*$α$-hyper${}^β$-inaccessible* if it is
+hyper${}^β$-inaccessible and for every $\\gamma&lt;α$, it is
+a limit of $\\gamma$-hyper${}^β$-inaccessible cardinals.
 
 Meta-ordinal terms are terms like $Ω^α · β + Ω^γ · δ +· · ·+Ω^\\epsilon
 · \\zeta + \\theta$ where $α, β...$ are ordinals. They are ordered as if
 $Ω$ were an ordinal greater then all the others. $(Ω · α +
 β)$-inaccessible denotes $β$-hyper${}^α$-inaccessible,
-$Ω^2$-inaccessible denotes hyper${}^\\kappa$-inaccessible $\\kappa$ etc.
+$Ω^2$-inaccessible denotes hyper${}^κ$-inaccessible $κ$ etc.
 Every
 [Mahlo](Mahlo "Mahlo")
-cardinal $\\kappa$ is $\\Omega^α$-inaccessible for all $α&lt;\\kappa$
+cardinal $κ$ is $\\Omega^α$-inaccessible for all $α&lt;κ$
 and probably more. Similar hierarchy exists for Mahlo cardinals below
 [weakly
 compact](Weakly_compact "Weakly compact").

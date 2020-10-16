@@ -7,12 +7,12 @@ redirect_from:
 
 ## Tall Cardinals
 
-A cardinal $\\kappa$ is **$\\theta$-tall** iff there is an [elementary
+A cardinal $κ$ is **$\\theta$-tall** iff there is an [elementary
 embedding](Elementary_embedding "Elementary embedding")
-$j:V\\to M$ into a transitive class $M$ with critical point $\\kappa$
-such that $j(\\kappa)&gt;\\theta$ and $M^\\kappa\\subset M$. $\\kappa$
+$j:V\\to M$ into a transitive class $M$ with critical point $κ$
+such that $j(κ)&gt;\\theta$ and $M^κ\\subset M$. $κ$
 is **tall** iff it is $\\theta$-tall for every $\\theta$; i.e.
-$j(\\kappa)$ can be made arbitrarily large. Every
+$j(κ)$ can be made arbitrarily large. Every
 [strong](Strong "Strong")
 cardinal is tall and every [strongly
 compact](Strongly_compact "Strongly compact")
@@ -22,28 +22,28 @@ cardinals are not necessarily tall. It is relatively consistent,
 however, that the least measurable cardinal is tall. Nevertheless, the
 existence of a tall cardinal is equiconsistent with the existence of a
 [strong](Strong "Strong")
-cardinal. Any tall cardinal $\\kappa$ can be made indestructible by a
+cardinal. Any tall cardinal $κ$ can be made indestructible by a
 variety of forcing notions, including forcing that pumps up the value of
-$2^\\kappa$ as high as desired. See
+$2^κ$ as high as desired. See
 {% cite Hamkins2009 %}
 
 ### Extender Characterization
 
-If $\\theta$ is a cardinal, $\\kappa$ is $\\theta$-tall iff there exists
-some $(\\kappa,\\theta^+)$-extender $E$ such that, if $M\\cong Ult\_E$
-is the ultrapower of $V$ by $E$, $M^\\kappa\\subset M$. Similarly,
-$\\kappa$ is tall iff for any $\\lambda$ there exists some
-$(\\kappa,\\lambda)$-extender such that $M^\\kappa\\subset M$ where $M$
+If $\\theta$ is a cardinal, $κ$ is $\\theta$-tall iff there exists
+some $(κ,\\theta^+)$-extender $E$ such that, if $M\\cong Ult\_E$
+is the ultrapower of $V$ by $E$, $M^κ\\subset M$. Similarly,
+$κ$ is tall iff for any $λ$ there exists some
+$(κ,λ)$-extender such that $M^κ\\subset M$ where $M$
 is as above.
 
 ## Strongly Tall Cardinals
 
-A cardinal $\\kappa$ is **strongly $\\theta$-tall** iff there is some
+A cardinal $κ$ is **strongly $\\theta$-tall** iff there is some
 [measure](Filter "Filter")
-$U$ on a set $S$ witnessing $\\kappa$'s $\\theta$-tallness in the
+$U$ on a set $S$ witnessing $κ$'s $\\theta$-tallness in the
 ultrapower of $V$ by $U$. More precisely, the ultrapower embedding
-$j:V\\prec M$ has critical point $\\kappa$, $M^\\kappa\\subset M$, and
-$j(\\kappa)&gt;\\theta$. $\\kappa$ is **strongly tall** iff it is
+$j:V\\prec M$ has critical point $κ$, $M^κ\\subset M$, and
+$j(κ)&gt;\\theta$. $κ$ is **strongly tall** iff it is
 strongly $\\theta$-tall for every $\\theta$.
 
 The existence of a strongly tall cardinal is equiconsistent to the
@@ -63,35 +63,35 @@ model](Core_model "Core model")).
 
 ### Ultrapower Characterization
 
-$\\kappa$ is strongly $\\theta$-tall iff $\\kappa$ is uncountable and
-there is some set $S$ and a $\\kappa$-complete
+$κ$ is strongly $\\theta$-tall iff $κ$ is uncountable and
+there is some set $S$ and a $κ$-complete
 [ultrafilter](Filter "Filter")
 $U$ on $S$ such that, letting $j:V\\prec M\\cong Ult\_U(V)$,
-$j(\\kappa)&gt;\\theta$. That is, there is an ultrapower of an
-ultrafilter which witnesses the $\\gamma$-tallness of $\\kappa$.
+$j(κ)&gt;\\theta$. That is, there is an ultrapower of an
+ultrafilter which witnesses the $\\gamma$-tallness of $κ$.
 
 ### Embedding Characterization
 
-If $\\theta\\geq\\kappa$, then $\\kappa$ is strongly $\\theta$-tall iff
-$\\kappa$ is the critical point of some $j:V\\prec M$ for which there is
-a set $S$ and an $A\\in j(S)$ such that for any $\\alpha\\leq\\theta$,
-there is a function $f:S\\rightarrow\\kappa$ with $j(f)(A)=\\alpha$.
+If $\\theta\\geqκ$, then $κ$ is strongly $\\theta$-tall iff
+$κ$ is the critical point of some $j:V\\prec M$ for which there is
+a set $S$ and an $A\\in j(S)$ such that for any $α\\leq\\theta$,
+there is a function $f:S\\rightarrowκ$ with $j(f)(A)=α$.
 
 ### Ultrafilter Characterization
 
-$\\kappa$ is strongly $\\theta$-tall iff there is some set $S$, a
-$\\kappa$-complete
+$κ$ is strongly $\\theta$-tall iff there is some set $S$, a
+$κ$-complete
 [ultrafilter](Filter "Filter")
-$U$ on $S$, and a class $H$ of functions $H\_\\alpha:S\\rightarrow V$
-for each ordinal $\\alpha$ such that:
+$U$ on $S$, and a class $H$ of functions $H\_α:S\\rightarrow V$
+for each ordinal $α$ such that:
 
-1.  $\\kappa$ is uncountable.
+1.  $κ$ is uncountable.
 2.  $H\_0(x)=0$ for each $x\\in S$.
-3.  For each $\\alpha$ and each $f:S\\rightarrow V$, $\\{x\\in
-    S:f(x)\\in H\_\\alpha(x)\\}\\in U$ iff there is some
-    $\\beta&lt;\\alpha$ such that $\\{x\\in S:f(x)=H\_\\beta(x)\\}\\in
-    U$. That is, $f(x)\\in H\_\\alpha(x)$ almost everywhere iff there is
-    some $\\beta&lt;\\alpha$ such that $f(x)=H\_\\beta(x)$ almost
+3.  For each $α$ and each $f:S\\rightarrow V$, $\\{x\\in
+    S:f(x)\\in H\_α(x)\\}\\in U$ iff there is some
+    $β&lt;α$ such that $\\{x\\in S:f(x)=H\_β(x)\\}\\in
+    U$. That is, $f(x)\\in H\_α(x)$ almost everywhere iff there is
+    some $β&lt;α$ such that $f(x)=H\_β(x)$ almost
     everywhere.
-4.  $\\{x\\in S:H\_\\theta(x)\\in\\kappa\\}\\in U$. That is,
-    $H\_\\theta(x)\\in\\kappa$ almost everywhere.
+4.  $\\{x\\in S:H\_\\theta(x)\\inκ\\}\\in U$. That is,
+    $H\_\\theta(x)\\inκ$ almost everywhere.

@@ -25,32 +25,32 @@ parameters)
 <a href="index.php?title=Closed_unbounded&amp;action=edit&amp;redlink=1" class="new" title="Closed unbounded (page does not exist)">closed unbounded</a>
 proper class of ordinals. In other words, the scheme asserts for every
 formula $\\varphi$, that if for some parameter $z$ the class
-$\\{\\alpha\\mid \\varphi(\\alpha,z)\\}$ is a closed unbounded class of
+$\\{α\\mid \\varphi(α,z)\\}$ is a closed unbounded class of
 ordinals, then it contains a regular cardinal.
 
--   If $\\kappa$ is
+-   If $κ$ is
     [Mahlo](Mahlo "Mahlo"),
-    then $V\_\\kappa\\models\\text{Ord is Mahlo}$.
+    then $V\_κ\\models\\text{Ord is Mahlo}$.
 -   Consequently, the existence of a Mahlo cardinal implies the
     consistency of $\\text{Ord}$ is Mahlo, and the two notions are not
     equivalent.
 -   Moreoever, since the ORD is Mahlo scheme is expressible as a
     first-order theory, it follows that whenever $V\_\\gamma\\prec
-    V\_\\kappa$, then also $V\_\\gamma$ satisfies the Levy scheme.
+    V\_κ$, then also $V\_\\gamma$ satisfies the Levy scheme.
 -   Consequently, if there is a Mahlo cardinal, then there is a club of
-    cardinals $\\gamma\\lt\\kappa$ for which
+    cardinals $\\gamma\\ltκ$ for which
     $V\_\\gamma\\models\\text{Ord is Mahlo}$.
 
 A simple compactness argument establishes that $\\text{Ord}$ is Mahlo is
 equiconsistent over $\\text{ZFC}$ with the existence of an
 <a href="Inaccessible_reflecting_cardinal" class="mw-redirect" title="Inaccessible reflecting cardinal">inaccessible reflecting cardinal</a>.
-On the one hand, if $\\kappa$ is an inaccessible reflecting cardinal,
-then since $V\_\\kappa\\prec V$ it follows that any class club definable
-in $V$ with parameters below $\\kappa$ will be unbounded in $\\kappa$
-and hence contain $\\kappa$ as an element and consequently contain an
+On the one hand, if $κ$ is an inaccessible reflecting cardinal,
+then since $V\_κ\\prec V$ it follows that any class club definable
+in $V$ with parameters below $κ$ will be unbounded in $κ$
+and hence contain $κ$ as an element and consequently contain an
 inaccessible cardinal. On the other hand, if $\\text{Ord}$ is Mahlo is
 consistent, then every finite fragment of the theory asserting that
-$\\kappa$ is an inaccessible reflecting cardinal (which is after all
+$κ$ is an inaccessible reflecting cardinal (which is after all
 asserted as a scheme) is consistent, and hence by compactness the whole
 theory is consistent.
 

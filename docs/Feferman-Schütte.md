@@ -27,87 +27,87 @@ Every increasing continuous ordinal function $f$ has an unbounded set of
 fixed points;
 
 <th>Proof</th>
-<td>When $f$ is increasing, $f(\alpha)\geq \alpha$ for all $\alpha$; when also continuous,
-<p>$$ f ( \cup_n f^n (\alpha + 1)) = \cup_n f^n (\alpha + 1) $$ is a fixed point greater than $\alpha$</p></td>
+<td>When $f$ is increasing, $f(α)\geq α$ for all $α$; when also continuous,
+<p>$$ f ( \cup_n f^n (α + 1)) = \cup_n f^n (α + 1) $$ is a fixed point greater than $α$</p></td>
 
 Since the set of fixed points is an unbounded, well-ordered set, there
 is an ordinal function $\\varphi^{\[f\]}$ listing these fixedpoints; it
 is in turn increasing and continuous. The **Veblen Hierarchy** is the
-sequence of functions $\\varphi\_\\alpha$ defined by
+sequence of functions $\\varphi\_α$ defined by
 
--   $\\varphi\_0 x = \\omega^x$
--   $\\varphi\_{\\alpha + 1} = \\varphi^{\[\\varphi\_\\alpha\]}$
--   for $ 0 \\lt \\beta = \\cup \\beta $, $\\varphi\_\\beta(x)$
-    enumerates the fixedpoints common to all $\\varphi\_\\alpha$ for
-    $\\alpha \\lt \\beta$
+-   $\\varphi\_0 x = ω^x$
+-   $\\varphi\_{α + 1} = \\varphi^{\[\\varphi\_α\]}$
+-   for $ 0 \\lt β = \\cup β $, $\\varphi\_β(x)$
+    enumerates the fixedpoints common to all $\\varphi\_α$ for
+    $α \\lt β$
 
-(For $\\alpha \\lt \\beta$, the fixed point sets of $\\varphi\_\\alpha$
+(For $α \\lt β$, the fixed point sets of $\\varphi\_α$
 are all closed sets, and so their intersection is closed; it is
-unbounded because $\\cup\_\\alpha \\varphi\_\\alpha(t+1)$ is a common
+unbounded because $\\cup\_α \\varphi\_α(t+1)$ is a common
 fixed point greater than $t$)
 
 In particular the function \\(\\varphi\_1\\) enumerates epsilon numbers
-i.e. \\(\\varphi\_1(\\alpha)=\\varepsilon\_\\alpha\\)
+i.e. \\(\\varphi\_1(α)=\\varepsilon\_α\\)
 
 The Veblen functions have the following properties:
 
--   if \\(\\beta&lt;\\gamma\\) then
-    \\(\\varphi\_\\alpha(\\beta)&lt;\\varphi\_\\alpha(\\gamma)\\)
--   if \\(\\alpha&lt;\\beta\\) then
-    \\(\\varphi\_\\alpha(0)&lt;\\varphi\_\\beta(0)\\)
--   if \\(\\alpha&gt;\\gamma\\) then
-    \\(\\varphi\_\\alpha(\\beta)=\\varphi\_\\gamma(\\varphi\_\\alpha(\\beta))\\)
--   \\(\\varphi\_\\alpha(\\beta)\\) is an additive principal number.
+-   if \\(β&lt;\\gamma\\) then
+    \\(\\varphi\_α(β)&lt;\\varphi\_α(\\gamma)\\)
+-   if \\(α&lt;β\\) then
+    \\(\\varphi\_α(0)&lt;\\varphi\_β(0)\\)
+-   if \\(α&gt;\\gamma\\) then
+    \\(\\varphi\_α(β)=\\varphi\_\\gamma(\\varphi\_α(β))\\)
+-   \\(\\varphi\_α(β)\\) is an additive principal number.
 
-An ordinal \\(\\alpha\\) is an additive principal number if
-\\(\\alpha&gt;0\\) and \\(\\alpha&gt;\\delta+\\eta\\) for all
-\\(\\delta, \\eta&lt;\\alpha\\). Let \\(P\\) denote the set of all
+An ordinal \\(α\\) is an additive principal number if
+\\(α&gt;0\\) and \\(α&gt;\\delta+η\\) for all
+\\(\\delta, η&lt;α\\). Let \\(P\\) denote the set of all
 additive principal numbers.
 
-We define the normal form for ordinals \\(\\alpha\\) such that
-\\(0&lt;\\alpha&lt;\\Gamma\_0=\\min\\{\\beta\|\\varphi(\\beta,0)=\\beta\\}\\)
+We define the normal form for ordinals \\(α\\) such that
+\\(0&lt;α&lt;\\Gamma\_0=\\min\\{β\|\\varphi(β,0)=β\\}\\)
 
--   \\(\\alpha=\_{NF}\\varphi\_\\beta(\\gamma)\\) if and only if
-    \\(\\alpha=\\varphi\_\\beta(\\gamma)\\) and
-    \\(\\beta,\\gamma&lt;\\alpha\\)
--   \\(\\alpha=\_{NF}\\alpha\_1+\\alpha\_2+\\cdots+\\alpha\_n\\) if and
-    only if \\(\\alpha=\\alpha\_1+\\alpha\_2+\\cdots+\\alpha\_n\\) and
-    \\(\\alpha&gt;\\alpha\_1\\geq\\alpha\_2\\geq\\cdots\\geq\\alpha\_n\\)
-    and \\(\\alpha\_1,\\alpha\_2,...,\\alpha\_n\\in P\\)
+-   \\(α=\_{NF}\\varphi\_β(\\gamma)\\) if and only if
+    \\(α=\\varphi\_β(\\gamma)\\) and
+    \\(β,\\gamma&lt;α\\)
+-   \\(α=\_{NF}α\_1+α\_2+\\cdots+α\_n\\) if and
+    only if \\(α=α\_1+α\_2+\\cdots+α\_n\\) and
+    \\(α&gt;α\_1\\geqα\_2\\geq\\cdots\\geqα\_n\\)
+    and \\(α\_1,α\_2,...,α\_n\\in P\\)
 
 Let \\(T\\) denote the set of all ordinals which can be generated from
 the ordinal number 0 using the Veblen functions and the operation of
 addition
 
 -   \\(0 \\in T\\)
--   if \\(\\alpha=\_{NF}\\varphi\_\\beta(\\gamma)\\) and
-    \\(\\beta,\\gamma \\in T\\) then \\(\\alpha\\in T\\)
--   if \\(\\alpha=\_{NF}\\alpha\_1+\\alpha\_2+\\cdots+\\alpha\_n\\) and
-    \\(\\alpha\_1,\\alpha\_2,...,\\alpha\_n\\in T\\) then \\(\\alpha\\in
+-   if \\(α=\_{NF}\\varphi\_β(\\gamma)\\) and
+    \\(β,\\gamma \\in T\\) then \\(α\\in T\\)
+-   if \\(α=\_{NF}α\_1+α\_2+\\cdots+α\_n\\) and
+    \\(α\_1,α\_2,...,α\_n\\in T\\) then \\(α\\in
     T\\)
 
-For each limit ordinal number \\(\\alpha\\in T\\) we assign a
+For each limit ordinal number \\(α\\in T\\) we assign a
 fundamental sequence i.e. a strictly increasing sequence
-\\((\\alpha\[n\])\_{n&lt;\\omega}\\) such that the limit of the sequence
-is the ordinal number \\(\\alpha\\)
+\\((α\[n\])\_{n&lt;ω}\\) such that the limit of the sequence
+is the ordinal number \\(α\\)
 
--   if \\(\\alpha=\\alpha\_1+\\alpha\_2+\\cdots+\\alpha\_k\\) then
-    \\(\\alpha\[n\]=\\alpha\_1+\\alpha\_2+\\cdots+(\\alpha\_k\[n\])\\)
--   if \\(\\alpha=\\varphi\_0(\\beta+1)\\) then
-    \\(\\alpha\[n\]=\\varphi\_0(\\beta)\\times n\\)
--   if \\(\\alpha=\\varphi\_{\\beta+1}(0)\\) then \\(\\alpha\[0\]=0\\)
-    and \\(\\alpha\[n+1\]=\\varphi\_\\beta(\\alpha\[n\])\\)
--   if \\(\\alpha=\\varphi\_{\\beta+1}(\\gamma+1)\\) then
-    \\(\\alpha\[0\]=\\varphi\_{\\beta+1}(\\gamma)+1\\) and
-    \\(\\alpha\[n+1\]=\\varphi\_\\beta(\\alpha\[n\])\\)
--   if \\(\\alpha=\\varphi\_{\\beta}(\\gamma)\\) and \\(\\gamma\\) is a
+-   if \\(α=α\_1+α\_2+\\cdots+α\_k\\) then
+    \\(α\[n\]=α\_1+α\_2+\\cdots+(α\_k\[n\])\\)
+-   if \\(α=\\varphi\_0(β+1)\\) then
+    \\(α\[n\]=\\varphi\_0(β)\\times n\\)
+-   if \\(α=\\varphi\_{β+1}(0)\\) then \\(α\[0\]=0\\)
+    and \\(α\[n+1\]=\\varphi\_β(α\[n\])\\)
+-   if \\(α=\\varphi\_{β+1}(\\gamma+1)\\) then
+    \\(α\[0\]=\\varphi\_{β+1}(\\gamma)+1\\) and
+    \\(α\[n+1\]=\\varphi\_β(α\[n\])\\)
+-   if \\(α=\\varphi\_{β}(\\gamma)\\) and \\(\\gamma\\) is a
     limit ordinal then
-    \\(\\alpha\[n\]=\\varphi\_{\\beta}(\\gamma\[n\])\\)
--   if \\(\\alpha=\\varphi\_{\\beta}(0)\\) and \\(\\beta\\) is a limit
-    ordinal then \\(\\alpha\[n\]=\\varphi\_{\\beta\[n\]}(0)\\)
--   if \\(\\alpha=\\varphi\_{\\beta}(\\gamma+1)\\) and \\(\\beta\\) is a
+    \\(α\[n\]=\\varphi\_{β}(\\gamma\[n\])\\)
+-   if \\(α=\\varphi\_{β}(0)\\) and \\(β\\) is a limit
+    ordinal then \\(α\[n\]=\\varphi\_{β\[n\]}(0)\\)
+-   if \\(α=\\varphi\_{β}(\\gamma+1)\\) and \\(β\\) is a
     limit ordinal then
-    \\(\\alpha\[n\]=\\varphi\_{\\beta\[n\]}(\\varphi\_{\\beta}(\\gamma)+1)\\)
+    \\(α\[n\]=\\varphi\_{β\[n\]}(\\varphi\_{β}(\\gamma)+1)\\)
 
 The Feferman-Schütte ordinal, \\(\\Gamma\_0\\) is the least ordinal not
 in \\(T\\).
@@ -115,15 +115,15 @@ in \\(T\\).
 ## Gamma function
 
 The Gamma function is a function enumerating ordinal numbers
-\\(\\alpha\\) such that \\(\\varphi(\\alpha,0)=\\alpha\\)
+\\(α\\) such that \\(\\varphi(α,0)=α\\)
 
--   if \\(\\alpha=\\Gamma\_0\\) then \\(\\alpha\[0\]=0\\) and
-    \\(\\alpha\[n+1\]=\\varphi(\\alpha\[n\],0)\\)
--   if \\(\\alpha=\\Gamma\_{\\beta+1}\\) then
-    \\(\\alpha\[0\]=\\Gamma\_{\\beta}+1\\) and
-    \\(\\alpha\[n+1\]=\\varphi(\\alpha\[n\],0)\\)
--   if \\(\\alpha=\\Gamma\_{\\beta}\\) and \\(\\beta\\) is a limit
-    ordinal then \\(\\alpha\[n\]=\\Gamma\_{\\beta\[n\]}\\)
+-   if \\(α=\\Gamma\_0\\) then \\(α\[0\]=0\\) and
+    \\(α\[n+1\]=\\varphi(α\[n\],0)\\)
+-   if \\(α=\\Gamma\_{β+1}\\) then
+    \\(α\[0\]=\\Gamma\_{β}+1\\) and
+    \\(α\[n+1\]=\\varphi(α\[n\],0)\\)
+-   if \\(α=\\Gamma\_{β}\\) and \\(β\\) is a limit
+    ordinal then \\(α\[n\]=\\Gamma\_{β\[n\]}\\)
 
 ## References
 

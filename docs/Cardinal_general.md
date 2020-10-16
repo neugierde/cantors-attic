@@ -23,10 +23,10 @@ directly with the equinumerosity relation.
 In ZF, the [axiom of
 choice](Axiom_of_choice "Axiom of choice")
 is equivalent to the assertion that the cardinals are linearly ordered.
-This is because for every set $X$, there is a smallest ordinal $\\alpha$
+This is because for every set $X$, there is a smallest ordinal $α$
 that does not inject into $X$, the [Hartog
 number](Hartog_number "Hartog number")
-of $X$, and conversely, if $X$ injects into $\\alpha$, then $X$ would be
+of $X$, and conversely, if $X$ injects into $α$, then $X$ would be
 well-orderable.
 
 ## Dedekind finite sets

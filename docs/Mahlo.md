@@ -3,22 +3,22 @@ title: Mahlo cardinal
 permalink: Mahlo
 ---
 
-A cardinal $\\kappa$ is *Mahlo* if and only if it is
+A cardinal $κ$ is *Mahlo* if and only if it is
 [inaccessible](Inaccessible "Inaccessible")
 and the
 <a href="Regular" class="mw-redirect" title="Regular">regular</a>
-cardinals below $\\kappa$ form a
+cardinals below $κ$ form a
 <a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
-subset of $\\kappa$. Equivalently, $\\kappa$ is Mahlo if it is
+subset of $κ$. Equivalently, $κ$ is Mahlo if it is
 <a href="Regular" class="mw-redirect" title="Regular">regular</a>
 and the
 [inaccessible](Inaccessible "Inaccessible")
-cardinals below $\\kappa$ are stationary.
+cardinals below $κ$ are stationary.
 
--   Every Mahlo cardinal $\\kappa$ is inaccessible, and indeed
+-   Every Mahlo cardinal $κ$ is inaccessible, and indeed
     hyper-inaccessible and hyper-hyper-inaccessible, up to degree
-    $\\kappa$, and a limit of such cardinals.
--   If $\\kappa$ is Mahlo, then it is Mahlo in any inner model, since
+    $κ$, and a limit of such cardinals.
+-   If $κ$ is Mahlo, then it is Mahlo in any inner model, since
     the concept of stationarity is similarly downward absolute.
 
 Mahlo cardinals belong to the oldest large cardinals together with
@@ -26,17 +26,17 @@ inaccessible and measurable. *Please add more history.*
 
 ## Weakly Mahlo
 
-A cardinal $\\kappa$ is *weakly Mahlo* if it is
+A cardinal $κ$ is *weakly Mahlo* if it is
 <a href="Regular" class="mw-redirect" title="Regular">regular</a>
 and the set of
 <a href="Regular" class="mw-redirect" title="Regular">regular</a>
-cardinals below $\\kappa$ is
+cardinals below $κ$ is
 <a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
-in $\\kappa$. If $\\kappa$ is a
+in $κ$. If $κ$ is a
 <a href="Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>
 and hence also
 [inaccessible](Inaccessible "Inaccessible"),
-this is equivalent to $\\kappa$ being Mahlo, since the
+this is equivalent to $κ$ being Mahlo, since the
 <a href="Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>
 cardinals form a closed unbounded subset in any
 [inaccessible](Inaccessible "Inaccessible")
@@ -52,17 +52,17 @@ the GCH.
 
 ## Hyper-Mahlo etc.
 
-A cardinal $\\kappa$ is *$1$-Mahlo* if the set of Mahlo cardinals is
-stationary in $\\kappa$. This is a strictly stronger notion than merely
-asserting that $\\kappa$ is a Mahlo limit of Mahlo cardinals, since in
+A cardinal $κ$ is *$1$-Mahlo* if the set of Mahlo cardinals is
+stationary in $κ$. This is a strictly stronger notion than merely
+asserting that $κ$ is a Mahlo limit of Mahlo cardinals, since in
 fact every $1$-Mahlo cardinal is a limit of such Mahlo-limits-of-Mahlo
 cardinals. (So there is an entire hierarchy of
 limits-of-limits-of-Mahloness between the Mahlo cardinals and the
-$1$-Mahlo cardinals.) More generally, $\\kappa$ is $\\alpha$-Mahlo if it
-is Mahlo and for each $\\beta\\lt\\alpha$ the class of $\\beta$-Mahlo
-cardinals is stationary in $\\kappa$. The cardinal $\\kappa$ is
-*hyper-Mahlo* if it is $\\kappa$-Mahlo. One may proceed to define the
-concepts of $\\alpha$-hyper${}^\\beta$-Mahlo by iterating this concept,
+$1$-Mahlo cardinals.) More generally, $κ$ is $α$-Mahlo if it
+is Mahlo and for each $β\\ltα$ the class of $β$-Mahlo
+cardinals is stationary in $κ$. The cardinal $κ$ is
+*hyper-Mahlo* if it is $κ$-Mahlo. One may proceed to define the
+concepts of $α$-hyper${}^β$-Mahlo by iterating this concept,
 iterating the stationary limit concept. All such levels are swamped by
 the [weakly
 compact](Weakly_compact "Weakly compact")
@@ -73,8 +73,8 @@ Meta-ordinal terms are terms like $Ω^α · β + Ω^γ · δ +· · ·+Ω^\\epsi
 · \\zeta + \\theta$ where $α, β...$ are ordinals. They are ordered as if
 $Ω$ were an ordinal greater then all the others. $(Ω · α + β)$-Mahlo
 denotes $β$-hyper${}^α$-Mahlo, $Ω^2$-Mahlo denotes
-hyper${}^\\kappa$-Mahlo $\\kappa$ etc. Every weakly compact cardinal
-$\\kappa$ is $\\Omega^α$-Mahlo for all $α&lt;\\kappa$ and probably more.
+hyper${}^κ$-Mahlo $κ$ etc. Every weakly compact cardinal
+$κ$ is $\\Omega^α$-Mahlo for all $α&lt;κ$ and probably more.
 Similar hierarchy exists for
 [inaccessible](Inaccessible "Inaccessible")
 cardinals below Mahlo. All such properties can be killed softly by

@@ -3,12 +3,12 @@ title: Tree property
 permalink: Tree_property
 ---
 
-An infinite cardinal $\\kappa$ has the **tree property** if every tree
-of height $\\kappa$ whose levels has cardinality smaller than $\\kappa$
-has a branch of height $\\kappa$ (a cofinal branch). Equivalently, there
-is no *$\\kappa$-Aronszajn tree*, when a tree is $\\kappa$-Aronszajn
-when it has height $\\kappa$, levels with cardinality less than
-$\\kappa$, yet has no cofinal branch.
+An infinite cardinal $κ$ has the **tree property** if every tree
+of height $κ$ whose levels has cardinality smaller than $κ$
+has a branch of height $κ$ (a cofinal branch). Equivalently, there
+is no *$κ$-Aronszajn tree*, when a tree is $κ$-Aronszajn
+when it has height $κ$, levels with cardinality less than
+$κ$, yet has no cofinal branch.
 
 ## Definition
 
@@ -16,15 +16,15 @@ A *tree* is a partially order set (poset) $(T,&lt;)$ such that for all
 $x\\in T$, the order $&lt;$ is a well-order on the set $\\{y\|y&lt;x\\}$
 (called a *chain*). The order type (length) of $&lt;$ on that set is
 called the *height* of $x$. The height of $T$ is the supremum of the
-heights of all the sets $x\\in T$. A *$\\alpha$th level* of $T$ is a set
-that contains all $x\\in T$ of height $\\alpha$. A *branch* is a set $B$
+heights of all the sets $x\\in T$. A *$α$th level* of $T$ is a set
+that contains all $x\\in T$ of height $α$. A *branch* is a set $B$
 well-ordered by $&lt;$ such that any element of $T$ not in $B$ is
 incomparable with at least one element of $B$.
 
-A tree is *$\\kappa$-Aronszajn* if it has height $\\kappa$, all its
-levels have cardinality smaller than $\\kappa$, and every branch of $T$
-has order type smaller than $\\kappa$. An infinite cardinal $\\kappa$
-has the *tree property* if there is no $\\kappa$-Aronszajn tree.
+A tree is *$κ$-Aronszajn* if it has height $κ$, all its
+levels have cardinality smaller than $κ$, and every branch of $T$
+has order type smaller than $κ$. An infinite cardinal $κ$
+has the *tree property* if there is no $κ$-Aronszajn tree.
 
 ## Properties
 
@@ -33,7 +33,7 @@ however provable that $\\aleph\_1$ does not have the tree property.
 Cummings and Foreman proved that, under suitable large cardinal
 assumptions (namely, the existence of many supercompacts), it is
 consistent with ZFC all $\\aleph\_n$ cardinals have the tree property
-for $1&lt;n&lt;\\omega$.
+for $1&lt;n&lt;ω$.
 
 No cardinal can both be a successor cardinal in $L$ and have the tree
 property in $L$ (the [constructible
@@ -63,7 +63,7 @@ cardinals by Cummings and Foreman.
 Magidor and Shelah showed, from the existence of a
 [huge](Huge "Huge")
 cardinals with infinitely many supercompact cardinals above it, the
-consistency of $\\aleph\_{\\omega+1}$ having the tree property, and
+consistency of $\\aleph\_{ω+1}$ having the tree property, and
 furthermore that the successor of a singular limit of [strongly
 compact](Strongly_compact "Strongly compact")
 cardinals has the tree property.

@@ -58,5 +58,5 @@ and $\\mathcal{A}$-$η$-$\\mathcal{F}$-shrewd cardinals.
         \\models \\text{“$κ$ is $\\mathcal{A}$-shrewd .”}$. (The set of
         cardinals $κ$ below $\\pi$ that are $\\mathcal{A}$-shrewd in
         $V\_\\pi$ is stationary.)
-    -   there is an $\\eta$-shrewd cardinal below $\\pi$ for all $\\eta
+    -   there is an $η$-shrewd cardinal below $\\pi$ for all $η
         &lt; \\pi$.
