@@ -19,23 +19,23 @@ superseded by later, more inclusive axioms.
 ### Extensionality
 
 Sets are determined uniquely by their elements. This is expressed
-formally as $$ \\forall x \\forall y \\big(\\forall z (z\\in
-x\\leftrightarrow z\\in y)\\rightarrow x=y\\big).$$
+formally as \\[ \\forall x \\forall y \\big(\\forall z (z\\in
+x\\leftrightarrow z\\in y)\\rightarrow x=y\\big). \\]
 
 The “$\\rightarrow$” can be replaced by “$\\leftrightarrow$”, but the
 $\\leftarrow$ direction is a theorem of logic. Optionally, the axiom of
 extensionality can serve as a definition of equality, and a different
-axiom can be used in its place: $$\\forall x \\forall y \\big(\\forall a
+axiom can be used in its place: \\[ \\forall x \\forall y \\big(\\forall a
 (a \\in x \\leftrightarrow a \\in y) \\rightarrow \\forall b (x \\in b
-\\leftrightarrow y \\in b)\\big)$$
+\\leftrightarrow y \\in b)\\big)\\]
 
 meaning that sets with the same elements belong to the same sets.
 
 ### Empty set
 
 There exists some set. In fact, there is a set which contains no
-members. This is expressed formally $$ \\exists x \\forall y (y\\not\\in
-x).$$
+members. This is expressed formally \\[ \\exists x \\forall y (y\\not\\in
+x).\\]
 
 Such an $x$ is unique by extensionality and this set is denoted by
 $\\emptyset$.
@@ -45,8 +45,8 @@ $\\emptyset$.
 For any two sets $x$ and $y$ (not necessarily distinct) there is a
 further set $z$ whose members are exactly the sets $x$ and $y$.
 
-$$ \\forall x \\forall y \\exists z \\forall w \\big(w\\in
-z\\leftrightarrow (w=x\\vee w=y)\\big).$$
+\\[ \\forall x \\forall y \\exists z \\forall w \\big(w\\in
+z\\leftrightarrow (w=x\\vee w=y)\\big).\\]
 
 Such a $z$ is unique by extensionality and is denoted as $\\{x,y\\}$.
 
@@ -56,8 +56,8 @@ For any set $x$ there is a further set $y$ whose members are exactly all
 the members of the members of $x$. That is, the union of all the members
 of a set exists. This is expressed formally as
 
-$$\\forall x \\exists y \\forall z \\big(z\\in y \\leftrightarrow
-\\exists w (w\\in x \\wedge z\\in w)\\big).$$
+\\[ \\forall x \\exists y \\forall z \\big(z\\in y \\leftrightarrow
+\\exists w (w\\in x \\wedge z\\in w)\\big).\\]
 
 Such a $y$ is unique by extensionality and is written as $y = \\bigcup
 x$.
@@ -66,8 +66,8 @@ x$.
 
 Every nonempty set $x$ has a member disjoint from $x$, ensuring that no
 set can contain itself directly or indirectly. This is expressed
-formally as $$\\forall x\\neq\\emptyset \\exists y\\in x\\neg\\exists z
-(z\\in x\\wedge z\\in y).$$
+formally as \\[ \\forall x\\neq\\emptyset \\exists y\\in x\\neg\\exists z
+(z\\in x\\wedge z\\in y).\\]
 
 Equivalently, by the
 <a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">Axiom of choice</a>
@@ -79,9 +79,9 @@ x\_0$.
 For any set $a$ and any predicate $P(x)$ written in the language of ZFC,
 the set $\\{x\\in a: P(x)\\}$ exists. In more detail, given any formula
 $\\varphi$ with free variables $x\_1,x\_2,\\dots,x\_n$ the following is
-an axiom: $$ \\forall a \\forall x\_1 \\forall x\_2\\dots \\forall x\_n
+an axiom: \\[  \\forall a \\forall x\_1 \\forall x\_2\\dots \\forall x\_n
 \\exists y \\forall z \\big(z\\in y \\leftrightarrow (z\\in a \\wedge
-\\varphi(x\_1,x\_2,\\dots,x\_n,z)\\big) $$
+\\varphi(x\_1,x\_2,\\dots,x\_n,z)\\big) \\]
 
 Such a $y$, unique by extensionality and is written (for fixed sets $a,
 x\_1\\dots, x\_n$) $y=\\{z\\in a: \\varphi(x\_1,x\_2,\\dots,x\_n,z)\\}$.
@@ -94,9 +94,9 @@ sets. This is essentially the standard model of $\\mathbb{N}$.
 
 ### Infinity
 
-There is an infinite set. This is expressed formally as $$ \\exists x
+There is an infinite set. This is expressed formally as \\[ \\exists x
 \\big(\\emptyset\\in x\\wedge \\forall z (z\\in x \\rightarrow
-z\\cup\\{z\\}\\in x\\big).$$
+z\\cup\\{z\\}\\in x\\big).\\]
 
 At this point we can define $\\omega, +,$ and $\\cdot$ on $\\omega$,
 derive the basic facts for $\\omega$ and the principle of mathematical
@@ -108,8 +108,8 @@ the existence of an uncountable set.
 
 For any set $x$ there is a further set $y$ that has as members all
 subsets of $x$ and no other elements. $y$ is the *powerset* of $x$. This
-is expressed formally as $$ \\forall x \\exists y \\forall z \\big(z\\in
-y \\leftrightarrow \\forall w(w\\in z \\rightarrow w\\in x)\\big)$$
+is expressed formally as \\[ \\forall x \\exists y \\forall z \\big(z\\in
+y \\leftrightarrow \\forall w(w\\in z \\rightarrow w\\in x)\\big) \\]
 \[The unique such $y$ is written as $y = \\mathcal{P}(x)$.\]
 
 Define the ordered pair $(a,b)$ to be $\\{\\{a\\},\\{a,b\\}\\}$. A
@@ -124,9 +124,9 @@ $f$ such that $(a,b)\\in f$ and $(a,c)\\in f$ implies $b=c$.
 There are many formulations of this axiom. It is historically the most
 controversial of the axioms of $ZFC$.
 
-$$\\forall x \\big\[\\forall y (y\\in x \\rightarrow
+\\[\\forall x \\big\[\\forall y (y\\in x \\rightarrow
 y\\neq\\emptyset)\\rightarrow \\exists f \\big(\\operatorname{dom} f =
-x\\wedge \\forall a\\in x (f(a) \\in a )\\big)\\big\] $$
+x\\wedge \\forall a\\in x (f(a) \\in a )\\big)\\big\] \\]
 
 The theory generated by the axioms above was explicitly spelled out by
 Zermelo (1908). Most of classical math can be carried out in this
@@ -145,7 +145,7 @@ the following is an instance of the replacement schema: $$ \\forall a
 \\forall w (w\\in z \\leftrightarrow \\exists u\\in a
 \\varphi(x\_1,\\dots,x\_n,u,w))\\big\].$$
 
-#### <span id="Applications_of_replacement" class="mw-headline">Applications of replacement</span>
+#### Applications of replacement
 
 The axiom of replacement proves that every well-ordered set is
 isomorphic to a (unique) ordinal.
@@ -243,7 +243,7 @@ Its height is smaller then the least
 [stable](Stable "Stable")
 ordinal although the existence of stable ordinals is provable in ZFC and
 the existence of transitive models is
-not.\[[1](#bibkey_Madore2017:OrdinalZoo)\]
+not. {% cite Madore2017 %}
 
 ### $\\omega$-models of $\\text{ZFC}$
 
@@ -389,16 +389,6 @@ $\\kappa$, just like in $V\_\\kappa$ for
 [inaccessible](Inaccessible "Inaccessible")
 $\\kappa$ there are worldly, 1-worldly, hyper-worldly etc. cardinals.
 
-## References
-
-1.  <span id="bibkey_Madore2017:OrdinalZoo">Madore, David. *A zoo of
-    ordinals.* , 2017.
-    <a href="http://www.madore.org/~david/math/ordinal-zoo.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BMadore2017:OrdinalZoo,%20%20%20%20AUTHOR%20=%20%7BMadore,%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BA%20zoo%20of%20ordinals%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2017%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.madore.org/~david/math/ordinal-zoo.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-  
 
         This article is a stub. Please help us to improve Cantor's Attic by adding information.
 

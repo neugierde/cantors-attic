@@ -25,7 +25,7 @@ existence of a tall cardinal is equiconsistent with the existence of a
 cardinal. Any tall cardinal $\\kappa$ can be made indestructible by a
 variety of forcing notions, including forcing that pumps up the value of
 $2^\\kappa$ as high as desired. See
-\[[1](#bibkey_Hamkins2009:TallCardinals)\].
+{% cite Hamkins2009 %}
 
 ### Extender Characterization
 
@@ -95,14 +95,3 @@ for each ordinal $\\alpha$ such that:
     everywhere.
 4.  $\\{x\\in S:H\_\\theta(x)\\in\\kappa\\}\\in U$. That is,
     $H\_\\theta(x)\\in\\kappa$ almost everywhere.
-
-## References
-
-1.  <span id="bibkey_Hamkins2009:TallCardinals">Hamkins, Joel David.
-    *Tall cardinals.* MLQ Math Log Q 55(1):68--86, 2009.
-    <a href="http://boolesrings.org/hamkins/tallcardinals/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075141/http://dx.doi.org/10.1002/malq.200710084" class="extiw">DOI</a>   <a href="http://web.archive.org/web/20191005075141/http://www.ams.org/mathscinet-getitem?mr=2489293" class="extiw">MR</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BHamkins2009:TallCardinals,%20%20%20%20AUTHOR%20=%20%7BHamkins,%20Joel%20David%7D,%3Cbr%3E%20%20%20%20%20TITLE%20=%20%7BTall%20cardinals%7D,%3Cbr%3E%20%20%20JOURNAL%20=%20%7BMLQ%20Math.%20Log.%20Q.%7D,%3Cbr%3E%20%20FJOURNAL%20=%20%7BMLQ.%20Mathematical%20Logic%20Quarterly%7D,%3Cbr%3E%20%20%20%20VOLUME%20=%20%7B55%7D,%3Cbr%3E%20%20%20%20%20%20YEAR%20=%20%7B2009%7D,%3Cbr%3E%20%20%20%20NUMBER%20=%20%7B1%7D,%3Cbr%3E%20%20%20%20%20PAGES%20=%20%7B68--86%7D,%3Cbr%3E%20%20%20%20%20%20ISSN%20=%20%7B0942-5616%7D,%3Cbr%3E%20%20%20MRCLASS%20=%20%7B03E55%20(03E35)%7D,%3Cbr%3E%20%20MRNUMBER%20=%20%7B2489293%20(2010g:03083)%7D,%3Cbr%3EMRREVIEWER%20=%20%7BCarlos%20A.%20Di%20Prisco%7D,%3Cbr%3E%20%20%20%20%20%20%20DOI%20=%20%7B10.1002/malq.200710084%7D,%3Cbr%3E%20%20%20%20%20%20%20URL%20=%20%7Bhttp://boolesrings.org/hamkins/tallcardinals/%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

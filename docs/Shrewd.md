@@ -13,7 +13,7 @@ permalink: Shrewd
 
 
 
-(All information from \[[1](#bibkey_Rathjen2006:OrdinalAnalysis)\])
+(All information from {% cite Rathjen2006 %})
 
 Shrewd cardinals are a generalisation of indescribable cardinals. They
 are called shrewd because they are bigger in size than many large
@@ -60,14 +60,3 @@ and $\\mathcal{A}$-$η$-$\\mathcal{F}$-shrewd cardinals.
         $V\_\\pi$ is stationary.)
     -   there is an $\\eta$-shrewd cardinal below $\\pi$ for all $\\eta
         &lt; \\pi$.
-
-## References
-
-1.  <span id="bibkey_Rathjen2006:OrdinalAnalysis">Rathjen, Michael. *The
-    art of ordinal analysis.* , 2006.
-    <a href="http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BRathjen2006:OrdinalAnalysis,%20%20%20%20AUTHOR%20=%20%7BRathjen,%20Michael%7D.%20%20%20%20TITLE%20=%20%7BThe%20art%20of%20ordinal%20analysis%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2006%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttp://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

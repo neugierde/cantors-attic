@@ -1,6 +1,8 @@
 ---
 title: $\text{Ord}$ is Mahlo
 permalink: ORD_is_Mahlo
+redirect_from:
+  - Ord_is_Mahlo
 ---
 
 
@@ -60,16 +62,4 @@ a
 [reflecting](Reflecting "Reflecting")
 cardinal and consequently also a transitive model of ZFC plus
 $\\text{Ord}$ is
-Mahlo.\[[1](#bibkey_HamkinsJohnstone:ResurrectionAxioms)\]
-
-## References
-
-1.  <span id="bibkey_HamkinsJohnstone:ResurrectionAxioms">Hamkins, Joel
-    David and Johnstone, Thomas A. *Resurrection axioms and uplifting
-    cardinals.* , 2014.
-    <a href="http://jdh.hamkins.org/resurrection-axioms-and-uplifting-cardinals/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005075336/http://arxiv.org/abs/1307.3602" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BHamkinsJohnstone:ResurrectionAxioms,%20%20AUTHOR%20=%20%20%20%20%20%20%20%7BHamkins,%20Joel%20David%20and%20Johnstone,%20Thomas%20A.%7D,%3Cbr%3E%20%20TITLE%20=%20%20%20%20%20%20%20%20%7BResurrection%20axioms%20and%20uplifting%20cardinals%7D,%3Cbr%3E%20%20YEAR%20=%20%20%20%20%20%20%20%20%20%7B2014%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttp://jdh.hamkins.org/resurrection-axioms-and-uplifting-cardinals/%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1307.3602%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-
+Mahlo. {% cite Hamkins2014 %}

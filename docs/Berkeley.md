@@ -31,7 +31,7 @@ forces that the least Berkeley cardinal has cofinality $\\omega$. It
 seems that various strengthenings of the Berkeley property can be
 obtained by imposing conditions on the cofinality of $\\kappa$ (the
 larger cofinality, the stronger theory is believed to be, up to regular
-$\\kappa$).\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
+$\\kappa$). {% cite Bagaria2017 %}
 
 A cardinal $\\kappa$ is called **proto-Berkeley** if for any transitive
 $M\\ni\\kappa$, there is some $j: M\\prec M$ with $\\text{crit
@@ -45,11 +45,11 @@ $\\alpha$-proto-Berkeley cardinal is called $\\delta\_\\alpha$.
 We call $\\kappa$ a **club Berkeley** cardinal if $\\kappa$ is regular
 and for all clubs $C\\subseteq\\kappa$ and all transitive sets $M$ with
 $\\kappa\\in M$ there is $j\\in \\mathcal{E}(M)$ with $\\mathrm{crit}(j)
-∈ C$.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
+∈ C$. {% cite Bagaria2017 %}
 
 We call $\\kappa$ a **limit club Berkeley** cardinal if it is a club
 Berkeley cardinal and a limit of Berkeley
-cardinals.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
+cardinals. {% cite Bagaria2017 %}
 
 ## Relations
 
@@ -57,24 +57,24 @@ cardinals.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
     $\\gamma\\lt\\kappa$ such that $(V\_\\gamma ,
     V\_{\\gamma+1})\\vDash\\mathrm{ZF}\_2 + \\text{“There is a Reinhardt
     cardinal witnessed by $j$ and an $\\omega$-huge above
-    $\\kappa\_\\omega(j)”$}$.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
+    $\\kappa\_\\omega(j)”$}$. {% cite Bagaria2017 %}
 -   For every $\\alpha$, $\\delta\_\\alpha$ is Berkeley. Therefore
     $\\delta\_\\alpha$ is the least Berkeley cardinal above
-    $\\alpha$.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
+    $\\alpha$. {% cite Bagaria2017 %}
 -   In particular, the least proto-Berkeley cardinal $\\delta\_0$ is
     also the least Berkeley
-    cardinal.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
+    cardinal. {% cite Bagaria2017 %}
 -   If $\\kappa$ is a limit of Berkeley cardinals, then $\\kappa$ is not
     among the
-    $\\delta\_\\alpha$.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
+    $\\delta\_\\alpha$. {% cite Bagaria2017 %}
 -   Each club Berkeley cardinal is totally
-    Reinhardt.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\].
+    Reinhardt. {% cite Bagaria2017 %}.
 -   The relation between Berkeley cardinals and club Berkeley cardinals
-    is unknown.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
+    is unknown. {% cite Bagaria2017 %}
 -   If $\\kappa$ is a limit club Berkeley cardinal, then $(V\_\\kappa ,
     V\_{\\kappa+1})\\vDash\\text{“There is a Berkeley cardinal that is
     super
-    Reinhardt”}$.\[[1](#bibkey_Bagaria2017:LargeCardinalsBeyondChoice)\]
+    Reinhardt”}$. {% cite Bagaria2017 %}
     Moreover, the class of such cardinals are stationary.
 
 ## The structure of $L(V\_{\\delta+1})$
@@ -90,15 +90,6 @@ is a strong limit in $L(V\_{\\delta+1})$, $\\delta^+$ is regular and
 measurable in $L(V\_{\\delta+1})$, and $\\Theta$ is a limit of
 measurable cardinals.
 
-  
 
-## References
-
-1.  <span id="bibkey_Bagaria2017:LargeCardinalsBeyondChoice">Bagaria,
-    Joan. *Large Cardinals beyond Choice.* , 2017.
-    <a href="https://events.math.unipd.it/aila2017/sites/default/files/BAGARIA.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2017:LargeCardinalsBeyondChoice,%20%20author%20=%20%20%20%20%20%20%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20title%20=%20%20%20%20%20%20%20%20%7BLarge%20Cardinals%20beyond%20Choice%7D,%3Cbr%3E%20%20year%20=%20%20%20%20%20%20%20%20%20%7B2017%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttps://events.math.unipd.it/aila2017/sites/default/files/BAGARIA.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
 
 

@@ -32,7 +32,7 @@ $\\omega\_1^{\\mathfrak{Ch}}$ or to
 $\\omega\_1^{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}$, depending
 respectively on whether one is considering only finite positions or also
 positions with infinitely many
-pieces.\[[1](#bibkey_EvansHamkins:TransfiniteGameValuesInInfiniteChess)\]
+pieces.{% cite Evans %}
 
 -   The ordinal $\\omega\_1^{\\mathfrak{Ch}}$ is the supremum of the
     game values of the winning finite positions for white in infinite
@@ -83,7 +83,7 @@ game value is a computable ordinal.
 -   Similarly, $\\omega\_1^{\\mathfrak{Ch}\_3}\\leq\\omega\_1^{ck}$.
 
 Evans and Hamkins
-\[[1](#bibkey_EvansHamkins:TransfiniteGameValuesInInfiniteChess)\] have
+{% cite Evans %} have
 proved that the omega one of infinite 3D chess is true $\\omega\_1$, as
 large as it can be:
 $\\omega\_1^{ {\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}\_3}=\\omega\_1$.
@@ -92,16 +92,3 @@ $\\omega\_1^{\\mathfrak{Ch}}$ and
 $\\omega\_1^{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}$, with Evans and
 Hamkins finding (computable) infinite positions having value $\\omega^3$
 and somewhat beyond.
-
-## References
-
-1.  <span
-    id="bibkey_EvansHamkins:TransfiniteGameValuesInInfiniteChess">Evans,
-    C D A and Hamkins, Joel David. *Transfinite game values in infinite
-    chess.* (under review)
-    <a href="http://jdh.hamkins.org/game-values-in-infinite-chess" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005043502/http://arxiv.org/abs/1302.4377" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BEvansHamkins:TransfiniteGameValuesInInfiniteChess,%20%20AUTHOR%20=%20%20%20%20%20%20%20%7BEvans,%20C.%20D.%20A.%20and%20Hamkins,%20Joel%20David%7D,%3Cbr%3E%20%20TITLE%20=%20%20%20%20%20%20%20%20%7BTransfinite%20game%20values%20in%20infinite%20chess%7D,%3Cbr%3E%20%20JOURNAL%20=%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20YEAR%20=%20%20%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20volume%20=%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20number%20=%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20pages%20=%20%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20month%20=%20%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20note%20=%20%20%20%20%20%20%20%20%20%7Bunder%20review%7D,%3Cbr%3E%20%20eprint%20=%20%20%20%20%20%20%20%7B1302.4377%7D,%3Cbr%3E%20%20url%20=%20%20%20%20%20%20%20%20%20%20%7Bhttp://jdh.hamkins.org/game-values-in-infinite-chess%7D,%3Cbr%3E%20%20abstract%20=%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20keywords%20=%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20source%20=%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

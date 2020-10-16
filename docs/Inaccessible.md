@@ -207,16 +207,4 @@ and probably more. Similar hierarchy exists for Mahlo cardinals below
 compact](Weakly_compact "Weakly compact").
 All such properties can be killed softly by forcing to make them any
 weaker properties from this
-family.\[[1](#bibkey_Carmody2015:ForceToChangeLargeCardinalStrength)\]
-
-## References
-
-1.  <span
-    id="bibkey_Carmody2015:ForceToChangeLargeCardinalStrength">Carmody,
-    Erin Kathryn. *Force to change large cardinal strength.* , 2015.
-    <a href="https://academicworks.cuny.edu/gc_etds/879/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005074926/http://arxiv.org/abs/1506.03432" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@article%7BCarmody2015:ForceToChangeLargeCardinalStrength,%20%20%20%20author%20=%20%7BCarmody,%20Erin%20Kathryn%7D,%3Cbr%3E%20%20%20%20%20%20%20%20%20title%20=%20%7BForce%20to%20change%20large%20cardinal%20strength%7D,%3Cbr%3E%20%20%20%20%20%20%20%20year%20=%20%7B2015%7D,%3Cbr%3E%20%20%20%20%20eprint%20=%20%7B1506.03432%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttps://academicworks.cuny.edu/gc_etds/879/%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-
+family. {% cite Carmody2015 %}

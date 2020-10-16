@@ -21,7 +21,7 @@ rank](Rank_into_rank "Rank into rank")
 embeddings. Ultrapowers have a more concrete structure than general
 embeddings and are often easier to work with in proofs. Most of the
 results in this article can be found in
-\[[1](#bibkey_Jech2003:SetTheory)\].
+{% cite Jech2003 %}.
 
 ## General construction
 
@@ -227,15 +227,3 @@ constructed in $M$.
     $X=\\kappa^{(\\alpha)}\\cap i\_{\\alpha,\\beta}(X)$.
 
 ### The representation lemma
-
-## References
-
-1.  <span id="bibkey_Jech2003:SetTheory">Jech, Thomas J. ***Set
-    Theory.*** Third, Springer-Verlag, Berlin, 2003. (The third
-    millennium edition, revised and expanded)
-    <a href="https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@book%7BJech2003:SetTheory,%20%20%20%20AUTHOR%20=%20%7BJech,%20Thomas%20J.%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BSet%20Theory%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BSpringer%20Monographs%20in%20Mathematics%7D,%3Cbr%3E%20%20%20%20%20%20NOTE%20=%20%7BThe%20third%20millennium%20edition,%20revised%20and%20expanded%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BSpringer-Verlag%7D,%3Cbr%3E%20%20%20%20%20EDITION%20=%20%7BThird%7D,%3Cbr%3E%20%20%20%20%20ADDRESS%20=%20%7BBerlin%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2003%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

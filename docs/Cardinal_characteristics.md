@@ -55,7 +55,7 @@ characteristic more deeply because we know the range of possibility for
 their relations to each other.
 
 An excellent general resource on the subject is
-\[[1](#bibkey_Blass2010:CardinalCharacteristicsHandbook)\].
+{% cite Blass2010 %}.
 
 
 ## The bounding number
@@ -142,14 +142,3 @@ $\\longrightarrow$
   
 
         This article is a stub. Please help us to improve Cantor's Attic by adding information.
-
-## References
-
-1.  <span id="bibkey_Blass2010:CardinalCharacteristicsHandbook">Blass,
-    Andreas. *Chapter 6: Cardinal characteristics of the continuum.*
-    Handbook of Set Theory , 2010.
-    <a href="http://www.math.lsa.umich.edu/~ablass/hbk.pdf" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BBlass2010:CardinalCharacteristicsHandbook,%20%20%20author%20=%20%7BBlass,%20Andreas%7D,%3Cbr%3E%20%20%20%20title%20=%20%7BChapter%206:%20Cardinal%20characteristics%20of%20the%20continuum%7D,%3Cbr%3E%20%20journal%20=%20%7BHandbook%20of%20Set%20Theory%7D,%3Cbr%3E%20%20%20editor%20=%20%7BForeman,%20Mathew;%20Kanamori,%20Akihiro%7D,%3Cbr%3E%20%20%20%20%20year%20=%20%7B2010%7D,%3Cbr%3E%20%20%20%20%20isbn%20=%20%7B1402048432%7D,%3Cbr%3Epublisher%20=%20%7BSpringer%7D,%3Cbr%3E%20%20%20%20%20%20url%20=%20%7Bhttp://www.math.lsa.umich.edu/~ablass/hbk.pdf%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-

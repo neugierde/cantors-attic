@@ -113,7 +113,7 @@ On the other hand, every
 cardinal is $C^{(n)}$-measurable for all $n$ and every
 ($λ$-)[strong](Strong "Strong")
 cardinal is ($λ$-)$C^{(n)}$-strong for all
-$n$.\[[1](#bibkey_Bagaria2012:CnCardinals)\]
+$n$. {% cite Bagaria2012 %}
 
 A cardinal $\\kappa$ is *reflecting* if it is inaccessible and correct.
 Just as with the notion of correctness, this is not first-order
@@ -203,15 +203,3 @@ $\\kappa$ is an inaccessible reflecting cardinal, then there is a
 forcing extension with $\\text{MP}(\\mathbb{R})$, and conversely,
 whenever $\\text{MP}(\\mathbb{R})$ holds, then there is an inner model
 with an inaccessible reflecting cardinal.
-
-## References
-
-1.  <span id="bibkey_Bagaria2012:CnCardinals">Bagaria, Joan.
-    *$C^{(n)}$-cardinals.* Archive for Mathematical Logic
-    51(3--4):213--240, 2012.
-    <a href="http://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf" class="extiw">www</a>   <a href="http://web.archive.org/web/20191005050935/http://dx.doi.org/10.1007/s00153-011-0261-8" class="extiw">DOI</a>   <a href="javascript:bibpopup(&#39;@article%7BBagaria2012:CnCardinals,%20%20%20AUTHOR%20=%20%7BBagaria,%20Joan%7D,%3Cbr%3E%20%20%20TITLE%20=%20%7B$C%5E%7B(n)%7D$-cardinals%7D,%3Cbr%3E%20%20journal%20=%20%7BArchive%20for%20Mathematical%20Logic%7D,%3Cbr%3E%20%20%20%20%20%20%20%20YEAR%20=%20%7B2012%7D,%3Cbr%3E%20%20%20%20%20%20%20%20volume%20=%20%7B51%7D,%3Cbr%3E%20%20%20%20%20%20%20%20number%20=%20%7B3--4%7D,%3Cbr%3E%20%20%20%20%20%20%20%20pages%20=%20%7B213--240%7D,%3Cbr%3E%20%20%20%20%20%20%20%20DOI%20=%20%7B10.1007/s00153-011-0261-8%7D,%3Cbr%3E%20%20%20%20%20%20%20%20URL%20=%20%7Bhttp://www.mittag-leffler.se/sites/default/files/IML-0910f-26.pdf%7D%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-

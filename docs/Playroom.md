@@ -198,16 +198,4 @@ pretend that we live in a Newtonian world.
 ## Metagame
 
 Several of the sections above contained material from
-\[[1](#bibkey_Hamkins2002:Turing)\].
-
-## References
-
-1.  <span id="bibkey_Hamkins2002:Turing">Hamkins, Joel David. *Infinite
-    time Turing machines.* Minds and Machines 12(4):521--539, 2002.
-    (special issue devoted to hypercomputation)
-    <a href="http://boolesrings.org/hamkins/turing-mm/" class="extiw">www</a>   <a href="http://web.archive.org/web/20191025234916/http://arxiv.org/abs/math/0212047" class="extiw">arχiv</a>   <a href="javascript:bibpopup(&#39;@ARTICLE%7BHamkins2002:Turing,%20%20author%20=%20%20%20%20%20%20%20%7BHamkins,%20Joel%20David%7D,%3Cbr%3E%20%20title%20=%20%20%20%20%20%20%20%20%7BInfinite%20time%20Turing%20machines%7D,%3Cbr%3E%20%20journal%20=%20%20%20%20%20%20%7BMinds%20and%20Machines%7D,%3Cbr%3E%20%20year%20=%20%20%20%20%20%20%20%20%20%7B2002%7D,%3Cbr%3E%20%20volume%20=%20%20%20%20%20%20%20%7B12%7D,%3Cbr%3E%20%20number%20=%20%20%20%20%20%20%20%7B4%7D,%3Cbr%3E%20%20pages%20=%20%20%20%20%20%20%20%20%7B521--539%7D,%3Cbr%3E%20%20month%20=%20%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20note%20=%20%20%20%20%20%20%20%20%20%7Bspecial%20issue%20devoted%20to%20hypercomputation%7D,%3Cbr%3E%20%20key%20=%20%20%20%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20annote%20=%20%20%20%20%20%20%20%7B%7D,%3Cbr%3E%20%20eprint%20=%20%7Bmath/0212047%7D,%3Cbr%3E%20%20%20%20%20url%20=%20%7Bhttp://boolesrings.org/hamkins/turing-mm/%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-
+{% cite Hamkins2002 %}.

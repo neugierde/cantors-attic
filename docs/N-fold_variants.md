@@ -5,7 +5,7 @@ permalink: N-fold_variants
 
 
 *This page is a WIP.* The $n$-fold variants of large cardinal axioms
-were created by Sato Kentaro in \[[1](#bibkey_Kentaro2007:DoubleHelix)\]
+were created by Sato Kentaro in {% cite Kentaro2007 %}
 in order to study and investigate the double helix phenomena. The double
 helix phenomena is the strange pattern in consistency strength between
 such cardinals, which can be seen below.
@@ -19,7 +19,7 @@ in this diagram will be detailed on this page (unless found elsewhere on
 this website).
 
 This page will only use facts from
-\[[1](#bibkey_Kentaro2007:DoubleHelix)\] unless otherwise stated.
+{% cite Kentaro2007 %} unless otherwise stated.
 
 ## $n$-fold Variants
 
@@ -268,15 +268,3 @@ over $\\kappa$ which contains the set of all cardinals which are
 $\\omega$-fold strong in $V\_\\kappa$ and therefore $V\_\\kappa$
 satisfies the existence of a proper class of $\\omega$-fold strong
 cardinals.
-
-## References
-
-1.  <span id="bibkey_Kentaro2007:DoubleHelix">Kentaro, Sato. *Double
-    helix in large large cardinals and iteration ofelementary
-    embeddings.* , 2007.
-    <a href="https://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00" class="extiw">www</a>   <a href="javascript:bibpopup(&#39;@article%7BKentaro2007:DoubleHelix,%20%20%20%20AUTHOR%20=%20%7BKentaro,%20Sato%7D,%3Cbr%3E%20%20%20%20TITLE%20=%20%7BDouble%20helix%20in%20large%20large%20cardinals%20and%20iteration%20ofelementary%20embeddings%7D,%3Cbr%3E%20%20%20%20SERIES%20=%20%7BAnnals%20of%20Pure%20and%20Applied%20Logic%7D,%3Cbr%3E%20PUBLISHER%20=%20%7BElsevier%20B.V.%7D,%3Cbr%3E%20%20%20%20%20YEAR%20=%20%7B2007%7D,%3Cbr%3E%20%20%20%20%20URL%20=%20%7Bhttps://ac.els-cdn.com/S0168007207000127/1-s2.0-S0168007207000127-main.pdf?_tid=aa889390-c1e4-11e7-a507-00000aacb362&amp;acdnat=1509857531_549949bbb11277bb53825de297d7dc00%7D,%3Cbr%3E%7D&#39;)" class="bibtex">bibtex</a></span>
-
-[Main
-library](Library "Library")
-
-
