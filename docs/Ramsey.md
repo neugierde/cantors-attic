@@ -685,7 +685,7 @@ Results:
     <a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
     exists and an inner model with a
     [Woodin](Woodin "Woodin")
-    cardinal exists. {% Sharpe2011 Nielsen2018 %} 
+    cardinal exists. {% cite Sharpe2011 Nielsen2018 %} 
 
 Additional results from
 {% cite Nielsen2018 %}:
