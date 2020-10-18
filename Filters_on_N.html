@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Filters on $\mathbb{N}$ | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Filters on $\mathbb{N}$" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Filters_on_N","@type":"WebPage","headline":"Filters on $\\mathbb{N}$","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Filters on $\mathbb{N}$</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#reminder-on-real-numbers">Reminder on real numbers</a></li>
+<li class="toc-entry toc-h2"><a href="#beyond-real-numbers">Beyond real numbers?</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#filters">Filters</a></li>
+<li class="toc-entry toc-h3"><a href="#ultrafilters">Ultrafilters</a></li>
+<li class="toc-entry toc-h3"><a href="#sequences-of-real-numbers">Sequences of real numbers</a></li>
+</ul>
+</li>
+</ul><h2 id="reminder-on-real-numbers">
+<a class="anchor" href="#reminder-on-real-numbers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reminder on real numbers</h2>
+
+<p>One of the classical constructions of real numbers is to consider Cauchy
+sequences of rational numbers and an equivalence relation. If
+$\{a_n\}_n$ and $\{b_n\}_n$ are Cauchy sequences, then
+$\{a_n\}_n\sim \{b_n\}_n$ if the sequence $\{a_n-b_n\}_n$
+converges to zero. The reader may refer to their favorite source for
+more about Cauchy sequences.</p>
+
+<h2 id="beyond-real-numbers">
+<a class="anchor" href="#beyond-real-numbers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Beyond real numbers?</h2>
+
+<p>It would seem interesting to be able to consider <em>diverging</em> sequences
+as candidates for <em>infinite</em> numbers since, at least for monotonic
+increasing sequences, they exceed all Cauchy sequences.</p>
+
+<p>Let $\{n\}_n$ and $\{n+\frac{1}{n}\}_n$ be two clearly diverging
+sequences. They satisfy the condition that $\{n-(n+\frac{1}{n})\}_n$
+converges to zero.</p>
+
+<p>Yet an additional requirement for these to be considered as <em>numbers</em>
+would be that if $x,y,a,b$ stand for such sequences and $x\sim a$ and
+$y\sim b$ (for some equivalence relation) then $x\cdot y\sim a\cdot
+b$.</p>
+
+<p>In the example given above, the product
+$\{n\cdot(n+\frac{1}{n})\}_n=\{n^2+1\}_n$ and this does will not
+satisfy the condition of converging to $\{n^2\}_n$ thus the Cauchy
+equivalence relation will not do.</p>
+
+<p>The goal that is achieved with ultrafilters is to provide a concept of
+sequences of real numbers <em>agreeing almost everywhere</em> providing a set
+endowed with the usual operations and which extends the field of real
+numbers.</p>
+
+<h3 id="filters">
+<a class="anchor" href="#filters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Filters</h3>
+
+<p>A filter $\mathcal{F}$ on $\mathbb{N}$ is a set of subsets of
+$\mathbb{N}$ satisfying the following conditions:</p>
+
+<ul>
+  <li>If $A,B\in \mathcal{F}$ then $A\cap B\in\mathcal{F}\quad$
+(Closed under intersection)</li>
+  <li>If $A\in \mathcal{F}$ and $A\subset B\subset \mathbb{N}$ then
+$B\in \mathcal{F}\quad$ (Superset property)</li>
+</ul>
+
+<p><strong>Examples</strong></p>
+
+<ul>
+  <li>$\{A\subseteq \mathbb{N}\ |\ i\in A\}$ for some natural
+number $i$.</li>
+  <li>$\{A\subseteq\mathbb{N}\ |\ \mathbb{N}\setminus A
+\quad\text{ is finite}\}$</li>
+</ul>
+
+<p>The second example is the cofinite filter. It contains complements of
+finite sets.</p>
+
+<p>A filter which contains the empty set is the powerset of $\mathbb{N}$.
+A filter which is not the powerset is a <em>proper filter</em></p>
+
+<h3 id="ultrafilters">
+<a class="anchor" href="#ultrafilters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ultrafilters</h3>
+
+<p>An ultrafilter on $\mathbb{N}$ is a proper filter which has the extra
+property that for any subset $A$ of $\mathbb{N}$ either $A$ or its
+complement $\mathbb{N}\setminus A$ belongs to the ultrafilter.</p>
+
+<p>The first example of filter is in fact an ultrafilter. It is a
+<em>principal</em> ultrafilter generated by $i$.</p>
+
+<p>Filters and ultrafilters can be defined on other sets than
+$\mathbb{N}$. If they are defined on finite sets, then all ultrafilters
+are principal. If a filter contains a finite set then it contains a
+singleton and is therefore a principal ultrafilter. Hence a nonprincipal
+ultrafilter must contain all cofinite sets.</p>
+
+<p>The existence of nonprincipal ultrafilters is proven using the axiom of
+choice, or one of its equivalents such as Zorn’s lemma.</p>
+
+<p>(For more on ultrafilters, see the excellent book by Robert Goldblatt
+<a class="citation" href="#Goldblatt1998">(Goldblatt, 1998)</a>).</p>
+
+<h3 id="sequences-of-real-numbers">
+<a class="anchor" href="#sequences-of-real-numbers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sequences of real numbers</h3>
+
+<p>Let $\{a_n\}$ and $\{b_n\}$ be two sequences of real numbers. We
+will say that they <em>agree almost everywhere</em>, modulo a nonprincipal
+ultrafilter $\mathcal{F}$, if the set $\{k\ |\ a_k=b_k\}$
+belongs to the ultrafilter. This determines equivalence classes on
+sequences of real numbers. The set of these equivalence classes is
+called the set of <em>hyperreals</em> and is denoted by ${}^*\mathbb{R}$.</p>
+
+<p>Real number are included in the hyperreal by identifying them with
+constant sequences.</p>
+
+<p>In this setting, sequences which are diverging with respect to the
+Cauchy criterion, such as $\{n\}$, can become representatives of
+<em>infinite hyperreal numbers</em>. They are infinite in the sense that, in
+this example, it exceeds all constant sequences, hence it is greater
+than any real number.</p>
+
+<p>Similarly, $\{1/n\}$ represents a positive infinitesimal. It is less
+than any nonzero positive real number.</p>
+
+<p>An interesting question is whether all constructions of the hypperreals
+are isomorphic i.e., are there properties of the hyperreals which depend
+on the choice of the nonprincipal ultrafilter? The answer depends on
+whether one accepts the
+<a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>.
+With the CH, the answer is <em>no</em>, the construction of the hyperreals does
+not depend on the ultrafilter.</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Goldblatt1998">Goldblatt, R. (1998). <i>Lectures on the Hyperreals</i>. Springer.</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>High-jump | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="High-jump" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/High-jump","@type":"WebPage","headline":"High-jump","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>High-jump</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definition">Definition</a></li>
+<li class="toc-entry toc-h2"><a href="#properties">Properties</a></li>
+<li class="toc-entry toc-h2"><a href="#name-origin">Name origin</a></li>
+<li class="toc-entry toc-h2"><a href="#read-more">Read More</a></li>
+</ul><p><em>High-jump</em> cardinals are a certain kind of large cardinals. A cardinal
+$\kappa$ is <em>high-jump</em> if it is the critical point of an <a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j:V\to M$ such that $M$ is closed under sequences of length
+$\text{sup}\{j(f)(\kappa)|f:\kappa\to\kappa\}$. This closure
+condition is a weakening of the definition of a
+<a href="Huge" title="Huge">huge</a>
+cardinal.</p>
+
+<h2 id="definition">
+<a class="anchor" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h2>
+
+<p>Let $j:M\to N$ be a (nontrivial) elementary embedding. The <em>clearance</em>
+of $j$ is the ordinal $\text{sup}\{j(f)(\kappa)$ $|$
+$f:\kappa\to\kappa,f\in M\}$ where $\kappa$ is the critical point
+of $j$.</p>
+
+<p>A cardinal $\kappa$ is <strong>high-jump</strong> if there exists $j:V\to M$ with
+critical point $\kappa$ and clearance $\theta$ such that
+$M^\theta\subseteq M$, i.e. $M$ contains all sequences of elements of
+$M$ of length $\theta$. $j$ is called a <em>high-jump embedding</em>, and a
+<a href="Filter" title="Filter">normal fine
+ultrafilter</a>
+on some $\mathcal{P}_\kappa(\lambda)$ generating an <a href="Ultrapower" title="Ultrapower">ultrapower
+embedding</a>
+that is high-jump is a <em>high-jump ultrafilter</em> (or <em>high-jump measure</em>).</p>
+
+<p>$\kappa$ is called <em>almost high-jump</em> if $M$ is closed under sequences
+of length $&lt;\theta$ instead, i.e. $M^\lambda\subseteq M$ for all
+$\lambda&lt;\theta$. $j$ is then an <em>almost high-jump</em> embedding. This
+means that for all $f:\kappa\to\kappa$, $M^{j(f)(\kappa)}\subseteq
+M$.
+<a href="Shelah" class="mw-redirect" title="Shelah">Shelah for supercompactness</a>
+cardinals are a natural weakening of almost high-jump cardinals which
+allows to have one embedding per $f:\kappa\to\kappa$ rather than a
+single embedding for all such $f$s.</p>
+
+<p>$\kappa$ is high-jump <em>order $\eta$</em> (resp. almost high-jump <em>order
+$\eta$</em>) if there exists a strictly increasing sequence of ordinals
+$\{\theta_\alpha:\alpha&lt;\eta\}$ such that for all
+$\alpha&lt;\eta$, there exists a high-jump embedding (resp. almost
+high-jump embedding) with critical point $\kappa$ and clearance
+$\theta_\alpha$. $\kappa$ is <em>super high-jump</em> (resp. <em>super almost
+high-jump</em>) if there are high-jump embeddings (resp. almost high-jump
+embeddings) with arbtirarily large clearance (i.e. it is “(almost)
+high-jump order Ord”).</p>
+
+<p>A high-jump cardinal $\kappa$ has <em>unbounded excess closure</em> if for
+some clearance $\theta$, for all cardinals $\lambda\geq\theta$,
+there is a high-jump measure on $\mathcal{P}_\kappa(\lambda)$
+generating an ultrapower embedding with clearance $\theta$.</p>
+
+<p>The dual notion <em>high-jump-for-strongness</em>, where the closure condition
+$M^\theta\subseteq M$ is weakened to $V_\theta\subseteq M$, turns
+out to be equivalent to
+<a href="Superstrong" title="Superstrong">superstrongness</a>.</p>
+
+<h2 id="properties">
+<a class="anchor" href="#properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>Properties</h2>
+
+<p>Let $j:V\to M$ a nontrivial elementary embedding with critical point
+$\kappa$ and clearance $\theta$. Then there is no
+$f:\kappa\to\kappa$ such that $j(f)(\kappa)=\theta$. Also,
+$\kappa^{+}\leq cf(\theta)\leq 2^\kappa$ (see
+<a href="Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>)
+and $\beth^M_\theta=\theta$. Moreover, $M_\theta\prec
+M_{j(\kappa)}$ and $M_\theta$ satisfies ZFC where $M_\theta=M\cap
+V_\theta$.</p>
+
+<p>When $\kappa$ is almost high-jump, in both $V$ and $M$,
+$\theta^\kappa=\theta$, also $\theta$ is
+<a href="Singular" class="mw-redirect" title="Singular">singular</a>.
+Moreover, $V_\theta\prec M_{j(\kappa)}$ and $V_\theta$ satisfies
+ZFC.</p>
+
+<p>The following statements also holds:</p>
+
+<ul>
+  <li>
+    <p>Suppose there is a almost high-jump cardinal. Then there are many
+cardinals below it that are Shelah for supercompactness. Also, in
+the model $V_\kappa$ there are many supercompact cardinals.</p>
+  </li>
+  <li>
+    <p>Every high-jump cardinal is almost high-jump, and has order
+$\theta$; in fact, in the models $V_\theta$, $V_\kappa$ and
+$M_{j(\kappa)}$ there are many super almost high-jump cardinals.</p>
+  </li>
+  <li>
+    <p>The existence of a high-jump cardinal with order $\eta$ implies
+that for every $\gamma&lt;\eta$, there exists a model in which
+that cardinal is high-jump with order $\gamma$. The same statement
+holds for almost high-jump cardinals.</p>
+  </li>
+  <li>
+    <p>The existence of a high-jump cardinal with unbounded excess closure
+is equiconsistent with the existence of a cardinal $\kappa$ such
+that for all sufficiently large $\lambda$, there exists a high-jump
+measure on $\mathcal{P}_\kappa(\lambda$).</p>
+  </li>
+  <li>
+    <p>Suppose $\kappa$ is <a href="Huge" title="Huge">almost
+huge</a>;
+then in the model $V_\kappa$ there are many cardinals that are
+high-jump with unbounded excess closure.</p>
+  </li>
+  <li>
+    <p>Suppose that there exists a pair of cardinals ($\kappa$, $\theta$)
+such that there is a high-jump embedding $j:V\to M$ with critical
+point $\kappa$ and clearance $\theta$ and such that
+$M^{2^\theta}\subseteq M$. Then the cardinal $\kappa$ is super
+high-jump in the model $V_\theta$, and the cardinal $\kappa$ has
+high-jump order $\theta$ in $V$. Furthermore, there are many super
+high-jump cardinals in the models $V_\kappa$, $V_\theta$, and
+$M_{j(\kappa)}$.</p>
+  </li>
+  <li>
+    <p>The least high-jump cardinal is not $\Sigma_2$-reflecting. In
+particular, it is not supercompact and not even strong. The same is
+true for the least <a href="Huge" title="Huge">almost
+huge</a>
+cardinal, the least
+<a href="Superstrong" title="Superstrong">superstrong</a>
+cardinal, the least almost-high-jump cardinal, and the least
+Shelah-for-supercompactness cardinal.</p>
+  </li>
+</ul>
+
+<h2 id="name-origin">
+<a class="anchor" href="#name-origin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Name origin</h2>
+
+<h2 id="read-more">
+<a class="anchor" href="#read-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>Read More</h2>
+
+<ul>
+  <li>
+    <p>Norman Lewis Perlmutter, <em>The large cardinals between supercompact
+and almost-huge</em>
+<a href="http://boolesrings.org/perlmutter/files/2013/07/HighJumpForJournal.pdf" class="external autonumber">[1]</a></p>
+
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>This article is a stub. Please help us to improve Cantor's Attic by adding information.
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

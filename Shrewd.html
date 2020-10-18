@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Shrewd | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Shrewd" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Shrewd","@type":"WebPage","headline":"Shrewd","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Shrewd</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definitions">Definitions</a></li>
+<li class="toc-entry toc-h2"><a href="#properties">Properties</a></li>
+</ul><p>(All information from <a class="citation" href="#Rathjen2006">(Rathjen, 2006)</a>)</p>
+
+<p>Shrewd cardinals are a generalisation of indescribable cardinals. They
+are called shrewd because they are bigger in size than many large
+cardinals which much greater consistency strength (for all notions of
+large cardinal which do not make reference to the totality of all
+ordinals).</p>
+
+<h2 id="definitions">
+<a class="anchor" href="#definitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions</h2>
+
+<p>$κ$ — cardinal, $η&gt;0$ — ordinal, $\mathcal{A}$ — class.</p>
+
+<p>$κ$ is $η$-shrewd iff for all $X ⊆ V_κ$ and for every formula
+$\phi(x_1, x_2)$, if $V_{κ+η} \models \phi(X, κ)$, then
+$\exists_{0 &lt; κ_0, η_0 &lt; κ} V_{κ_0+η_0} \models \phi(X ∩
+V_{κ_0}, κ_0)$.</p>
+
+<p>$κ$ is shrewd iff $κ$ is $η$-shrewd for every $η &gt; 0$.</p>
+
+<p>$κ$ is $\mathcal{A}$-$η$-shrewd iff for all $X ⊆ V_κ$ and for every
+formula $\phi(x_1, x_2)$, if $\langle V_{κ+η}, \mathcal{A} ∩
+V_{κ+η} \rangle \models \phi(X, κ)$, then $\exists_{0 &lt; κ_0,
+η_0 &lt; κ} \langle V_{κ_0+η_0}, \mathcal{A} ∩ V_{κ_0+η_0}
+\rangle \models \phi(X ∩ V_{κ_0}, κ_0)$.</p>
+
+<p>$κ$ is $\mathcal{A}$-shrewd iff $κ$ is $\mathcal{A}$-$η$-shrewd for
+every $η &gt; 0$.</p>
+
+<p>One can also use a collection of formulae $\mathcal{F}$ and make
+$\phi$ an $\mathcal{F}$-formula to define $η$-$\mathcal{F}$-shrewd
+and $\mathcal{A}$-$η$-$\mathcal{F}$-shrewd cardinals.</p>
+
+<h2 id="properties">
+<a class="anchor" href="#properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>Properties</h2>
+
+<ul>
+  <li>If $κ$ is $\mathcal{A}$-$δ$-shrewd and $0 &lt; η &lt; δ$, then $κ$
+is $\mathcal{A}$-$η$-shrewd. This is a difference between the
+properties of shrewdness and indescribability.</li>
+  <li>For
+<a href="Subtle" class="mw-redirect" title="Subtle">subtle</a>
+$\pi$,
+    <ul>
+      <li>for every class $\mathcal{A}$, in every club $B ⊆ π$ there is
+$κ$ such that $\langle V_\pi, \mathcal{A} ∩ V_\pi \rangle
+\models \text{“$κ$ is $\mathcal{A}$-shrewd .”}$. (The set of
+cardinals $κ$ below $\pi$ that are $\mathcal{A}$-shrewd in
+$V_\pi$ is stationary.)</li>
+      <li>there is an $\eta$-shrewd cardinal below $\pi$ for all $\eta
+&lt; \pi$.</li>
+    </ul>
+  </li>
+</ul>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Rathjen2006">Rathjen, M. (2006). <i>The art of ordinal analysis</i>. http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

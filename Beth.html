@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The beth numbers, $\beth_\alpha$ | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="The beth numbers, $\beth_\alpha$" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Beth","@type":"WebPage","headline":"The beth numbers, $\\beth_\\alpha$","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>The beth numbers, $\beth_\alpha$</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#beth-one">Beth one</a></li>
+<li class="toc-entry toc-h2"><a href="#beth-omega">Beth omega</a></li>
+<li class="toc-entry toc-h2"><a href="#strong-limit-cardinal">Strong limit cardinal</a></li>
+<li class="toc-entry toc-h2"><a href="#beth-fixed-point">Beth fixed point</a></li>
+</ul><p>The <em>beth numbers</em> $\beth_\alpha$ are defined by transfinite
+recursion:</p>
+
+<ul>
+  <li>$\beth_0=\aleph_0$</li>
+  <li>$\beth_{\alpha+1}=2^{\beth_\alpha}$</li>
+  <li>$\beth_\lambda=\sup_{\alpha\lt\lambda}\beth_\alpha$, for
+limit ordinals $\lambda$</li>
+</ul>
+
+<p>Thus, the beth numbers are the cardinalities arising from iterating the
+power set operation. It follows by a simple recursive argument that
+$|V_{\omega+\alpha}|=\beth_\alpha$.</p>
+
+<h2 id="beth-one">
+<a class="anchor" href="#beth-one" aria-hidden="true"><span class="octicon octicon-link"></span></a>Beth one</h2>
+
+<p>The number $\beth_1$ is $2^{\aleph_0}$, the cardinality of the power
+set $P(\aleph_0)$, which is the same as the
+<a href="Continuum" title="Continuum">continuum</a>.
+The
+<a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
+is equivalent to the assertion that $\aleph_1=\beth_1$. The
+<a href="GCH" class="mw-redirect" title="GCH">generalized continuum hypothesis</a>
+is equivalent to the assertion that $\beth_\alpha=\aleph_\alpha$
+for all ordinals $\alpha$.</p>
+
+<h2 id="beth-omega">
+<a class="anchor" href="#beth-omega" aria-hidden="true"><span class="octicon octicon-link"></span></a>Beth omega</h2>
+
+<p>The cardinal $\beth_\omega$ is the smallest uncountable cardinal
+exhibiting the interesting property that whenever a set $X$ has
+cardinality less than $\beth_\omega$, then also the power set $P(X)$
+also has size less than $\beth_\omega$.</p>
+
+<h2 id="strong-limit-cardinal">
+<a class="anchor" href="#strong-limit-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strong limit cardinal</h2>
+
+<p>More generally, a cardinal $\kappa$ is a <em>strong limit cardinal</em> if
+whenever $\gamma\lt\kappa$, then $2^\gamma\lt\kappa$. Thus, the
+strong limit cardinals are those cardinals closed under the exponential
+operation. The strong limit cardinals are precisely the cardinals of the
+form $\beth_\lambda$ for a limit ordinal $\lambda$.</p>
+
+<h2 id="beth-fixed-point">
+<a class="anchor" href="#beth-fixed-point" aria-hidden="true"><span class="octicon octicon-link"></span></a>Beth fixed point</h2>
+
+<p>A cardinal $\kappa$ is a <em>$\beth$-fixed point</em> when
+$\kappa=\beth_\kappa$. Just as in the construction of
+<a href="Aleph_fixed_point" class="mw-redirect" title="Aleph fixed point">aleph fixed points</a>,
+we may similar construct beth fixed points: begin with any cardinal
+$\beta_0$ and let $\beta_{n+1}=\beth_{\beta_n}$; it follows that
+$\kappa=\sup_n\beta_n$ is a $\beth$-fixed point, since
+$\beth_\kappa=\sup_n\beth_{\beta_n}=\sup_n\beta_{n+1}=\kappa$.
+One may similarly construct $\beth$-fixed points of any desired
+cardinality, and indeed, the class of $\beth$-fixed points are
+precisely the closure points of the function
+$\alpha\mapsto\beth_\alpha$ and therefore form a closed unbounded
+proper class of cardinals. Every $\beth$-fixed point is an
+$\aleph$-fixed point as well. Since every model of ZFC satisfies the
+existence of a $\beth$-fixed point, it follows that no model of ZFC
+satisfies $\forall\alpha &gt;0(\beth_\alpha&gt;\aleph_\alpha)$.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

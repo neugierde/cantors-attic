@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Core model | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Core model" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Core_model","@type":"WebPage","headline":"Core model","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Core model</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#from-the-definition">From the definition</a></li>
+<li class="toc-entry toc-h2"><a href="#properties">Properties</a></li>
+</ul><p>Core models are inner
+<a href="Model" title="Model">models</a>.
+The first core model, Dodd-Jensen core model ($K^{DJ}$), was introduced
+in <a class="citation" href="#Dodd1981">(Dodd &amp; Jensen, 1981)</a>. The core model built
+assuming
+<a href="Zero_sword" class="mw-redirect" title="Zero sword">$¬ 0 ^{sword}$</a>
+is called <em>the core built using measures of order 0</em>
+($K^{MOZ}$).<a class="citation" href="#Sharpe2011">(Sharpe &amp; Welch, 2011)</a> The core
+model is often denoted $\mathbf{K}$.</p>
+
+<p>(Further informations from <a class="citation" href="#Dodd1981">(Dodd &amp; Jensen, 1981)</a>)</p>
+
+<h2 id="from-the-definition">
+<a class="anchor" href="#from-the-definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>From the definition</h2>
+
+<p>Definition 6.3:</p>
+
+<ul>
+  <li>$D = \{ \langle \xi, \kappa \rangle : \xi \in C_N,
+\text{$N$ is a mouse at $\kappa$}, |C_N| = \omega \}$</li>
+  <li>$D_\alpha = \{ \langle \xi, \kappa \rangle : \xi \in C_N,
+\text{$N$ is a mouse at $\kappa$}, |C_N| = \omega,
+\mathrm{Ord} \cap N &lt; \omega_\alpha \}$</li>
+  <li>$K = L[D]$ — <strong>the core model</strong>
+</li>
+  <li>$K_\alpha = |J_\alpha^D|$</li>
+</ul>
+
+<p>Definition 5.4: $N$ is a <em>mouse</em> iff $N$ is a critical premouse, $N’$ is
+iterable and for each $i \in \mathrm{Ord}$ there is $N_i$, a critical
+premouse, such that $(N_i)’ = N_i’$ where $\langle N_i’,
+\pi_{ij}’, \kappa_i \rangle$ is the iteration of $N’$, and $n(N_i)
+= n(N)$.</p>
+
+<p>Definition 5.1: Premouse $N = J_\alpha^U$ is <em>critical</em> iff
+$\mathcal{P}(\kappa) \cap \Sigma_\omega(N) \not\subseteq N$ and
+$N$ is acceptable.</p>
+
+<p>Definition 3.1: For $\kappa &lt; \alpha$, $N = J_\alpha^U$ is a
+<em>premouse</em> at $\kappa$ iff $N \models \text{“$U$ is a normal measure
+on $\kappa$”}$.</p>
+
+<p>$J_\alpha^A$ is defined using functions rudimentary in $A$
+(definitions 1.1, 1.2).</p>
+
+<h2 id="properties">
+<a class="anchor" href="#properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>Properties</h2>
+
+<p>The core model $K$ is not absolute, for example: if $0^\sharp$ does not
+exist, then $K = L$; if $0^\sharp$ exists, but $0^{\sharp\sharp}$
+does not, then $K = L[0^\sharp]$. However, $K^M = M \cap K$ for any
+inner model $M$.</p>
+
+<p>$K$ will contain “all the sharps” in the universe, but may in general be
+larger than the model obtained by iterating the $\sharp$ operation
+through the ordinals.</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Dodd1981">Dodd, A., &amp; Jensen, R. (1981). The core model. <i>Ann. Math. Logic</i>, <i>20</i>(1), 43–75. https://doi.org/10.1016/0003-4843(81)90011-5</span></li>
+<li><span id="Sharpe2011">Sharpe, I., &amp; Welch, P. (2011). Greatly Erdős cardinals with some generalizations to the Chang and Ramsey properties. <i>Ann. Pure Appl. Logic</i>, <i>162</i>(11), 863–902. https://doi.org/10.1016/j.apal.2011.04.002</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

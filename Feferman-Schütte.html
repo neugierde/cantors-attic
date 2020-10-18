@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The Feferman-Schütte ordinal, $\Gamma_0$ | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="The Feferman-Schütte ordinal, $\Gamma_0$" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Feferman-Sch%C3%BCtte","@type":"WebPage","headline":"The Feferman-Schütte ordinal, $\\Gamma_0$","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>The Feferman-Schütte ordinal, $\Gamma_0$</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#veblen-hierarchy">Veblen hierarchy</a></li>
+<li class="toc-entry toc-h2"><a href="#gamma-function">Gamma function</a></li>
+<li class="toc-entry toc-h2"><a href="#references">References</a></li>
+</ul><p>The Feferman-Schütte ordinal, denoted $\Gamma_0$ (“gamma naught”), is
+the first ordinal fixed point of the Veblen function. It figures
+prominently in the ordinal-analysis of the proof-theoretic strength of
+several mathematical theories.</p>
+
+<p>This page needs additional information.</p>
+
+<h2 id="veblen-hierarchy">
+<a class="anchor" href="#veblen-hierarchy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Veblen hierarchy</h2>
+
+<p>Every increasing continuous ordinal function $f$ has an unbounded set of
+fixed points;</p>
+
+<th>Proof</th>
+<td>When $f$ is increasing, $f(\alpha)\geq \alpha$ for all $\alpha$; when also continuous,
+<p>$$ f ( \cup_n f^n (\alpha + 1)) = \cup_n f^n (\alpha + 1) $$ is a fixed point greater than $\alpha$</p>
+</td>
+
+<p>Since the set of fixed points is an unbounded, well-ordered set, there
+is an ordinal function $\varphi^{[f]}$ listing these fixedpoints; it
+is in turn increasing and continuous. The <strong>Veblen Hierarchy</strong> is the
+sequence of functions $\varphi_\alpha$ defined by</p>
+
+<ul>
+  <li>$\varphi_0 x = \omega^x$</li>
+  <li>$\varphi_{\alpha + 1} = \varphi^{[\varphi_\alpha]}$</li>
+  <li>for $ 0 \lt \beta = \cup \beta $, $\varphi_\beta(x)$
+enumerates the fixedpoints common to all $\varphi_\alpha$ for
+$\alpha \lt \beta$</li>
+</ul>
+
+<p>(For $\alpha \lt \beta$, the fixed point sets of $\varphi_\alpha$
+are all closed sets, and so their intersection is closed; it is
+unbounded because $\cup_\alpha \varphi_\alpha(t+1)$ is a common
+fixed point greater than $t$)</p>
+
+<p>In particular the function \(\varphi_1\) enumerates epsilon numbers
+i.e. \(\varphi_1(\alpha)=\varepsilon_\alpha\)</p>
+
+<p>The Veblen functions have the following properties:</p>
+
+<ul>
+  <li>if \(\beta&lt;\gamma\) then
+\(\varphi_\alpha(\beta)&lt;\varphi_\alpha(\gamma)\)</li>
+  <li>if \(\alpha&lt;\beta\) then
+\(\varphi_\alpha(0)&lt;\varphi_\beta(0)\)</li>
+  <li>if \(\alpha&gt;\gamma\) then
+\(\varphi_\alpha(\beta)=\varphi_\gamma(\varphi_\alpha(\beta))\)</li>
+  <li>\(\varphi_\alpha(\beta)\) is an additive principal number.</li>
+</ul>
+
+<p>An ordinal \(\alpha\) is an additive principal number if
+\(\alpha&gt;0\) and \(\alpha&gt;\delta+\eta\) for all
+\(\delta, \eta&lt;\alpha\). Let \(P\) denote the set of all
+additive principal numbers.</p>
+
+<p>We define the normal form for ordinals \(\alpha\) such that
+\(0&lt;\alpha&lt;\Gamma_0=\min\{\beta|\varphi(\beta,0)=\beta\}\)</p>
+
+<ul>
+  <li>\(\alpha=_{NF}\varphi_\beta(\gamma)\) if and only if
+\(\alpha=\varphi_\beta(\gamma)\) and
+\(\beta,\gamma&lt;\alpha\)</li>
+  <li>\(\alpha=_{NF}\alpha_1+\alpha_2+\cdots+\alpha_n\) if and
+only if \(\alpha=\alpha_1+\alpha_2+\cdots+\alpha_n\) and
+\(\alpha&gt;\alpha_1\geq\alpha_2\geq\cdots\geq\alpha_n\)
+and \(\alpha_1,\alpha_2,…,\alpha_n\in P\)</li>
+</ul>
+
+<p>Let \(T\) denote the set of all ordinals which can be generated from
+the ordinal number 0 using the Veblen functions and the operation of
+addition</p>
+
+<ul>
+  <li>\(0 \in T\)</li>
+  <li>if \(\alpha=_{NF}\varphi_\beta(\gamma)\) and
+\(\beta,\gamma \in T\) then \(\alpha\in T\)</li>
+  <li>if \(\alpha=_{NF}\alpha_1+\alpha_2+\cdots+\alpha_n\) and
+\(\alpha_1,\alpha_2,…,\alpha_n\in T\) then \(\alpha\in
+T\)</li>
+</ul>
+
+<p>For each limit ordinal number \(\alpha\in T\) we assign a
+fundamental sequence i.e. a strictly increasing sequence
+\((\alpha[n])_{n&lt;\omega}\) such that the limit of the sequence
+is the ordinal number \(\alpha\)</p>
+
+<ul>
+  <li>if \(\alpha=\alpha_1+\alpha_2+\cdots+\alpha_k\) then
+\(\alpha[n]=\alpha_1+\alpha_2+\cdots+(\alpha_k[n])\)</li>
+  <li>if \(\alpha=\varphi_0(\beta+1)\) then
+\(\alpha[n]=\varphi_0(\beta)\times n\)</li>
+  <li>if \(\alpha=\varphi_{\beta+1}(0)\) then \(\alpha[0]=0\)
+and \(\alpha[n+1]=\varphi_\beta(\alpha[n])\)</li>
+  <li>if \(\alpha=\varphi_{\beta+1}(\gamma+1)\) then
+\(\alpha[0]=\varphi_{\beta+1}(\gamma)+1\) and
+\(\alpha[n+1]=\varphi_\beta(\alpha[n])\)</li>
+  <li>if \(\alpha=\varphi_{\beta}(\gamma)\) and \(\gamma\) is a
+limit ordinal then
+\(\alpha[n]=\varphi_{\beta}(\gamma[n])\)</li>
+  <li>if \(\alpha=\varphi_{\beta}(0)\) and \(\beta\) is a limit
+ordinal then \(\alpha[n]=\varphi_{\beta[n]}(0)\)</li>
+  <li>if \(\alpha=\varphi_{\beta}(\gamma+1)\) and \(\beta\) is a
+limit ordinal then
+\(\alpha[n]=\varphi_{\beta[n]}(\varphi_{\beta}(\gamma)+1)\)</li>
+</ul>
+
+<p>The Feferman-Schütte ordinal, \(\Gamma_0\) is the least ordinal not
+in \(T\).</p>
+
+<h2 id="gamma-function">
+<a class="anchor" href="#gamma-function" aria-hidden="true"><span class="octicon octicon-link"></span></a>Gamma function</h2>
+
+<p>The Gamma function is a function enumerating ordinal numbers
+\(\alpha\) such that \(\varphi(\alpha,0)=\alpha\)</p>
+
+<ul>
+  <li>if \(\alpha=\Gamma_0\) then \(\alpha[0]=0\) and
+\(\alpha[n+1]=\varphi(\alpha[n],0)\)</li>
+  <li>if \(\alpha=\Gamma_{\beta+1}\) then
+\(\alpha[0]=\Gamma_{\beta}+1\) and
+\(\alpha[n+1]=\varphi(\alpha[n],0)\)</li>
+  <li>if \(\alpha=\Gamma_{\beta}\) and \(\beta\) is a limit
+ordinal then \(\alpha[n]=\Gamma_{\beta[n]}\)</li>
+</ul>
+
+<h2 id="references">
+<a class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p>Oswald Veblen. Continuous Increasing Functions of Finite and Transfinite
+Ordinals. Transactions of the American Mathematical Society (1908) Vol.
+9, pp.280–292</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

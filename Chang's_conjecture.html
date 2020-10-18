@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Chang’s conjecture | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Chang’s conjecture" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Chang's_conjecture","@type":"WebPage","headline":"Chang’s conjecture","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Chang's conjecture</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definition">Definition</a></li>
+<li class="toc-entry toc-h2"><a href="#variants">Variants</a></li>
+</ul><p>Chang’s conjecture is a model theoretic assertion which implies many
+structures of a certain variety have elementary substructures of another
+variety. Chang’s conjecture was originally formulated in 1963 by Chen
+Chung Chang and Vaught.</p>
+
+<p>Chang’s conjecture is equiconsistent over $\text{ZFC}$ to the existence
+of the
+<a href="Erdos" title="Erdos">$\omega_1$-Erdős</a>
+cardinal. In particular, if you collapse an $\omega_1$-Erdős cardinal
+to $\omega_2$ with the Silver collapse, then in the resulting model
+Chang’s conjecture holds. On the other hand, if Chang’s conjecture is
+true, then $\omega_2$ is $\omega_1$-Erdős in a transitive inner
+model of $\text{ZFC}$.
+<a class="citation" href="#Donder1989">(Donder &amp; Levinski, 1989)</a></p>
+
+<p>Chang’s conjecture implies $0^{\#}$ exists.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<h2 id="definition">
+<a class="anchor" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h2>
+
+<p>The notation $(\kappa,\lambda)\twoheadrightarrow(\nu,\mu)$ is the
+assertion that every structure $\mathfrak{A}=(A;R^A…)$ with a
+countable language such that $|A|=\kappa$ and $|R^A|=\lambda$ has
+a <a href="Elementary_embedding" title="Elementary embedding">proper elementary
+substructure</a>
+$\mathfrak{B}=(B;R^B…)$ with $|B|=\nu$ and $|R^B|=\mu$.</p>
+
+<p>This notation is somewhat intertwined with the <a href="Partition_property" title="Partition property">square bracket partition
+properties</a>.
+Namely, letting $\kappa\geq\lambda$ and
+$\kappa\geq\mu\geq\nu&gt;\omega$, the partition property
+$\kappa\rightarrow[\mu]^{&lt;\omega}_{\lambda,&lt;\nu}$ is
+equivalent to the existence of some $\rho&lt;\nu$ such that
+$(\kappa,\lambda)\twoheadrightarrow(\mu,\rho)$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<p>As a result, some large cardinal axioms and partition properties can be
+described with this notation. In particular:</p>
+
+<ul>
+  <li>$\kappa$ is
+<a href="Rowbottom" title="Rowbottom">Rowbottom</a>
+if and only if $\kappa&gt;\aleph_1$ and for any uncountable
+$\lambda&lt;\kappa$,
+$(\kappa,\lambda)\twoheadrightarrow(\kappa,\aleph_0)$.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+  <li>$\kappa$ is
+<a href="Jonsson" title="Jonsson">Jónsson</a>
+if and only if for any $\lambda\leq\kappa$, there is some
+$\nu\leq\kappa$ such that
+$(\kappa,\lambda)\twoheadrightarrow(\kappa,\nu)$.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+</ul>
+
+<p><strong>Chang’s conjecture</strong> is precisely
+$(\aleph_2,\aleph_1)\twoheadrightarrow(\aleph_1,\aleph_0)$.
+Chang’s conjecture is equivalent to the <a href="Partition_property" title="Partition property">partition
+property</a>
+$\omega_2\rightarrow[\omega_1]_{\aleph_1,&lt;\aleph_1}^{&lt;\omega}$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<h2 id="variants">
+<a class="anchor" href="#variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variants</h2>
+
+<p>There are many stronger variants of Chang’s conjecture. Here are a few
+and their upper bounds for consistency strength (all can be found in
+<a class="citation" href="#Eskrew2016">(Eskrew &amp; Hayut, 2016)</a>):</p>
+
+<ul>
+  <li>Assuming the consistency of a $\kappa$ which is
+<a href="Supercompact" title="Supercompact">$\kappa^{++}$-supercompact</a>,
+it is consistent that there is a proper class of cardinals
+$\lambda$ such that
+$(\lambda^{+++},\lambda^{++})\twoheadrightarrow(\lambda^+,\lambda)$.</li>
+  <li>Assuming the consistency of a $\kappa$ which is
+<a href="Supercompact" title="Supercompact">$\kappa^{++}$-supercompact</a>,
+it is consistent that there is a proper class of cardinals $\kappa$
+such that
+$(\lambda^{+\omega+2},\lambda^{+\omega+1})\twoheadrightarrow(\lambda^+,\lambda)$.</li>
+  <li>Assuming the consistency of a cardinal $\kappa$ which is
+<a href="Supercompact" title="Supercompact">$\kappa^{+\omega+1}$-supercompact</a>,
+it is consistent that
+$(\aleph_{\omega+1},\aleph_\omega)\twoheadrightarrow(\aleph_1,\aleph_0)$.</li>
+  <li>Assuming the consistency of a
+<a href="Huge" title="Huge">huge</a>
+cardinal, it is consistent that
+$(\kappa^{++},\kappa^+)\twoheadrightarrow(\mu^+,\mu)$ for every
+$\kappa$ and $\mu&lt;\kappa^+$.</li>
+  <li>It is unknown whether or not it is consistent that
+$(\aleph_{\omega_1+1},\aleph_{\omega_1})\twoheadrightarrow(\aleph_{\omega+1},\aleph_\omega)$.</li>
+</ul>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Donder1989">Donder, H.-D., &amp; Levinski, J.-P. (1989). Some principles related to Changś conjecture. <i>Annals of Pure and Applied Logic</i>. https://doi.org/10.1016/0168-0072(89)90030-4</span></li>
+<li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li>
+<li><span id="Eskrew2016">Eskrew, M., &amp; Hayut, Y. (2016). <i>On the consistency of local and global versions of Changś Conjecture</i>.</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

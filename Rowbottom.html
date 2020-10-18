@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Rowbottom cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Rowbottom cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Rowbottom","@type":"WebPage","headline":"Rowbottom cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Rowbottom cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definition">Definition</a></li>
+<li class="toc-entry toc-h2"><a href="#facts">Facts</a></li>
+</ul><p>Rowbottom cardinals were discovered by Frederick Rowbottom in 1971 as a
+strong <a href="Upper_attic" title="Upper attic">large cardinal
+axiom</a>
+which implies the existence and consistency of
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{#}$</a>.
+In terms of consistency strength,
+<a href="ZFC" title="ZFC">ZFC</a> +
+Rowbottom is equiconsistent to ZFC +
+<a href="Jonsson" title="Jonsson">Jónsson</a>,
+ZFC + Rowbottom is equiconsistent to ZFC +
+<a href="Ramsey" title="Ramsey">Ramsey</a>,
+and ZFC + Rowbottom is stronger than ZFC + $0^{\#}$. Every Rowbottom
+cardinal is Jónsson, and every Ramsey cardinal is Rowbottom.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<h2 id="definition">
+<a class="anchor" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h2>
+
+<p>Rowbottom cardinals are defined with a <a href="Partition_property" title="Partition property">partition
+property</a>:</p>
+
+<ul>
+  <li>$\kappa$ is <em>$\nu$-Rowbottom</em> iff $\kappa\rightarrow
+[\kappa]^{&lt;\omega}_{\lambda,&lt;\nu}$ for every
+$\lambda&lt;\kappa$. This means that for any partition (function)
+$f:[\kappa]^{&lt;\omega}\rightarrow\lambda$, there is some set
+of ordinals $H\subseteq\kappa$ such that $(H,&lt;)$ has order type
+$\kappa$ and $|f”[H]^{&lt;\omega}|&lt;\nu$.</li>
+  <li>$\kappa$ is <em>Rowbottom</em> iff it is $\omega_1$-Rowbottom.</li>
+</ul>
+
+<p>Equivalently, $\kappa$ is Rowbottom if and only if
+$\kappa&gt;\aleph_1$ and $\kappa$ satisfies a strong generalization
+of <a href="Chang%27s_conjecture" title="Chang's conjecture">Chang’s
+conjecture</a>,
+namely, any model of type $(\kappa,\lambda)$ for some uncountable
+$\lambda&lt;\kappa$ has a proper elementary substructure of type
+$(\kappa,\aleph_0)$. <a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p>Rowbottom cardinals are not necessarily “large”. In fact, the
+<a href="Axiom_of_Determinacy" class="mw-redirect" title="Axiom of Determinacy">Axiom of Determinacy</a>
+implies $\aleph_\omega$ is Rowbottom, and it is widely considered
+consistent for $\aleph_\omega$ to be Rowbottom even under the
+<a href="Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">Axiom of Choice</a>.
+If it is consistent for $\aleph_\omega$ to be Rowbottom, it is
+consistent for $\aleph_{\omega^2}$ to be the least Rowbottom
+cardinal. <a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<h2 id="facts">
+<a class="anchor" href="#facts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Facts</h2>
+
+<ul>
+  <li>If a Rowbottom exists, then
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{#}$</a>
+exists and is consistent.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>Every Rowbottom cardinal is Jónsson.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>Every Rowbottom cardinal $\kappa$ either has cofinality $\omega$
+or is weakly inaccessible.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>Every $\nu$-Rowbottom cardinal either has cofinality less than
+$\nu$ or is <a href="Inaccessible" title="Inaccessible">weakly
+inaccessible</a>
+(and thus if a $\nu$-Rowbottom cardinal $\kappa$ has cofinality
+$\nu$, then $\nu=\kappa$ and $\kappa$ is $\kappa$-Rowbottom.)
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>Any singular limit $\kappa$ of
+<a href="Measurable" title="Measurable">measurable</a>
+cardinals is $\mathrm{cf}(\kappa)^+$-Rowbottom.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>If $\kappa=2^{&lt;\nu}$ is a regular $\nu$-Rowbottom cardinal,
+then for any $\nu\leq\lambda&lt;\kappa$, $2^\lambda=\kappa$.
+Thus, if the first condition holds for $\kappa$ and $\nu$ but
+$\nu &lt; \kappa$, then
+<a href="GCH" class="mw-redirect" title="GCH">GCH</a>
+fails at every cardinal $\lambda\in[\nu,\kappa)$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>If $\kappa$ is $\nu$-Rowbottom and there is a limit cardinal
+$\lambda$ such that $\nu\leq\lambda&lt;\kappa$, then $\kappa$
+is a limit of limit cardinals (i.e. $\aleph_{\alpha^\beta}$ for
+some ordinals $\alpha$ and $\beta$).
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+</ul>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

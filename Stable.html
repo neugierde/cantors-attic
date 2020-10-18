@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Stable | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Stable" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Stable","@type":"WebPage","headline":"Stable","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Stable</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definition-and-variants">Definition and Variants</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#variants">Variants</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#properties">Properties</a></li>
+</ul><p>Stability was developed as a large countable ordinal property in order
+to try to generalize the different strengthened variants of
+<a href="Admissible" title="Admissible">admissibility</a>.
+More specifically, they capture the various assertions that
+$L_\alpha\models\text{KP}+A$ for different axioms $A$ by saying that
+$L_\alpha\models\text{KP}+A$ for many axioms $A$. One could also
+argue that stability is a weakening of
+<a href="Reflecting" title="Reflecting">$\Sigma_1$-correctness</a>
+(which is trivial) to a nontrivial form.</p>
+
+<h2 id="definition-and-variants">
+<a class="anchor" href="#definition-and-variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition and Variants</h2>
+
+<p>Stability is defined using a reflection principle. A countable ordinal
+$\alpha$ is called <strong>stable</strong> iff $L_\alpha\prec_{\Sigma_1}L$;
+equivalently, $L_\alpha\prec_{\Sigma_1}L_{\omega_1}$.
+<a class="citation" href="#Madore2017">(Madore, 2017)</a></p>
+
+<h3 id="variants">
+<a class="anchor" href="#variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variants</h3>
+
+<p>There are quite a few (weakened) variants of
+stability:<a class="citation" href="#Madore2017">(Madore, 2017)</a></p>
+
+<ul>
+  <li>A countable ordinal $\alpha$ is called <strong>$(+\beta)$-stable</strong> iff
+$L_\alpha\prec_{\Sigma_1}L_{\alpha+\beta}$.</li>
+  <li>A countable ordinal $\alpha$ is called <strong>$({}^+)$-stable</strong> iff
+$L_\alpha\prec_{\Sigma_1}L_{\beta}$ where $\beta$ is the
+least
+<a href="Admissible" title="Admissible">admissible</a>
+ordinal larger than $\alpha$.</li>
+  <li>A countable ordinal $\alpha$ is called <strong>$({}^{++})$-stable</strong> iff
+$L_\alpha\prec_{\Sigma_1}L_{\beta}$ where $\beta$ is the
+least admissible ordinal larger than an admissible ordinal larger
+than $\alpha$.</li>
+  <li>A countable ordinal $\alpha$ is called <strong>inaccessibly-stable</strong> iff
+$L_\alpha\prec_{\Sigma_1}L_{\beta}$ where $\beta$ is the
+least <a href="Admissible" title="Admissible">computably
+inaccessible</a>
+ordinal larger than $\alpha$.</li>
+  <li>A countable ordinal $\alpha$ is called <strong>Mahlo-stable</strong> iff
+$L_\alpha\prec_{\Sigma_1}L_{\beta}$ where $\beta$ is the
+least <a href="Admissible" title="Admissible">computably
+Mahlo</a>
+ordinal larger than $\alpha$; that is, the least $\beta$ such that
+any $\beta$-recursive function $f:\beta\rightarrow\beta$ has an
+admissible $\gamma&lt;\beta$ which is closed under $f$.</li>
+  <li>A countable ordinal $\alpha$ is called <strong>doubly $(+1)$-stable</strong> iff
+there is a $(+1)$-stable ordinal $\beta&gt;\alpha$ such that
+$L_\alpha\prec_{\Sigma_1}L_\beta$.</li>
+  <li>A countable ordinal $\alpha$ is called <strong>nonprojectible</strong> iff the
+set of all $\beta&lt;\alpha$ such that
+$L_\beta\prec_{\Sigma_1}L_\alpha$ is unbounded in $\alpha$.</li>
+</ul>
+
+<h2 id="properties">
+<a class="anchor" href="#properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>Properties</h2>
+
+<p>Any $L$-stable ordinal is stable. This is because
+$L_\alpha^L=L_\alpha$ and $L^L=L$.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a> Any $L$-countable stable ordinal is
+$L$-stable for the same reason. Therefore, an ordinal is $L$-stable iff
+it is $L$-countable and stable. This property is the same for all
+variants of stability.</p>
+
+<p>The smallest stable ordinal is also the smallest ordinal $\alpha$ such
+that $L_\alpha\models\text{KP}+\Sigma_2^1\text{-reflection}$,
+which in turn is the smallest ordinal which is not the order-type of any
+$\Delta_2^1$-ordering of the natural numbers. The smallest stable
+ordinal $\sigma$ has the property that any $\Sigma_1(L_\sigma)$
+subset of $\omega$ is $\omega$-finite.
+<a class="citation" href="#Madore2017">(Madore, 2017)</a></p>
+
+<p>If there is an ordinal $\eta$ such that $L_\eta\models\text{ZFC}$
+(i.e. the minimal height of a
+<a href="Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">transitive model of $\text{ZFC}$</a>)
+then it is smaller than the least stable ordinal. On the other hand, the
+sizes of the least $(+1)$-stable ordinal and the least nonprojectible
+ordinal lie between the least recursively weakly compact and the least
+$Σ_2$-admissible (the same for other weakened variants of stability
+defined above). <a class="citation" href="#Madore2017">(Madore, 2017)</a></p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Madore2017">Madore, D. (2017). <i>A zoo of ordinals</i>. http://www.madore.org/ david/math/ordinal-zoo.pdf</span></li>
+<li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

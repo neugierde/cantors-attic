@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Hardy hierarchy | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Hardy hierarchy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Hardy_hierarchy","@type":"WebPage","headline":"Hardy hierarchy","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Hardy hierarchy</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#see-also">See also</a></li>
+<li class="toc-entry toc-h2"><a href="#references">References</a></li>
+</ul><p>The Hardy hierarchy, named after G. H. Hardy, is a family of functions
+\((H_\alpha:\mathbb N\rightarrow\mathbb N)_{\alpha&lt;\mu}\)
+where \(\mu\) is a large countable ordinal such that a fundamental
+sequence is assigned for each limit ordinal less than \(\mu\). The
+Hardy hierarchy is defined as follows:</p>
+
+<ul>
+  <li>\(H_0(n)=n\)</li>
+  <li>\(H_{\alpha+1}(n)=H_\alpha(n+1)\)</li>
+  <li>\(H_\alpha(n)=H_{\alpha[n]}(n)\) if and only if
+\(\alpha\) is a limit ordinal,</li>
+</ul>
+
+<p>where \(\alpha[n]\) denotes the \(n\)th element of the
+fundamental sequence assigned to the limit ordinal \(\alpha\)</p>
+
+<p>Every nonzero ordinal
+\(\alpha&lt;\varepsilon_0=\min\{\beta|\beta=\omega^\beta\}\)
+can be represented in a unique Cantor normal form
+\(\alpha=\omega^{\beta_{1}}+
+\omega^{\beta_{2}}+\cdots+\omega^{\beta_{k-1}}+\omega^{\beta_{k}}\)
+where
+\(\alpha&gt;\beta_1\geq\beta_2\geq\cdots\geq\beta_{k-1}\geq\beta_k\).</p>
+
+<p>If \(\beta_k&gt;0\) then \(\alpha\) is a limit and we can assign
+to it a fundamental sequence as follows</p>
+
+<p>\(\alpha[n]=\omega^{\beta_{1}}+
+\omega^{\beta_{2}}+\cdots+\omega^{\beta_{k-1}}+\left\{\begin{array}{lcr}
+\omega^\gamma n \text{ if } \beta_k=\gamma+1\<br>
+\omega^{\beta_k[n]} \text{ if } \beta_k \text{ is a limit.}\<br>
+\end{array}\right.\)</p>
+
+<p>If \(\alpha=\varepsilon_0\) then \(\alpha[0]=0\) and
+\(\alpha[n+1]=\omega^{\alpha[n]}\).</p>
+
+<p>Using this system of fundamental sequences we can define the Hardy
+hierarchy up to \(\varepsilon_0\).</p>
+
+<p>For \(\alpha&lt;\varepsilon_0\) the Hardy Hierarchy relates to the
+<a href="Fast-growing_hierarchy" title="Fast-growing hierarchy">fast-growing
+hierarchy</a>
+as follows</p>
+
+<p>\(H_{\omega^\alpha}(n)=f_\alpha(n)\)</p>
+
+<p>and at \(\varepsilon_0\) the Hardy hierarchy “catches up” to the
+fast-growing hierarchy i.e.</p>
+
+<p>\(f_{\varepsilon_0}(n-1) ≤ H_{\varepsilon_0}(n) ≤
+f_{\varepsilon_0}(n+1)\) for all \(n ≥ 1\).</p>
+
+<p>There are much stronger systems of fundamental sequences you can see on
+the following pages:</p>
+
+<ul>
+  <li><a href="http://googology.wikia.com/wiki/List_of_systems_of_fundamental_sequences" class="external text">List of systems of fundamental sequences</a></li>
+  <li><a href="Madore%27s_%CF%88_function" title="Madore's ψ function">Madore’s ψ
+function</a></li>
+  <li><a href="Buchholz%27s_%CF%88_functions" title="Buchholz's ψ functions">Buchholz’s ψ
+functions</a></li>
+  <li><a href="J%C3%A4ger%27s_collapsing_functions_and_%CF%81-inaccessible_ordinals" title="Jäger's collapsing functions and ρ-inaccessible ordinals">Jäger’s ψ
+functions</a></li>
+  <li><a href="User_blog:Denis_Maksudov/Ordinal_functions_collapsing_the_least_weakly_Mahlo_cardinal;_a_system_of_fundamental_sequences" title="User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences">Collapsing functions based on a weakly Mahlo
+cardinal</a></li>
+</ul>
+
+<p>The Hardy hierarchy has the following property
+\(H_{\alpha+\beta}(n)=H_\alpha(H_\beta(n))\).</p>
+
+<h2 id="see-also">
+<a class="anchor" href="#see-also" aria-hidden="true"><span class="octicon octicon-link"></span></a>See also</h2>
+
+<p><a href="Fast-growing_hierarchy" title="Fast-growing hierarchy">Fast-growing
+hierarchy</a></p>
+
+<p><a href="Slow-growing_hierarchy" title="Slow-growing hierarchy">Slow-growing
+hierarchy</a></p>
+
+<h2 id="references">
+<a class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p>Hardy,G.H. A theorem concerning the infinite cardinal numbers. Quarterly
+Journal of Mathematics (1904) vol.35 pp.87–94</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

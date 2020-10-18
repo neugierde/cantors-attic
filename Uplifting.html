@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Uplifting cardinals | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Uplifting cardinals" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Uplifting","@type":"WebPage","headline":"Uplifting cardinals","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Uplifting cardinals</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#consistency-strength-of-uplifting-cardinals">Consistency strength of uplifting cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#uplifting-cardinals-and-sigma_3-reflection">Uplifting cardinals and $\Sigma_3$-reflection</a></li>
+<li class="toc-entry toc-h2"><a href="#uplifting-laver-functions">Uplifting Laver functions</a></li>
+<li class="toc-entry toc-h2"><a href="#connection-with-the-resurrection-axioms">Connection with the resurrection axioms</a></li>
+<li class="toc-entry toc-h2"><a href="#strongly-uplifting">Strongly Uplifting</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#definitions">Definitions</a></li>
+<li class="toc-entry toc-h3"><a href="#equivalence">Equivalence</a></li>
+<li class="toc-entry toc-h3"><a href="#relations-to-other-cardinals">Relations to other cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#relation-to-boldface-resurrection-axiom">Relation to boldface resurrection axiom</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#weakly-superstrong-cardinal">Weakly superstrong cardinal</a></li>
+</ul><p>Uplifting cardinals were introduced by Hamkins and Johnstone in
+<a class="citation" href="#Hamkins2014">(Hamkins &amp; Johnstone, 2014)</a>, from which some of
+this text is adapted.</p>
+
+<p>An
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+cardinal $\kappa$ is <strong>uplifting</strong> if and only if for every ordinal
+$\theta$ it is <strong>$\theta$-uplifting</strong>, meaning that there is an
+inaccessible $\gamma&gt;\theta$ such that $V_\kappa\prec
+V_\gamma$ is a proper elementary extension.</p>
+
+<p>An inaccessible cardinal is <strong>pseudo uplifting</strong> if and only if for
+every ordinal $\theta$ it is <strong>pseudo $\theta$-uplifting</strong>, meaning
+that there is a cardinal $\gamma&gt;\theta$ such that
+$V_\kappa\prec V_\gamma$ is a proper elementary extension, without
+insisting that $\gamma$ is inaccessible.</p>
+
+<p>Being <strong>strongly uplifting</strong> (see further) is boldface variant of being
+uplifting.</p>
+
+<p>It is an elementary exercise to see that if $V_\kappa\prec
+V_\gamma$ is a proper elementary extension, then $\kappa$ and hence
+also $\gamma$ are
+<a href="Beth_fixed_point" class="mw-redirect" title="Beth fixed point">$\beth$-fixed points</a>,
+and so $V_\kappa=H_\kappa$ and $V_\gamma=H_\gamma$. It follows
+that a cardinal $\kappa$ is uplifting if and only if it is regular and
+there are arbitrarily large regular cardinals $\gamma$ such that
+$H_\kappa\prec H_\gamma$. It is also easy to see that every
+uplifting cardinal $\kappa$ is uplifting in $L$, with the same targets.
+Namely, if $V_\kappa\prec V_\gamma$, then we may simply restrict to
+the constructible sets to obtain $V_\kappa^L=L^{V_\kappa}\prec
+L^{V_\gamma}=V_\gamma^L$. An analogous result holds for
+pseudo-uplifting cardinals.</p>
+
+<h2 id="consistency-strength-of-uplifting-cardinals">
+<a class="anchor" href="#consistency-strength-of-uplifting-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Consistency strength of uplifting cardinals</h2>
+
+<p>The consistency strength of uplifting and pseudo-uplifting cardinals are
+bounded between the existence of a
+<a href="Mahlo" title="Mahlo">Mahlo</a>
+cardinal and the hypothesis
+<a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.</p>
+
+<p><strong>Theorem.</strong></p>
+
+<p>1. If $\delta$ is a
+<a href="Mahlo" title="Mahlo">Mahlo</a>
+cardinal, then $V_\delta$ has a proper class of uplifting cardinals.</p>
+
+<p>2. Every uplifting cardinal is pseudo uplifting and a limit of pseudo
+uplifting cardinals.</p>
+
+<p>3. If there is a pseudo uplifting cardinal, or indeed, merely a pseudo
+$0$-uplifting cardinal, then there is a transitive set model of ZFC with
+a
+<a href="Reflecting" title="Reflecting">reflecting</a>
+cardinal and consequently also a transitive model of ZFC plus
+<a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.</p>
+
+<p>Proof. For (1), suppose that $\delta$ is a Mahlo cardinal. By the
+Lowenheim-Skolem theorem, there is a club set $C\subset\delta$ of
+cardinals $\beta$ with $V_\beta\prec V_\delta$. Since $\delta$ is
+Mahlo, the club $C$ contains unboundedly many inaccessible cardinals. If
+$\kappa&lt;\gamma$ are both in $C$, then $V_\kappa\prec
+V_\gamma$, as desired. Similarly, for (2), if $\kappa$ is uplifting,
+then $\kappa$ is pseudo uplifting and if $V_\kappa\prec V_\gamma$
+with $\gamma$ inaccessible, then there are unboundedly many ordinals
+$\beta&lt;\gamma$ with $V_\beta\prec V_\gamma$ and hence
+$V_\kappa\prec V_\beta$. So $\kappa$ is pseudo uplifting in
+$V_\gamma$. From this, it follows that there must be unboundedly many
+pseudo uplifting cardinals below $\kappa$. For (3), if $\kappa$ is
+inaccessible and $V_\kappa\prec V_\gamma$, then $V_\gamma$ is a
+transitive set model of ZFC in which $\kappa$ is reflecting, and it is
+thus also a model of
+<a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.
+QED</p>
+
+<h2 id="uplifting-cardinals-and-sigma_3-reflection">
+<a class="anchor" href="#uplifting-cardinals-and-sigma_3-reflection" aria-hidden="true"><span class="octicon octicon-link"></span></a>Uplifting cardinals and $\Sigma_3$-reflection</h2>
+
+<ul>
+  <li>Every uplifting cardinal is a limit of $\Sigma_3$-reflecting
+cardinals, and is itself $\Sigma_3$-reflecting.</li>
+  <li>If $\kappa$ is the least uplifting cardinal, then $\kappa$ is not
+$\Sigma_4$-reflecting, and there are no $\Sigma_4$-reflecting
+cardinals below $\kappa$.</li>
+</ul>
+
+<p>The analogous observation for pseudo uplifting cardinals holds as well,
+namely, every pseudo uplifting cardinal is $\Sigma_3$-reflecting and a
+limit of $\Sigma_3$-reflecting cardinals; and if $\kappa$ is the
+least pseudo uplifting cardinal, then $\kappa$ is not
+$\Sigma_4$-reflecting, and there are no $\Sigma_4$-reflecting
+cardinals below $\kappa$.</p>
+
+<h2 id="uplifting-laver-functions">
+<a class="anchor" href="#uplifting-laver-functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Uplifting Laver functions</h2>
+
+<p>Every uplifting cardinal admits an ordinal-anticipating Laver function,
+and indeed, a HOD-anticipating Laver function, a function
+$\ell:\kappa\to V_\kappa$, definable in $V_\kappa$, such that for
+any set $x\in\text{HOD}$ and $\theta$, there is an inaccessible
+cardinal $\gamma$ above $\theta$ such that $V_\kappa\prec
+V_\gamma$, for which $\ell^*(\kappa)=x$, where $\ell^*$ is the
+corresponding function defined in $V_\gamma$.</p>
+
+<h2 id="connection-with-the-resurrection-axioms">
+<a class="anchor" href="#connection-with-the-resurrection-axioms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Connection with the resurrection axioms</h2>
+
+<p>Many instances of the (weak) resurrection axiom imply that ${\frak
+c}^V$ is an uplifting cardinal in $L$:</p>
+
+<ul>
+  <li>RA(all) implies that ${\frak c}^V$ is uplifting in $L$.</li>
+  <li>RA(ccc) implies that ${\frak c}^V$ is uplifting in $L$.</li>
+  <li>wRA(countably closed)+$\neg$CH implies that ${\frak c}^V$ is
+uplifting in $L$.</li>
+  <li>Under $\neg$CH, the weak resurrection axioms for the classes of
+axiom-A forcing, proper forcing, semi-proper forcing, and posets
+that preserve stationary subsets of $\omega_1$, respectively, each
+imply that ${\frak c}^V$ is uplifting in $L$.</li>
+</ul>
+
+<p>Conversely, if $\kappa$ is uplifting, then various resurrection axioms
+hold in a corresponding lottery-iteration forcing extension.</p>
+
+<p><strong>Theorem.</strong> (Hamkins and Johnstone) The following theories are
+equiconsistent over ZFC:</p>
+
+<ul>
+  <li>There is an uplifting cardinal.</li>
+  <li>RA(all)</li>
+  <li>RA(ccc)</li>
+  <li>RA(semiproper)+$\neg$CH</li>
+  <li>RA(proper)+$\neg$CH</li>
+  <li>for some countable ordinal $\alpha$, RA($\alpha$-proper)+$\neg$CH</li>
+  <li>RA(axiom-A)+$\neg$CH</li>
+  <li>wRA(semiproper)+$\neg$CH</li>
+  <li>wRA(proper)+$\neg$CH</li>
+  <li>for some countable ordinal $\alpha$,
+wRA($\alpha$-proper})+$\neg$CH</li>
+  <li>wRA(axiom-A)+$\neg$CH</li>
+  <li>wRA(countably closed)+$\neg$CH</li>
+</ul>
+
+<h2 id="strongly-uplifting">
+<a class="anchor" href="#strongly-uplifting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strongly Uplifting</h2>
+
+<p>(Information in this section comes from
+<a class="citation" href="#Hamkins2014a">(Hamkins &amp; Johnstone, 2014)</a>)</p>
+
+<p>Strongly uplifting cardinals are precisely strongly pseudo uplifting
+ordinals, strongly uplifting cardinals with weakly compact targets,
+superstrongly
+<a href="Unfoldable" title="Unfoldable">unfoldable</a>
+cardinals and almost-hugely unfoldable cardinals.</p>
+
+<h3 id="definitions">
+<a class="anchor" href="#definitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions</h3>
+
+<p>An ordinal is <strong>strongly pseudo uplifting</strong> iff for every ordinal $θ$ it
+is <strong>strongly $θ$-uplifting</strong>, meaning that for every $A⊆V_κ$, there
+exists some ordinal $λ&gt;θ$ and an $A^*⊆V_λ$ such that
+$(V_κ;∈,A)≺(V_λ;∈,A^*)$ is a proper elementary extension.</p>
+
+<p>An inaccessible cardinal is <strong>strongly uplifting</strong> iff for every ordinal
+$θ$ it is <strong>strongly $θ$-uplifting</strong>, meaning that for every $A⊆V_κ$,
+there exists some inaccessible(*) $λ&gt;θ$ and an $A^*⊆V_λ$ such that
+$(V_κ;∈,A)≺(V_λ;∈,A^*)$ is a proper elementary extension. By
+replacing starred “inaccessible” with “weakly compact” and other
+properties, we get strongly uplifting with weakly compact etc. targets.</p>
+
+<p>A cardinal $\kappa$ is <strong>$\theta$-superstrongly unfoldable</strong> iff for
+every $A\subseteq\kappa$, there is some transitive $M$ with $A\in
+M\models\text{ZFC}$ and some $j:M\rightarrow N$ an elementary
+embedding with critical point $\kappa$ such that
+$j(\kappa)\geq\theta$ and $V_{j(\kappa)}\subseteq N$.</p>
+
+<p>A cardinal $\kappa$ is <strong>$\theta$-almost-hugely unfoldable</strong> iff for
+every $A\subseteq\kappa$, there is some transitive $M$ with $A\in
+M\models\text{ZFC}$ and some $j:M\rightarrow N$ an elementary
+embedding with critical point $\kappa$ such that
+$j(\kappa)\geq\theta$ and $N^{&lt;j(\kappa)}\subseteq N$.</p>
+
+<p>$κ$ is then called <strong>superstrongly unfoldable</strong> (resp. <strong>almost-hugely
+unfoldable</strong>) iff it is $θ$-strongly unfoldable (resp. $θ$-almost-hugely
+unfoldable) for every $θ$; i.e. the target of the embedding can be made
+arbitrarily large.</p>
+
+<h3 id="equivalence">
+<a class="anchor" href="#equivalence" aria-hidden="true"><span class="octicon octicon-link"></span></a>Equivalence</h3>
+
+<p>For any ordinals $κ$, $θ$, the following are equivalent:</p>
+
+<ul>
+  <li>$κ$ is strongly pseudo $(θ+1)$-uplifting.</li>
+  <li>$κ$ is strongly $(θ+1)$-uplifting.</li>
+  <li>$κ$ is strongly $(θ+1)$-uplifting with weakly compact targets.</li>
+  <li>$κ$ is strongly $(θ+1)$-uplifting with totally indescribable
+targets, and indeed with targets having any property of $κ$ that is
+absolute to all models $V_γ$ with $γ &gt; κ, θ$.</li>
+</ul>
+
+<p>For any cardinal $κ$ and ordinal $θ$, the following are equivalent:</p>
+
+<ul>
+  <li>$κ$ is strongly $(θ+1)$-uplifting.</li>
+  <li>$κ$ is superstrongly $(θ+1)$-unfoldable.</li>
+  <li>$κ$ is almost-hugely $(θ+1)$-unfoldable.</li>
+  <li>For every set $A ∈ H_{κ^+}$ there is a
+$κ$-<a href="Model" title="Model">model</a>
+$M⊨\mathrm{ZFC}$ with $A∈M$ and $V_κ≺M$ and a transitive set $N$
+with an elementary embedding $j:M→N$ having critical point $κ$ with
+$j(κ)&gt; θ$ and $V_{j(κ)}≺N$, such that $N^{&lt;j(κ)}⊆N$ and
+$j(κ)$ is inaccessible, weakly compact and more in $V$.</li>
+  <li>$κ^{&lt;κ}=κ$ holds, and for every $κ$-model $M$ there is an
+elementary embedding $j:M→N$ having critical point $κ$ with
+$j(κ)&gt; θ$ and $V_{j(κ)}⊆N$, such that $N^{&lt;j(κ)}⊆N$ and
+$j(κ)$ is inaccessible, weakly compact and more in $V$.</li>
+</ul>
+
+<h3 id="relations-to-other-cardinals">
+<a class="anchor" href="#relations-to-other-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relations to other cardinals</h3>
+
+<ul>
+  <li>If $δ$ is a subtle cardinal, then the set of cardinals $κ$ below $δ$
+that are strongly uplifting in $V_δ$ is stationary.</li>
+  <li>If $0^♯$ exists, then every Silver indiscernible is strongly
+uplifting in $L$.</li>
+  <li>In $L$, $κ$ is strongly uplifting iff it is unfoldable with cardinal
+targets.</li>
+  <li>Every strongly uplifting cardinal is strongly uplifting in $L$.
+Every strongly $θ$-uplifting cardinal is strongly $θ$-uplifting in
+$L$.</li>
+  <li>Every strongly uplifting cardinal is strongly unfoldable of every
+ordinal degree $α$ and a stationary limit of cardinals that are
+strongly unfoldable of every ordinal degree and so on.</li>
+</ul>
+
+<h3 id="relation-to-boldface-resurrection-axiom">
+<a class="anchor" href="#relation-to-boldface-resurrection-axiom" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relation to boldface resurrection axiom</h3>
+
+<p>The following theories are equiconsistent over $\mathrm{ZFC}$:</p>
+
+<ul>
+  <li>There is a strongly uplifting cardinal.</li>
+  <li>The boldface resurrection axiom for all forcing, for proper forcing,
+for semi-proper forcing and for c.c.c. forcing.</li>
+  <li>The weak boldface resurrection axioms for countably-closed forcing,
+for axiom-$A$ forcing, for proper forcing and for
+semi-properforcing, respectively, plus $¬\mathrm{CH}$.</li>
+</ul>
+
+<h2 id="weakly-superstrong-cardinal">
+<a class="anchor" href="#weakly-superstrong-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weakly superstrong cardinal</h2>
+
+<p>(Information in this section comes from
+<a class="citation" href="#Bagaria2013">(Bagaria et al., 2013)</a>)</p>
+
+<p>Hamkins and Johnstone called an inaccessible cardinal $κ$ <strong>weakly
+superstrong</strong> if for every transitive set $M$ of size $κ$ with $κ∈M$ and
+$M^{&lt;κ}⊆M$, a transitive set $N$ and an elementary embedding $j:M→N$
+with critical point $κ$, for which $V_{j(κ)}⊆N$, exist.</p>
+
+<p>It is called <strong>weakly almost huge</strong> if for every such $M$ there is such
+$j:M→N$ for which $N^{&lt;j(κ)}⊆N$.</p>
+
+<p>(As usual one can call $j(κ)$ the target.)</p>
+
+<p>A cardinal is superstrongly unfoldable if it is weakly superstrong with
+arbitrarily large targets, and it is almost hugely unfoldable if it is
+weakly almost huge with arbitrarily large targets.</p>
+
+<p>If $κ$ is weakly superstrong, it is
+$0$-<a href="Extendible" title="Extendible">extendible</a>
+and
+$\Sigma_3$-<a href="Extendible" title="Extendible">extendible</a>.
+Weakly almost huge cardinals also are
+$\Sigma_3$-<a href="Extendible" title="Extendible">extendible</a>.
+Because $\Sigma_3$-extendibility always can be destroyed, all these
+cardinal properties (among others) are never Lever indestructible.</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Hamkins2014">Hamkins, J. D., &amp; Johnstone, T. A. (2014). <i>Resurrection axioms and uplifting cardinals</i>. http://jdh.hamkins.org/resurrection-axioms-and-uplifting-cardinals/</span></li>
+<li><span id="Hamkins2014a">Hamkins, J. D., &amp; Johnstone, T. A. (2014). <i>Strongly uplifting cardinals and the boldface resurrection axioms</i>.</span></li>
+<li><span id="Bagaria2013">Bagaria, J., Hamkins, J. D., Tsaprounis, K., &amp; Usuba, T. (2013). Superstrong and other large cardinals are never Laver indestructible. <i>Archive for Mathematical Logic</i>, <i>55</i>(1-2), 19–35. https://doi.org/10.1007/s00153-015-0458-3</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

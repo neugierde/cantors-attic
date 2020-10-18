@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Extended arrow notation | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Extended arrow notation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Extended_arrow_notation","@type":"WebPage","headline":"Extended arrow notation","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Extended arrow notation</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#basic-notation">Basic Notation</a></li>
+<li class="toc-entry toc-h1"><a href="#nested-up-arrow-notation">Nested up-arrow notation</a></li>
+<li class="toc-entry toc-h1"><a href="#array-up-arrow-notation">Array up-arrow notation</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#omega-typed-arrows">\(\Omega\) typed arrows</a></li>
+<li class="toc-entry toc-h2"><a href="#omega_2-typed-arrows">\(\Omega_2\) typed arrows</a></li>
+<li class="toc-entry toc-h2"><a href="#omega_3-typed-arrows-and-beyond">\(\Omega_3\) typed arrows and beyond</a></li>
+<li class="toc-entry toc-h2"><a href="#inaccesible-arrows">Inaccesible arrows</a></li>
+<li class="toc-entry toc-h2"><a href="#1-inaccesible-arrows-and-beyond">1-inaccesible arrows and beyond</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#dimensional-array-up-arrow-notation">Dimensional array up-arrow notation</a></li>
+<li class="toc-entry toc-h1"><a href="#hyperarray-up-arrow-notation">Hyperarray up-arrow notation</a></li>
+<li class="toc-entry toc-h1"><a href="#legion-array-up-arrow-notation">Legion array up-arrow notation</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#layered-arrays">Layered arrays</a></li>
+<li class="toc-entry toc-h2"><a href="#the-hyperseparator">The hyperseparator</a></li>
+<li class="toc-entry toc-h2"><a href="#the-second-hyperseparator">The second hyperseparator</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#hyperlegion-array-up-arrow-notation">Hyperlegion array up-arrow notation</a></li>
+</ul><p>Extended arrow notation is a notation that was invented by Googology
+Wikia User Googleaarex:
+<a href="https://googology.wikia.com/wiki/User:Googleaarex/" class="external autonumber">[1]</a>.</p>
+
+<h1 id="basic-notation">
+<a class="anchor" href="#basic-notation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Notation</h1>
+
+<p>Basic Notation is very simple. It generalizes the <a href="Knuth%27s_up-arrow_notation" title="Knuth's up-arrow notation">normal arrow
+notation</a>.</p>
+
+<p>\(a \uparrow_2 b = a
+\underbrace{\uparrow\uparrow\dots\uparrow}_b a\)</p>
+
+<p>\(a \uparrow_3 b = a
+\underbrace{\uparrow_2\uparrow_2\dots\uparrow_2}_b a\)</p>
+
+<p>\(a \uparrow_n b = a
+\underbrace{\uparrow_{n-1}\uparrow_{n-1}\dots\uparrow_{n-1}}_b
+a\)</p>
+
+<p>Note that all parts of Extended arrow notation, like Knuth’s up-arrow
+notation, have expressions that are evaluated from the right.</p>
+
+<p>Limit in FGH: \(f_\omega(n)\)</p>
+
+<h1 id="nested-up-arrow-notation">
+<a class="anchor" href="#nested-up-arrow-notation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nested up-arrow notation</h1>
+
+<p>To extend the notation here, we first have to make a change:
+\(\uparrow_n =
+\uparrow_{\underbrace{\uparrow\uparrow\dots\uparrow}_{n-1}}\)</p>
+
+<p>Then we turn the problem into Basic notation: \(a
+\uparrow_{\uparrow_2} b = a
+\uparrow_{\underbrace{\uparrow\uparrow\dots\uparrow}_b} a = a
+\uparrow_{b+1} b\), and \(a \uparrow_{\uparrow\uparrow_2} b = a
+\underbrace{\uparrow_{\uparrow_2}\uparrow_{\uparrow_2}\dots\uparrow_{\uparrow_2}}_b
+a\)</p>
+
+<p>Then: \(a \uparrow_{\uparrow_{\uparrow_2}} b = a
+\uparrow_{\uparrow_{b+1}} a\) and so on.</p>
+
+<p>Limit: \(\varepsilon_0\)</p>
+
+<h1 id="array-up-arrow-notation">
+<a class="anchor" href="#array-up-arrow-notation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Array up-arrow notation</h1>
+
+<h2 id="omega-typed-arrows">
+<a class="anchor" href="#omega-typed-arrows" aria-hidden="true"><span class="octicon octicon-link"></span></a>\(\Omega\) typed arrows</h2>
+
+<p>Limit: \(\psi(\varepsilon_{\Omega+1})\)</p>
+
+<h2 id="omega_2-typed-arrows">
+<a class="anchor" href="#omega_2-typed-arrows" aria-hidden="true"><span class="octicon octicon-link"></span></a>\(\Omega_2\) typed arrows</h2>
+
+<p>Limit: \(\psi(\psi_1(\varepsilon_{\Omega_2+1}))\)</p>
+
+<h2 id="omega_3-typed-arrows-and-beyond">
+<a class="anchor" href="#omega_3-typed-arrows-and-beyond" aria-hidden="true"><span class="octicon octicon-link"></span></a>\(\Omega_3\) typed arrows and beyond</h2>
+
+<p>Limit: \(\psi(\psi_I(0))\)</p>
+
+<h2 id="inaccesible-arrows">
+<a class="anchor" href="#inaccesible-arrows" aria-hidden="true"><span class="octicon octicon-link"></span></a>Inaccesible arrows</h2>
+
+<p>Limit: \(\psi(\psi_{I(1,0)}(0))\)</p>
+
+<h2 id="1-inaccesible-arrows-and-beyond">
+<a class="anchor" href="#1-inaccesible-arrows-and-beyond" aria-hidden="true"><span class="octicon octicon-link"></span></a>1-inaccesible arrows and beyond</h2>
+
+<p>Limit: \(\psi(\psi_{I(\omega, 0)}(0))\)</p>
+
+<h1 id="dimensional-array-up-arrow-notation">
+<a class="anchor" href="#dimensional-array-up-arrow-notation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dimensional array up-arrow notation</h1>
+
+<p>Limit: \(\psi(\psi_{\chi(\varepsilon_{M+1})}(0))\)</p>
+
+<h1 id="hyperarray-up-arrow-notation">
+<a class="anchor" href="#hyperarray-up-arrow-notation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hyperarray up-arrow notation</h1>
+
+<p>Limit: \(\psi(\psi_{\chi(M(1,0))}(0))\)</p>
+
+<h1 id="legion-array-up-arrow-notation">
+<a class="anchor" href="#legion-array-up-arrow-notation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Legion array up-arrow notation</h1>
+
+<h2 id="layered-arrays">
+<a class="anchor" href="#layered-arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Layered arrays</h2>
+
+<p>Limit: \(\psi(\psi_{ {\Xi(1)}^\omega}(0))\)</p>
+
+<h2 id="the-hyperseparator">
+<a class="anchor" href="#the-hyperseparator" aria-hidden="true"><span class="octicon octicon-link"></span></a>The hyperseparator</h2>
+
+<p>Limit: \(\psi(\psi_{M(1,\Xi(1)+1)}(0))\)</p>
+
+<h2 id="the-second-hyperseparator">
+<a class="anchor" href="#the-second-hyperseparator" aria-hidden="true"><span class="octicon octicon-link"></span></a>The second hyperseparator</h2>
+
+<p>Limit:???</p>
+
+<h1 id="hyperlegion-array-up-arrow-notation">
+<a class="anchor" href="#hyperlegion-array-up-arrow-notation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hyperlegion array up-arrow notation</h1>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

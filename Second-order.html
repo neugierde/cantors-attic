@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Second-order set theories | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Second-order set theories" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Second-order","@type":"WebPage","headline":"Second-order set theories","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Second-order set theories</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#axioms-of-textnbg-and-textmk">Axioms of $\text{NBG}$ and $\text{MK}$</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#finitely-axiomatizing-textnbg">Finitely axiomatizing $\text{NBG}$</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#models-of-textmk">Models of $\text{MK}$</a></li>
+<li class="toc-entry toc-h2"><a href="#between-textnbg-and-textmk">Between $\text{NBG}$ and $\text{MK}$</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#class-forcing-theorem-and-equivalents">Class forcing theorem and equivalents</a></li>
+<li class="toc-entry toc-h3"><a href="#class-determinacy-of-open-games">Class determinacy of open games</a></li>
+</ul>
+</li>
+</ul><p><em>In construction.</em></p>
+
+<p>$\text{ZFC}$, the usual first-order axiomatic set theory, can only
+manipulate sets, and cannot formalize the notion of a proper class (e.g.
+the class of all sets, $V$), so when one needs to manipulate proper
+class objects, it is tempting to switch to a second-order logic form of
+$\text{ZFC}$. However, because many useful theorems such as Gödel’s
+Completeness Theorem does not apply to second-order logic theories, it
+is more convenient to use first-order two-sorted axiomatic theories with
+two types of variables, one for sets and one for classes. Two such
+“false” second-order theories, $\text{NBG}$ and $\text{MK}$, are the
+most widely used extensions of $\text{ZFC}$.</p>
+
+<p>Throughout this article, “<em>first-order (set theory) formula</em>” means a
+formula in the language of $\text{ZFC}$, eventually with class
+parameters, but only set quantifiers. “<em>second-order (set theory)
+formula</em>” means a formula in the language of $\text{NBC}$ and
+$\text{MK}$, i.e. it can contain class quantifiers.</p>
+
+<p><strong>Von Neumann-Bernays-Gödel set theory</strong> (commonly abbreviated as
+<em>$\text{NBG}$</em> or <em>$\text{GCB}$</em>) is a conservative extension of
+$\text{ZFC}$ - that is, it proves the same first-order sentences as
+$\text{ZFC}$. It is equiconsistent with $\text{ZFC}$. However, unlike
+$\text{ZFC}$ and $\text{MK}$, it is possible to finitely axiomatize
+$\text{NBG}$. It was named after John von Neumann, Paul Bernays and
+Kurt Gödel.</p>
+
+<p><strong>Morse-Kelley set theory</strong> (commonly abbreviated as <em>$\text{MK}$</em> or
+<em>$\text{KM}$</em>) is an extension of $\text{NBG}$ which is stronger than
+$\text{ZFC}$ and $\text{NBG}$ in consistency strength. It was named
+after John L. Kelley and Anthony Morse. It only differs from
+$\text{NBG}$ by a single axiom-schema. It is not finitely
+axiomatizable.</p>
+
+<p>It is possible to turn both theories into first-order axiomatic set
+theories with only class variables, a class $X$ is called a set
+(abbreviated $\text{M}X$) iff $\exists Y(X\in Y)$. One can also
+define $\text{M}X\equiv X\in V$ with $V$ a symbol of the language
+representing the universal class containing all sets. That is, a set is
+a class member of another class.</p>
+
+<h2 id="axioms-of-textnbg-and-textmk">
+<a class="anchor" href="#axioms-of-textnbg-and-textmk" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axioms of $\text{NBG}$ and $\text{MK}$</h2>
+
+<p>We will be using capital letters to denote classes and lowercase letters
+to denote sets. The following axioms are common to both $\text{NBG}$
+and $\text{MK}$:</p>
+
+<ul>
+  <li>
+<strong>Extensionality:</strong> two classes are equal iff they have the same
+elements: $\forall X\forall Y(X=Y\iff\forall z(z\in X\iff
+z\in Y))$.</li>
+  <li>
+<strong>Regularity:</strong> every class is disjoint from one of its elements:
+$\forall X(\exists a(a\in X)\implies\exists x(x\in
+X\land\forall y(y\in x\implies y\not\in X)))$.</li>
+  <li>
+<strong>Infinity:</strong> there exists an infinite set. For example, $\exists
+x(\exists a(a\in x)\land\forall y(y\in x\implies\exists
+z(y\in z\land z\in x))$.</li>
+  <li>
+<strong>Union:</strong> the union of the elements of a set is a set : $\forall
+x\exists y\forall z(z\in y\iff\exists w(z\in w\land w\in
+x))$.</li>
+  <li>
+<strong>Pairing:</strong> the pair of two sets is itself a set: $\forall
+x\forall y\exists z\forall w(w\in z\iff(w=x\lor w=y))$.</li>
+  <li>
+<strong>Powerset:</strong> the powerset of a set is a set: $\forall x\exists
+y\forall z(z\in y\iff\forall w(w\in z\implies w\in x))$.</li>
+  <li>
+<strong>Limitation of Size:</strong> a class $X$ is proper if and only if there
+is bijection between $X$ and the universal class $V$.</li>
+</ul>
+
+<p>The axiom of limitation of size implies the axiom of global choice
+(“there is a well-ordering of the universe”) and $\text{ZFC}$’s axiom
+of replacement. Using the one-sorted version of those theories, pairing
+becomes $\forall X\forall
+Y(\text{M}X\land\text{M}Y\Rightarrow\exists Z(\text{M}Z\land
+X\in Z\land Y\in Z))$. The other axioms are modified similarly.</p>
+
+<p>$\text{NBG}$ the the theory obtained by adding the following
+axiom-scheme:</p>
+
+<ul>
+  <li>
+<strong>Class comprehension:</strong> for every <em>first-order</em> formula
+$\varphi(x)$ with a free variables $x$ and class parameters, there
+exists a class containing all sets $x$ such that $\varphi(x)$.</li>
+</ul>
+
+<p>Not that the created class only contains sets, in particular there is no
+class of all classes.</p>
+
+<p>$\text{MK}$ is obtained by removing the “first-order” restriction in
+class comprehension, i.e. second-order formulas are now allowed.</p>
+
+<h3 id="finitely-axiomatizing-textnbg">
+<a class="anchor" href="#finitely-axiomatizing-textnbg" aria-hidden="true"><span class="octicon octicon-link"></span></a>Finitely axiomatizing $\text{NBG}$</h3>
+
+<p>$\text{NBG}$ can be finitely axiomatized as its class comprehension
+axiom can be replaced by the following set of axioms: For every classes
+$A$ and $B$,</p>
+
+<ul>
+  <li>The complement $V\setminus A=\{x:x\not\in A\}$ exists.</li>
+  <li>The intersection $A\cap B=\{x:x\in A\land x\in B\}$ exists.</li>
+  <li>The range $\{y:\exists x((x,y)\in A\}$ exists, using
+$(x,y)=\{\{x\},\{x,y\}\}$.</li>
+  <li>The product $A\times B=\{(a,b):a\in A\land b\in B\}$ exists.</li>
+  <li>The classes $\{(x,y):x\in y\}$ and $\{(x,y):x=y\}$ exist.</li>
+  <li>The following classes exist: $\{(b,a):(a,b)\in A\}$,
+$\{(b,(a,c)):(a,(b,c))\in A\}$.</li>
+  <li>The following classes exist: $\{((a,b),c):(a,(b,c))\in A\}$,
+$\{(d,(a,(b,c))):(d,((a,b),c))\in A\}$.</li>
+</ul>
+
+<h2 id="models-of-textmk">
+<a class="anchor" href="#models-of-textmk" aria-hidden="true"><span class="octicon octicon-link"></span></a>Models of $\text{MK}$</h2>
+
+<p>In consistency strength, $\text{MK}$ is stronger than
+<a href="ZFC" title="ZFC">$\text{ZFC}$</a>
+and weaker than the existence of an
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+cardinal. It directly implies the consistency of $\text{ZFC}$ plus
+“there is a proper class of
+<a href="Worldly" title="Worldly">worldly</a>
+cardinals stationary in $\text{Ord}$”. However, if a cardinal $\kappa$
+is inaccessible then $V_{\kappa+1}\models\text{MK}$, also
+$\text{def}(V_\kappa)$ satisfies $\text{NBG}$ minus global choice
+(i.e. replacing limitation of size by $\text{ZFC}$’s axiom of
+replacement).</p>
+
+<p>Because it uses classes, set models of $\text{MK}$ are generally taken
+to be the powerset of some model of $\text{ZFC}$. For this reason, a
+large cardinal axiom with $V_\kappa$ having some elementary property
+can be strengthened by instead using $V_{\kappa+1}$. When doing this
+with
+<a href="Indescribable" title="Indescribable">$\Pi_m^0$-indescribability</a>,
+one achieves
+<a href="Indescribable" title="Indescribable">$\Pi_m^1$-indescribability</a>
+(which is considerably stronger). When doing this with
+<a href="Extendible" title="Extendible">0-extendibility</a>
+(which is equiconsistent with $\text{ZFC}$), one achieves
+<a href="Extendible" title="Extendible">1-extendibility</a>.</p>
+
+<h2 id="between-textnbg-and-textmk">
+<a class="anchor" href="#between-textnbg-and-textmk" aria-hidden="true"><span class="octicon octicon-link"></span></a>Between $\text{NBG}$ and $\text{MK}$</h2>
+
+<h3 id="class-forcing-theorem-and-equivalents">
+<a class="anchor" href="#class-forcing-theorem-and-equivalents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class forcing theorem and equivalents</h3>
+
+<h3 id="class-determinacy-of-open-games">
+<a class="anchor" href="#class-determinacy-of-open-games" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class determinacy of open games</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    This article is a stub. Please help us to improve Cantor's Attic by adding information.
+</code></pre></div></div>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

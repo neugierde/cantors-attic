@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Ackermann function | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Ackermann function" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Ackermann_function","@type":"WebPage","headline":"Ackermann function","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Ackermann function</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#defination">Defination</a></li>
+<li class="toc-entry toc-h2"><a href="#example">Example</a></li>
+<li class="toc-entry toc-h2"><a href="#explicit-formula">Explicit formula</a></li>
+</ul><p>The Ackermann function, expressed as \(A(a,b)\), is a function for
+expressing extremely large numbers.</p>
+
+<h2 id="defination">
+<a class="anchor" href="#defination" aria-hidden="true"><span class="octicon octicon-link"></span></a>Defination</h2>
+
+<p>The Ackermann function is defined as follows:</p>
+
+<p>\begin{array}{l}
+    A(0,b)=b+1 \\ 
+    A(a,0)=A(a-1,1) \\ 
+    A(a,b)=A(a-1,A(a,b-1))
+\end{array}</p>
+
+<h2 id="example">
+<a class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<p>\begin{eqnarray*} 
+A(4,3) &amp;=&amp; A(3, A(4, 2)) \\ 
+       &amp;=&amp; A(3, A(3, A(4, 1))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(4, 0)))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(3, 1)))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(3, 0))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(2, 1))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(1, A(2, 0)))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(1, A(1, 1)))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(1, A(0, A(1, 0))))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(1, A(0, A(0, 1))))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(1, A(0, 2)))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(1, 3))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(0, A(1, 2)))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(0, A(0, A(1, 1))))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(0, A(0, A(0, A(1, 0)))))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(0, A(0, A(0, A(0, 1)))))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(0, A(0, A(0, 2))))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(0, A(0, 3)))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, A(0, 4))))) \\ 
+       &amp;=&amp; A(3, A(3, A(3, A(2, 5)))) 
+\end{eqnarray*}</p>
+
+<h2 id="explicit-formula">
+<a class="anchor" href="#explicit-formula" aria-hidden="true"><span class="octicon octicon-link"></span></a>Explicit formula</h2>
+
+<p>We now prove that \(A(a, b) = 2 \uparrow^{a - 2} (b + 3) - 3\) for \(a&gt;2\).</p>
+
+<p>\begin{eqnarray*} 
+A(0, b) &amp;=&amp; b + 1 \\ 
+A(1, b) &amp;=&amp; A(0, A(1, b - 1)) \\ 
+        &amp;=&amp; A(1, b - 1) + 1 \\ 
+        &amp;=&amp; A(1, b - 2) + 2 \\ 
+        &amp;=&amp; \cdots \\ 
+        &amp;=&amp; A(1, b - b) + b \\ 
+        &amp;=&amp; b + 2 \\ 
+A(2, b) &amp;=&amp; A(1, A(2, b - 1)) \\ 
+        &amp;=&amp; A(2, b - 1) + 2\times 1 \\ 
+        &amp;=&amp; A(2, b - 2) + 2\times 2 \\ 
+        &amp;=&amp; \cdots \\ 
+        &amp;=&amp; A(2, b - b) + 2b \\ 
+        &amp;=&amp; 2b + 3 \\ 
+        &amp;=&amp; 2(b + 3) - 3 \\ 
+A(3, b) &amp;=&amp; A(2, A(3, b - 1)) \\ 
+        &amp;=&amp; 2(A(3, b - 1) + 3) - 3 \\ 
+        &amp;=&amp; 2^2(A(3, b - 2) + 3) - 3 \\ 
+        &amp;=&amp; \cdots \\ 
+        &amp;=&amp; 2^b(A(3, 0) + 3) - 3 \\ 
+        &amp;=&amp; 2^{b + 3} - 3
+\end{eqnarray*}</p>
+
+<p>Assuming that this holds true for \(a=k\), for \(a=k+1\):</p>
+
+<p>\begin{eqnarray*} 
+A(k + 1, b) &amp;=&amp; A(k, A(k + 1, b - 1)) \\ 
+            &amp;=&amp; 2 \uparrow^{k - 2} (A(k, A(k + 1, b - 2) + 3) - 3 \\ 
+            &amp;=&amp; \cdots \\ 
+            &amp;=&amp; \underbrace{2 \uparrow^{k - 2} 2 \uparrow^{k - 2} \cdots}_\text{b 2’s} \uparrow^{k - 2} (A(k + 1, 0) + 3) - 3 \\ 
+            &amp;=&amp; \underbrace{2 \uparrow^{k - 2} 2 \uparrow^{k - 2} \cdots \uparrow^{k - 2} 2 \uparrow^{k - 2} 2}_\text{b+3 2’s} - 3 \\ 
+            &amp;=&amp; 2 \uparrow^{k - 1} (b + 3) - 3
+\end{eqnarray*}</p>
+
+<p>QED.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

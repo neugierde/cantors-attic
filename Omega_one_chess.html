@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The omega one of chess | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="The omega one of chess" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Omega_one_chess","@type":"WebPage","headline":"The omega one of chess","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>The omega one of chess</h1>
+        <ul class="section-nav">
+</ul><p>Infinite chess is chess played on an infinite edgeless chessboard. Since
+checkmates, when they occur, do so after finitely many moves, this is an
+open game and therefore subject to the theory of transfinite game values
+for open games.</p>
+
+<p>Specifically, the <em>game value</em> (for white) of a position in infinite
+chess is defined by recursion. The positions with value $0$ are
+precisely those in which white has already won. If a position $p$ has
+white to move, then the value of $p$ is $\alpha+1$ if and only if
+$\alpha$ is minimal such that white may legally move from $p$ to a
+position with value $\alpha$. If a position $p$ has black to play,
+where black has a legal move from $p$, and every move by black from $p$
+has a value, then the value of $p$ is the supremum of these values.</p>
+
+<p>The term <em>omega one of chess</em> refers either to the ordinal
+$\omega_1^{\mathfrak{Ch}}$ or to
+$\omega_1^{\mathfrak{Ch}_{\!\!\!\!\sim}}$, depending
+respectively on whether one is considering only finite positions or also
+positions with infinitely many
+pieces.<a class="citation" href="#Evans">(Evans &amp; Hamkins, n.d.)</a></p>
+
+<ul>
+  <li>
+    <p>The ordinal $\omega_1^{\mathfrak{Ch}}$ is the supremum of the
+game values of the winning finite positions for white in infinite
+chess.</p>
+  </li>
+  <li>
+    <p>The ordinal $\omega_1^{\mathfrak{Ch}_{\!\!\!\!\sim}}$ is
+the supremum of the game values of all the winning positions for
+white in infinite chess, including positions with infinitely many
+pieces.</p>
+  </li>
+  <li>
+    <p>Similarly, $\omega_1^{\mathfrak{Ch}_3}$ and
+$\omega_1^{ {\mathfrak{Ch}_{\!\!\!\!\sim}}_3}$ are the
+analogous ordinals for infinite three-dimensional chess, as
+described in .</p>
+  </li>
+</ul>
+
+<p>There is an entire natural hierarchy of intermediate concepts between
+$\omega_1^{\mathfrak{Ch}}$ and
+$\omega_1^{\mathfrak{Ch}_{\!\!\!\!\sim}}$, corresponding to the
+various descriptive-set-theoretic complexities of the positions. For
+example, we may denote by $\omega_1^{\mathfrak{Ch},c}$ the
+‘computable’ omega one of chess, which is the supremum of the game
+values of the computable positions of infinite chess. Similarly, one may
+define $\omega_1^{\mathfrak{Ch},\text{hyp}}$ to be the supremum of
+the values of the hyperarithmetic positions and
+$\omega_1^{\mathfrak{Ch},\Delta^1_2}$ to be the supremum of the
+$\Delta^1_2$ definable positions, and so on.</p>
+
+<p>Since there are only countably many finite positions, whose game values
+form an initial segment of the ordinals, it follows that
+$\omega_1^{\mathfrak{Ch}}$ is a countable ordinal. The next theorem
+shows more, that $\omega_1^{\mathfrak{Ch}}$ is bounded by the
+<a href="Church-Kleene" title="Church-Kleene">Church-Kleene</a>
+ordinal $\omega_1^{ck}$, the supremum of the computable ordinals.
+Thus, the game value of any finite position in infinite chess with a
+game value is a computable ordinal.</p>
+
+<ul>
+  <li>$\omega_1^{\mathfrak{Ch}}\leq\omega_1^{\mathfrak{Ch},c}\leq\omega_1^{\mathfrak{Ch},\text{hyp}}\leq\omega_1^{ck}$.
+Thus, the game value of any winning finite position in infinite
+chess, as well as any winning computable position or winning
+hyperarithmetic position, is a computable ordinal. Furthermore, if a
+designated player has a winning strategy from a position $p$, then
+there is such a strategy with complexity hyperarithmetic in $p$.</li>
+  <li>$\omega_1^{\mathfrak{Ch}_{\!\!\!\!\sim}}\leq\omega_1$.
+The value of a winning position $p$ is a $p$-computable ordinal, and
+hence less than $\omega_1^{ck,p}$.</li>
+  <li>Similarly, $\omega_1^{\mathfrak{Ch}_3}\leq\omega_1^{ck}$.</li>
+</ul>
+
+<p>Evans and Hamkins
+<a class="citation" href="#Evans">(Evans &amp; Hamkins, n.d.)</a> have
+proved that the omega one of infinite 3D chess is true $\omega_1$, as
+large as it can be:
+$\omega_1^{ {\mathfrak{Ch}_{\!\!\!\!\sim}}_3}=\omega_1$.
+Meanwhile, there remains a large gap in the best-known bounds for
+$\omega_1^{\mathfrak{Ch}}$ and
+$\omega_1^{\mathfrak{Ch}_{\!\!\!\!\sim}}$, with Evans and
+Hamkins finding (computable) infinite positions having value $\omega^3$
+and somewhat beyond.</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Evans">Evans, C. D. A., &amp; Hamkins, J. D. <i>Transfinite game values in infinite chess</i>. http://jdh.hamkins.org/game-values-in-infinite-chess</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

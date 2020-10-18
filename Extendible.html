@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Extendible cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Extendible cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Extendible","@type":"WebPage","headline":"Extendible cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Extendible cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#alternative-definition">Alternative definition</a></li>
+<li class="toc-entry toc-h2"><a href="#relation-to-other-large-cardinals">Relation to Other Large Cardinals</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#supercompactness">Supercompactness</a></li>
+<li class="toc-entry toc-h3"><a href="#strong-compactness">Strong Compactness</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#variants">Variants</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#cn-extendible-cardinals">$C^{(n)}$-extendible cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#sigma_neta-extendible-cardinals">$(\Sigma_n,\eta)$-extendible cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#sigma_n-extendible-cardinals">$\Sigma_n$-extendible cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#a-extendible-cardinals">$A$-extendible cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#virtually-extendible-cardinals">Virtually extendible cardinals</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#in-set-theoretic-geology">In set-theoretic geology</a></li>
+</ul><p>A cardinal $\kappa$ is <em>$\eta$-extendible</em> for an ordinal $\eta$ if
+and only if there is an <a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j:V_{\kappa+\eta}\to V_\theta$, with critical point $\kappa$,
+for some ordinal $\theta$. The cardinal $\kappa$ is <em>extendible</em> if
+and only if it is $\eta$-extendible for every ordinal $\eta$.
+Equivalently, for every ordinal $\alpha$ there is a nontrivial
+elementary embedding $j:V_{\kappa+\alpha+1}\to
+V_{j(\kappa)+j(\alpha)+1}$ with critical point $\kappa$.</p>
+
+<h2 id="alternative-definition">
+<a class="anchor" href="#alternative-definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Alternative definition</h2>
+
+<p>Given cardinals $\lambda$ and $\theta$, a cardinal
+$\kappa\leq\lambda,\theta$ is <em>jointly $\lambda$-supercompact and
+$\theta$-superstrong</em> if there exists a nontrivial elementary embedding
+$j:V\to M$ for some transitive class $M$ such that
+$\mathrm{crit}(j)=\kappa$, $\lambda&lt;j(\kappa)$,
+$M^\lambda\subseteq M$ and $V_{j(\theta)}\subseteq M$. That is, a
+single embedding witnesses both
+$\lambda$-<a href="Supercompact" title="Supercompact">supercompactness</a>
+and (a strengthening of)
+<a href="Superstrong" title="Superstrong">superstrongness</a>
+of $\kappa$. The least supercompact is never jointly
+$\lambda$-supercompact and $\theta$-superstrong for any
+$\lambda$,$\theta\geq\kappa$.</p>
+
+<p>A cardinal is extendible if and only if it is jointly supercompact and
+$\kappa$-superstrong, i.e. for every $\lambda\geq\kappa$ it is
+jointly $\lambda$-supercompact and $\kappa$-superstrong.
+<a href="http://logicatorino.altervista.org/slides/150619tsaprounis.pdf" class="external autonumber">[1]</a>
+One can show that extendibility of $\kappa$ is in fact equivalent to
+“for all $\lambda$,$\theta\geq\kappa$, $\kappa$ is jointly
+$\lambda$-supercompact and $\theta$-superstrong”. A similar
+characterization of $C^{(n)}$-extendible cardinals exists.</p>
+
+<p>The
+<a href="Huge" title="Huge">ultrahuge</a>
+cardinals are defined in a way very similar to this, and one can (very
+informally) say that “ultrahuge cardinals are to superhuges what
+extendibles are to supercompacts”. These cardinals are superhuge (and
+stationary limits of superhuges) and strictly below almost 2-huges in
+consistency strength.</p>
+
+<p><em>To be expanded: Extendibility Laver Functions</em></p>
+
+<h2 id="relation-to-other-large-cardinals">
+<a class="anchor" href="#relation-to-other-large-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relation to Other Large Cardinals</h2>
+
+<p>Extendible cardinals are related to various kinds of measurable
+cardinals.</p>
+
+<p>Hyper-<a href="Huge" title="Huge">huge</a>
+cardinals are extendible limits of extendible
+cardinals.<a class="citation" href="#Usuba2019">(Usuba, 2019)</a></p>
+
+<h3 id="supercompactness">
+<a class="anchor" href="#supercompactness" aria-hidden="true"><span class="octicon octicon-link"></span></a>Supercompactness</h3>
+
+<p>Extendibility is connected in strength with
+<a href="Supercompact" title="Supercompact">supercompactness</a>.
+Every extendible cardinal is supercompact, since from the embeddings
+$j:V_\lambda\to V_\theta$ we may extract the induced
+supercompactness measures $X\in\mu\iff j’’\delta\in j(X)$ for
+$X\subset \mathcal{P}_\kappa(\delta)$, provided that
+$j(\kappa)\gt\delta$ and $\mathcal{P}_\kappa(\delta)\subset
+V_\lambda$, which one can arrange. On the other hand, if $\kappa$ is
+$\theta$-supercompact, witnessed by $j:V\to M$, then $\kappa$ is
+$\delta$-extendible inside $M$, provided $\beth_\delta\leq\theta$,
+since the restricted elementary embedding $j\upharpoonright
+V_\delta:V_\delta\to j(V_\delta)=M_{j(\delta)}$ has size at
+most $\theta$ and is therefore in $M$, witnessing
+$\delta$-extendibility there.</p>
+
+<p>Although extendibility itself is stronger and larger than
+<a href="Supercompact" title="Supercompact">supercompactness</a>,
+$\eta$-supercompacteness is not necessarily too much weaker than
+$\eta$-extendibility. For example, if a cardinal $\kappa$ is
+$\beth_{\eta}(\kappa)$-supercompact (in this case, the same as
+$\beth_{\kappa+\eta}$-supercompact) for some $\eta&lt;\kappa$,
+then there is a normal measure $U$ over $\kappa$ such that
+$\{\lambda&lt;\kappa:\lambda\text{ is
+}\eta\text{-extendible}\}\in U$.</p>
+
+<h3 id="strong-compactness">
+<a class="anchor" href="#strong-compactness" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strong Compactness</h3>
+
+<p>Interestingly, extendibility is also related to <a href="Strongly_compact" title="Strongly compact">strong
+compactness</a>.
+A cardinal $\kappa$ is strongly compact iff the infinitary language
+$\mathcal{L}_{\kappa,\kappa}$ has the $\kappa$-compactness
+property. A cardinal $\kappa$ is extendible iff the infinitary language
+$\mathcal{L}_{\kappa,\kappa}^n$ (the infinitary language but with
+$(n+1)$-th order logic) has the $\kappa$-compactness property for every
+natural number $n$. <a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<p>Given a logic $\mathcal{L}$, the minimum cardinal $\kappa$ such that
+$\mathcal{L}$ satisfies the $\kappa$-compactness theorem is called the
+<strong>strong compactness cardinal</strong> of $\mathcal{L}$. The strong
+compactness cardinal of $\omega$-th order finitary logic (that is, the
+union of all $\mathcal{L}_{\omega,\omega}^n$ for natural $n$) is the
+least extendible cardinal.</p>
+
+<h2 id="variants">
+<a class="anchor" href="#variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variants</h2>
+
+<h3 id="cn-extendible-cardinals">
+<a class="anchor" href="#cn-extendible-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>$C^{(n)}$-extendible cardinals</h3>
+
+<p>(Information in this subsection from
+<a class="citation" href="#Bagaria2012">(Bagaria, 2012)</a> unless noted otherwise)</p>
+
+<p>A cardinal $κ$ is called <strong>$C^{(n)}$-extendible</strong> if for all $λ &gt; κ$
+it is $λ$-$C^{(n)}$-extendible, i.e. if there is an ordinal $µ$ and an
+elementary embedding $j : V_λ → V_µ$, with $\mathrm{crit(j)} = κ$,
+$j(κ) &gt; λ$ and $j(κ) ∈ C^{(n)}$.</p>
+
+<p>For $λ ∈ C^{(n)}$, a cardinal $κ$ is $λ$-$C^{(n)+}$-extendible iff it is
+$λ$-$C^{(n)}$-extendible, witnessed by some $j : V_λ → V_µ$ which
+(besides $j(κ) &gt; λ$ and $j(κ) ∈ C(n)$) satisfies that $µ ∈ C^{(n)}$.</p>
+
+<p>$κ$ is $C^{(n)+}$-extendible iff it is $λ$-$C^{(n)+}$-extendible for
+every $λ &gt; κ$ such that $λ ∈ C^{(n)}$.</p>
+
+<p>Properties:</p>
+
+<ul>
+  <li>The notions of $C^{(n)}$-extendible cardinals and
+$C^{(n)+}$-extendible cardinals are
+equivalent.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+  <li>Every extendible cardinal is $C^{(1)}$-extendible.</li>
+  <li>If $κ$ is $C^{(n)}$-extendible, then $κ ∈ C^{(n+2)}$.</li>
+  <li>For every $n ≥ 1$, if $κ$ is $C^{(n)}$-extendible and
+$κ+1$-$C^{(n+1)}$-extendible, then the set of $C^{(n)}$-extendible
+cardinals is unbounded below $κ$.
+    <ul>
+      <li>Hence, the first $C^{(n)}$-extendible cardinal $κ$, if it
+exists, is not $κ+1$-$C^{(n+1)}$-extendible.</li>
+      <li>In particular, the first extendible cardinal $κ$ is not
+$κ+1$-$C^{(2)}$-extendible.</li>
+    </ul>
+  </li>
+  <li>For every $n$, if there exists a $C^{(n+2)}$-extendible cardinal,
+then there exist a proper class of $C^{(n)}$-extendible cardinals.</li>
+  <li>The existence of a $C^{(n+1)}$-extendible cardinal $κ$ (for $n ≥ 1$)
+does not imply the existence of a $C^{(n)}$-extendible cardinal
+greater than $κ$. For if $λ$ is such a cardinal, then $V_λ
+\models$“κ is $C^{(n+1)}$-extendible”.</li>
+  <li>If $κ$ is $κ+1$-$C^{(n)}$-extendible and belongs to $C^{(n)}$, then
+$κ$ is
+$C^{(n)}$-<a href="Superstrong" title="Superstrong">superstrong</a>
+and there is a $κ$-complete normal
+<a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilter</a>
+$U$ over $κ$ such that the set of $C^{(n)}$-superstrong cardinals
+smaller than $κ$ belongs to $U$.</li>
+  <li>For $n ≥ 1$, the following are equivalent ($VP$ — <a href="Vopenka" title="Vopenka">Vopěnka’s
+principle</a>):
+    <ul>
+      <li>$VP(Π_{n+1})$</li>
+      <li>$VP(κ, \mathbf{Σ_{n+2}})$ for some $κ$</li>
+      <li>There exists a $C(n)$-extendible cardinal.</li>
+    </ul>
+  </li>
+  <li>“For every $n$ there exists a $C(n)$-extendible cardinal.” is
+equivalent to the full Vopěnka’s principle.</li>
+  <li>Assuming <a href="Rank_into_rank" title="Rank into rank">$\mathrm{I3}(κ,
+δ)$</a>,
+if $δ$ is a limit cardinal (instead of a successor of a limit
+cardinal – Kunen’s Theorem excludes other cases), it is equal to
+$sup\{j^m(κ) : m ∈ ω\}$ where $j$ is the elementary embedding.
+Then $κ$ and $j^m(κ)$ are $C^{(n)}$-extendible (inter alia) in
+$V_δ$, for all $n$ and $m$.</li>
+</ul>
+
+<h3 id="sigma_neta-extendible-cardinals">
+<a class="anchor" href="#sigma_neta-extendible-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>$(\Sigma_n,\eta)$-extendible cardinals</h3>
+
+<p>There are some variants of extendible cardinals because of the
+interesting jump in consistency strength from $0$-extendible cardinals
+to $1$-extendibles. These variants specify the elementarity of the
+embedding.</p>
+
+<p>A cardinal $\kappa$ is $(\Sigma_n,\eta)$-extendible, if there is a
+$\Sigma_n$-elementary embedding $j:V_{\kappa+\eta}\to V_\theta$
+with critical point $\kappa$, for some ordinal $\theta$. These
+cardinals were introduced by Bagaria, Hamkins, Tsaprounis and Usuba
+<a class="citation" href="#Bagaria2013">(Bagaria et al., 2013)</a>.</p>
+
+<h3 id="sigma_n-extendible-cardinals">
+<a class="anchor" href="#sigma_n-extendible-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\Sigma_n$-extendible cardinals</h3>
+
+<p>The special case of $\eta=0$ leads to a much weaker notion.
+Specifically, a cardinal $\kappa$ is <em>$\Sigma_n$-extendible</em> if it is
+$(\Sigma_n,0)$-extendible, or more simply, if
+$V_\kappa\prec_{\Sigma_n} V_\theta$ for some ordinal $\theta$.
+Note that this does not necessarily imply that $\kappa$ is
+inaccessible, and indeed the existence of $\Sigma_n$-extendible
+cardinals is provable in ZFC via the reflection theorem. For example,
+every <a href="Reflecting#Reflection_and_correctness" title="Reflecting">$\Sigma_n$
+correct</a>
+cardinal is $\Sigma_n$-extendible, since from
+$V_\kappa\prec_{\Sigma_n} V$ and $V_\lambda\prec_{\Sigma_n}
+V$, where $\kappa\lt\lambda$, it follows that
+$V_\kappa\prec_{\Sigma_n} V_\lambda$. So in fact there is a
+closed unbounded class of $\Sigma_n$-extendible cardinals.</p>
+
+<p>Similarly, every Mahlo cardinal $\kappa$ has a stationary set of
+inaccessible $\Sigma_n$-extendible cardinals $\gamma&lt;\kappa$.</p>
+
+<p>$\Sigma_3$-extendible cardinals cannot be Laver indestructible.
+Therefore
+$\Sigma_3$-<a href="Correct" class="mw-redirect" title="Correct">correct</a>,
+$\Sigma_3$-<a href="Reflecting" title="Reflecting">reflecting</a>,
+$0$-extendible,
+(pseudo-)<a href="Uplifting" title="Uplifting">uplifting</a>,
+<a href="Weakly_superstrong" class="mw-redirect" title="Weakly superstrong">weakly superstrong</a>,
+strongly uplifting,
+<a href="Superstrong" title="Superstrong">superstrong</a>,
+extendible, (almost)
+<a href="Huge" title="Huge">huge</a> or
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
+cardinals also
+cannot.<a class="citation" href="#Bagaria2013">(Bagaria et al., 2013)</a></p>
+
+<h3 id="a-extendible-cardinals">
+<a class="anchor" href="#a-extendible-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>$A$-extendible cardinals</h3>
+
+<p>(this subsection from
+<a class="citation" href="#Hamkins2016">(Hamkins, 2016)</a>)</p>
+
+<p>Definitions:</p>
+
+<ul>
+  <li>A cardinal $κ$ is <strong>$A$-extendible</strong>, for a class $A$, iff for every
+ordinal $λ &gt; κ$ there is an ordinal $θ$ such that there is an
+elementary embedding
+$j : \langle V_λ , ∈, A ∩ V_λ \rangle → \langle V_θ , ∈, A ∩
+V_θ \rangle$
+with critical point $κ$ (such that $λ &lt; j(κ)$ — <em>removing this
+does not change, what cardinals are extendible</em>).
+    <ul>
+      <li>$λ$ is called the degree of $A$-extendibility of an embedding.</li>
+    </ul>
+  </li>
+  <li>A cardinal $κ$ is <strong>$(Σ_n)$-extendible</strong>, iff it is $A$-extendible,
+where $A$ is the $Σ_n$-truth predicate. (This is a different notion
+than $\Sigma_n$-extendible
+cardinals.)<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+</ul>
+
+<p>Results:</p>
+
+<ul>
+  <li>The <a href="Vopenka" title="Vopenka">Vopěnka
+principle</a>
+is equivalent over GBC to both following statements:
+    <ul>
+      <li>For every class $A$, there is an $A$-extendible cardinal.</li>
+      <li>For every class $A$, there is a stationary proper class of
+$A$-extendible cardinals.</li>
+    </ul>
+  </li>
+  <li>……</li>
+</ul>
+
+<h3 id="virtually-extendible-cardinals">
+<a class="anchor" href="#virtually-extendible-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Virtually extendible cardinals</h3>
+
+<p>Definitions:</p>
+
+<ul>
+  <li>A cardinal $κ$ is (weakly? strongly? ……) <strong>virtually
+extendible</strong> iff for every $α &gt; κ$, in a set-forcing extension
+there is an elementary embedding $j : V_α → V_β$ with
+$\mathrm{crit(j)} = κ$ and $j(κ) &gt; α$.
+    <ul>
+      <li>
+<strong>$C^{(n)}$-virtually extendible</strong> cardinals require
+additionally that $j(κ)$ has property $C^{(n)}$ (i.e.
+$\Sigma_n$-<a href="Correct" class="mw-redirect" title="Correct">correctness</a>).<a class="citation" href="#Gitmana">(Gitman &amp; Shindler, n.d.)</a>
+</li>
+    </ul>
+  </li>
+  <li>A cardinal $κ$ is <strong>(weakly) virtually $A$-extendible</strong>, for a class
+$A$, iff for every ordinal $λ &gt; κ$ there is an ordinal $θ$ such
+that in a set-forcing extension, there is an elementary embedding
+$j : \langle V_λ , ∈, A ∩ V_λ \rangle → \langle V_θ , ∈, A ∩
+V_θ \rangle$
+with critical point $κ$.
+    <ul>
+      <li>For <strong>(strongly) virtually $A$-extendible</strong> $κ$, we require
+additionally $λ &lt;
+j(κ)$.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+    </ul>
+  </li>
+  <li>A cardinal $κ$ is
+<strong>$n$-<a href="Remarkable" title="Remarkable">remarkable</a></strong>,
+for $n &gt; 0$, iff for every $η &gt; κ$ in
+<a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$</a>
+, there is $α&lt;κ$ also in $C^{(n)}$ such that in $V^{Coll(ω, &lt;
+κ)}$, there is an elementary embedding $j : V_α → V_η$ with
+$j(\mathrm{crit}(j)) = κ$.
+    <ul>
+      <li>A cardinal is <strong>completely remarkable</strong> iff it is $n$-remarkable
+for all $n &gt;
+0$.<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>
+</li>
+    </ul>
+  </li>
+  <li>A cardinal κ is weakly or strongly virtually $(Σ_n)$-extendible,
+iff it is respectively weakly or strongly virtually $A$-extendible,
+where $A$ is the $Σ_n$-truth
+predicate.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+</ul>
+
+<p>Equivalence and hierarchy:</p>
+
+<ul>
+  <li>$1$-remarkability is equivalent to remarkability. A cardinal is
+virtually $C^{(n)}$-extendible iff it is $n + 1$-remarkable
+(virtually extendible cardinals are virtually
+$C^{(1)}$-extendible).<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>
+</li>
+  <li>Weakly and strongly $A$-extendible cardinal are non-equivalent,
+although in the non-virtual context, the weak and strong forms of
+$A$-extendibility
+coincide.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+  <li>It is relatively consistent with GBC that every class $A$ admits a
+(weakly) virtually $A$-extendible cardinal (and so the generic
+Vopěnka principle holds), but no class $A$ admits a (strongly)
+virtually $A$-extendible
+cardinal.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+  <li>Every $n$-remarkable cardinal is in
+$C^{(n+1)}$.<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>
+</li>
+  <li>Every $n+1$-remarkable cardinal is a limit of $n$-remarkable
+cardinals.<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>
+</li>
+</ul>
+
+<p>Upper limits for strength:</p>
+
+<ul>
+  <li>If $κ$ is
+<a href="Shelah" class="mw-redirect" title="Shelah">virtually Shelah for supercompactness</a>
+or 2-iterable, then $V_κ$ is a model of proper class many virtually
+$C^{(n)}$-extendible cardinals for every $n &lt;
+ω$.<a class="citation" href="#Gitmana">(Gitman &amp; Shindler, n.d.)</a>
+</li>
+  <li>If $κ$ is <a href="Huge" title="Huge">virtually
+huge*</a>,
+then $V_κ$ is a model of proper class many virtually extendible
+cardinals.<a class="citation" href="#Gitmana">(Gitman &amp; Shindler, n.d.)</a>
+</li>
+  <li>Completely remarkable cardinals can exist in
+$L$.<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>
+</li>
+  <li>For a
+$2$-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
+cardinal $κ$, $V_κ$ is a model of proper class many completely
+remarkable
+cardinals.<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>
+</li>
+  <li>If $0^\#$ exists, then every
+<a href="Silver_indiscernible" class="mw-redirect" title="Silver indiscernible">Silver indiscernible</a>
+is in $L$ completely remarkable and virtually $A$-extendible for
+every definable class
+$A$. <a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018; Bagaria et al., 2017)</a>
+</li>
+</ul>
+
+<p>Lower limit for strength:</p>
+
+<ul>
+  <li>Virtually extendible cardinals are
+<a href="Remarkable" title="Remarkable">remarkable</a>
+limits of remarkable cardinals and
+1-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
+limits of 1-iterable
+cardinals.<a class="citation" href="#Gitmana">(Gitman &amp; Shindler, n.d.)</a>
+</li>
+</ul>
+
+<p>In relation to
+<a href="Generic_Vop%C4%9Bnka%27s_Principle" class="mw-redirect" title="Generic Vopěnka's Principle">Generic Vopěnka’s Principle</a>:(from
+<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a> unless
+noted otherwise)</p>
+
+<ul>
+  <li>The following are equiconsistent
+    <ul>
+      <li>$gVP(Π_n)$</li>
+      <li>$gVP(κ, \mathbf{Σ_{n+1}})$ for some $κ$</li>
+      <li>There is an $n$-remarkable cardinal.</li>
+    </ul>
+  </li>
+  <li>The following are equiconsistent
+    <ul>
+      <li>$gVP(\mathbf{Π_n})$</li>
+      <li>$gVP(κ, \mathbf{Σ_{n+1}})$ for a proper class of $κ$</li>
+      <li>There is a proper class of $n$-remarkable cardinals.</li>
+    </ul>
+  </li>
+  <li>$κ$ is the least for which $gVP^∗(κ, \mathbf{Σ_{n+1}})$ holds.
+$\iff κ$ is the least $n$-remarkable cardinal.</li>
+  <li>If $gVP^∗(Π_n)$, then there is an $n$-remarkable cardinal.</li>
+  <li>If $gVP^∗(\mathbf{Π_n})$ holds, then there is a proper class of
+$n$-remarkable cardinals.</li>
+  <li>If there is a proper class of $n$-remarkable cardinals, then
+$gVP(Σ_{n+1})$
+holds.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+  <li>If $gVP(Σ_{n+1})$ holds, then either there is a proper class of
+$n$-remarkable cardinals or there is a proper class of
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
+cardinals.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+  <li>The generic Vopěnka scheme is equivalent over ZFC to the scheme
+asserting of every definable class $A$ that there is a proper class
+of weakly virtually $A$-extendible
+cardinals.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+  <li>Open problems: Must there be an $n$-remarkable cardinal
+    <ul>
+      <li>if $gVP(κ, \mathbf{Σ_{n+1}})$ holds for some $κ$.</li>
+      <li>if $gVP(Π_n)$ holds.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>……</p>
+
+<h2 id="in-set-theoretic-geology">
+<a class="anchor" href="#in-set-theoretic-geology" aria-hidden="true"><span class="octicon octicon-link"></span></a>In set-theoretic geology</h2>
+
+<p>If $κ$ is extendible then the
+$κ$-<a href="Mantle" class="mw-redirect" title="Mantle">mantle</a>
+of $V$ is its smallest ground (so of course the mantle is a ground of
+V).<a class="citation" href="#Usuba2019">(Usuba, 2019)</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    This article is a stub. Please help us to improve Cantor's Attic by adding information.
+</code></pre></div></div>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Usuba2019">Usuba, T. (2019). Extendible cardinals and the mantle. <i>Archive for Mathematical Logic</i>, <i>58</i>(1-2), 71–75. https://doi.org/10.1007/s00153-018-0625-4</span></li>
+<li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Bagaria2012">Bagaria, J. (2012). \(C^{(n)}\)-cardinals. <i>Archive for Mathematical Logic</i>, <i>51</i>(3–4), 213–240. https://doi.org/10.1007/s00153-011-0261-8</span></li>
+<li><span id="Gitman2018">Gitman, V., &amp; Hamkins, J. D. (2018). <i>A model of the generic Vopěnka principle in which the ordinals are not Mahlo</i>.</span></li>
+<li><span id="Bagaria2013">Bagaria, J., Hamkins, J. D., Tsaprounis, K., &amp; Usuba, T. (2013). Superstrong and other large cardinals are never Laver indestructible. <i>Archive for Mathematical Logic</i>, <i>55</i>(1-2), 19–35. https://doi.org/10.1007/s00153-015-0458-3</span></li>
+<li><span id="Hamkins2016">Hamkins, J. D. (2016). <i>The Vopěnka principle is inequivalent to but conservative over the Vopěnka scheme</i>. http://jdh.hamkins.org/vopenka-principle-vopenka-scheme/</span></li>
+<li><span id="Gitmana">Gitman, V., &amp; Shindler, R. <i>Virtual large cardinals</i>. https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf</span></li>
+<li><span id="Bagaria2017a">Bagaria, J., Gitman, V., &amp; Schindler, R. (2017). Generic Vopěnkaś Principle, remarkable cardinals, and the weak Proper Forcing Axiom. <i>Arch. Math. Logic</i>, <i>56</i>(1-2), 1–20. https://doi.org/10.1007/s00153-016-0511-x</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

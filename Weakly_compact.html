@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Weakly compact cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Weakly compact cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Weakly_compact","@type":"WebPage","headline":"Weakly compact cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Weakly compact cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#weakly-compact-cardinals-and-the-constructible-universe">Weakly compact cardinals and the constructible universe</a></li>
+<li class="toc-entry toc-h2"><a href="#weakly-compact-cardinals-and-forcing">Weakly compact cardinals and forcing</a></li>
+<li class="toc-entry toc-h2"><a href="#indestructibility-of-a-weakly-compact-cardinal">Indestructibility of a weakly compact cardinal</a></li>
+<li class="toc-entry toc-h2"><a href="#relations-with-other-large-cardinals">Relations with other large cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#sigma_n-weakly-compact-etc">$\Sigma_n$-weakly compact etc.</a></li>
+</ul><p>Weakly compact cardinals lie at the focal point of a number of diverse
+concepts in infinite combinatorics, admitting various characterizations
+in terms of these concepts. If $\kappa^{ {&lt;}\kappa} = \kappa$, then
+the following are equivalent:</p>
+
+<p>Weak compactness <br>
+A cardinal $\kappa$ is weakly compact if and only if it is
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+and every $\kappa$-satisfiable theory in an
+<a href="Infinitary_logic" title="Infinitary logic">$\mathcal{L}_{\kappa,\kappa}$</a>
+language of size at most $\kappa$ is satisfiable.</p>
+
+<p>Extension property <br>
+A cardinal $\kappa$ is weakly compact if and only if for every
+$A\subset V_\kappa$, there is a transitive structure $W$ properly
+extending $V_\kappa$ and $A^*\subset W$ such that $\langle
+V_\kappa,{\in},A\rangle\prec\langle W,{\in},A^*\rangle$.</p>
+
+<p>Tree property <br>
+A cardinal $\kappa$ is weakly compact if and only if it is
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+and has the <a href="Tree_property" title="Tree property">tree
+property</a>.</p>
+
+<p>Filter property <br>
+A cardinal $\kappa$ is weakly compact if and only if whenever $M$ is a
+set containing at most $\kappa$-many subsets of $\kappa$, then there
+is a $\kappa$-<a href="Filter" title="Filter">complete nonprincipal
+filter</a>
+$F$ measuring every set in $M$.</p>
+
+<p>Weak embedding property <br>
+A cardinal $\kappa$ is weakly compact if and only if for every
+$A\subset\kappa$ there is a transitive set $M$ of size $\kappa$ with
+$\kappa\in M$ and a transitive set $N$ with an
+<a href="Elementary_embedding" title="Elementary embedding">embedding</a>
+$j:M\to N$ with
+<a href="Critical_point" class="mw-redirect" title="Critical point">critical point</a>
+$\kappa$.</p>
+
+<p>Embedding characterization <br>
+A cardinal $\kappa$ is weakly compact if and only if for every
+transitive set $M$ of size $\kappa$ with $\kappa\in M$ there is a
+transitive set $N$ and an embedding $j:M\to N$ with critical point
+$\kappa$.</p>
+
+<p>Normal embedding characterization <br>
+A cardinal $\kappa$ is weakly compact if and only if for every
+$\kappa$-model $M$ there is a $\kappa$-model $N$ and an embedding
+$j:M\to N$ with critical point $\kappa$, such that $N=\{<br>
+j(f)(\kappa)\mid f\in M\ \}$.</p>
+
+<p>Hauser embedding characterization <br>
+A cardinal $\kappa$ is weakly compact if and only if for every
+$\kappa$-model $M$ there is a $\kappa$-model $N$ and an embedding
+$j:M\to N$ with critical point $\kappa$ such that $j,M\in N$.</p>
+
+<p>Partition property <br>
+A cardinal $\kappa$ is weakly compact if and only if the <a href="Partition_property" title="Partition property">partition
+property</a>
+$\kappa\to(\kappa)^2_2$ holds.</p>
+
+<p>Indescribability property <br>
+A cardinal $\kappa$ is weakly compact if and only if it is
+$\Pi_1^1$-<a href="Indescribable" title="Indescribable">indescribable</a>.</p>
+
+<p>Skolem Property <br>
+A cardinal $\kappa$ is weakly compact if and only if $\kappa$ is
+inaccessible and every $\kappa$-unboundedly satisfiable
+$\mathcal{L}_{\kappa,\kappa}$-theory $T$ of size at most $\kappa$
+has a model of size at least $\kappa$. A theory $T$ is
+$\kappa$-unboundedly satisfiable if and only if for any
+$\lambda&lt;\kappa$, there exists a model $\mathcal{M}\models T$
+with $\lambda\leq|M|&lt;\kappa$. For more info see
+<a href="https://mathoverflow.net/questions/309896/a-weakening-of-cardinal-compactness-is-it-equivalent/309937#309937" class="external text">here</a>.</p>
+
+<p>Weakly compact cardinals first arose in connection with (and were named
+for) the question of whether certain <a href="Infinitary_logic" title="Infinitary logic">infinitary
+logics</a>
+satisfy the compactness theorem of first order logic. Specifically, in a
+language with a signature consisting, as in the first order context, of
+a set of constant, finitary function and relation symbols, we build up
+the language of $\mathcal{L}_{\kappa,\lambda}$ formulas by closing
+the collection of formulas under infinitary conjunctions
+$\wedge_{\alpha&lt;\delta}\varphi_\alpha$ and disjunctions
+$\vee_{\alpha&lt;\delta}\varphi_\alpha$ of any size
+$\delta&lt;\kappa$, as well as infinitary quantification
+$\exists\vec x$ and $\forall\vec x$ over blocks of variables $\vec
+x=\langle x_\alpha\mid\alpha&lt;\delta\rangle$ of size less than
+$\kappa$. A theory in such a language is <em>satisfiable</em> if it has a
+model under the natural semantics. A theory is <em>$\theta$-satisfiable</em>
+if every subtheory consisting of fewer than $\theta$ many sentences of
+it is satisfiable. First order logic is precisely
+$L_{\omega,\omega}$, and the classical Compactness theorem asserts
+that every $\omega$-satisfiable $\mathcal{L}_{\omega,\omega}$
+theory is satisfiable. A uncountable cardinal $\kappa$ is <em><a href="Strongly_compact" title="Strongly compact">strongly
+compact</a></em>
+if every $\kappa$-satisfiable $\mathcal{L}_{\kappa,\kappa}$ theory
+is satisfiable. The cardinal $\kappa$ is <em>weakly compact</em> if every
+$\kappa$-satisfiable $\mathcal{L}_{\kappa,\kappa}$ theory, in a
+language having at most $\kappa$ many constant, function and relation
+symbols, is satisfiable.</p>
+
+<p>Next, for any cardinal $\kappa$, a <em>$\kappa$-tree</em> is a tree of height
+$\kappa$, all of whose levels have size less than $\kappa$. More
+specifically, $T$ is a <em>tree</em> if $T$ is a partial order such that the
+predecessors of any node in $T$ are well ordered. The $\alpha^{\rm
+th}$ level of a tree $T$, denoted $T_\alpha$, consists of the nodes
+whose predecessors have order type exactly $\alpha$, and these nodes
+are also said to have <em>height</em> $\alpha$. The height of the tree $T$ is
+the first $\alpha$ for which $T$ has no nodes of height $\alpha$. A
+“”$\kappa$-branch”” through a tree $T$ is a maximal linearly ordered
+subset of $T$ of order type $\kappa$. Such a branch selects exactly one
+node from each level, in a linearly ordered manner. The set of
+$\kappa$-branches is denoted $[T]$. A $\kappa$-tree is an
+<em>Aronszajn</em> tree if it has no $\kappa$-branches. A cardinal $\kappa$
+has the <em>tree property</em> if every $\kappa$-tree has a $\kappa$-branch.</p>
+
+<p>A transitive set $M$ is a $\kappa$-model of set theory if
+$|M|=\kappa$, $M^{\lt\kappa}\subset M$ and $M$ satisfies ZFC$^-$,
+the theory ZFC without the power set axiom (and using collection and
+separation rather than merely replacement). For any infinite cardinal
+$\kappa$ we have that $H_{\kappa^+}$ models ZFC$^-$, and further, if
+$M\prec H_{\kappa^+}$ and $\kappa\subset M$, then $M$ is
+transitive. Thus, any $A\in H_{\kappa^+}$ can be placed into such an
+$M$. If $\kappa^{\lt\kappa}=\kappa$, one can use the downward
+Löwenheim-Skolem theorem to find such $M$ with $M^{\lt\kappa}\subset
+M$. So in this case there are abundant $\kappa$-models of set theory
+(and conversely, if there is a $\kappa$-model of set theory, then
+$2^{\lt\kappa}=\kappa$).</p>
+
+<p>The partition property $\kappa\to(\lambda)^n_\gamma$ asserts that
+for every function $F:[\kappa]^n\to\gamma$ there is
+$H\subset\kappa$ with $|H|=\lambda$ such that
+$F\upharpoonright[H]^n$ is constant. If one thinks of $F$ as coloring
+the $n$-tuples, the partition property asserts the existence of a
+<em>monochromatic</em> set $H$, since all tuples from $H$ get the same color.
+The partition property $\kappa\to(\kappa)^2_2$ asserts that every
+partition of $[\kappa]^2$ into two sets admits a set
+$H\subset\kappa$ of size $\kappa$ such that $[H]^2$ lies on one
+side of the partition. When defining $F:[\kappa]^n\to\gamma$, we
+define $F(\alpha_1,\ldots,\alpha_n)$ only when
+$\alpha_1&lt;\cdots&lt;\alpha_n$.</p>
+
+<h2 id="weakly-compact-cardinals-and-the-constructible-universe">
+<a class="anchor" href="#weakly-compact-cardinals-and-the-constructible-universe" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weakly compact cardinals and the constructible universe</h2>
+
+<p>Every weakly compact cardinal is weakly compact in
+<a href="Constructible_universe" title="Constructible universe">$L$</a>.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p>Nevertheless, the weak compactness property is not generally downward
+absolute between transitive models of set theory.</p>
+
+<h2 id="weakly-compact-cardinals-and-forcing">
+<a class="anchor" href="#weakly-compact-cardinals-and-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weakly compact cardinals and forcing</h2>
+
+<ul>
+  <li>Weakly compact cardinals are invariant under small forcing.
+<a href="http://www.math.csi.cuny.edu/~fuchs/IndestructibleWeakCompactness.pdf" class="external autonumber">[1]</a>
+</li>
+  <li>Weakly compact cardinals are preserved by the canonical forcing of
+the GCH, by fast function forcing and many other forcing notions [
+<a href="Library" title="Library"><em>citation
+needed</em></a>
+].</li>
+  <li>If $\kappa$ is weakly compact, there is a forcing extension in
+which $\kappa$ remains weakly compact and $2^\kappa\gt\kappa$ [
+<a href="Library" title="Library"><em>citation
+needed</em></a>
+].</li>
+  <li>If the existence of weakly compact cardinals is consistent with ZFC,
+then there is a model of ZFC in which $\kappa$ is not weakly
+compact, but becomes weakly compact in a forcing extension
+<a class="citation" href="#Kunen1978">(Kunen, 1978)</a>.</li>
+</ul>
+
+<h2 id="indestructibility-of-a-weakly-compact-cardinal">
+<a class="anchor" href="#indestructibility-of-a-weakly-compact-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Indestructibility of a weakly compact cardinal</h2>
+
+<p><em>To expand using
+<a href="https://arxiv.org/abs/math/9907046" class="external autonumber">[2]</a></em></p>
+
+<h2 id="relations-with-other-large-cardinals">
+<a class="anchor" href="#relations-with-other-large-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relations with other large cardinals</h2>
+
+<ul>
+  <li>Every weakly compact cardinal is
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>,
+<a href="Mahlo" title="Mahlo">Mahlo</a>,
+hyper-Mahlo, hyper-hyper-Mahlo and more.</li>
+  <li>
+<a href="Measurable" title="Measurable">Measurable</a>
+cardinals,
+<a href="Ramsey" title="Ramsey">Ramsey</a>
+cardinals, and <a href="Indescribable" title="Indescribable">totally
+indescribable</a>
+cardinals are all weakly compact and a stationary limit of weakly
+compact cardinals.</li>
+  <li>Assuming the consistency of a
+<a href="Strongly_unfoldable" class="mw-redirect" title="Strongly unfoldable">strongly unfoldable</a>
+cardinal with ZFC, it is also consistent for the least weakly
+compact cardinal to be the least
+<a href="Unfoldable" title="Unfoldable">unfoldable</a>
+cardinal.
+<a class="citation" href="#Cody2013">(Cody et al., 2013)</a>
+</li>
+  <li>If GCH holds, then the least weakly compact cardinal is not <a href="Weakly_measurable" title="Weakly measurable">weakly
+measurable</a>.
+However, if there is a
+<a href="Measurable" title="Measurable">measurable</a>
+cardinal, then it is consistent for the least weakly compact
+cardinal to be weakly measurable.
+<a class="citation" href="#Cody2013">(Cody et al., 2013)</a>
+</li>
+  <li>If it is consistent for there to be a <a href="Nearly_supercompact" title="Nearly supercompact">nearly
+supercompact</a>,
+then it is consistent for the least weakly compact cardinal to be
+nearly supercompact.
+<a class="citation" href="#Cody2013">(Cody et al., 2013)</a>
+</li>
+  <li>For a cardinal $κ=κ^{&lt;κ}$, $κ$ is weakly compact iff it is
+0-<a href="Ramsey" title="Ramsey">Ramsey</a>.
+<a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+</li>
+</ul>
+
+<h2 id="sigma_n-weakly-compact-etc">
+<a class="anchor" href="#sigma_n-weakly-compact-etc" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\Sigma_n$-weakly compact etc.</h2>
+
+<p>An inaccessible cardinal $κ$ is $Σ_n$-weakly compact iff it reflects
+$Π_1^1$ sentences with $Σ_n$-predicates, i.e. for every $R ⊆ V_κ$
+which is definable by a $Σ_n$ formula (with parameters) over $V_κ$ and
+every $Π_1^1$ sentence $Φ$, if $\langle V_κ , ∈, R \rangle \models
+Φ$ then there is $α &lt; κ$ (equivalently, unboundedly-many $α &lt; κ$)
+such that $\langle V_α , ∈, R ∩ V_α \rangle \models Φ$. Analogously
+for $Π_n$ and $∆_n$. $κ$ is $Σ_ω$-weakly compact iff it is
+$Σ_n$-weakly compact for all $n &lt; ω$.</p>
+
+<p>$κ$ is $Σ_n$-weakly compact $\iff$ $κ$ is $Π_n$-weakly compact
+$\iff$ $κ$ is $∆_{n+1}$-weakly compact $\iff$ For every $Π_1^1$
+formula $Φ(x_0 , …, x_k)$ in the language of set theory and every
+$a_0 , …, a_k ∈ V_κ$, if $V κ \models Φ(a_0 , …, a_k )$, then
+there is $λ ∈ I_n := \{λ &lt; κ : λ$ is inaccessible and $V_λ
+\preccurlyeq_n V_κ\}$ such that $V_λ \models Φ(a_0 , …, a_k)$.</p>
+
+<p>In <a class="citation" href="#Bosch2006">(Bosch, 2006)</a> it is shown
+that every $Σ_ω$-w.c. cardinal is
+$Σ_ω$-<a href="Mahlo" title="Mahlo">Mahlo</a>
+and the set of $Σ_ω$-Mahlo cardinals below a $Σ_ω$-w.c. cardinal is
+$Σ_ω$-stationary, but if κ is $Π_{n+1}$-Mahlo, then the set of
+$Σ_n$-w.c. cardinals below $κ$ is $Π_{n+1}$-stationary.</p>
+
+<p>These properties are connected with some forms of absoluteness. For
+example, the existence of a $Σ_ω$-w.c. cardinal is equiconsistent with
+the
+<a href="index.php?title=Generic_absoluteness_axiom&amp;action=edit&amp;redlink=1" class="new" title="Generic absoluteness axiom (page does not exist)">generic absoluteness axiom</a>
+$\mathcal{A}(L(\mathbb{R}), \underset{\sim}{Σ}_ω , Γ)$ where $Γ$ is
+the class of projective ccc forcing notions.</p>
+
+<p>This section
+from <a class="citation" href="#Leshem2000">(Leshem, 2000; Bagaria, 2006)</a></p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li>
+<li><span id="Kunen1978">Kunen, K. (1978). Saturated Ideals. <i>J. Symbolic Logic</i>, <i>43</i>(1), 65–76. http://www.jstor.org/stable/2271949</span></li>
+<li><span id="Cody2013">Cody, B., Gitik, M., Hamkins, J. D., &amp; Schanker, J. (2013). <i>The Least Weakly Compact Cardinal Can Be Unfoldable, Weakly Measurable and Nearly θ-Supercompact</i>.</span></li>
+<li><span id="Nielsen2018">Nielsen, D. S., &amp; Welch, P. (2018). <i>Games and Ramsey-like cardinals</i>.</span></li>
+<li><span id="Bosch2006">Bosch, R. (2006). Small Definably-large Cardinals. <i>Set Theory. Trends in Mathematics</i>, 55–82. https://doi.org/10.1007/3-7643-7692-9_3</span></li>
+<li><span id="Leshem2000">Leshem, A. (2000). On the consistency of the definable tree property on \aleph_1. <i>J. Symbolic Logic</i>, <i>65</i>(3), 1204–1214. https://doi.org/10.2307/2586696</span></li>
+<li><span id="Bagaria2006">Bagaria, J. (2006). Axioms of generic absoluteness. <i>Logic Colloquium 2002</i>. https://doi.org/10.1201/9781439865903</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

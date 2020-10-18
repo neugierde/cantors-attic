@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Strong cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Strong cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Strong","@type":"WebPage","headline":"Strong cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Strong cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definitions-of-strongness">Definitions of Strongness</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#elementary-embedding-characterization">Elementary Embedding Characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#extender-characterization">Extender Characterization</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#definitions-of-hypermeasurability">Definitions of Hypermeasurability</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#elementary-embedding-characterization-1">Elementary Embedding Characterization</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#facts-about-strongness-and-hypermeasurability">Facts about Strongness and Hypermeasurability</a></li>
+<li class="toc-entry toc-h2"><a href="#core-model-up-to-strongness">Core Model up to Strongness</a></li>
+</ul><p>Strong cardinals were created as a weakening of
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinals introduced by Dodd and Jensen in 1982
+<a class="citation" href="#Jech2003">(Jech, 2003)</a>. They are defined as a strengthening
+of
+<a href="Measurable" title="Measurable">measurability</a>,
+being that they are critical points of <a href="Elementary_embedding" title="Elementary embedding">elementary
+embeddings</a>
+$j:V\rightarrow M$ for some transitive inner model of
+<a href="ZFC" title="ZFC">ZFC</a> $M$.
+Hypermeasurability is a weakening of strongness (the property of being a
+strong cardinal is often called strongness), although if
+$\lambda=\beth_\lambda$ then a cardinal is $\lambda$-strong iff it
+is $\lambda$-hypermeasurable.</p>
+
+<h2 id="definitions-of-strongness">
+<a class="anchor" href="#definitions-of-strongness" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions of Strongness</h2>
+
+<p>There are multiple equivalent definitions of strongness, using
+<a href="Elementary_embedding" title="Elementary embedding">elementary
+embeddings</a>
+and
+<a href="index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extenders</a>.</p>
+
+<h3 id="elementary-embedding-characterization">
+<a class="anchor" href="#elementary-embedding-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Elementary Embedding Characterization</h3>
+
+<p>A cardinal $\kappa$ is <strong>$\gamma$-strong</strong> iff it is the critical
+point of some elementary embedding $j:V\rightarrow M$ for some
+transitive class $M$ such that $V_\gamma\subset M$. A cardinal
+$\kappa$ is <strong>strong</strong> iff it is $\gamma$-strong for each $\gamma$,
+iff it is $\gamma$-strong for arbitrarily large $\gamma$, iff for each
+set $x$, $\kappa$ is the critical point of some elementary embedding
+$j:V\rightarrow M$ for some transitive class $M$ such that $x\in M$.</p>
+
+<p>More intuitively, there are elementary embeddings from $V$ into
+transitive classes which have critical point $\kappa$ and (in total)
+contain any set one wishes.</p>
+
+<h3 id="extender-characterization">
+<a class="anchor" href="#extender-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Extender Characterization</h3>
+
+<p>A cardinal $\kappa$ is <strong>strong</strong> iff it is
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+and for every set $X$ of rank $\lambda\geq\kappa$, there is a
+$(\kappa,\beth_\lambda^+)$-extender $E$ such that, letting the
+<a href="Ultrapower" title="Ultrapower">ultrapower</a>
+of $V$ by $E$ be called $Ult_E$ and the canonical ultrapower embedding
+from $V$ to $Ult_E$ be called $j$, $X\in Ult_E$ and
+$\lambda&lt;j(\kappa)$. <a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p>Once again, a more intuitive way to think about strongness is that there
+are many $(\kappa,\lambda)$-extenders $E$.</p>
+
+<h2 id="definitions-of-hypermeasurability">
+<a class="anchor" href="#definitions-of-hypermeasurability" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions of Hypermeasurability</h2>
+
+<p>The definitions of hypermeasurability are very similar to the
+definitions of strongness, mainly because hypermeasurability is a
+generalized version of strongness. The intuition behind each definition
+is also very similar to that of the matching definitions of strongness.</p>
+
+<h3 id="elementary-embedding-characterization-1">
+<a class="anchor" href="#elementary-embedding-characterization-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Elementary Embedding Characterization</h3>
+
+<p>A cardinal $\kappa$ is <strong>$x$-hypermeasurable</strong> for a set $x$ iff it is
+the critical point of some elementary embedding $j:V\rightarrow M$ for
+some transitive class $M$ such that $x\in M$. A cardinal $\kappa$ is
+<strong>$\lambda$-hypermeasurable</strong> iff it is $H_\lambda$-hypermeasurable
+(where $H_\lambda$ is the set of all sets of <a href="Hereditary_Cardinality" title="Hereditary Cardinality">hereditary
+cardinality</a>
+less than $\lambda$).</p>
+
+<p>Note that a cardinal is $\gamma$-strong iff it is $x$-hypermeasurable
+for every $x\in V_\gamma$ (iff it is $V_\gamma$-hypermeasurable as
+well) and a cardinal is strong iff it is $x$-hypermeasurable for every
+$x$.</p>
+
+<h2 id="facts-about-strongness-and-hypermeasurability">
+<a class="anchor" href="#facts-about-strongness-and-hypermeasurability" aria-hidden="true"><span class="octicon octicon-link"></span></a>Facts about Strongness and Hypermeasurability</h2>
+
+<p>Here is a list of facts about these cardinals:</p>
+
+<ul>
+  <li>A cardinal $\kappa$ is $\gamma$-strong if and only if $\kappa$ is
+$\beth_\gamma$-hypermeasurable, by definition.</li>
+  <li>In particular, $\kappa$ is
+$\mathcal{P}^2(\kappa)$-hypermeasurable if and only if it is
+$\kappa+2$-strong. This hypothesis appears in many theorems.</li>
+  <li>A cardinal $\kappa$ is
+<a href="Measurable" title="Measurable">measurable</a>
+if and only if it is $\kappa^+$-hypermeasurable, since
+$\mathcal{P}(\kappa)\subset M$ for any $j:V\to M$ with critical
+point $\kappa$.</li>
+  <li>If there is an $x$-hypermeasurable cardinal, then $V\neq L[x]$.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+  <li>Every
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinal $\kappa$ is strong and has $\kappa$ strong cardinals
+below it, as well as being a stationary limit of
+$\{\lambda&lt;\kappa:\lambda$ is strong$\}$</li>
+  <li>The <a href="Mitchell_rank" title="Mitchell rank">Mitchell
+rank</a>
+of any strong cardinal $o(\kappa)=(2^\kappa)^+$.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+  <li>Any strong cardinal is
+<a href="Reflecting" title="Reflecting">$\Sigma_2$-reflecting</a>.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+  <li>Every strong cardinal is <a href="Unfoldable" title="Unfoldable">strongly
+unfoldable</a>
+and thus <a href="Indescribable" title="Indescribable">totally
+indescribable</a>.
+<a class="citation" href="#Gitman2011">(Gitman, 2011)</a> Therefore, each of
+the following is never strong:
+    <ul>
+      <li>The least
+<a href="Measurable" title="Measurable">measurable</a>
+cardinal.</li>
+      <li>The least $\kappa$ which is
+<a href="Supercompact" title="Supercompact">$2^\kappa$-supercompact</a>,
+the least $\kappa$ which is
+<a href="Supercompact" title="Supercompact">$2^{2^\kappa}$-supercompact</a>,
+etc.</li>
+      <li>For each $n$, the least
+<a href="Huge" title="Huge">$n$-huge</a>
+index cardinal (that is, the least <em>target</em> of an embedding
+witnessing $n$-hugeness of some cardinal) and the least $n$-huge
+cardinal.</li>
+      <li>For each $n&lt;\omega$, The least $\kappa$ such that there is
+some embedding $j:V_{\lambda+n}\prec V_{\kappa+n}$ with
+critical point $\lambda$ for some $\lambda&lt;\kappa$ (see
+<a href="Extendible" title="Extendible">$n$-extendible</a>).</li>
+      <li>The least $\kappa$ which is both $2^\kappa$-supercompact and
+<a href="Vopenka" title="Vopenka">Vopěnka</a>,
+the least $\kappa$ which is both $2^{2^\kappa}$-supercompact
+and Vopěnka, etc., the least $\kappa$ which is both measurable
+and Vopěnka, for each $n$ the least Vopěnka $\kappa$ such that
+there is some embedding $j:V_{\lambda+n}\prec V_{\kappa+n}$
+with critical point $\lambda$ for some $\lambda&lt;\kappa$,
+and more.</li>
+    </ul>
+  </li>
+  <li>If there is a strong cardinal then $V\neq L[A]$ for every set
+$A$.</li>
+  <li>Assuming both a strong cardinal and a
+<a href="Superstrong" title="Superstrong">superstrong</a>
+cardinal exist, and the least strong cardinal $\kappa$ has a
+superstrong above it, then the least strong cardinal has $\kappa$
+superstrong cardinals below it.</li>
+  <li>Every strong cardinal is tall. The existence of a tall cardinal is
+equiconsistent with the existence of a strong cardinal.</li>
+  <li>A cardinal $κ$ is
+<a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-strong</a>
+iff for every $λ &gt; κ$, $κ$ is $λ$-$C^{(n)}$-strong, that is,
+there exists an elementary embedding $j : V → M$ for transitive $M$,
+with $crit(j) = κ$, $j(κ) &gt; λ$, $V_λ ⊆ M$ and $j(κ) ∈ C^{(n)}$.
+    <ul>
+      <li>Equivalently (see <a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+26.7), κ is $λ$-$C^{(n)}$-strong iff there exists a $(κ,
+β)$-extender $E$, for some $β &gt; |V_λ|$, with $V_λ ⊆ M_E$
+and $λ &lt; j_E(κ) ∈ C^{(n)}$.</li>
+      <li>Every $λ$-strong cardinal is $λ$-$C^{(n)}$-strong for all $n$.
+Hence, every strong cardinal is $C^{(n)}$-strong for all
+$n$.<a class="citation" href="#Bagaria2012">(Bagaria, 2012)</a>
+</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="core-model-up-to-strongness">
+<a class="anchor" href="#core-model-up-to-strongness" aria-hidden="true"><span class="octicon octicon-link"></span></a>Core Model up to Strongness</h2>
+
+<p>Dodd and Jensen created a <a href="Core_model" title="Core model">core
+model</a>
+based on sequences of
+<a href="index.php?title=Extender&amp;action=edit&amp;redlink=1" class="new" title="Extender (page does not exist)">extenders</a>
+of strong cardinals. They constructed a sequence of extenders
+$\mathcal{E}$ such that: <a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<ul>
+  <li>
+<a href="L" class="mw-redirect" title="L">$L[\mathcal{E}]$</a>
+is an inner model of
+<a href="ZFC" title="ZFC">ZFC</a>.</li>
+  <li>$L[\mathcal{E}]$ satisfies
+<a href="GCH" class="mw-redirect" title="GCH">GCH</a>,
+the square principle, and the existence of a $\Sigma_3^1$
+well-ordering of $\mathbb{R}$.</li>
+  <li>$L[\mathcal{E}]$ satisfies that $\mathcal{E}$ witnesses the
+existence of a strong cardinal</li>
+  <li>If there does not exist an inner model of the existence of a strong
+cardinal, then:
+    <ul>
+      <li>There is no nontrivial elementary embedding
+$j:L[\mathcal{E}]\rightarrow L[\mathcal{E}]$</li>
+      <li>If $\kappa$ is a singular <a href="Beth" title="Beth">strong
+limit</a>
+cardinal then $(\kappa^+)^{L[\mathcal{E}]}=\kappa^+$</li>
+    </ul>
+  </li>
+</ul>
+
+<p>As one can see, $L[\mathcal{E}]$ is a core model up to strongness.
+Dodd and Jensen also constructed a “sharp” defined analogously to
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{#}$</a>,
+but instead of using $L$ one uses $L[\mathcal{E}]$. They then showed
+that there is a nontrivial elementary embedding
+$j:L[\mathcal{E}]\rightarrow L[\mathcal{E}]$ iff such a real
+exists. <a class="citation" href="#Jech2003">(Jech, 2003)</a> This real is commonly
+referred to as <em>the sharp for a strong cardinal</em>.</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li>
+<li><span id="Gitman2011">Gitman, V. (2011). Ramsey-like cardinals. <i>The Journal of Symbolic Logic</i>, <i>76</i>(2), 519–540. http://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinals.pdf</span></li>
+<li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Bagaria2012">Bagaria, J. (2012). \(C^{(n)}\)-cardinals. <i>Archive for Mathematical Logic</i>, <i>51</i>(3–4), 213–240. https://doi.org/10.1007/s00153-011-0261-8</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

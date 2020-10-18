@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Graham’s number | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Graham’s number" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Graham's_number","@type":"WebPage","headline":"Graham’s number","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Graham's number</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#context">Context</a></li>
+<li class="toc-entry toc-h2"><a href="#definition">Definition</a></li>
+<li class="toc-entry toc-h2"><a href="#magnitude">Magnitude</a></li>
+</ul><p>Graham’s number, named after mathematician and former circus performer
+Ronald Graham, is a large number that arises as an upper bound on the
+solution to a problem in Ramsey theory.</p>
+
+<p>The number gained a degree of popular attention when Martin Gardner
+described it in the “Mathematical Games” section of Scientific American
+in November 1977, writing that, “In an unpublished proof, Graham has
+recently established … a bound so vast that it holds the record for
+the largest number ever used in a serious mathematical proof.” The 1980
+Guinness Book of World Records repeated Gardner’s claim, adding to the
+popular interest in this number. According to physicist John Baez,
+Graham invented the quantity now known as Graham’s number in
+conversation with Gardner himself. While Graham was trying to explain a
+result in Ramsey theory which he had derived with his collaborator B. L.
+Rothschild, Graham found that the quantity now known as Graham’s number
+was easier to explain than the actual number appearing in the proof.
+Because the number which Graham described to Gardner is larger than the
+number in the paper itself, both are valid upper bounds for the solution
+to the Ramsey-theory problem studied by Graham and Rothschild.</p>
+
+<p>Graham’s number is unimaginably larger than other well-known large
+numbers such as a googol, googolplex, and even larger than Skewes’
+number and Moser’s number. Indeed, like the last three of those numbers,
+the observable universe is far too small to contain an ordinary digital
+representation of Graham’s number, assuming that each digit occupies one
+Planck volume. Even power towers are beyond useless for this purpose,
+although it can be easily described by recursive formulas using Knuth’s
+up-arrow notation or equivalent, as was done by Graham. The last ten
+digits of Graham’s number are …2464195387.</p>
+
+<h2 id="context">
+<a class="anchor" href="#context" aria-hidden="true"><span class="octicon octicon-link"></span></a>Context</h2>
+
+<p>Graham’s number is connected to the following problem in Ramsey theory:</p>
+
+<p>Connect each pair of geometric vertices of an n-dimensional hypercube to
+obtain a complete graph on 2n vertices. Color each of the edges of this
+graph either red or blue. What is the smallest value of n for which
+every such coloring contains at least one single-colored complete
+subgraph on four coplanar vertices?</p>
+
+<p>In 1971, Graham and Rothschild proved that this problem has a solution
+N*, giving as a bound 6 ≤ N* ≤ N, with N being a large but explicitly
+defined number $\scriptstyle F^7(12) \;=\; F(F(F(F(F(F(F(12)))))))$,
+where $\scriptstyle F(n) \;=\; 2\uparrow^n 3$ in Knuth’s up-arrow
+notation; the number is between 4 → 2 → 8 → 2 and 2 → 3 → 9 → 2 in
+Conway chained arrow notation. This was reduced in 2013 via upper bounds
+on the Hales–Jewett number to $\scriptstyle N’ \;=\;
+2\;\uparrow\uparrow\;2\;\uparrow\uparrow\;2\;\uparrow\uparrow\;9$.
+The lower bound of 6 was later improved to 11 by Geoff Exoo in 2003, and
+to 13 by Jerome Barkley in 2008. Thus, the best known bounds for N* are
+13 ≤ N* ≤ N’.</p>
+
+<p>Graham’s number, G, is much larger than N: $\scriptstyle f^{64}(4)$,
+where $\scriptstyle f(n) \;=\; 3 \uparrow^n 3$. This weaker upper
+bound for the problem, attributed to an unpublished work of Graham, was
+eventually published and named by Martin Gardner in Scientific American
+in November 1977.</p>
+
+<h2 id="definition">
+<a class="anchor" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h2>
+
+<p>Using <a href="Knuth%27s_up-arrow_notation" title="Knuth's up-arrow notation">Knuth’s up-arrow
+notation</a>,
+Graham’s number G (as defined in Gardner’s Scientific American article)
+is</p>
+
+<p>$\left. \begin{matrix} G &amp;=&amp;3\underbrace{\uparrow \uparrow
+\cdots\cdots\cdots\cdots\cdots \uparrow}3 \\ &amp;
+&amp;3\underbrace{\uparrow \uparrow \cdots\cdots\cdots\cdots
+\uparrow}3 \\ &amp; &amp;\underbrace{\qquad\;\; \vdots \qquad\;\;}
+\\ &amp; &amp;3\underbrace{\uparrow \uparrow \cdots\cdot\cdot
+\uparrow}3 \\ &amp; &amp;3\uparrow \uparrow \uparrow \uparrow3
+\end{matrix} \right \} \text{64 layers} $</p>
+
+<p>where the number of arrows in each layer, starting at the top layer, is
+specified by the value of the next layer below it; that is, $G =
+g_{64},\text{ where }g_1=3\uparrow\uparrow\uparrow\uparrow 3,<br>
+g_n = 3\uparrow^{g_{n-1}}3$, and where a superscript on an up-arrow
+indicates how many arrows there are. In other words, G is calculated in
+64 steps: the first step is to calculate g1 with four up-arrows between
+3s; the second step is to calculate g2 with g1 up-arrows between 3s; the
+third step is to calculate g3 with g2 up-arrows between 3s; and so on,
+until finally calculating G = g64 with g63 up-arrows between 3s.</p>
+
+<p>Equivalently, $G = f^{64}(4),\text{ where }f(n) = 3 \uparrow^n 3$, and
+the superscript on f indicates an iteration of the function, e.g.,
+$f^4(n) = f(f(f(f(n))))$. Expressed in terms of the family of
+hyperoperations $\text{H}_0, \text{H}_1, \text{H}_2, \cdots$, the
+function f is the particular sequence $\scriptstyle f(n) \;=\;
+\text{H}_{n+2}(3,3)$, which is a version of the rapidly growing
+Ackermann function A(n,n). (In fact, $\scriptstyle f(n) \;&gt;\;
+A(n,\, n)$ for all n.) The function f can also be expressed in Conway
+chained arrow notation as $\scriptstyle f(n) \;=\; 3 \rightarrow 3
+\rightarrow n$, and this notation also provides the following bounds on
+$G: 3\rightarrow 3\rightarrow 64\rightarrow 2 &lt; G &lt;
+3\rightarrow 3\rightarrow 65\rightarrow 2$.</p>
+
+<h2 id="magnitude">
+<a class="anchor" href="#magnitude" aria-hidden="true"><span class="octicon octicon-link"></span></a>Magnitude</h2>
+
+<p>To convey the difficulty of appreciating the enormous size of Graham’s
+number, it may be helpful to express—in terms of exponentiation
+alone—just the first term (g1) of the rapidly growing 64-term sequence.
+First, in terms of tetration ($\scriptstyle \uparrow\uparrow)$ alone:</p>
+
+<p>$g_1 = 3 \uparrow \uparrow \uparrow \uparrow 3 = 3 \uparrow
+\uparrow \uparrow (3 \uparrow \uparrow \uparrow 3) = 3
+\uparrow\uparrow (3 \uparrow\uparrow (3 \uparrow\uparrow \ \dots
+\ (3 \uparrow\uparrow 3) \dots )) $</p>
+
+<p>where the number of 3s in the expression on the right is</p>
+
+<p>$3 \uparrow \uparrow \uparrow 3 \ = \ 3 \uparrow \uparrow (3
+\uparrow \uparrow 3)$.</p>
+
+<p>Now each tetration $(\uparrow\uparrow)$ operation reduces to a “tower”
+of exponentiations $\uparrow)$ according to the definition</p>
+
+<p>$3 \uparrow\uparrow X \ = \ 3 \uparrow (3 \uparrow (3 \uparrow
+\dots (3 \uparrow 3) \dots )) \ = <br>
+3^{3^{\cdot^{\cdot^{\cdot^{3}}}}}$ Where there are X 3s.</p>
+
+<p>Thus,</p>
+
+<p>$g_1 = 3 \uparrow\uparrow (3 \uparrow\uparrow (3 \uparrow\uparrow
+\ \dots \ (3 \uparrow\uparrow 3) \dots )) \quad \text{where the
+number of 3s is} \quad 3 \uparrow \uparrow (3 \uparrow \uparrow 3)$</p>
+
+<p>becomes, solely in terms of repeated “exponentiation towers”,</p>
+
+<p>$g_1 = \left.
+\begin{matrix}3^{3^{\cdot^{\cdot^{\cdot^{\cdot^{3}}}}}}\end{matrix}
+\right \} \left.
+\begin{matrix}3^{3^{\cdot^{\cdot^{\cdot^{3}}}}}\end{matrix} \right
+\} \dots \left. \begin{matrix}3^{3^3}\end{matrix} \right \} 3
+\quad \text{where the number of towers is} \quad \left.
+\begin{matrix}3^{3^{\cdot^{\cdot^{\cdot^{3}}}}}\end{matrix} \right
+\} \left. \begin{matrix}3^{3^3}\end{matrix} \right \} 3 $</p>
+
+<p>and where the number of 3s in each tower, starting from the leftmost
+tower, is specified by the value of the next tower to the right.</p>
+
+<p>The magnitude of this first term, g1, is so large that it is practically
+incomprehensible, even though the above display is relatively easy to
+comprehend. Even n, the mere number of towers in this formula for g1, is
+far greater than the number of Planck volumes (roughly 10^185 of them)
+into which one can imagine subdividing the observable universe. And
+after this first term, still another 63 terms remain in the rapidly
+growing g sequence before Graham’s number G = g64 is reached.</p>
+
+<p>But even though Graham’s number is enormous, it still can be expressed
+easily with
+<a href="BEAF" title="BEAF">BEAF</a> arrays,
+or the <a href="Fast-growing_hierarchy" title="Fast-growing hierarchy">fast-growing
+hierarchy</a>.</p>
+
+<p>$f_{\omega+1}(64)=\underbrace{f_\omega(f_\omega\cdots(f_\omega(64)\cdots))}_\text{64
+f’s}&gt;&gt;{g’}_{64}&gt;&gt;g_{64}$, where
+${g’}_1=2\uparrow^{63}64$, and ${g’}_{n+1}=2\uparrow^{ {g’}_n}64$.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Ineffable cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Ineffable cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Ineffable","@type":"WebPage","headline":"Ineffable cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Ineffable cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#ineffable-cardinals-and-the-constructible-universe">Ineffable cardinals and the constructible universe</a></li>
+<li class="toc-entry toc-h2"><a href="#relations-with-other-large-cardinals">Relations with other large cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#weakly-ineffable-cardinal">Weakly ineffable cardinal</a></li>
+<li class="toc-entry toc-h2"><a href="#subtle-cardinal">Subtle cardinal</a></li>
+<li class="toc-entry toc-h2"><a href="#ethereal-cardinal">Ethereal cardinal</a></li>
+<li class="toc-entry toc-h2"><a href="#n-ineffable-cardinal">$n$-ineffable cardinal</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#helix">Helix</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#completely-ineffable-cardinal">Completely ineffable cardinal</a></li>
+</ul><p>Ineffable cardinals were introduced by Jensen and Kunen in
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a> and arose out of their study
+of $\diamondsuit$ principles. An uncountable regular cardinal $\kappa$
+is ineffable if for every sequence $\langle A_\alpha\mid
+\alpha&lt;\kappa\rangle$ with $A_\alpha\subseteq \alpha$ there is
+$A\subseteq\kappa$ such that the set $S=\{\alpha&lt;\kappa\mid
+A\cap \alpha=A_\alpha\}$ is stationary. Equivalently an uncountable
+regular $\kappa$ is ineffable if and only if for every function
+$F:[\kappa]^2\rightarrow 2$ there is a stationary
+$H\subseteq\kappa$ such that $F\upharpoonright [H]^2$ is constant
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>. This second characterization
+strengthens a characterization of weakly compact cardinals which
+requires that there exist such an $H$ of size $\kappa$.</p>
+
+<p>If $\kappa$ is ineffable, then $\diamondsuit_\kappa$ holds and there
+cannot be a slim $\kappa$-Kurepa tree
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>. A $\kappa$-Kurepa tree is
+a tree of height $\kappa$ having levels of size less than $\kappa$ and
+at least $\kappa^+$-many branches. A $\kappa$-Kurepa tree is slim if
+every infinite level $\alpha$ has size at most $|\alpha|$.</p>
+
+<p>An uncountable cardinal κ has the
+<a href="Filter_property" title="Filter property">normal filter property</a>
+iff it is
+ineffable. <a class="citation" href="#Holy2018">(Holy &amp; Schlicht, 2018)</a></p>
+
+<h2 id="ineffable-cardinals-and-the-constructible-universe">
+<a class="anchor" href="#ineffable-cardinals-and-the-constructible-universe" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ineffable cardinals and the constructible universe</h2>
+
+<p>Ineffable cardinals are downward absolute to $L$. In $L$, an
+inaccessible cardinal $\kappa$ is ineffable if and only if there are no
+slim $\kappa$-Kurepa trees. Thus, for inaccessible cardinals, in $L$,
+ineffability is completely characterized using slim Kurepa trees.
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a></p>
+
+<p>If <a href="Zero_sharp" title="Zero sharp">$0^\sharp$</a>
+exists, then every Silver indiscernible is ineffable in $L$.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p><a href="Ramsey" title="Ramsey">Ramsey</a>
+cardinals are stationary limits of completely ineffable cardinals, they
+are weakly ineffable, but the least Ramsey cardinal is not ineffable.
+Ineffable Ramsey cardinals are limits of Ramsey cardinals, because
+ineffable cardinals are $Π^1_2$-indescribable and being Ramsey is a
+$Π^1_2$-statement. The least strongly Ramsey cardinal also is not
+ineffable, but super weakly Ramsey cardinals are ineffable. $1$-iterable
+(=weakly Ramsey) cardinals are weakly ineffable and stationary limits of
+completely ineffable cardinals. The least $1$-iterable cardinal is not
+ineffable. <a class="citation" href="#Holy2018">(Holy &amp; Schlicht, 2018; Gitman, 2011)</a></p>
+
+<h2 id="relations-with-other-large-cardinals">
+<a class="anchor" href="#relations-with-other-large-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relations with other large cardinals</h2>
+
+<ul>
+  <li>
+<a href="Measurable" title="Measurable">Measurable</a>
+cardinals are ineffable and stationary limits of ineffable
+cardinals.</li>
+  <li>
+<a href="Erdos" title="Erdos">$\omega$-Erdős</a>
+cardinals are stationary limits of ineffable cardinals, but not
+ineffable since they are $\Pi_1^1$-describable.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+  <li>Ineffable cardinals are
+$\Pi^1_2$-<a href="Indescribable" title="Indescribable">indescribable</a>
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>.</li>
+  <li>Ineffable cardinals are limits of
+<a href="Totally_indescribable" title="Totally indescribable">totally indescribable</a>
+cardinals. (<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969; Abramson et al., 1977)</a> for proof)</li>
+  <li>For a cardinal $κ=κ^{&lt;κ}$, $κ$ is ineffable iff it is normal
+0-<a href="Ramsey" title="Ramsey">Ramsey</a>.
+<a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+</li>
+</ul>
+
+<h2 id="weakly-ineffable-cardinal">
+<a class="anchor" href="#weakly-ineffable-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weakly ineffable cardinal</h2>
+
+<p>Weakly ineffable cardinals (also called almost ineffable) were
+introduced by Jensen and Kunen in
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a> as a weakening of ineffable
+cardinals. An uncountable regular cardinal $\kappa$ is weakly ineffable
+if for every sequence $\langle A_\alpha\mid
+\alpha&lt;\kappa\rangle$ with $A_\alpha\subseteq \alpha$ there is
+$A\subseteq\kappa$ such that the set $S=\{\alpha&lt;\kappa\mid
+A\cap \alpha=A_\alpha\}$ has size $\kappa$. If $\kappa$ is weakly
+ineffable, then $\diamondsuit_\kappa$ holds.</p>
+
+<ul>
+  <li>Weakly ineffable cardinals are downward absolute to $L$.
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>
+</li>
+  <li>Weakly ineffable cardinals are
+$\Pi_1^1$-<a href="Indescribable" title="Indescribable">indescribable</a>.
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>
+</li>
+  <li>Ineffable cardinals are limits of weakly ineffable cardinals.</li>
+  <li>Weakly ineffable cardinals are limits of
+<a href="Totally_indescribable" title="Totally indescribable">totally indescribable</a>
+cardinals. <a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>
+(<a class="citation" href="#Abramson1977">(Abramson et al., 1977)</a> for proof)</li>
+  <li>For a cardinal $κ=κ^{&lt;κ}$, $κ$ is weakly ineffable iff it is
+genuine
+0-<a href="Ramsey" title="Ramsey">Ramsey</a>.
+<a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+</li>
+</ul>
+
+<h2 id="subtle-cardinal">
+<a class="anchor" href="#subtle-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Subtle cardinal</h2>
+
+<p>Subtle cardinals were introduced by Jensen and Kunen in
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a> as a weakening of weakly
+ineffable cardinals. A uncountable regular cardinal $\kappa$ is subtle
+if for every for every $\langle A_\alpha\mid
+\alpha&lt;\kappa\rangle$ with $A_\alpha\subseteq \alpha$ and
+every closed unbounded $C\subseteq\kappa$ there are
+$\alpha&lt;\beta$ in $C$ such that $A_\beta\cap\alpha=A_\alpha$.
+If $\kappa$ is subtle, then $\diamondsuit_\kappa$ holds.</p>
+
+<ul>
+  <li>Subtle cardinals are downward absolute to $L$.
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>
+</li>
+  <li>Weakly ineffable cardinals are limits of subtle cardinals.
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>
+</li>
+  <li>Subtle cardinals are stationary limits of
+<a href="Totally_indescribable" title="Totally indescribable">totally indescribable</a>
+cardinals. <a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969; Friedman, 1998)</a>
+</li>
+  <li>The least subtle cardinal is not weakly compact as it is
+$\Pi_1^1$-describable.</li>
+  <li>
+<a href="Erdos" title="Erdos">$\alpha$-Erdős</a>
+cardinals are subtle. <a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>
+</li>
+  <li>If $δ$ is a subtle cardinal,
+    <ul>
+      <li>the set of cardinals $κ$ below $δ$ that are <a href="Uplifting" title="Uplifting">strongly
+uplifting</a>
+in $V_δ$ is
+stationary. <a class="citation" href="#Hamkins2014a">(Hamkins &amp; Johnstone, 2014)</a>
+</li>
+      <li>for every class $\mathcal{A}$, in every club $B ⊆ δ$ there is
+$κ$ such that $\langle V_δ, \mathcal{A} ∩ V_δ \rangle
+\models \text{“$κ$ is
+$\mathcal{A}$-shrewd.”}$. <a class="citation" href="#Rathjen2006">(Rathjen, 2006)</a>
+(The set of cardinals $κ$ below $δ$ that are
+$\mathcal{A}$-<a href="Shrewd" title="Shrewd">shrewd</a>
+in $V_δ$ is stationary.)</li>
+      <li>there is an $\eta$-shrewd cardinal below $δ$ for all $\eta
+&lt; δ$. <a class="citation" href="#Rathjen2006">(Rathjen, 2006)</a>
+</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ethereal-cardinal">
+<a class="anchor" href="#ethereal-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ethereal cardinal</h2>
+
+<p><em>To be expanded.</em></p>
+
+<h2 id="n-ineffable-cardinal">
+<a class="anchor" href="#n-ineffable-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>$n$-ineffable cardinal</h2>
+
+<p>The $n$-ineffable cardinals for $2\leq n&lt;\omega$ were introduced by
+Baumgartner in <a class="citation" href="#Baumgartner1975">(Baumgartner, 1975)</a> as a
+strengthening of ineffable cardinals. A cardinal is $n$-ineffable if for
+every function $F:[\kappa]^n\rightarrow 2$ there is a stationary
+$H\subseteq\kappa$ such that $F\upharpoonright [H]^n$ is constant.</p>
+
+<ul>
+  <li>$2$-ineffable cardinals are exactly the ineffable cardinals.</li>
+  <li>an $n+1$-ineffable cardinal is a stationary limit of $n$-ineffable
+cardinals. <a class="citation" href="#Baumgartner1975">(Baumgartner, 1975)</a>
+</li>
+</ul>
+
+<p>A cardinal $\kappa$ is totally ineffable if it is $n$-ineffable for
+every $n$.</p>
+
+<ul>
+  <li>a $1$-iterable cardinal is a stationary limit of totally ineffable
+cardinals. (this follows from material in
+<a class="citation" href="#Gitman2011">(Gitman, 2011)</a>)</li>
+</ul>
+
+<h3 id="helix">
+<a class="anchor" href="#helix" aria-hidden="true"><span class="octicon octicon-link"></span></a>Helix</h3>
+
+<p>(Information in this subsection come from
+<a class="citation" href="#Friedman1998">(Friedman, 1998)</a> unless noted otherwise.)</p>
+
+<p>For $k \geq 1$ we define:</p>
+
+<ul>
+  <li>$\mathcal{P}(x)$ is the powerset (set of all subsets) of $x$.
+$\mathcal{P}_k(x)$ is the set of all subsets of $x$ with exactly
+$k$ elements.</li>
+  <li>$f:\mathcal{P}_k(\lambda) \to \mathcal{P}(\lambda)$ is
+regressive iff for all $A \in \mathcal{P}_k(\lambda)$, we have
+$f(A) \subseteq \min(A)$.</li>
+  <li>$E$ is $f$-homogenous iff $E \subseteq \lambda$ and for all $B,C
+\in \mathcal{P}_k(E)$, we have $f(B) \cap \min(B \cup C) =
+f(C) \cap \min(B \cup C)$.</li>
+  <li>$\lambda$ is $k$-subtle iff $\lambda$ is a limit ordinal and for
+all clubs $C \subseteq \lambda$ and regressive
+$f:\mathcal{P}_k(\lambda) \to \mathcal{P}(\lambda)$, there
+exists an $f$-homogenous $A \in \mathcal{P}_{k+1}(C)$.</li>
+  <li>$\lambda$ is $k$-almost ineffable iff $\lambda$ is a limit ordinal
+and for all regressive $f:\mathcal{P}_k(\lambda) \to
+\mathcal{P}(\lambda)$, there exists an $f$-homogenous $A
+\subseteq \lambda$ of cardinality $\lambda$.</li>
+  <li>$\lambda$ is $k$-ineffable iff $\lambda$ is a limit ordinal and
+for all regressive $f:\mathcal{P}_k(\lambda) \to
+\mathcal{P}(\lambda)$, there exists an $f$-homogenous stationary
+$A \subseteq \lambda$.</li>
+</ul>
+
+<p>$0$-subtle, $0$-almost ineffable and $0$-ineffable cardinals can be
+defined as “uncountable regular cardinals” because for $k \geq 1$ all
+three properties imply being uncountable regular cardinals.</p>
+
+<ul>
+  <li>For $k \geq 1$, if $\kappa$ is a $k$-ineffable cardinal, then
+$\kappa$ is $k$-almost ineffable and the set of $k$-almost
+ineffable cardinals is stationary in $\kappa$.</li>
+  <li>For $k \geq 1$, if $\kappa$ is a $k$-almost ineffable cardinal,
+then $\kappa$ is $k$-subtle and the set of $k$-subtle cardinals is
+stationary in $\kappa$.</li>
+  <li>For $k \geq 1$, if $\kappa$ is a $k$-subtle cardinal, then the set
+of $(k-1)$-ineffable cardinals is stationary in $\kappa$.</li>
+  <li>For $k \geq n \geq 0$, all $k$-ineffable cardinals are
+$n$-ineffable, all $k$-almost ineffable cardinals are $n$-almost
+ineffable and all $k$-subtle cardinals are $n$-subtle.</li>
+</ul>
+
+<p>This structure is similar to the <a href="N-fold_variants" title="N-fold variants">double helix of $n$-fold
+variants</a>
+and earlier known although
+smaller. <a class="citation" href="#Kentaro2007">(Kentaro, 2007)</a></p>
+
+<h2 id="completely-ineffable-cardinal">
+<a class="anchor" href="#completely-ineffable-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Completely ineffable cardinal</h2>
+
+<p>Completely ineffable cardinals were introduced in <a class="citation" href="#Abramson1977">(Abramson et al., 1977)</a>
+as a strengthening of ineffable cardinals. Define that a collection
+$R\subseteq P(\kappa)$ is a stationary class if</p>
+
+<ul>
+  <li>$R\neq\emptyset$,</li>
+  <li>for all $A\in R$, $A$ is stationary in $\kappa$,</li>
+  <li>if $A\in R$ and $B\supseteq A$, then $B\in R$.</li>
+</ul>
+
+<p>A cardinal $\kappa$ is completely ineffable if there is a stationary
+class $R$ such that for every $A\in R$ and $F:[A]^2\to2$, there is
+$H\in R$ such that $F\upharpoonright [H]^2$ is constant.</p>
+
+<p>Relations:</p>
+
+<ul>
+  <li>Completely ineffable cardinals are downward absolute to $L$.
+<a class="citation" href="#Abramson1977">(Abramson et al., 1977)</a>
+</li>
+  <li>Completely ineffable cardinals are limits of ineffable cardinals.
+<a class="citation" href="#Abramson1977">(Abramson et al., 1977)</a>
+</li>
+  <li>There are stationarily many completely ineffable, <a href="Erdos" title="Erdos">greatly
+Erdős</a>
+cardinals below any
+<a href="Ramsey" title="Ramsey">Ramsey</a>
+cardinal. <a class="citation" href="#Sharpe2011">(Sharpe &amp; Welch, 2011)</a>
+</li>
+  <li>The following are
+equivalent: <a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+    <ul>
+      <li>$κ$ is completely ineffable.</li>
+      <li>$κ$ is coherent $&lt;ω$-Ramsey.</li>
+      <li>$κ$ has the $ω$-<a href="Filter_property" title="Filter property">filter property</a>
+</li>
+    </ul>
+  </li>
+  <li>Every completely ineffable is a stationary limit of
+$&lt;ω$-Ramseys. <a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+</li>
+  <li>Completely Ramsey cardinals and $ω$-Ramsey cardinals are completely
+ineffable. <a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+</li>
+  <li>$ω$-Ramsey cardinals are limits of completely ineffable
+cardinals.<a class="citation" href="#Holy2018">(Holy &amp; Schlicht, 2018)</a>
+</li>
+</ul>
+
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Jensen1969">Jensen, R., &amp; Kunen, K. (1969). <i>Some combinatorial properties of L and V</i>. http://www.mathematik.hu-berlin.de/ raesch/org/jensen.html</span></li>
+<li><span id="Holy2018">Holy, P., &amp; Schlicht, P. (2018). A hierarchy of Ramsey-like cardinals. <i>Fundamenta Mathematicae</i>, <i>242</i>, 49–74. https://doi.org/10.4064/fm396-9-2017</span></li>
+<li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li>
+<li><span id="Gitman2011">Gitman, V. (2011). Ramsey-like cardinals. <i>The Journal of Symbolic Logic</i>, <i>76</i>(2), 519–540. http://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinals.pdf</span></li>
+<li><span id="Abramson1977">Abramson, F., Harrington, L., Kleinberg, E., &amp; Zwicker, W. (1977). Flipping properties: a unifying thread in the theory of large cardinals. <i>Ann. Math. Logic</i>, <i>12</i>(1), 25–58.</span></li>
+<li><span id="Nielsen2018">Nielsen, D. S., &amp; Welch, P. (2018). <i>Games and Ramsey-like cardinals</i>.</span></li>
+<li><span id="Friedman1998">Friedman, H. M. (1998). <i>Subtle cardinals and linear orderings</i>. https://u.osu.edu/friedman.8/files/2014/01/subtlecardinals-1tod0i8.pdf</span></li>
+<li><span id="Hamkins2014a">Hamkins, J. D., &amp; Johnstone, T. A. (2014). <i>Strongly uplifting cardinals and the boldface resurrection axioms</i>.</span></li>
+<li><span id="Rathjen2006">Rathjen, M. (2006). <i>The art of ordinal analysis</i>. http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf</span></li>
+<li><span id="Baumgartner1975">Baumgartner, J. (1975). Ineffability properties of cardinals. I. In <i>Infinite and finite sets (Colloq., Keszthely, 1973; dedicated to P. Erdős on his 60th birthday), Vol. I</i> (pp. 109–130. Colloq. Math. Soc. János Bolyai, Vol. 10). North-Holland.</span></li>
+<li><span id="Kentaro2007">Kentaro, S. (2007). Double helix in large large cardinals and iteration of elementary embeddings. <i>Annals of Pure and Applied Logic</i>, <i>146</i>(2-3), 199–236. https://doi.org/10.1016/j.apal.2007.02.003</span></li>
+<li><span id="Sharpe2011">Sharpe, I., &amp; Welch, P. (2011). Greatly Erdős cardinals with some generalizations to the Chang and Ramsey properties. <i>Ann. Pure Appl. Logic</i>, <i>162</i>(11), 863–902. https://doi.org/10.1016/j.apal.2011.04.002</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

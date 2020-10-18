@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Diagonalization | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Diagonalization" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Diagonalization","@type":"WebPage","headline":"Diagonalization","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Diagonalization</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#sequences">Sequences</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#ψ-function-sequences">ψ function sequences</a></li>
+</ul>
+</li>
+</ul><p>Diagonalization is a process that helps to directly compute values of
+hierarchies without having to go from the bottom. Each ordinal that is
+not a sucsessor has a fundemental sequence that helps. When we say some
+ordinal diagonalized to some finite number, we use: some
+ordinal[number] to express. You can replace any ordinal with the
+(whatever number you are diagonalizing to)th of the fundemental
+sequence.</p>
+
+<h1 id="sequences">
+<a class="anchor" href="#sequences" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sequences</h1>
+
+<p>The sequence for \(\omega\) is \(\lbrace 1,2,\cdots \rbrace\).</p>
+
+<p>The sequence for \(\omega2\) is \(\lbrace
+\omega+1,\omega+2,\cdots \rbrace\).</p>
+
+<p>The sequence for \(\omega3\) is \(\lbrace
+\omega2+1,\omega2+2,\cdots \rbrace\).</p>
+
+<p>\(\cdots\cdots\)</p>
+
+<p>The sequence for \(\omega^2\) is \(\lbrace
+\omega,\omega2,\omega3,\cdots \rbrace\).</p>
+
+<p>From now on, we just replace a loose \(\omega\) with the number we
+are diagonalizing to, and replace something like \(\omega3\) with
+\(\omega2+\omega\).</p>
+
+<p>The sequence for \(\omega^{\omega}\) is \(\lbrace
+\omega,\omega^2,\omega^3,\cdots \rbrace\).</p>
+
+<p>The sequence for \(\omega^{\omega^{\omega}}\) is \(\lbrace
+\omega^{\omega},\omega^{\omega^2},\omega^{\omega^3},\cdots
+\rbrace\)</p>
+
+<p>\(\cdots\)</p>
+
+<p>The sequence for \(\varepsilon_0\) is \(\lbrace
+1,\omega,\omega^{\omega},\omega^{\omega^{\omega}},\omega^{\omega^{\omega^{\omega}}},\cdots
+\rbrace\)</p>
+
+<p>The sequence for \(\varepsilon_1\) is \(\lbrace
+\omega^{\varepsilon_0+1},\omega^{\omega^{\varepsilon_0+1}},\omega^{\omega^{\omega^{\varepsilon_0+1}}},\cdots
+\rbrace\)</p>
+
+<p>The sequence for \(\varepsilon_2\) is \(\lbrace
+\omega^{\varepsilon_1+1},\omega^{\omega^{\varepsilon_1+1}},\omega^{\omega^{\omega^{\varepsilon_1+1}}},\cdots
+\rbrace\)</p>
+
+<p>\(\cdots\cdots\)</p>
+
+<p>The sequence for \(\varepsilon_{\omega}\) is \(\lbrace
+\varepsilon_1,\varepsilon_2,\varepsilon_3,\cdots \rbrace\)</p>
+
+<p>We can even replace loose ordinals with the thing it is supposed to turn
+into if it is alone.</p>
+
+<p>The sequence for \(\varepsilon_{\varepsilon_0}\) is \(\lbrace
+\varepsilon_1,\varepsilon_{\omega},\varepsilon_{\omega^{\omega}},\cdots
+\rbrace\)</p>
+
+<p>The sequence for \(\varepsilon_{\varepsilon_{\varepsilon_0}}\)
+is \(\lbrace
+\varepsilon_{\varepsilon_1},\varepsilon_{\varepsilon_{\omega}},\varepsilon_{\varepsilon_{\omega^{\omega}}},\cdots
+\rbrace\)</p>
+
+<p>\(\cdots\)</p>
+
+<p>The sequence for \(\zeta_0\) is \(\lbrace
+\varepsilon_0,\varepsilon_{\varepsilon_0},\varepsilon_{\varepsilon_{\varepsilon_0}},\varepsilon_{\varepsilon_{\varepsilon_{\varepsilon_0}}},\cdots
+\rbrace\)</p>
+
+<p>The sequence for \(\eta_0\) is \(\lbrace
+\zeta_0,\zeta_{\zeta_0},\zeta_{\zeta_{\zeta_0}},\zeta_{\zeta_{\zeta_{\zeta_0}}},\cdots
+\rbrace\)</p>
+
+<p>Now we introduce the Veblen function, which is defined as follows:</p>
+
+<p>1. \(\varphi_0(0)=1\)</p>
+
+<p>2. If \(\alpha\) is a succsessor, then
+\(\varphi_\alpha(0)[n]=\varphi_{\alpha-1}^n(0)\) and
+\(\varphi_\alpha(a)[n]=\varphi_{\alpha-1}^n(\varphi_\alpha(a-1)+1)\).</p>
+
+<p>3. If \(\beta\) is a limit ordinal, then
+\(\varphi_\beta(0)[n]=\varphi_n(0)\) and
+\(\varphi_\beta(a)[n]=\varphi_n(\varphi_\beta(a-1)+1)\).</p>
+
+<p>The sequence for \(\varphi_4(0)\) is \(\lbrace
+\eta_0,\eta_{\eta_0},\eta_{\eta_{\eta_0}},\eta_{\eta_{\eta_{\eta_0}}},\cdots
+\rbrace\)</p>
+
+<p>The sequence for \(\varphi_\omega(0)\) is \(\lbrace
+\varepsilon_0,\zeta_0,\eta_0,\varphi_4(0),\cdots \rbrace\)</p>
+
+<p>\(\cdots\cdots\)</p>
+
+<p>The sequence for \(\Gamma_0=\varphi(1,0,0)\) is \(\lbrace
+1,\varphi_1(0),\varphi_{\varphi_1(0)}(0),\cdots \rbrace\)</p>
+
+<p>Now we encounter large countable ordinals that can only be expressed
+with the <a href="Extended_Veblen_function" title="Extended Veblen function">Extended Veblen
+function</a>.</p>
+
+<p>The sequence for \(\Gamma_1=\varphi(1,0,1)\) is \(\lbrace
+\varphi_{\Gamma_0+1}(0),\varphi_{\varphi_{\Gamma_0+1}(0)}(0),\cdots
+\rbrace\)</p>
+
+<p>\(\cdots\cdots\)</p>
+
+<p>The sequence for
+\(\Gamma_{\Gamma_{\Gamma_\ddots}}=\varphi(1,1,0)\) is
+\(\lbrace stuck\)</p>
+
+<p>Well, that’s about it. The Wainer hierarchy only lasts up to the limit
+of the \(\Gamma\) function.</p>
+
+<h2 id="ψ-function-sequences">
+<a class="anchor" href="#%CF%88-function-sequences" aria-hidden="true"><span class="octicon octicon-link"></span></a>ψ function sequences</h2>
+
+<p>In <a href="Madore%27s_%CF%88_function" title="Madore's ψ function">Madore’s ψ
+function</a>,
+there is a thing called \(\Omega\).</p>
+
+<p>The sequence for \(\psi(\Omega^\omega+\Omega^3\omega2+\Omega)\)
+is</p>
+
+<p>\(\{\psi(0),\psi(\Omega^\omega+\Omega^3\omega2+\psi(0)),\psi(\Omega^\omega+\Omega^3\omega2+\psi(\Omega^\omega+\Omega^3\omega2+\psi(0))),\psi(\Omega^\omega+\Omega^3\omega2+\psi(\Omega^\omega+\Omega^3\omega2+\psi(\Omega^\omega+\Omega^3\omega2+\psi(0)))),\cdots\}\)</p>
+
+<p>Well, it’s like this.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

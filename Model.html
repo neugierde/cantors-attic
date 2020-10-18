@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Model | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Model" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Model","@type":"WebPage","headline":"Model","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Model</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#class-sized-transitive-models">Class-sized transitive models</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#mantle">Mantle</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#mantle-and-large-cardinals">Mantle and large cardinals</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#kappa-model">$\kappa$-model</a></li>
+</ul><p>A <strong>model</strong> of a theory $T$ is a set $M$ together with relations (eg.
+two: $a$ and $b$) satisfying all axioms of the theory $T$. Symbolically
+$\langle M, a, b \rangle \models T$. According to the Gödel
+completeness theorem, in $\mathrm{PA}$
+(<a href="index.php?title=Peano_arithmetic&amp;action=edit&amp;redlink=1" class="new" title="Peano arithmetic (page does not exist)">Peano arithmetic</a>)
+(so also in $\mathrm{ZFC}$) a theory has models iff it is consistent.
+According to Löwenheim–Skolem theorem, in $\mathrm{ZFC}$ if a countable
+first-order theory has an infinite model, it has infinite models of all
+cardinalities.</p>
+
+<p>A <strong>model</strong> of a set theory (eg. $\mathrm{ZFC}$) is a set $M$ such that
+the structure $\langle M,\hat\in \rangle$ satisfies all axioms of
+the set theory. If $\hat \in$ is base theory’s $\in$, the model is
+called a <strong>transitive model</strong>. Gödel completeness theorem and
+Löwenheim–Skolem theorem do not apply to transitive models. (But
+Löwenheim–Skolem theorem together with Mostowski collapsing lemma show
+that if there is a transitive model of ZFC, then there is a countable
+such model.) See
+<a href="Transitive_ZFC_model" class="mw-redirect" title="Transitive ZFC model">Transitive ZFC model</a>.</p>
+
+<h2 id="class-sized-transitive-models">
+<a class="anchor" href="#class-sized-transitive-models" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class-sized transitive models</h2>
+
+<p>One can also talk about class-sized transitive models. Inner model is a
+<a href="Transitive" title="Transitive">transitive</a>
+class (from other point of view, a class-sized transitive model (of ZFC
+or a weaker theory)) containing all ordinals.
+<a href="Forcing" title="Forcing">Forcing</a>
+creates outer models, but it can also be used in relation with inner
+models.<a class="citation" href="#Fuchs2015">(Fuchs et al., 2015)</a></p>
+
+<p>Among them are <em>canonical inner models</em> like</p>
+
+<ul>
+  <li>the <a href="Core_model" title="Core model">core
+model</a>
+</li>
+  <li>the canonical model
+<a href="Constructible_universe" title="Constructible universe">$L[\mu]$</a>
+of one measurable cardinal</li>
+  <li>
+<a href="HOD" title="HOD">HOD</a> and
+generic HOD (gHOD)</li>
+  <li>mantle $\mathbb{M}$ (=generic mantle $g\mathbb{M}$)</li>
+  <li>outer core</li>
+  <li>the <a href="Constructible_universe" title="Constructible universe">constructible
+universe</a>
+$L$</li>
+</ul>
+
+<h3 id="mantle">
+<a class="anchor" href="#mantle" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mantle</h3>
+
+<p>The <strong>mantle</strong> $\mathbb{M}$ is the intersection of all grounds. Mantle
+is always a model of ZFC. Mantle is a ground (and is called a
+<strong>bedrock</strong>) iff $V$ has only set many
+grounds. <a class="citation" href="#Fuchs2015">(Fuchs et al., 2015; Usuba, 2017)</a></p>
+
+<p><strong>Generic mantle</strong> $g\mathbb{M}$ was defined as the intersection of all
+mantles of generic extensions, but then it turned out that it is
+identical to the
+mantle. <a class="citation" href="#Fuchs2015">(Fuchs et al., 2015; Usuba, 2017)</a></p>
+
+<p><strong>$α$th inner mantle</strong> $\mathbb{M}^α$ is defined by $\mathbb{M}^0=V$,
+$\mathbb{M}^{α+1} = \mathbb{M}^{\mathbb{M}^α}$ (mantle of the
+previous inner mantle) and $\mathbb{M}^α = \bigcap_{β&lt;α}
+\mathbb{M}^β$ for limit $α$. If there is uniform presentation of
+$\mathbb{M}^α$ for all ordinals $α$ as a single class, one can talk
+about $\mathbb{M}^\mathrm{Ord}$, $\mathbb{M}^{\mathrm{Ord}+1}$ etc.
+If an inner mantle is a ground, it is called the <strong>outer
+core</strong>.<a class="citation" href="#Fuchs2015">(Fuchs et al., 2015)</a></p>
+
+<p>It is conjenctured (unproved) that every model of ZFC is the
+$\mathbb{M}^α$ of another model of ZFC for any desired $α ≤
+\mathrm{Ord}$, in which the sequence of inner mantles does not
+stabilise before $α$. It is probable that in the some time there are
+models of ZFC, for which inner mantle is undefined (Analogously, a 1974
+result of Harrington appearing in (Zadrożny, 1983, section 7), with
+related work in (McAloon, 1974), shows that it is relatively consistent
+with Gödel-Bernays set theory that $\mathrm{HOD}^n$ exists for each $n
+&lt; ω$ but the intersection $\mathrm{HOD}^ω = \bigcap_n
+\mathrm{HOD}^n$ is not a
+class.).<a class="citation" href="#Fuchs2015">(Fuchs et al., 2015)</a></p>
+
+<p>For a cardinal $κ$, we call a ground $W$ of $V$ a $κ$-ground if there is
+a poset $\mathbb{P} ∈ W$ of size $&lt; κ$ and a $(W,
+\mathbb{P})$-generic $G$ such that $V = W[G]$. The <strong>$κ$-mantle</strong> is
+the intersection of all
+$κ$-grounds.<a class="citation" href="#Usuba2019">(Usuba, 2019)</a></p>
+
+<p>The $κ$-mantle is a definable, transitive, and extensional class. It is
+consistent that the $κ$-mantle is a model of ZFC (e.g. when there are no
+grounds), and if $κ$ is a strong limit, then the $κ$-mantle must be a
+model of ZF. However it is not known whether the $κ$-mantle is always a
+model of ZFC.<a class="citation" href="#Usuba2019">(Usuba, 2019)</a></p>
+
+<h4 id="mantle-and-large-cardinals">
+<a class="anchor" href="#mantle-and-large-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a><span id="Mantle_and_large_cardinals" class="mw-headline">Mantle and large cardinals</span>
+</h4>
+
+<p>If $\kappa$ is
+<a href="Hyperhuge" class="mw-redirect" title="Hyperhuge">hyperhuge</a>,
+then $V$ has $&lt;\kappa$ many
+<a href="Ground" class="mw-redirect" title="Ground">grounds</a>
+(so the mantle is a ground
+itself).<a class="citation" href="#Usuba2017">(Usuba, 2017)</a></p>
+
+<p>If $κ$ is
+<a href="Extendible" title="Extendible">extendible</a>
+then the $κ$-mantle of $V$ is its smallest ground (so of course the
+mantle is a ground of
+$V$).<a class="citation" href="#Usuba2019">(Usuba, 2019)</a></p>
+
+<p>On the other hand, it s consistent that there is a
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinal and class many grounds of $V$ (because of the indestructibility
+properties of
+supercompactness).<a class="citation" href="#Usuba2017">(Usuba, 2017)</a></p>
+
+<h2 id="kappa-model">
+<a class="anchor" href="#kappa-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\kappa$-model</h2>
+
+<p>A <strong>weak $κ$-model</strong> is a
+<a href="Transitive" title="Transitive">transitive</a>
+set $M$ of size $\kappa$ with $\kappa \in M$ and satisfying the
+theory $\mathrm{ZFC}^-$ ($\mathrm{ZFC}$ without the axiom of power
+set, with collection, not replacement). It is a <strong>$κ$-model</strong> if
+additionaly $M^{&lt;\kappa} \subseteq
+M$. <a class="citation" href="#Hamkins2014">(Hamkins &amp; Johnstone, 2014; Holy &amp; Schlicht, 2018)</a></p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Fuchs2015">Fuchs, G., Hamkins, J. D., &amp; Reitz, J. (2015). Set-theoretic geology. <i>Annals of Pure and Applied Logic</i>, <i>166</i>(4), 464–501. https://doi.org/http://web.archive.org/web/20191116153209/https://doi.org/10.1016/j.apal.2014.11.004</span></li>
+<li><span id="Usuba2017">Usuba, T. (2017). The downward directed grounds hypothesis and very large cardinals. <i>Journal of Mathematical Logic</i>, <i>17</i>(02), 1750009. https://doi.org/10.1142/S021906131750009X</span></li>
+<li><span id="Usuba2019">Usuba, T. (2019). Extendible cardinals and the mantle. <i>Archive for Mathematical Logic</i>, <i>58</i>(1-2), 71–75. https://doi.org/10.1007/s00153-018-0625-4</span></li>
+<li><span id="Hamkins2014">Hamkins, J. D., &amp; Johnstone, T. A. (2014). <i>Resurrection axioms and uplifting cardinals</i>. http://jdh.hamkins.org/resurrection-axioms-and-uplifting-cardinals/</span></li>
+<li><span id="Holy2018">Holy, P., &amp; Schlicht, P. (2018). A hierarchy of Ramsey-like cardinals. <i>Fundamenta Mathematicae</i>, <i>242</i>, 49–74. https://doi.org/10.4064/fm396-9-2017</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

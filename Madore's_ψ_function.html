@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Madore’s ψ function | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Madore’s ψ function" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Madore's_%CF%88_function","@type":"WebPage","headline":"Madore’s ψ function","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Madore's ψ function</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definition">Definition</a></li>
+<li class="toc-entry toc-h2"><a href="#fundamental-sequences">Fundamental sequences</a></li>
+<li class="toc-entry toc-h2"><a href="#values">Values</a></li>
+<li class="toc-entry toc-h2"><a href="#small-veblen-ordinal">Small Veblen ordinal</a></li>
+<li class="toc-entry toc-h2"><a href="#large-veblen-ordinal">Large Veblen ordinal</a></li>
+<li class="toc-entry toc-h2"><a href="#bachmann-howard-ordinal">Bachmann-Howard ordinal</a></li>
+<li class="toc-entry toc-h2"><a href="#see-also">See also</a></li>
+</ul><p>Madore’s \(\psi\) function is an ordinal collapsing function
+introduced by David Madore.</p>
+
+<h2 id="definition">
+<a class="anchor" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h2>
+
+<p>Madore’s \(\psi\) function is defined as follows:</p>
+
+<p>Let \(\omega\) be the first transfinite ordinal and \(\Omega\) be
+the first uncountable ordinal. Then,</p>
+
+<p>\(C_0(\alpha) = \{0, 1, \omega, \Omega\}\)</p>
+
+<p>\(C_{n+1}(\alpha) = \{\gamma + \delta, \gamma\delta,
+\gamma^{\delta}, \psi(\eta) | \gamma, \delta, \eta \in C_n
+(\alpha); \eta &lt; \alpha\} \)</p>
+
+<p>\(C(\alpha) = \bigcup_{n &lt; \omega} C_n (\alpha) \)</p>
+
+<p>\(\psi(\alpha) = \min\{\beta &lt; \Omega|\beta \notin
+C(\alpha)\} \)</p>
+
+<p>In other words \(\psi(\alpha)\) is the least ordinal number less
+than \(\Omega\) which cannot be generated from ordinals \(0, 1,
+\omega, \Omega\) by applying of addition, multiplication,
+exponentiation and the function \(\psi(\eta)\) with \(\eta &lt;
+\alpha\).</p>
+
+<h2 id="fundamental-sequences">
+<a class="anchor" href="#fundamental-sequences" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fundamental sequences</h2>
+
+<p>Now we assign a fundamental sequence for each limit ordinal below the
+Bachmann-Howard ordinal. The fundamental sequence for an ordinal number
+\(\alpha\) with cofinality \(\text{cof}(\alpha)=\beta\) is a
+strictly increasing sequence \((\alpha[\eta])_{\eta&lt;\beta}\)
+with length \(\beta\) and with limit \(\alpha\), where
+\(\alpha[\eta]\) is the \(\eta\)-th element of this sequence.
+If \(\alpha\) is a countable limit ordinal (i.e. \(\alpha\) is a
+limit ordinal less than \(\Omega\)) then
+\(\text{cof}(\alpha)=\omega\). The first uncountable ordinal
+\(\Omega\) is the least ordinal whose cofinality greater than
+\(\omega\) since \(\text{cof}(\Omega)=\Omega\).</p>
+
+<p>At first we define the normal form for ordinals</p>
+
+<p>\(\alpha=_{NF}\alpha_1+\alpha_2+\cdots+\alpha_n\) iff
+\(\alpha=\alpha_1+\alpha_2+\cdots+\alpha_n\) and
+\(\alpha_1\geq\alpha_2\geq\cdots\geq\alpha_n\)</p>
+
+<p>\(\alpha=_{NF}\omega^\beta\) iff \(\alpha=\omega^\beta\) and
+\(\beta&lt;\alpha\)</p>
+
+<p>\(\alpha=_{NF}\Omega^\beta\gamma\) iff
+\(\alpha=\Omega^\beta\gamma\) and \(\gamma&lt;\Omega\)</p>
+
+<p>\(\alpha=_{NF}\psi(\beta)\) iff \(\alpha=\psi(\beta)\) and
+\(\beta\in C(\beta)\)</p>
+
+<p>For limit ordinals written in normal form we assign the fundamental
+sequences as follows:</p>
+
+<p>1) if \(\alpha=\alpha_1+\alpha_2+\cdots+\alpha_n\) then
+\(\text{cof} (\alpha)= \text{cof} (\alpha_n)\) and
+\(\alpha[\eta]=\alpha_1+\alpha_2+\cdots+(\alpha_n[\eta])\)</p>
+
+<p>2) if \(\alpha=\omega^\beta\) and \(\beta\) is a countable
+limit ordinal then \(\alpha[n]=\omega^{\beta[n]}\)</p>
+
+<p>3) if \(\alpha=\omega^\beta\) and \(\beta=\gamma+1\) then
+\(\alpha[n]=\omega^\gamma n\)</p>
+
+<p>4) if \(\alpha=\psi(0)\) then \(\alpha[0]=1\) and
+\(\alpha[n+1]=\omega^{\alpha[n]}\)</p>
+
+<p>5) if \(\alpha=\psi(\beta+1)\) then
+\(\alpha[0]=\psi(\beta)+1\) and
+\(\alpha[n+1]=\omega^{\alpha[n]}\)</p>
+
+<p>6) if \(\alpha=\Omega^{\beta}\gamma\) and \(\text{cof}
+(\gamma)=\omega\) then \(\text{cof} (\alpha)= \omega\) and
+\(\alpha[\eta]=\Omega^{\beta}(\gamma[\eta])\)</p>
+
+<p>7) if \(\alpha=\Omega^{\beta+1}(\gamma+1)\) then \(\text{cof}
+(\alpha)=\Omega \) and
+\(\alpha[\eta]=\Omega^{\beta+1}\gamma+\Omega^\beta\eta\)</p>
+
+<p>8) if \(\alpha=\Omega^\beta(\gamma+1)\) and
+\(\text{cof}(\beta)\geq\omega\) then \(\text{cof}(\alpha)=
+\text{cof}(\beta)\) and
+\(\alpha[\eta]=\Omega^\beta\gamma+\Omega^{\beta[\eta]}\)</p>
+
+<p>9) if \(\alpha=\varepsilon_{\Omega+1}\) then \(\text{cof}
+(\alpha)=\omega\) and \(\alpha[0]=1\) and
+\(\alpha[n+1]=\Omega^{\alpha[n]}\)</p>
+
+<p>10) if \(\alpha=\psi(\beta)\) and
+\(\text{cof}(\beta)=\omega\) then \(\text{cof}
+(\alpha)=\omega\) and \(\alpha[n]=\psi(\beta[n])\)</p>
+
+<p>11) if \(\alpha=\psi(\beta)\) and
+\(\text{cof}(\beta)=\Omega\) then \(\text{cof}
+(\alpha)=\omega\) and \(\alpha[0]=1\) and
+\(\alpha[n+1]=\psi(\beta[\alpha[n]])\)</p>
+
+<p>For example, for ordinal \(\psi(\Omega^{\Omega^2+\Omega3})\) we
+have the following fundamental sequence (using rules 1, 7, 8, 10)</p>
+
+<p>\(\psi(\Omega^{\Omega^2+\Omega3})[0]=1\)</p>
+
+<p>\(\psi(\Omega^{\Omega^2+\Omega3})[1]=\psi(\Omega^{\Omega^2+\Omega2+1})\)</p>
+
+<p>\(\psi(\Omega^{\Omega^2+\Omega3})[2]=\psi(\Omega^{\Omega^2+\Omega2+\psi(\Omega^{\Omega^2+\Omega2+1})})\)</p>
+
+<p>and so on.</p>
+
+<p>Assignation of fundamental sequences is vital for definition of the
+<a href="Fast-growing_hierarchy" title="Fast-growing hierarchy">fast-growing
+hierarchy</a>,
+<a href="Slow-growing_hierarchy" title="Slow-growing hierarchy">slow-growing
+hierarchy</a>
+and <a href="Hardy_hierarchy" title="Hardy hierarchy">Hardy
+hierarchy</a>.</p>
+
+<h2 id="values">
+<a class="anchor" href="#values" aria-hidden="true"><span class="octicon octicon-link"></span></a>Values</h2>
+
+<p>\begin{eqnarray*} \psi(0) &amp;=&amp; \varepsilon_0 \\ \psi(1) &amp;=&amp;
+\varepsilon_1 \\ \psi(2) &amp;=&amp; \varepsilon_2 \\ \psi(n) &amp;=&amp;
+\varepsilon_n \\ \psi(\zeta_0) &amp;=&amp; \zeta_0 \<br>
+\psi(\zeta_0+1) &amp;=&amp; \zeta_0 \end{eqnarray*}</p>
+
+<p>That seems strange. Shouldn’t
+\(\psi(\zeta_0+1)=\varepsilon_{\zeta_0+1}\)? No. Look at
+\(C(\zeta_0+1)\). It has all the things from \(C(\zeta_0)\) and
+\(+\times\text{^}\) \(\psi\) of it. But in order to get
+\(\zeta_0\), you have to <em>have</em> \(\zeta_0\)in your list. So you
+are never going to have \(\zeta_0\) in your list. Or are you
+\(\cdots\cdots\)</p>
+
+<p>\begin{eqnarray*} \psi(\Omega) &amp;=&amp; \zeta_0 \\ \psi(\Omega+1)
+&amp;=&amp; \varepsilon_{\zeta_0+1} \\ \psi(\Omega+n) &amp;=&amp;
+\varepsilon_{\zeta_0+n} \\ \psi(\Omega+\zeta_1) &amp;=&amp;
+\varepsilon_{\zeta_0+\zeta_1} &amp;=&amp; \zeta_1 \<br>
+\psi(\Omega+\zeta_1+1) &amp;=&amp; \zeta_1 \end{eqnarray*}</p>
+
+<p>We see that this \(\psi\) function got stuck at \(\zeta_0\). But
+when we arrive at \(\Omega+1\), then we are allowed to use the
+\(\Omega\) in \(C(\Omega)\) to create bigger ordinals. We then
+arrive at \(\psi(\Omega+\zeta_1)\) which is signaling that this
+function is stuck again until \(\Omega2\).</p>
+
+<p>\begin{eqnarray*} \psi(\Omega2) &amp;=&amp; \zeta_1 \\ \psi(\Omega2+1)
+&amp;=&amp; \varepsilon_{\zeta_1+1} \\ \psi(\Omega2+n) &amp;=&amp;
+\varepsilon_{\zeta_1+n} \\ \psi(\Omega2+\zeta_2) &amp;=&amp;
+\varepsilon_{\zeta_1+\zeta_2} &amp;=&amp; \zeta_2 \<br>
+\psi(\Omega2+\zeta_2+1) &amp;=&amp; \zeta_2 \end{eqnarray*}</p>
+
+<p>Stuck again. We are going to fast forward now.</p>
+
+<p>\begin{eqnarray*} \psi(\Omega3) &amp;=&amp; \zeta_2 \ \psi(\Omega n)
+&amp;=&amp; \zeta_{n-1} \\ \psi(\Omega \eta_0) &amp;=&amp; \eta_0 \<br>
+\psi(\Omega \eta_0+1) &amp;=&amp; \eta_0 \end{eqnarray*}</p>
+
+<p>This function is stuck again until \(\psi(\Omega^2)\) because
+\(C(\Omega \eta_0)\) contains all countable ordinals up to but not
+incliding \(\eta_0\), but there is no ordinal called \(\Omega
+\eta_0\) in \(C(\Omega \eta_0)\). So if you want to have
+\(\eta_0\) in your list, you need \(\Omega \eta_0\), and
+therefore, \(\eta_0\).</p>
+
+<p>\begin{eqnarray*} \psi(\Omega^2) &amp;=&amp; \eta_0 \<br>
+\psi(\Omega^2+1) &amp;=&amp; \varepsilon_{\eta_0+1} \<br>
+\psi(\Omega^2+n) &amp;=&amp; \varepsilon_{\eta_0+n} \<br>
+\psi(\Omega^2+\Omega) &amp;=&amp; \zeta_{\eta_0+1} \<br>
+\psi(\Omega^2+\Omega2) &amp;=&amp; \zeta_{\eta_0+2} \<br>
+\psi(\Omega^2+\Omega n) &amp;=&amp; \zeta_{\eta_0+n} \<br>
+\psi(\Omega^2+\Omega\eta_1) &amp;=&amp; \eta_1 \\ \psi(\Omega^2 2)
+&amp;=&amp; \eta_1 \\ \psi(\Omega^2 n) &amp;=&amp; \eta_{n-1} \<br>
+\psi(\Omega^2 \varphi_4(0)) &amp;=&amp; \varphi_4(0) \\ \psi(\Omega^3)
+&amp;=&amp; \varphi_4(0) \end{eqnarray*}</p>
+
+<p>Now we are introducing the Veblen function, which is explained in
+<a href="Diagonalization" title="Diagonalization">Diagonalization</a>,
+and also the <a href="Extended_Veblen_function" title="Extended Veblen function">Extended Veblen
+function</a>.</p>
+
+<p>\begin{eqnarray*} \psi(\Omega^3 \varphi_5(0)) &amp;=&amp; \varphi_5(0)
+\\ \psi(\Omega^4) &amp;=&amp; \varphi_5(0) \\ \psi(\Omega^n) &amp;=&amp;
+\varphi_{1+n}(0) \\ \psi(\Omega^{\Gamma_0}) &amp;=&amp; \Gamma_0 \<br>
+\psi(\Omega^\Omega) &amp;=&amp; \Gamma_0 \\ \psi(\Omega^\Omega+1) &amp;=&amp;
+\varepsilon_{\Gamma_0+1} \\ \psi(\Omega^\Omega+\Omega) &amp;=&amp;
+\zeta_{\Gamma_0+1} \\ \psi(\Omega^\Omega+\Omega^n) &amp;=&amp;
+\varphi_{1+n}(\Gamma_0+1) \<br>
+\psi(\Omega^\Omega+\Omega^{\Gamma_1}) &amp;=&amp; \Gamma_1 \<br>
+\psi(\Omega^\Omega2) &amp;=&amp; \Gamma_1 \\ \psi(\Omega^\Omega n) &amp;=&amp;
+\Gamma_{n-1} \\ \psi(\Omega^{\Omega+1}) &amp;=&amp; \varphi(1,1,0) \<br>
+\psi(\Omega^{\Omega+1}2) &amp;=&amp; \varphi(1,1,1) \<br>
+\psi(\Omega^{\Omega+2}) &amp;=&amp; \varphi(1,2,0) \<br>
+\psi(\Omega^{\Omega2}) &amp;=&amp; \varphi(2,0,0) \<br>
+\psi(\Omega^{\Omega2+1}) &amp;=&amp; \varphi(2,1,0) \<br>
+\psi(\Omega^{\Omega3}) &amp;=&amp; \varphi(3,0,0) \<br>
+\psi(\Omega^{\Omega n}) &amp;=&amp; \varphi(n,0,0) \<br>
+\psi(\Omega^{\Omega^2}) &amp;=&amp; \varphi(1,0,0,0) \<br>
+\psi(\Omega^{\Omega^3}) &amp;=&amp; \varphi(1,0,0,0,0) \end{eqnarray*}</p>
+
+<h2 id="small-veblen-ordinal">
+<a class="anchor" href="#small-veblen-ordinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Small Veblen ordinal</h2>
+
+<p>The small veblen ordinal is defined as
+\(\psi(\Omega^{\Omega^\omega}) =
+\varphi(1,\underbrace{0,\cdots,0}_\omega)\). But it’s only small
+compared to…</p>
+
+<h2 id="large-veblen-ordinal">
+<a class="anchor" href="#large-veblen-ordinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Large Veblen ordinal</h2>
+
+<p>The large veblen ordinal is defined as
+\(\psi(\Omega^{\Omega^\Omega}) =
+\psi(\Omega^{\Omega^{\psi(\Omega^{\Omega^{\psi (\cdots)}})}}) =
+\varphi(1,\underbrace{0,\cdots,0}_{\varphi(1,\underbrace{0,\cdots,0}_{\varphi(1,\underbrace{0,\cdots,0}_{\varphi(\cdots)})})})\).
+But even that’s nothing compared to…</p>
+
+<h2 id="bachmann-howard-ordinal">
+<a class="anchor" href="#bachmann-howard-ordinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bachmann-Howard ordinal</h2>
+
+<p>\(BHO = \psi(\varepsilon_{\Omega+1}) =
+\psi(\underbrace{\Omega^{\Omega^{\cdots^\Omega}}}_\omega)\)</p>
+
+<h2 id="see-also">
+<a class="anchor" href="#see-also" aria-hidden="true"><span class="octicon octicon-link"></span></a>See also</h2>
+
+<p>Madore’s \(\psi\) function is one of the simpliest collapsing
+functions. There are much stronger functions of such kind:</p>
+
+<p><a href="Buchholz%27s_%CF%88_functions" title="Buchholz's ψ functions">Buchholz’s ψ
+functions</a></p>
+
+<p><a href="J%C3%A4ger%27s_collapsing_functions_and_%CF%81-inaccessible_ordinals" title="Jäger's collapsing functions and ρ-inaccessible ordinals">Jäger’s ψ
+functions</a></p>
+
+<p><a href="User_blog:Denis_Maksudov/Ordinal_functions_collapsing_the_least_weakly_Mahlo_cardinal;_a_system_of_fundamental_sequences" title="User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences">collapsing functions based on a weakly Mahlo
+cardinal</a></p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

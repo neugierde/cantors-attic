@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Inaccessible cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Inaccessible cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Inaccessible","@type":"WebPage","headline":"Inaccessible cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Inaccessible cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#weakly-inaccessible-cardinal">Weakly inaccessible cardinal</a></li>
+<li class="toc-entry toc-h2"><a href="#levy-collapse">Levy collapse</a></li>
+<li class="toc-entry toc-h2"><a href="#inaccessible-to-reals">Inaccessible to reals</a></li>
+<li class="toc-entry toc-h2"><a href="#universes">Universes</a></li>
+<li class="toc-entry toc-h2"><a href="#degrees-of-inaccessibility">Degrees of inaccessibility</a></li>
+<li class="toc-entry toc-h2"><a href="#hyper-inaccessible-and-more">Hyper-inaccessible and more</a></li>
+</ul><p>Inaccessible cardinals are the traditional entry-point to the large
+cardinal hierarchy, although weaker notions such as the
+<a href="Worldly" title="Worldly">worldly</a>
+cardinals can still be viewed as large cardinals.</p>
+
+<p>A cardinal $\kappa$ is <em>inaccessible</em>, also called <em>strongly
+inaccessible</em>, if it is an
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+<a href="Regular" class="mw-redirect" title="Regular">regular</a>
+<a href="Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>
+cardinal.</p>
+
+<p>A cardinal $\kappa$ being inaccessible implies the following:</p>
+
+<ul>
+  <li>$V_\kappa$ is a model of ZFC and so inaccessible cardinals are
+<a href="Worldly" title="Worldly">worldly</a>.</li>
+  <li>The worldly cardinals are unbounded in $\kappa$, so $V_\kappa$
+satisfies the existence of a proper class of worldly cardinals.</li>
+  <li>$\kappa$ is an
+<a href="Aleph_fixed_point" class="mw-redirect" title="Aleph fixed point">aleph fixed point</a>
+and a
+<a href="Beth_fixed_point" class="mw-redirect" title="Beth fixed point">beth fixed point</a>,
+and consequently $V_\kappa=H_\kappa$.</li>
+  <li>(Solovay)there is an inner model of a forcing extension satisfying
+ZF+DC in which every set of reals is Lebesgue measurable; in fact,
+this is equiconsistent to the existence of an inaccessible cardinal.</li>
+  <li>For any $A\subseteq V_\kappa$, the set of all
+$\alpha&lt;\kappa$ such that $\langle V_\alpha;\in,A\cap
+V_\alpha\rangle\prec\langle V_\kappa;\in,A\rangle$ is
+<a href="Club" title="Club">club</a> in
+$\kappa$.</li>
+</ul>
+
+<p>An ordinal $\alpha$ being inaccessible is equivalent to the following:</p>
+
+<ul>
+  <li>$V_{\alpha+1}$ satisfies $\mathrm{KM}$.</li>
+  <li>$\alpha&gt;\omega$ and $V_\alpha$ is a Grothendiek universe.</li>
+  <li>$\alpha$ is
+<a href="Indescribable" title="Indescribable">$\Pi_0^1$-Indescribable</a>.</li>
+  <li>$\alpha$ is $\Sigma_1^1$-Indescribable.</li>
+  <li>$\alpha$ is $\Pi_2^0$-Indescribable.</li>
+  <li>$\alpha$ is $0$-Indescribable.</li>
+  <li>$\alpha$ is a nonzero limit ordinal and
+$\beth_\alpha=R_\alpha$ where $R_\beta$ is the $\beta$-th
+regular cardinal, i.e. the least regular $\gamma$ such that
+$\{\kappa\in\gamma:\mathrm{cf}(\kappa)=\kappa\}$ has
+order-type $\beta$.</li>
+  <li>$\alpha = \beth_{R_\alpha}$.</li>
+  <li>$\alpha = R_{\beth_\alpha}$.</li>
+  <li>$\alpha$ is a weakly inaccessible strong limit cardinal (see weakly
+inaccessible below).</li>
+</ul>
+
+<h2 id="weakly-inaccessible-cardinal">
+<a class="anchor" href="#weakly-inaccessible-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weakly inaccessible cardinal</h2>
+
+<p>A cardinal $\kappa$ is <em>weakly inaccessible</em> if it is an
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+<a href="Regular" class="mw-redirect" title="Regular">regular</a>
+<a href="Limit_cardinal" class="mw-redirect" title="Limit cardinal">limit cardinal</a>.
+Under
+<a href="GCH" class="mw-redirect" title="GCH">GCH</a>,
+this is equivalent to inaccessibility, since under GCH every limit
+cardinal is a strong limit cardinal. So the difference between weak and
+strong inaccessibility only arises when GCH fails badly. Every
+inaccessible cardinal is weakly inaccessible, but forcing arguments show
+that any inaccessible cardinal can become a non-inaccessible weakly
+inaccessible cardinal in a forcing extension, such as after adding an
+enormous number of Cohen reals (this forcing is c.c.c. and hence
+preserves all cardinals and cofinalities and hence also all regular
+limit cardinals). Meanwhile, every weakly inaccessible cardinal is fully
+inaccessible in any inner model of GCH, since it will remain a regular
+limit cardinal in that model and hence also be a strong limit there. In
+particular, every weakly inaccessible cardinal is inaccessible in the
+constructible universe $L$. Consequently, although the two large
+cardinal notions are not provably equivalent, they are equiconsistent.</p>
+
+<p>There are a few equivalent definitions of weakly inaccessible cardinals.
+In particular:</p>
+
+<ul>
+  <li>Letting $R$ be the transfinite enumeration of
+<a href="Regular" class="mw-redirect" title="Regular">regular</a>
+cardinals, a limit ordinal $\alpha$ is weakly inaccessible if and
+only if $R_\alpha=\aleph_\alpha$</li>
+  <li>A nonzero cardinal $\kappa$ is weakly inaccessible if and only if
+$\kappa$ is regular and there are $\kappa$-many regular cardinals
+below $\kappa$; that is, $\kappa=R_\kappa$.</li>
+  <li>A regular cardinal $\kappa$ is weakly inaccessible if and only if
+$\mathrm{REG}$ is unbounded in $\kappa$ (showing the correlation
+between <a href="Mahlo" title="Mahlo">weakly
+Mahlo</a>
+cardinals and weakly inaccessible cardinals, as stationary in
+$\kappa$ is replaced with unbounded in $\kappa$)</li>
+</ul>
+
+<h2 id="levy-collapse">
+<a class="anchor" href="#levy-collapse" aria-hidden="true"><span class="octicon octicon-link"></span></a>Levy collapse</h2>
+
+<p>The Levy collapse of an inaccessible cardinal $\kappa$ is the
+$\lt\kappa$-support product of $\text{Coll}(\omega,\gamma)$ for all
+$\gamma\lt\kappa$. This forcing collapses all cardinals below
+$\kappa$ to $\omega$, but since it is $\kappa$-c.c., it preserves
+$\kappa$ itself, and hence ensures $\kappa=\omega_1$ in the forcing
+extension.</p>
+
+<h2 id="inaccessible-to-reals">
+<a class="anchor" href="#inaccessible-to-reals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Inaccessible to reals</h2>
+
+<p>A cardinal $\kappa$ is <em>inaccessible to reals</em> if it is inaccessible in
+$L[x]$ for every real $x$. For example, after the Levy collapse of an
+inaccessible cardinal $\kappa$, which forces $\kappa=\omega_1$ in
+the extension, the cardinal $\kappa$ is of course no longer
+inaccessible, but it remains inaccessible to reals.</p>
+
+<h2 id="universes">
+<a class="anchor" href="#universes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Universes</h2>
+
+<p>When $\kappa$ is inaccessible, then $V_\kappa$ provides a highly
+natural transitive model of set theory, a universe in which one can view
+a large part of classical mathematics as taking place. In what appears
+to be an instance of convergent evolution, the same universe concept
+arose in category theory out of the desire to provide a hierarchy of
+notions of smallness, so that one may form such categories as the
+category of all small groups, or small rings or small categories,
+without running into the difficulties of <a href="Russell%27s_paradox" title="Russell's paradox">Russell’s
+paradox</a>.
+Namely, a <em>Grothendieck universe</em> is a transitive set $W$ that is closed
+under pairing, power set and unions. That is,</p>
+
+<ul>
+  <li>(transitivity) If $b\in a\in W$, then $b\in W$.</li>
+  <li>(pairing) If $a,b\in W$, then $\{a,b\}\in W$.</li>
+  <li>(power set) If $a\in W$, then $P(a)\in W$.</li>
+  <li>(union) If $a\in W$, then $\cup a\in W$.</li>
+</ul>
+
+<p>It follows by a simple inductive argument that the Grothendieck
+universes are precisely the sets of the form $V_\kappa$, where
+$\kappa$ is either
+<a href="Zero" title="Zero">$0$</a>,
+<a href="Omega" title="Omega">$\omega$</a>
+or an inaccessible cardinal.</p>
+
+<p>The <em>Grothendieck universe axiom</em> is the assertion that every set is an
+element of a Grothendieck universe. This is equivalent to the assertion
+that the inaccessible cardinals form a proper class.</p>
+
+<h2 id="degrees-of-inaccessibility">
+<a class="anchor" href="#degrees-of-inaccessibility" aria-hidden="true"><span class="octicon octicon-link"></span></a>Degrees of inaccessibility</h2>
+
+<p>A cardinal $\kappa$ is <em>$1$-inaccessible</em> if it is inaccessible and a
+limit of inaccessible cardinals. In other words, $\kappa$ is
+$1$-inaccessible if $\kappa$ is the $\kappa^{\rm th}$ inaccessible
+cardinal, that is, if $\kappa$ is a fixed point in the enumeration of
+all inaccessible cardinals. Equivalently, $\kappa$ is $1$-inaccessible
+if $V_\kappa$ is a universe and satisfies the universe axiom.</p>
+
+<p>More generally, $\kappa$ is $\alpha$-inaccessible if it is
+inaccessible and for every $\beta\lt\alpha$ it is a limit of
+$\beta$-inaccessible cardinals.</p>
+
+<p>$1$-inaccessibility is already consistency-wise stronger than the
+existence of a proper class of inaccessible cardinals, and
+$2$-inaccessibility is stronger than the existence of a proper class of
+$1$-inaccessible cardinals. More specifically, a cardinal $\kappa$ is
+$\alpha$-inaccessible if and only if for every $\beta&lt;\alpha$:
+\(V\_{\\kappa+1}\\models\\mathrm{KM}+\\text{There is a proper class of
+}\\beta\\text{-inaccessible cardinals}\)</p>
+
+<p>As a result, if $\kappa$ is $\alpha$-inaccessible then for every
+$\beta&lt;\alpha$: \(V\_\\kappa\\models\\mathrm{ZFC}+\\text{There
+exists a }\\beta\\text{-inaccessible cardinal}\)</p>
+
+<p>Therefore $2$-inaccessibility is weaker than $3$-inaccessibility, which
+is weaker than $4$-inaccessibility… all of which are weaker than
+$\omega$-inaccessibility, which is weaker than
+$\omega+1$-inaccessibility, which is weaker than
+$\omega+2$-inaccessibility…… all of which are weaker than
+hyperinaccessibility, etc.</p>
+
+<h2 id="hyper-inaccessible-and-more">
+<a class="anchor" href="#hyper-inaccessible-and-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hyper-inaccessible and more</h2>
+
+<p>A cardinal $\kappa$ is <em>hyperinaccessible</em> if it is
+$\kappa$-inaccessible. One may similarly define that $\kappa$ is
+$\alpha$-hyperinaccessible if it is hyperinaccessible and for every
+$\beta\lt\alpha$, it is a limit of $\beta$-hyperinaccessible
+cardinals. Continuing, $\kappa$ is <em>hyperhyperinaccessible</em> if
+$\kappa$ is $\kappa$-hyperinaccessible.</p>
+
+<p>More generally, $\kappa$ is <em>hyper${}^\alpha$-inaccessible</em> if it is
+hyperinaccessible and for every $\beta\lt\alpha$ it is
+$\kappa$-hyper${}^\beta$-inaccessible, where $\kappa$ is
+<em>$\alpha$-hyper${}^\beta$-inaccessible</em> if it is
+hyper${}^\beta$-inaccessible and for every $\gamma&lt;\alpha$, it is
+a limit of $\gamma$-hyper${}^\beta$-inaccessible cardinals.</p>
+
+<p>Meta-ordinal terms are terms like $Ω^α · β + Ω^γ · δ +· · ·+Ω^\epsilon
+· \zeta + \theta$ where $α, β…$ are ordinals. They are ordered as if
+$Ω$ were an ordinal greater then all the others. $(Ω · α +
+β)$-inaccessible denotes $β$-hyper${}^α$-inaccessible,
+$Ω^2$-inaccessible denotes hyper${}^\kappa$-inaccessible $\kappa$ etc.
+Every
+<a href="Mahlo" title="Mahlo">Mahlo</a>
+cardinal $\kappa$ is $\Omega^α$-inaccessible for all $α&lt;\kappa$
+and probably more. Similar hierarchy exists for Mahlo cardinals below
+<a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>.
+All such properties can be killed softly by forcing to make them any
+weaker properties from this
+family. <a class="citation" href="#Carmody2015">(Carmody, 2015)</a></p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Carmody2015">Carmody, E. K. (2015). <i>Force to change large cardinal strength</i>. https://academicworks.cuny.edu/gc_etds/879/</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

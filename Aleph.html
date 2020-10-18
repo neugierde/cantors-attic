@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The aleph numbers, $\aleph_\alpha$ | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="The aleph numbers, $\aleph_\alpha$" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Aleph","@type":"WebPage","headline":"The aleph numbers, $\\aleph_\\alpha$","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>The aleph numbers, $\aleph_\alpha$</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#aleph-one">Aleph one</a></li>
+<li class="toc-entry toc-h2"><a href="#the-continuum-hypothesis">The continuum hypothesis</a></li>
+<li class="toc-entry toc-h2"><a href="#equivalent-forms">Equivalent Forms</a></li>
+<li class="toc-entry toc-h2"><a href="#generalizations">Generalizations</a></li>
+<li class="toc-entry toc-h2"><a href="#aleph-two">Aleph two</a></li>
+<li class="toc-entry toc-h2"><a href="#aleph-hierarchy">Aleph hierarchy</a></li>
+<li class="toc-entry toc-h2"><a href="#aleph-omega">Aleph omega</a></li>
+<li class="toc-entry toc-h2"><a href="#aleph-fixed-point">Aleph fixed point</a></li>
+</ul><p>The aleph function, denoted $\aleph$, provides a 1 to 1 correspondence
+between the <a href="Ordinal" title="Ordinal">ordinal</a> and the <a href="Cardinal" title="Cardinal">cardinal</a>
+numbers. In fact, it is the only order-isomorphism between the ordinals
+and cardinals, with respect to membership. It is a strictly <a href="Monotone" title="Monotone">monotone</a>
+ordinal function which can be defined via transfinite recursion in the
+following manner:</p>
+
+<p>$\aleph_0 = \omega$</p>
+
+<p>$\aleph_{n+1} = \bigcap \{ x \in \operatorname{On} : | \aleph_n
+| \lt |x| \}$</p>
+
+<p>$\aleph_a = \bigcup_{x \in a} \aleph_x$ where $a$ is a limit
+<a href="Ordinal" title="Ordinal">ordinal</a>.</p>
+
+<p>To translate the formalism, $\aleph_{n+1}$ is the smallest ordinal
+whose cardinality is greater than the previous aleph. $\aleph_a$ is
+the limit of the sequence $\{ \aleph_0 , \aleph_1 , \aleph_2 ,
+\ldots \}$ until $\aleph_a$ is reached when $a$ is a limit ordinal.</p>
+
+<p>$\aleph_0$ is the smallest
+<a href="Infinite" class="mw-redirect" title="Infinite">infinite</a>
+<a href="Cardinal" title="Cardinal">cardinal</a>.</p>
+
+<h2 id="aleph-one">
+<a class="anchor" href="#aleph-one" aria-hidden="true"><span class="octicon octicon-link"></span></a>Aleph one</h2>
+
+<p>$\aleph_1$ is the first
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+cardinal.</p>
+
+<h2 id="the-continuum-hypothesis">
+<a class="anchor" href="#the-continuum-hypothesis" aria-hidden="true"><span class="octicon octicon-link"></span></a>The continuum hypothesis</h2>
+
+<p>The <em>continuum hypothesis</em> is the assertion that the set of real numbers
+$\mathbb{R}$ have cardinality $\aleph_{1}$. Gödel showed the
+consistency of this assertion with ZFC, while Cohen showed using
+<a href="Forcing" title="Forcing">forcing</a>
+that if ZFC is consistent then ZFC+$\aleph_1&lt;|\mathbb R|$ is
+consistent.</p>
+
+<h2 id="equivalent-forms">
+<a class="anchor" href="#equivalent-forms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Equivalent Forms</h2>
+
+<p>The cardinality of the power set of $\aleph_{0}$ is $\aleph_{1}$</p>
+
+<p>The is no set with cardinality $\alpha$ such that $\aleph_{0} &lt;
+\alpha &lt; \aleph_{1}$</p>
+
+<h2 id="generalizations">
+<a class="anchor" href="#generalizations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generalizations</h2>
+
+<p>The <em>generalized continuum hypothesis</em> (GCH) states that if an infinite
+set’s cardinality lies between that of an infinite set <em>S</em> and that of
+the
+<a href="index.php?title=Power_set&amp;action=edit&amp;redlink=1" class="new" title="Power set (page does not exist)">power set</a>
+of <em>S</em>, then it either has the same cardinality as the set <em>S</em> or the
+same cardinality as the power set of <em>S</em>. That is, for any
+<a href="index.php?title=Infinite_set&amp;action=edit&amp;redlink=1" class="new" title="Infinite set (page does not exist)">infinite</a>
+<a href="index.php?title=Cardinal_number&amp;action=edit&amp;redlink=1" class="new" title="Cardinal number (page does not exist)">cardinal</a>
+\(\lambda\) there is no cardinal \(\kappa\) such that \(\lambda
+&lt;\kappa &lt;2^{\lambda}.\) GCH is equivalent to:
+\[\aleph_{\alpha+1}=2^{\aleph_\alpha}\] for every
+<a href="index.php?title=Ordinal_number&amp;action=edit&amp;redlink=1" class="new" title="Ordinal number (page does not exist)">ordinal</a>
+\(\alpha.\) (occasionally called <strong>Cantor’s aleph hypothesis</strong>)</p>
+
+<p>For more,see
+<a href="https://en.wikipedia.org/wiki/Continuum_hypothesis" class="external free">https://en.wikipedia.org/wiki/Continuum_hypothesis</a></p>
+
+<h2 id="aleph-two">
+<a class="anchor" href="#aleph-two" aria-hidden="true"><span class="octicon octicon-link"></span></a>Aleph two</h2>
+
+<p>$\aleph_2$ is the second
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+<a href="Cardinal" title="Cardinal">cardinal</a>.</p>
+
+<h2 id="aleph-hierarchy">
+<a class="anchor" href="#aleph-hierarchy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Aleph hierarchy</h2>
+
+<p>The $\aleph_\alpha$ hierarchy of cardinals is defined by transfinite
+recursion:</p>
+
+<ul>
+  <li>$\aleph_0$ is the smallest infinite cardinal.</li>
+  <li>$\aleph_{\alpha+1}=\aleph_\alpha^+$, the
+<a href="Successor" class="mw-redirect" title="Successor">successor</a>
+cardinal to $\aleph_\alpha$.</li>
+  <li>$\aleph_\lambda=\sup_{\alpha\lt\lambda}\aleph_\alpha$ for
+<a href="Limit_ordinal" title="Limit ordinal">limit
+ordinals</a>
+$\lambda$.</li>
+</ul>
+
+<p>Thus, $\aleph_\alpha$ is the $\alpha^{\rm th}$ infinite cardinal.
+In ZFC the sequence \(\\aleph\_0,
+\\aleph\_1,\\aleph\_2,\\ldots,\\aleph\_\\omega,\\aleph\_{\\omega+1},\\ldots,\\aleph\_\\alpha,\\ldots\)
+is an exhaustive list of all infinite cardinalities. Every infinite set
+is bijective with some $\aleph_\alpha$.</p>
+
+<h2 id="aleph-omega">
+<a class="anchor" href="#aleph-omega" aria-hidden="true"><span class="octicon octicon-link"></span></a>Aleph omega</h2>
+
+<p>The cardinal $\aleph_\omega$ is the smallest instance of an
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+<a href="Singular" class="mw-redirect" title="Singular">singular</a>
+<a href="Cardinal" title="Cardinal">cardinal</a>
+number, since it is larger than every $\aleph_n$, but is the supremum
+of the
+<a href="Countable" title="Countable">countable</a>
+set $\{\aleph_0,\aleph_1,\ldots,\aleph_n,\ldots\mid
+n\lt\omega\}$.</p>
+
+<h2 id="aleph-fixed-point">
+<a class="anchor" href="#aleph-fixed-point" aria-hidden="true"><span class="octicon octicon-link"></span></a>Aleph fixed point</h2>
+
+<p>A cardinal $\kappa$ is an <em>$\aleph$-fixed point when
+$\kappa=\aleph_\kappa$. In this case, $\kappa$ is the
+$\kappa^{\rm th}$ infinite cardinal. Every
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+cardinal is an $\aleph$-fixed point, and a limit of such fixed points
+and so on. Indeed, every
+<a href="Worldly" title="Worldly">worldly</a>
+cardinal is an $\aleph$-fixed point and a limit of such.</em></p>
+
+<p>One may easily construct an $\aleph$-fixed point above any ordinal
+$\beta$: simply let $\beta_0=\beta$ and
+$\beta_{n+1}=\aleph_{\beta_n}$; it follows that
+$\kappa=\sup_n\beta_n=\aleph_{\aleph_{\aleph_{\aleph_{\ddots}}}}$
+is an $\aleph$-fixed point, since
+$\aleph_\kappa=\sup_{\alpha\lt\kappa}\aleph_\alpha=\sup_n\aleph_{\beta_n}=\sup_n\beta_{n+1}=\kappa$.
+By continuing the recursion to any ordinal, one may construct
+$\aleph$-fixed points of any desired cofinality. Indeed, the class of
+$\aleph$-fixed points forms a closed unbounded class of cardinals.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

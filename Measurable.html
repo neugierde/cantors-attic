@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Measurable cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Measurable cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Measurable","@type":"WebPage","headline":"Measurable cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Measurable cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definitions">Definitions</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#embedding-characterization">Embedding Characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#hayut-property">Hayut Property</a></li>
+<li class="toc-entry toc-h3"><a href="#other-embedding-characterizations">Other Embedding Characterizations</a></li>
+<li class="toc-entry toc-h3"><a href="#category-theoretic-characterization">Category Theoretic Characterization</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#properties">Properties</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#failure-of-textgch-at-a-measurable">Failure of $\text{GCH}$ at a measurable</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#real-valued-measurable-cardinal">Real-valued measurable cardinal</a></li>
+<li class="toc-entry toc-h2"><a href="#virtually-measurable-cardinal">Virtually measurable cardinal</a></li>
+<li class="toc-entry toc-h2"><a href="#see-also">See also</a></li>
+<li class="toc-entry toc-h2"><a href="#read-more">Read more</a></li>
+</ul><p>A <strong>measurable cardinal</strong> $\kappa$ is an
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+<a href="Cardinal" title="Cardinal">cardinal</a>
+such that it is possible to “measure” the subsets of $\kappa$ using a
+2-valued
+<a href="Measure" class="mw-redirect" title="Measure">measure</a>
+on the powerset of $\kappa$, $\mathcal{P}(\kappa)$. There exists
+several other equivalent definitions: For example, $\kappa$ can also be
+the critical point of a nontrivial <a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j:V\to M$.</p>
+
+<p>Measurable cardinals were introduced by Stanislaw Ulam in 1930.</p>
+
+<h2 id="definitions">
+<a class="anchor" href="#definitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions</h2>
+
+<p>There are essentially two ways to “measure” a cardinal $\kappa$, that’s
+to say we can require the measure to be $\sigma$-additive (a
+“classical” measure) or to be $\kappa$-additive (for every cardinal
+$\lambda$ such that $\lambda &lt; \kappa$, the union of $\lambda$
+null sets still has measure zero).</p>
+
+<p>Let $\kappa$ be an uncountable cardinal.</p>
+
+<p>Theorem 1 : The following are equivalent :</p>
+
+<ol>
+  <li>There exists a 2-valued ($\sigma$-additive) measure on $\kappa$.</li>
+  <li>There exists a $\sigma$-complete nonprincipal ultrafilter on
+$\kappa$.</li>
+</ol>
+
+<p>The equivalence is due to the fact that if $\mu$ is a 2-valued measure
+on $\kappa$, then $U=\{X\subset\kappa|\mu(X)=1\}$ is a
+nonprincipal ultrafilter (since $\mu$ is 2-valued) and is also
+$\sigma$-complete because of $\mu$’s $\sigma$-additivity. Similarly,
+if $U$ is a $\sigma$-complete nonprincipal ultrafilter on $\kappa$,
+then $\mu:\mathcal{P}(\kappa)\to[0,1]$ defined by $\mu(X)=1$
+whenever $X\in U$, $\mu(X)=0$ otherwise is a 2-valued measure on
+$\kappa$. <a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p>An uncountable cardinal which satisfies the equivalent conditions of
+theorem 1 is sometimes called a 2-measurable cardinal (because
+“2-valued”). This is not a traditional notation, but it was used in an
+article of Gustave Choquet : “Cardinaux 2-mesurables et cônes faiblement
+compacts”, Annales de l’Institut Fourier, tome 17, n°2 (1967),
+P.383-393.</p>
+
+<p>Note : It is clear that, if $\kappa$ is 2-measurable, then every
+cardinal $\lambda$ such that $\lambda &gt; \kappa$ is also
+2-measurable. Thus, the notion of 2-measurability separates the class
+$C$ of all cardinals in two subclasses : the “moderated” cardinals and
+the 2-measurable cardinals, the first one being an initial segment of
+$C$, and therefore this notion is of weak interest for the study of the
+hierarchy of large cardinals.</p>
+
+<h3 id="embedding-characterization">
+<a class="anchor" href="#embedding-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Embedding Characterization</h3>
+
+<p>Theorem 2 : The following are equivalent :</p>
+
+<ol>
+  <li>There exists a $\kappa$-complete nonprincipal ultrafilter on
+$\kappa$.</li>
+  <li>There exists a nontrivial elementary embedding $j:V\to M$ with $M$
+a transitive class and such that $\kappa$ is the least ordinal
+moved (the <em>critical point</em>).</li>
+  <li>There exists a nonprincipal ultrafilter $U$ on $\kappa$ such that
+the
+<a href="Ultrapower" title="Ultrapower">ultrapower</a>
+$(\text{Ult}_U(V),\in_U)$ of the universe is well-founded.</li>
+</ol>
+
+<p>To see that the second condition implies the first one, one can show
+that if $j:V\to M$ is a nontrivial elementary embedding, then the set
+$\mathcal{U}=\{x\subset\kappa|\kappa\in j(x)\})$ is a
+$\kappa$-complete nonprincipal ultrafilter on $\kappa$, and in fact a
+normal fine measure. To show the converse, one needs to use <a href="Ultrapower" title="Ultrapower">ultrapower
+embeddings</a>:
+if $U$ is a nonprincipal $\kappa$-complete ultrafilter on $\kappa$,
+then the canonical ultrapower embedding $j:V\to\text{Ult}_U(V)$ is a
+nontrivial elementary embedding of the universe.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p>An uncountable cardinal $\kappa$ is called measurable if the equivalent
+conditions of theorem 2 are satisfied.</p>
+
+<p>The two theorems are related by the fact (easy to prove) that the least
+cardinal $\kappa$ (if it exists) which carries a $\sigma$-complete
+nonprincipal ultrafilter is measurable, and in this case every
+$\sigma$-complete nonprincipal ultrafilter on $\kappa$ is
+$\kappa$-complete (see for example Patrick Dehornoy : “La théorie des
+ensembles”, Calvage et Mounet, 2017).</p>
+
+<p>In other words, the first 2-measurable cardinal is measurable.</p>
+
+<p>Therefore, the two notions are equiconsistent, but in the general case
+they differ : every measurable cardinal is 2-measurable, and the
+converse is false.</p>
+
+<h3 id="hayut-property">
+<a class="anchor" href="#hayut-property" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hayut Property</h3>
+
+<p>There is also another quite interesting model-theoretic characterization
+of measurability. Let a theory $T$ be $\kappa$-unboundedly satisfiable
+iff for every $\lambda&lt;\kappa$, there is a model
+$\mathcal{M}\models T$ with $\lambda\leq|M|&lt;\kappa$. In other
+words, the sizes of models of $T$ are unbounded in $\kappa$.</p>
+
+<p>A class of formulae $Q$ is $\kappa$-Hayut iff for any
+$\kappa$-unboundedly satisfiable theory $T\subseteq Q$, there is a
+model of $T$ of size at least $\kappa$. More intuitively,
+$\kappa$-many small models of size less than $\kappa$ can combine to
+make one big $\kappa$-sized model.</p>
+
+<p>An abstract logic $\mathcal{L}$ is called almost $\kappa$-favorable
+iff there is some way to represent every sentence of $\mathcal{L}$ with
+vocabulary $\tau$ as a sequence of length below $\kappa$ of symbols of
+$\tau$ and ordinals in $\kappa$ in such a way that the satisfaction
+relation is upward absolute for inner models $M$ of ZFC elementarily
+equivalent to $V$ with $M^{&lt;\kappa}\subset M$. If $\kappa$ is an
+uncountable regular cardinal, the following are almost
+$\kappa$-favorable:</p>
+
+<ol>
+  <li>$\mathcal{L}_{\lambda,\mu}$ for any $\lambda,\mu\leq\kappa$</li>
+  <li>$\mathcal{L}_{\kappa,\omega}(q_{&lt;\kappa})$, which is
+$\mathcal{L}_{\kappa,\omega}$ with universal cardinality
+quantifiers $q_\lambda$ for every $\lambda&lt;\kappa$ (where
+$M\models q_\lambda$ iff $|M|\geq q_\lambda$)</li>
+  <li>$\mathcal{L}_{\kappa,\kappa}$ with the addition of a single
+existential 2nd-order quantifier, where negation on the resulting
+sentences is not allowed</li>
+</ol>
+
+<p>Assuming $V=L$, every $\mathcal{L}$ where sentences are represented as
+sequences of length below $\kappa$ of symbols of $\tau$ and ordinals
+in $\kappa$ ($\kappa$-sequential logic) that has an extension with an
+$\mathcal{L}_{\omega,\omega}$-definable satisfaction relation is
+almost $\kappa$-favorable. For example: if $V=L$, then
+$\mathcal{L}_{\kappa,\kappa}^{&lt;\omega}$ is almost
+$\kappa$-favorable, but if a measurable exists then
+$\mathcal{L}_{\kappa,\kappa}^{&lt;\omega}$ is not almost
+$\kappa$-favorable, and in fact if $\kappa$ is the least measurable
+then $\mathcal{L}_{\kappa,\kappa}^{&lt;\omega}$ is not
+$\kappa$-Hayut; however, if $\kappa$ is
+<a href="Extendible" title="Extendible">extendible</a>,
+then $\mathcal{L}_{\kappa,\kappa}^{&lt;\omega}$ is $\kappa$-Hayut,
+though it still isn’t almost $\kappa$-favorable.</p>
+
+<p>An uncountable regular cardinal $\kappa$ is measurable if and only if
+$\mathcal{L}_{\kappa,\kappa}$ is $\kappa$-Hayut, if and only if
+$\mathcal{L}_{\kappa,\omega}(q_{&lt;\kappa})$ is $\kappa$-Hayut
+up to $2^\kappa$. Furthermore, an uncountable regular cardinal
+$\kappa$ is measurable if and only if every almost $\kappa$-favorable
+logic is $\kappa$-Hayut.</p>
+
+<p>For more information, see
+<a href="https://mathoverflow.net/questions/309896/a-weakening-of-cardinal-compactness-is-it-equivalent/309937" class="external text">this post</a>.</p>
+
+<h3 id="other-embedding-characterizations">
+<a class="anchor" href="#other-embedding-characterizations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other Embedding Characterizations</h3>
+
+<p>There are also other embedding characterizations of measurable
+cardinals. Namely (under
+<a href="Second-order" title="Second-order">NBG</a>
+or ZFC + $j$) the following are equivalent for any cardinal $\kappa$:</p>
+
+<ol>
+  <li>$\kappa$ is measurable.</li>
+  <li>$\kappa$ is the critical point of some $j:V\prec_{\Delta_0}V$.</li>
+  <li>$\kappa$ is the critical point of some $j:V\prec_{\Delta_1}V$.</li>
+  <li>$\kappa$ is the critical point of some $j:V\rightarrow V$ such
+that for any $\Sigma_1$-formula $\varphi$,
+$\varphi[x,y,z…]\rightarrow\varphi[j(x),j(y),j(z)…]$.</li>
+</ol>
+
+<p><em>Proof:</em></p>
+
+<p>(1 implies 4). If $\kappa$ is measurable, then $\kappa$ is the
+critical point of a $j:V\prec M$ for some inner model $M$. Therefore
+$\kappa$ is the critical point of a $j:V\prec_{\Sigma_1}M$ and so
+for any $\Sigma_1$-formula $\varphi$,
+$\varphi[x,y,z…]\rightarrow
+M\models\varphi[j(x),j(y),j(z)…]$. Then, let $\varphi$ be a
+$\Sigma_1$-formula. If $\varphi[x,y,z…]$ then
+$M\models\varphi[j(x),j(y),j(z)…]$ and because
+$\Sigma_1$-formulae are upward absolute for inner models,
+$\varphi[j(x),j(y),j(z)…]$. Therefore:
+\(\\varphi\[x,y,z...\]\\rightarrow\\varphi\[j(x),j(y),j(z)...\]\)</p>
+
+<p>(4 implies 3). Let $j:V\rightarrow V$ be as described. Then any
+$\Delta_1$ formula $\varphi$ is $\Sigma_1$ and $\neg\varphi$ is
+also $\Sigma_1$. So:
+\(\\varphi\[x,y,z...\]\\rightarrow\\varphi\[j(x),j(y),j(z)...\]\)
+\(\\neg\\varphi\[x,y,z...\]\\rightarrow\\neg\\varphi\[j(x),j(y),j(z)...\]\)
+\(\\therefore\\varphi\[x,y,z...\]\\Leftrightarrow\\varphi\[j(x),j(y),j(z)...\]\)</p>
+
+<p>(3 implies 2). If $j:V\prec_{\Delta_1}V$ then
+$j:V\prec_{\Delta_0}V$ by definition.</p>
+
+<p>(2 implies 1). If $j:V\prec_{\Delta_0}V$ has critical point
+$\kappa$, then $\{X\subseteq\kappa:\kappa\in j(X)\}$ is a
+$\kappa$-complete measure on $\kappa$.</p>
+
+<p>This gives further characterizations (which are weakenings of the
+$j:V\prec M$ characterizations). Namely, $\kappa$ is measurable iff it
+is the critical point of some $j:V\prec_{\Delta_0} M$ for some inner
+model $M$.</p>
+
+<p><em>Proof:</em></p>
+
+<p>(1 implies 2). Let $\kappa$ be measurable. Then $\kappa$ is the
+critical point of $j:V\prec M$ for some inner model $M$, and so
+$j:V\prec_{\Delta_0} M$.</p>
+
+<p>(2 implies 1). Let $\kappa$ be the critical point of a
+$j:V\prec_{\Delta_0}M$. Then, $j:V\rightarrow V$ and for any
+$\Delta_0$ formula $\varphi$, $\varphi[x,y,z…]\Leftrightarrow
+M\models\varphi[j(x),j(y),j(z)…]$. Of course, since $\varphi$ is
+$\Delta_0$, $M\models\varphi[j(x),j(y),j(z)…]$ iff
+$\varphi[j(x),j(y),j(z)…]$. So:
+\(\\varphi\[x,y,z...\]\\Leftrightarrow\\varphi\[j(x),j(y),j(z)...\]\)
+\(j:V\\prec\_{\\Delta\_0}V\) \(\\therefore\\kappa\\text{ is
+measurable.}\)</p>
+
+<p>Finally, this gives much more general (and astonishing)
+characterizations of measurability in terms of nontrivial elementary
+embeddings of classes into themselves. The following are equivalent:</p>
+
+<ol>
+  <li>$\kappa$ is measurable.</li>
+  <li>There is some transitive class (or set) $M\models\text{ZFC}$ with
+$\mathcal{P}^2(\kappa)\subseteq M$ and some
+$j:M\prec_{\Delta_0}M$ with critical point $\kappa$.</li>
+  <li>For every transitive class (or set) $M\models\text{ZFC}$ with
+$\kappa\subseteq M$ there is a $j:M\prec_{\Delta_1}M$ with
+critical point $\kappa$.</li>
+</ol>
+
+<p><em>Proof:</em></p>
+
+<p>(1 implies 3). Let $\kappa$ be measurable and let
+$j:V\prec_{\Delta_1}V$. Then, let $M\models\text{ZFC}$ be a
+transitive class with $\kappa\subseteq M$. Consider $j\upharpoonright
+M:M\rightarrow M$. Let $\varphi$ be a $\Delta_1$ formula. Then,
+$\varphi[x,y,z…]\Leftrightarrow M\models\varphi[x,y,z…]$
+(because $\Delta_1$ formulae are upward and downward absolute for
+transitive classes). Since $j$ is $\Delta_1$-elementary, for any
+$x,y,z…\in
+M$:\(\\varphi\[x,y,z...\]\\Leftrightarrow\\varphi\[j(x),j(y),j(z)...\]\\Leftrightarrow\\varphi\[j\\upharpoonright
+M(x),j\\upharpoonright M(y),j\\upharpoonright M(z)...\]\)
+\(\\Leftrightarrow M\\models\\varphi\[x,y,z...\]\\Leftrightarrow
+M\\models\\varphi\[j\\upharpoonright M(x),j\\upharpoonright
+M(y),j\\upharpoonright M(z)...\]\) Therefore $j\upharpoonright
+M:M\prec_{\Delta_1}$. Now note that $j$ has critical point $\kappa$
+and so $j\upharpoonright M$ does too.</p>
+
+<p>(3 implies 2). Simply choose $M=V$ and note that any
+$j:V\prec_{\Delta_1}V$ with critical point $\kappa$ is already a
+$j:M\prec_{\Delta_0}M$ with critical point $\kappa$.</p>
+
+<p>(2 implies 1). If $j:M\prec_{\Delta_0}M$ is as described, then
+simply choose $U=\{X\subseteq\kappa:\kappa\in j(X)\}$ as usual.
+The proof that $U$ is a $\kappa$-complete nonprincipal ultrafilter is a
+little more difficult than usual:</p>
+
+<ul>
+  <li>If $X\in U$ and $X\subseteq Y\subseteq\kappa$, then $M\models
+(j(X)\subseteq j(Y)\subseteq j(\kappa))$ so $j(X)\subseteq
+j(Y)\subseteq j(\kappa)$ and therefore $\kappa\in j(Y)$ and
+$Y\in U$ ($U$ is closed upwards under subset).</li>
+  <li>If $X,Y\in U$ then $\kappa\in j(X)\cap j(Y)$ and by
+$\Delta_0$-ness of $\cap$, $j(X\cap Y)=j(X)\cap j(Y)$ so
+$\kappa\in j(X\cap Y)$ and therefore $X\cap Y\in U$ ($U$ is a
+filter).</li>
+  <li>Assume $X\in U$ is a finite set. Then it is easily verified that
+$j(X)=j”X$ and so $\kappa\in j”X$. This is a contradiction as
+$\kappa\neq j(x)$ for any set $x$; if it were then it would be an
+ordinal below $\kappa$ and so $\kappa$ would not be the critical
+point. ($U$ is nonprincipal).</li>
+  <li>If $X\notin U$ then $\kappa\notin j(X)$ so $\kappa\in
+(j(\kappa)\setminus j(X))$ and by $\Delta_0$-ness of
+$\setminus$, $\kappa\in j(\kappa\setminus X)$ meaning
+$\kappa\setminus X\in U$. ($U$ is an ultrafilter).</li>
+  <li>Finally, if $F\subseteq U$ is a family of size
+$\lambda&lt;\kappa$, then $j(F)=j”F$ and since $\kappa\in j(X)$
+for every $X\in F$, $\kappa\in X$ for every $X\in j”F=j(F)$ and
+so $\kappa\in\cap j(F)$. By $\Delta_0$-ness of $\cap$,
+$\kappa\in j(\cap F)$ and so $\cap F\in U$. ($U$ is
+$\kappa$-complete).</li>
+</ul>
+
+<h3 id="category-theoretic-characterization">
+<a class="anchor" href="#category-theoretic-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Category Theoretic Characterization</h3>
+
+<p>Interestingly, measurable cardinals have certain category theoretic
+properties about them. This connection is likely at heart due to the
+fact that certain embeddings $j:V\rightarrow V$ share connections with
+functors $F:\text{Set}\rightarrow\text{Set}$, and measurable
+cardinals can be characterized in terms of those embeddings.</p>
+
+<p>Specifically a measurable cardinal exists if and only if there is a
+nonidentity exact functor $F:\text{Set}\rightarrow\text{Set}$
+<a class="citation" href="#Blass1976">(Blass, 1976)</a>.</p>
+
+<p>For more information, read <a class="citation" href="#Blass1976">(Blass, 1976)</a>.</p>
+
+<h2 id="properties">
+<a class="anchor" href="#properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>Properties</h2>
+
+<p>Every measurable is a large cardinal, i.e. $V_\kappa$ satisfies
+$\text{ZFC}$, therefore $\text{ZFC}$ cannot prove the existence of a
+measurable cardinal.</p>
+
+<p>$\kappa$ is
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>,
+the $\kappa$th inacessible, the $\kappa$th <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>
+cardinal, the $\kappa$th
+<a href="Ramsey" title="Ramsey">Ramsey</a>,
+and similarly bears most of the large cardinal properties under
+Ramsey-ness.</p>
+
+<p>Measurable cardinals are ineffable and stationary limits of ineffable
+cardinals.</p>
+
+<p>It is notable that every measurable has the mentioned properties in
+$\text{ZFC}$, but in $\text{ZF}$ they may not (but their existence
+remains consistency-wise <em>much</em> stronger than existence of cardinals
+with those properties), in fact under the <a href="Axiom_of_determinacy" title="Axiom of determinacy">axiom of
+determinacy</a>,
+the first two uncountable cardinals, $\aleph_1$ and $\aleph_2$, are
+both measurable.</p>
+
+<p>Any measurable cardinal $κ$ has super
+<a href="Ramsey" title="Ramsey">Ramsey</a>
+M-rank $κ^+$<a class="citation" href="#Carmody2016">(Carmody et al., 2016)</a>, is
+super completely Ramsey and a stationary limit of super completely
+Ramsey cardinals<a class="citation" href="#Feng1990">(Feng, 1990)</a> and is a limit
+of regular cardinals $α$ which are
+$α$-Ramsey.<a class="citation" href="#Holy2018">(Holy &amp; Schlicht, 2018)</a></p>
+
+<p>If $\kappa$ is measurable, then it has a measure that take every value
+in $[0,1]$. Also there must be a normal fine measure on
+$\mathcal{P}_\kappa(\kappa)$.</p>
+
+<p>Every measurable cardinal is
+<a href="Regular" class="mw-redirect" title="Regular">regular</a>,
+and (under AC) bears most large cardinal properties weaker than it. It
+is in particular
+$\Pi^2_1$-<a href="Indescribable" title="Indescribable">indescribable</a>.
+However the least measurable cardinal is not
+$\Sigma^2_1$-indescribable. <a class="citation" href="#Jech2003">(Jech, 2003)</a>
+Independently of the truth of AC, the existence of a measurable cardinal
+implies the consistency of the existence of large cardinals with the
+said properties, even if that measurable is merely $\omega_1$.</p>
+
+<p>If $\kappa$ is measurable and $\lambda&lt;\kappa$ then it cannot be
+true that $\kappa&lt;2^\lambda$. Under AC this means that $\kappa$ is
+a strong limit (and since it is regular, it must be strongly
+inaccessible, hence it cannot be $\omega_1$).</p>
+
+<p>If there exists a measurable cardinal then
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^#$</a>
+exists, and therefore $V\neq L$. In fact, the
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">sharp</a>
+of every real number exists, and therefore
+$\mathbf{\Pi}^1_1$-<a href="Axiom_of_determinacy" title="Axiom of determinacy">determinacy</a>
+holds. Furthermore, assuming the axiom of determinacy, the cardinals
+$\omega_1$, $\omega_2$, $\omega_{\omega+1}$ and
+$\omega_{\omega+2}$ are measurable, also in $L(\mathbb{R})$ every
+regular cardinal smaller than
+<a href="Theta" class="mw-redirect" title="Theta">$\Theta$</a>
+is measurable.</p>
+
+<p>Every measurable has the following reflection property: let $j:V\to M$
+be a nontrivial elementary embedding with critical point $\kappa$. If
+$x\in V_\kappa$ and $M\models\varphi(\kappa,x)$ for some
+first-order formula $\varphi$, then the set of all ordinals
+$\alpha&lt;\kappa$ such that $V\models\varphi(\alpha,x)$ is
+<a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
+in $\kappa$ and has the same measure as $\kappa$ itself by any
+2-valued measure on $\kappa$.</p>
+
+<p>Measurability of $\kappa$ is equivalent with $\kappa$-strong
+compactness of $\kappa$, and also with $\kappa$-supercompactness of
+$\kappa$ (fragments of <a href="Strongly_compact" title="Strongly compact">strong
+compactness</a>
+and
+<a href="Supercompact" title="Supercompact">supercompactness</a>
+respectively.) It is also consistent with $\text{ZFC}$ that the first
+measurable cardinal and the first <a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>
+cardinal are equal.</p>
+
+<p>If a measurable $\kappa$ is such that there is $\kappa$ <a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>
+cardinals below it, then it is strongly compact. If it is a limit of
+strongly compact cardinals, then it is strongly compact yet not
+<a href="Supercompact" title="Supercompact">supercompact</a>.
+If a measurable $\kappa$ has infinitely many
+<a href="Woodin" title="Woodin">Woodin</a>
+cardinals below it, then the axiom of determinacy holds in
+$L(\mathbb{R})$, also the
+<a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
+holds.</p>
+
+<p>A cardinal $\kappa$ is measurable if and only if it is
+$\kappa^+$-<a href="Hypermeasurable" class="mw-redirect" title="Hypermeasurable">hypermeasurable</a>.</p>
+
+<p>Measurable cardinals are not necessarily
+<a href="Tall" title="Tall">tall</a>, but it
+is relatively consistent that the least measurable cardinal is tall.</p>
+
+<p>If $\kappa$ is measurable in a ground model, then it is measurable in
+any forcing extension of that ground model whose notion of forcing has
+cardinality strictly smaller than $\kappa$. Prikry showed however that
+every measurable can be collapsed to a cardinal of cofinality $\omega$
+and no other cardinal is collapsed.</p>
+
+<p>If $κ$ is uncountable, $κ = κ^{&lt;κ}$ and $2^κ = κ^+$, then the
+following are equivalent:</p>
+
+<ul>
+  <li>$κ$ is measurable.</li>
+  <li>$κ$ satisfies the
+$κ^+$-<a href="Filter_property" class="mw-redirect" title="Filter property">filter property</a>.</li>
+  <li>$κ$ satisfies the strategic $κ^+$-filter property.</li>
+</ul>
+
+<p>On the other hand, starting from a $κ^{++}$-tall cardinal $κ$, it is
+consistent that there is a cardinal $κ$ with the strategic $κ+$-filter
+property, however $κ$ is not
+measurable.<a class="citation" href="#Holy2018">(Holy &amp; Schlicht, 2018)</a></p>
+
+<p>If $κ$ is a measurable cardinal, then $κ$ is $κ$-very Ramsey. If a
+cardinal is $ω_1$-very Ramsey (=strategic $ω_1$-Ramsey cardinal), then
+it is measurable in the <a href="Core_model" title="Core model">core
+model</a>
+unless
+<a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
+exists and an inner model with a
+<a href="Woodin" title="Woodin">Woodin</a>
+cardinal exists. <a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018; Sharpe &amp; Welch, 2011)</a></p>
+
+<p>The existence of a strategic $ω+1$-Ramsey cardinal (and of a strategic
+fully Ramsey cardinal) is equiconsistent with the existence of a
+measurable cardinal.<a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a></p>
+
+<p>A cardinal $κ$ is
+<a href="Correct" class="mw-redirect" title="Correct">$C^{(n)}$-measurable</a>
+iff there is a transitive class $M$ and an elementary embedding $j : V →
+M$ with critical point $crit(j) = κ$ and with $j(κ) ∈ C^{(n)}$. Every
+measurable cardinal is $C^{(n)}$-measurable for all
+$n$.<a class="citation" href="#Bagaria2012">(Bagaria, 2012)</a></p>
+
+<p><em>See also:
+<a href="Ultrapower" title="Ultrapower">Ultrapower</a></em></p>
+
+<h3 id="failure-of-textgch-at-a-measurable">
+<a class="anchor" href="#failure-of-textgch-at-a-measurable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Failure of $\text{GCH}$ at a measurable</h3>
+
+<p>Gitik proved that the following statements are equiconsistent:</p>
+
+<ul>
+  <li>The generalized continuum hypothesis fails at a measurable cardinal
+$\kappa$, i.e. $2^\kappa &gt; \kappa^+$</li>
+  <li>The singular cardinal hypothesis fails, i.e. there is a strong limit
+singular $\kappa$ such that $2^\kappa &gt; \kappa^+$</li>
+  <li>There is a measurable cardinal of <a href="Mitchell_rank" title="Mitchell rank">Mitchell
+order</a>
+$\kappa^{++}$, i.e. $o(\kappa)=\kappa^{++}$</li>
+</ul>
+
+<p>Thus violating $\text{GCH}$ at a measurable (or violating the SCH at
+any strong limit cardinal) is strictly stronger consistency-wise than
+the existence of a measurable cardinal.</p>
+
+<p>However, if the generalized continuum hypothesis fails at a measurable,
+then it fails at $\kappa$ many cardinals below it.</p>
+
+<h2 id="real-valued-measurable-cardinal">
+<a class="anchor" href="#real-valued-measurable-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Real-valued measurable cardinal</h2>
+
+<p>A cardinal $\kappa$ is <strong>real-valued</strong> measurable if there exists a
+$\kappa$-additive measure on $\kappa$. The smallest cardinal $\kappa$
+carrying a $\sigma$-additive 2-valued measure must also carry a
+$\kappa$-additive measure, and is therefore real-valued measurable,
+also it is strongly inaccessible under AC.</p>
+
+<p>If a real-valued measurable cardinal is not measurable, then it must be
+smaller than (or equal to) $2^{\aleph_0}$.
+<a href="index.php?title=Martin%27s_axiom&amp;action=edit&amp;redlink=1" class="new" title="Martin's axiom (page does not exist)">Martin’s axiom</a>
+implies that the continuum is not real-valued measurable.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p>Solovay showed that the existence of a measurable cardinal is
+equiconsistent with the existence of a real-valued measurable cardinal.
+More precisely, he showed that if there is a measurable then there is
+<a href="Forcing" title="Forcing">generic
+extension</a>
+in which $\kappa=2^{\aleph_0}$ and $\kappa$ is real-valued
+measurable, and conversely if there exists a real-valued measurable then
+it is measurable in some model of $\text{ZFC}$.</p>
+
+<h2 id="virtually-measurable-cardinal">
+<a class="anchor" href="#virtually-measurable-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Virtually measurable cardinal</h2>
+
+<p>(all information from <a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>)</p>
+
+<p>A cardinal $κ$ is <strong>virtually measurable</strong> iff for every regular $ν &gt;
+κ$ there exists a
+<a href="Transitive" title="Transitive">transitive</a>
+M and a forcing $\mathbb{P}$ such that, in $V^\mathbb{P}$, there is an
+elementary embedding $j : H_ν^V → M$ with $\mathrm{crit}(j) = κ$.</p>
+
+<p>Every virtually measurable cardinal is strategic
+$ω$-<a href="Ramsey" title="Ramsey">Ramsey</a>,
+and every strategic $ω$-Ramsey cardinal is virtually measurable in $L$.</p>
+
+<p>If κ is virtually measurable, then either $κ$ is
+<a href="Remarkable" title="Remarkable">remarkable</a>
+in $L$ or $L_κ \models \text{“there is a proper class of virtually
+measurables”}$.</p>
+
+<h2 id="see-also">
+<a class="anchor" href="#see-also" aria-hidden="true"><span class="octicon octicon-link"></span></a>See also</h2>
+
+<ul>
+  <li><a href="Ultrapower" title="Ultrapower">Ultrapower</a></li>
+  <li><a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a></li>
+  <li><a href="Axiom_of_determinacy" title="Axiom of determinacy">Axiom of
+determinacy</a></li>
+  <li>
+<a href="Strongly_compact" title="Strongly compact">Strongly
+compact</a>
+cardinal</li>
+</ul>
+
+<h2 id="read-more">
+<a class="anchor" href="#read-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>Read more</h2>
+
+<ul>
+  <li>
+    <p>Jech, Thomas - <em>Set theory</em></p>
+  </li>
+  <li>
+    <p>Bering A., Edgar - <em>A brief introduction to measurable cardinals</em></p>
+  </li>
+</ul>
+
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li>
+<li><span id="Blass1976">Blass, A. (1976). Exact functors and measurable cardinals. <i>Pacific J. Math.</i>, <i>63</i>(2), 335–346. http://web.archive.org/web/20191116153209/https://projecteuclid.org:443/euclid.pjm/1102867389</span></li>
+<li><span id="Carmody2016">Carmody, E., Gitman, V., &amp; Habič, M. E. (2016). <i>A Mitchell-like order for Ramsey and Ramsey-like cardinals</i>.</span></li>
+<li><span id="Feng1990">Feng, Q. (1990). A hierarchy of Ramsey cardinals. <i>Annals of Pure and Applied Logic</i>, <i>49</i>(3), 257–277. https://doi.org/10.1016/0168-0072(90)90028-Z</span></li>
+<li><span id="Holy2018">Holy, P., &amp; Schlicht, P. (2018). A hierarchy of Ramsey-like cardinals. <i>Fundamenta Mathematicae</i>, <i>242</i>, 49–74. https://doi.org/10.4064/fm396-9-2017</span></li>
+<li><span id="Nielsen2018">Nielsen, D. S., &amp; Welch, P. (2018). <i>Games and Ramsey-like cardinals</i>.</span></li>
+<li><span id="Sharpe2011">Sharpe, I., &amp; Welch, P. (2011). Greatly Erdős cardinals with some generalizations to the Chang and Ramsey properties. <i>Ann. Pure Appl. Logic</i>, <i>162</i>(11), 863–902. https://doi.org/10.1016/j.apal.2011.04.002</span></li>
+<li><span id="Bagaria2012">Bagaria, J. (2012). \(C^{(n)}\)-cardinals. <i>Archive for Mathematical Logic</i>, <i>51</i>(3–4), 213–240. https://doi.org/10.1007/s00153-011-0261-8</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

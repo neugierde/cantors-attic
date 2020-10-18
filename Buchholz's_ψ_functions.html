@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Buchholz’s ψ functions | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Buchholz’s ψ functions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Buchholz's_%CF%88_functions","@type":"WebPage","headline":"Buchholz’s ψ functions","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Buchholz's ψ functions</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#basic-notions">Basic Notions</a></li>
+<li class="toc-entry toc-h2"><a href="#definition">Definition</a></li>
+<li class="toc-entry toc-h2"><a href="#properties">Properties</a></li>
+<li class="toc-entry toc-h2"><a href="#fundamental-sequences">Fundamental sequences</a></li>
+<li class="toc-entry toc-h2"><a href="#takeuti-feferman-buchholz-ordinal">Takeuti-Feferman-Buchholz ordinal</a></li>
+<li class="toc-entry toc-h2"><a href="#see-also">See also</a></li>
+<li class="toc-entry toc-h2"><a href="#references">References</a></li>
+</ul><p>Buchholz’s functions are a hierarchy of single-argument ordinal
+functions \( (\psi _{\nu }:On\rightarrow On)_{\nu\le\omega}\)
+introduced by German mathematician Wilfried Buchholz in 1981.</p>
+
+<h2 id="basic-notions">
+<a class="anchor" href="#basic-notions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Notions</h2>
+
+<p>Small Greek letters always denote ordinals. Each ordinal \(\alpha\)
+is identified with the set of its predecessors
+\(\alpha=\{\beta|\beta&lt;\alpha\}\).</p>
+
+<p>\(On\) denotes the class of all ordinals.</p>
+
+<p>We define \(\Omega_0=1\) and \(\Omega_{\nu}=\aleph_{\nu}\)
+for \(\nu&gt;0\).</p>
+
+<p>An ordinal \(\alpha\) is an additive principal number if
+\(\alpha&gt;0\) and \(\xi+\eta&lt;\alpha\) for all
+\(\xi,\eta&lt;\alpha\). Let \(P\) denote the set of all additive
+principal numbers i.e.</p>
+
+<p>\(P=\{\alpha\in
+On|0&lt;\alpha\wedge\forall\xi,\eta&lt;\alpha(\xi+\eta\in\alpha)\}=\{\omega^\beta|\beta\in
+On\}\)</p>
+
+<p>For every \(\alpha\notin P\) there exist unique set
+\(P(\alpha)=\{\alpha_1, \alpha_2, … ,\alpha_n\}\) such that
+\(\alpha=\alpha_1+\alpha_2+ \cdots+\alpha_n\) and
+\(\alpha&gt;\alpha_1\geq\alpha_2\geq \cdots\geq\alpha_n\)
+and \(\alpha_1, \alpha_2, … ,\alpha_n\in P\)</p>
+
+<p>\(\alpha=_{NF}\alpha_1+\alpha_2+\cdots+\alpha_n\) iff
+\(\alpha=\alpha_1+\alpha_2+\cdots+\alpha_n\) and
+\(\alpha&gt;\alpha_1\geq\alpha_2\geq\cdots\geq\alpha_n\)
+and \(\alpha_1,\alpha_2,…,\alpha_n\in P\)</p>
+
+<h2 id="definition">
+<a class="anchor" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h2>
+
+<p>Buchholz’s functions are defined as follows:</p>
+
+<ul>
+  <li>\(C_\nu^0(\alpha) = \Omega_\nu\),</li>
+  <li>\(C_\nu^{n+1}(\alpha) = C_\nu^n(\alpha) \cup \{\gamma |
+P(\gamma) \subseteq C_\nu^n(\alpha)\} \cup
+\{\psi_\mu(\xi) | \xi \in \alpha \cap C_\nu^n(\alpha)
+\wedge \xi \in C_\mu(\xi) \wedge \mu \leq \omega\}\),</li>
+  <li>\(C_\nu(\alpha) = \bigcup_{n &lt; \omega} C_\nu^n
+(\alpha)\),</li>
+  <li>\(\psi_\nu(\alpha) = \min\{\gamma | \gamma \not\in
+C_\nu(\alpha)\}\).</li>
+</ul>
+
+<p>In other words \(\psi_\nu(\alpha)\) is the least ordinal number
+which cannot be generated from ordinals less than \(\Omega_\nu\) by
+applying of addition and the functions \(\psi_{\mu}(\eta)\) with
+\(\eta &lt; \alpha\) and \(\mu \le \omega\).</p>
+
+<p>We define \(\alpha=_{NF}\psi_\nu(\beta)\) iff
+\(\alpha=\psi_\nu(\beta)\) and \(\beta\in C_\nu(\beta)\)</p>
+
+<h2 id="properties">
+<a class="anchor" href="#properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>Properties</h2>
+
+<p>Buchholz showed the following properties of those functions:</p>
+
+<ul>
+  <li>\(\psi_\nu(0)=\Omega_\nu\),</li>
+  <li>\(\psi_\nu(\alpha)\in P\),</li>
+  <li>\(\psi_\nu(\alpha+1)=\text{min}\{\gamma\in P|
+\psi_\nu(\alpha)&lt;\gamma\}\text{ if }\alpha\in
+C_\nu(\alpha)\),</li>
+  <li>\(\Omega_\nu\le\psi_\nu(\alpha)&lt;\Omega_{\nu+1}\),</li>
+  <li>\(\alpha\le\beta\Rightarrow\psi_\nu(\alpha)\le\psi_\nu(\beta)\),</li>
+  <li>\(\psi_0(\alpha)=\omega^\alpha \text{ if
+}\alpha&lt;\varepsilon_0\),</li>
+  <li>\(\psi_\nu(\alpha)=\omega^{\Omega_\nu+\alpha} \text{ if
+}\alpha&lt;\varepsilon_{\Omega_\nu+1} \text{ and } \nu\neq
+0\).</li>
+</ul>
+
+<h2 id="fundamental-sequences">
+<a class="anchor" href="#fundamental-sequences" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fundamental sequences</h2>
+
+<p>The fundamental sequence for an ordinal number \(\alpha\) with
+cofinality \(\text{cof}(\alpha)=\beta\) is a strictly increasing
+sequence \((\alpha[\eta])_{\eta&lt;\beta}\) with length
+\(\beta\) and with limit \(\alpha\), where \(\alpha[\eta]\)
+is the \(\eta\)-th element of this sequence.</p>
+
+<p>We define the set \(T\) consisting of zero and all ordinals
+expressible using Buchholz’s functions and the operation of addition</p>
+
+<ol>
+  <li>\(0 \in T\)</li>
+  <li>if \(\alpha=_{NF}\alpha_1+\alpha_2+\cdots+\alpha_n\) and
+\(\alpha_1,\alpha_2,…,\alpha_n\in T\) then \(\alpha
+\in T\)</li>
+  <li>if \(\alpha=_{NF}\psi_\nu(\beta)\) and \(\nu,\beta\in
+T\) and \(\nu\le\omega\) then \(\alpha \in T\)</li>
+</ol>
+
+<p>For nonzero ordinals \(\alpha\in T\) we define the fundamental
+sequences as follows:</p>
+
+<ol>
+  <li>if \(\alpha=\alpha_1+\alpha_2+\cdots+\alpha_n\) then
+\(\text{cof} (\alpha)= \text{cof} (\alpha_n)\) and
+\(\alpha[\eta]=\alpha_1+\alpha_2+\cdots+(\alpha_n[\eta])\)</li>
+  <li>if \(\alpha=\psi_0(0)\) or \(\alpha=\psi_{\nu+1}(0)\)
+then \(\operatorname{cof}(\alpha)=\alpha\) and
+\(\alpha[\eta]=\eta\)</li>
+  <li>if \(\alpha=\psi_\omega(0)\) then
+\(\operatorname{cof}(\alpha)=\omega\) and
+\(\alpha[\eta]=\psi_\eta(0)\)</li>
+  <li>if \(\alpha=\psi_{\nu}(\beta+1)\) then
+\(\operatorname{cof}(\alpha)=\omega\) and
+\(\alpha[\eta]=\psi_{\nu}(\beta)\cdot \eta\)</li>
+  <li>if \(\alpha=\psi_{\nu}(\beta)\) and
+\(\operatorname{cof}(\beta)\in\{\omega\}\cup\{\Omega_{\mu+1}\mid\mu&lt;\nu\}\)
+then \(\operatorname{cof}(\alpha)=\operatorname{cof}(\beta)\)
+and \(\alpha[\eta]=\psi_{\nu}(\beta[\eta])\)</li>
+  <li>if \(\alpha=\psi_{\nu}(\beta)\) and
+\(\operatorname{cof}(\beta)\in\{\Omega_{\mu+1}\mid\mu\geq\nu\}\)
+then \(\operatorname{cof}(\alpha)=\omega\) and
+\(\alpha[\eta]=\psi_\nu(\beta[\gamma[\eta]])\) with
+\(\gamma[0]=\Omega_\mu\) and
+\(\gamma[\eta+1]=\psi_\mu(\beta[\gamma[\eta]])\)</li>
+</ol>
+
+<h2 id="takeuti-feferman-buchholz-ordinal">
+<a class="anchor" href="#takeuti-feferman-buchholz-ordinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Takeuti-Feferman-Buchholz ordinal</h2>
+
+<p>The Takeuti-Feferman-Buchholz ordinal is equal to
+\(\psi_0(\varepsilon_{\Omega_\omega+1})\) using Buchholz
+\(\psi\)-notaion and also it is equal to
+\(\theta_{\varepsilon_{\Omega_\omega+1}}(0)\) using Feferman
+\(\theta\)-notation. This ordinal is the limit of both notations. The
+name of the ordinal was proposed by David Madore.</p>
+
+<h2 id="see-also">
+<a class="anchor" href="#see-also" aria-hidden="true"><span class="octicon octicon-link"></span></a>See also</h2>
+
+<p>Other ordinal collapsing functions:</p>
+
+<p><a href="Madore%27s_%CF%88_function" title="Madore's ψ function">Madore’s ψ
+function</a></p>
+
+<p><a href="J%C3%A4ger%27s_collapsing_functions_and_%CF%81-inaccessible_ordinals" title="Jäger's collapsing functions and ρ-inaccessible ordinals">Jäger’s ψ
+functions</a></p>
+
+<p><a href="User_blog:Denis_Maksudov/Ordinal_functions_collapsing_the_least_weakly_Mahlo_cardinal;_a_system_of_fundamental_sequences" title="User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences">collapsing functions based on a weakly Mahlo
+cardinal</a></p>
+
+<h2 id="references">
+<a class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p>1. W.Buchholz. A New System of Proof-Theoretic Ordinal Functions.
+Annals of Pure and Applied Logic (1986),32</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

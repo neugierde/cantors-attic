@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Cardinality | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Cardinality" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Cardinality","@type":"WebPage","headline":"Cardinality","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Cardinality</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#ordering-of-cardinals">Ordering of cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#well-orderable-cardinals">Well orderable cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#non-well-orderable-cardinals">Non-well orderable cardinals</a></li>
+</ul><p>Cardinality is the bare notion of size, we measure “how many elements”
+are in a given set. Finite sets are simple that way, a set $A$ is finite
+it there is a natural number $k$ such that $A=\{a_1,\ldots,a_k\}$.
+That is to say that there exists a bijection between $A$ and
+$\{0,\ldots,k-1\}$. We generalize this idea and say that two sets are
+<strong>of the same cardinality</strong> if there exists a bijection between them
+(often we say “equinumerous” or “equipotent”).</p>
+
+<p>This gives, in turn, an equivalence relation defined on all the sets.
+However, in ZF (and similar set theories) the equivalence classes are
+not sets, since the collection of all singletons is no longer a set. In
+order to formulate the notion of cardinality within a model of set
+theory we would have to make it into a set.</p>
+
+<p>Under the
+<a href="Axiom_of_Choice" class="mw-redirect" title="Axiom of Choice">axiom of choice</a>
+every set can be well ordered. This means that we can simply choose the
+least
+<a href="Ordinal" title="Ordinal">ordinal</a>
+bijectible with the set $A$, and define that as the cardinality of $A$,
+often denoted by $|A|$. Not assuming the axiom of choice we may have
+sets which cannot be well ordered, these sets are not in bijection with
+any ordinal at all. We define the cardinality of $A$ as follows:</p>
+
+<ul>
+  <li>If $A$ can be well ordered, let $|A|=\alpha$ such that $\alpha$
+is the least ordinal for which there is a bijection with/surjection
+onto $A$.</li>
+  <li>If $A$ cannot be well ordered, let $\alpha$ be the least ordinal
+for which exists $B\in V_\alpha$ such that $B$ is in bijection
+with $A$, and let \(\|A\|=\\{B\\mid B\\in V\_\\alpha\\land \\exists
+f:A\\to B\\text{ bijection}\\}\)</li>
+</ul>
+
+<p>This may seem a bit cluttered, however this is a clever use of the axiom
+of regularity which allows us to shrink cardinality equivalence classes
+into sets. Now we can say that $A$ and $B$ has the same cardinality if
+and only if $|A|=|B|$ if and only if there is a bijection between
+$A$ and $B$.</p>
+
+<h2 id="ordering-of-cardinals">
+<a class="anchor" href="#ordering-of-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ordering of cardinals</h2>
+
+<p>We want to be able and say “the set $A$ is bigger than the set $B$”,
+which in turn means that we would like to have an order defined on
+cardinals. This order should obey several properties:</p>
+
+<ul>
+  <li>If $A\subseteq B$ then $|A|\le|B|$,</li>
+  <li>If $|A|\le|B|$ and $|B|\le|C|$ then $|A|\le|C|$,</li>
+  <li>Every set is not bigger than itself, so $|A|=|A|$,</li>
+  <li>If $|A|\le|B|$ and $|B|\le|A|$ then either set is no
+larger than the other, we would like $|A|=|B|$.</li>
+</ul>
+
+<p>This can be done by defining $|A|\le|B|$ if and only if there
+exists $f:A\to B$ which is injective. We will show that these
+properties indeed hold:</p>
+
+<ul>
+  <li>If $A\subseteq B$ then $f(a)=a$ is an injective function showing
+$|A|\le|B|$.</li>
+  <li>If $|A|\le|B|$ and $|B|\le|C|$ then there are $f:A\to B$
+and $g:B\to C$ injective, then $g\circ f:A\to C$ is injective as
+wanted.</li>
+  <li>Indeed $f(a)=a$ is a bijection from $A$ onto itself, so
+$|A|=|A|$.</li>
+  <li>Lastly, the Cantor-Schroder-Bernstein theorem ensures us (without
+using the axiom of choice) the last condition that $|A|\le|B|$
+and $|B|\le|A|$ imply together $|A|=|B|$.</li>
+</ul>
+
+<p>Using injective functions works fine, however what about surjective
+functions? In finite subsets the pigeonhole principle ensures us that if
+there is an injection, but no bijection then there is no surjection. We
+can also define the surjective relation:</p>
+
+\[\|A\|\\leq^\\ast\|B\|\\iff\\exists f:B\\to A\\text{ surjective}\]
+
+<p>In this ordering, we indeed have that if $A\subseteq B$ then
+$|A|\leq^\ast|B|$; as well $|A|=^\ast|A|$, we even have
+$|A|\leq^\ast|B|$ and $|B|\leq^\ast|C|$ implying
+$|A|\leq^\ast|C|$. However we do not have a dual theorem to the
+Cantor-Schroder-Bernstein theorem, namely it is consistent that
+$|A|&lt;|B|$ but $|B|\leq^\ast|A|$.</p>
+
+<h2 id="well-orderable-cardinals">
+<a class="anchor" href="#well-orderable-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Well orderable cardinals</h2>
+
+<p><a href="Parlour" title="Parlour">Finite
+sets</a>
+can be well ordered, of course, however infinite sets can be well
+ordered too. Countable sets are by definition in bijection with
+<a href="Omega" title="Omega">$\omega$</a>.
+Sets of ordinals have a natural order which is a well order, using
+<a href="Hartog_number" title="Hartog number">Hartog
+number</a>
+we can deduce that if $\aleph_\alpha$ exists then
+$\aleph_\alpha^+$ exists, and if we only iterated this set-many times
+then the increasing union gives us a new cardinal. The result is a
+proper class of well orderable cardinals.</p>
+
+<p>If $\alpha$ is an ordinal, we say that it is an <em>initial ordinal</em> if no
+$\beta&lt;\alpha$ is in bijection with $\alpha$. We can see that
+initial ordinals are exactly the cardinalities which represent well
+orderable cardinals, these are the sets which use for
+<a href="Aleph" title="Aleph">$\aleph$-numbers</a>.</p>
+
+<h2 id="non-well-orderable-cardinals">
+<a class="anchor" href="#non-well-orderable-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Non-well orderable cardinals</h2>
+
+<p>Assuming the negation of the axiom of choice, we have that some sets
+cannot be well ordered, and as a result some cardinals are non-$\aleph$
+ones. Such examples are infinite
+<a href="D-finite" class="mw-redirect" title="D-finite">Dedekind finite</a>
+cardinals, in some models of ZF the real numbers cannot be well ordered,
+which also forms a non-$\aleph$ cardinal.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    This article is a stub. Please help us to improve Cantor's Attic by adding information.
+</code></pre></div></div>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

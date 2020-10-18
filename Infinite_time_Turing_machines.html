@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The ordinals of infinite time Turing machines | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="The ordinals of infinite time Turing machines" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Infinite_time_Turing_machines","@type":"WebPage","headline":"The ordinals of infinite time Turing machines","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>The ordinals of infinite time Turing machines</h1>
+        <ul class="section-nav">
+</ul><p>The theory of infinite time Turing machines extends the operation of
+ordinary Turing machines into transfinite ordinal time. At successor
+stages of computations, the machines compute as expected, according to
+the rigid instructions of their finite programs, writing on the tape,
+moving the head to the left or right and changing to a new state. At
+limit stages, the information the computation was producing is preserved
+in a sense: each cell of the tape assumes the limsup of its values going
+into that limit; the head is reset to the left-most cell and the state
+is placed in the <em>limit</em> state, a distinguished state like the <em>start</em>
+state and the <em>halt</em> state.</p>
+
+<p>A real is <em>writable</em> by such machines if there is a program which on
+trivial input can write that real on the output tape and then halt. A
+real is <em>eventually writable</em> if there is a program that on trivial
+input can write the real on the output tape in such a way that from some
+point on, the output tape exhibits that real as its final stabilized
+value, even if the machine does not halt. A real is <em>accidently
+writable</em> if it appears on one of the tapes during the course of a
+computation of a program on trivial input. See 
+<a class="citation" href="#Hamkins2000">(Hamkins &amp; Lewis, 2000; Hamkins, 2002; Hamkins, 2004)</a></p>
+
+<p>Similarly, an ordinal is writable or eventually writable or accidentally
+writable if it is the order type of a relation coded by such a kind of
+real.</p>
+
+<ul>
+  <li>$\lambda=$ the supremum of the writable ordinals</li>
+  <li>$\zeta=$ the supremum of the eventually writable ordinals</li>
+  <li>$\Sigma=$ the supremum of the accidentally writable ordinals</li>
+</ul>
+
+<p>Hamkins and Lewis <a class="citation" href="#Hamkins2000">(Hamkins &amp; Lewis, 2000)</a>
+showed that $\lambda\lt\zeta\lt\Sigma$, and while $\lambda$ and
+$\zeta$ are
+<a href="Admissible" title="Admissible">admissible</a>
+ordinals and <a href="Admissible#Computably_inaccessible_ordinal" title="Admissible">computably
+inaccessible</a>,
+$\Sigma$ is not admissible.</p>
+
+<p>Welch <a class="citation" href="#Welch2000">(Welch, 2000)</a> proved the $\lambda-\zeta-\Sigma$
+theorem, asserting that
+$L_\lambda\prec_{\Sigma_1}L_\zeta\prec_{\Sigma_2}L_\Sigma$,
+and furthermore $\lambda$ is the least ordinal such that $L_\lambda$
+has a $\Sigma_1$-elementary end-extension, and $\zeta$ is least such
+that $L_\zeta$ has a $\Sigma_2$-elementary end-extension.</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Hamkins2000">Hamkins, J. D., &amp; Lewis, A. (2000). Infinite time Turing machines. <i>J. Symbolic Logic</i>, <i>65</i>(2), 567–604. https://doi.org/10.2307/2586556</span></li>
+<li><span id="Hamkins2002">Hamkins, J. D. (2002). Infinite time Turing machines. <i>Minds and Machines</i>, <i>12</i>(4), 521–539. http://boolesrings.org/hamkins/turing-mm/</span></li>
+<li><span id="Hamkins2004">Hamkins, J. D. (2004). Supertask computation. <i>Classical and New Paradigms of Computation and Their Complexity Hierarchies</i>, <i>23</i>, 141–158. https://doi.org/10.1007/978-1-4020-2776-5_8</span></li>
+<li><span id="Welch2000">Welch, P. (2000). The Lengths of Infinite Time Turing Machine Computations. <i>Bulletin of the London Mathematical Society</i>, <i>32</i>(2), 129–136.</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

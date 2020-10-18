@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>BEAF | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="BEAF" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/BEAF","@type":"WebPage","headline":"BEAF","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>BEAF</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definitions">Definitions</a></li>
+<li class="toc-entry toc-h2"><a href="#rules">Rules</a></li>
+<li class="toc-entry toc-h2"><a href="#examples">Examples</a></li>
+</ul><p>BEAF, or Bowers Exploding Array function, is an extremely fast-growing
+function.</p>
+
+<h2 id="definitions">
+<a class="anchor" href="#definitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions</h2>
+
+<ul>
+  <li>The “base” (<em>b</em>) is the first entry in the array.</li>
+  <li>The “prime” (<em>p</em>) is the second entry in the array.</li>
+  <li>The “pilot” is the first non-1 entry after the prime. It can be as
+early as the third entry.</li>
+  <li>The “copilot” is the entry immediately before the pilot. The copilot
+does not exist if the pilot is the first entry in its row.</li>
+  <li>A “structure” is a part of the array that consists of a
+lower-dimensional group. This could be an entry (written \(X^0\)),
+a row (written \(X^1\)), a plane (\(X^2\)), a realm (\(X^3\)),
+or a flune (\(X^4\)), not to mention higher-dimensional structures
+(\(X^5\), \(X^6\), etc.) and
+<a href="index.php?title=Tetration&amp;action=edit&amp;redlink=1" class="new" title="Tetration (page does not exist)">tetrational</a>
+structures, e.g. \(X\uparrow\uparrow 3\). We can also continue
+with
+<a href="index.php?title=Pentation&amp;action=edit&amp;redlink=1" class="new" title="Pentation (page does not exist)">pentational</a>,
+<a href="index.php?title=Hexation&amp;action=edit&amp;redlink=1" class="new" title="Hexation (page does not exist)">hexational</a>,
+…,
+<a href="index.php?title=Expansion&amp;action=edit&amp;redlink=1" class="new" title="Expansion (page does not exist)">expandal</a>,
+… structures.</li>
+  <li>A “previous entry” is an entry that occurs before the pilot, but is
+on the same row as all other previous entries. A “previous row” is a
+row that occurs before the pilot’s row, but is on the same plane as
+all other previous rows. A “previous plane” is a plane that occurs
+before the pilot’s plane, but is on the same realm as all other
+previous planes, etc. These are called “previous structures.”</li>
+  <li>A “prime block” of a structure \(S\) is computed by replacing all
+instances of \(X\) with \(p\). For example, if \(S = X^3\),
+the prime block is \(p^3\), or a cube of side length \(p\). The
+prime block of an \(X^X\) structure is \(p^p\), a
+\(p\)-hypercube with sidelength \(p\).</li>
+  <li>The “airplane” includes the pilot, all previous entries, and the
+prime block of all previous structures.</li>
+  <li>The “passengers” are the entries in the airplane that are not the
+pilot or copilot.</li>
+  <li>The value of the array is notated \(v(A)\), where <em>A</em> is the
+array.</li>
+</ul>
+
+<h2 id="rules">
+<a class="anchor" href="#rules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rules</h2>
+
+<ol>
+  <li>
+<em>Prime rule</em>: If \(p = 1\), \(v(A) = b\).</li>
+  <li>
+<em>Initial rule</em>: If there is no pilot, \(v(A) = b^p\).</li>
+  <li>
+<em>Catastrophic rule</em>: If neither 1 nor 2 apply, then:
+    <ol>
+      <li>pilot decreases by 1,</li>
+      <li>copilot takes on the value of the original array with the prime
+decreased by 1,</li>
+      <li>each passenger becomes <em>b</em>,</li>
+      <li>and the rest of the array remains unchanged.</li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="examples">
+<a class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h2>
+
+<p>\begin{eqnarray*} \{3,3,3,3\} &amp;=&amp; \{3,\{3,2,3,3\},2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,1,3,3\},2,3\},2,3\} \\ &amp;=&amp; \{3,\{3,3,2,3\},2,3\}
+\\ &amp;=&amp; \{3,\{3,\{3,2,2,3\},1,3\},2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,\{3,1,2,3\},1,3\},1,3\},2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,3,1,3\},1,3\},2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,3,\{3,2,1,3\},2\},1,3\},2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,3,\{3,3,\{3,1,1,3\},2\},2\},1,3\},2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,3,\{3,3,3,2\},2\},1,3\},2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,3,\{3,\{3,\{3,3,1,2\},1,2\},2,2\},2\},1,3\},2,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,3,\{3,\{3,\{3,3,\{3,2,1,2\}\},1,2\},2,2\},2\},1,3\},2,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,3,\{3,\{3,\{3,3,\{3,3,\{3,1,1,2\}\}\},1,2\},2,2\},2\},1,3\},2,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,3,\{3,\{3,\{3,3,\{3,3,3\}\},1,2\},2,2\},2\},1,3\},2,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,3,\{3,\{3,3\uparrow^{3\uparrow\uparrow\uparrow3}3,1,2\},2,2\},2\},1,3\},2,3\}
+\end{eqnarray*}</p>
+
+<hr>
+
+<p>Using {a, b, … (1) c, d, …} to denote</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   {a, b, ...}
+   {c, d, ...}
+</code></pre></div></div>
+
+<p>a 2-dimensional array (For example, $\{3,3,3 (1) 3,3,3 (1) 3,3,3\}$
+means a 3-by-3 square of threes):</p>
+
+<p>\begin{eqnarray*} \{3,3(1)3,3\} &amp;=&amp; \{3,3,3(1)2,3\} \\ &amp;=&amp;
+\{3,\{3,2,3(1)2,3\},2(1)2,3\} \\ &amp;=&amp;
+\{3,\{3,3,2(1)2,3\},2(1)2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,2,2(1)2,3\}(1)2,3\},2(1)2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,3(1)2,3\}(1)2,3\},2(1)2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,3,3(1)1,3\}(1)2,3\},2(1)2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,\{3,2,3(1)1,3\},2(1)1,3\}(1)2,3\},2(1)2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,\{3,3,2(1)1,3\},2(1)1,3\}(1)2,3\},2(1)2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,2,2(1)1,3\}(1)1,3\},2(1)1,3\}(1)2,3\},2(1)2,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3(1)1,3\}(1)1,3\},2(1)1,3\}(1)2,3\},2(1)2,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,2(1)1,3\},2\}(1)1,3\},2(1)1,3\}(1)2,3\},2(1)2,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,3(1)3,2\},2\}(1)1,3\},2(1)1,3\}(1)2,3\},2(1)2,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,3,3(1)2\}\}(1)1,2\},2(1)1,2\}(1)2,3\}(1)2,2\},2\}(1)1,3\},2(1)1,3\}(1)2,3\},2(1)2,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,2,3(1)2\},2(1)2\}\}(1)1,2\},2(1)1,2\}(1)2,3\}(1)2,2\},2\}(1)1,3\},2(1)1,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,3,2(1)2\},2(1)2\}\}(1)1,2\},2(1)1,2\}(1)2,3\}(1)2,2\},2\}(1)1,3\},2(1)1,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,2,2(1)2\}(1)2\},2(1)2\}\}(1)1,2\},2(1)1,2\}(1)2,3\}(1)2,2\},2\}(1)1,3\},2(1)1,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,3(1)2\}(1)2\},2(1)2\}\}(1)1,2\},2(1)1,2\}(1)2,3\}(1)2,2\},2\}(1)1,3\},2(1)1,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,3,3\}(1)2\},2(1)2\}\}(1)1,2\},2(1)1,2\}(1)2,3\}(1)2,2\},2\}(1)1,3\},2(1)1,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,3\uparrow\uparrow\uparrow3(1)2\},2(1)2\}\}(1)1,2\},2(1)1,2\}(1)2,3\}(1)2,2\},2\}(1)1,3\},2(1)1,3\}
+\\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{3,\{3,\{3,\{3,3,3(1)\{3,\{\underbrace{3,\cdots,3}_{3\uparrow\uparrow\uparrow3}\},2(1)2\}\}(1)1,2\},2(1)1,2\}(1)2,3\}(1)2,2\},2\}(1)1,3\},2(1)1,3\}
+\end{eqnarray*}</p>
+
+<p>More generally, (n) is typically used as a separator representing a
+line/plane/… shift in a n-dimensional array.</p>
+
+<p>BEAF is however formally undefined past (n)-separators. In particular,
+the so-called “tetrational” arrays are not defined, contrary to popular
+belief.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Jónsson cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Jónsson cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Jonsson","@type":"WebPage","headline":"Jónsson cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Jónsson cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#equivalent-definitions">Equivalent Definitions</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#partition-property">Partition Property</a></li>
+<li class="toc-entry toc-h3"><a href="#substructure-characterization">Substructure Characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#embedding-characterization">Embedding Characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#abstract-algebra-characterization">Abstract Algebra Characterization</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#properties">Properties</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#relations-to-other-large-cardinal-notions">Relations to other large cardinal notions</a></li>
+<li class="toc-entry toc-h3"><a href="#jónsson-successors-of-singulars">Jónsson successors of singulars</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#jónsson-cardinals-and-the-core-model">Jónsson cardinals and the core model</a></li>
+</ul><p>Jónsson cardinals are named after Bjarni Jónsson, a student of Tarski
+working in universal algebra. In 1962, he asked whether or or not every
+algebra of cardinality $\kappa$ has a proper subalgebra of the same
+cardinality. The cardinals $\kappa$ that satisfy this property are now
+called <strong>Jónsson cardinals</strong>.</p>
+
+<p>An algebra of cardinality $\kappa$ is simply a set $A$ of cardinality
+$\kappa$ and finitely many functions (each with finitely many inputs)
+$f_0,f_1…f_n$ for which $A$ is closed under every such function. A
+subalgebra of that algebra is a set $B\subseteq A$ which $B$ is closed
+under each $f_k$ for $k\leq n$.</p>
+
+<h2 id="equivalent-definitions">
+<a class="anchor" href="#equivalent-definitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Equivalent Definitions</h2>
+
+<p>There are several equivalent definitions of Jónsson cardinals.</p>
+
+<h3 id="partition-property">
+<a class="anchor" href="#partition-property" aria-hidden="true"><span class="octicon octicon-link"></span></a>Partition Property</h3>
+
+<p>A cardinal $\kappa$ is <strong>Jónsson</strong> iff the <a href="Partition_property" title="Partition property">partition
+property</a>
+$\kappa\rightarrow [\kappa]_\kappa^{&lt;\omega}$ holds, i.e.
+that given any function $f:[\kappa]^{&lt;\omega}\to\kappa$ we can
+find a subset $H\subseteq\kappa$ of order type $\kappa$ such that
+$f``[H]^n\neq\kappa$ for every $n&lt;\omega$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<h3 id="substructure-characterization">
+<a class="anchor" href="#substructure-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Substructure Characterization</h3>
+
+<ul>
+  <li>
+    <p>A cardinal $\kappa$ is <strong>Jónsson</strong> iff given any $A$ there exists
+an elementary substructure $\langle X,\in, X\cap
+A\rangle\prec\langle V_\kappa,\in,A\rangle$ with
+$|X|=\kappa$ and $X\cap\kappa\neq\kappa$.</p>
+  </li>
+  <li>
+    <p>A cardinal $\kappa$ is <strong>Jónsson</strong> iff any structure with universe
+of cardinality $\kappa$ has a proper elementary substructure with
+universe also having cardinality $\kappa$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+  </li>
+</ul>
+
+<h3 id="embedding-characterization">
+<a class="anchor" href="#embedding-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Embedding Characterization</h3>
+
+<p>A cardinal $\kappa$ is <strong>Jónsson</strong> iff for every $\theta&gt;\kappa$
+there exists a transitive set $M$ with $\kappa\in M$ and an elementary
+embedding $j:M\to H_\theta$ such that $j(\kappa)=\kappa$ and
+$\text{crit }j&lt;\kappa$, iff for every $\theta&gt;\kappa$ there
+exists a transitive set $M$ with $\kappa\in M$ and an elementary
+embedding $j:M\to V_\theta$ such that $j(\kappa)=\kappa$ and
+$\text{crit} j&lt;\kappa$.</p>
+
+<p>Interestingly, if one such $\theta&gt;\kappa$ has this property, then
+every $\theta&gt;\kappa$ has this property as well.</p>
+
+<h3 id="abstract-algebra-characterization">
+<a class="anchor" href="#abstract-algebra-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Abstract Algebra Characterization</h3>
+
+<p>In terms of abstract algebra, $\kappa$ is <strong>Jónsson</strong> iff any algebra
+$A$ of size $\kappa$ has a proper subalgebra of $A$ of size $\kappa$.</p>
+
+<h2 id="properties">
+<a class="anchor" href="#properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>Properties</h2>
+
+<p>All the following facts can be found in
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>:</p>
+
+<ul>
+  <li>$\aleph_0$ is not Jónsson.</li>
+  <li>If $\kappa$ isn’t Jónsson then neither is $\kappa^+$.</li>
+  <li>If $2^\kappa=\kappa^+$ then $\kappa^+$ isn’t Jónsson.</li>
+  <li>If $\kappa$ is regular then $\kappa^+$ isn’t Jónsson (therefore
+$\kappa^{++}$ is never Jónsson, and if $\kappa$ is weakly
+inaccessible then $\kappa^+$ is never Jónsson).</li>
+  <li>A singular limit of
+<a href="Measurable" title="Measurable">measurables</a>
+is Jónsson.</li>
+  <li>The least Jónsson is either <a href="Inaccessible" title="Inaccessible">weakly
+inaccessible</a>
+or has cofinality $\omega$.</li>
+  <li>$\aleph_{\omega+1}$ is not Jónsson.</li>
+</ul>
+
+<p>It is still an open question as to whether or not there is some known
+large cardinal axiom that implies the consistency of $\aleph_\omega$
+being Jónsson.</p>
+
+<h3 id="relations-to-other-large-cardinal-notions">
+<a class="anchor" href="#relations-to-other-large-cardinal-notions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relations to other large cardinal notions</h3>
+
+<p>Jónsson cardinals have a lot of consistency strength:</p>
+
+<ul>
+  <li>Jónsson cardinals are equiconsistent with
+<a href="Ramsey" title="Ramsey">Ramsey</a>
+cardinals. <a class="citation" href="#Mitchell1997">(Mitchell, 1997)</a>
+</li>
+  <li>The existence of a Jónsson cardinal $\kappa$ implies the existence
+of
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$x^\sharp$</a>
+for every $x\in V_\kappa$ (and therefore for every real number
+$x$, because $\kappa$ is uncountable).</li>
+</ul>
+
+<p>But in terms of size, they’re (ostensibly) quite small:</p>
+
+<ul>
+  <li>A Jónsson cardinal need not be regular (assuming the consistency of
+a
+<a href="Measurable" title="Measurable">measurable</a>
+cardinal).</li>
+  <li>Every Ramsey cardinal is inaccessible and Jónsson.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>Every weakly inaccessible Jónsson is <a href="Mahlo" title="Mahlo">weakly
+hyper-Mahlo</a>.
+<a class="citation" href="#Shelah1994">(Shelah, 1994)</a>
+</li>
+</ul>
+
+<p>It’s an open question whether or not every inaccessible Jónsson cardinal
+is <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>.</p>
+
+<h3 id="jónsson-successors-of-singulars">
+<a class="anchor" href="#j%C3%B3nsson-successors-of-singulars" aria-hidden="true"><span class="octicon octicon-link"></span></a>Jónsson successors of singulars</h3>
+
+<p>As mentioned above, $\aleph_{\omega+1}$ is not Jónsson (this is due
+to Shelah). The question is then if it’s possible for any successor of a
+singular cardinal to be Jónsson. Here is a (non-exhaustive) list of
+things known:</p>
+
+<ul>
+  <li>If $0\neq\gamma&lt;|\eta|$ then $\aleph_{\eta+\gamma+1}$ is
+not Jónsson. <a class="citation" href="#Tryba1983">(Tryba, 1983)</a>
+</li>
+  <li>If there exists a Jónsson successor of a singular cardinal then
+<a href="Zero_dagger" class="mw-redirect" title="Zero dagger">$0^\dagger$</a>
+exists. <a class="citation" href="#Donder1998">(Donder &amp; Koepke, 1998)</a>
+</li>
+</ul>
+
+<h2 id="jónsson-cardinals-and-the-core-model">
+<a class="anchor" href="#j%C3%B3nsson-cardinals-and-the-core-model" aria-hidden="true"><span class="octicon octicon-link"></span></a>Jónsson cardinals and the core model</h2>
+
+<p>In 1998, Welch proved many interesting facts about Jónsson cardinals and
+the core model that can be found in
+<a class="citation" href="#Welch1998">(Welch, 1998)</a>. Assuming there is no inner model
+with a
+<a href="Woodin" title="Woodin">Woodin</a>
+cardinal then:</p>
+
+<ul>
+  <li>Weak covering holds at every Jónsson cardinal, i.e. that
+$\kappa^{+K}=\kappa^+$ for every Jónsson cardinal.</li>
+  <li>If $\kappa$ is regular Jónsson then the set of regular
+$\alpha&lt;\kappa$ satisfying weak covering is stationary in
+$\kappa$.</li>
+</ul>
+
+<p>If we assume that there’s no sharp for a
+<a href="Strong" title="Strong">strong</a>
+cardinal (known as $0^\P$ doesn’t exist) then:</p>
+
+<ul>
+  <li>For a Jónsson cardinal $\kappa$,
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$A^\sharp$</a>
+exists for every $A\subseteq\kappa$.</li>
+</ul>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Mitchell1997">Mitchell, W. J. (1997). Jónsson Cardinals, Erdős Cardinals, and the Core Model. <i>J. Symbol Logic</i>.</span></li>
+<li><span id="Shelah1994">Shelah, S. (1994). Cardinal Arithmetic. <i>Oxford Logic Guides</i>, <i>29</i>.</span></li>
+<li><span id="Tryba1983">Tryba, J. (1983). On Jónsson cardinals with uncountable cofinality. <i>Israel Journal of Mathematics</i>, <i>49</i>(4).</span></li>
+<li><span id="Donder1998">Donder, H.-D., &amp; Koepke, P. (1998). On the Consistency Strength of Áccessible\’Jónsson Cardinals and of the Weak Chang Conjecture. <i>Annals of Pure and Applied Logic</i>. https://doi.org/10.1016/0168-0072(83)90020-9</span></li>
+<li><span id="Welch1998">Welch, P. (1998). Some remarks on the maximality of Inner Models. <i>Logic Colloquium</i>. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.41.7037&amp;rep=rep1&amp;type=pdf</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

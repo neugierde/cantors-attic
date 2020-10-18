@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Basic Order Theory | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Basic Order Theory" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Ordering_Relations","@type":"WebPage","headline":"Basic Order Theory","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Basic Order Theory</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#partial-ordering">Partial Ordering</a></li>
+<li class="toc-entry toc-h2"><a href="#total-ordering">Total Ordering</a></li>
+<li class="toc-entry toc-h2"><a href="#well-founded-relations">Well-Founded Relations</a></li>
+<li class="toc-entry toc-h2"><a href="#well-ordering-relations">Well-Ordering Relations</a></li>
+</ul><p>We will denote an arbitrary ordering relation by $R$. We will establish
+some preliminary definitions:</p>
+
+<ul>
+  <li>An ordering $R$ is <em>reflexive</em> if and only if $xRx$, for all $x$ in
+the domain of $R$.</li>
+  <li>An ordering $R$ is <em>irreflexive</em> if and only if $\neg xRx$.</li>
+  <li>An ordering $R$ is <em>transitive</em> if and only if $xRy$ and $yRz$
+implies $xRz$, for all $x$, $y$, and $z$.</li>
+  <li>An ordering $R$ is <em>antisymmetric</em> if and only if $xRy$ and $yRx$
+implies $x=y$.</li>
+  <li>An ordering $R$ is <em>trichotomous</em> if and only if $xRy$, $x=y$, or
+$yRx$ for all $x$ and $y$ in the field of $R$.</li>
+</ul>
+
+<h2 id="partial-ordering">
+<a class="anchor" href="#partial-ordering" aria-hidden="true"><span class="octicon octicon-link"></span></a>Partial Ordering</h2>
+
+<p>A <em>partial ordering</em> consists of a relation along with a set such as $(
+A , \le )$ such that the order is reflexive, transitive, and
+antisymmetric for all members of $A$.</p>
+
+<p>A <em>strict partial ordering</em> consists of an ordered pair $( A , \lt )$
+that is irreflexive and transitive for all members of $A$.</p>
+
+<p>All strict partial orders are <em>asymmetric</em>, meaning that $xRy$ implies
+that $\neg yRx$.</p>
+
+<h2 id="total-ordering">
+<a class="anchor" href="#total-ordering" aria-hidden="true"><span class="octicon octicon-link"></span></a>Total Ordering</h2>
+
+<p>A <em>total ordering</em> consists of a partial ordering where any two elements
+are comparable, that is, for all $x$ and $y$ in $A$, $x\le y \lor
+y\le x$</p>
+
+<p>A <em>strict total ordering</em> is a strict partial ordering that is also
+trichotomous.</p>
+
+<h2 id="well-founded-relations">
+<a class="anchor" href="#well-founded-relations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Well-Founded Relations</h2>
+
+<p>A <em>minimal element</em> of $B$ with respect to a strict ordering relation
+$\lt$ is an element $x$ of $B$ that is not greater than any other
+element in $B$. That is $\forall y \in B: \neg y \lt x$</p>
+
+<p>A <em>well-founded relation</em> is an ordering $\lt$ under $A$ such that any
+nonempty subset $x$ of $A$ contains a minimal element.</p>
+
+<p>There are many interesting properties of well-founded relations. For
+example, all well-founded relations do not have any ordering “loops”.
+That is, they are irreflexive, asymmetric, etc.</p>
+
+<p>Well-founded relations do not have any infinitely descending
+$&lt;$-chains. Another way to state this is that no function $f$ mapping
+the natural numbers to well-founded set $A$ where $f(n+1) &lt; f(n)$ for
+all natural numbers $n$.</p>
+
+<p>Any subset of $A$, even if it is a proper class, must have a minimal
+element. The proof of this is not as straightforward as it sounds.</p>
+
+<p>We can also prove schemas of well-founded induction and well-founded
+recursion; the first strongly resembles epsilon induction, while the
+second defines a function $F(x)$ in terms of a function $G$ of the
+restriction of $F$ to the initial segment of $x$.</p>
+
+<p>An <em>initial segment</em> or <em>extension</em> of $x$ is the collection of all sets
+in $A$ less than $x$.</p>
+
+<p>We call a well-founded relation <em>setlike</em> if the initial segments of all
+the elements of $A$ are elements.</p>
+
+<h2 id="well-ordering-relations">
+<a class="anchor" href="#well-ordering-relations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Well-Ordering Relations</h2>
+
+<p>A <em>well-ordering</em> relation is a well-founded relation that is also a
+strict total order. Equivalently, we can also define a well-ordering
+relation as a well-founded relation that satisfies trichotomy.</p>
+
+<p>The ordinals can be defined as the set of all transitive sets that are
+well-ordered by the membership relation.</p>
+
+<p>The <a href="Well-ordering_principle" title="Well-ordering principle">Well-ordering
+principle</a>
+shows that all sets have some well-order associated with them.</p>
+
+<p>All well-ordered sets are
+<a href="Order-isomorphism" title="Order-isomorphism">order-isomorphic</a>
+to the ordinals.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

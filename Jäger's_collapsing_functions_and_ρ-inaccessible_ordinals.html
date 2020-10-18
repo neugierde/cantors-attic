@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Jäger’s collapsing functions and ρ-inaccessible ordinals | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Jäger’s collapsing functions and ρ-inaccessible ordinals" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/J%C3%A4ger's_collapsing_functions_and_%CF%81-inaccessible_ordinals","@type":"WebPage","headline":"Jäger’s collapsing functions and ρ-inaccessible ordinals","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Jäger's collapsing functions and ρ-inaccessible ordinals</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h3"><a href="#basic-notions">Basic Notions</a></li>
+<li class="toc-entry toc-h3"><a href="#veblen-function">Veblen function</a></li>
+<li class="toc-entry toc-h3"><a href="#rho-inaccessible-ordinals">\(\rho\)-Inaccessible Ordinals</a></li>
+<li class="toc-entry toc-h3"><a href="#the-ordinal-functions-psi_kappa">The Ordinal Functions \(\psi_\kappa\)</a></li>
+<li class="toc-entry toc-h2"><a href="#fundamental-sequences">Fundamental sequences</a></li>
+<li class="toc-entry toc-h2"><a href="#see-also">See also</a></li>
+<li class="toc-entry toc-h2"><a href="#references">References</a></li>
+</ul><p>Jäger’s collapsing functions are a hierarchy of single-argument ordinal
+functions \(\psi_\pi\) introduced by German mathematician Gerhard
+Jäger in 1984. This is an extension of <a href="Buchholz%27s_%CF%88_functions" title="Buchholz's ψ functions">Buchholz’s
+notation</a>.</p>
+
+<h3 id="basic-notions">
+<a class="anchor" href="#basic-notions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Notions</h3>
+
+<p>\(M_0\) is the least Mahlo cardinal, small Greek letters denote
+ordinals less than \(M_0\). Each ordinal \(\alpha\) is identified
+with the set of its predecessors
+\(\alpha=\{\beta|\beta&lt;\alpha\}\).</p>
+
+<p>\(L\) denotes the set of all limit ordinals less than \(M_0\).</p>
+
+<p>An ordinal \(\alpha\) is an additive principal number if
+\(\alpha&gt;0\) and \(\xi+\eta&lt;\alpha\) for all
+\(\xi,\eta&lt;\alpha\). Let \(P\) denote the set of all additive
+principal numbers less than \(M_0\).</p>
+
+<p>\(\alpha=_{NF}\alpha _{1}+\cdots +\alpha _{n}:\Leftrightarrow
+\alpha =\alpha _{1}+\cdots +\alpha _{n}\wedge \alpha _{1}\geq
+\cdots \geq \alpha _{n}\wedge \alpha _{1},… ,\alpha _{n}\in
+P\)</p>
+
+<p>Cofinality \(\text{cof}(\alpha)\) of an ordinal \(\alpha\) is the
+least \(\beta\) such that there exists a function
+\(f:\beta\rightarrow\alpha\) with \(\text{sup}\{f(\xi )|\xi
+&lt;\beta \}=\alpha\). An ordinal \(\alpha\) is regular, if
+\(\alpha\) is a limit ordinal and \(\text{cof}(\alpha)=\alpha\).
+Let \(R\) denote the set of all regular ordinals \(\in(\omega,
+M_0)\).</p>
+
+<p>An ordinal \(\alpha\) is (weakly) inaccessible if \(\alpha\) is a
+regular limit cardinal larger than \(\omega\).</p>
+
+<p>Enumeration function \(F\) of class of ordinals \(X\) is the unique
+increasing function such that
+\(X=\{F(\alpha)|\alpha\in\text{dom}(F)\}\) where domain of
+\(F\), \(\text{dom}(F)\) is an ordinal number. We use
+\(\text{Enum}(X)\) to donate \(F\).</p>
+
+<h3 id="veblen-function">
+<a class="anchor" href="#veblen-function" aria-hidden="true"><span class="octicon octicon-link"></span></a>Veblen function</h3>
+
+<p>\(\varphi_\alpha=\text{Enum}(\{\beta\in
+P|\forall\gamma&lt;\alpha(\varphi_\gamma(\beta)=\beta)\})\)</p>
+
+<p>Normal form</p>
+
+<p>\(\alpha=_{NF}\varphi_\beta(\gamma):\Leftrightarrow\alpha=\varphi_\beta(\gamma)\wedge\beta,\gamma&lt;\alpha\)</p>
+
+<p>An ordinal \(\alpha\) is a strongly critical if
+\(\varphi(\alpha,0)=\alpha\). Let \(S\) denote the set of all
+strongly critical ordinals less than \(M_0\).</p>
+
+<p>Definition of \(S(\gamma)\) for arbitrary \(\gamma\).</p>
+
+<p>\(S(\gamma)=\{\gamma\}\) if \(\gamma\in S\cup\{0\}\)</p>
+
+<p>\(S(\gamma)=\{\alpha_1,…,\alpha_n\}\) if
+\(\gamma=_{NF}\alpha_1+\cdots+\alpha_n\notin P\)</p>
+
+<p>\(S(\gamma)=\{\alpha,\beta\}\) if
+\(\gamma=_{NF}\varphi_\alpha(\beta)\notin S\)</p>
+
+<h3 id="rho-inaccessible-ordinals">
+<a class="anchor" href="#rho-inaccessible-ordinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>\(\rho\)-Inaccessible Ordinals</h3>
+
+<p>An ordinal is \(\rho\)-inaccessible if it is a regular cardinal and
+limit of \(\alpha\)-inaccessible ordinals for all
+\(\alpha&lt;\rho\). So the 0-inaccessible ordinals are exactly the
+regular cardinals \(&gt;\omega\), the 1-inaccessible ordinals are the
+inaccessible ordinals. Functions \(I_\rho:M_0 \rightarrow M_0\)
+enumerate the \(\rho\)-inaccessible ordinals less than \(M_0\) and
+their limits.</p>
+
+<p>\(I_\alpha=\text{Enum}(\{\beta\in
+R|\forall\gamma&lt;\alpha(I_\gamma(\beta)=\beta)\}) \)</p>
+
+<p>Normal form</p>
+
+<p>\(\alpha=_{NF}I_\beta(\gamma):\Leftrightarrow\alpha=I_\beta(\gamma)\wedge\gamma\notin
+L\)</p>
+
+<p>Definition of \(\gamma^{-}\) for \(\gamma\in R\).</p>
+
+<p>\(\gamma^{-}=0\) if \(\gamma=_{NF}I_\alpha(0)\)</p>
+
+<p>\(\gamma^{-}=I_\alpha(\beta)\) if
+\(\gamma=_{NF}I_\alpha(\beta+1)\)</p>
+
+<p><strong>Properties</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Veblen function</th>
+      <th>\(\rho\)-Inaccessible Ordinals</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(\varphi_\alpha(\beta)\in P\)</td>
+      <td>\(I_\alpha(0), I_\alpha(\beta+1)\in R\)</td>
+    </tr>
+    <tr>
+      <td>\(\gamma&lt;\alpha\Rightarrow\varphi_\gamma(\varphi_\alpha(\beta))=\varphi_\alpha(\beta)\)</td>
+      <td>\(\gamma&lt;\alpha\Rightarrow I_\gamma(I_\alpha(\beta))=I_\alpha(\beta)\)</td>
+    </tr>
+    <tr>
+      <td>\(\beta&lt;\gamma\Rightarrow\varphi_\alpha(\beta)&lt;\varphi_\alpha(\gamma)\)</td>
+      <td>\(\beta&lt;\gamma\Rightarrow I_\alpha(\beta)&lt;I_\alpha(\gamma)\)</td>
+    </tr>
+    <tr>
+      <td>\(\alpha&lt;\beta\Rightarrow\varphi_\alpha(0)&lt;\varphi_\beta(0)\)</td>
+      <td>\(\alpha&lt;\beta\Rightarrow I_\alpha(0)&lt;I_\beta(0)\)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="the-ordinal-functions-psi_kappa">
+<a class="anchor" href="#the-ordinal-functions-psi_kappa" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Ordinal Functions \(\psi_\kappa\)</h3>
+
+<p>Every \(\psi_\kappa\) is a function from \(M_0\) to
+\(\kappa\) which “collapses” the elements of \(M_0\) below
+\(\kappa\). By the Greek letters \(\kappa\) and \(\pi\) we
+shall denote uncountable regular cardinals less than \(M_0\).</p>
+
+<p><strong>Inductive Definition</strong> of \(C_\kappa(\alpha)\) and
+\(\psi_\kappa(\alpha)\).</p>
+
+<p>\(\{\kappa^{-}\}\cup\kappa^{-}\subset C_\kappa^n(\alpha)\)</p>
+
+<p>\(S(\gamma)\subset C_\kappa^n(\alpha)\Rightarrow\gamma\in
+C_\kappa^{n+1}(\alpha)\)</p>
+
+<p>\(\beta,\gamma\in C_\kappa^n(\alpha)\Rightarrow
+I_\beta(\gamma)\in C_\kappa^{n+1}(\alpha)\)</p>
+
+<p>\(\gamma&lt;\pi&lt;\kappa\wedge\pi\in
+C_\kappa^n(\alpha)\Rightarrow \gamma\in
+C_\kappa^{n+1}(\alpha)\)</p>
+
+<p>\(\gamma&lt;\alpha\wedge\gamma,\pi\in
+C_\kappa^n(\alpha)\wedge\gamma\in C_\pi(\gamma)\Rightarrow
+\psi_\pi(\gamma)\in C_\kappa^{n+1}(\alpha)\)</p>
+
+<p>\(C_\kappa(\alpha)=\cup\{C_\kappa^n(\alpha)|n&lt;\omega\}\)</p>
+
+<p>\(\psi_\kappa(\alpha)=\text{min}\{\xi|\xi\notin
+C_\kappa(\alpha)\}\)</p>
+
+<p>Normal form</p>
+
+<p>\(\alpha=_{NF}\psi_\kappa(\beta):\Leftrightarrow\alpha=\psi_\kappa(\beta)\wedge\beta\in
+C_\kappa(\beta)\)</p>
+
+<h2 id="fundamental-sequences">
+<a class="anchor" href="#fundamental-sequences" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fundamental sequences</h2>
+
+<p>The fundamental sequence for an ordinal number \(\alpha\) with
+cofinality \(\text{cof}(\alpha)=\beta\) is a strictly increasing
+sequence \((\alpha[\eta])_{\eta&lt;\beta}\) with length
+\(\beta\) and with limit \(\alpha\), where \(\alpha[\eta]\)
+is the \(\eta\)-th element of this sequence.</p>
+
+<p><strong>Inductive Definition</strong> of \(T\).</p>
+
+<ul>
+  <li>\(0 \in T\)</li>
+  <li>\(\alpha=_{NF}\alpha _{1}+\cdots +\alpha _{n}\wedge \alpha
+_{1},… ,\alpha _{n}\in T\Rightarrow\alpha\in T\)</li>
+  <li>\(\alpha=_{NF}\varphi_\beta(\gamma)\wedge\beta,\gamma\in
+T\Rightarrow\alpha\in T\)</li>
+  <li>\(\alpha=_{NF}I_\beta(\gamma)\wedge\beta,\gamma\in
+T\Rightarrow\alpha\in T\)</li>
+  <li>\(\alpha=_{NF}\psi_\kappa(\beta)\wedge\kappa, \beta\in
+T\Rightarrow\alpha\in T\)</li>
+</ul>
+
+<p>Below we write \(I(\alpha,\beta)\) for \(I_\alpha(\beta)\) and
+\(\varphi(\alpha,\beta)\) for \(\varphi_\alpha(\beta)\)</p>
+
+<p>For non-zero ordinals \(\alpha\in T\) we define the fundamental
+sequences as follows:</p>
+
+<ul>
+  <li>If \(\alpha=\varphi(0,\beta+1)\) then
+\(\text{cof}(\alpha)=\omega\) and
+\(\alpha[\eta]=\varphi(0,\beta)\times\eta\)</li>
+  <li>If \(\alpha=\varphi(\beta+1,0)\) then
+\(\text{cof}(\alpha)=\omega\) and \(\alpha[0]=0\) and
+\(\alpha[\eta+1]=\varphi(\beta,\alpha[\eta])\)</li>
+  <li>If \(\alpha=\varphi(\beta+1,\gamma+1)\) then
+\(\text{cof}(\alpha)=\omega\) and
+\(\alpha[0]=\varphi(\beta+1,\gamma)+1\) and
+\(\alpha[\eta+1]=\varphi(\beta,\alpha[\eta])\)</li>
+  <li>If \(\alpha=\varphi(\beta,0)\) and \(\beta\in L\) then
+\(\text{cof}(\alpha)=\text{cof}(\beta)\) and
+\(\alpha[\eta]=\varphi(\beta[\eta],0)\)</li>
+  <li>If \(\alpha=\varphi(\beta,\gamma+1)\) and \(\beta\in L\)
+then \(\text{cof}(\alpha)=\text{cof}(\beta)\) and
+\(\alpha[\eta]=\varphi(\beta[\eta],\varphi(\beta,\gamma)+1)\)</li>
+  <li>
+    <p>If \(\alpha=\varphi(\beta,\gamma)\) and \(\gamma\in L\)
+then \(\text{cof}(\alpha)=\text{cof}(\gamma)\) and
+\(\alpha[\eta]=\varphi(\beta,\gamma[\eta])\)</p>
+  </li>
+  <li>If \(\alpha=\psi_{I(0,0)}(0)\) then
+\(\text{cof}(\alpha)=\omega\) and \(\alpha[0]=0\) and
+\(\alpha[\eta+1]=\varphi(\alpha[\eta],0)\)</li>
+  <li>If \(\alpha=\psi_{I(0,\beta+1)}(0)\) then
+\(\text{cof}(\alpha)=\omega\) and
+\(\alpha[0]=I(0,\beta)+1\) and
+\(\alpha[\eta+1]=\varphi(\alpha[\eta],0)\)</li>
+  <li>
+    <p>If \(\alpha=\psi_{I(0,\beta)}(\gamma+1)\) then
+\(\text{cof}(\alpha)=\omega\) and
+\(\alpha[0]=\psi_{I(0,\beta)}(\gamma)+1\) and
+\(\alpha[\eta+1]=\varphi(\alpha[\eta],0)\)</p>
+  </li>
+  <li>If \(\alpha=\psi_{I(\beta+1,0)}(0)\) then
+\(\text{cof}(\alpha)=\omega\) and \(\alpha[0]=0\) and
+\(\alpha[\eta+1]=I(\beta,\alpha[\eta])\)</li>
+  <li>If \(\alpha=\psi_{I(\beta+1,\gamma+1)}(0)\) then
+\(\text{cof}(\alpha)=\omega\) and
+\(\alpha[0]=I(\beta+1,\gamma)+1\) and
+\(\alpha[\eta+1]=I(\beta,\alpha[\eta])\)</li>
+  <li>
+    <p>If \(\alpha=\psi_{I(\beta+1,\gamma)}(\delta+1)\) then
+\(\text{cof}(\alpha)=\omega\) and
+\(\alpha[0]=\psi_{I(\beta+1,\gamma)}(\delta)+1\) and
+\(\alpha[\eta+1]=I(\beta,\alpha[\eta])\)</p>
+  </li>
+  <li>If \(\alpha=\psi_{I(\beta,0)}(0)\) and \(\beta\in L\) then
+\(\text{cof}(\alpha)=\text{cof}(\beta)\) and
+\(\alpha[\eta]=I(\beta[\eta],0)\)</li>
+  <li>If \(\alpha=\psi_{I(\beta,\gamma+1)}(0)\) and \(\beta\in
+L\) then \(\text{cof}(\alpha)=\text{cof}(\beta)\) and
+\(\alpha[\eta]=I(\beta[\eta],I(\beta,\gamma)+1)\)</li>
+  <li>
+    <p>If \(\alpha=\psi_{I(\beta,\gamma)}(\delta+1)\) and
+\(\beta\in L\) then
+\(\text{cof}(\alpha)=\text{cof}(\beta)\) and
+\(\alpha[\eta]=I(\beta[\eta],\psi_{I(\beta,\gamma)}(\delta)+1)\)</p>
+  </li>
+  <li>If \(\alpha=\alpha_1+\alpha_2+\cdots+\alpha_n\) with
+\(n\geq 2\) then
+\(\text{cof}(\alpha)=\text{cof}(\alpha_n)\) and
+\(\alpha[\eta]=\alpha_1+\alpha_2+\cdots+(\alpha_n[\eta])\)</li>
+  <li>If \(\alpha=\varphi(0,0)\) then
+\(\text{cof}(\alpha)=\alpha=1\) and \(\alpha[0]=0\)</li>
+  <li>If \(\alpha=I(\beta,0)\) or \(\alpha=I(\beta,\gamma+1)\)
+then \(\text{cof}(\alpha)=\alpha\) and
+\(\alpha[\eta]=\eta\)</li>
+  <li>If \(\alpha=I(\beta,\gamma)\) and \(\gamma\in L\) then
+\(\text{cof}(\alpha)=\text{cof}(\gamma)\) and
+\(\alpha[\eta]=I(\beta,\gamma[\eta])\)</li>
+  <li>If \(\alpha=\psi_\pi(\beta)\) and
+\(\omega\le\text{cof}(\beta)&lt;\pi\) then
+\(\text{cof}(\alpha)=\text{cof}(\beta)\) and
+\(\alpha[\eta]=\psi_\pi(\beta[\eta])\)</li>
+  <li>If \(\alpha=\psi_\pi(\beta)\) and
+\(\text{cof}(\beta)=\rho\geq\pi\) then
+\(\text{cof}(\alpha)=\omega\) and
+\(\alpha[\eta]=\psi_\pi(\beta[\gamma[\eta]])\) with
+\(\gamma[0]=1\) and
+\(\gamma[\eta+1]=\psi_{\rho}(\beta[\gamma[\eta]])\)</li>
+</ul>
+
+<p>Limit of this notation \(\lambda\). If \(\alpha=\lambda\) then
+\(\text{cof}(\alpha)=\omega\) and \(\alpha[0]=0\) and
+\(\alpha[\eta+1]=I(\alpha[\eta],0)\)</p>
+
+<h2 id="see-also">
+<a class="anchor" href="#see-also" aria-hidden="true"><span class="octicon octicon-link"></span></a>See also</h2>
+
+<p>Other ordinal collapsing functions:</p>
+
+<p><a href="Madore%27s_%CF%88_function" title="Madore's ψ function">Madore’s ψ
+function</a></p>
+
+<p><a href="Buchholz%27s_%CF%88_functions" title="Buchholz's ψ functions">Buchholz’s ψ
+functions</a></p>
+
+<p><a href="User_blog:Denis_Maksudov/Ordinal_functions_collapsing_the_least_weakly_Mahlo_cardinal;_a_system_of_fundamental_sequences" title="User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences">collapsing functions based on a weakly Mahlo
+cardinal</a></p>
+
+<h2 id="references">
+<a class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p>1. W.Buchholz. A New System of Proof-Theoretic Ordinal Functions.
+Annals of Pure and Applied Logic (1986),32</p>
+
+<p>2. M.Jäger. \(\rho\)-inaccessible ordinals, collapsing functions and
+a recursive notation system. Arch. Math. Logik Grundlagenforsch
+(1984),24</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

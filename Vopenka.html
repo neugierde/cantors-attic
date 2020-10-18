@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Vopěnka’s principle and Vopěnka cardinals | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Vopěnka’s principle and Vopěnka cardinals" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Vopenka","@type":"WebPage","headline":"Vopěnka’s principle and Vopěnka cardinals","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Vopěnka's principle and Vopěnka cardinals</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#formalizations">Formalizations</a></li>
+<li class="toc-entry toc-h2"><a href="#vopěnka-cardinals">Vopěnka cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#equivalent-statements">Equivalent statements</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#extendible-cardinals">Extendible cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#strong-compactness-of-logics">Strong Compactness of Logics</a></li>
+<li class="toc-entry toc-h3"><a href="#locally-presentable-categories">Locally Presentable Categories</a></li>
+<li class="toc-entry toc-h3"><a href="#woodin-cardinals">Woodin cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#elementary-embeddings-between-ranks">Elementary Embeddings Between Ranks</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#other-points-to-note">Other points to note</a></li>
+<li class="toc-entry toc-h2"><a href="#variants">Variants</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#generic">Generic</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#external-links">External links</a></li>
+</ul><p>Vopěnka’s principle is a large cardinal axiom at the upper end of the
+large cardinal hierarchy that is particularly notable for its
+applications to category theory. In a set theoretic setting, the most
+common definition is the following:</p>
+
+<blockquote>
+  <p>For any language $\mathcal{L}$ and any proper class $C$ of
+$\mathcal{L}$-structures, there are distinct structures $M, N\in C$
+and an <a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j:M\to N$.</p>
+</blockquote>
+
+<p>For example, taking $\mathcal{L}$ to be the language with one unary and
+one binary predicate, we can consider for any ordinal $\eta$ the class
+of structures $\langle V_{\alpha+\eta},\{\alpha\},\in\rangle$,
+and conclude from Vopěnka’s principle that a cardinal that is at least
+$\eta$-<a href="Extendible" title="Extendible">extendible</a>
+exists. In fact if Vopěnka’s principle holds then there is a stationary
+proper class of extendible cardinals; bounding the strength of the axiom
+from above, we have that if $\kappa$ is <a href="Huge#Almost_huge" title="Huge">almost
+huge</a>,
+or even
+<a href="High-jump" title="High-jump">almost-high-jump</a>,
+then $V_\kappa$ satisfies Vopěnka’s principle.</p>
+
+<h2 id="formalizations">
+<a class="anchor" href="#formalizations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Formalizations</h2>
+
+<p>As stated above and from the point of view of ZFC, this is actually an
+axiom schema, as we quantify over proper classes, which from a purely
+ZFC perspective means definable proper classes. A somewhat stronger
+alternative is to view Vopěnka’s principle as an axiom in second-order
+set theory capable to dealing with proper classes, such as von
+Neumann-Gödel-Bernays set theory. This is a strictly stronger assertion.
+<a href="http://mathoverflow.net/questions/45602/can-vopenkas-principle-be-violated-definably" class="external autonumber">[1]</a>
+Finally, one may relativize the principle to a particular cardinal,
+leading to the concept of a Vopěnka cardinal.</p>
+
+<p>Vopěnka’s principle can be formalized in first-order set theory as a
+schema, where for each natural number $n$ in the meta-theory there is a
+formula expressing that Vopěnka’s Principle holds for all
+$Σ_n$-definable (with parameters)
+classes.<a class="citation" href="#Bagaria2012">(Bagaria, 2012)</a></p>
+
+<p>Vopěnka principle VP and the Vopěnka scheme VS are not equivalent, but
+they are equiconsistent and have the same first-order consequences
+(GBC+VP is conservative over GBC+VS and ZFC+VS, VP makes no sense in the
+context of ZFC):<a class="citation" href="#Hamkins2016">(Hamkins, 2016)</a></p>
+
+<ul>
+  <li>If ZFC and the Vopěnka scheme holds, then there is a class forcing
+extension, adding classes but no sets, in which GBC and the Vopěnka
+scheme holds, but the Vopěnka principle fails.</li>
+  <li>If ZFC and the Vopěnka scheme holds, then there is a class forcing
+extension, adding classes but no sets, in which GBC and the Vopěnka
+principle holds.</li>
+</ul>
+
+<p>Vopěnka cardinal is an inaccessible cardinal $δ$ such that $\langle
+V_δ , ∈, V_{δ+1} \rangle$ is a model of VP (and the Morse–Kelley set
+theory). Vopěnka-scheme cardinal is a cardinal $δ$ such that $\langle
+V_δ , ∈ \rangle$ is a model of
+ZFC+VS.<a class="citation" href="#Hamkins2016">(Hamkins, 2016)</a></p>
+
+<h2 id="vopěnka-cardinals">
+<a class="anchor" href="#vop%C4%9Bnka-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Vopěnka cardinals</h2>
+
+<p>An inaccessible cardinal $\kappa$ is a <em>Vopěnka cardinal</em> if and only
+if $V_\kappa$ satisfies Vopěnka’s principle, that is, where we
+interpret the proper classes of $V_\kappa$ as the subsets of
+$V_\kappa$ of cardinality $\kappa$. Because of a characterization of
+Vopěnka’s principle in terms of graphs, a cardinal $\kappa$ is Vopěnka
+if and only if $\kappa$ is inaccessible and any set $\kappa$-sized set
+$G$ of $&lt;\kappa$-sized nonisomorphic graphs has some $g_0$ and
+$g_1$ with $g_0$ a proper subgraph of $g_1$. (Need to cite sources)</p>
+
+<p>Perlmutter
+<a class="citation" href="#Perlmutter2010">(Perlmutter, 2010)</a>
+proved that a cardinal is a Vopěnka cardinal if and only if it is a
+<a href="Woodin" title="Woodin">Woodin for
+supercompactness</a>
+cardinal.</p>
+
+<p>As we mentioned above, every almost huge cardinal is a Vopěnka cardinal.</p>
+
+<h2 id="equivalent-statements">
+<a class="anchor" href="#equivalent-statements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Equivalent statements</h2>
+
+<h3 id="extendible-cardinals">
+<a class="anchor" href="#extendible-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Extendible cardinals</h3>
+
+<p>The schema form of Vopěnka’s principle is equivalent to the existence of
+a proper class of
+$C^{(n)}$-<a href="Extendible" title="Extendible">extendible</a>
+cardinals for every $n$; indeed there is a level-by-level stratification
+of Vopěnka’s principle, with Vopěnka’s principle for a
+$\Sigma_{n+2}$-definable class corresponds to the existence of a
+$C^{(n)}$-extendible cardinal greater than the ranks of the parameters
+(see section “Variants”).
+<a class="citation" href="#Bagaria">(Bagaria et al., n.d.)</a></p>
+
+<p>The Vopěnka principle is equivalent over GBC to both following
+statements:<a class="citation" href="#Hamkins2016">(Hamkins, 2016)</a></p>
+
+<ul>
+  <li>For every class $A$, there is an $A$-extendible cardinal.</li>
+  <li>For every class $A$, there is a stationary proper class of
+$A$-extendible cardinals.</li>
+</ul>
+
+<h3 id="strong-compactness-of-logics">
+<a class="anchor" href="#strong-compactness-of-logics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strong Compactness of Logics</h3>
+
+<p>Vopěnka’s principle is equivalent to the following statement about
+logics as well:</p>
+
+<p>For every logic $\mathcal{L}$, there is a cardinal
+$\mu_{\mathcal{L}}$ such that for any language $\tau$ and any
+$\mathcal{L}(\tau)$-theory $T$, $T$ is satisfiable if and only if
+every $t\subseteq T$ such that $|t|&lt;\mu_{\mathcal{L}}$ is
+satisfiable. <a class="citation" href="#Makowsky1985">(Makowsky, 1985)</a></p>
+
+<p>This $\mu_{\mathcal{L}}$ is called the strong compactness cardinal of
+$\mathcal{L}$. Vopěnka’s principle therefore is equivalent to every
+logic having a strong compactness cardinal. This is very similar in
+definition to the Löwenheim–Skolem number of $\mathcal{L}$, although it
+is not guaranteed to exist.</p>
+
+<p>Here are some examples of strong compactness cardinals of specific
+logics:</p>
+
+<ul>
+  <li>If $\kappa\leq\lambda$ and $\lambda$ is <a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>
+or $\aleph_0$, then the strong compactness cardinal of
+<a href="Infinitary_logic" title="Infinitary logic">$\mathcal{L}_{\kappa,\kappa}$</a>
+is at most $\lambda$.</li>
+  <li>Similarly, if $\kappa\leq\lambda$ and $\lambda$ is
+<a href="Extendible" title="Extendible">extendible</a>,
+then for any natural number $n$, the strong compactness cardinal of
+$\mathcal{L}^n_{\kappa,\kappa}$
+($\mathcal{L}_{\kappa,\kappa}$ with $n+1$-th order logic) is at
+most $\lambda$. Therefore for any natural number $n$, the strong
+compactness cardinal of $n+1$-th order finitary logic is at most the
+least extendible cardinal.</li>
+</ul>
+
+<h3 id="locally-presentable-categories">
+<a class="anchor" href="#locally-presentable-categories" aria-hidden="true"><span class="octicon octicon-link"></span></a>Locally Presentable Categories</h3>
+
+<p>Vopěnka’s principle is equivalent to the axiom stating “no large full
+subcategory $C$ of any locally presentable category is discrete.”
+(Sources needed). Equivalently, no large full subcategory of Graph (the
+category of all graphs) is discrete; that is, for any proper class of
+simple directed graphs, there is at least one pair of nonequal graphs
+$G$ and $H$ in the class such that $G$ is a subgraph of $H$. This is a
+$\Pi^1_1$ statement, so the least Vopěnka cardinals are not even
+<a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>
+(although the least weakly compact cardinal is much, much, much smaller
+than the least Vopěnka cardinal, if it exists).</p>
+
+<p>Intuitively, a “category” is just a class of mathematical objects with
+some notion of “morphism”, “homomorphism”, “isomorphism”, (etc.). For
+example, in Set, the category of all sets, homomorphisms are just
+injections, and isomorphisms are bijections. In categories of groups and
+models, homomorphisms and isomorphisms share their actual names.</p>
+
+<p>A “locally small category” $C$ is one with only set-many morphisms
+between any two objects of $C$. This is one where the objects of $C$
+behave “set-like” in the sense that, usually, the number of morphisms
+between two set-sized objects is at most the number of functions between
+their universes (like in groups and in graphs). A “locally presentable
+category” is a locally small category with a couple more really nice
+properties; you can “generate” all of the objects from set-many objects
+in the category.</p>
+
+<p>Vopěnka’s principle intuitively states that if you have a locally
+presentable category $C$, then any proper class of objects of $C$ has
+some nonisomorphic objects $c$ and $d$ where $c$ has a morphism into
+$d$.</p>
+
+<h3 id="woodin-cardinals">
+<a class="anchor" href="#woodin-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Woodin cardinals</h3>
+
+<p>There is a strange connection between the
+<a href="Woodin" title="Woodin">Woodin</a>
+cardinals and the Vopěnka cardinals. In particular, Vopěnkaness is
+equivalent to two strengthening variants of Woodinness, namely the
+<a href="Woodin#Shelah" title="Woodin">Woodin for
+Supercompactness</a>
+cardinals and the
+<a href="N-fold_Woodin" class="mw-redirect" title="N-fold Woodin">$2$-fold Woodin</a>
+cardinals. As a result, every Vopěnka cardinal is Woodin.</p>
+
+<h3 id="elementary-embeddings-between-ranks">
+<a class="anchor" href="#elementary-embeddings-between-ranks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Elementary Embeddings Between Ranks</h3>
+
+<p>An equivalent statement to Vopěnka’s principle is that for any proper
+class $C\subseteq ORD$, there are $\alpha\in C$, $\beta\in C$, and
+a nontrivial <a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j:\langle V_\alpha;\in,P\rangle\rightarrow\langle
+V_\beta;\in,P\rangle$. Vopěnka’s principle quite obviously implies
+this. The reason the converse holds is because every elementary
+embedding can be “encoded” (in a sense) into one of these. For more
+information, see <a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>.</p>
+
+<h2 id="other-points-to-note">
+<a class="anchor" href="#other-points-to-note" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other points to note</h2>
+
+<p>Whilst Vopěnka cardinals are very strong in terms of consistency
+strength, a Vopěnka cardinal need not even be <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>.
+Indeed, the definition of a Vopěnka cardinal is a $\Pi^1_1$ statement
+over $V_\kappa$ (Vopěnka’s principle itself is $\Pi^1_1$), and
+<a href="Indescribable" title="Indescribable">$\Pi^1_1$-indescribability</a>
+is one of the equivalent definitions of weak compactness. Thus, the
+least weakly compact Vopěnka cardinal must have (many) other Vopěnka
+cardinals less than it.</p>
+
+<h2 id="variants">
+<a class="anchor" href="#variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variants</h2>
+
+<p>(Information in this section from
+<a class="citation" href="#Bagaria2012">(Bagaria, 2012)</a>, a bit from
+<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>)</p>
+
+<p>(Boldface) $VP(\mathbf{Σ_n})$ denotes the fragment of Vopěnka’s
+Principle for $Σ_n$-definable classes and (lightface) $VP(Σ_n)$ is the
+weaker principle, where parameters are not allowed in the definition of
+the class (with analogous definitions for $Π_n$ and $∆_n$).</p>
+
+<p>Vopěnka-like principles $VP(κ, \mathbf{Σ_n})$ for cardinal $κ$ state
+that for every proper class $\mathcal{C}$ of structures of the same
+type that is $Σ_n$-definable with parameters in $H_κ$ (the collection
+of all sets of hereditary size less than $κ$), $\mathcal{C}$ reflects
+below $κ$, namely for every $A ∈ C$ there is $B ∈ H_κ ∩ C$ that
+elementarily embeds into $A$.</p>
+
+<p>Results:</p>
+
+<ul>
+  <li>For every $Γ$, $VP(κ, Γ)$ for some $κ$ implies $VP(Γ)$.</li>
+  <li>$VP(κ, \mathbf{Σ_1})$ holds for every uncountable cardinal $κ$.</li>
+  <li>$VP(Π_1) \iff VP(κ, Σ_2)$ for some $κ \iff$ There is a
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinal.</li>
+  <li>$VP(\mathbf{Π_1}) \iff VP(κ, \mathbf{Σ_2})$ for a proper class
+of cardinals $κ \iff$ There is a proper class of supercompact
+cardinals.</li>
+  <li>For $n ≥ 1$, the following are equivalent:
+    <ul>
+      <li>$VP(Π_{n+1})$</li>
+      <li>$VP(κ, \mathbf{Σ_{n+2}})$ for some $κ$</li>
+      <li>There is a
+$C(n)$-<a href="Extendible" title="Extendible">extendible</a>
+cardinal.</li>
+    </ul>
+  </li>
+  <li>The following are equivalent:
+    <ul>
+      <li>$VP(Π_n)$ for every n.</li>
+      <li>$VP(κ, \mathbf{Σ_n})$ for a proper class of cardinals $κ$ and
+for every $n$.</li>
+      <li>$VP$</li>
+      <li>For every $n$, there is a $C(n)$-extendible cardinal.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="generic">
+<a class="anchor" href="#generic" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generic</h3>
+
+<p>(Information in this section from
+<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a> unless
+noted otherwise)</p>
+
+<p>Definitions:</p>
+
+<ul>
+  <li>The <strong>Generic Vopěnka’s Principle</strong> states that for every proper
+class $\mathcal{C}$ of structures of the same type there are $B ≠
+A$, both in $\mathcal{C}$, such that $B$ elementarily embeds into
+$A$ in some set-forcing extension.</li>
+  <li>(Boldface) $gVP(\mathbf{Σ_n})$ and (lightface) $gVP(Σ_n)$ (with
+analogous definitions for $Π_n$ and $∆_n$) as well as $gVP(κ,
+\mathbf{Σ_n})$ are generic analogues of corresponding weakenings
+of Vopěnka’s principle.</li>
+  <li>For transitive $∈$-structures $B$ and $A$ and elementary embedding
+$j : B → A$, we say that $j$ is <em>overspilling</em> if it has a critical
+point and $j(crit(j)) &gt; rank(B)$.</li>
+  <li>The principle $gVP^∗(Σ_n)$ states that for every $Σ_n$-definable
+(without parameters) proper class $\mathcal{C}$ of transitive
+$∈$-structures, there are $B ≠ A$ in $\mathcal{C}$ such that there
+is an overspilling elementary embedding $j : B → A$ in some
+set-forcing extension. ($gVP^∗(Π_n)$, $gVP^∗(\mathbf{Π_n})$, and
+$gVP^∗(κ, \mathbf{Σ_n})$ are defined analogously.)</li>
+</ul>
+
+<p>Results:</p>
+
+<ul>
+  <li>The following are equiconsistent:
+    <ul>
+      <li>$gVP(Π_n)$</li>
+      <li>$gVP(κ, \mathbf{Σ_{n+1}})$ for some $κ$</li>
+      <li>There is an
+<a href="N-remarkable" class="mw-redirect" title="N-remarkable">$n$-remarkable</a>
+cardinal.</li>
+    </ul>
+  </li>
+  <li>The following are equiconsistent:
+    <ul>
+      <li>$gVP(\mathbf{Π_n})$</li>
+      <li>$gVP(κ, \mathbf{Σ_{n+1}})$ for a proper class of $κ$</li>
+      <li>There is a proper class of $n$-remarkable cardinals.</li>
+    </ul>
+  </li>
+  <li>$κ$ is the least for which $gVP^∗(κ, \mathbf{Σ_{n+1}})$ holds.
+$\iff κ$ is the least $n$-remarkable cardinal.</li>
+  <li>If $gVP^∗(Π_n)$, then there is an $n$-remarkable cardinal.</li>
+  <li>If $gVP^∗(\mathbf{Π_n})$ holds, then there is a proper class of
+$n$-remarkable cardinals.</li>
+  <li>If there is a proper class of $n$-remarkable cardinals, then
+$gVP(Σ_{n+1})$
+holds.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+  <li>If $gVP(Σ_{n+1})$ holds, then either there is a proper class of
+$n$-remarkable cardinals or there is a proper class of
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
+cardinals.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+  <li>If
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^#$ exists</a>,
+then $L$, equipped with only its definable classes, is a model of
+$gVP$. (By <a href="Elementary_embedding#Absoluteness" title="Elementary embedding">elementary-embedding absoluteness
+results</a>.
+The hypothesis can be weakened, because one can chop at off the
+universe at any Silver indiscernible and use
+reflection.)<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+  <li>The generic Vopěnka scheme is equivalent over ZFC to the scheme
+asserting of every definable class $A$ that there is a proper class
+of weakly virtually
+$A$-<a href="Extendible" title="Extendible">extendible</a>
+cardinals.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a>
+</li>
+</ul>
+
+<p>Open problems:</p>
+
+<ul>
+  <li>Must there be an $n$-remarkable cardinal
+    <ul>
+      <li>if $gVP(κ, \mathbf{Σ_{n+1}})$ holds for some $κ$.</li>
+      <li>if $gVP(Π_n)$ holds.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="external-links">
+<a class="anchor" href="#external-links" aria-hidden="true"><span class="octicon octicon-link"></span></a>External links</h2>
+
+<ul>
+  <li><a href="http://mathoverflow.net/questions/45602/can-vopenkas-principle-be-violated-definably" class="external text">Math Overflow question and answer about formalisations</a></li>
+</ul>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Bagaria2012">Bagaria, J. (2012). \(C^{(n)}\)-cardinals. <i>Archive for Mathematical Logic</i>, <i>51</i>(3–4), 213–240. https://doi.org/10.1007/s00153-011-0261-8</span></li>
+<li><span id="Hamkins2016">Hamkins, J. D. (2016). <i>The Vopěnka principle is inequivalent to but conservative over the Vopěnka scheme</i>. http://jdh.hamkins.org/vopenka-principle-vopenka-scheme/</span></li>
+<li><span id="Perlmutter2010">Perlmutter, N. (2010). <i>The large cardinals between supercompact and almost-huge</i>. http://boolesrings.org/perlmutter/files/2013/07/HighJumpForJournal.pdf</span></li>
+<li><span id="Bagaria">Bagaria, J., Casacuberta, C., Mathias, A. R. D., &amp; Rosický, J. Definable orthogonality classes in accessible categories are small. <i>Journal of the European Mathematical Society</i>, <i>17</i>(3), 549–589.</span></li>
+<li><span id="Makowsky1985">Makowsky, J. (1985). Vopěnkaś Principle and Compact Logics. <i>J. Symbol Logic</i>. https://www.jstor.org/stable/2273786?seq=1#page_scan_tab_contents</span></li>
+<li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Bagaria2017a">Bagaria, J., Gitman, V., &amp; Schindler, R. (2017). Generic Vopěnkaś Principle, remarkable cardinals, and the weak Proper Forcing Axiom. <i>Arch. Math. Logic</i>, <i>56</i>(1-2), 1–20. https://doi.org/10.1007/s00153-016-0511-x</span></li>
+<li><span id="Gitman2018">Gitman, V., &amp; Hamkins, J. D. (2018). <i>A model of the generic Vopěnka principle in which the ordinals are not Mahlo</i>.</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

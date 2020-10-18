@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Infinitary logic | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Infinitary logic" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Infinitary_logic","@type":"WebPage","headline":"Infinitary logic","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Infinitary logic</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#hilbert-type-infinitary-logic">Hilbert-Type Infinitary Logic</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#formal-definition">Formal Definition</a></li>
+<li class="toc-entry toc-h3"><a href="#expressiveness">Expressiveness</a></li>
+</ul>
+</li>
+</ul><p>Infinitary logic is a type of logic which is used in the standard
+characterizations of several large cardinals, such as <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>
+cardinals and <a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>
+cardinals. It also is used in alternate characterizations of other large
+cardinals such as
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinals and
+<a href="Extendible" title="Extendible">extendible</a>
+cardinals.</p>
+
+<p>More formally, an infinitary logic is a formal logic which has strings
+of infinite length. Generally, there is only one type of infinitary
+logic which is classically studied: Hilbert-type infinitary logic.</p>
+
+<h2 id="hilbert-type-infinitary-logic">
+<a class="anchor" href="#hilbert-type-infinitary-logic" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hilbert-Type Infinitary Logic</h2>
+
+<p>The idea behind the infinitary logic $\mathcal{L}_{\kappa,\lambda}$
+is that you can have $\kappa$-many logical additions and logical
+products in a row, and $\lambda$-many quantifiers in a row. This is
+called <strong>Hilbert-type Infinitary Logic.</strong> You can also use $(n+1)$-th
+order quantifiers in $\mathcal{L}_{\kappa,\lambda}^n$.</p>
+
+<h3 id="formal-definition">
+<a class="anchor" href="#formal-definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Formal Definition</h3>
+
+<p>Let $\kappa$ and $\lambda$ be regular cardinals. Then,
+$\mathcal{L}_{\kappa,\lambda}$ allows for all first-order finitary
+assertions (made in $\mathcal{L}_{\omega,\omega}$) along with:</p>
+
+<ol>
+  <li>For any set of $\mathcal{L}_{\kappa,\lambda}$-formulae $P$ where
+$|P|&lt;\kappa$, $\bigwedge_{\varphi\in P} \varphi$ and
+$\bigvee_{\varphi\in P}\varphi$</li>
+  <li>For any set of variables $A$ where $|A|&lt;\kappa$,
+$\forall_{v\in A}\varphi$ where $\varphi$ is an
+$\mathcal{L}_{\kappa,\lambda}$-formula</li>
+  <li>For any $\varphi$ which is an
+$\mathcal{L}_{\kappa,\lambda}$-formula, $\neg\varphi$</li>
+</ol>
+
+<p>There is also $\mathcal{L}_{\infty,\lambda}$,
+$\mathcal{L}_{\kappa,\infty}$, and $\mathcal{L}_{\infty,\infty}$
+where $\infty$ is treated like $\text{ORD}$, allowing for statements
+of any ordinal length. You can even have
+$\mathcal{L}_{\infty^+,\infty^+}$ which allows for
+$\text{ORD}$-length statements.</p>
+
+<h3 id="expressiveness">
+<a class="anchor" href="#expressiveness" aria-hidden="true"><span class="octicon octicon-link"></span></a>Expressiveness</h3>
+
+<p>$\mathcal{L}_{\kappa,\kappa}$ is unable to express some
+$\Pi_1^1$-formulae under ZFC. Contrastively,
+$\mathcal{L}^1_{\omega,\omega}$ is unable to express
+$\mathcal{L}_{\omega_1,\omega_1}$, so first-order infinitary logic
+and second-order finitary logic both have expressiveness advantages. For
+why, see
+<a href="https://mathoverflow.net/questions/285020/how-expressive-can-mathcall-kappa-kappa-be" class="external text">this question</a>
+on MathOverflow.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

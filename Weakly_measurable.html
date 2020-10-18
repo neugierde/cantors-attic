@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Weakly measurable cardinals | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Weakly measurable cardinals" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Weakly_measurable","@type":"WebPage","headline":"Weakly measurable cardinals","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Weakly measurable cardinals</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#formal-definition">Formal Definition</a></li>
+<li class="toc-entry toc-h2"><a href="#embedding-characterizations-of-weak-measurability">Embedding characterizations of weak measurability</a></li>
+<li class="toc-entry toc-h2"><a href="#weakly-measurable-cardinals-and-inner-models">Weakly measurable cardinals and inner models</a></li>
+<li class="toc-entry toc-h2"><a href="#weakly-measurable-cardinals-and-forcing">Weakly measurable cardinals and forcing</a></li>
+<li class="toc-entry toc-h2"><a href="#place-in-the-large-cardinal-hierarchy">Place in the large cardinal hierarchy</a></li>
+</ul><p>The weakly measurable cardinals were introduced by Jason Schanker in
+<a class="citation" href="#Schanker2011">(Schanker, 2011)</a>,
+<a class="citation" href="#Schanker2011a">(Schanker, 2011)</a>. As their name suggests, they
+provide a weakening of the large cardinal concept of
+<a href="Measurable" title="Measurable">measurability</a>.
+If the GCH holds at $\kappa$, then the property of the weak
+measurability of $\kappa$ is equivalent to that of the full
+measurability of $\kappa$, but when $\kappa^+\lt 2^\kappa$, these
+concepts can separate. Nevertheless, the existence of a weakly
+measurable cardinal is equiconsistent with the existence of a measurable
+cardinal, since if $\kappa$ is weakly measurable, then it is measurable
+in an inner model.</p>
+
+<h2 id="formal-definition">
+<a class="anchor" href="#formal-definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Formal Definition</h2>
+
+<p>A cardinal $\kappa$ is <em>weakly measurable</em> if and only if for every
+family $\mathcal{A}\subset P(\kappa)$ of size at most $\kappa^+$,
+there is a nonprincipal $\kappa$-complete
+<a href="Filter" title="Filter">filter</a>
+on $\kappa$ measuring every set in $\mathcal{A}$. (i.e., For every
+subset $A \in \mathcal{A}$, either $A$ or $\kappa \setminus A$ is in
+the filter.)</p>
+
+<h2 id="embedding-characterizations-of-weak-measurability">
+<a class="anchor" href="#embedding-characterizations-of-weak-measurability" aria-hidden="true"><span class="octicon octicon-link"></span></a>Embedding characterizations of weak measurability</h2>
+
+<p>If $(\kappa^+)^{ {&lt;}\kappa} = \kappa^+$, then weak measurability
+can also be equivalently characterized in several different ways in
+terms of <a href="Elementary_embedding" title="Elementary embedding">elementary
+embeddings</a>.</p>
+
+<p>Weak embedding characterization <br>
+For every $A \subseteq \kappa^+$, there exists a transitive $M \vDash
+\text{ZFC}^-$ with $A, \kappa \in M$, a transitive $N$ and an
+<a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j: M \longrightarrow N$ with critical point $\kappa$.</p>
+
+<p>Embedding characterization <br>
+For every transitive set $M$ of size $\kappa^+$ with $\kappa \in M$,
+there exists a transitive $N$ and an elementary embedding $j: M
+\longrightarrow N$ with critical point $\kappa$.</p>
+
+<p>Normal embedding characterization <br>
+For every transitive $M \vDash \text{ZFC}^-$ of size $\kappa^+$
+closed under ${&lt;}\kappa$ sequences with $\kappa \in M$, there
+exists a transitive $N$ of size $\kappa^+$ closed under ${&lt;}\kappa$
+sequences and a cofinal elementary embedding $j: M \longrightarrow N$
+with critical point $\kappa$ such that $N = \{j(f)(\kappa)| f \in
+M; f: \kappa \longrightarrow M\}$.</p>
+
+<p>Normal ZFC embedding characterization <br>
+For every $A \subseteq H_{\kappa^+}$ of size $\kappa^+$, there
+exists a transitive $M \vDash \text{ZFC}$ of size $\kappa^+$ closed
+under ${&lt;}\kappa$ sequences with $A \subseteq M$ and $\kappa \in
+M$, a transitive $N$ of size $\kappa^+$ closed under ${&lt;}\kappa$
+sequences, and a cofinal elementary embedding $j: M \longrightarrow N$
+with critical point $\kappa$ such that $N = \{j(f)(\kappa)| f \in
+M; f: \kappa \longrightarrow M\}$.</p>
+
+<h2 id="weakly-measurable-cardinals-and-inner-models">
+<a class="anchor" href="#weakly-measurable-cardinals-and-inner-models" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weakly measurable cardinals and inner models</h2>
+
+<p>Weakly measurable cardinals are incompatible with the axiom
+<a href="V_%3D_L" class="mw-redirect" title="V = L">$V = L$</a>
+since such cardinals are fully measurable if the GCH holds, and the
+constructible universe cannot contain nonprincipal countably complete
+ultrafilters. By the same reasoning, the Dodd-Jensen core model $K^{DJ}$
+will not have any cardinals that it thinks are weakly measurable. If
+$\kappa$ is weakly measurable, then we can always find a countably
+complete normal $K^{DJ}$-ultrafilter $U$ whereby $\kappa$ will be
+measurable in $L[U]$ (<a class="citation" href="#Mitchell2001">(Mitchell, 2001)</a>,
+Lemma 3.36). Under certain anti-large cardinal hypotheses, a weakly
+measurable cardinal will be measurable in the suitable core model. For
+example, if $\kappa$ is weakly measurable and there is no inner model
+with a measurable cardinal $\lambda$ having
+<a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
+$\lambda^{++}$, then $\kappa$ will be measurable in Mitchell’s core
+model $K^m$ (<a class="citation" href="#Jech2003">(Jech, 2003)</a>, Theorem 35.17).</p>
+
+<h2 id="weakly-measurable-cardinals-and-forcing">
+<a class="anchor" href="#weakly-measurable-cardinals-and-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weakly measurable cardinals and forcing</h2>
+
+<p>Weakly measurable cardinals $\kappa$ are invariant under forcing of
+size less than $\kappa$ and forcing that adds no new subsets of
+$\kappa^+$. Many other preservation results for these large cardinals
+are unknown. For example, it is an open question as to whether we can
+always force to an extension where a weakly measurable cardinal
+$\kappa$ from the ground model remains weakly measurable and becomes
+indestructible by the further forcing to add a Cohen subset of
+$\kappa$. However, if $\kappa$ is measurable in the ground model, we
+inherit all of the indestructibility results we can get for its weak
+measurability from its full measurability and more. In particular, we
+will be able to force to an extension where $\kappa$ is measurable, the
+GCH holds, and the <strong>weak</strong> measurability of $\kappa$ is preserved by
+the further forcing to add any number of Cohen subsets of $\kappa$.
+Starting with a measurable cardinal $\kappa$, this result allows us to
+force to an extension where we preserve the weak measurability of
+$\kappa$ and yet make the GCH fail first at $\kappa$. Since the GCH
+cannot fail first at a measurable cardinal, this will also be a forcing
+extension where $\kappa$ is no longer measurable.</p>
+
+<h2 id="place-in-the-large-cardinal-hierarchy">
+<a class="anchor" href="#place-in-the-large-cardinal-hierarchy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Place in the large cardinal hierarchy</h2>
+
+<p>In terms of consistency strength, weakly measurable cardinals occupy the
+same place as measurable cardinals in the large cardinal hierarchy. In
+terms of size, the possibilities for these large cardinals are still
+being investigated. Because measurable cardinals must be weakly
+measurable, and weakly measurable cardinals must be weakly compact, we
+are provided with strict upper and lower bounds on their sizes with
+respect to these large cardinal notions. In the presence of the GCH,
+weakly measurable cardinals and measurable cardinals coincide so their
+sizes are the same in this case. At the opposite extreme, it was left as
+an open question in
+<a class="citation" href="#Schanker2011">(Schanker, 2011)</a> and
+<a class="citation" href="#Schanker2011a">(Schanker, 2011)</a> as to whether the least weakly
+measurable cardinal could also be the least weakly compact cardinal.
+Despite being left open, there are promising developments that are being
+undertaken jointly by Gitik, Hamkins, and Schanker, which are aimed at
+this possibility.</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Schanker2011">Schanker, J. A. (2011). Weakly measurable cardinals. <i>MLQ Math. Log. Q.</i>, <i>57</i>(3), 266–280. https://doi.org/10.1002/malq.201010006</span></li>
+<li><span id="Schanker2011a">Schanker, J. A. (2011). <i>Weakly measurable cardinals and partial near supercompactness</i> [PhD thesis]. CUNY Graduate Center.</span></li>
+<li><span id="Mitchell2001">Mitchell, W. J. (2001). The Covering Lemma. <i>Handbook of Set Theory</i>. http://www.math.cas.cz/ jech/library/mitchell/covering.ps</span></li>
+<li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

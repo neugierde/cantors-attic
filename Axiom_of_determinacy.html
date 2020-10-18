@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Axiom of determinacy | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Axiom of determinacy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Axiom_of_determinacy","@type":"WebPage","headline":"Axiom of determinacy","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Axiom of determinacy</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#type-of-games-that-are-determined">Type of games that are determined</a></li>
+<li class="toc-entry toc-h2"><a href="#refuting-the-axiom-of-determinacy-from-a-well-ordering-of-the-reals">Refuting the axiom of determinacy from a well-ordering of the reals</a></li>
+<li class="toc-entry toc-h2"><a href="#other-known-limitations-of-determinacy">Other known limitations of determinacy</a></li>
+<li class="toc-entry toc-h2"><a href="#implications-of-the-axiom-of-determinacy">Implications of the axiom of determinacy</a></li>
+<li class="toc-entry toc-h2"><a href="#determinacy-of-lmathbbr">Determinacy of $L(\mathbb{R})$</a></li>
+<li class="toc-entry toc-h2"><a href="#axiom-of-projective-determinacy">Axiom of projective determinacy</a></li>
+<li class="toc-entry toc-h2"><a href="#axiom-of-real-determinacy">Axiom of real determinacy</a></li>
+<li class="toc-entry toc-h2"><a href="#textad-and-models-of-determinacy">$\text{AD}^+$ and models of determinacy</a></li>
+<li class="toc-entry toc-h2"><a href="#consistency-strength-of-determinacy-hypotheses">Consistency strength of determinacy hypotheses</a></li>
+<li class="toc-entry toc-h2"><a href="#read-more">Read more</a></li>
+</ul><p>The <strong>axiom of determinacy</strong> is the assertion that a certain type of
+two-player games of perfect information (i.e. games in which the players
+alternate moves which are known to both players, and the outcome of the
+game depends only on this list of moves, and not on chance or other
+external factors) are <em>determined</em>, that is, there is an “optimal
+strategy” that allows one player to win regardless of the other player’s
+strategy. That strategy is called a <em>winning strategy</em> for that player.</p>
+
+<p>The axiom of determinacy is incompatible with the
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>.
+More precisely, it is incompatible with the existence of a well-ordering
+of the reals. The $\text{AD}$ is, however, not known to be inconsistent
+with
+<a href="ZFC" title="ZFC">$\text{ZF}$</a>
+set theory. $\text{AD}$ is furthermore a very powerful axiom, as
+$\text{ZF+AD}$ implies the consistency of $\text{ZF}$,
+$\text{ZF+Con(ZFC)}$, and much more - it is in fact close of being a
+large cardinal axiom, as Woodin proved that it was equiconsistent with
+the existence of infinitely many
+<a href="Woodin" title="Woodin">Woodin</a>
+cardinals. <a class="citation" href="#Koellner2010">(Koellner &amp; Woodin, 2010)</a></p>
+
+<p>It follows from large cardinal axioms (in particular from the existence
+of infinitely many Woodins with a
+<a href="Measurable" title="Measurable">measurable</a>
+above them all <a class="citation" href="#Koellner2010">(Koellner &amp; Woodin, 2010)</a>) that the
+$\text{AD}$ is true in $L(\mathbb{R})$, the <a href="Constructible_universe" title="Constructible universe">constructible
+universe</a>
+obtained by starting with the transitive closure of the set of all reals
+(i.e. $L_0(\mathbb{R})=\text{TC}(\{\mathbb{R}\})$). This
+assertion, generally refered to as $L(\mathbb{R})$-determinacy,
+$\text{AD}^{L(\mathbb{R})}$ <a class="citation" href="#Koellner2010">(Koellner &amp; Woodin, 2010)</a>
+or <em>quasi-projective determinacy</em> ($\text{QPD}$)
+<a class="citation" href="#Maddy1988">(Maddy, 1988)</a> is not known to be inconsistent
+with $\text{ZFC}$. $\text{AD}^{L(\mathbb{R})}$ is furthermore
+equiconsistent with $\text{AD}$ (in $\text{V}$). A particular case of
+this is the
+<a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
+($\text{PD}$) which states that every
+<a href="Projective" title="Projective">projective</a>
+set is determined, projectivity being a weak form of definability (more
+precisely definability in second-order arithmethic).</p>
+
+<h2 id="type-of-games-that-are-determined">
+<a class="anchor" href="#type-of-games-that-are-determined" aria-hidden="true"><span class="octicon octicon-link"></span></a>Type of games that are determined</h2>
+
+<p>Given a set $S$ of infinite sequences of order-type (length) $\omega$
+(i.e, a subset of the Baire Space $\omega^{\omega}$), the <em>payoff</em>
+set, the game begins as such: Player I says a natural number $n_0$,
+then Player II says a natural number $n_1$, and so on, until a sequence
+of order-type $\omega$ is constructed. At this point, a natural number
+$n_i$ has been given for every natural number $i$. Player I wins if
+$(n_0,n_1,n_2…)\in S$, Player II wins otherwise. Since
+$\omega^\omega$ and the set $\mathbb{R}$ of the real numbers are in
+bijection with the other, we shall often identify the elements of
+$\omega^\omega$ as the <em>real numbers</em>, like if $\omega^\omega$ and
+$\mathbb{R}$ were equal. Thus the game considered here produces a real
+number.</p>
+
+<p>A <em>strategy</em> for player I (resp. player II) is a function $\Sigma$ with
+domain the set of sequences of integers of even (odd) length such that
+for each $a\in dom(\Sigma)$, $\Sigma(a)\in\omega$. A run of the
+game (partial or complete) is said to be according to a strategy
+$\Sigma$ for player player I (player II) if every initial segment of
+the run of odd (nonzero even) length is of the form
+$a\frown⟨\Sigma(a)⟩$ for some sequence $a$. A strategy $\Sigma$ for
+player player I (player II) is a winning strategy if every complete run
+of the game according to $\Sigma$ is in (out of) $S$. We say that a set
+$S\subset\omega^\omega$ is determined if there exists a winning
+strategy for one of the players</p>
+
+<p>The <strong>axiom of determinacy</strong> ($\text{AD}$) states that every payoff set
+$S\subset\omega^\omega$ is determined
+<a class="citation" href="#Larson2013">(Larson, 2013)</a>. It is possible to show
+that every finite or countable payoff set is determined, so this
+equivalent to the assertion that every uncountable payoff set is
+determined.</p>
+
+<h2 id="refuting-the-axiom-of-determinacy-from-a-well-ordering-of-the-reals">
+<a class="anchor" href="#refuting-the-axiom-of-determinacy-from-a-well-ordering-of-the-reals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Refuting the axiom of determinacy from a well-ordering of the reals</h2>
+
+<p>As stated above, the axiom of determinacy is not compatible with the
+axiom of choice, that is, within $\text{ZFC}$ we can prove that axiom
+of determinacy fails. We outline a construction of an undetermined game
+starting from a well-ordering of continuum.</p>
+
+<p>A strategy for either player is a function with countable domain (a
+subset of the set of all finite sequences of integers) to $\omega$, so
+there are $2^{\aleph_0}$ many strategies for player I and
+$2^{\aleph_0}$ continuum many strategies for player II. Let
+$\{s^{I}_\alpha:\alpha&lt;2^{\aleph_0}\},
+\{s^{II}_\alpha:\alpha&lt;2^{\aleph_0}\}$ be enumerations of
+strategies for the respective players. We shall now construct, by
+transfinite recursion, two disjoint sets of sequences
+$\{a_\alpha:\alpha&lt;2^{\aleph_0}\},
+\{b_\alpha:\alpha&lt;2^{\aleph_0}\}\subseteq\omega^\omega$
+such that $\{a_\alpha:\alpha&lt;2^{\aleph_0}\}$ is not
+determined.</p>
+
+<p>Suppose that, for some $\beta&lt;2^{\aleph_0}$,
+$\{a_\alpha:\alpha&lt;\beta\},\{b_\alpha:\alpha&lt;\beta\}$
+have already been constructed. Take strategy $s^I_\beta$. There are
+continuum many possible plays according to this strategy (since player
+II can play in arbitrary way at any of their turns), so not all of them
+can be already contained in $\{a_\alpha:\alpha&lt;\beta\}$ (which
+has cardinality $|\beta|&lt;2^{\aleph_0}$). Therefore, using
+well-ordering of continuum, we can pick one of these plays and define it
+to be $b_\beta$. Similarly, we can pick $a_\beta$ according to
+strategy $s^{II}_\beta$ which is not already in
+$\{b_\alpha:\alpha\leq\beta\}$. This way the sets
+$\{a_\alpha:\alpha&lt;2^{\aleph_0}\},\{b_\alpha:\alpha&lt;2^{\aleph_0}\}$
+are clearly disjoint.</p>
+
+<p>Letting $A=\{a_\alpha:\alpha&lt;2^{\aleph_0}\}$, we now claim the
+game with payoff set $A$ is undetermined. Indeed, suppose player I has a
+winning strategy. This must be one of the strategies $s^I_\beta$. By
+construction, player II can arrange the play so that the resulting play
+is $b_\beta$ (since we have chosen it so that it’s consistent with
+strategy $b_\beta$), which is not an element of $A$, contradicting the
+assumption that $s^I_\beta$ is a winning strategy. Analogously, for
+any strategy $s^{II}_\beta$ for player II, player I can force the play
+to be $a_\beta\in A$. Therefore no strategy for either player is a
+winning strategy and it follows that the game is undetermined.</p>
+
+<h2 id="other-known-limitations-of-determinacy">
+<a class="anchor" href="#other-known-limitations-of-determinacy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other known limitations of determinacy</h2>
+
+<p>Assuming the axiom of choice there is a non-determined game of length
+$\omega$. However, choice isn’t known to contradict the determinacy of
+all <em>definable</em> games of length $\omega$.</p>
+
+<p>With or without assuming choice, there is a non-determined game of
+length $\omega_1$ and a a non-determined definable game of length
+$\omega_1+\omega$. There is also a non-determined game of length
+$\omega$ with moves in $\omega_1$ (i.e. the payoff sets are subsets
+of $\omega_1^\omega$ instead of subsets of $\omega^\omega$. There
+is a non-determined game of length $\omega$ with moves in
+$\mathcal{P}(\mathbb{R})$, and using choice one can show there is such
+a game that is definable.
+<a href="http://mathoverflow.net/questions/271507/limitations-of-determinacy-hypotheses-in-zfc" class="external autonumber">[1]</a></p>
+
+<p>Definable games of length $\omega$ with moves in $\mathbb{R}$ are
+provably determined from large cardinal axioms. Determinacy of such
+games that are projective follows from the existence of sufficiently
+many Woodin cardinals.</p>
+
+<p>By a result of Woodin, if there is an iterable model of $\text{ZFC}$
+with a countable (in $\text{V}$) Woodin cardinal which is a limit of
+Woodin cardinals, then it is consistent (even with choice) that all
+ordinal-definable games of length $\omega_1$ are determined. This is
+only a consistency result, not a proof of “all ordinal-definable games
+of length $\omega_1$ are determined”.</p>
+
+<h2 id="implications-of-the-axiom-of-determinacy">
+<a class="anchor" href="#implications-of-the-axiom-of-determinacy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implications of the axiom of determinacy</h2>
+
+<p>For the rest of this article we use the following conventions:</p>
+
+<ol>
+  <li>We identify the cardinal $2^{\aleph_0}$ with $\mathbb{R}$ and
+more generally $2^\alpha$ with $\mathcal{P}(\alpha)$ for every
+cardinal $\alpha$. This is because under $\text{AD}$,
+$\mathbb{R}$ isn’t bijective with any ordinal, so the usual
+definitions of cardinals using ordinals doesn’t work - $\mathbb{R}$
+wouldn’t have a cardinal at all.</li>
+  <li>Cardinals that are bijective with some ordinal will be called alephs
+and cardinals of the form $2^\alpha$ will be called beths. Under
+$\text{AC}$ every beth is an aleph but under $\text{AD}$ many
+beths aren’t alephs, in particular $2^{\aleph_0}$.</li>
+  <li>For all cardinals (beths or alephs) $\kappa,\lambda$, we define
+$\kappa\leq\lambda$ iff there is an injection
+$f:\kappa\to\lambda$ and $\kappa\preceq\lambda$ iff there is a
+surjection $f:\lambda\to\kappa$. Those notions corresponds if
+$\kappa$ and $\lambda$ are both alephs (i.e. they correspond to
+ordinals). Under $\text{AD}$ they need not correspond when either
+$\kappa$ or $\lambda$ is a beth cardinal.</li>
+  <li>Under $\text{AD}$ there may still be more cardinals then the alephs
+and beths, but we won’t need to talk about them. (For instance,
+there can be infinite Dedekind-finite sets under $\text{AD}$.)</li>
+</ol>
+
+<p>Assume $\text{ZF+AD}$. Most of the following results can be found in
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>, in
+<a class="citation" href="#Larson2013">(Larson, 2013)</a> or in
+<a href="http://mathoverflow.net/questions/129036/counterintuitive-consequences-of-the-axiom-of-determinacy" class="external autonumber">[2]</a>:</p>
+
+<ul>
+  <li>The
+<a href="http://en.wikipedia.org/wiki/axiom_of_countable_choice" class="extiw" title="wikipedia:axiom of countable choice">axiom of countable choice</a>
+restrained to countable sets of reals is true.</li>
+  <li>$\text{AD}^{L(\mathbb{R})}$ (see below), and in $L(\mathbb{R})$
+the
+<a href="http://en.wikipedia.org/wiki/axiom_of_dependent_choice" class="extiw" title="wikipedia:axiom of dependent choice">axiom of dependent choice</a>
+is true.</li>
+  <li>The reals cannot be well-ordered. Thus the full
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
+fails.</li>
+  <li>Every set of reals is
+<a href="http://en.wikipedia.org/wiki/Lebesgue_measurable" class="extiw" title="wikipedia:Lebesgue measurable">Lebesgue measurable</a>.
+Thus the
+<a href="http://en.wikipedia.org/wiki/Banach-Tarski_paradox" class="extiw" title="wikipedia:Banach-Tarski paradox">Banach-Tarski paradox</a>
+fails.
+    <ul>
+      <li>It follows by a theorem of Raisonnier that $\omega_1\not\leq
+2^{\aleph_0}$ (yet $2^{\aleph_0}\not\leq\omega_1$).</li>
+      <li>Furthermore, it implies $2^{\aleph_0}$ can be partitioned in
+more than $2^{\aleph_0}$ many pairwise disjoint nonempty
+subsets.</li>
+    </ul>
+  </li>
+  <li>Every set of reals has the
+<a href="http://en.wikipedia.org/wiki/Baire_property" class="extiw" title="wikipedia:Baire property">Baire property</a>.</li>
+  <li>Every set of reals is either
+<a href="Countable" title="Countable">countable</a>
+or has a
+<a href="http://en.wikipedia.org/wiki/perfect_set" class="extiw" title="wikipedia:perfect set">perfect subset</a>.
+    <ul>
+      <li>Thus a form of the
+<a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
+holds, i.e. every set of reals is either countable or has
+cardinality $2^{\aleph_0}$.</li>
+      <li>Other forms of $\text{CH}$ however fail, in particular
+$2^{\aleph_0}\neq\aleph_1$.</li>
+    </ul>
+  </li>
+  <li>There are no free
+<a href="Filter" title="Filter">ultrafilters</a>
+on $\omega$. Every ultrafilter on $\omega$ is principal. Thus
+every ultrafilter is countably complete ($\aleph_1$-complete).</li>
+  <li>$\omega_1$, $\omega_2$, and $\omega_{\omega+1}$ and
+$\omega_{\omega+2}$ are all
+<a href="Measurable" title="Measurable">measurable</a>
+cardinals.
+    <ul>
+      <li>The
+<a href="Club" title="Club">club</a>
+filter on $\omega_1$ is an ultrafilter. Every subset of
+$\omega_1$ either contains a club or is disjoint from one.</li>
+      <li>The club filter on $\omega_2$ restrained to sets of
+<a href="Cofinality" class="mw-redirect" title="Cofinality">cofinality</a>
+$\omega$ is $\omega_2$-complete.</li>
+    </ul>
+  </li>
+  <li>$\omega_n$ is singular for every $n&gt;2$ and has cofinality
+$\omega_2$ and is
+<a href="Jonsson" title="Jonsson">Jonsson</a>,
+also $\aleph_\omega$ is
+<a href="Rowbottom" title="Rowbottom">Rowbottom</a>.</li>
+  <li>
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{#}$</a>
+exists, thus the
+<a href="http://en.wikipedia.org/wiki/axiom_of_constructibility" class="extiw" title="wikipedia:axiom of constructibility">axiom of constructibility</a>
+($V=L$) fails.
+    <ul>
+      <li>In fact, $x^{\#}$ exists for every $x\in\mathbb{R}$ (thus
+$V\neq L[x]$).</li>
+    </ul>
+  </li>
+  <li>The strong <a href="Partition_property" title="Partition property">partition
+property</a>,
+$\omega_1\rightarrow(\omega_1)^{\omega_1}_2$, holds. In
+fact,
+$\omega_1\rightarrow(\omega_1)^{\omega_1}_{2^{\aleph_0}}$
+and $\omega_1\rightarrow(\omega_1)^{\omega_1}_\alpha$ for
+every $\alpha&lt;\omega_1$.</li>
+  <li>If there is a surjection $\mathbb{R}\to\alpha$, then there is
+surjection $\mathbb{R}\to\mathcal{P}(\alpha)$.
+    <ul>
+      <li>Equivalently, if $\alpha\preceq 2^{\aleph_0}$ then
+$2^\alpha\preceq 2^{\aleph_0}$</li>
+    </ul>
+  </li>
+  <li>
+<a href="http://en.wikipedia.org/wiki/Hall%27s_marriage_theorem" class="extiw" title="wikipedia:Hall's marriage theorem">Hall’s marriage theorem</a>
+fails for infinite graphs. For example there is there is a 2-regular
+bipartite graph on $\mathbb{R}$ with no perfect matching.</li>
+  <li>There is no
+<a href="http://en.wikipedia.org/wiki/Basis_(linear_algebra)#Related_notions" class="extiw" title="wikipedia:Basis (linear algebra)">Hamel basis</a>
+of $\mathbb{R}$ over $\mathbb{Q}$.</li>
+</ul>
+
+<p>Let $\Theta$ be the supremum of the ordinals that $\mathbb{R}$ can be
+mapped onto:
+$\Theta=\mathrm{sup}\{\alpha\in\mathrm{Ord}:\alpha\preceq
+2^{\aleph_0}\}$. Under $\text{AC}$ this is just
+$(2^{\aleph_0})^{+}$ but under $\text{AD}$ it is a limit cardinal, in
+fact an aleph fixed point, and $\text{DC}$ implies it has uncountable
+cofinality. In $L(\mathbb{R})$ it is also regular and thus
+<a href="Weakly_inaccessible" class="mw-redirect" title="Weakly inaccessible">weakly inaccessible</a>.
+It is conjectured that under $\text{AD}$ the cofinality function is
+nondecreasing on singular cardinals below $\Theta$.</p>
+
+<p>It is worth noting that, under $\text{AD}$, $\Theta$ is the least
+ordinal <em>incomparable</em> with $\mathbb{R}$, i.e. such that
+$\Theta\not\leq 2^{\aleph_0}$ yet $2^{\aleph_0}\not\leq\Theta$
+and $\Theta\not\preceq 2^{\aleph_0}$ yet
+$2^{\aleph_0}\not\preceq\Theta$</p>
+
+<p>Under $\text{ZF+AD}$, the cardinal $\omega_1$ is
+&lt;$\Theta$-<a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>
+in that for all $\lambda&lt;\Theta$, every $\sigma$-complete filter
+on $\lambda$ extends to a ultrafilter on $\lambda$ (and every
+ultrafilter is itself $\sigma$-complete under $\text{AD}$.)</p>
+
+<h2 id="determinacy-of-lmathbbr">
+<a class="anchor" href="#determinacy-of-lmathbbr" aria-hidden="true"><span class="octicon octicon-link"></span></a>Determinacy of $L(\mathbb{R})$</h2>
+
+<p><em>See also: <a href="Constructible_universe" title="Constructible universe">Constructible
+universe</a></em></p>
+
+<p>Recall that a formula $\varphi$ is $\Delta_0$ if and only if it only
+contains bounded quantifiers (i.e. $(\forall x\in y)$ and $(\exists
+x\in y)$). Let $\text{def}(X)=\{Y\subset X : Y$ is first-order
+definable by a $\Delta_0$ formula with parameters only from
+$X\cup\{X\}\}$. Then let:</p>
+
+<ul>
+  <li>$L_0(X)=\text{TC}(\{X\})$</li>
+  <li>$L_{\alpha+1}(X)=\text{def}(L_\alpha(X))$</li>
+  <li>$L_\lambda(X)=\bigcup_{\alpha&lt;\lambda}L_\alpha(X)$ for
+limit $\lambda$</li>
+  <li>$L(X)=\bigcup_{\alpha\in \text{Ord}}L_\alpha(X)$</li>
+</ul>
+
+<p>where $\text{TC}({X})$ is the smallest transitive set containing $X$,
+the elements of $X$, the elements of the elements of $X$, and so on.
+$L(X)$is always a model of $\text{ZF}$, but not necessarily of the
+axiom of choice.</p>
+
+<p>$L(X,Y)$ is used as a shortcut for $L(\{X,Y\})$. $L(X,\mathbb{R})$
+with $X\subset\mathbb{R}$ is different from $L(\mathbb{R})$ whenever
+$X$ is not constructible from the reals, i.e. $X\not\in
+L(\mathbb{R})$ (if any such set exists; it is consistent with
+$\text{ZF+AD}$ that they do not).</p>
+
+<p>$L(\mathbb{R})$-determinacy, also known as
+$\text{AD}^{L(\mathbb{R})}$ <a class="citation" href="#Koellner2010">(Koellner &amp; Woodin, 2010)</a>
+or <em>quasi-projective determinacy</em> <a class="citation" href="#Maddy1988">(Maddy, 1988)</a>
+is the assertion that every set of reals in $L(\mathbb{R})$ is
+determined. Equivalently, “$L(\mathbb{R})$ is a model of
+$\text{ZF+AD}$”.</p>
+
+<p>$\text{AD}^{L(\mathbb{R})}$ appears to be a very “natural” statement
+in that, empirically, every natural extension of $\text{ZFC}$ (i.e. not
+made specifically to contradict this) that is not proved consistent by
+$\text{AD}$ seems to imply $\text{AD}^{L(\mathbb{R})}$ or some weaker
+form of determinacy. <a class="citation" href="#Larson2013">(Larson, 2013)</a> This
+is often considered to be an argument toward the “truth” of
+$\text{AD}^{L(\mathbb{R})}$.</p>
+
+<p>Assuming $\text{ZF+DC+}V=L(\mathbb{R})$, $\text{AD}$ follows from
+three of its consequences:
+<a class="citation" href="#Larson2013">(Larson, 2013)</a></p>
+
+<ol>
+  <li>Every set of reals is Lebesgue measurable.</li>
+  <li>Every set of reals has the Baire property.</li>
+  <li>Every $\Sigma^1_2$ set of reals can be uniformized.</li>
+</ol>
+
+<p>In $L(\mathbb{R})$, the axiom of determinacy is equivalent to the axiom
+of Turing determinacy <a class="citation" href="#Larson2013">(Larson, 2013)</a>,
+i.e. the assertion that payoff sets closed under
+<a href="http://en.wikipedia.org/wiki/Turing_equivalence" class="extiw" title="wikipedia:Turing equivalence">Turing equivalence</a>
+are determined.</p>
+
+<p>Busche and Schindler showed that, if there is a model of $\text{ZF}$ in
+wich every uncountable cardinal is singular (thus has cofinality
+$\aleph_0$), then the axiom of determinacy holds in the
+$L(\mathbb{R})$ of some <a href="Forcing" title="Forcing">generic
+extension</a>
+of $\text{HOD}$ <a class="citation" href="#Larson2013">(Larson, 2013)</a>. This
+notably follows from the existence of a proper class of <a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>
+cardinals.</p>
+
+<p>Assume that there is $\omega_1$-<a href="Filter" title="Filter">dense
+ideal</a>
+over $\omega_1$; then $\text{AD}^{L(\mathbb{R})}$ holds.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a> This result is due to
+Woodin.</p>
+
+<p>The following holds in $L(\mathbb{R})$ assuming
+$\text{AD}^{L(\mathbb{R})}$:
+<a class="citation" href="#Koellner2010">(Koellner &amp; Woodin, 2010; Jackson et al., 2015)</a></p>
+
+<ul>
+  <li>Every uncountable cardinal &lt;$\Theta$ is
+<a href="Jonsson" title="Jonsson">Jónsson</a>,
+also if it is regular or has cofinality $\omega$ then it is
+<a href="Rowbottom" title="Rowbottom">Rowbottom</a>.</li>
+  <li>Every regular cardinal &lt;$\Theta$ is
+<a href="Measurable" title="Measurable">measurable</a>
+(note that $2^{\aleph_0}\not\leq\Theta$), also $\Theta$ is a
+limit of measurable cardinals.</li>
+  <li>$\Theta$ is weakly
+hyper-<a href="Mahlo" title="Mahlo">Mahlo</a>
+(and thus weakly hyper-inaccessible), but it is not <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>.</li>
+  <li>$\Theta$ is Woodin in the model $\text{HOD}^{L(\mathbb{R})}$.
+There exists many strengthnings and variants of this result.</li>
+  <li>$\omega_1$ is &lt;$\Theta$-supercompact in that for every
+$\lambda&lt;\Theta$ there is a normal ultrafilter on
+$P_{\omega_1}(\lambda)$. This is a strengthening of the above
+result that $\omega_1$ is &lt;$\Theta$-strongly compact under
+$\text{AD}$ alone.</li>
+</ul>
+
+<h2 id="axiom-of-projective-determinacy">
+<a class="anchor" href="#axiom-of-projective-determinacy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom of projective determinacy</h2>
+
+<p><em>Main article: <a href="Projective#Projective_determinacy" title="Projective">Projective
+determinacy</a></em></p>
+
+<h2 id="axiom-of-real-determinacy">
+<a class="anchor" href="#axiom-of-real-determinacy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom of real determinacy</h2>
+
+<p>The <strong>axiom of real determinacy</strong> ($\text{AD}_\mathbb{R}$) is the
+assertion that if payoff sets contains real numbers instead of natural
+numbers, then every payoff set is still determined. This is strictly
+stronger than $\text{AD}$, and $\text{ZF+AD}_\mathbb{R}$ proves
+$\text{ZF+AD}$ consistent.</p>
+
+<p>$\text{AD}_\mathbb{R}$ is equivalent (over $\text{ZF}$) to
+$\text{AD}$ plus the
+<a href="http://en.wikipedia.org/wiki/Uniformization_(set_theory)" class="extiw" title="wikipedia:Uniformization (set theory)">axiom of uniformization</a>
+(which is false in $L(\mathbb{R})$). $\text{AD}_\mathbb{R}$ is also
+equivalent to determinacy for games of length $\omega^2$. In fact,
+$\text{AD}_\mathbb{R}$ is equivalent to the assertion that every game
+of bounded countable length is determined. It is however possible to
+show (in $\text{ZF}$) that there are non-determined games of length
+$\aleph_1$.</p>
+
+<p>Solovay showed that $\text{ZF+AD}_\mathbb{R}+$”$\Theta$ has
+uncountable cofinality” (which follows from
+$\text{ZF+AD}_\mathbb{R}\text{+DC}$) proves
+$\text{ZF+AD}_\mathbb{R}$ consistent; it is therefore consistent with
+$\text{ZF+AD}_\mathbb{R}$ that $\Theta$ has cofinality $\omega$ and
+that $\text{DC}$ is false.
+<a class="citation" href="#Larson2013">(Larson, 2013)</a></p>
+
+<p>Steel showed that under $\text{AD}_\mathbb{R}$, in a <a href="Forcing" title="Forcing">generic
+extension</a>
+there is a proper class model of $\text{ZFC}$ in which there exists a
+cardinal $\delta$ of cofinality $\aleph_0$ which is a limit of Woodin
+cardinals and &lt;$\delta$-strong cardinals.
+<a class="citation" href="#Larson2013">(Larson, 2013)</a></p>
+
+<p>Under $\text{AD}_\mathbb{R}$, $\omega_1$ is
+&lt;$\Theta$-supercompact, i.e. for every ordinal $\gamma&lt;\Theta$
+there is a normal fine ultrafilter on the set of all subsets of
+$\gamma$ of size $\aleph_1$. $\text{AD}$ suffices for this result to
+hold in $L(\mathbb{R})$, but is not known to suffice for it to hold in
+$\text{V}$. <a class="citation" href="#Larson2013">(Larson, 2013)</a></p>
+
+<p>A set $\Gamma\subset\mathcal{P}(\mathbb{R})$ is a <em>Wadge initial
+segment</em> of $\mathcal{P}(\mathbb{R})$ if for every $X\in\Gamma$, if
+$Y\leq_W X$ (i.e. $Y$ is
+<a href="http://en.wikipedia.org/wiki/Wadge_hierarchy" class="extiw" title="wikipedia:Wadge hierarchy">Wadge reducible</a>
+to $X$) then $Y\in\Gamma$. Under suitable large cardinal assumptions,
+there exists a Wadge initial segment
+$\Gamma\subset\mathcal{P}(\mathbb{R})$ such that
+$L(\Gamma,\mathbb{R})\models\text{AD}^{+}+\text{AD}_\mathbb{R}+\Gamma=\mathcal{P}(\mathbb{R})$
+(see
+<a href="AD%2B" class="mw-redirect" title="AD+">AD+</a>).
+Furthermore, whenever $\mathcal{M}$ is an inner model such that
+$\mathbb{R}\subset\mathcal{M}$ and
+$\mathcal{M}\models\text{AD}^{+}+\text{AD}_\mathbb{R}$, one has
+$\Gamma\subset\mathcal{M}$. <em>(see the ‘Read more’ section)</em></p>
+
+<h2 id="textad-and-models-of-determinacy">
+<a class="anchor" href="#textad-and-models-of-determinacy" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\text{AD}^+$ and models of determinacy</h2>
+
+<p><em>Main article:
+<a href="AD%2B" class="mw-redirect" title="AD+">$\text{AD}^+$</a></em></p>
+
+<h2 id="consistency-strength-of-determinacy-hypotheses">
+<a class="anchor" href="#consistency-strength-of-determinacy-hypotheses" aria-hidden="true"><span class="octicon octicon-link"></span></a>Consistency strength of determinacy hypotheses</h2>
+
+<p>The following theories are equiconsistent:
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009; Trang &amp; Wilson, 2016)</a></p>
+
+<ul>
+  <li>$\text{ZF+AD}$</li>
+  <li>$\text{ZF+AD+DC}$</li>
+  <li>$\text{ZFC+AD}^{L(\mathbb{R})}$</li>
+  <li>$\text{ZFC+AD}^{\text{OD}(\mathbb{R})}$</li>
+  <li>$\text{ZFC+}$”the non-stationary ideal over $\omega_1$ is
+$\omega_1$-dense”</li>
+  <li>$\text{ZFC+}$”there exists infinitely many
+<a href="Woodin" title="Woodin">Woodin</a>
+cardinals”</li>
+  <li>$\text{ZF+DC+}$”$\omega_1$ is
+$\mathcal{P}(\omega_1)$-<a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>”</li>
+  <li>$\text{ZF+DC+}$”$\omega_1$ is $\mathbb{R}$-strongly compact and
+$\Theta&gt;\omega_2$”</li>
+  <li>$\text{ZF+DC+}$”$\omega_1$ is $\mathbb{R}$-strongly compact and
+$\omega_2$-strongly compact”</li>
+  <li>$\text{ZF+DC+}$”$\omega_1$ is $\mathbb{R}$-strongly compact and
+Jensens’s square principle fails for $\omega_1$”</li>
+</ul>
+
+<p>Where $\text{DC}$ is the
+<a href="http://en.wikipedia.org/wiki/axiom_of_dependent_choice" class="extiw" title="wikipedia:axiom of dependent choice">axiom of dependent choice</a>
+and $\omega_1$ being $X$-strongly compact means that there exists a
+<a href="Filter" title="Filter">fine
+measure</a>
+on the set of all subsets of $X$ of cardinality $\aleph_1$.</p>
+
+<p>Woodin proved that the theory $\text{ZF+DC+AD+}$”$\omega_1$ is
+supercompact” is consistent relative to $\text{ZFC+}$ “there is a
+proper class of Woodin cardinals, each of which a limit of Woodin
+cardinals”.</p>
+
+<p><a href="Projective_determinacy" class="mw-redirect" title="Projective determinacy">Projective determinacy</a>
+is a little weaker: it is equiconsistent with $\text{ZFC}$ plus, for
+all n, an axiom saying “there are n Woodin cardinals”. Since
+$\text{ZFC}$ can only use finitely many of its axioms, this axiom
+schema does not allow $\text{ZFC}$ to prove that there exists
+infinitely many Woodins, despite making it able to prove every
+particular instance of “there exists at least n Woodin cardinals”.</p>
+
+<p>Koellner annd Woodin showed that the following theories are also
+equiconsistent: <a class="citation" href="#Koellner2010">(Koellner &amp; Woodin, 2010)</a></p>
+
+<ul>
+  <li>$\text{ZFC+}\Delta^1_2$-determinacy</li>
+  <li>$\text{ZFC+OD}$-determinacy</li>
+  <li>$\text{ZFC+}$”there exists a Woodin cardinal”</li>
+  <li>$\text{ZFC+}$”the nonstationary ideal on $\omega_1$ is
+$\omega_2$-saturated”</li>
+</ul>
+
+<p>And so are $\text{Z}_3+$lightface $\Delta^1_2$-determinacy and
+$\text{MK+}$”$\text{Ord}$ is Woodin” where $\text{Z}_3$ is
+<em>third-order arithmetic</em> and $\text{MK}$ is
+<a href="Morse-Kelley_set_theory" class="mw-redirect" title="Morse-Kelley set theory">Morse-Kelley set theory</a>.
+It is also conjectured that $\text{Z}_2+\Delta^1_2$-determinacy and
+$\text{ZFC+}$”$\text{Ord}$ is Woodin” are equiconsistent, where
+$\text{Z}_2$ is
+<a href="http://en.wikipedia.org/wiki/second-order_arithmetic" class="extiw" title="wikipedia:second-order arithmetic">second-order arithmetic</a>
+and “$\text{Ord}$ is Woodin” is expressed as an axiom scheme.</p>
+
+<p>Finally, Trang and Wilson proved that the following theories are
+equiconsistent:
+<a class="citation" href="#Trang2016">(Trang &amp; Wilson, 2016)</a></p>
+
+<ul>
+  <li>$\text{ZF+DC+AD}_\mathbb{R}$</li>
+  <li>$\text{ZF+DC+}$”$\omega_1$ is
+$\mathcal{P}(\mathbb{R})$-strongly compact”</li>
+  <li>$\text{ZF+DC+}$”$\omega_1$ is $\mathbb{R}$-strongly compact and
+$\Theta$ is singular”</li>
+  <li>$\text{ZF+DC+}$”$\omega_1$ is $\mathbb{R}$-strongly compact and
+$\Theta$-strongly compact”</li>
+</ul>
+
+<p>As are the following theories:</p>
+
+<ul>
+  <li>$\text{ZF+AD}_\mathbb{R}$</li>
+  <li>$\text{ZF+DC}_{\mathcal{P}(\omega_1)}+$”$\omega_1$ is
+$\mathbb{R}$-strongly compact and $\Theta$ is singular”</li>
+  <li>$\text{ZFC+}$”there is a cardinal $\lambda$ that is a limit of
+Woodin cardinals and &lt;$\lambda$-strong cardinals”.</li>
+</ul>
+
+<h2 id="read-more">
+<a class="anchor" href="#read-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>Read more</h2>
+
+<ul>
+  <li>
+    <p><em>“Is there a natural inner model of $\text{AD}_\mathbb{R}$?”</em>
+<a href="http://mathoverflow.net/questions/269241/is-there-a-natural-inner-model-of-ad-mathbbr/269690" class="external autonumber">[3]</a></p>
+  </li>
+  <li>
+    <p><em>“Limitations of determinacy hypotheses in ZFC”</em>
+<a href="http://mathoverflow.net/questions/271507/limitations-of-determinacy-hypotheses-in-zfc" class="external autonumber">[4]</a></p>
+  </li>
+  <li>
+    <p><em>“Counterintuitive consequences of the Axiom of Determinacy?”</em>
+<a href="https://mathoverflow.net/questions/129036/counterintuitive-consequences-of-the-axiom-of-determinacy" class="external autonumber">[5]</a></p>
+  </li>
+</ul>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Koellner2010">Koellner, P., &amp; Woodin, W. H. (2010). Chapter 23: Large cardinals from Determinacy. <i>Handbook of Set Theory</i>. http://logic.harvard.edu/koellner/LCFD.pdf</span></li>
+<li><span id="Maddy1988">Maddy, P. (1988). Believing the axioms. I. <i>J. Symbolic Logic</i>, <i>53</i>(2), 181–511. https://doi.org/10.2307/2274520</span></li>
+<li><span id="Larson2013">Larson, P. B. (2013). <i>A brief history of determinacy</i>. http://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf</span></li>
+<li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Jackson2015">Jackson, S., Ketchersid, R., Schlutzenberg, F., &amp; Woodin, W. H. (2015). <i>Determinacy and Jónsson cardinals in L(\mathbbR)</i>. https://doi.org/10.1017/jsl.2014.49</span></li>
+<li><span id="Trang2016">Trang, N., &amp; Wilson, T. (2016). <i>Determinacy from Strong Compactness of \omega_1</i>.</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

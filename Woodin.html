@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Woodin cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Woodin cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Woodin","@type":"WebPage","headline":"Woodin cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Woodin cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definition-and-some-properties">Definition and some properties</a></li>
+<li class="toc-entry toc-h2"><a href="#shelah-cardinals">Shelah cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#woodin-for-strong-compactness">Woodin for strong compactness</a></li>
+<li class="toc-entry toc-h2"><a href="#woodin-cardinals-and-determinacy">Woodin cardinals and determinacy</a></li>
+<li class="toc-entry toc-h2"><a href="#role-in-omega-logic">Role in $\Omega$-logic</a></li>
+<li class="toc-entry toc-h2"><a href="#stationary-tower-forcing">Stationary tower forcing</a></li>
+</ul><p><strong>Woodin cardinals</strong> (named after W. Hugh Woodin) are a generalization
+of the notion of strong cardinals and have been used to calibrate the
+exact proof-theoretic strength of the <a href="Axiom_of_determinacy" title="Axiom of determinacy">axiom of
+determinacy</a>.
+They can also be seen as weakenings of <em>Shelah cardinals</em>, defined
+below. Their exact definition has several equivalent but different
+characterizations, each of which is somewhat technical in nature.
+Nevertheless, an inner model theory encapsulating infinitely many Woodin
+cardinals and slightly beyond has been developed.</p>
+
+<h2 id="definition-and-some-properties">
+<a class="anchor" href="#definition-and-some-properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition and some properties</h2>
+
+<p>We first introduce the concept of <em>$\gamma$-strongness for $A$</em>: an
+ordinal $\kappa$ is <em>$\gamma$-strong for $A$</em> (or
+$\gamma$-$A$-strong) if there exists a nontrivial elementary embedding
+$j:V\to M$ with critical point $\kappa$ such that
+$V_{\kappa+\gamma}\subseteq M$ and $A\cap V_{\kappa+\gamma} =
+j(A)\cap V_{\kappa+\gamma}$. Intuitively, $j$ preserves the part of
+$A$ that is in $V_{\kappa+\gamma}$. We say that a cardinal $\kappa$
+is &lt;$\delta$-$A$-strong if it is $\gamma$-$A$-strong for all
+$\gamma&lt;\delta$.</p>
+
+<p>We also introduce <em>Woodin-ness in $\delta$</em>: for an infinite ordinal
+$\delta$, a set $X\subseteq\delta$ is <em>Woodin in $\delta$</em> if for
+every function $f:\delta\to\delta$, there is an ordinal $\kappa\in
+X$ with $\{f(\beta):\beta&lt;\kappa\}\subseteq\kappa$ ($\kappa$
+is closed under $f$), there exists a nontrivial <a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j:V\to M$ with critical point $\kappa$ such that
+$V_{j(f)(\kappa)}\subseteq M$.</p>
+
+<p>An
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+cardinal $\delta$ is <strong>Woodin</strong> if any of the following (equivalent)
+characterizations holds <a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>:</p>
+
+<ul>
+  <li>For any set $A\subseteq V_\delta$, there exists a
+$\kappa&lt;\delta$ that is &lt;$\delta$-$A$-strong.</li>
+  <li>For any set $A\subseteq V_\delta$, the set
+$S=\{\kappa&lt;\delta:\kappa$ is &lt;$\delta$-$A$-strong$\}$
+is
+<a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
+in $\delta$.</li>
+  <li>The set $F=\{X\subseteq \delta:\delta\setminus X$ is not
+<em>Woodin in $\delta$</em>$\}$ is a proper
+<a href="Filter" title="Filter">filter</a>,
+the <em>Woodin filter</em> over $\delta$.</li>
+  <li>For every function $f:\delta\to\delta$ there exists
+$\kappa&lt;\delta$ such that
+$\{f(\beta):\beta\in\kappa\}\subseteq\kappa$ (that is,
+$\kappa$ is closed under $f$) and there exists a nontrivial
+elementary embedding $j:V\to M$ with critical point $\kappa$ such
+that $V_{j(f)(\kappa)}\subseteq M$.</li>
+</ul>
+
+<p>Let $\delta$ be Woodin, $F$ be the Woodin filter over $\delta$, and
+$S=\{\kappa&lt;\delta:\kappa$ is &lt;$\delta$-$A$-strong$\}$. Then
+$F$ is normal and $S\in F$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a> This implies every Woodin
+cardinal is
+<a href="Mahlo" title="Mahlo">Mahlo</a> and
+preceeded by a stationary set of
+<a href="Measurable" title="Measurable">measurable</a>
+cardinals, in fact of
+&lt;$\delta$-<a href="Strong" title="Strong">strong</a>
+cardinals. However, the least Woodin cardinal is not <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>
+as it is not
+$\Pi^1_1$-<a href="Indescribable" title="Indescribable">indescribable</a>.</p>
+
+<p>Woodin cardinals are weaker consistency-wise then
+<a href="Superstrong" title="Superstrong">superstrong</a>
+cardinals. In fact, every superstrong is preceeded by a stationary set
+of Woodin cardinals. On the other hand the existence of a Woodin is much
+stronger than the existence of a proper class of strong cardinals.</p>
+
+<p>The existence of a Woodin cardinal implies the consistency of
+$\text{ZFC}$ + “the <a href="Filter" title="Filter">nonstationary
+ideal</a> on
+$\omega_1$ is $\omega_2$-saturated”.
+<a href="Huge" title="Huge">Huge</a>
+cardinals were first invented to prove the consistency of the existence
+of a $\omega_2$-saturated $\sigma$-ideal on $\omega_1$, but turned
+out to be stronger than required, as a Woodin is enough.</p>
+
+<h2 id="shelah-cardinals">
+<a class="anchor" href="#shelah-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Shelah cardinals</h2>
+
+<p>Shelah cardinals were introduced by Shelah and Woodin as a weakening of
+the necessary hypothesis required to show several regularity properties
+of sets of reals hold in the model $L(\mathbb{R})$ (e.g., every set of
+reals is Lebesgue measurable and has the property of Baire, etc…). In
+slightly more detail, Woodin had established that the <a href="Axiom_of_determinacy" title="Axiom of determinacy">axiom of
+determinacy</a>
+(a hypothesis known to imply regularity properties for sets of reals)
+holds in $L(\mathbb{R})$ assuming the existence of a nontrivial
+elementary embedding $j:L(V_{\lambda+1})\to L(V_{\lambda+1})$ with
+critical point $&lt;\lambda$. This axiom, a
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
+axiom, is known to be very strong and its use was first weakened to that
+of the existence of a
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinal. Following the work of Foreman, Magidor and Shelah on saturated
+ideals on $\omega_1$, Woodin and Shelah subsequently isolated the two
+large cardinal hypotheses which bear their name and turn out to be
+sufficient to establish the <a href="Projective#Regularity_properties" title="Projective">regularity
+properties</a>
+of sets of reals mentioned above.</p>
+
+<p>Shelah cardinals were the first cardinals to be devised by Woodin and
+Shelah. A cardinal $\delta$ is <em>Shelah</em> if for every function
+$f:\delta\to\delta$ there exists a nontrivial elementary embedding
+$j:V\to M$ with critical point $\delta$ such that
+$V_{j(f)(\delta)}\subseteq M$. Every Shelah is Woodin, but not every
+Woodin is Shelah: indeed, Shelah cardinals are always measurable and in
+fact
+<a href="Strong" title="Strong">strong</a>,
+while Woodins are usually not. However, just like Woodins, Shelah
+cardinals are weaker consistency-wise than superstrong cardinals.</p>
+
+<p>A related notion is <em>Shelah-for-supercompactness</em>, where the closure
+condition $V_{j(f)(\delta)}\subseteq M$ is replaced by
+$M^{j(f)(\delta)}\subseteq M$, a much stronger condition. The
+difference between Shelah and Shelah-for-supercompactness cardinals is
+essentially the same as the difference between strong and
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinals, or between
+<a href="Superstrong" title="Superstrong">superstrong</a>
+and <a href="Huge" title="Huge">huge</a>
+cardinals. Also, just like every Shelah is preceeded by a stationary set
+of strong cardinals, every Shelah-for-supercompactness cardinal is
+preceeded by a stationary set of supercompact cardinals.</p>
+
+<p>Much weaker, consistent with $V=L$ variant: A cardinal $κ$ is
+<strong>virtually Shelah for supercompactness</strong> iff for every function $f : κ
+→ κ$ there are $λ &gt; κ$ and $\bar{λ}&lt; κ$ such that in a
+set-forcing extension there is an elementary embedding $j :
+V_{\bar{λ}}→ V_{λ}$ with $j(\mathrm{crit}(j)) = κ$, $\bar{λ} ≥
+f(\mathrm{crit}(j))$ and $f ∈ \mathrm{ran}(j)$. If $κ$ is virtually
+Shelah for supercompactness, then $V_κ$ is a model of proper class many
+virtually
+$C^{(n)}$-<a href="Extendible" title="Extendible">extendible</a>
+cardinals for every $n &lt; ω$ and if κ is
+2-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>,
+then $V_κ$ is a model of proper class many virtually Shelah for
+supercompactness
+cardinals.<a class="citation" href="#Gitmana">(Gitman &amp; Shindler, n.d.)</a></p>
+
+<h2 id="woodin-for-strong-compactness">
+<a class="anchor" href="#woodin-for-strong-compactness" aria-hidden="true"><span class="octicon octicon-link"></span></a>Woodin for strong compactness</h2>
+
+<p>(from <a class="citation" href="#Dimopoulos2019">(Dimopoulos, 2019)</a> unless
+otherwise noted)</p>
+
+<p>A cardinal $δ$ is <strong>Woodin for strong compactness</strong> (or <em>Woodinised
+strongly compact</em>) iff for every $A ⊆ δ$ there is $κ &lt; δ$ which is
+$&lt;δ$-<a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>
+for $A$.</p>
+
+<p>This definition is obviously analogous to one of the characterisations
+of Woodin and <em>Woodin-for-supercompactness</em> (Perlmutter proved that
+<a class="citation" href="#Perlmutter2010">(Perlmutter, 2010)</a>
+it is equivalent to
+<a href="Vopenka" title="Vopenka">Vopěnkaness</a>)
+cardinals.</p>
+
+<p>Results:</p>
+
+<ul>
+  <li>Woodin for strong compactness cardinal $δ$ is an
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+limits of $&lt;δ$-strongly compact cardinals.</li>
+  <li>$κ$ is Woodin and there are unboundedly many $&lt;δ$-supercompact
+cardinals below $δ$, then $δ$ is Woodin for strong compactness.</li>
+  <li>The existence of a Woodin for strong compactness cardinal is at
+least as strong as a proper class of strongly compact cardinals and
+at most as strong as a Woodin limit of supercompact cardinals (which
+lies below an extendible cardinal).</li>
+</ul>
+
+<h2 id="woodin-cardinals-and-determinacy">
+<a class="anchor" href="#woodin-cardinals-and-determinacy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Woodin cardinals and determinacy</h2>
+
+<p><em>See also: <a href="Axiom_of_determinacy" title="Axiom of determinacy">axiom of
+determinacy</a>,
+<a href="Projective#Projective_determinacy" title="Projective">axiom of projective
+determinacy</a></em></p>
+
+<p>Woodin cardinals are linked to different forms of the <a href="Axiom_of_determinacy" title="Axiom of determinacy">axiom of
+determinacy</a>
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009; Larson, 2013; Koellner &amp; Woodin, 2010)</a>:</p>
+
+<ul>
+  <li>$\text{ZF+AD}$, $\text{ZFC+AD}^{L(\mathbb{R})}$, ZFC+”the
+non-stationary ideal over $\omega_1$ is $\omega_1$-dense” and
+$\text{ZFC}$+”there exists infinitely many Woodin cardinals” are
+equiconsistent.</li>
+  <li>Under $\text{ZF+AD}$, the model $\text{HOD}^{L(\mathbb{R})}$
+satisfies $\text{ZFC}$+”$\Theta^{L(\mathbb{R})}$ is a Woodin
+cardinal”. <a class="citation" href="#Koellner2010">(Koellner &amp; Woodin, 2010)</a> gives many
+generalizations of this result.</li>
+  <li>If there exists infinitely many Woodin cardinals with a measurable
+above them all, then $\text{AD}^{L(\mathbb{R})}$. If there
+assumtion that there is a measurable above those Woodins is removed,
+one still has projective determinacy.</li>
+  <li>In fact projective determinacy is equivalent to “for every
+$n&lt;\omega$, there is a fine-structural, countably iterable inner
+model $M$ such that $M$ satisfies $\text{ZFC}$+”there exists $n$
+Woodin cardinals”.</li>
+  <li>For every $n$, if there exists $n$ Woodin cardinals with a
+measurable above them all, then all $\mathbf{\Sigma}^1_{n+1}$
+sets are determined.</li>
+  <li>$\mathbf{\Pi}^1_2$-determinacy is equivalent to “for every
+$x\in\mathbb{R}$, there is a countable ordinal $\delta$ such that
+$\delta$ is a Woodin cardinal in some inner model of $\text{ZFC}$
+containing $x$.</li>
+  <li>$\mathbf{\Delta}^1_2$-determinacy is equivalent to “for every
+$x\in\mathbb{R}$, there is an inner model M such that $x\in M$
+and $M$ satisfies ZFC+”there is a Woodin cardinal”.</li>
+  <li>$\text{ZFC}$ + <em>lightface</em> $\Delta^1_2$-determinacy implies that
+there many $x$ such that $\text{HOD}^{L[x]}$ satisfies
+$\text{ZFC}$+”$\omega_2^{L[x]}$ is a Woodin cardinal”.</li>
+  <li>$\text{Z}_2+\Delta^1_2$-determinacy is conjectured to be
+equiconsistent with $\text{ZFC}$+”$\text{Ord}$ is Woodin”, where
+“$\text{Ord}$ is Woodin” is expressed as an axiom scheme and
+$\text{Z}_2$ is
+<a href="http://en.wikipedia.org/wiki/second-order_arithmetic" class="extiw" title="wikipedia:second-order arithmetic">second-order arithmetic</a>.</li>
+  <li>$\text{Z}_3+\Delta^1_2$-determinacy is provably equiconsistent
+with $\text{NBG}$+”$\text{Ord}$ is Woodin” where $\text{NBG}$ is
+<a href="http://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory" class="extiw" title="wikipedia:Von Neumann–Bernays–Gödel set theory">Von Neumann–Bernays–Gödel set theory</a>
+and $\text{Z}_3$ is third-order arithmetic.</li>
+</ul>
+
+<h2 id="role-in-omega-logic">
+<a class="anchor" href="#role-in-omega-logic" aria-hidden="true"><span class="octicon octicon-link"></span></a>Role in $\Omega$-logic</h2>
+
+<h2 id="stationary-tower-forcing">
+<a class="anchor" href="#stationary-tower-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stationary tower forcing</h2>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Gitmana">Gitman, V., &amp; Shindler, R. <i>Virtual large cardinals</i>. https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf</span></li>
+<li><span id="Dimopoulos2019">Dimopoulos, S. (2019). Woodin for strong compactness cardinals. <i>The Journal of Symbolic Logic</i>, <i>84</i>(1), 301–319. https://doi.org/10.1017/jsl.2018.67</span></li>
+<li><span id="Perlmutter2010">Perlmutter, N. (2010). <i>The large cardinals between supercompact and almost-huge</i>. http://boolesrings.org/perlmutter/files/2013/07/HighJumpForJournal.pdf</span></li>
+<li><span id="Larson2013">Larson, P. B. (2013). <i>A brief history of determinacy</i>. http://www.users.miamioh.edu/larsonpb/determinacy_cabal.pdf</span></li>
+<li><span id="Koellner2010">Koellner, P., &amp; Woodin, W. H. (2010). Chapter 23: Large cardinals from Determinacy. <i>Handbook of Set Theory</i>. http://logic.harvard.edu/koellner/LCFD.pdf</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

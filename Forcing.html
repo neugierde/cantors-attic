@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Forcing | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Forcing" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Forcing","@type":"WebPage","headline":"Forcing","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Forcing</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definitions-and-some-properties">Definitions and some properties</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#genericity">Genericity</a></li>
+<li class="toc-entry toc-h3"><a href="#mathbbp-names-and-interpretation-by-g">$\mathbb{P}$-names and interpretation by $G$</a></li>
+<li class="toc-entry toc-h3"><a href="#the-forcing-relation">The forcing relation</a></li>
+<li class="toc-entry toc-h3"><a href="#separativity">Separativity</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#boolean-algebras">Boolean algebras</a></li>
+<li class="toc-entry toc-h2"><a href="#consistency-proofs">Consistency proofs</a></li>
+<li class="toc-entry toc-h2"><a href="#chain-conditions-distributivity-closure-and-property-k">Chain conditions, distributivity, closure and property (K)</a></li>
+<li class="toc-entry toc-h2"><a href="#cohen-forcing-adding-subsets-of-regular-cardinals-and-independence-of-the-continuum-hypothesis">Cohen forcing, adding subsets of regular cardinals, and independence of the continuum hypothesis</a></li>
+<li class="toc-entry toc-h2"><a href="#other-examples-of-consistency-results-proved-using-forcing">Other examples of consistency results proved using forcing</a></li>
+<li class="toc-entry toc-h2"><a href="#product-forcing">Product forcing</a></li>
+<li class="toc-entry toc-h2"><a href="#iterated-forcing">Iterated forcing</a></li>
+<li class="toc-entry toc-h2"><a href="#forcing-axioms">Forcing axioms</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#proper-forcing">Proper forcing</a></li>
+<li class="toc-entry toc-h3"><a href="#martins-maximum-and-the-semiproper-forcing-axiom">Martin’s maximum and the semiproper forcing axiom</a></li>
+<li class="toc-entry toc-h3"><a href="#textwpfa-and-textpfa_κ">$\text{wPFA}$ and $\text{PFA}_κ$</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#generic-absoluteness-and-universal-baireness">Generic absoluteness and universal Baireness</a></li>
+<li class="toc-entry toc-h2"><a href="#generic-ultrapowers">Generic ultrapowers</a></li>
+<li class="toc-entry toc-h2"><a href="#other-types-of-forcing">Other types of forcing</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#the-lévy-collapse">The Lévy collapse</a></li>
+<li class="toc-entry toc-h3"><a href="#prikry-forcing">Prikry forcing</a></li>
+</ul>
+</li>
+</ul><p><strong>Forcing</strong> is a method for extending a transitive model $M$ of
+$\text{ZFC}$ (the <em>ground
+<a href="Model" title="Model">model</a></em>) by
+adjoining a new set $G$ (the <em>generic set</em>) to produce a new, larger
+model $M[G]$ called a <em>generic extension</em>. In short, the set $G$ can
+be constructed a certain way using a partially ordered set
+$(\mathbb{P},\leq)\in M$ (the <em>forcing notion</em>) so that the following
+holds:</p>
+
+<ul>
+  <li>
+<strong>(Generic Model Theorem).</strong> There exists a unique transitive model
+$M[G]$ of $\text{ZFC}$ that includes $M$ (as a subset) and
+contains $G$ (as an element), has the same ordinals as $M$, and any
+transitive model of $\text{ZFC}$ also including $M$ and containing
+$G$ includes $M[G]$ (i.e. $M[G]$ is minimal).</li>
+</ul>
+
+<p>The elements of the forcing notion $\mathbb{P}$ will be called the
+<em>conditions</em>. The order $p\leq q$, for $p,q\in\mathbb{P}$, is to be
+interpreted as “$p$ is stronger than $q$” or as “$p$ implies $q$”. $G$
+will be a special subset of $\mathbb{P}$ said to be <em>generic over $M$</em>
+and satisfying some requirements. The choice of $\mathbb{P}$ and of
+$\leq$ will determine what is true of false in $M[G]$. A special
+relation called the <em>forcing relation</em> is defined, which links the
+conditions to the formulas they will force. It is very important to note
+that this relation can be defined from within the ground model $M$.</p>
+
+<p>While the usual definition of forcing only works for transitive
+countable models $M$ of $\text{ZFC}$, it is customary to “take $V$ as
+the ground model”, and pretend there exists a generic
+$G\subseteq\mathbb{P}$. Every statement about the generic extension
+$V[G]$ can be thought as a statement in the forcing relation: that
+relation being definable within the ground model, this method can be
+thought as working within the ground model $M$, with $V[G]$ being, in
+some way, $M[G]$ as seen from within the ground model $M$.</p>
+
+<p>Forcing was first introduced by Paul Cohen as a way of proving the
+consistency of the failure of the
+<a href="GCH" class="mw-redirect" title="GCH">continuum hypothesis</a>
+with $\text{ZFC}$. He also used it to prove the consistency of the
+failure of the
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>,
+albeit the proof is more indirect: if $M$ satisfies choice, then so does
+$M[G]$, so $\neg AC$ cannot be forced directly, though it is possible
+to extract a submodel of $M[G]$ (for a particular generic extension)
+in which choice fails.</p>
+
+<p>In particular, an inner model can be a ground of $V$.</p>
+
+<h2 id="definitions-and-some-properties">
+<a class="anchor" href="#definitions-and-some-properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions and some properties</h2>
+
+<p>Let $(\mathbb{P},\leq)$ be a partially ordered set, the <em>forcing
+notion</em>. Sometimes $\leq$ can just be a preorder (i.e. not necessarily
+antisymmetric). The elements of $\mathbb{P}$ are called <em>conditions</em>.
+We will assume $\mathbb{P}$ has a maximal element $1$, i.e. one has
+$p\leq 1$ for all $p\in\mathbb{P}$. This element isn’t necessary if
+one uses the definition using Boolean algebras presented below, but is
+useful when trying to construct $M[G]$ without using Boolean algebras.</p>
+
+<p>Two conditions $p,q\in P$ are <em>compatible</em> if there exists
+$r\in\mathbb{P}$ such that $r\leq p$ and $r\leq q$. They are
+<em>incompatible</em> otherwise. A set $W\subseteq\mathbb{P}$ is an
+<em>antichain</em> if all its elements are pairwise incompatible.</p>
+
+<h3 id="genericity">
+<a class="anchor" href="#genericity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Genericity</h3>
+
+<p>A nonempty set $F\subseteq\mathbb{P}$ is a
+<em><a href="Filter" title="Filter">filter</a>
+on $\mathbb{P}$</em> if all of its elements are pairwise compatible and it
+is closed under implications, i.e. if $p\leq q$ and $p\in F$ then
+$q\in F$.</p>
+
+<p>One says that a set $D\subseteq\mathbb{P}$ is <em>dense</em> if for all
+$p\in\mathbb{P}$, there is $q\in D$ such that $q\leq p$ (i.e. $q$
+<em>implies</em> $p$). $D$ is <em>open dense</em> if additionally $q\leq p$ and
+$p\in D$ implies $q\in D$. $D$ is <em>predense</em> if every
+$p\in\mathbb{P}$ is compatible with some $q\in D$.</p>
+
+<p>Given a collection $\mathcal{D}$ of dense subsets of $\mathbb{P}$, one
+says that a filter $G$ is <strong>$\mathcal{D}$-generic</strong> if it intersects
+all sets $D\in\mathcal{D}$, i.e. $D\cap G\neq\empty$.</p>
+
+<p>Given a transitive model $M$ of $\text{ZFC}$ such that
+$(\mathbb{P},&lt;)\in M$, we say that a filter
+$G\subseteq\mathbb{P}$ is <strong>$M$-generic</strong> (or $\mathbb{P}$-generic in
+$M$, or just generic) if it is $\mathcal{D}_M$-generic where
+$\mathcal{D}_M$ is the set of all dense subsets of $\mathbb{P}$ in
+$M$.</p>
+
+<p>In the above definitions, <em>dense</em> can be replaced with <em>open dense</em>,
+<em>predence</em> or <em>a maximal antichain</em>, and the resulting notion of
+genericity would be the same.</p>
+
+<p>In most cases, if $G$ is $\mathbb{P}$-generic over $M$ then $G\not\in
+M$. The Generic Model Theorem mentioned above says that there is a
+minimal model $M[G]\supseteq M$ with $M[G]\models\text{ZFC}$,
+$G\in M[G]$, and if $M\models$ “$x$ is an ordinal” then so does
+$M[G]$.</p>
+
+<h3 id="mathbbp-names-and-interpretation-by-g">
+<a class="anchor" href="#mathbbp-names-and-interpretation-by-g" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\mathbb{P}$-names and interpretation by $G$</h3>
+
+<p>Using transfinite recursion, define the following cumulative hierarchy:</p>
+
+<ul>
+  <li>$V^\mathbb{P}_0=\empty$, $V^\mathbb{P}_\lambda =
+\bigcup_{\alpha&lt;\lambda}V^\mathbb{P}_\alpha$ for limit
+$\lambda$</li>
+  <li>$V^\mathbb{P}_{\alpha+1} =
+\mathcal{P}(V^\mathbb{P}_\alpha\times\mathbb{P})$</li>
+  <li>$V^\mathbb{P} =
+\bigcup_{\alpha\in\mathrm{Ord}}V^\mathbb{P}_\alpha$</li>
+</ul>
+
+<p>Elements of $V^\mathbb{P}$ are called <em>$\mathbb{P}$-names</em>. Every
+nonempty $\mathbb{P}$-name is of a set of pairs $(n,p)$ where $n$ is
+another $\mathbb{P}$-name and $p\in\mathbb{P}$.</p>
+
+<p>Given a filter $G\subseteq\mathbb{P}$, define the <em>interpretation of
+$\mathbb{P}$-names</em> by $G$: Given a $\mathbb{P}$-name $x$, let
+$x^G=\{y^G : ((\exists p\in G)(y,p)\in x)\}$. Letting
+$\breve{x}=\{(\breve{y},1):y\in x\}$ for every set $x$ be the
+<em>canonical name</em> for $x$, one has $\breve{x}^G=x$ for all $x$.</p>
+
+<p>Let $M$ be a transitive model of $\text{ZFC}$ such that
+$(\mathbb{P},\leq)\subseteq M$. Let $M^\mathbb{P}$ be the
+$V^\mathbb{P}$ constructed in $M$. Given a $M$-generic filter
+$G\subseteq\mathbb{P}$, we can now define the generic extension
+$M[G]$ to be $\{x^G : x\in M^\mathbb{P}\}$. This $M[G]$
+satisfies the Generic Model Theorem.</p>
+
+<h3 id="the-forcing-relation">
+<a class="anchor" href="#the-forcing-relation" aria-hidden="true"><span class="octicon octicon-link"></span></a>The forcing relation</h3>
+
+<p>Define the <em>forcing language</em> to be the first-order language of set
+theory augmented by a constant symbol for every $\mathbb{P}$-name in
+$M^\mathbb{P}$. Given a condition $p\in\mathbb{P}$, a formula
+$\varphi(x_1,…,x_n)$ and $x_1,…,x_n \in M^\mathbb{P}$, we say
+that <strong>$p$ forces $\varphi(x_1,…,x_n)$</strong>, denoted $p\Vdash_
+{M,\mathbb{P}}\varphi(x_1,…,x_n)$ if for all $M$-generic filter
+$G$ with $p\in G$ one has $M[G]\models\varphi(x_1^G,…,x_n^G)$.
+There exists an “internal” definition of $\Vdash$, i.e. a definition
+formalizable in $M$ itself, by induction on the complexity of the
+formulas of the forcing language.</p>
+
+<p>The <strong>Forcing Theorem</strong> asserts that if $\sigma$ is a sentence of the
+forcing language, $M[G]$ satisfies $\sigma$ if and only if some
+condition $p\in G$ forces $\sigma$.</p>
+
+<p>The forcing relation has the following properties, for all
+$p,q\in\mathbb{P}$ and formulas $\varphi,\psi$ of the forcing
+language:</p>
+
+<ul>
+  <li>$p\Vdash\varphi\land q\leq p\implies q\Vdash\varphi$</li>
+  <li>$p\Vdash\varphi\implies\neg(p\Vdash\neg\varphi)$</li>
+  <li>$p\Vdash\neg\varphi\iff\neg\exists q\leq p(q\Vdash\varphi)$</li>
+  <li>$p\Vdash(\varphi\land\psi)\iff(p\Vdash\varphi\land
+p\Vdash\psi)$</li>
+  <li>$p\Vdash\forall x\varphi\iff\forall x\in
+M^\mathbb{P}(p\Vdash\varphi(x))$</li>
+  <li>$p\Vdash(\varphi\lor\psi)\iff\forall q\leq p\exists r\leq
+q(r\Vdash\varphi\lor r\Vdash\psi)$</li>
+  <li>$p\Vdash\exists x\varphi\iff\forall q\leq p\exists r\leq
+q\exists x\in M^\mathbb{R}(r\Vdash\varphi(x))$</li>
+  <li>$p\Vdash\exists x\varphi\implies\exists x\in
+M^\mathbb{P}(p\Vdash\varphi(x))$</li>
+  <li>$\forall p\exists q\leq p (q\Vdash\varphi\lor
+q\Vdash\neg\varphi)$</li>
+</ul>
+
+<h3 id="separativity">
+<a class="anchor" href="#separativity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Separativity</h3>
+
+<p>A forcing notion $(\mathbb{P},\leq)$ is <em>separative</em> if for all
+$p,q\in\mathbb{P}$, if $p\not\leq q$ then there exists a $r\leq p$
+incompatible with $q$. Many notions aren’t separative, for example if
+$\leq$ is a linear order than $(\mathbb{P},\leq)$ is separative iff
+$\mathbb{P}$ has only one element. However, every notion
+$(\mathbb{P},\leq)$ has a unique (up to isomorphism) <em>separative
+quotient</em> $(\mathbb{Q},\preceq)$, i.e. a notion
+$(\mathbb{Q},\preceq)$ and a function $i:\mathbb{P}\to\mathbb{Q}$
+such that $x\leq y\implies i(x)\preceq i(y)$ and $x, y$ are
+compatible iff $i(x),i(y)$ are compatible. This name comes from the fact
+that $\mathbb{Q}=(\mathbb{P}/\equiv)$ where $x\equiv y$ iff every
+$z\in P$ is compatible with $x$ iff it is compatible with $y$. The
+order $\preceq$ on the equivalence classes is “$[x]\preceq[y]$ iff
+all $z\leq x$ are compatible with $y$”. Also $i(x)=[x]$. It is
+sometimes convenient to identify a forcing notion with its separative
+quotient.</p>
+
+<h2 id="boolean-algebras">
+<a class="anchor" href="#boolean-algebras" aria-hidden="true"><span class="octicon octicon-link"></span></a>Boolean algebras</h2>
+
+<p><em>To be expanded.</em></p>
+
+<p>It is sometimes convenient to take the forcing notion $\mathbb{P}$ to
+be a Boolean algebra $\mathbb{B}$.</p>
+
+<h2 id="consistency-proofs">
+<a class="anchor" href="#consistency-proofs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Consistency proofs</h2>
+
+<p>Let $T_1$ and $T_2$ be some recursively enumerable enumerable
+extensions of $\text{ZFC}$ (possibly $\text{ZFC}$ itself). The
+existence of a countable transitive model $M$ of the theory $T_1$ is
+equivalent to the assertion that $T_1$ is consistent. When we construct
+a generic extension $M[G]$ satisfying $T_2$ from a countable
+transitive model $M$ of $T_1$, we prove the consistency of $T_2$
+(since we prove it has a set model) only from the consistency of $T_1$,
+i.e. we prove $\text{Con}(T_1)\implies\text{Con}(T_2)$.</p>
+
+<p>For instance, by following Cohen’s construction of a generic extension
+statisfying $\text{ZFC+}\neg\text{CH}$ from a model of $\text{ZFC}$,
+we prove that
+$\text{Con}(\text{ZFC})\implies\text{Con}(\text{ZFC+}\neg\text{CH})$.
+It follows that if $\text{ZFC}$ is consistent then it cannot prove
+$\text{CH}$, as otherwise $\text{ZFC+}\neg\text{CH}$ would be
+inconsistent, contradicting the above implication proved by forcing.</p>
+
+<p>Those implications between the consistencies of different theories are
+the <em>relative consistency results</em> set theorists are often interested
+in. A section way below provides many more examples of consistency
+results, where the theory $T_1$ above is often $\text{ZFC}$ augmented
+by large cardinal axioms.</p>
+
+<h2 id="chain-conditions-distributivity-closure-and-property-k">
+<a class="anchor" href="#chain-conditions-distributivity-closure-and-property-k" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chain conditions, distributivity, closure and property (K)</h2>
+
+<p>A forcing notion $(\mathbb{P},\leq)$ satisfies the <em>$\kappa$-chain
+condition</em> ($\kappa$-c.c.) if every antichain of elements of
+$\mathbb{P}$ has cardinality less than $\kappa$. The $\omega_1$-c.c.
+is called the <em>countable chain condition</em> (c.c.c.). An important feature
+of chain conditions is that if $(\mathbb{P},\leq)$ satisfies the
+$\kappa$-c.c. then if $\kappa$ is regular in $M$ then it will be
+regular in $M[G]$. Since the $\kappa$-c.c. implies the
+$\lambda$-c.c. for all $\lambda\geq\kappa$, it follows that the
+$\kappa$-c.c. implies all regular cardinals $\geq|\mathbb{P}|^+$
+will be preserved, and in particular the c.c.c. implies all cardinals
+and cofinalities of $M$ will be preserved in $M[G]$ for all
+$M$-generic $G\subseteq\mathbb{P}$.</p>
+
+<p>Let $\kappa$ be a regular uncountable cardinal. If
+$(\mathbb{P},\leq)$ is a $\kappa$-c.c. notion of forcing then every
+club $C\in M[G]$ of $\kappa$ has a subset $D$ that is a club subset
+of $\kappa$ in the ground model; therefore every stationary subset of
+$\kappa$ remains stationary in $M[G]$.</p>
+
+<p>$(\mathbb{P},\leq)$ is <em>$\kappa$-distributive</em> if the intersection of
+$\kappa$ open dense sets is still open dense. $\kappa$-distributive
+notions for infinite $\kappa$ does not add new subsets to $\kappa$. A
+stronger property, closure, is defined the following way: $\mathbb{P}$
+is <em>$\kappa$-closed</em> if every $\lambda\leq\kappa$, every descending
+sequence $p_0\geq p_1\geq…\geq p_\alpha\geq…
+(\alpha&lt;\lambda)$ has a lower bound. Every $\kappa$-closed notion
+is $\kappa$-distributive. If, for some regular uncountable cardinal
+$\kappa$ and all $\lambda&lt;\kappa$, $(\mathbb{P},\leq)$ is a
+$\lambda$-closed forcing notion, then every stationary subset of
+$\kappa$ remains stationary in every generic extension.</p>
+
+<p>$(\mathbb{P},\leq)$ has <em>property (K)</em> (K for Knaster) if every
+uncountable set of conditions has an uncountable subet of pairwise
+compatible elements. Every notion with property (K) satisfy the c.c.c.</p>
+
+<h2 id="cohen-forcing-adding-subsets-of-regular-cardinals-and-independence-of-the-continuum-hypothesis">
+<a class="anchor" href="#cohen-forcing-adding-subsets-of-regular-cardinals-and-independence-of-the-continuum-hypothesis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cohen forcing, adding subsets of regular cardinals, and independence of the continuum hypothesis</h2>
+
+<p>Let $\kappa$ be a regular cardinal satisfying
+$2^{&lt;\kappa}=\kappa$. Let $\lambda&gt;\kappa$ be a cardinal such
+that $\lambda^\kappa=\lambda$. Let $\text{Add}(\kappa,\lambda) =
+(\mathbb{P},\leq)$ be the following partial order: $\mathbb{P}$ is
+the set of all functions $p$ with
+$\text{dom}(p)\subseteq\lambda\times\kappa$,
+$|\text{dom}(p)|&lt;\kappa$ and $\text{ran}(p)\subseteq\{0,1\}$,
+and let $p\leq q$ iff $p\supseteq q$. Let $G$ be a $V$-generic on
+$\mathbb{P}$ and let $f=\bigcup G$. Then in $V[G]$, $f$ is a
+function from $\lambda\times\kappa$ to $\{0,1\}$. For every
+particular $\alpha&lt;\lambda$, the function
+$c_\alpha(\xi)=f(\alpha,\xi)$ is in $V[G]$ the characteristic
+function of a subset
+$x_\alpha=\{\xi&lt;\kappa:c_\alpha(\xi)=1\}$ of $\kappa$. None
+of those new subsets were originally in $V$, and if $\alpha\neq\beta$
+then $x_\alpha\neq x_\beta$. Then, because $\mathbb{P}$ satisfies
+the $\kappa^+$-chain condition, it follows that all cardinals are
+preserved except that $2^\kappa=\lambda$.</p>
+
+<p>In the special case $\kappa=\aleph_0$, there are new real numbers in
+$V[G]$ and $2^{\aleph_0}=\lambda$. Those new real numbers are
+called <em>Cohen reals</em>. This technique allows one to show that
+$\text{ZFC}$ is consistent with the negation of the continuum
+hypothesis, i.e. that $2^{\aleph_0}&gt;\aleph_1$. In fact,
+$2^{\aleph_0}$ can be any cardinal with uncountable cofinality, even
+if singular, e.g. one can force $2^{\aleph_0}=\aleph_{\omega_1}$.
+Note that $2^{\aleph_0}$ cannot be a cardinal of countable cofinality,
+so this is impossible to force.</p>
+
+<h2 id="other-examples-of-consistency-results-proved-using-forcing">
+<a class="anchor" href="#other-examples-of-consistency-results-proved-using-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other examples of consistency results proved using forcing</h2>
+
+<p>In the following examples, the generated generic extensions satisfy the
+axiom of choice unless indicated otherwise.</p>
+
+<ul>
+  <li>
+    <p><strong>Easton’s theorem:</strong> Let $M$ be a transitive set model of
+$\text{ZFC+GCH}$. Let $F$ be an increasing function in $M$ from the
+set of $M$’s regular cardinals to the set of $M$’s cardinals, such
+that for all regular $\kappa$, $\mathrm{cf}F(\kappa)&gt;\kappa$.
+Then there is a generic extension $M[G]$ of $M$ with the same
+cardinals and cofinalities such that
+$M[G]\models\text{ZFC+}\forall\kappa($if $\kappa$ is regular
+then $2^\kappa=F(\kappa)$).</p>
+  </li>
+  <li>
+    <p><strong>Violating the Singular Cardinal Hypothesis at
+$\aleph_\omega$:</strong> Assume there is a
+<a href="Measurable" title="Measurable">measurable</a>
+cardinal of
+<a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
+$o(\kappa)=\kappa^{++}$. Then there is a generic extension in
+which $\kappa=\aleph_\omega$ and
+$2^{\aleph_\omega}=\aleph_{\omega+2}$. The hypothesis used
+here is optimal: in term of consistency strength, no less than a
+measurable of order $\kappa^{++}$ can produce a model where
+$\text{SCH}$ fails.</p>
+  </li>
+  <li>
+    <p><strong>Violating the Singular Cardinal Hypothesis everywhere:</strong> It is
+consistent relative to the existence of a
+$(\delta+2)-$<a href="Strong" title="Strong">strong</a>
+cardinal $\delta$ that $2^\kappa=\kappa^+$ for every successor
+$\kappa$ but $2^\kappa=\kappa^{++}$ for every limit cardinal
+$\kappa$.</p>
+  </li>
+  <li>
+    <p><strong>Violating the Generalized Continuum Hypothesis everywhere:</strong> It is
+consistent relative to the existence of a $(\delta+2)-$strong
+cardinal $\delta$ that $2^\kappa=\kappa^{++}$ for every
+$\kappa$, i.e. $\text{GCH}$ fails everywhere.</p>
+  </li>
+  <li>
+    <p><strong>Large cardinal properties of $\aleph_1$:</strong> Let $\kappa$ be
+measurable/<a href="Supercompact" title="Supercompact">supercompact</a>/<a href="/web/20191005075259/http://cantorsattic.info/Huge" title="Huge">huge</a>.
+Then there is a (sub)model (of a generic extension) satisfying
+$\text{ZF(+}\neg\text{AC)}$ in which $\kappa=\aleph_1$ and
+$\omega_1$ is measurable/supercompact/huge (by the ultrafilter
+characterizations, not by the elementary embedding
+characterizations.)</p>
+  </li>
+  <li>
+    <p><strong>Singularity of every uncountable cardinal:</strong> It is consistent
+relative to the existence of a proper class of <a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>
+cardinals there is model of $\text{ZF}$ in which (the axiom of
+choice does not hold and) every uncountable cardinal is singular and
+has cofinality $\omega$. The existence of a such model also implies
+that the <a href="Axiom_of_determinacy" title="Axiom of determinacy">axiom of
+determinacy</a>
+holds in the $L(\mathbb{R})$ of some forcing extension of
+$\text{HOD}$.</p>
+  </li>
+  <li>
+    <p><strong><a href="Projective" title="Projective">Regularity
+properties</a>
+of all sets of reals:</strong> Assume there is an
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+cardinal $\kappa$. Then there is a (sub)model (of a generic
+extension) that satisfies $\text{ZF+DC+}\neg\text{AC}$ and in
+which $\kappa=2^{\aleph_0}$ and every set of reals is Lebesgue
+measurable, has the Baire property and the perfect subset property.
+There is also a generic extension in which choice holds and every
+<a href="Projective" title="Projective">projective</a>
+set of reals has those properties.</p>
+  </li>
+  <li>
+    <p><strong>Real-valued measurability of the continuum:</strong> Assume there is a
+measurable cardinal. Then there is a generic extension in which
+$\kappa=2^{\aleph_0}$ and $2^{\aleph_0}$ is real-valued
+measurable (and thus weakly inaccessible, weakly
+hyper-<a href="Mahlo" title="Mahlo">Mahlo</a>,
+etc.)</p>
+  </li>
+  <li>
+    <p><strong>Precipitousness of the <a href="Filter" title="Filter">nonstationary
+ideal</a>
+on $\omega_1$:</strong> Assume there is a measurable cardinal $\kappa$.
+Then there is a generic extension in which $\kappa=\aleph_1$ and
+the nonstationary ideal on $\omega_1$ is precipitous.</p>
+  </li>
+  <li>
+    <p><strong>Saturation of the nonstationary ideal on $\omega_1$:</strong> Assume
+there is a
+<a href="Woodin" title="Woodin">Woodin</a>
+cardinal $\kappa$. Then there is a generic extension in which
+$\kappa=\aleph_2$ the nonstationary ideal on $\omega_1$ is
+$\omega_2$-saturated.</p>
+  </li>
+  <li>
+    <p><strong>Saturation of an ideal on the continuum:</strong> Let $\kappa$ be a
+measurable cardinal. Then there is a generic extension in which
+$\kappa=2^{\aleph_0}$, there is a $2^{\aleph_0}$-saturated
+$2^{\aleph_0}$-complete ideal on $2^{\aleph_0}$ and there isn’t
+any $\lambda$-saturated $2^{\aleph_0}$-complete ideal on
+$2^{\aleph_0}$ for every infinite $\lambda&lt;2^{\aleph_0}$.</p>
+  </li>
+</ul>
+
+<p>Some other applications of forcing:</p>
+
+<ul>
+  <li>
+    <p>It is consistent relative to the existence of an inaccessible
+cardinal that there are no Kurepa trees.</p>
+  </li>
+  <li>
+    <p>Let $\kappa$ be a
+<a href="Superstrong" title="Superstrong">superstrong</a>
+cardinal. Let $V[G]$ be the generic extension of $V$ by the Lévy
+collapse $\mathrm{Coll}(\aleph_0,&lt;\kappa)$. Then there is a
+nontrivial <a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j:L(\mathbb{R})\to(L(\mathbb{R}))^{V[G]}$.</p>
+  </li>
+  <li>
+    <p>Let $\kappa$ be a superstrong cardinal. There exists a
+$\omega$-distributive $\kappa$-c.c. notion of forcing
+$(\mathbb{P},\leq)$ such that in $V^\mathbb{P}$,
+$\kappa=\aleph_2$ and there exists a normal
+$\omega_2$-saturated $\sigma$-complete ideal on $\omega_1$.</p>
+  </li>
+  <li>
+    <p>Let $\kappa$ be a <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>
+cardinal. Then there is a generic extension in which
+$\kappa=\aleph_2$ and $\omega_2$ has the tree property. In
+fact, if there is infinitely many weakly compact cardinals then in a
+generic extension $\omega_{2n}$ has the tree property for every
+$n$.
+<a href="http://logika.ff.cuni.cz/radek/papers/Friedman_Honzik_treeprop_revised.pdf" class="external autonumber">[1]</a></p>
+  </li>
+  <li>
+    <p>It is consistent relative to the existence of infinitely many
+supercompact cardinals that there exists infinitely many cardinals
+$\delta$ above $2^{\aleph_0}$ such that both $\delta$ and
+$\delta^+$ have the tree property. Also, the
+<a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
+holds in any such model.</p>
+  </li>
+  <li>
+    <p>Let $\kappa$ be a measurable cardinal. Then there is a generic
+extension in which $\kappa$ remains weakly compact, there is a
+$\kappa^+$-saturated $\kappa$-complete ideal on $\kappa$ but
+there isn’t any $\kappa$-saturated $\kappa$-complete ideal on
+$\kappa$. One can replace “$\kappa$ is weakly compact” by
+“$\kappa$ is weakly inaccessible and $\kappa=2^{\aleph_0}$”.</p>
+  </li>
+  <li>
+    <p>It is consistent relative to a supercompact cardinal that there is
+an inaccessible cardinal $\kappa$, a cardinal $\lambda&gt;\kappa$
+and a stationary set $S\subseteq\mathcal{P}_\kappa(\lambda)$
+that cannot be partitioned into $\kappa^+$ disjoint stationary
+subsets.</p>
+  </li>
+</ul>
+
+<h2 id="product-forcing">
+<a class="anchor" href="#product-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Product forcing</h2>
+
+<h2 id="iterated-forcing">
+<a class="anchor" href="#iterated-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Iterated forcing</h2>
+
+<h2 id="forcing-axioms">
+<a class="anchor" href="#forcing-axioms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Forcing axioms</h2>
+
+<p><strong>Martin’s axiom</strong> ($\text{MA}$) is the following assertion: If
+$(\mathbb{P},\leq)$ is a forcing notion that satisfies the countable
+chain condition and if $\mathcal{D}$ is a collection of fewer than
+$2^{\aleph_0}$ dense subsets of $\mathbb{P}$, then there exists a
+$\mathcal{D}$-generic filter on $\mathbb{P}$. By replacing “fewer than
+$2^{\aleph_0}$” by “at most $\kappa$” on obtain the axiom
+$\text{MA}_\kappa$. Martin’s axiom is then
+$\text{MA}_{&lt;2^{\aleph_0}}$. Note that $\text{MA}_{\aleph_0}$
+is provably true in $\text{ZFC}$.</p>
+
+<p>For all $\kappa$, $\text{MA}_\kappa$ implies
+$\kappa&lt;2^{\aleph_0}$. Martin’s axiom follows from the continuum
+hypothesis, but is also consistent with the continuum hypothesis.
+$\text{MA}_{\aleph_1}$ implies there are no
+<a href="index.php?title=Suslin_tree&amp;action=edit&amp;redlink=1" class="new" title="Suslin tree (page does not exist)">Suslin trees</a>,
+that every <a href="Tree_property" title="Tree property">Aronszajn
+tree</a>
+is special, and that the c.c.c. is equivalent to property (K).</p>
+
+<p>Martin’s axiom implies that $2^{\aleph_0}$ is regular, that it is not
+real-valued measurable, and also that $2^\lambda=2^{\aleph_0}$ for
+all $\lambda&lt;2^{\aleph_0}$. It implies that the intersection of
+fewer than $2^{\aleph_0}$ dense open sets is dense, the union of fewer
+than $2^{\aleph_0}$ null sets is null, and the union of fewer than
+$2^{\aleph_0}$ meager sets is meager. Also, the Lebesgue measure is
+$2^{\aleph_0}$-additive. If additionally $\neg\text{CH}$ then every
+$\mathbf{\Sigma}^1_2$ set is Lebesgue measurable and has the Baire
+property.</p>
+
+<p>A forcing notion $(\mathbb{P},\leq)$ satisfies <em>Axiom A</em> if there is a
+sequence of partial orderings $\{\leq_n:n&lt;\omega\}$ of
+$\mathbb{P}$ such that $p\leq_0 q$ implies $p\leq q$, for all n
+$p\leq_{n+1} q$ implies $p\leq_n q$, and the following conditions
+holds:</p>
+
+<ul>
+  <li>for every descending sequence $p_0\geq_0
+p_1\geq_1…\geq_{n-1}p_n\geq_n…$ there is a $q$ such that
+$q\leq_n p_n$ for all $n$.</li>
+  <li>for every $p\in\mathbb{P}$, for every $n$ and every ordinal name
+$\alpha$ there exists $q\leq_n p$ and a countable set $B$ such
+that $p\Vdash\alpha\in B$.</li>
+</ul>
+
+<p>Every c.c.c. or $\omega$-closed notion satisfies Axiom A.</p>
+
+<h3 id="proper-forcing">
+<a class="anchor" href="#proper-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Proper forcing</h3>
+
+<p>We say that a forcing notion $(\mathbb{P},\leq)$ is <em>proper</em> if for
+every uncountable cardinal $\lambda$, every
+<a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
+subset of $[\lambda]^\omega$ remains stationary in every generic
+extension. Every c.c.c. or $\omega$-closed notion is proper, and so is
+every notion satisfying Axiom A. Proper forcing does not collapse
+$\omega_1$: if $\mathbb{P}$ is proper then every countable set of
+ordinals in $M[G]$ is a subset of a countable set in $M$.</p>
+
+<p>The <strong>Proper Forcing Axiom</strong> ($\text{PFA}$) is obtained by replacing
+“c.c.c.” by “proper” in the definition of $\text{MA}_{\aleph_1}$:
+for every proper forcing notion $(\mathbb{P},\leq)$, if $\mathcal{D}$
+is a collection of $\aleph_1$ dense subsets of $\mathbb{P}$, then
+there is a $\mathcal{D}$-generic filter on $\mathbb{P}$. $\text{PFA}$
+implies $2^{\aleph_0}=\aleph_2$ and that the continuum (i.e.
+$\aleph_2$) has the <a href="Tree_property" title="Tree property">tree
+property</a>.
+It also implies that every two $\aleph_1$-dense sets of reals are
+isomorphic.</p>
+
+<p>Unlike Martin’s axiom, which is equiconsistent with $\text{ZFC}$, the
+$\text{PFA}$ has very high consistency strength, slightly below that of
+a
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinal. If there is a supercompact cardinal then there is a generic
+extension in which that supercompact is $\aleph_2$ and $\text{PFA}$
+holds. On the other hand,
+<a href="http://www.math.uni-bonn.de/people/pholy/acc_accepted.pdf" class="external autonumber">[2]</a>
+proves a <em>quasi lower bound</em> on the consistency strength of the
+$\text{PFA}$, which is at least the existence of a proper class of
+<a href="Subcompact" class="mw-redirect" title="Subcompact">subcompact</a>
+cardinals.
+<a href="https://ac.els-cdn.com/S0001870811002635/1-s2.0-S0001870811002635-main.pdf?_tid=86c2030e-cca4-11e7-b23b-00000aab0f26&amp;acdnat=1511039455_137e37101cda34d46bb0f195cbe43148" class="external autonumber">[3]</a>
+also shows that all known methods of forcing $\text{PFA}$ requires a
+<a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>
+cardinal, and if one wants the forcing to be proper, a supercompact is
+required.</p>
+
+<p>$\text{PFA}$ implies the failure of the
+<a href="index.php?title=Square_principle&amp;action=edit&amp;redlink=1" class="new" title="Square principle (page does not exist)">square principle</a>
+$\Box_\kappa$ for every uncountable cardinal $\kappa$, therefore it
+implies the <a href="Axiom_of_determinacy" title="Axiom of determinacy">axiom of quasi-projective
+determinacy</a>.
+It also implies the <strong>Open Coloring Axiom:</strong> let $X$ be a set of reals,
+and let $K\subseteq[X]^2$. We say that $K$ is <em>open</em> if the set
+$\{(x,y):\{x,y\}\in K\}$ is an open set in the space $X\times X$.
+Then</p>
+
+<ul>
+  <li>
+<strong>($\text{OCA}$).</strong> For every $X\subseteq\mathbb{R}$, and for any
+partition $[X]^2=K_0\cup K_1$ with $K_0$ open, either there
+exists an uncountable $Y\subseteq X$ such that $[Y]^2\subseteq
+K_0$ or there exists sets $H_n, n&lt;\omega$ such that
+$X=\bigcup_{n&lt;\omega}H_n$ and $[H_n]^2\subseteq K_1$ for
+all $n$.</li>
+</ul>
+
+<p>This axiom has many useful implications in combinatorial set theory.</p>
+
+<p>Statement equivalent to $\text{PFA}$: If $\mathcal{M} = (M ; ∈, (R_i
+| i &lt; ω_1 ))$ is a transitive model, $φ(x)$ is a $Σ_1$-formula and
+$\mathbb{Q}$ is a proper forcing such that $\Vdash_\mathbb{Q}
+φ(\mathcal{M})$, then there is in $V$ a transitive $\bar{\mathcal{M}}
+= (\bar{M} ; ∈, (\bar{R}_i | i &lt; ω_1 ))$ together with an
+elementary embedding $j : \bar{\mathcal{M}} → \mathcal{M}$ such that
+$φ(\bar{\mathcal{M}})$
+holds.<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a></p>
+
+<h3 id="martins-maximum-and-the-semiproper-forcing-axiom">
+<a class="anchor" href="#martins-maximum-and-the-semiproper-forcing-axiom" aria-hidden="true"><span class="octicon octicon-link"></span></a>Martin’s maximum and the semiproper forcing axiom</h3>
+
+<p><strong>Martin’s Maximum</strong> is a strengthening of the proper forcing axiom
+defined the following way: suppose $(\mathbb{P},\leq)$ is a forcing
+notion that preserves stationary subsets of $\omega_1$, and that
+$\mathcal{D}$ is a collection of $\aleph_1$ dense subsets of
+$\mathbb{P}$, then there is a $\mathcal{D}$-generic filter on
+$\mathbb{P}$. This implies the proper forcing axiom, and also that the
+nonstationary ideal on $\omega_1$ is $\aleph_2$-saturated. It also
+implies that for all $\kappa\geq\aleph_2$, if $\kappa$ is regular
+then $\kappa^{\aleph_0}=\kappa$.</p>
+
+<h3 id="textwpfa-and-textpfa_κ">
+<a class="anchor" href="#textwpfa-and-textpfa_%CE%BA" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\text{wPFA}$ and $\text{PFA}_κ$</h3>
+
+<p>(information in this subsection from
+<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>)</p>
+
+<p>The <strong>weak Proper Forcing Axiom</strong> is obtained by requiring only that
+embedding $j$ (like in the last statement equivalent to $\text{PFA}$)
+exists in a forcing extension: If $\mathcal{M} = (M ; ∈, (R_i | i
+&lt; ω_1 ))$ is a transitive model, $φ(x)$ is a $Σ_1$-formula and
+$\mathbb{Q}$ is a proper forcing such that $\Vdash_\mathbb{Q}
+φ(\mathcal{M})$, then there is a transitive $\bar{\mathcal{M}} =
+(\bar{M} ; ∈, (\bar{R}_i | i &lt; ω_1 ))$ in $V$ and an elementary
+embedding $j : \bar{\mathcal{M}} → \mathcal{M}$ in a set-forcing
+extension (equivalently in $V^{Coll(ω, \bar{M})}$) such that
+$φ(\bar{\mathcal{M}})$ holds.</p>
+
+<p>If there is a
+<a href="Remarkable" title="Remarkable">remarkable</a>
+cardinal, then $\text{wPFA}$ holds in a forcing extension by a proper
+poset. If $\text{wPFA}$ holds, then $ω_2^V$ is remarkable in $L$.</p>
+
+<p>For a cardinal $κ$, $\text{PFA}_κ$ is the statement that</p>
+
+<p>if $\mathbb{B}$ is any proper complete Boolean algebra and if $\langle
+A_ξ | ξ &lt; ω_1 \rangle$ is any family of maximal antichains in
+$\mathbb{B}$ with $|A_ξ| ≤ κ$ for each $ξ &lt; ω_1$, then there is
+some filter $G ⊆ \mathbb{B}$ such that $\forall_{ξ &lt; ω_1} G ∩
+A_ξ ≠ ∅$.</p>
+
+<p>Equivalently, in analogy to the other statements (adding the assumption
+$|M| ≤ κ$):</p>
+
+<dl>
+  <dt>If $\mathcal{M} = (M ; ∈, (R_i | i &lt; ω_1 ))$ is a transitive</dt>
+  <dt>model, $|M| ≤ κ$, $φ(x)$ is a $Σ_1$-formula and $\mathbb{Q}$ is a</dt>
+  <dt>proper forcing such that $\Vdash_\mathbb{Q} φ(\mathcal{M})$, then</dt>
+  <dt>there is in $V$ a transitive $\bar{\mathcal{M}} = (\bar{M} ; ∈,</dt>
+  <dt>(\bar{R}_i | i &lt; ω_1 ))$ together with an elementary embedding $j</dt>
+  <dd>\bar{\mathcal{M}} → \mathcal{M}$ such that $φ(\bar{\mathcal{M}})$
+holds.</dd>
+</dl>
+
+<p>$\text{PFA}_{\aleph_1}$ is $\text{BPFA}$, the Bounded Proper
+Forcing Axiom.</p>
+
+<p>$\text{wPFA}$ implies $\text{PFA}_{\aleph_2}$. However, it does not
+imply $\text{PFA}_{\aleph_3}$, because assertion $\text{wPFA} ∧
+∀_{κ ≥ \aleph_2} \square_κ$ is consistent relative to a remarkable
+cardinal and (Todorcevic, 1984, Theorem 1) $\text{PFA}_{\aleph_3}$
+implies the failure of $\square_{ω_2}$.</p>
+
+<h2 id="generic-absoluteness-and-universal-baireness">
+<a class="anchor" href="#generic-absoluteness-and-universal-baireness" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generic absoluteness and universal Baireness</h2>
+
+<p><em>Main article:
+<a href="Universally_Baire" class="mw-redirect" title="Universally Baire">Universally Baire</a></em></p>
+
+<h2 id="generic-ultrapowers">
+<a class="anchor" href="#generic-ultrapowers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generic ultrapowers</h2>
+
+<p><em>Main article: <a href="Filter#Precipitous_ideals" title="Filter">Precipitous
+ideals</a></em></p>
+
+<h2 id="other-types-of-forcing">
+<a class="anchor" href="#other-types-of-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other types of forcing</h2>
+
+<h3 id="the-lévy-collapse">
+<a class="anchor" href="#the-l%C3%A9vy-collapse" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Lévy collapse</h3>
+
+<h3 id="prikry-forcing">
+<a class="anchor" href="#prikry-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prikry forcing</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    This article is a stub. Please help us to improve Cantor's Attic by adding information.
+</code></pre></div></div>
+
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Bagaria2017a">Bagaria, J., Gitman, V., &amp; Schindler, R. (2017). Generic Vopěnkaś Principle, remarkable cardinals, and the weak Proper Forcing Axiom. <i>Arch. Math. Logic</i>, <i>56</i>(1-2), 1–20. https://doi.org/10.1007/s00153-016-0511-x</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

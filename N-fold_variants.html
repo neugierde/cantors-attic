@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>$n$-fold Variants of Large Cardinals | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="$n$-fold Variants of Large Cardinals" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/N-fold_variants","@type":"WebPage","headline":"$n$-fold Variants of Large Cardinals","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>$n$-fold Variants of Large Cardinals</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#n-fold-variants">$n$-fold Variants</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#n-fold-variants-which-are-simply-the-original-large-cardinal">$n$-fold Variants Which Are Simply the Original Large Cardinal</a></li>
+<li class="toc-entry toc-h3"><a href="#n-fold-supercompact-cardinals">$n$-fold supercompact cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#n-fold-strong-cardinals">$n$-fold strong cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#n-fold-extendible-cardinals">$n$-fold extendible cardinals</a></li>
+<li class="toc-entry toc-h3"><a href="#n-fold-woodin-cardinals">$n$-fold Woodin cardinals</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#omega-fold-variants">$\omega$-fold variants</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#omega-fold-extendible">$\omega$-fold extendible</a></li>
+<li class="toc-entry toc-h3"><a href="#omega-fold-vopěnka">$\omega$-fold Vopěnka</a></li>
+<li class="toc-entry toc-h3"><a href="#omega-fold-woodin">$\omega$-fold Woodin</a></li>
+<li class="toc-entry toc-h3"><a href="#omega-fold-strong">$\omega$-fold strong</a></li>
+</ul>
+</li>
+</ul><p><em>This page is a WIP.</em> The $n$-fold variants of large cardinal axioms
+were created by Sato Kentaro in <a class="citation" href="#Kentaro2007">(Kentaro, 2007)</a>
+in order to study and investigate the double helix phenomena. The double
+helix phenomena is the strange pattern in consistency strength between
+such cardinals, which can be seen below.</p>
+
+<p><img src="assets/img/DoubleHelix.png" alt="File:DoubleHelix.png"></p>
+
+<p>This diagram was created by Kentaro. The arrows denote consistency
+strength, and the double lines denote equivalency. The large cardinals
+in this diagram will be detailed on this page (unless found elsewhere on
+this website).</p>
+
+<p>This page will only use facts from
+<a class="citation" href="#Kentaro2007">(Kentaro, 2007)</a> unless otherwise stated.</p>
+
+<h2 id="n-fold-variants">
+<a class="anchor" href="#n-fold-variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>$n$-fold Variants</h2>
+
+<p>The $n$-fold variants of large cardinals were given in a very large
+paper by Sato Kentaro. Most of the definitions involve giving large
+closure properties to the $M$ used in the original large cardinal in an
+<a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j:V\rightarrow M$. They are very large, but
+<a href="Rank_into_rank" title="Rank into rank">rank-into-rank</a>
+cardinals are stronger than most $n$-fold variants of large cardinals.</p>
+
+<p>Generally, the $n$-fold variant of a large cardinal axiom is the similar
+to the generalization of
+<a href="Superstrong" title="Superstrong">superstrong</a>
+cardinals to
+<a href="Superstrong" title="Superstrong">$n$-superstrong</a>
+cardinals,
+<a href="Huge" title="Huge">huge</a>
+cardinals to
+<a href="Huge" title="Huge">$n$-huge</a>
+cardinals, etc. More specifically, if the definition of the original
+axiom is that $j:V\prec M$ has critical point $\kappa$ and $M$ has
+some closure property which uses $\kappa$, then the definition of the
+$n$-fold variant of the axiom is that $M$ has that closure property on
+$j^n{\kappa}$.</p>
+
+<h3 id="n-fold-variants-which-are-simply-the-original-large-cardinal">
+<a class="anchor" href="#n-fold-variants-which-are-simply-the-original-large-cardinal" aria-hidden="true"><span class="octicon octicon-link"></span></a>$n$-fold Variants Which Are Simply the Original Large Cardinal</h3>
+
+<p>There were many $n$-fold variants which were simply different names of
+the original large cardinal. This was due to the fact that some n-fold
+variants, if only named n-variants instead, would be confusing to the
+reader (for example the $n$-fold extendibles rather than the
+<a href="Extendible" title="Extendible">$n$-extendibles</a>).
+Here are a list of such cardinals:</p>
+
+<ul>
+  <li>The <strong>$n$-fold superstrong</strong> cardinals are precisely the
+<a href="Superstrong" title="Superstrong">$n$-superstrong</a>
+cardinals</li>
+  <li>The <strong>$n$-fold almost huge</strong> cardinals are precisely the <a href="Huge" title="Huge">almost
+$n$-huge</a>
+cardinals</li>
+  <li>The <strong>$n$-fold huge</strong> cardinals are precisely the
+<a href="Huge" title="Huge">$n$-huge</a>
+cardinals</li>
+  <li>The <strong>$n$-fold superhuge</strong> cardinals are precisely the
+<a href="Huge" title="Huge">$n$-superhuge</a>
+cardinals</li>
+  <li>The <strong>$\omega$-fold superstrong</strong> and <strong>$\omega$-fold Shelah</strong>
+cardinals are precisely the
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I2</a>
+cardinals</li>
+</ul>
+
+<h3 id="n-fold-supercompact-cardinals">
+<a class="anchor" href="#n-fold-supercompact-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>$n$-fold supercompact cardinals</h3>
+
+<p>A cardinal $\kappa$ is <strong>$n$-fold $\lambda$-supercompact</strong> iff it is
+the critical point of some nontrivial elementary embedding
+$j:V\rightarrow M$ such that $\lambda&lt;j(\kappa)$ and
+$M^{j^{n-1}(\lambda)}\subset M$ (i.e. $M$ is closed under all of its
+sequences of length $j^{n-1}(\lambda)$). This definition is very
+similar to that of the
+<a href="Huge" title="Huge">$n$-huge</a>
+cardinals.</p>
+
+<p>A cardinal $\kappa$ is <strong>$n$-fold supercompact</strong> iff it is $n$-fold
+$\lambda$-supercompact for every $\lambda$. Consistency-wise, the
+$n$-fold supercompact cardinals are stronger than the
+<a href="Superstrong" title="Superstrong">$n$-superstrong</a>
+cardinals and weaker than the $(n+1)$-fold strong cardinals. In fact, if
+an $n$-fold supercompact cardinal exists, then it is consistent for
+there to be a proper class of $n$-superstrong cardinals.</p>
+
+<p>It is clear that the $n+1$-fold $0$-supercompact cardinals are precisely
+the <a href="Huge" title="Huge">$n$-huge</a>
+cardinals. The $1$-fold supercompact cardinals are precisely the
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinals. The $0$-fold supercompact cardinals are precisely the
+<a href="Measurable" title="Measurable">measurable</a>
+cardinals.</p>
+
+<h3 id="n-fold-strong-cardinals">
+<a class="anchor" href="#n-fold-strong-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>$n$-fold strong cardinals</h3>
+
+<p>A cardinal $\kappa$ is <strong>$n$-fold $\lambda$-strong</strong> iff it is the
+critical point of some nontrivial elementary embedding $j:V\rightarrow
+M$ such that $\kappa+\lambda&lt;j(\kappa)$ and
+$V_{j^{n-1}(\kappa+\lambda)}\subset M$.</p>
+
+<p>A cardinal $\kappa$ is <strong>$n$-fold strong</strong> iff it is $n$-fold
+$\lambda$-strong for every $\lambda$. Consistency-wise, the
+$(n+1)$-fold strong cardinals are stronger than the $n$-fold
+supercompact cardinals, equivalent to the $n$-fold extendible cardinals,
+and weaker than the $(n+1)$-fold Woodin cardinals. More specifically, in
+the rank of an (n+1)-fold Woodin cardinal there is an $(n+1)$-fold
+strong cardinal.</p>
+
+<p>It is clear that the $(n+1)$-fold $0$-strong cardinals are precisely the
+<a href="Superstrong" title="Superstrong">$n$-superstrong</a>
+cardinals. The $1$-fold strong cardinals are precisely the
+<a href="Strong" title="Strong">strong</a>
+cardinals. The $0$-fold strong cardinals are precisely the
+<a href="Measurable" title="Measurable">measurable</a>
+cardinals.</p>
+
+<h3 id="n-fold-extendible-cardinals">
+<a class="anchor" href="#n-fold-extendible-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>$n$-fold extendible cardinals</h3>
+
+<p>For ordinal $η$, class $F$, positive natural $n$ and
+$κ+η&lt;κ_1&lt;···&lt;κ_n$:</p>
+
+<ul>
+  <li>Cardinal $κ$ is <strong>$n$-fold $η$-extendible for $F$</strong> with targets
+$κ_1,…,κ_n$ iff there are $κ+η=ζ_0&lt;ζ_1&lt;···&lt;ζ_n$ and
+an iteration sequence $\vec e$ through
+$〈(V_{ζ_i},F∩V_{ζ_i})|i≤n〉$ with $\mathrm{crit}(\vec e)=κ$,
+and $e_{0,i}(κ)=κ_i$.</li>
+  <li>Cardinal $κ$ is <strong>$n$-fold extendible for $F$</strong> iff, for every $η$,
+$κ$ is $n$-fold $η$-extendible for $F$.</li>
+  <li>Cardinal $κ$ is <strong>$n$-fold extendible</strong> iff it is $n$-fold
+extendible for $\varnothing$.</li>
+</ul>
+
+<p>$n$-fold extendible cardinals are precisely $n+1$ strong cardinals.</p>
+
+<p>$n$-fold $1$-extendibility is implied by $(n+1)$-fold $1$-strongness and
+implies $n$-fold superstrongness.</p>
+
+<h3 id="n-fold-woodin-cardinals">
+<a class="anchor" href="#n-fold-woodin-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>$n$-fold Woodin cardinals</h3>
+
+<p>A cardinal $\kappa$ is <strong>$n$-fold Woodin</strong> iff for every function
+$f:\kappa\rightarrow\kappa$ there is some ordinal
+$\alpha&lt;\kappa$ such that
+$\{f(\beta):\beta&lt;\alpha\}\subseteq\alpha$ and
+$V_{j^{n}(f)(j^{n-1}(\alpha))}\subset M$. Consistency-wise, the
+$(n+1)$-fold Woodin cardinals are stronger than the $(n+1)$-fold strong
+cardinals, and weaker than the $(n+1)$-fold Shelah cardinals.
+Specifically, in the rank of an $(n+1)$-fold Shelah cardinal there is an
+$(n+1)$-fold Woodin cardinal, and every $(n+1)$-fold Shelah cardinal is
+also an $(n+1)$-fold Woodin cardinal.</p>
+
+<p>The $2$-fold Woodin cardinals are precisely the
+<a href="Vopenka" title="Vopenka">Vopěnka</a>
+cardinals (therefore precisely the <a href="Woodin#Shelah" title="Woodin">Woodin for
+supercompactness</a>
+cardinals). In fact, the $n+1$-fold Woodin cardinals are precisely the
+$n$-fold Vopěnka cardinals. The $1$-fold Woodin cardinals are precisely
+the
+<a href="Woodin" title="Woodin">Woodin</a>
+cardinals.</p>
+
+<p><em>(More to be added)</em></p>
+
+<h2 id="omega-fold-variants">
+<a class="anchor" href="#omega-fold-variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\omega$-fold variants</h2>
+
+<p>The $\omega$-fold variant is a very strong version of the $n$-fold
+variant, to the point where they even beat some of the
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
+axioms in consistency strength. Interestingly, they follow a somewhat
+backwards pattern of consistency strength relative to the original
+double helix. For example, $n$-fold strong is much weaker than $n$-fold
+Vopěnka (the jump is similar to the jump between a
+<a href="Strong" title="Strong">strong</a>
+cardinal and a
+<a href="Vopenka" title="Vopenka">Vopěnka</a>
+cardinal), but $\omega$-fold strong is much, much stronger than
+$\omega$-fold Vopěnka.</p>
+
+<h3 id="omega-fold-extendible">
+<a class="anchor" href="#omega-fold-extendible" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\omega$-fold extendible</h3>
+
+<p>For ordinal $η$ and class $F$:</p>
+
+<ul>
+  <li>Cardinal $κ$ is <strong>$ω$-fold $η$-extendible for $F$</strong> iff there are
+$κ+η=ζ_0&lt;ζ_1&lt;ζ_2&lt;…$ and an iteration sequence $\vec
+e$ through $〈(V_{ζ_i},F∩V_{ζ_i})|i∈ω〉$ with
+$\mathrm{crit}(\vec e)=κ$, and $e^{(1)}(κ)&gt;κ+η$.</li>
+  <li>Cardinal $κ$ is <strong>$ω$-fold extendible for $F$</strong> iff, for every $η$,
+$κ$ is $ω$-fold $η$-extendible for $F$.</li>
+  <li>Cardinal $κ$ is <strong>$ω$-fold extendible</strong> iff it is $ω$-fold
+extendible for $\varnothing$.</li>
+</ul>
+
+<p>Results:</p>
+
+<ul>
+  <li>An $ω$-fold extendible cardinal $κ$ is the $κ$-th element of the
+class of the critical points of all witnesses of I3.</li>
+  <li>If $κ$ is a regular cardinal and $F⊂V_κ$, we
+have$\{α&lt;κ|(V_κ,F)\models \text{“$α$ is $ω$-fold extendible
+for $F$”}\}∈F^{(ω)}_{Vop,κ}$.</li>
+  <li>If there is an $ω$-fold Vopěnka cardinal, then the existence of a
+proper class of $ω$-fold extendible cardinals is consistent.</li>
+</ul>
+
+<h3 id="omega-fold-vopěnka">
+<a class="anchor" href="#omega-fold-vop%C4%9Bnka" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\omega$-fold Vopěnka</h3>
+
+<p>Definition:</p>
+
+<ul>
+  <li>A <strong>set $X$</strong> is <strong>$ω$-fold Vopěnka</strong> for a cardinal $κ$ iff, for
+every $κ$-natural sequence $〈\mathcal{M}_α|α&lt;κ〉$, there are
+an increasing sequence $〈α_n|n∈ω〉$ with $α_n&lt;κ$ and an
+iteration sequence $\vec e$ through $〈\mathcal{M}_{α_n}|n∈ω〉$
+such that $\mathrm{crit}(\vec e)∈X$ .</li>
+  <li>A <strong>cardinal</strong> $κ$ is <strong>$ω$-fold Vopěnka</strong> iff $κ$ is regular and
+$κ$ is $ω$-fold Vopěnka for $κ$.</li>
+  <li>$F^{(ω)}_{Vop,κ}=\{X∈\mathcal{P}(κ)|\text{κ \\ X is not
+$ω$-fold Vopěnka for $κ$}\}$.</li>
+</ul>
+
+<p>Results:</p>
+
+<ul>
+  <li>An $ω$-fold superstrong cardinal is the $κ$-th $ω$-fold Vopěnka
+cardinal.</li>
+  <li>The critical point $κ$ of a witness of $IE^ω$ is the $κ$-th $ω$-fold
+Vopěnka cardinal.</li>
+</ul>
+
+<h3 id="omega-fold-woodin">
+<a class="anchor" href="#omega-fold-woodin" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\omega$-fold Woodin</h3>
+
+<p>A cardinal $\kappa$ is <strong>$\omega$-fold Woodin</strong> iff for every function
+$f:\kappa\rightarrow\kappa$ there is some ordinal
+$\alpha&lt;\kappa$ such that
+$\{f(\beta):\beta&lt;\alpha\}\subseteq\alpha$ and
+$V_{j^{\omega}(f)(\alpha))}\subset M$.</p>
+
+<p>Consistency-wise, the existence of an $\omega$-fold Woodin cardinal is
+stronger than the
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I2</a>
+axiom, but weaker than the existence of an $\omega$-fold strong
+cardinal. In particular, if there is an $\omega$-fold strong cardinal
+$\kappa$ then $\kappa$ is $\omega$-fold Woodin and has $\kappa$-many
+$\omega$-fold Woodin cardinals below it, and $V_\kappa$ satisfies the
+existence of a proper class of $\omega$-fold Woodin cardinals.</p>
+
+<h3 id="omega-fold-strong">
+<a class="anchor" href="#omega-fold-strong" aria-hidden="true"><span class="octicon octicon-link"></span></a>$\omega$-fold strong</h3>
+
+<p>A cardinal $\kappa$ is <strong>$\omega$-fold $\lambda$-strong</strong> iff it is
+the critical point of some nontrivial elementary embedding
+$j:V\rightarrow M$ such that $\kappa+\lambda&lt;j(\kappa)$ and
+$V_{j^\omega(\kappa+\lambda)}\subset M$.</p>
+
+<p>$\kappa$ is <strong>$\omega$-fold strong</strong> iff it is $\omega$-fold
+$\lambda$-strong for every $\lambda$.</p>
+
+<p>Consistency-wise, the existence of an $\omega$-fold strong cardinal is
+stronger than the existence of an $\omega$-fold Woodin cardinal and
+weaker than the assertion that there is a $\Sigma_4^1$-elementary
+embedding $j:V_\lambda\prec V_\lambda$ with an uncountable critical
+point $\kappa&lt;\lambda$ (this is a weakening of the
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I1</a>
+axiom known as $E_2$). In particular, if there is a cardinal $\kappa$
+which is the critical point of some elementary embedding witnessing the
+$E_2$ axiom, then there is a nonprincipal $\kappa$-complete
+<a href="Filter" title="Filter">ultrafilter</a>
+over $\kappa$ which contains the set of all cardinals which are
+$\omega$-fold strong in $V_\kappa$ and therefore $V_\kappa$
+satisfies the existence of a proper class of $\omega$-fold strong
+cardinals.</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Kentaro2007">Kentaro, S. (2007). Double helix in large large cardinals and iteration of elementary embeddings. <i>Annals of Pure and Applied Logic</i>, <i>146</i>(2-3), 199–236. https://doi.org/10.1016/j.apal.2007.02.003</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

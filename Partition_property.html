@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Partition property | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Partition property" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Partition_property","@type":"WebPage","headline":"Partition property","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Partition property</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definitions">Definitions</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#square-bracket-notation">Square Bracket Notation</a></li>
+<li class="toc-entry toc-h3"><a href="#homogeneous-sets">Homogeneous Sets</a></li>
+<li class="toc-entry toc-h3"><a href="#the-various-partition-properties">The Various Partition Properties</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#theorems-and-large-cardinal-axioms">Theorems and Large Cardinal Axioms</a></li>
+</ul><p>A partition property is an infinitary combinatorical principle in set
+theory. Partition properties are best associated with various <a href="Upper_attic" title="Upper attic">large
+cardinal
+axioms</a>
+(all of which are below
+<a href="Measurable" title="Measurable">measurable</a>),
+but can also be associated with infinite graphs.</p>
+
+<p>The <strong>pigeonhole principle</strong> famously states that if there are $n$
+pigeons in $n-m$ holes, then at least one hole contains at least $m$
+pigeons. Partition properties are best motivated as generalizations of
+the pigeonhole principle to infinite cardinals. For example, if there
+are $\aleph_1$ pigeons and there are $\aleph_0$ many holes, then at
+least one hole contains $\aleph_1$ pigeons.</p>
+
+<h2 id="definitions">
+<a class="anchor" href="#definitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions</h2>
+
+<p>There are quite a few definitions involved with partition properties. In
+fact, partition calculus, the study of partition properties, almost
+completely either comprisse or describes most of infinitary
+combinatorics itself, so it would make sense that the terminology
+involved with it is quite unique.</p>
+
+<h3 id="square-bracket-notation">
+<a class="anchor" href="#square-bracket-notation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Square Bracket Notation</h3>
+
+<p>The square bracket notation is somewhat simple and easy to grasp (and
+used in many other places). Let $X$ be a set of ordinals. $[X]^\beta$
+for some ordinal $\beta$ is the set of all subsets $x\subseteq X$ such
+that $(x,&lt;)$ has order-type $\beta$; that is, there is a bijection
+$f$ from $x$ to $\beta$ such that $f(a)&lt;f(b)$ iff $a&lt;b$ for each
+$a$ and $b$ in $x$. Such a bijection is often called an
+order-isomorphism.</p>
+
+<p>$[X]^{&lt;\beta}$ for some ordinal $\beta$ is simply defined as the
+union of all $[X]^{\alpha}$ for $\alpha&lt;\beta$, the set of all
+subsets $x\subseteq X$ with order-type less than $\beta$. In the case
+of $\omega$, $[X]^{&lt;\omega}$ is the set of all finite subsets of
+$X$.</p>
+
+<h3 id="homogeneous-sets">
+<a class="anchor" href="#homogeneous-sets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homogeneous Sets</h3>
+
+<p>Let $f:[\kappa]^\beta\rightarrow\lambda$ be a function (in this
+study, such functions are often called partitions). A set
+$H\subseteq\kappa$ is then called <strong>homogeneous for $f$</strong> when for any
+two subsets $h_0,h_1\subseteq H$ of order type $\beta$,
+$f(h_0)=f(h_1)$. This is equivalent to $f$ being constant on
+$[H]^\beta$.</p>
+
+<p>In another case, let $f:[\kappa]^{&lt;\omega}\rightarrow\lambda$
+be a function. A set $H\subseteq\kappa$ is then called <strong>homogeneous
+for $f$</strong> when for any two finite subsets $h_0,h_1\subseteq H$ of the
+same size, $f(h_0)=f(h_1)$.</p>
+
+<h3 id="the-various-partition-properties">
+<a class="anchor" href="#the-various-partition-properties" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Various Partition Properties</h3>
+
+<p>Let $\kappa$ and $\lambda$ be cardinals and let $\alpha$ and $\beta$
+be ordinals. Then, the following notations are used for the partition
+properties:</p>
+
+<ul>
+  <li>$\kappa\rightarrow (\alpha)_\lambda^\beta$ iff for every
+function $f:[\kappa]^\beta\rightarrow\lambda$, there is set
+$H$ of order-type $\alpha$ which is homogeneous for $f$. If
+$\alpha$ is a cardinal (which it most often is), then the
+requirement on $H$ can be loosened to $H$ having cardinality
+$\alpha$ and being homogeneous for $f$ without loss of generality.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>A common abbreviation for $\kappa\rightarrow (\alpha)_2^n$ is
+$\kappa\rightarrow (\alpha)^n$.</li>
+  <li>$\kappa\rightarrow (\alpha)_\lambda^{&lt;\omega}$ iff for
+every function $f:[\kappa]^{&lt;\omega}\rightarrow\lambda$,
+there is set $H$ of order-type $\alpha$ which is homogeneous for
+$f$. If $\alpha$ is a cardinal (which it most often is), then the
+requirement on $H$ can be loosened to $H$ having cardinality
+$\alpha$ and being homogeneous for $f$ without loss of generality.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+</ul>
+
+<p>Let $\nu$ be a cardinal. The <strong>square bracket partition properties</strong>
+are defined as follows:</p>
+
+<ul>
+  <li>$\kappa\rightarrow [\alpha]_\lambda^\beta$ iff for every
+function $f:[\kappa]^\beta\rightarrow\lambda$, there is set
+$H$ of order-type $\alpha$ and an ordinal $\gamma&lt;\lambda$
+such that $f(h)\neq\gamma$ for any $h\in [H]^\beta$.</li>
+  <li>$\kappa\rightarrow [\alpha]_\lambda^{&lt;\omega}$ iff for
+every function $f:[\kappa]^{&lt;\omega}\rightarrow\lambda$,
+there is set $H$ of order-type $\alpha$ and an ordinal
+$\gamma&lt;\lambda$ such that $f(h)\neq\gamma$ for any finite
+subset $h$ of $H$.</li>
+  <li>$\kappa\rightarrow [\alpha]_{\lambda,&lt;\nu}^\beta$ iff
+for every function $f:[\kappa]^\beta\rightarrow\lambda$, there
+is set $H$ of order-type $\alpha$ such that $f$ restricted to
+$[H]^\beta$ yields less than $\nu$-many distinct outputs. Note
+that $\kappa\rightarrow[\alpha]_{\lambda,&lt;2}^\beta$ iff
+$\kappa\rightarrow(\alpha)_\lambda^\beta$.</li>
+  <li>$\kappa\rightarrow [\alpha]_{\lambda,&lt;\nu}^{&lt;\omega}$
+iff for every function
+$f:[\kappa]^{&lt;\omega}\rightarrow\lambda$, there is set $H$
+of order-type $\alpha$ such that $f$ restricted to
+$[H]^{&lt;\omega}$ yields less than $\nu$-many distinct outputs.</li>
+</ul>
+
+<h2 id="theorems-and-large-cardinal-axioms">
+<a class="anchor" href="#theorems-and-large-cardinal-axioms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Theorems and Large Cardinal Axioms</h2>
+
+<p>There are several theorems in the study of partition calculus. Namely:</p>
+
+<ul>
+  <li>Ramsey’s theorem, which states that $\aleph_0\rightarrow
+(\omega)_m^n$ for each finite $m$ and $n$.
+<a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+  <li>$2^\kappa\not\rightarrow (\kappa^+)^2$
+<a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+  <li>The Erdős-Rado theorem, which states that
+$\beth_n(\kappa)^+\rightarrow (\kappa^+)_\kappa^{n+1}$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>$\kappa\not\rightarrow(\omega)_2^\omega$
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>For any finite nonzero $n$ and ordinals $\alpha$ and $\beta$,
+there is a $\kappa$ such that
+$\kappa\rightarrow(\alpha)_\beta^n$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>The Gödel-Erdős-Kakutani theorem, which states that
+$2^\kappa\not\rightarrow (3)^2_\kappa$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>$\kappa\not\rightarrow [\kappa]_\kappa^\omega$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>$\lambda^+\not\rightarrow[\lambda+1]^2_{\lambda,&lt;\lambda}$
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>$\lambda\not\rightarrow[\lambda]^1_{\mathrm{cf}(\lambda),&lt;\mathrm{cf}(\lambda)}$
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>For any regular $\kappa$,
+$\kappa^+\not\rightarrow[\kappa^+]^2_{\kappa^+}$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>For any
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+cardinal $\kappa$, $\kappa\rightarrow(\lambda)_\lambda^2$ for
+any $\lambda&lt;\kappa$ <a class="citation" href="#Drake1974">(Drake, 1974)</a> .
+However, this may not be an equivalence; if the
+<a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>
+holds at $\kappa$, then
+$(\kappa^{++})\rightarrow(\lambda)^2_\kappa$ for any
+$\lambda&lt;\kappa^{++}$.</li>
+</ul>
+
+<p>In terms of large cardinal axioms, many can be described using a
+partition property. Here are those which can be found on this website:</p>
+
+<ul>
+  <li>Although not a large cardinal itself, <a href="Chang%27s_conjecture" title="Chang's conjecture">Chang’s
+conjecture</a>
+holds iff
+$\aleph_2\rightarrow[\omega_1]^{&lt;\omega}_{\aleph_1,&lt;\aleph_1}$,
+iff
+$\aleph_2\rightarrow[\omega_1]^{n}_{\aleph_1,&lt;\aleph_1}$
+for some $n$, iff
+$\aleph_2\rightarrow[\omega_1]^{n}_{\aleph_1,&lt;\aleph_1}$
+for every finite $n$. <a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>A cardinal $\kappa$ is
+<a href="Ramsey" title="Ramsey">Ramsey</a>
+iff $\kappa\rightarrow(\kappa)_\lambda^{&lt;\omega}$ for some
+$\lambda&gt;1$, iff
+$\kappa\rightarrow(\kappa)_\lambda^{&lt;\omega}$ for every
+$\lambda&lt;\kappa$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009; Jech, 2003)</a>
+</li>
+  <li>A cardinal $\kappa$ is the
+<a href="Erdos" title="Erdos">$\alpha$-Erdős</a>
+cardinal iff it is the smallest $\kappa$ such that
+$\kappa\rightarrow(\alpha)^{&lt;\omega}$.</li>
+  <li>A cardinal $\kappa$ is defined to be
+<a href="Rowbottom" title="Rowbottom">$\nu$-Rowbottom</a>
+iff
+$\kappa\rightarrow[\kappa]_{\lambda,&lt;\nu}^{&lt;\omega}$
+for every $\lambda&lt;\kappa$.</li>
+  <li>A cardinal $\kappa$ is
+<a href="Jonsson" title="Jonsson">Jónsson</a>
+iff $\kappa\rightarrow[\kappa]_\kappa^{&lt;\omega}$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+  <li>A cardinal $\kappa$ is <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>
+iff $\kappa\rightarrow(\kappa)^2_\lambda$ for some
+$\lambda&gt;1$, iff $\kappa\rightarrow(\kappa)^2_\lambda$ for
+every $\lambda&lt;\kappa$. <a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+</ul>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li>
+<li><span id="Drake1974">Drake, F. (1974). <i>Set Theory: An Introduction to Large Cardinals</i>. North-Holland Pub. Co.</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

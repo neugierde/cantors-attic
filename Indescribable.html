@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Indescribable cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Indescribable cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Indescribable","@type":"WebPage","headline":"Indescribable cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Indescribable cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#variants">Variants</a></li>
+<li class="toc-entry toc-h2"><a href="#facts">Facts</a></li>
+</ul><p><img src="assets/img/IndescribableStructure.png" alt="The Structure of Indescribability in Consistency Strength"></p>
+
+<p>A cardinal $\kappa$ is <em>indescribable</em> if it holds the reflection
+theorem up to a certain point. This is important to mathematics because
+of the concern for the reflection theorem. In more detail, a cardinal
+$\kappa$ is $\Pi_{m}^n$-indescribable if and only if for every
+$\Pi_{m}$ first-order sentence $\phi$:</p>
+
+\[\\forall S\\subseteq V\_{\\kappa}(\\langle
+V\_{\\kappa+n};\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha&amp;lt;\\kappa(\\langle
+V\_{\\alpha+n};\\in,S\\cap V\_{\\alpha}\\rangle\\models\\phi))\]
+
+<p>Likewise for $\Sigma_{m}^n$-indescribable cardinals.</p>
+
+<p>Here are some other equivalent definitions:</p>
+
+<ul>
+  <li>A cardinal $\kappa$ is $\Pi_m^n$-indescribable for $n&gt;0$ iff
+for every $\Pi_m$ first-order unary formula $\phi$:</li>
+</ul>
+
+\[\\forall S\\subseteq
+V\_\\kappa(V\_{\\kappa+n}\\models\\phi(S)\\rightarrow\\exists\\alpha&amp;lt;\\kappa(V\_{\\alpha+n}\\models\\phi(S\\cap
+V\_\\alpha)))\]
+
+<ul>
+  <li>A cardinal $\kappa$ is $\Pi_m^n$-indescribable iff for every
+$\Pi_m$ $n+1$-th-order sentence $\phi$:</li>
+</ul>
+
+\[\\forall S\\subseteq V\_\\kappa(\\langle
+V\_\\kappa;\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha&amp;lt;\\kappa(\\langle
+V\_\\alpha;\\in,S\\cap V\_\\alpha\\rangle\\models\\phi))\]
+
+<p>In other words, if a cardinal is $\Pi_{m}^n$-indescribable, then every
+$n+1$-th order logic statement that is $\Pi_m$ expresses the
+reflection of $V_{\kappa}$ onto $V_{\alpha}$. This exercises the
+fact that these cardinals are so large they almost resemble the order of
+$V$ itself. This definition is similar to that of
+<a href="Shrewd" title="Shrewd">shrewd</a>
+cardinals, an extension of indescribable cardinals.</p>
+
+<h2 id="variants">
+<a class="anchor" href="#variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variants</h2>
+
+<p><em>Totally indescribable</em> cardinals are $\Pi_m^n$-indescribable for
+every natural $m$ and $n$ (equivalently $\Sigma_m^n$-indescribable for
+every natural m and n, equivalently $\Delta_m^n$-indescribable for
+every natural $m$ and $n$). This means that every (finitary) formula
+made from quantifiers, $\in$ and a subset of $V_{\kappa}$ reflects
+from $V_{\kappa}$ onto a smaller rank.</p>
+
+<p><em>$Q$-indescribable</em> cardinals are those which have the property that for
+every $Q$-sentence $\phi$:</p>
+
+\[\\forall S\\subseteq V\_\\kappa(\\langle
+V\_\\kappa;\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha&amp;lt;\\kappa(\\langle
+V\_\\alpha;\\in,S\\cap V\_\\alpha\\rangle\\models\\phi))\]
+
+<p><em>$\beta$-indescribable</em> cardinals are those which have the property
+that for every first order sentence $\phi$:</p>
+
+\[\\forall S\\subseteq V\_\\kappa(\\langle
+V\_{\\kappa+\\beta};\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha&amp;lt;\\kappa(\\langle
+V\_{\\alpha+\\beta};\\in,S\\cap V\_\\alpha\\rangle\\models\\phi))\]
+
+<p>There is no $\kappa$ which is $\kappa$-indescribable. A cardinal is
+$\Pi_{&lt;\omega}^m$-indescribable iff it is $m$-indescribable for
+finite $m$. Every $\omega$-indescribable cardinal is totally
+indescribable.</p>
+
+<h2 id="facts">
+<a class="anchor" href="#facts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Facts</h2>
+
+<p>Here are some known facts about indescribability:</p>
+
+<p>$\Pi_2^0$-indescribability is equivalent to <a href="Inaccessible" title="Inaccessible">strong
+inaccessibility</a>,
+$\Sigma_1^1$-indescribablity, $\Pi_n^0$-indescribability given any
+$n&gt;1$, and
+$\Pi_0^1$-indescribability.<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+$\Pi_1^1$-indescribability is equivalent to <a href="Weakly_compact" title="Weakly compact">weak
+compactness</a>.
+<a class="citation" href="#Jech2003">(Jech, 2003; Kanamori, 2009)</a></p>
+
+<p>$\Pi_n^m$-indescribablity is equivalent to $m$-$\Pi_n$-shrewdness
+(similarly with $\Sigma_n^m$).
+<a class="citation" href="#Rathjen2006">(Rathjen, 2006)</a></p>
+
+<p><a href="Ineffable" title="Ineffable">Ineffable</a>
+cardinals are $\Pi^1_2$-indescribable and limits of totally
+indescribable cardinals. <a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a></p>
+
+<p>$\Pi_n^1$-indescribability is equivalent to
+$\Sigma_{n+1}^1$-Indescribability.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<p>If $m&gt;1$, $\Pi_{n+1}^m$-indescribability is stronger
+(consistency-wise) than $\Sigma_n^m$ and $\Pi_n^m$-indescribability;
+every $\Pi_{n+1}^m$-indescribable cardinal is also both $\Sigma_n^m$
+and $\Pi_n^m$-indescribable and a stationary limit of such for
+$m&gt;1$.<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a> If $m&gt;1$, the
+least $\Pi_n^m$-indescribable cardinal is less than the least
+$\Sigma_n^m$-indescribable cardinal, which is in turn less than the
+least $\Pi_{n+1}^m$-indescribable
+cardinal.<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<p>If $\kappa$ is
+$Π_n$-<a href="Ramsey" title="Ramsey">Ramsey</a>,
+then $\kappa$ is $Π_{n+1}^1$-indescribable. If $X\subseteq\kappa$ is
+a $Π_n$-Ramsey subset, then $X$ is in the $Π_{n+1}^1$-indescribable
+filter.<a class="citation" href="#Feng1990">(Feng, 1990)</a> If $\kappa$ is
+completely Ramsey, then $κ$ is
+$Π_1^2$-indescribable.<a class="citation" href="#Holy2018">(Holy &amp; Schlicht, 2018)</a></p>
+
+<p>Every $n$-Ramsey $κ$ is $Π^1_{2 n+1}$-indescribable. This is optimal,
+as $n$-Ramseyness can be described by a
+$Π^1_{2n+2}$-formula.<a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+Every $&lt;ω$-Ramsey cardinal is
+$∆^2_0$-indescribable.<a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+Every normal $n$-Ramsey $κ$ is $Π^1_{2 n+2}$-indescribable. This is
+optimal, as normal $n$-Ramseyness can be described by a $Π^1_{2
+n+3}$-formula.<a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a></p>
+
+<p>Every
+<a href="Measurable" title="Measurable">measurable</a>
+cardinal is $\Pi_1^2$-indescribable. Although, the least measurable is
+$\Sigma_1^2$-describable. <a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p>Every critical point of a nontrivial elementary embedding
+$j:M\rightarrow M$ for some transitive inner model $M$ of
+<a href="ZFC" title="ZFC">ZFC</a> is totally
+indescribable in $M$. (For example,
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
+cardinals,
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{#}$</a>
+cardinals, and
+<a href="Zero_dagger" class="mw-redirect" title="Zero dagger">$0^{\dagger}$</a>
+cardinals). <a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p>If $2^\kappa\neq\kappa^+$ for some $\Pi_1^2$-indescribable
+cardinal, then there is a smaller $\lambda$ such that
+$2^\lambda\neq\lambda^+$. However, assuming the consistency of the
+existence of a $\Pi_n^1$-indescribable cardinal $\kappa$, it is
+consistent for $\kappa$ to be the least cardinal such that
+$2^\kappa\neq\kappa^+$.
+<a class="citation" href="#Hauser1991">(Hauser, 1991)</a></p>
+
+<p>Transfinite $Π^1_α$-indescribable has been defined via finite games and
+it turns out that for infinite $α$, if $κ$ is
+$Π_α$-<a href="Ramsey" title="Ramsey">Ramsey</a>,
+then $κ$ is $Π^1_{2 ·(1+β)+ 1}$-indescribable for each $β &lt; \min
+\{α, κ^+\}$.<a class="citation" href="#Sharpe2011">(Sharpe &amp; Welch, 2011)</a></p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li>
+<li><span id="Rathjen2006">Rathjen, M. (2006). <i>The art of ordinal analysis</i>. http://www.icm2006.org/proceedings/Vol_II/contents/ICM_Vol_2_03.pdf</span></li>
+<li><span id="Jensen1969">Jensen, R., &amp; Kunen, K. (1969). <i>Some combinatorial properties of L and V</i>. http://www.mathematik.hu-berlin.de/ raesch/org/jensen.html</span></li>
+<li><span id="Feng1990">Feng, Q. (1990). A hierarchy of Ramsey cardinals. <i>Annals of Pure and Applied Logic</i>, <i>49</i>(3), 257–277. https://doi.org/10.1016/0168-0072(90)90028-Z</span></li>
+<li><span id="Holy2018">Holy, P., &amp; Schlicht, P. (2018). A hierarchy of Ramsey-like cardinals. <i>Fundamenta Mathematicae</i>, <i>242</i>, 49–74. https://doi.org/10.4064/fm396-9-2017</span></li>
+<li><span id="Nielsen2018">Nielsen, D. S., &amp; Welch, P. (2018). <i>Games and Ramsey-like cardinals</i>.</span></li>
+<li><span id="Hauser1991">Hauser, K. (1991). <i>Indescribable Cardinals and Elementary Embeddings</i>. <i>56</i>(2), 439–457. https://doi.org/10.2307/2274692</span></li>
+<li><span id="Sharpe2011">Sharpe, I., &amp; Welch, P. (2011). Greatly Erdős cardinals with some generalizations to the Chang and Ramsey properties. <i>Ann. Pure Appl. Logic</i>, <i>162</i>(11), 863–902. https://doi.org/10.1016/j.apal.2011.04.002</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

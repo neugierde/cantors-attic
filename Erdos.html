@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Erdős cardinals | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Erdős cardinals" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Erdos","@type":"WebPage","headline":"Erdős cardinals","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Erdős cardinals</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#facts">Facts</a></li>
+<li class="toc-entry toc-h2"><a href="#weakly-erdős-and-greatly-erdős">Weakly Erdős and greatly Erdős</a></li>
+</ul><p>The $\alpha$-Erdős cardinals were introduced by Erdős and Hajnal in
+<a class="citation" href="#Erdoes1958">(Erdős &amp; Hajnal, 1958)</a> and arose out of their
+study of partition relations. A cardinal $\kappa$ is $\alpha$-Erdős
+for an infinite limit ordinal $\alpha$ if it is the least cardinal
+$\kappa$ such that $\kappa\rightarrow (\alpha)^{\lt\omega}_2$ (if
+any such cardinal exists).</p>
+
+<p>For infinite cardinals $\kappa$ and $\lambda$, the <a href="Partition_property" title="Partition property">partition
+property</a>
+$\kappa\to(\lambda)^n_\gamma$ asserts that for every function
+$F:[\kappa]^n\to\gamma$ there is $H\subseteq\kappa$ with
+$|H|=\lambda$ such that $F\upharpoonright[H]^n$ is constant. Here
+$[X]^n$ is the set of all $n$-elements subsets of $X$. The more
+general partition property
+$\kappa\to(\lambda)^{\lt\omega}_\gamma$ asserts that for every
+function $F:[\kappa]^{\lt\omega}\to\gamma$ there is
+$H\subseteq\kappa$ with $|H|=\lambda$ such that
+$F\upharpoonright[H]^n$ is constant for every $n$, although the value
+of $F$ on $[H]^n$ may be different for different $n$. Indeed, if
+$\kappa$ is $\alpha$-Erdős for some infinite ordinal $\alpha$, then
+$\kappa\rightarrow (\alpha)^{\lt\omega}_\lambda$ for all
+$\lambda&lt;\kappa$ (Silver’s PhD thesis).</p>
+
+<p>The $\alpha$-Erdős cardinal is precisely the least cardinal $\kappa$
+such that for any language $\mathcal{L}$ of size less than $\kappa$
+and any structure $\mathcal{M}$ with language $\mathcal{L}$ and domain
+$\kappa$, there is a set of indescernibles for $\mathcal{M}$ of
+order-type $\alpha$.</p>
+
+<p>A cardinal $\kappa$ is called Erdős if and only if it is
+$\alpha$-Erdős for some infinite limit ordinal $\alpha$. Because there
+exists at most one $\alpha$-Erdős cardinal, the notations
+$\eta_\alpha$ and $\kappa(\alpha)$ are sometimes used to denote the
+$\alpha$-Erdős cardinal.</p>
+
+<p>Different terminology (Baumgartner, 1977): an infinite cardinal $κ$ is
+$ω$-Erdős if for every club $C$ in $κ$ and every function $f :
+[C]^{&lt;ω} → κ$ that is regressive (i.e. $f(a) &lt; \min(a)$ for all
+$a$ in the domain of $f$) there is a subset $X ⊂ C$ of order type $ω$
+that is homogeneous for $f$ (i.e. $f ↾ [X]^n$ is constant for all $n
+&lt; ω$). Schmerl, 1976 (theorem 6.1) showed that the least cardinal $κ$
+such that $κ → (ω)_2^{&lt;ω}$ has this property, if it
+exists.<a class="citation" href="#Wilson2018">(Wilson, 2018)</a></p>
+
+<h2 id="facts">
+<a class="anchor" href="#facts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Facts</h2>
+
+<ul>
+  <li>$\eta_\alpha&lt;\eta_\beta$ whenever $\alpha&lt;\beta$ and
+$\eta_\alpha\geq\alpha$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a>
+</li>
+</ul>
+
+<p>With Baumgartner
+definition:<a class="citation" href="#Wilson2018">(Wilson, 2018)</a></p>
+
+<ul>
+  <li>Every $ω$-Erdős cardinal is inaccessible.</li>
+  <li>If $η$ is an $ω$-Erdős cardinal then $η → (ω)_α^{&lt;ω}$ for every
+cardinal $α &lt; η$.</li>
+  <li>If $α ≥ 2$ is a cardinal and there is a cardinal $η$ such that $η →
+(ω)_α^{&lt;ω}$, then the least such cardinal $η$ is an $ω$-Erdős
+cardinal (and is greater than α.)</li>
+  <li>Simple conclusions from the last two facts:
+    <ul>
+      <li>The statement “there is an $ω$-Erdős cardinal” is equivalent to
+the statement $∃_η η → (ω)_2^{&lt;ω}$.</li>
+      <li>The statement “there is a proper class of $ω$-Erdős cardinals”
+is equivalent to the statement $∀_α ∃_η η → (ω)_α^{&lt;ω}$.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Erdős cardinals and the constructible universe:</p>
+
+<ul>
+  <li>$\omega_1$-Erdős cardinals imply that
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
+exists and hence there cannot be $\omega_1$-Erdős cardinals in
+$L$. <a class="citation" href="#Silver1971">(Silver, 1971)</a>
+</li>
+  <li>$\alpha$-Erdős cardinals are downward absolute to $L$ for
+$L$-countable $\alpha$. More generally, $\alpha$-Erdős cardinals
+are downward absolute to any transitive model of
+<a href="ZFC" title="ZFC">ZFC</a> for
+$M$-countable $\alpha$. <a class="citation" href="#Silver1970">(Silver, 1970)</a>
+</li>
+</ul>
+
+<p>Relations with other large cardinals:</p>
+
+<ul>
+  <li>Every Erdős cardinal is
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>.
+(Silver’s PhD thesis)</li>
+  <li>Every Erdős cardinal is
+<a href="Subtle" class="mw-redirect" title="Subtle">subtle</a>.
+<a class="citation" href="#Jensen1969">(Jensen &amp; Kunen, 1969)</a>
+</li>
+  <li>$\eta_\omega$ is a stationary limit of
+<a href="Ineffable" title="Ineffable">ineffable</a>
+cardinals. <a class="citation" href="#Jech2003">(Jech, 2003)</a>
+</li>
+  <li>$η_ω$ is a limit of
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">virtually rank-into-rank</a>
+cardinals. <a class="citation" href="#Gitmana">(Gitman &amp; Shindler, n.d.)</a>
+</li>
+  <li>The existence of $\eta_\omega$ implies the consistency of a
+proper class of
+<a href="Ramsey#iterable" title="Ramsey">$n$-iterable</a>
+cardinals for every $1\leq
+n&lt;\omega$.<a class="citation" href="#Gitman2011">(Gitman, 2011)</a>
+</li>
+  <li>For an additively indecomposable ordinal $λ ≤ ω_1$, $η_λ$ (the
+least $λ$-Erdős cardinal) is a limit of $λ$-iterable cardinals and
+if there is a $λ + 1$-iterable cardinal, then there is a $λ$-Erdős
+cardinal below
+it.<a class="citation" href="#Gitmana">(Gitman &amp; Shindler, n.d.)</a>
+</li>
+  <li>The consistency strength of the existence of an Erdős cardinal is
+stronger than that of the existence of an $n$-iterable cardinal for
+every $n&lt;\omega$ and weaker than that of the existence of
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^{#}$</a>.</li>
+  <li>The existence of a proper class of Erdős cardinals is equivalent to
+the existence of a proper class of <a href="Ramsey#Almost_Ramsey_cardinal" title="Ramsey">almost
+Ramsey</a>
+cardinals. The consistency strength of this is weaker than a
+<a href="Worldly" title="Worldly">worldly</a>
+almost Ramsey cardinal, but stronger than an almost Ramsey cardinal.</li>
+  <li>The existence of an almost Ramsey cardinal is stronger than the
+existence of an $\omega_1$-Erdős cardinal.
+<a class="citation" href="#Sharpe2011">(Sharpe &amp; Welch, 2011)</a>
+</li>
+  <li>A cardinal $\kappa$ is
+<a href="Ramsey" title="Ramsey">Ramsey</a>
+precisely when it is $\kappa$-Erdős.</li>
+  <li>(Baumgartner definition) The existence of
+non-<a href="Remarkable" title="Remarkable">remarkable</a>
+weakly remarkable cardinals is equiconsistent to the existence of
+$ω$-Erdős cardinal (equivalent assuming
+$V=L$):<a class="citation" href="#Wilson2018">(Wilson, 2018)</a>
+    <ul>
+      <li>Every $ω$-Erdős cardinal is a limit of non-remarkable weakly
+remarkable cardinals.</li>
+      <li>If $κ$ is a non-remarkable weakly remarkable cardinal, then some
+ordinal greater than $κ$ is an $ω$-Erdős cardinal in $L$.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="weakly-erdős-and-greatly-erdős">
+<a class="anchor" href="#weakly-erd%C5%91s-and-greatly-erd%C5%91s" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weakly Erdős and greatly Erdős</h2>
+
+<p>(Information in this section from
+<a class="citation" href="#Sharpe2011">(Sharpe &amp; Welch, 2011)</a>)</p>
+
+<p>Suppose that $κ$ has uncountable cofinality, $\mathcal{A}$ is
+$κ$-structure, with $X ⊆ κ$, and $t_\mathcal{A} ( X ) = \{ α ∈ κ
+\text{ — limit ordinal} : \text{there exists a set $I ⊆ α ∩ X$ of good
+indiscernibles for $\mathcal{A}$ cofinal in $α$} \}$. Using this one
+can define a hierarchy of normal filters $\mathcal{F}_\alpha$
+potentially for all $α &lt; κ^+$ ; these are generated by suprema of
+sets of nested indiscernibles for structures $\mathcal{A}$ on $κ$ using
+the above basic $t_\mathcal{A} (X)$ operation. A cardinal $κ$ is
+<strong>weakly $α$-Erdős</strong> when $\mathcal{F}_\alpha$ is non-trivial.</p>
+
+<p>$κ$ is <strong>greatly Erdős</strong> iff there is a non-trivial normal filter
+$\mathcal{F}$ on $\mathcal{F}$ such that $F$ is closed under
+$t_\mathcal{A} (X)$ for every $κ$-structure $\mathcal{A}$.
+Equivalently (for uncountable cofinality of cardinal $κ$):</p>
+
+<ul>
+  <li>$\mathcal{G} = \bigcup_{\alpha &lt; \kappa^+}
+\mathcal{F}_\alpha \not\ni \varnothing$</li>
+  <li>$κ$ is $α$-weakly Erdős for all $α &lt; κ^+$</li>
+</ul>
+
+<p>and (for inaccessible $κ$ and any choice $⟨ f_β : β &lt; κ^+ ⟩$ of
+canonical functions for $κ$):</p>
+
+<ul>
+  <li>$\{γ &lt; κ : f_β (γ) ⩽ o_\mathcal{A} (γ)\} \neq \varnothing$
+for all $β &lt; κ^+$ and $κ$-structures $\mathcal{A}$ such that
+$\mathcal{A} \models ZFC$</li>
+</ul>
+
+<p>Relations:</p>
+
+<ul>
+  <li>If $κ$ is a $2$-weakly Erdős cardinal then $κ$ is almost
+<a href="Ramsey" title="Ramsey">Ramsey</a>.</li>
+  <li>If $κ$ is virtually Ramsey then $κ$ is greatly Erdős.</li>
+  <li>There are stationarily many completely
+<a href="Ineffable" title="Ineffable">ineffable</a>,
+greatly Erdős cardinals below any Ramsey cardinal.</li>
+</ul>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Erdoes1958">Erdős, P., &amp; Hajnal, A. (1958). On the structure of set-mappings. <i>Acta Math. Acad. Sci. Hungar</i>, <i>9</i>, 111–131.</span></li>
+<li><span id="Wilson2018">Wilson, T. M. (2018). <i>Weakly remarkable cardinals, Erdős cardinals, and the generic Vopěnka principle</i>.</span></li>
+<li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Silver1971">Silver, J. (1971). Some applications of model theory in set theory. <i>Ann. Math. Logic</i>, <i>3</i>(1), 45–110.</span></li>
+<li><span id="Silver1970">Silver, J. (1970). A large cardinal in the constructible universe. <i>Fund. Math.</i>, <i>69</i>, 93–100.</span></li>
+<li><span id="Jensen1969">Jensen, R., &amp; Kunen, K. (1969). <i>Some combinatorial properties of L and V</i>. http://www.mathematik.hu-berlin.de/ raesch/org/jensen.html</span></li>
+<li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li>
+<li><span id="Gitmana">Gitman, V., &amp; Shindler, R. <i>Virtual large cardinals</i>. https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf</span></li>
+<li><span id="Gitman2011">Gitman, V. (2011). Ramsey-like cardinals. <i>The Journal of Symbolic Logic</i>, <i>76</i>(2), 519–540. http://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinals.pdf</span></li>
+<li><span id="Sharpe2011">Sharpe, I., &amp; Welch, P. (2011). Greatly Erdős cardinals with some generalizations to the Chang and Ramsey properties. <i>Ann. Pure Appl. Logic</i>, <i>162</i>(11), 863–902. https://doi.org/10.1016/j.apal.2011.04.002</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

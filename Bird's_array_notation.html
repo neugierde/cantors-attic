@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Bird’s array notation | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Bird’s array notation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Bird's_array_notation","@type":"WebPage","headline":"Bird’s array notation","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Bird's array notation</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#linear-arrays">Linear arrays</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#example">Example</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#multidimentional-arrays">Multidimentional arrays</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#example-1">Example</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#hyperdimentional-arrays">Hyperdimentional arrays</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#example-2">Example</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#nested-arrays">Nested arrays</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#example-3">Example</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#hyper-nested-arrays">Hyper-Nested arrays</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#examples">Examples</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#nested-hyper-nested-arrays">Nested Hyper-Nested arrays</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#negations">Negations</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#examples-1">Examples</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#hierarchal-backslashes">Hierarchal backslashes</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#hierarchal-hyper-nested-arrays">Hierarchal Hyper-Nested arrays</a></li>
+<li class="toc-entry toc-h1"><a href="#nested-hierarchal-hyper-nested-arrays">Nested Hierarchal Hyper-Nested arrays</a></li>
+</ul><p>Bird’s array notation is a parallel notation to
+<a href="BEAF" title="BEAF">BEAF</a>.</p>
+
+<h1 id="linear-arrays">
+<a class="anchor" href="#linear-arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Linear arrays</h1>
+
+<ul>
+  <li>
+<strong>Rule 1</strong>. With one or two entries, we have \(\{a\} = a\),
+\(\{a,b\} = a^b\).</li>
+  <li>
+<strong>Rule 2</strong>. If the last entry is 1, it can be removed:
+\(\{\#,1\} = \{\#\}\).</li>
+  <li>
+<strong>Rule 3</strong>. If the second entry is 1, the value is just the first
+entry: \(\{a,1 \#\} = a\).</li>
+  <li>
+<strong>Rule 4</strong>. If the third entry is 1:
+\(\{a,b,\underbrace{1,1,\cdots,1,1}_n,c \#\} =
+\{\underbrace{a,a,a,a,\cdots,a}_{n+1},\{a,b-1,\underbrace{1,1,\cdots,1,1}_n,c
+\#\},c-1 \#\}\)</li>
+  <li>
+<strong>Rule 5</strong>. Otherwise:
+\(\{a,b,c \#\} = \{a,\{a,b-1,c \#\},c-1 \#\}\)</li>
+</ul>
+
+<p>Limit: \(\{n,n[2]2\}\) has growth rate \(\omega^\omega\)</p>
+
+<h2 id="example">
+<a class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<p>\begin{eqnarray*} \{3,3,1,2\} &amp;=&amp; \{3,3,\{3,2,1,2\},1\} \\ &amp;=&amp;
+\{3,3,\{3,3,\{3,1,1,2\},1\}\} \\ &amp;=&amp; \{3,3,\{3,3,3\}\} \<br>
+&amp;=&amp; \{3,3,\{3,\{3,2,3\},2\}\} \\ &amp;=&amp;
+\{3,3,\{3,\{3,\{3,1,3\},2\},2\}\} \\ &amp;=&amp;
+\{3,3,\{3,\{3,3,2\},2\}\} \\ &amp;=&amp;
+\{3,3,\{3,\{3,\{3,2,2\},1\},2\}\} \\ &amp;=&amp;
+\{3,3,\{3,\{3,\{3,\{3,1,2\},1\}\},2\}\} \\ &amp;=&amp;
+\{3,3,\{3,\{3,\{3,3\}\},2\}\} \\ &amp;=&amp;
+\{3,3,\{3,7625597484987,2\}\} \\ &amp;=&amp;
+3\uparrow^{3\uparrow\uparrow7625597484987}3 \end{eqnarray*}</p>
+
+<h1 id="multidimentional-arrays">
+<a class="anchor" href="#multidimentional-arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multidimentional arrays</h1>
+
+<ul>
+  <li>
+<strong>Rule M1</strong>. If there are only two entries, \(\{a, b\} = a^b\).</li>
+  <li>
+<strong>Rule M2</strong>. If \(m &lt; n\), we have \(\{\# [m] 1 [n]
+\#^*\} = \{\# [n] \#^*\}\). (This also removes ones
+from the end of an array.)</li>
+  <li>
+<strong>Rule M3</strong>. If the second entry is 1, we have \(\{a,1 \#\} =
+a\).</li>
+  <li>
+<strong>Rule M4</strong>. If there is a non-zero entry immediately after batch of
+unfilled separators:
+\(\{a,b [m_1] 1 [m_2] \cdots 1 [m_x] c \#\} = \{a
+\langle m_1-1 \rangle b [m_1] a \langle m_2-1 \rangle b
+[m_2] \cdots a \langle m_x-1 \rangle b [m_x] (c-1)
+\#\}\)</li>
+  <li>
+<strong>Rule M5</strong>. If there is a non-zero entry after batch of unfilled
+separators and a 1.
+\(\{a,b [m_1] 1 [m_2] \cdots 1 [m_x] 1,c \#\} = \{a
+\langle m_1-1 \rangle b [m_1] a \langle m_2-1 \rangle b
+[m_2] \cdots a \langle m_x-1 \rangle b [m_x] \{a,b-1
+[m_1] 1 [m_2] \cdots 1 [m_x] 1,c \#\},c-1 \#\}\)</li>
+  <li>
+<strong>Rule M6</strong>. Rules M1-M5 don’t apply.
+\(\{a,b,c \#\} = \{a,\{a,b-1,c \#\},c-1 \#\}\)</li>
+  <li>
+<strong>Rule A1</strong>. If \(c = 0\), we have \(\textrm` a \langle 0
+\rangle b = a \textrm’\).</li>
+  <li>
+<strong>Rule A2</strong>. If \(b = 1\), we have \(\textrm` a \langle c
+\rangle 1 = a \textrm’\).</li>
+  <li>
+<strong>Rule A3</strong>. Otherwise, \(\textrm` a \langle c \rangle b
+\textrm’ = \textrm` \underbrace{a \langle c-1 \rangle b [c]
+\cdots [c] a \langle c-1 \rangle b}_b \textrm’\).</li>
+</ul>
+
+<p>Limit: \(\{n,n[1,2]2\}\) has growth rate
+\(\omega^{\omega^\omega}\)</p>
+
+<h2 id="example-1">
+<a class="anchor" href="#example-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<p>\begin{eqnarray*} \{3,2[3]2\} &amp;=&amp; \{3 \langle 2 \rangle
+2[3]1\} \\ &amp;=&amp; \{3 \langle 1 \rangle 2[2]3 \langle 1 \rangle
+2\} \\ &amp;=&amp; \{3,3[2]3,3\} \\ &amp;=&amp; \{3,3,3[2]2,3\} \\ &amp;=&amp;
+\{3,\{3,2,3[2]2,3\},2[2]2,3\} \\ &amp;=&amp;
+\{3,\{3,3,2[2]2,3\},2[2]2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,2,2[2]2,3\}[2]2,3\},2[2]2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,3[2]2,3\}[2]2,3\},2[2]2,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3[2]1,3\}[2]1,3\},2[2]1,3\}[2]2,3\},2[2]2,3\}
+\end{eqnarray*}</p>
+
+<h1 id="hyperdimentional-arrays">
+<a class="anchor" href="#hyperdimentional-arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hyperdimentional arrays</h1>
+
+<ul>
+  <li>
+<strong>Rule M1</strong>. If there are only two entries, \(\{a, b\} = a^b\).</li>
+  <li>
+<strong>Rule M2</strong>. If \(m &lt; n\), we have \(\{\# [m] 1 [n]
+\#^*\} = \{\# [n] \#^*\}\). (This also removes ones
+from the end of an array.)</li>
+  <li>
+<strong>Rule M3</strong>. If the second entry is 1, we have \(\{a,1 \#\} =
+a\).</li>
+  <li>
+<strong>Rule M4</strong>. If there is a non-zero entry immediately after batch of
+unfilled separators:
+\(\{a,b [m_1 \#_1] 1 [m_2 \#_2] \cdots 1 [m_x
+\#_x] c \#\} = \{a \langle m_1-1 \#_1 \rangle b [m_1
+\#_1] a \langle m_2-1 \#_2 \rangle b [m_2 \#_2]
+\cdots a \langle m_x-1 \#_x \rangle b [m_x \#_x] (c-1)
+\#\}\)</li>
+  <li>
+<strong>Rule M5</strong>. If there is a non-zero entry after batch of unfilled
+separators and a 1.
+\(\{a,b [m_1 \#_1] 1 [m_2 \#_2] \cdots 1 [m_x
+\#_x] 1,c \#\}\)<br>
+\(= \{a \langle m_1-1 \#_1 \rangle b [m_1 \#_1] a
+\langle m_2-1 \#_2 \rangle b [m_2 \#_2] \cdots a
+\langle m_x-1 \#_x \rangle b [m_x \#_x] \{a,b-1 [m_1
+\#_1] 1 [m_2 \#_2] \cdots 1 [m_x \#_x] 1,c
+\#\},c-1 \#\}\)</li>
+  <li>
+<strong>Rule M6</strong>. Rules M1-M5 don’t apply.
+\(\{a,b,c \#\} = \{a,\{a,b-1,c \#\},c-1 \#\}\)</li>
+  <li>
+<strong>Rule A1</strong>. If \(c = 0\), we have \(\textrm` a \langle 0
+\rangle b = a \textrm’\).</li>
+  <li>
+<strong>Rule A2</strong>. If \(b = 1\), we have \(\textrm` a \langle A
+\rangle 1 = a \textrm’\).</li>
+  <li>
+<strong>Rule A3</strong>. If the first entry in the angle brackets is zero, and
+there exists a non-zero entry after it:
+\(\textrm` a \langle 0,\underbrace{1,1,\cdots,1,1}_n,c \#
+\rangle b \textrm’ = \textrm` a \langle
+\underbrace{b,b,b,\cdots,b,b}_{n+1},c-1 \# \rangle b
+\textrm’\)</li>
+  <li>
+<strong>Rule A4</strong>. Otherwise, \(\textrm` a \langle c \# \rangle b
+\textrm’ = \textrm` \underbrace{a \langle c-1 \# \rangle b
+[c \#] \cdots [c \#] a \langle c-1 \# \rangle b}_b
+\textrm’\).</li>
+</ul>
+
+<p>Limit: \(\{n,n[1[2]2]2\}\) has growth rate \(^4 \omega\)</p>
+
+<h2 id="example-2">
+<a class="anchor" href="#example-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<p>\begin{eqnarray*} \{3,2[1,1,2]2\} &amp;=&amp; \{3 \langle 0,1,2 \rangle
+2\} \\ &amp;=&amp; \{3 \langle 2,2 \rangle 2\} \\ &amp;=&amp; \{3 \langle 1,2
+\rangle 2[2,2]3 \langle 1,2 \rangle 2\} \\ &amp;=&amp;
+\{3,3[2]3,3[1,2]3,3[2]3,3[2,2]3,3[2]3,3[1,2]3,3[2]3,3\}
+\end{eqnarray*}</p>
+
+<h1 id="nested-arrays">
+<a class="anchor" href="#nested-arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nested arrays</h1>
+
+<p>Main rules will remain the same forever.</p>
+
+<ul>
+  <li>
+<strong>Rule A1</strong>. If \(c = 0\), we have \(\textrm` a \langle 0
+\rangle b = a \textrm’\).</li>
+  <li>
+<strong>Rule A2</strong>. If \(b = 1\), we have \(\textrm` a \langle A
+\rangle 1 = a \textrm’\).</li>
+  <li>
+<strong>Rule A3</strong>. If \([A] &lt; [B]\), \(\textrm` a \langle
+\# [A] 1 [B] \#^* \rangle b \textrm’ = \textrm` a
+\langle \# [B] \#^* \rangle b \textrm’\).</li>
+  <li>
+<strong>Rule A4</strong>. If the first entry in the angle brackets is zero, and
+there exists a non-zero entry after it:
+\(\textrm` a \langle 0 [x_1 \#_1] 1 [x_2 \#_2]
+\cdots 1 [x_n \#_n] c \# \rangle b \textrm’ = \textrm`
+a \langle b \langle x_1-1 \#_1 \rangle b [x_1 \#_1] b
+\langle x_2-1 \#_2 \rangle b [x_2 \#_2] \cdots b
+\langle x_n-1 \#_n \rangle b [x_n \#_n] c-1 \#
+\rangle b \textrm’\)</li>
+  <li>
+<strong>Rule A5</strong>. Otherwise, \(\textrm` a \langle c \# \rangle b
+\textrm’ = \textrm` \underbrace{a \langle c-1 \# \rangle b
+[c \#] \cdots [c \#] a \langle c-1 \# \rangle b}_b
+\textrm’\).</li>
+</ul>
+
+<p>Limit: \(\{n,n[1\backslash2]2\}\) has growth rate
+\(\varepsilon_0\)</p>
+
+<h2 id="example-3">
+<a class="anchor" href="#example-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
+
+<p>\begin{eqnarray*} \{3,2[1[2]2]2\} &amp;=&amp; \{3 \langle 0[2]2
+\rangle 2\} \\ &amp;=&amp; \{3 \langle 2 \langle 1 \rangle 2 \rangle
+2\} \\ &amp;=&amp; \{3 \langle 2,2 \rangle 2\} \\ &amp;=&amp;
+\{3,3[2]3,3[1,2]3,3[2]3,3[2,2]3,3[2]3,3[1,2]3,3[2]3,3\}
+\end{eqnarray*}</p>
+
+<h1 id="hyper-nested-arrays">
+<a class="anchor" href="#hyper-nested-arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hyper-Nested arrays</h1>
+
+<ul>
+  <li>
+<strong>Rule A1</strong>. If \(c = 0\), we have \(\textrm` a \langle 0
+\rangle b \textrm’ = \textrm` a \textrm’\) and \(\textrm` a
+\langle 0 \rangle \backslash b \textrm’ = \textrm` a
+\textrm’\).</li>
+  <li>
+<strong>Rule A2</strong>. If \(b = 1\), we have \(\textrm` a \langle A
+\rangle 1 \textrm’ = \textrm` a \textrm’\) and \(\textrm` a
+\langle A \rangle \backslash 1 \textrm’ = \textrm` a
+\textrm’\).</li>
+  <li>
+<strong>Rule A3</strong>. If \([A] &lt; [B]\), \(\textrm` a \langle
+\# [A] 1 [B] \#^* \rangle b \textrm’ = \textrm` a
+\langle \# [B] \#^* \rangle b \textrm’\) and
+\(\textrm` a \langle \# [A] 1 [B] \#^* \rangle
+\backslash b \textrm’ = \textrm` a \langle \# [B] \#^*
+\rangle \backslash b \textrm’\).</li>
+  <li>
+<strong>Rule A4</strong>. If the first entry in the angle brackets is zero, and
+there exists a non-zero entry after it:
+\(\textrm` a \langle 0 [x_1 \#_1]\backslash 1 [x_2
+\#_2]\backslash \cdots 1 [x_m \#_m]\backslash 1 [y_1
+\#^*_1] 1 [y_2 \#^*_2] \cdots [y_n \#^*_n] c
+\# \rangle b \textrm’\)<br>
+\(= \textrm` a \langle b \langle x_1-1 \#_1 \rangle
+\backslash b [x_1 \#_1]\backslash b \langle x_2-1 \#_2
+\rangle \backslash b [x_2 \#_2]\backslash \cdots b
+\langle x_n-1 \#_n \rangle \backslash b [x_n
+\#_n]\backslash b \langle y_1-1 \#^*_1 \rangle b [y_1
+\#^*_1] b \langle y_2-1 \#^*_2 \rangle b [y_2
+\#^*_2] \cdots b \langle y_n-1 \#^*_n \rangle b [y_n
+\#^*_n] c-1 \# \rangle b \textrm’\).
+\(\textrm` a \langle 0 [x_1 \#_1]\backslash 1 [x_2
+\#_2]\backslash \cdots 1 [x_m \#_m]\backslash 1 [y_1
+\#^*_1] 1 [y_2 \#^*_2] \cdots [y_n \#^*_n] c
+\# \rangle \backslash b \textrm’\)<br>
+\(= \textrm` a \langle b \langle x_1-1 \#_1 \rangle
+\backslash b [x_1 \#_1]\backslash b \langle x_2-1 \#_2
+\rangle \backslash b [x_2 \#_2]\backslash \cdots b
+\langle x_n-1 \#_n \rangle \backslash b [x_n
+\#_n]\backslash b \langle y_1-1 \#^*_1 \rangle b [y_1
+\#^*_1] b \langle y_2-1 \#^*_2 \rangle b [y_2
+\#^*_2] \cdots b \langle y_n-1 \#^*_n \rangle b [y_n
+\#^*_n] c-1 \# \rangle \backslash b \textrm’\).</li>
+  <li>
+<strong>Rule A5</strong>. First non-zero entry is prior to a single backslash:
+\(\textrm` a \langle 0 [x_1 \#_1]\backslash 1 [x_2
+\#_2]\backslash \cdots 1 [x_n \#_n]\backslash 1
+\backslash c \# \rangle b\textrm’\)<br>
+\(= \textrm`a \langle b \langle A_1’ \rangle\backslash b
+[A_1]\backslash b \langle A_2’ \rangle\backslash b
+[A_2]\backslash \cdots b \langle A_n’ \rangle\backslash b
+[A_n]\backslash R_b \backslash c-1 \# \rangle
+b\textrm’\);
+\(\textrm` a \langle 0 [x_1 \#_1]\backslash 1 [x_2
+\#_2]\backslash \cdots 1 [x_n \#_n]\backslash 1
+\backslash c \# \rangle \backslash b\textrm’\)<br>
+\(= \textrm`a \langle b \langle A_1’ \rangle\backslash b
+[A_1]\backslash b \langle A_2’ \rangle\backslash b
+[A_2]\backslash \cdots b \langle A_n’ \rangle\backslash b
+[A_n]\backslash R_b \backslash c-1 \# \rangle \backslash
+b\textrm’\).</li>
+  <li>
+<strong>Rule A6</strong>. Otherwise, \(\textrm` a \langle c \# \rangle b
+\textrm’ = \textrm` \underbrace{a \langle c-1 \# \rangle b
+[c \#] \cdots [c \#] a \langle c-1 \# \rangle b}_b
+\textrm’\) and \(\textrm` a \langle c \# \rangle
+\backslash b \textrm’ = \textrm` \underbrace{a \langle c-1
+\# \rangle \backslash b [c \#]\backslash \cdots [c
+\#]\backslash a \langle c-1 \# \rangle \backslash b}_b
+\textrm’\).</li>
+</ul>
+
+<p>Limit: \(\{n,n[1/2]2\}\) has growth rate \(\Gamma_0\).</p>
+
+<h2 id="examples">
+<a class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h2>
+
+<p>\begin{eqnarray*} \{3 \langle 0 \backslash 2 \rangle 2\} &amp;=&amp; \{3
+\langle R_2 \rangle 2\} \\ &amp;=&amp; \{3 \langle 2 \rangle 2\} \<br>
+&amp;=&amp; \{3,3[2]3,3\} \\ &amp;=&amp;
+\{3,\{3,\{3,\{3,\{3,3,3[2]\{3,\{3,\{3,\{3,\{3,3,3[2]\{3,\{\underbrace{3,\cdots,3}_{3\uparrow\uparrow\uparrow3}\},2[2]2\}\}[2]1,2\},2[2]1,2\}[2]2,3\}[2]2,2\},2\}[2]1,3\},2[2]1,3\}
+\end{eqnarray*}</p>
+
+<hr>
+
+<p>\begin{eqnarray*} \{3 \langle 0 [2]\backslash 2 \rangle 2\} &amp;=&amp;
+\{3 \langle 2 \backslash 2 \rangle 2\} \\ &amp;=&amp; \{3,3[2]3,3[1
+\backslash 2]3,3[2]3,3[2 \backslash 2]3,3[2]3,3[1 \backslash
+2]3,3[2]3,3\} \end{eqnarray*}</p>
+
+<h1 id="nested-hyper-nested-arrays">
+<a class="anchor" href="#nested-hyper-nested-arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nested Hyper-Nested arrays</h1>
+
+<p>This part consists of 2 parts.</p>
+
+<h2 id="negations">
+<a class="anchor" href="#negations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Negations</h2>
+
+<ul>
+  <li>
+<strong>Rule A1</strong>. \(\textrm` a \langle 0 \neg \# \rangle b
+\textrm’ = \textrm` a \textrm’\).</li>
+  <li>
+<strong>Rule A2</strong>. If \(b = 1\), we have \(\textrm` a \langle A
+\neg B \rangle 1 \textrm’ = \textrm` a \textrm’\).</li>
+  <li>
+<strong>Rule A3</strong>. If \([A] &lt; [B]\), \(\textrm` a \langle
+\# [A] 1 [B] \#^* \neg \% \rangle b \textrm’ =
+\textrm` a \langle \# [B] \#^* \neg \% \rangle b
+\textrm’\).</li>
+  <li>
+    <p><strong>Rule A4</strong>. If the first entry in the angle brackets is zero:
+\(\textrm` a \langle 0 [A_{1,1}] 1 [A_{1,2}] \cdots
+[A_{1,p_1}] c_1 \#_1 \neg \#^* \rangle b \textrm’ =
+\textrm` a \langle S_1 \neg \#^* \rangle b \textrm’\).
+Set i to 1.</p>
+  </li>
+  <li>
+<em>Rule A4a</em>. \([A_{i,p_i}] = [1 \neg 1 [A_{i+1,1}] 1
+[A_{i+1,2}] \cdots [A_{i+1,p_{i+1}}] c_i \#_i]\):</li>
+</ul>
+
+<p>\(S_i = \textrm` b \langle A_{i,1}’ \rangle b [A_{i,1}] b
+\langle A_{i,2}’ \rangle b [A_{i,2}] \cdots [A_{i,p_i-1}] b
+\langle b \neg S_{i+1} \rangle b [A_{i,p_i}] c_i \#_i
+\textrm’\). Increase i by 1 and follow Rules A4a~d again.</p>
+
+<ul>
+  <li>
+<em>Rule A4b</em>. \([A_{i,p_i}] = \backslash\):</li>
+</ul>
+
+<p>\(S_i = \textrm` R_b \textrm’\),</p>
+
+<p>\(R_n = \textrm` b \langle A_{i,1}’ \rangle b [A_{i,1}] b
+\langle A_{i,2}’ \rangle b [A_{i,2}] \cdots [A_{i,p_i-1}] b
+\langle R_{n-1} \rangle b [A_{i,p_i}] c_i-1 \#_i
+\textrm’\),</p>
+
+<p>\(R_1 = \textrm` 0 \textrm’\).</p>
+
+<ul>
+  <li>
+<em>Rule A4c</em>. Rule A4b don’t apply, \([A_{i,p_i}] = [1 \neg k
+\#_{i+1}] (k&gt;1)\):</li>
+</ul>
+
+<p>\(S_i = \textrm` b \langle A_{i,1}’ \rangle b [A_{i,1}] b
+\langle A_{i,2}’ \rangle b [A_{i,2}] \cdots [A_{i,p_i-1}] b
+\langle R_b \rangle b [A_{i,p_i}] c_i-1 \#_i \textrm’\),</p>
+
+<p>\(R_n = \textrm` b \langle A_{i,1}’ \rangle b [A_{i,1}] b
+\langle A_{i,2}’ \rangle b [A_{i,2}] \cdots [A_{i,p_i-1}] b
+\langle R_{n-1} \rangle b [A_{i,p_i}] c_i-1 \#_i \neg k-1
+\#_{i+1} \textrm’\),</p>
+
+<p>\(R_1 = \textrm` 0 \textrm’\).</p>
+
+<ul>
+  <li>
+<em>Rule A4d</em>. Otherwise:</li>
+</ul>
+
+<p>\(S_i = \textrm` b \langle A_{i,1}’ \rangle b [A_{i,1}] b
+\langle A_{i,2}’ \rangle b [A_{i,2}] \cdots [A_{i,p_i-1}] b
+\langle A_{i,p_i}’ \rangle b [A_{i,p_i}] c_i-1 \#_i
+\textrm’\).</p>
+
+<ul>
+  <li>
+<strong>Rule A5</strong>. Otherwise, \(\textrm` a \langle c \# \neg
+\#^* \rangle b \textrm’ = \textrm` \underbrace{a \langle
+c-1 \# \neg \#^* \rangle b [c \#] \cdots [c \#] a
+\langle c-1 \# \neg \#^* \rangle b}_b \textrm’\).</li>
+</ul>
+
+<p>Note: \(\#, \#^*, and \%\) does not contain \(\neg\)s.</p>
+
+<p>Limit: \(\{n,n[1[1\neg1\neg2]2]2\}\) has growth rate
+\(\theta(\Omega^\Omega)\).</p>
+
+<h3 id="examples-1">
+<a class="anchor" href="#examples-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h3>
+
+<p>\begin{eqnarray*} \{3 \langle 0 [1 \neg 1 \backslash 2] 2
+\rangle 3\} &amp;=&amp; \{3 \langle 3 \langle 3 \neg
+3,3[2]3,3[3]3,3[2]3,3 \rangle 3 \rangle 3\} \end{eqnarray*}</p>
+
+<hr>
+
+<p>\begin{eqnarray*} \{3 \langle 0 [1 \neg 4] 2 \rangle 3\} &amp;=&amp;
+\{3 \langle 3 \langle 3 \langle 3 \neg 3 \rangle 3 \neg 3
+\rangle 3 \rangle 3\} \end{eqnarray*}</p>
+
+<h2 id="hierarchal-backslashes">
+<a class="anchor" href="#hierarchal-backslashes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hierarchal backslashes</h2>
+
+<ul>
+  <li>
+<strong>Rule A1</strong>. \(\textrm` a \langle 0 \backslash_n \# \rangle
+b \textrm’ = \textrm` a \textrm’, n&gt;1\).</li>
+  <li>
+<strong>Rule A2</strong>. If \(b = 1\), we have \(\textrm` a \langle \#
+\rangle 1 \textrm’ = \textrm` a \textrm’\).</li>
+  <li>
+<strong>Rule A3</strong>. If \([A] &lt; [B]\), \(\textrm` a \langle
+\# [A] 1 [B] \#^* \rangle b \textrm’ = \textrm` a
+\langle \# [B] \#^* \neg \% \rangle b \textrm’\).</li>
+  <li>
+    <p><strong>Rule A4</strong>. If the first entry in the angle brackets is zero:
+\(\textrm` a \langle 0 [A_{1,1,1}] 1 [A_{1,1,2}] \cdots
+[A_{1,1,p_{1,1}}] c_{1,1} \#_{1,1} \backslash_n \#^*
+\rangle b \textrm’ = \textrm` a \langle S_{1,1} \backslash_n
+\#^* \rangle b \textrm’, n&gt;1\). Set i and j to 1.</p>
+  </li>
+  <li>
+<em>Rule A4a</em>. \([A_{i,1,p_{i,1}}] = \backslash\):</li>
+</ul>
+
+<p>\(S_{i,1} = \textrm` R_b \textrm’\),</p>
+
+<p>\(R_n = \textrm` b \langle A_{i,1,1}’ \rangle b [A_{i,1,1}] b
+\langle A_{i,1,2}’ \rangle b [A_{i,1,2}] \cdots
+[A_{i,1,p_{i,1}-1}] b \langle R_{n-1} \rangle b
+[A_{i,1,p_{i,1}}] c_{i,1}-1 \#_{i,1} \textrm’\),</p>
+
+<p>\(R_1 = \textrm` 0 \textrm’\).</p>
+
+<ul>
+  <li>
+<em>Rule A4b</em>. \([A_{i,j,p_{i,1}}] = \backslash_j, j&gt;1\):</li>
+</ul>
+
+<p>\(S_{i,j} = \textrm` R_{b,j-1} \textrm’\),</p>
+
+<p>\(R_{n,j-1}\)</p>
+
+<p>\(= \textrm` b \langle A_{i,j,1}’ \rangle b [A_{i,j,1}] b
+\langle A_{i,j,2}’ \rangle b [A_{i,j,2}] \cdots b \langle
+A_{i,j,p_{i,j}-1}’ \rangle b [A_{i,j,p_{i,j}-1}] b \langle
+A_{i,1,1}’ \rangle b [A_{i,1,1}] b \langle A_{i,1,2}’ \rangle b
+[A_{i,1,2}] \cdots b \langle A_{i,1,p_{i,1}-1}’ \rangle b
+[A_{i,1,p_{i,1}-1}] b \langle R_{n-1,1} \rangle b
+[A_{i,1,p_{i,1}}] c_{i,1}-1 \#_{i,1} \backslash_j c_{i,j}-1
+\#_{i,j} \textrm’\),</p>
+
+<p>\(R_{n,k} = \textrm` b \langle A_{i,k+1,1}’ \rangle b
+[A_{i,k+1,1}] b \langle A_{i,k+1,2}’ \rangle b [A_{i,k+1,2}]
+\cdots b \langle A_{i,k+1,p_{i,k+1}-1}’ \rangle b
+[A_{i,k+1,p_{i,k+1}-1}] b \langle R_{n,k+1} \rangle b
+[A_{i,k+1,p_{i,k+1}}] c_{i,k+1}-1 \#_{i,k+1} \textrm’\)</p>
+
+<p>\(R_{1,1} = \textrm` 0 \textrm’\).</p>
+
+<ul>
+  <li>
+<em>Rule A4e</em>. Otherwise:</li>
+</ul>
+
+<p>\(S_i = \textrm` b \langle A_{i,1,1}’ \rangle b [A_{i,1,1}] b
+\langle A_{i,1,2}’ \rangle b [A_{i,1,2}] \cdots
+[A_{i,1,p_{i,1}-1}] b \langle A_{i,1,p_{i,1}}’ \rangle b
+[A_{i,1,p_{i,1}}] c_{i,1}-1 \#_{i,1} \textrm’\).</p>
+
+<ul>
+  <li>
+<strong>Rule A5</strong>. Otherwise, \(\textrm` a \langle c \# \rangle b
+\textrm’ = \textrm` \underbrace{a \langle c-1 \# \rangle b
+[c \#] \cdots [c \#] a \langle c-1 \# \rangle b}_b
+\textrm’\).</li>
+</ul>
+
+<h1 id="hierarchal-hyper-nested-arrays">
+<a class="anchor" href="#hierarchal-hyper-nested-arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hierarchal Hyper-Nested arrays</h1>
+
+<h1 id="nested-hierarchal-hyper-nested-arrays">
+<a class="anchor" href="#nested-hierarchal-hyper-nested-arrays" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nested Hierarchal Hyper-Nested arrays</h1>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

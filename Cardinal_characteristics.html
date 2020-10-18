@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Cardinal characteristics of the continuum | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Cardinal characteristics of the continuum" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Cardinal_characteristics","@type":"WebPage","headline":"Cardinal characteristics of the continuum","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Cardinal characteristics of the continuum</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#the-bounding-number">The bounding number</a></li>
+<li class="toc-entry toc-h2"><a href="#the-dominating-number">The dominating number</a></li>
+<li class="toc-entry toc-h2"><a href="#the-covering-numbers">The covering numbers</a></li>
+<li class="toc-entry toc-h2"><a href="#the-additivity-numbers">The additivity numbers</a></li>
+<li class="toc-entry toc-h2"><a href="#cichońs-diagram">Cichoń’s diagram</a></li>
+</ul><p>The subject known as <em>cardinal characteristics of the continuum</em>
+explores the rich territory—sometimes hidden from view, depending on
+the set-theoretic background—between the <a href="Omega" title="Omega">countably
+infinite</a>
+cardinal $\aleph_0$ and the
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+cardinality of the
+<a href="Continuum" title="Continuum">continuum</a>.
+The subject begins with Cantor’s theorem laying out the basic dichotomy
+that the continuum $\frak{c}=2^{\aleph_0}$ is strictly larger than
+$\aleph_0$, and goes on to explore the various ways that properties of
+<a href="Aleph_zero" class="mw-redirect" title="Aleph zero">$\aleph_0$</a>
+might extend to uncountable cardinals.</p>
+
+<p>For example, the union of countably many measure zero subsets of
+$\mathbb{R}$ has measure $0$; the union of countably many meager sets
+is meager; every countable number of functions $f:\omega\to\omega$ is
+bounded by a single function under eventual domination; every countable
+set of reals has measure $0$. To what extent can we hope to extend such
+properties to uncountable collections? The various cardinal
+characteristics of the continuum, many of which are described below, are
+defined exactly to be the cardinalities where these and other similar
+such properties first begin to fail for uncountable collections. Each
+cardinal characteristic measures the extent to which a particular
+mathematical phenomenon extends from the countable to the uncountable,
+and the lesson of the subject is that there is an enormous diversity of
+such characteristics, exhibiting diverse combinations in various models
+of set theory. When the continuum is small, the characteristics are
+pressed together—under the
+<a href="Continuum_hypothesis" class="mw-redirect" title="Continuum hypothesis">continuum hypothesis</a>,
+for example, they are all equal to the continuum—but in other models,
+the different characteristics are teased apart and seen to express
+fundamentally different inequivalent properties. The subject breaks into
+two major components: first, proving the positive relations amongs the
+characteristics, such as
+$\omega_1\leq\frak{b}\leq\frak{d}\leq\frak{c}$; and second,
+constructing models of set theory, generally by
+<a href="Forcing" title="Forcing">forcing</a>,
+which reveal the range of possibility, such as a model in which
+$\omega_1\lt\frak{b}\lt\frak{d}\lt\frak{c}$. Thus, the
+philosophy of the subject naturally exhibits an unusual degree of
+contingency for set-theoretic truth: we understand the cardinal
+characteristic more deeply because we know the range of possibility for
+their relations to each other.</p>
+
+<p>An excellent general resource on the subject is
+<a class="citation" href="#Blass2010">(Blass, 2010)</a>.</p>
+
+<h2 id="the-bounding-number">
+<a class="anchor" href="#the-bounding-number" aria-hidden="true"><span class="octicon octicon-link"></span></a>The bounding number</h2>
+
+<p>The <em>bounding number</em> $\frak{b}$ is the size of the smallest family of
+functions $f:\omega\to\omega$ that is not bounded with respect to
+eventual domination.</p>
+
+<h2 id="the-dominating-number">
+<a class="anchor" href="#the-dominating-number" aria-hidden="true"><span class="octicon octicon-link"></span></a>The dominating number</h2>
+
+<p>The <em>dominating number</em> $\frak{d}$ is the size of the smallest family
+of functions $f:\omega\to\omega$, such that every function is
+eventually dominated by a function in the family.</p>
+
+<h2 id="the-covering-numbers">
+<a class="anchor" href="#the-covering-numbers" aria-hidden="true"><span class="octicon octicon-link"></span></a>The covering numbers</h2>
+
+<h2 id="the-additivity-numbers">
+<a class="anchor" href="#the-additivity-numbers" aria-hidden="true"><span class="octicon octicon-link"></span></a>The additivity numbers</h2>
+
+<h2 id="cichońs-diagram">
+<a class="anchor" href="#cicho%C5%84s-diagram" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cichoń’s diagram</h2>
+
+<p><a href="Cov(L)" class="mw-redirect" title="Cov(L)">${\rm cov}({\mathcal L})$</a></p>
+
+<p>$\longrightarrow$</p>
+
+<p><a href="index.php?title=Non(K)&amp;action=edit&amp;redlink=1" class="new" title="Non(K) (page does not exist)">${\rm non}({\mathcal K})$</a></p>
+
+<p>$\longrightarrow$</p>
+
+<p><a href="index.php?title=Cof(K)&amp;action=edit&amp;redlink=1" class="new" title="Cof(K) (page does not exist)">${\rm cof}({\mathcal K})$</a></p>
+
+<p>$\longrightarrow$</p>
+
+<p><a href="index.php?title=Cof(L)&amp;action=edit&amp;redlink=1" class="new" title="Cof(L) (page does not exist)">${\rm cof}({\mathcal L})$</a></p>
+
+<p>$\longrightarrow$</p>
+
+<p><a href="Continuum" title="Continuum">$2^{\aleph_0}$</a></p>
+
+<p>$ \Bigg\uparrow $</p>
+
+<p>$\uparrow$</p>
+
+<p>$ \uparrow$</p>
+
+<p>$ \Bigg\uparrow $</p>
+
+<p><a href="Bounding_number" class="mw-redirect" title="Bounding number">${\mathfrak b} $</a></p>
+
+<p>$\longrightarrow$</p>
+
+<p><a href="Dominating_number" class="mw-redirect" title="Dominating number">${\mathfrak d} $</a></p>
+
+<p>$\uparrow$</p>
+
+<p>$\uparrow$</p>
+
+<p><a href="Aleph_one" class="mw-redirect" title="Aleph one">$\aleph_1$</a></p>
+
+<p>$\longrightarrow$</p>
+
+<p><a href="index.php?title=Add(L)&amp;action=edit&amp;redlink=1" class="new" title="Add(L) (page does not exist)">${\rm add}({\mathcal L})$</a></p>
+
+<p>$\longrightarrow$</p>
+
+<p><a href="index.php?title=Add(K)&amp;action=edit&amp;redlink=1" class="new" title="Add(K) (page does not exist)">${\rm add}({\mathcal K})$</a></p>
+
+<p>$\longrightarrow$</p>
+
+<p><a href="index.php?title=Cov(K)&amp;action=edit&amp;redlink=1" class="new" title="Cov(K) (page does not exist)">${\rm cov}({\mathcal K})$</a></p>
+
+<p>$\longrightarrow$</p>
+
+<p><a href="index.php?title=Non(L)&amp;action=edit&amp;redlink=1" class="new" title="Non(L) (page does not exist)">${\rm non}({\mathcal L})$</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    This article is a stub. Please help us to improve Cantor's Attic by adding information.
+</code></pre></div></div>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Blass2010">Blass, A. (2010). Chapter 6: Cardinal characteristics of the continuum. <i>Handbook of Set Theory</i>. http://www.math.lsa.umich.edu/ ablass/hbk.pdf</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

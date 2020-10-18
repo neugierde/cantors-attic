@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Remarkable cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Remarkable cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Remarkable","@type":"WebPage","headline":"Remarkable cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Remarkable cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definitions">Definitions</a></li>
+<li class="toc-entry toc-h2"><a href="#results">Results</a></li>
+<li class="toc-entry toc-h2"><a href="#weakly-remarkable-cardinals">Weakly remarkable cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#n-remarkable-cardinals">$n$-remarkable cardinals</a></li>
+</ul><p>Remarkable cardinals were introduced by Schinder in
+<a class="citation" href="#Schindler2000">(Schindler, 2000)</a> to provide precise
+consistency strength of the statement that $L(\mathbb R)$ cannot be
+modified by proper forcing.</p>
+
+<h2 id="definitions">
+<a class="anchor" href="#definitions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definitions</h2>
+
+<p>A cardinal $\kappa$ is remarkable if for each regular
+$\lambda&gt;\kappa$, there exists a countable transitive $M$ and an
+elementary embedding $e:M\rightarrow H_\lambda$ with $\kappa\in
+\text{ran}(e)$ and also a countable transitive $N$ and an elementary
+embedding $\theta:M\to N$ such that:</p>
+
+<ul>
+  <li>the critical point of $\theta$ is $e^{-1}(\kappa)$,</li>
+  <li>$\text{Ord}^M$ is a regular cardinal in $N$,</li>
+  <li>$M=H^N_{\text{Ord}^M}$,</li>
+  <li>$\theta(e^{-1}(\kappa))&gt;\text{Ord}^M$.</li>
+</ul>
+
+<p>Remarkable cardinals could be called virtually
+<a href="Supercompact" title="Supercompact">supercompact</a>,
+because the following alternative definition is an exact analogue of the
+definition of supercompact cardinals by Magidor [Mag71]:</p>
+
+<p>A cardinal $κ$ is remarkable iff for every $η &gt; κ$, there is $α &lt;
+κ$ such that in a set-forcing extension there is an elementary embedding
+$j : V_α → V_η$ with $j(\mathrm{crit}(j)) =
+κ$.<a class="citation" href="#Gitmana">(Gitman &amp; Shindler, n.d.)</a></p>
+
+<p>Equivalently (theorem
+2.4<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>)</p>
+
+<ul>
+  <li>For every $η &gt; κ$ and every $a ∈ V_η$, there is $α &lt; κ$ such
+that in $V^{Coll(ω,&lt;κ)}$ there is an elementary embedding $j :
+V_α → V_η$ with $j(crit(j)) = κ$ and $a ∈ range(j)$.</li>
+  <li>For every $η &gt; κ$ in $C^{(1)}$ and every $a ∈ V_η$, there is $α
+&lt; κ$ also in $C^{(1)}$ such that in $V^{Coll(ω,&lt;κ)}$ there is
+an elementary embedding $j : V_α → V_η$ with $j(crit(j)) = κ$ and
+$a ∈ range(j)$.</li>
+  <li>There is a proper class of $η &gt; κ$ such that for every $η$ in the
+class, there is $α &lt; κ$ such that in $V^{Coll(ω,&lt;κ)}$ there is
+an elementary embedding $j : V_α → V_η$ with $j(crit(j)) = κ$</li>
+</ul>
+
+<p>Note: the existence of any such elementary embedding in
+$V^{Coll(ω,&lt;κ)}$ is equivalent to the existence of such elementary
+embedding in any forcing extension (see
+<a href="Elementary_embedding#Absoluteness" title="Elementary embedding">Elementary_embedding#Absoluteness</a>).<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a>.</p>
+
+<h2 id="results">
+<a class="anchor" href="#results" aria-hidden="true"><span class="octicon octicon-link"></span></a>Results</h2>
+
+<p>Remarkable cardinals and the constructible universe:</p>
+
+<ul>
+  <li>Remarkable cardinals are downward absolute to $L$.
+<a class="citation" href="#Schindler2000">(Schindler, 2000)</a>
+</li>
+  <li>If
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
+exists, then every Silver indiscernible is remarkable in $L$.
+<a class="citation" href="#Schindler2000">(Schindler, 2000)</a>
+</li>
+</ul>
+
+<p>Relations with other large cardinals:</p>
+
+<ul>
+  <li>
+<a href="Strong" title="Strong">Strong</a>
+cardinals are remarkable.
+<a class="citation" href="#Schindler2000">(Schindler, 2000)</a>
+</li>
+  <li>A
+<a href="Iterable" class="mw-redirect" title="Iterable">$2$-iterable</a>
+cardinal implies the consistency of a remarkable cardinal: Every
+$2$-iterable cardinal is a limit of remarkable cardinals.
+<a class="citation" href="#Gitman2011a">(Gitman &amp; Welch, 2011)</a>
+</li>
+  <li>Remarkable cardinals imply the consistency of
+<a href="Iterable" class="mw-redirect" title="Iterable">$1$-iterable cardinals</a>:
+If there is a remarkable cardinal, then there is a countable
+transitive model of ZFC with a proper class of $1$-iterable
+cardinals. <a class="citation" href="#Gitman2011a">(Gitman &amp; Welch, 2011)</a>
+</li>
+  <li>Remarkable cardinals are
+<a href="Totally_indescribable" class="mw-redirect" title="Totally indescribable">totally indescribable</a>.
+<a class="citation" href="#Schindler2000">(Schindler, 2000)</a>
+</li>
+  <li>Remarkable cardinals are <a href="Ineffable" title="Ineffable">totally
+ineffable</a>.
+<a class="citation" href="#Schindler2000">(Schindler, 2000)</a>
+</li>
+  <li>
+<a href="Extendible" title="Extendible">Virtually
+extendible</a>
+cardinals are remarkable limits of remarkable
+cardinals.<a class="citation" href="#Gitmana">(Gitman &amp; Shindler, n.d.)</a>
+</li>
+  <li>If $κ$ is virtually
+<a href="Measurable" title="Measurable">measurable</a>,
+then either $κ$ is remarkable in $L$ or $L_κ \models \text{“there
+is a proper class of virtually
+measurables”}$.<a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+</li>
+  <li>Remarkable cardinals are strategic
+$ω$-<a href="Ramsey" title="Ramsey">Ramsey</a>
+limits of $ω$-Ramsey
+cardinals.<a class="citation" href="#Nielsen2018">(Nielsen &amp; Welch, 2018)</a>
+</li>
+  <li>Remarkable cardinals are
+$Σ_2$-reflecting.<a class="citation" href="#Wilson2018">(Wilson, 2018)</a>
+</li>
+</ul>
+
+<p>Equiconsistency with the <a href="Forcing" title="Forcing">weak Proper Forcing
+Axiom</a>:<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a></p>
+
+<ul>
+  <li>If there is a remarkable cardinal, then $\text{wPFA}$ holds in a
+forcing extension by a proper poset.</li>
+  <li>If $\text{wPFA}$ holds, then $ω_2^V$ is remarkable in $L$.</li>
+</ul>
+
+<h2 id="weakly-remarkable-cardinals">
+<a class="anchor" href="#weakly-remarkable-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weakly remarkable cardinals</h2>
+
+<p>(this section from
+<a class="citation" href="#Wilson2018">(Wilson, 2018)</a>)</p>
+
+<p>A cardinal $κ$ is weakly remarkable iff for every $η &gt; κ$, there is
+$α$ such that in a set-forcing extension there is an elementary
+embedding $j : V_α → V_η$ with $j(\mathrm{crit}(j)) = κ$. (the
+condition $α &lt; κ$ is dropped)</p>
+
+<p>A cardinal is remarkable iff it is weakly remarkable and
+$Σ_2$-reflecting.</p>
+
+<p>The existence of non-remarkable weakly remarkable cardinals is
+equiconsistent to the existence of an
+<a href="Erdos" title="Erdos">$ω$-Erdős</a>
+cardinal (equivalent assuming $V=L$; Baumgartner definition of $ω$-Erdős
+cardinals):</p>
+
+<ul>
+  <li>Every $ω$-Erdős cardinal is a limit of non-remarkable weakly
+remarkable cardinals.</li>
+  <li>If $κ$ is a non-remarkable weakly remarkable cardinal, then some
+ordinal greater than $κ$ is an $ω$-Erdős cardinal in $L$.</li>
+</ul>
+
+<h2 id="n-remarkable-cardinals">
+<a class="anchor" href="#n-remarkable-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>$n$-remarkable cardinals</h2>
+
+<p>$1$-remarkability is equivalent to remarkability. A cardinal is
+virtually $C^{(n)}$-extendible iff it is $n + 1$-remarkable (virtually
+extendible cardinals are virtually $C^{(1)}$-extendible). A cardinal is
+called <strong>completely remarkable</strong> iff it is $n$-remarkable for all $n
+&gt; 0$. Other definitions and properties in <a href="Extendible#Virtually_extendible_cardinals" title="Extendible">Extendible#Virtually
+extendible
+cardinals</a>.<a class="citation" href="#Bagaria2017a">(Bagaria et al., 2017)</a></p>
+
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Schindler2000">Schindler, R.-D. (2000). Proper forcing and remarkable cardinals. <i>Bull. Symbolic Logic</i>, <i>6</i>(2), 176–184. https://doi.org/10.2307/421205</span></li>
+<li><span id="Gitmana">Gitman, V., &amp; Shindler, R. <i>Virtual large cardinals</i>. https://ivv5hpp.uni-muenster.de/u/rds/virtualLargeCardinalsEdited5.pdf</span></li>
+<li><span id="Bagaria2017a">Bagaria, J., Gitman, V., &amp; Schindler, R. (2017). Generic Vopěnkaś Principle, remarkable cardinals, and the weak Proper Forcing Axiom. <i>Arch. Math. Logic</i>, <i>56</i>(1-2), 1–20. https://doi.org/10.1007/s00153-016-0511-x</span></li>
+<li><span id="Gitman2011a">Gitman, V., &amp; Welch, P. (2011). Ramsey-like cardinals II. <i>J. Symbolic Logic</i>, <i>76</i>(2), 541–560. http://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinalsii.pdf</span></li>
+<li><span id="Nielsen2018">Nielsen, D. S., &amp; Welch, P. (2018). <i>Games and Ramsey-like cardinals</i>.</span></li>
+<li><span id="Wilson2018">Wilson, T. M. (2018). <i>Weakly remarkable cardinals, Erdős cardinals, and the generic Vopěnka principle</i>.</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

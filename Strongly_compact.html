@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Strongly compact cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Strongly compact cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Strongly_compact","@type":"WebPage","headline":"Strongly compact cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Strongly compact cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#diverse-characterizations">Diverse characterizations</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#strong-compactness-characterization">Strong compactness characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#strong-compactness-embedding-characterization">Strong compactness embedding characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#cover-property-characterization">Cover property characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#fine-measure-characterization">Fine measure characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#filter-extension-characterization">Filter extension characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#discontinuous-ultrapower-characterization">Discontinuous ultrapower characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#discontinuous-embedding-characterization">Discontinuous embedding characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#ketonen-characterization">Ketonen characterization</a></li>
+<li class="toc-entry toc-h3"><a href="#regular-ultrafilter-characterization">Regular ultrafilter characterization</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#strongly-compact-cardinals-and-forcing">Strongly compact cardinals and forcing</a></li>
+<li class="toc-entry toc-h2"><a href="#relation-to-other-large-cardinal-notions">Relation to other large cardinal notions</a></li>
+<li class="toc-entry toc-h2"><a href="#topological-relevance">Topological Relevance</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#intuition">Intuition</a></li>
+</ul>
+</li>
+</ul><p>The strongly compact cardinals have their origins in the generalization
+of the compactness theorem of first order logic to infinitary languages,
+for an uncountable cardinal $\kappa$ is <em>strongly compact</em> if the
+infinitary logic $L_{\kappa,\kappa}$ exhibits the
+$\kappa$-compactness property. It turns out that this model-theoretic
+concept admits fruitful embedding characterizations, which as with so
+many large cardinal notions, has become the focus of study. Strong
+compactness rarefies into a hierarchy, and a cardinal $\kappa$ is
+strongly compact if and only if it is $\theta$-strongly compact for
+every ordinal $\theta\geq\kappa$.</p>
+
+<p>The strongly compact embedding characterizations are closely related to
+that of
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinals, which are characterized by <a href="Elementary_embedding" title="Elementary embedding">elementary
+embeddings</a>
+with a high degree of closure: $\kappa$ is
+$\theta$-<a href="Supercompact" title="Supercompact">supercompact</a>
+if and only if there is an embedding $j:V\to M$ with critical point
+$\kappa$ such that $\theta&lt;j(\kappa)$ and every subset of $M$ of
+size $\theta$ is an element of $M$. By weakening this closure
+requirement to insist only that $M$ contains a small cover for any
+subset of size $\theta$, or even just a small cover of the set
+$j’’\theta$ itself, we arrive at the $\theta$-strongly compact
+cardinals. It follows that every
+$\theta$-<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinal is $\theta$-strongly compact and so every supercompact
+cardinal is strongly compact. Furthermore, since every ultrapower
+embedding $j:V\to M$ with critical point $\kappa$ has
+$M^\kappa\subset M$, for $\theta$-strong compactness we may restrict
+our attention to the case when $\kappa\leq\theta$.</p>
+
+<h2 id="diverse-characterizations">
+<a class="anchor" href="#diverse-characterizations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Diverse characterizations</h2>
+
+<p>There are diverse equivalent characterizations of the strongly compact
+cardinals.</p>
+
+<h3 id="strong-compactness-characterization">
+<a class="anchor" href="#strong-compactness-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strong compactness characterization</h3>
+
+<p>An uncountable cardinal $\kappa$ is <em>strongly compact</em> if every
+$\kappa$-satisfiable theory in the infinitary logic
+$L_{\kappa,\kappa}$ is satisfiable. The signature of an
+$L_{\kappa,\kappa}$ language consists, just as in the first order
+context, of a set of finitary function, relation and constant symbols.
+The $L_{\kappa,\kappa}$ formulas, however, are built up in an
+infinitary process, by closing under infinitary conjunctions
+$\wedge_{\alpha&lt;\delta}\varphi_\alpha$ and disjunctions
+$\vee_{\alpha&lt;\delta}\varphi_\alpha$ of any size
+$\delta&lt;\kappa$, as well as infinitary quantification
+$\exists\vec x$ and $\forall\vec x$ over blocks of variables $\vec
+x=\langle x_\alpha\mid\alpha&lt;\delta\rangle$ of size less than
+$\kappa$. A theory in such a language is <em>satisfiable</em> if it has a
+model under the natural semantics. A theory is <em>$\kappa$-satisfiable</em>
+if every subtheory consisting of fewer than $\kappa$ many sentences of
+it is satisfiable. First order logic is precisely
+$L_{\omega,\omega}$, and the classical compactness theorem asserts
+that every $\omega$-satisfiable $L_{\omega,\omega}$ theory is
+satisfiable. Similarly, an uncountable cardinal $\kappa$ is defined to
+be <em>strongly compact</em> if every $\kappa$-satisfiable
+$L_{\kappa,\kappa}$ theory is satisfiable (and we call this the
+<em>$\kappa$-compactness property}</em>). The cardinal $\kappa$ is <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>,
+in contrast, if every $\kappa$-satisfiable $L_{\kappa,\kappa}$
+theory, in a language having at most $\kappa$ many constant, function
+and relation symbols, is satisfiable.</p>
+
+<h3 id="strong-compactness-embedding-characterization">
+<a class="anchor" href="#strong-compactness-embedding-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strong compactness embedding characterization</h3>
+
+<p>A cardinal $\kappa$ is $\theta$-strongly compact if and only if there
+is an <a href="Elementary_embedding" title="Elementary embedding">elementary
+embedding</a>
+$j:V\to M$ of the set-theoretic universe $V$ into a transitive class
+$M$ with critical point $\kappa$, such that $j’’\theta\subset s\in
+M$ for some set $s\in M$ with $|s|^M\lt j(\kappa)$.
+<a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<h3 id="cover-property-characterization">
+<a class="anchor" href="#cover-property-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cover property characterization</h3>
+
+<p>A cardinal $\kappa$ is $\theta$-strongly compact if and only if there
+is an ultrapower embedding $j:V\to M$, with critical point $\kappa$,
+that exhibits the <em>$\theta$-strong compactness cover property</em>, meaning
+that for every $t\subset M$ of size $\theta$ there is $s\in M$ with
+$t\subset s$ and $|s|^M&lt;j(\kappa)$.</p>
+
+<h3 id="fine-measure-characterization">
+<a class="anchor" href="#fine-measure-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fine measure characterization</h3>
+
+<p>An uncountable cardinal $\kappa$ is $\theta$-strongly compact if and
+only if there is a <a href="Filter" title="Filter">fine
+measure</a>
+on $\mathcal{P}_\kappa(\theta)$. The notation
+$\mathcal{P}_\kappa(\theta)$ means $\{\sigma\subset\theta\mid
+|\sigma|&lt;\kappa\}$. <a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<h3 id="filter-extension-characterization">
+<a class="anchor" href="#filter-extension-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Filter extension characterization</h3>
+
+<p>An uncountable cardinal $\kappa$ is $\theta$-strongly compact if and
+only if every $\kappa$-complete
+<a href="Filter" title="Filter">filter</a>
+of size at most $\theta$ on a set extends to a $\kappa$-complete
+ultrafilter on that set. <a class="citation" href="#Kanamori2009">(Kanamori, 2009)</a></p>
+
+<h3 id="discontinuous-ultrapower-characterization">
+<a class="anchor" href="#discontinuous-ultrapower-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Discontinuous ultrapower characterization</h3>
+
+<p>A cardinal $\kappa$ is $\theta$-strongly compact if and only if there
+is an ultrapower embedding $j:V\to M$ with critical point $\kappa$,
+such that $\sup j’’\lambda&lt;j(\lambda)$ for every regular
+$\lambda$ with $\kappa\leq\lambda\leq\theta^{\lt\kappa}$. In
+other words, the embedding is discontinuous at all such $\lambda$.</p>
+
+<h3 id="discontinuous-embedding-characterization">
+<a class="anchor" href="#discontinuous-embedding-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Discontinuous embedding characterization</h3>
+
+<p>A cardinal $\kappa$ is $\theta$-strongly compact if and only if for
+every regular $\lambda$ with
+$\kappa\leq\lambda\leq\theta^{\lt\kappa}$, there is an embedding
+$j:V\to M$ with critical point $\kappa$ and $\sup
+j’’\lambda&lt;j(\lambda)$.</p>
+
+<h3 id="ketonen-characterization">
+<a class="anchor" href="#ketonen-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ketonen characterization</h3>
+
+<p>An uncountable regular cardinal $\kappa$ is $\theta$-strongly compact
+if and only if there is a $\kappa$-complete uniform ultrafilter on
+every regular $\lambda$ with
+$\kappa\leq\lambda\leq\theta^{\lt\kappa}$. An ultrafilter $\mu$
+on a cardinal $\lambda$ is <em>uniform</em> if all final segments
+$[\beta,\lambda)= \{\alpha&lt;\lambda\mid \beta\leq\alpha\}$
+are in $\mu$. When $\lambda$ is regular, this is equivalent to
+requiring that all elements of $\mu$ have the same cardinality.</p>
+
+<h3 id="regular-ultrafilter-characterization">
+<a class="anchor" href="#regular-ultrafilter-characterization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Regular ultrafilter characterization</h3>
+
+<p>An uncountable cardinal $\kappa$ is $\theta$-strongly compact if and
+only if there is a $(\kappa,\theta)$-regular ultrafilter on some set.
+An ultrafilter $\mu$ is <em>$(\kappa,\theta)$-regular</em> if it is
+$\kappa$-complete and there is a family
+$\{X_\alpha\mid\alpha&lt;\theta\}\subset \mu$ such that
+$\bigcap_{\alpha\in I}X_\alpha=\emptyset$ for any $I$ with
+$|I|=\kappa$.</p>
+
+<h2 id="strongly-compact-cardinals-and-forcing">
+<a class="anchor" href="#strongly-compact-cardinals-and-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strongly compact cardinals and forcing</h2>
+
+<p>If there is proper class-many strongly compact cardinals, then there is
+a <a href="Forcing" title="Forcing">generic
+model</a>
+of $\text{ZF}$ + “all uncountable cardinals are singular”. If each
+strongly compact cardinal is a limit of measurable cardinals, and if the
+limit of any sequence of strongly compact cardinals is singular, then
+there is a forcing extension V[G] that is a symmetric model of
+$\text{ZF}$ + “all uncountable cardinals are singular” + “every
+uncountable cardinal is both almost
+<a href="Ramsey" title="Ramsey">Ramsey</a>
+and a
+<a href="Rowbottom" title="Rowbottom">Rowbottom</a>
+cardinal carrying a Rowbottom filter”. This also directly follows from
+the existence of a proper class of supercompact cardinals, as every
+supercomact cardinal is simultaneously strongly compact and a limit of
+measurable cardinals.</p>
+
+<h2 id="relation-to-other-large-cardinal-notions">
+<a class="anchor" href="#relation-to-other-large-cardinal-notions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relation to other large cardinal notions</h2>
+
+<p>Strongly compact cardinals are
+<a href="Measurable" title="Measurable">measurable</a>.
+The least strongly compact cardinal can be equal to the least measurable
+cardinal, or to the least
+<a href="Supercompact" title="Supercompact">supercompact</a>
+cardinal, by results of Magidor. <a class="citation" href="#Jech2003">(Jech, 2003)</a> (It
+cannot be equal to both at once because the least measurable cardinal
+cannot be supercompact.)</p>
+
+<p>Even though strongly compact cardinals imply the consistency of the
+negation of the singular cardinal hypothesis, SCH, for any singular
+strong limit cardinal $\kappa$ above the least strongly compact
+cardinal, $2^\kappa=\kappa^+$ (also known as “SCH holds above strong
+compactness”). <a class="citation" href="#Jech2003">(Jech, 2003)</a></p>
+
+<p>If there is a strongly compact cardinal $\kappa$ then for all
+$\lambda\geq\kappa$ and $A\subseteq\lambda$, $\lambda^+$ is
+<a href="Ineffable" title="Ineffable">ineffable</a>
+in $L[A]$.</p>
+
+<p>It is not currently known whether the existence of a strongly compact
+cardinal is equiconsistent with the existence of a supercompact
+cardinal. The
+<a href="Ultrapower_axiom" class="mw-redirect" title="Ultrapower axiom">ultrapower axiom</a>
+gives a positive answer to this, but itself isn’t known to be consistent
+with the existence of a supercompact in the first place.</p>
+
+<p>Every strongly compact cardinal is
+<a href="Strongly_tall" class="mw-redirect" title="Strongly tall">strongly tall</a>,
+although the existence of a strongly compact cardinal is equiconsistent
+with “the least measurable cardinal is the least strongly compact
+cardinal, and therefore the least strongly tall cardinal”, so it could
+be the case that the least of the measurable, tall, strongly tall, and
+strongly compact cardinals all line up.</p>
+
+<h2 id="topological-relevance">
+<a class="anchor" href="#topological-relevance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Topological Relevance</h2>
+
+<p>Strongly compact cardinals are related to the topological notion of
+compactness, interestingly enough.</p>
+
+<h3 id="intuition">
+<a class="anchor" href="#intuition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Intuition</h3>
+
+<p>A topological space $X$ is called $\kappa$-compact when every open
+cover has a subcover of size below $\kappa$. More intuitively, it
+“looks” as though it has size below $\kappa$. For example, the
+$\aleph_0$-compact subspaces of the real number line are just the
+subspaces which are bounded. For example, a shape with finite area could
+be considered $\aleph_0$-compact, even though the amount of points is
+not only infinite but continuum-sized.</p>
+
+<p>The product of a collection of spaces is a little difficult to describe
+intuitively. However, it notably increases the amount of “dimensions” to
+a space. For example, the product of $n$-copies of the real number line
+is just the $n$-dimensional euclidean space (the line, the plane, etc.).
+Also, the general intuition is that it doesn’t make spaces any bigger
+than the biggest one in the collection, so the product of a bunch of
+small spaces and a big space should be no ‘bigger’ than the big space.</p>
+
+<p>The idea is that the product of $\kappa$-compact spaces should itself
+be $\kappa$-compact, since the product doesn’t make spaces any
+“bigger.” However, there are examples of two $\aleph_1$-compact spaces
+(they “look countably infinite”) which combine to make a space which
+isn’t $\aleph_1$-compact (“looks uncountable”). However, if $\kappa$
+is strongly compact, then this intuition holds; the product of any
+$\kappa$-compact spaces is strongly compact. One could maybe see why
+strongly compact cardinals are so big then; they imply that combining a
+bunch of small-relative-to-$\kappa$ spaces together by adding
+arbitrarily many dimensions keeps the space looking small relative to
+$\kappa$.’</p>
+
+<p>Tychonoff’s theorem is precisely the statement that the product of
+$\aleph_0$-compact spaces is $\aleph_0$-compact; that is, if you
+combine a bunch of finite-looking spaces together and keep adding more
+and more dimensions, you get a space which is finite-looking.</p>
+
+<p><em>(Sources to be added)</em></p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Kanamori2009">Kanamori, A. (2009). <i>The higher infinite</i> (Second, p. xxii+536). Springer-Verlag. https://link.springer.com/book/10.1007%2F978-3-540-88867-3</span></li>
+<li><span id="Jech2003">Jech, T. J. (2003). <i>Set Theory</i> (Third). Springer-Verlag. https://logic.wikischolars.columbia.edu/file/view/Jech%2C+T.+J.+%282003%29.+Set+Theory+%28The+3rd+millennium+ed.%29.pdf</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

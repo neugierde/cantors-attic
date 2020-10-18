@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Elementary embedding | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Elementary embedding" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Elementary_embedding","@type":"WebPage","headline":"Elementary embedding","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Elementary embedding</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definition">Definition</a></li>
+<li class="toc-entry toc-h2"><a href="#tarski-vaught-test">Tarski-Vaught Test</a></li>
+<li class="toc-entry toc-h2"><a href="#use-in-large-cardinal-axioms">Use in Large Cardinal Axioms</a></li>
+<li class="toc-entry toc-h2"><a href="#absoluteness">Absoluteness</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#in-the-language-of-game-theory">In the language of game theory</a></li>
+</ul>
+</li>
+</ul><p>Given two transitive structures $\mathcal{M}$ and $\mathcal{N}$, an
+<strong>elementary embedding</strong> from $\mathcal{M}$ to $\mathcal{N}$ is a
+function $j:\mathcal{M}\to\mathcal{N}$ such that $j(\mathcal{M})$ is
+an <em>elementary substructure</em> of $\mathcal{N}$, i.e. satisfies the same
+first-order sentences as $\mathcal{N}$ does. Obviously, if
+$\mathcal{M}=\mathcal{N}$, then $j(x)=x$ is an elementary embedding
+from $\mathcal{M}$ to itself, but is then called a <strong>trivial</strong>
+embedding. An embedding is <strong>nontrivial</strong> if there exists
+$x\in\mathcal{M}$ such that $j(x)\neq x$.</p>
+
+<p>The critical point is the smallest ordinal moved by $j$. By $j$’s
+elementarity, $j(\kappa)$ must also be an ordinal, and therefore it is
+comparable with $\kappa$. It is easy to see why
+$j(\kappa)\leq\kappa$ is impossible, thus $j(\kappa)&gt;\kappa$.</p>
+
+<h2 id="definition">
+<a class="anchor" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h2>
+
+<p>Given two transitive classes $\mathcal{M}$ and $\mathcal{N}$, and a
+function $j:\mathcal{M}\rightarrow\mathcal{N}$, $j$ is an elementary
+embedding if and only if for every first-order formula $\varphi$ with
+parameters $x_1,…,x_n\in\mathcal{N}$, one has:
+\(\\mathcal{M}\\models\\varphi(x\_1,...,x\_2)\\iff\\mathcal{N}\\models\\varphi(j(x\_1),...,j(x\_2))\)</p>
+
+<p>$j$ is nontrivial if and only if it has a critical point, i.e.
+$\exists\kappa(j(\kappa)\neq\kappa)$. Indeed, one can show by
+transfinite induction that if $j$ does not move any ordinal then $j$
+does not move any set at all, thus a critical point must exists whenever
+$j$ is nontrivial.</p>
+
+<h2 id="tarski-vaught-test">
+<a class="anchor" href="#tarski-vaught-test" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tarski-Vaught Test</h2>
+
+<p>If $\mathcal{M}$ and $\mathcal{N}$ are both $\tau$-structures for
+some language $\tau$, and $j:\mathcal{M}\rightarrow\mathcal{N}$,
+then $j$ is an elementary embedding iff:</p>
+
+<ol>
+  <li>$j$ is injective (for any $x$ in $N$, there is <em>at most</em> one $y$ in
+$M$ such that $j(y)=x$).</li>
+  <li>$j$ has the following properties:
+    <ol>
+      <li>For any constant symbol $c\in\tau$,
+$j(c^\mathcal{M})=c^\mathcal{N}$.</li>
+      <li>For any function symbol $f\in\tau$ and $a_0,a_1…\in M$,
+$j(f^\mathcal{M}(a_0,a_1…))=f^\mathcal{N}(j(a_0),j(a_1)…)$.
+For example,
+$j(a_0+^\mathcal{M}a_1)=j(a_0)+^\mathcal{N}j(a_1)$.</li>
+      <li>For any relation symbol $r\in\tau$ and $a_0,a_1…\in M$,
+$r^\mathcal{M}(a_0,a_1…)\Leftrightarrow
+r^\mathcal{N}(j(a_0),j(a_1)…)$</li>
+    </ol>
+  </li>
+  <li>For any first-order formula $\psi$ and any $x_0,x_1…\in M$
+such that there is $y\in N$ with
+$\psi^\mathcal{N}(y,j(x_0),j(x_1)…)$, there is $z\in M$ with
+$\psi^\mathcal{M}(z,x_0,x_1…)$.</li>
+</ol>
+
+<p>The <strong>Tarski-Vaught test</strong> refers to the special case where
+$\mathcal{M}$ is a substructure of $\mathcal{N}$ and $j(x)=x$ for
+every $x$.</p>
+
+<p>This test determines if $\mathcal{M}$ is an elementary substructure of
+$\mathcal{N}$. More specifically, $\mathcal{M}$ is an elementary
+substructure of $\mathcal{N}$ iff for any $\psi$ and $x_0,x_1…\in
+M$ such that there is $y\in N$ with
+$\psi^\mathcal{N}(y,x_0,x_1…)$, there is $z\in M$ with
+$\psi^\mathcal{M}(z,x_0,x_1…)$.</p>
+
+<h2 id="use-in-large-cardinal-axioms">
+<a class="anchor" href="#use-in-large-cardinal-axioms" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use in Large Cardinal Axioms</h2>
+
+<p>There are two ways of making the critical point as large as possible:</p>
+
+<ol>
+  <li>Making $\mathcal{M}$ as large as possible, much larger than
+$\mathcal{N}$ (meaning that a “large” class can be embedded into a
+smaller class)</li>
+  <li>Making $\mathcal{M}$ and $\mathcal{N}$ more similar (for example,
+$\mathcal{M} = \mathcal{N}$ yet $j$ is nontrivial)</li>
+</ol>
+
+<p>Using the first method, one can simply take $\mathcal{M}=V$ (the
+universe of all sets), and the resulting critical point is always a
+measurable cardinal, a very strong type of large cardinal, e.g. the
+first measurable is larger than infinitely many weakly compact cardinals
+(and much more).</p>
+
+<p>Using the second method, one can take, say, $\mathcal{M} = \mathcal{N}
+= L$, i.e. create an embedding $j:L\to L$, whose existence has very
+important consequences, such as the existence of
+<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^#$</a>
+(and thus $V\neq L$) and implies that every ordinal that is an
+uncountable cardinal in V is strongly inaccessible in L. By taking
+$\mathcal{M}=\mathcal{N}=V_\lambda$, i.e. a rank of the cumulative
+hiearchy, one obtains the very powerful
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
+axioms, which sit near the very top of the large cardinal hiearchy.
+However, this second method has its limits, as shown by Kunen, as he
+showed that $\mathcal{M}=\mathcal{N}=V$ leads to an inconsistency with
+the
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>,
+a theorem now known as the <strong><a href="Kunen_inconsistency" title="Kunen inconsistency">Kunen
+inconsistency</a></strong>.
+He also showed that a natural strengthening of the rank-into-rank
+axioms, $\mathcal{M}=\mathcal{N}=V_{\lambda+2}$ for some
+$\lambda\in Ord$, was inconsistent with the $AC$.</p>
+
+<p>Most large cardinal axioms inbetween measurables and rank-into-rank
+axioms are obtained by mixing those two methods: one usually sets
+$\mathcal{M}=V$ then requires $\mathcal{N}$ to satisfies strong
+closure properties to make it “larger”, i.e. closer to $V$ (that is, to
+$\mathcal{M}$). For example, $j:V\to\mathcal{N}$ is nontrivial with
+critical point $\kappa$ and the cumulative hiearchy rank
+$V_{j(\kappa)}$ is a subset of $\mathcal{N}$ then $\kappa$ is
+<a href="Superstrong" title="Superstrong">superstrong</a>;
+if $\mathcal{N}$ contains all sequences of elements of $\mathcal{N}$
+of length $\lambda$ for some $\lambda&gt;\kappa$ then $\kappa$ is
+$\lambda$-<a href="Supercompact" title="Supercompact">supercompact</a>,
+and so on.</p>
+
+<p>The existence of a nontrivial elementary embedding
+$j:\mathcal{M}\to\mathcal{N}$ <em>that is definable in $\mathcal{M}$</em>
+implies that the critical point $\kappa$ of $j$ is
+<a href="Measurable" title="Measurable">measurable</a>
+in $\mathcal{M}$ (not necessarily in $V$). Every measurable ordinal is
+<a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>
+and (strongly)
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+therefore its existence in any model is beyond $ZFC$, meaning that $ZFC$
+cannot prove that such an embedding exists.</p>
+
+<p>Here are some types of cardinals whose definition uses elementary
+embeddings:</p>
+
+<ul>
+  <li>
+<a href="Reinhardt" title="Reinhardt">Reinhardt</a>
+cardinals,
+<a href="Berkeley" title="Berkeley">Berkeley</a>
+cardinals</li>
+  <li>
+<a href="Rank_into_rank" title="Rank into rank">Rank into
+rank</a>
+cardinals (axioms I3-I0)</li>
+  <li>Huge cardinals: <a href="Huge" title="Huge">almost
+n-huge</a>,
+<a href="Huge" title="Huge">almost
+super-n-huge</a>,
+<a href="Huge" title="Huge">n-huge</a>,
+<a href="Huge" title="Huge">super-n-huge</a>,
+<a href="Huge" title="Huge">$\omega$-huge</a>
+</li>
+  <li>High jump cardinals: <a href="High-jump" title="High-jump">almost
+high-jump</a>,
+<a href="High-jump" title="High-jump">high-jump</a>,
+<a href="High-jump" title="High-jump">super
+high-jump</a>,
+<a href="High-jump" title="High-jump">high-jump with unbounded excess
+closure</a>
+</li>
+  <li>
+<a href="Extendible" title="Extendible">Extendible</a>
+cardinals,
+<a href="Extendible" title="Extendible">$\alpha$-extendible</a>
+</li>
+  <li>Compact cardinals:
+<a href="Supercompact" title="Supercompact">supercompact</a>,
+<a href="Supercompact" title="Supercompact">$\lambda$-supercompact</a>,
+<a href="Strongly_compact" title="Strongly compact">strongly
+compact</a>,
+<a href="Nearly_supercompact" title="Nearly supercompact">nearly
+supercompact</a>
+</li>
+  <li>Strong cardinals:
+<a href="Strong" title="Strong">strong</a>,
+<a href="Strong" title="Strong">$\theta$-strong</a>,
+<a href="Superstrong" title="Superstrong">superstrong</a>,
+<a href="Superstrong" title="Superstrong">super-n-strong</a>
+</li>
+  <li>
+<a href="Measurable" title="Measurable">Measurable</a>
+cardinals, measurables of nontrivial
+<a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>,
+<a href="Tall" title="Tall">Tall</a>
+cardinals</li>
+  <li>
+<a href="Weakly_compact" title="Weakly compact">Weakly
+compact</a>
+cardinals</li>
+</ul>
+
+<p>The <a href="Wholeness_axioms" title="Wholeness axioms">wholeness
+axioms</a>
+also asserts the existence of elementary embeddings, though the
+resulting larger cardinal has no particular name. <a href="Vopenka" title="Vopenka">Vopěnka’s
+principle</a>
+is about elementary embeddings of set models.</p>
+
+<h2 id="absoluteness">
+<a class="anchor" href="#absoluteness" aria-hidden="true"><span class="octicon octicon-link"></span></a>Absoluteness</h2>
+
+<p>The following results can be used in theorems about
+<a href="Remarkable" title="Remarkable">remarkable</a>
+cardinals and other virtual variants.</p>
+
+<p>(section from
+<a class="citation" href="#Bagaria2017">(Bagaria, 2017)</a> unless
+otherwise noted)</p>
+
+<p>The existence of an embedding of a countable model into another fixed
+model is absolute:</p>
+
+<ul>
+  <li>For a countable first-order structure $M$ and an elementary
+embedding $j : M → N$, if $W ⊆ V$ is a transitive (set or class)
+model of (some sufficiently large fragment of) ZFC such that $M$ is
+countable in $W$ and $N ∈ W$, then $W$ has some elementary embedding
+$j^∗ : M → N$.</li>
+  <li>If additionally both $M$ and $N$ are transitive $∈$-structures, we
+can assume that $crit(j^∗) = crit(j)$.</li>
+  <li>We can also require that $j$ and $j^∗$ agree on some fixed finite
+number of values.</li>
+</ul>
+
+<p>Therefore an elementary embedding $j : B → A$ between first-order
+structures exists in some set-forcing extension iff it already exists in
+$V^{Coll(ω,B)}$. Specifically, the following are equivalent for
+structures $B$ and $A$:</p>
+
+<ul>
+  <li>There is a complete Boolean algebra $\mathbb{B}$ such that
+$V^\mathbb{B} \models$ “There is an elementary embedding $j : B →
+A$.”</li>
+  <li>In $V^{Coll(ω,B)}$ there is an elementary embedding $j : B → A$.</li>
+  <li>For every complete Boolean algebra $\mathbb{B}$,
+$V^\mathbb{B} \models$ “$|B| = \aleph_0 \implies$ There is an
+elementary embedding $j : B → A$.”</li>
+</ul>
+
+<p>Moreover, if $B$ and $A$ are transitive $∈$-structures, we can assume
+that the embeddings have the same critical point and agree on finitely
+many fixed values.</p>
+
+<p>These are also equivalent to player II having a winning strategy in game
+$G(B, A)$ defined in the following subsection.</p>
+
+<p>Next fact: For first-order structures $M$ and $N$ in a common language,
+if there is an elementary embedding $j : M → N$ in some set-forcing
+extension, then there is such an embedding $j^∗ : M → N$ in any forcing
+extension in which $M$ has been made countable. Moreover, one can
+arrange that $j^∗$ agrees with $j$ on any given finite set of values and
+that, if appropriate, $crit(j) =
+crit(j^*)$.<a class="citation" href="#Gitman2018">(Gitman &amp; Hamkins, 2018)</a></p>
+
+<h3 id="in-the-language-of-game-theory">
+<a class="anchor" href="#in-the-language-of-game-theory" aria-hidden="true"><span class="octicon octicon-link"></span></a>In the language of game theory</h3>
+
+<p>To every pair of structures B and A of the same type, one can associate
+a closed game $G(B, A)$ (variant of an Ehrenfeucht-Fraı̈ssé game) such
+that $B$ elementarily embeds into $A$ in $V^{Coll(ω,B)}$ precisely when
+a particular player has a winning strategy in that game. Namely:</p>
+
+<p>The game $G(B, A)$ is a game of length $ω$, where player I starts by
+playing some $b_0 ∈ B$ and player II responds by playing $a_0 ∈ A$.
+Players I and II continue to alternate, choosing elements $b_n$ and
+$a_n$ from their respective structures at stage $n$ of the game. II
+wins if for every $(n+1)$-parameter formula $φ$</p>
+
+<p>$B \models φ(b_0 , . . . , b_n ) \iff A \models φ(a_0 , . . . ,
+a_n)$</p>
+
+<p>and I wins otherwise.</p>
+
+<p>Since if II loses he must do so at some finite stage of the game, the
+game $G(B, A)$ is closed and hence determined by the Gale-Stewart
+theorem (Gale and Stewart, 1953). Thus, either I or II has a winning
+strategy.</p>
+
+<p>Player II has a winning strategy precisely when $B$ elementarily embeds
+into $A$ in $V^{Coll(ω,B)}$. It follows that each first-order fragment
+of
+<a href="index.php?title=Generic_Vop%C4%9Bnka%E2%80%99s_Principle&amp;action=edit&amp;redlink=1" class="new" title="Generic Vopěnka’s Principle (page does not exist)">Generic Vopěnka’s Principle</a>
+is characterised by the existence of certain winning strategies in its
+associated class of closed games.</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Bagaria2017">Bagaria, J. (2017). <i>Large Cardinals beyond Choice</i>. https://events.math.unipd.it/aila2017/sites/default/files/BAGARIA.pdf</span></li>
+<li><span id="Gitman2018">Gitman, V., &amp; Hamkins, J. D. (2018). <i>A model of the generic Vopěnka principle in which the ordinals are not Mahlo</i>.</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

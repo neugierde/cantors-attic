@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The axioms of Kripke-Platek set theory | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="The axioms of Kripke-Platek set theory" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Kripke-Platek","@type":"WebPage","headline":"The axioms of Kripke-Platek set theory","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>The axioms of Kripke-Platek set theory</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#axiom-of-extensionality">Axiom of Extensionality</a></li>
+<li class="toc-entry toc-h2"><a href="#axiom-of-null-set">Axiom of Null Set</a></li>
+<li class="toc-entry toc-h2"><a href="#axiom-of-pairing">Axiom of Pairing</a></li>
+<li class="toc-entry toc-h2"><a href="#axiom-of-union">Axiom of Union</a></li>
+<li class="toc-entry toc-h2"><a href="#axiom-schema-of-foundation">Axiom Schema of Foundation</a></li>
+<li class="toc-entry toc-h2"><a href="#axiom-schema-of-sigma_0-separation">Axiom Schema of $\Sigma_0$-Separation</a></li>
+<li class="toc-entry toc-h2"><a href="#axiom-schema-of-sigma_0-collection">Axiom Schema of $\Sigma_0$-Collection</a></li>
+<li class="toc-entry toc-h2"><a href="#axiom-of-infinity">Axiom of Infinity</a></li>
+</ul><p>Kripke-Platek set theory ($\text{KP}$) is a collection of axioms that
+is considerably weaker than
+<a href="ZFC" title="ZFC">ZFC</a>. The
+formal language used to express each axiom is first-order with equality
+($=$) together with one binary relation symbol, $\in$, intended to
+denote set membership.</p>
+
+<p>$L_\alpha$ is a model of $\mathrm{KP}$ for
+<a href="Admissible" title="Admissible">admissible</a>
+$\alpha$.</p>
+
+<h2 id="axiom-of-extensionality">
+<a class="anchor" href="#axiom-of-extensionality" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom of Extensionality</h2>
+
+<p>Sets are determined uniquely by their elements. This is expressed
+formally as \(\\forall x \\forall y \\big(\\forall z (z\\in
+x\\leftrightarrow z\\in y)\\rightarrow x=y\\big).\)</p>
+
+<p>The “$\rightarrow$” can be replaced by “$\leftrightarrow$”, but the
+$\leftarrow$ direction is a theorem of logic.</p>
+
+<h2 id="axiom-of-null-set">
+<a class="anchor" href="#axiom-of-null-set" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom of Null Set</h2>
+
+<p>There exists some set. In fact, there is a set which contains no
+members. This is expressed formally \(\\exists x \\forall y (y\\not\\in
+x).\)</p>
+
+<p>Such an $x$ is unique by extensionality and this set is denoted by
+$\emptyset$.</p>
+
+<h2 id="axiom-of-pairing">
+<a class="anchor" href="#axiom-of-pairing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom of Pairing</h2>
+
+<p>For any two sets $x$ and $y$ (not necessarily distinct) there is a
+further set $z$ whose members are exactly the sets $x$ and $y$.</p>
+
+\[\\forall x \\forall y \\exists z \\forall w \\big(w\\in
+z\\leftrightarrow (w=x\\vee w=y)\\big).\]
+
+<p>Such a $z$ is unique by extensionality and is denoted as $\{x,y\}$.</p>
+
+<h2 id="axiom-of-union">
+<a class="anchor" href="#axiom-of-union" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom of Union</h2>
+
+<p>For any set $x$ there is a further set $y$ whose members are exactly all
+the members of the members of $x$. That is, the union of all the members
+of a set exists. This is expressed formally as</p>
+
+\[\\forall x \\exists y \\forall z \\big(z\\in y \\leftrightarrow
+\\exists w (w\\in x \\wedge z\\in w)\\big).\]
+
+<p>Such a $y$ is unique by extensionality and is written as $y = \bigcup
+x$.</p>
+
+<h2 id="axiom-schema-of-foundation">
+<a class="anchor" href="#axiom-schema-of-foundation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom Schema of Foundation</h2>
+
+<p>Suppose that a given property $P$ is true for some set $x$. Then there
+is a $\in$-minimal set for which $P$ is true. In more detail, given a
+formula $\varphi(x_1,\dots,x_n,x)$ the following is an instance of
+the induction schema: \(\\forall x\_1, \\ldots, x\_n \\big\[ \\exists x
+\\varphi(x\_1, \\ldots, x\_n, x) \\rightarrow \\exists y \\big(
+\\varphi(x\_1, \\ldots, x\_n, y) \\wedge \\forall z \\in y \\neg
+\\varphi(x\_1, \\ldots, x\_n, z) \\big) \\big\]\)</p>
+
+<h2 id="axiom-schema-of-sigma_0-separation">
+<a class="anchor" href="#axiom-schema-of-sigma_0-separation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom Schema of $\Sigma_0$-Separation</h2>
+
+<p>For any set $a$ and any $\Sigma_0$-predicate $P(x)$ written in the
+language of ZFC, the set $\{x\in a: P(x)\}$ exists. In more detail,
+given any $\Sigma_0$-formula $\varphi$ with free variables
+$x_1,x_2,\dots,x_n$ the following is an instance of the
+$\Sigma_0$-seperation schema: \(\\forall a \\forall x\_1 \\forall
+x\_2\\dots \\forall x\_n \\exists y \\forall z \\big(z\\in y
+\\leftrightarrow (z\\in a \\wedge
+\\varphi(x\_1,x\_2,\\dots,x\_n,z)\\big)\)</p>
+
+<p>Such a $y$, unique by extensionality and is written (for fixed sets $a,
+x_1\dots, x_n$) $y=\{z\in a: \varphi(x_1,x_2,\dots,x_n,z)\}$.</p>
+
+<h2 id="axiom-schema-of-sigma_0-collection">
+<a class="anchor" href="#axiom-schema-of-sigma_0-collection" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom Schema of $\Sigma_0$-Collection</h2>
+
+<p>If $a$ is a set and for all $x\in a$ there’s a some $y$ such that
+$(x,y)$ satisfies a given $\Sigma_0$-property, then there is some set
+$b$ such that for all $x \in a$ there is some $y \in b$ such that
+$(x,y)$ satisfies that property. In more detail, given a
+$\Sigma_0$-formula $\varphi(x_1,\dots,x_n,x,y)$ the following is
+an instance of the $\Sigma_0$-collection schema: \(\\forall a
+\\forall x\_1 \\dots \\forall x\_n \\big\[\\big( \\forall x\\in a
+\\exists y \\varphi(x\_1,\\dots,x\_n,x,y)\\big)\\rightarrow
+\\big(\\exists b \\forall x \\in a \\exists y \\in b \\varphi(x\_1,
+\\ldots, x\_n, x,y) \\big) \\big\].\)</p>
+
+<h2 id="axiom-of-infinity">
+<a class="anchor" href="#axiom-of-infinity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Axiom of Infinity</h2>
+
+<p>Some authors include the axiom of infinity in Kripke-Platek set theory
+which states that there is an
+<a href="index.php?title=Inductive_set&amp;action=edit&amp;redlink=1" class="new" title="Inductive set (page does not exist)">inductive set</a>
+– a canonical example of an infinite set. More precisely: \(\\exists x
+\\big( \\emptyset \\in x \\wedge \\forall y \\in x (y \\cup \\{y \\}
+\\in x) \\big).\) The axiom of infinity combined with an instance of
+$\Sigma_0$-separation imply the axiom of null set so that it be
+dropped if one assumes the axiom of infinity.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

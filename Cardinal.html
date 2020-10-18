@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Cardinal numbers | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Cardinal numbers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Cardinal","@type":"WebPage","headline":"Cardinal numbers","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Cardinal numbers</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#finite-and-infinite-cardinals">Finite and infinite cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#countable-and-uncoutable-cardinals">Countable and uncoutable cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#successor-cardinals-and-limit-cardinals">Successor cardinals and limit cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#regular-and-singular-cardinals">Regular and singular cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#cardinals-in-zf">Cardinals in ZF</a></li>
+<li class="toc-entry toc-h2"><a href="#dedekind-finite-sets">Dedekind finite sets</a></li>
+</ul><p>Cardinality is a measure of the size of a set. Two sets have the same
+cardinality—they are said to be <em>equinumerous</em>—when there is a
+one-to-one correspondence between their elements. The cardinality
+assignment problem is the problem of assigning to each equinumerosity
+class a cardinal number to represent it. In ZFC, this problem can be
+solved via the <a href="Well-ordering_principle" title="Well-ordering principle">well-ordering
+principle</a>,
+which asserts that every set can be well-ordered and therefore admits a
+bijection with a unique smallest
+<a href="Ordinal" title="Ordinal">ordinal</a>,
+an <em>initial ordinal</em>. By this means, in ZFC we are able to assing to
+every set $X$ a canonical representative of its equinumerosity class,
+the smallest ordinal bijective with $X$.</p>
+
+<p>We therefore adopt the definition that $\kappa$ is a <em>cardinal</em> if it
+is an <em>initial ordinal</em>, an
+<a href="Ordinal" title="Ordinal">ordinal</a>
+that is not equinumerous with any smaller ordinal.</p>
+
+<h2 id="finite-and-infinite-cardinals">
+<a class="anchor" href="#finite-and-infinite-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Finite and infinite cardinals</h2>
+
+<p>The set
+<a href="Omega" title="Omega">$\omega$</a>
+of <a href="Omega" title="Omega">natural
+numbers</a> is
+the smallest inductive set, that is, the smallest set for which
+$0\in\omega$ and whenever $n\in\omega$ then also $n+1\in\omega$,
+where $n+1=n\cup\{n\}$ is the <a href="Successor_ordinal" title="Successor ordinal">successor
+ordinal</a>
+of $n$. A set is <em>finite</em> if it is equinumerous with a natural number,
+and otherwise it is is <em>infinite</em>. In ZFC, the finite sets are the same
+as the <a href="Dedekind_finite" title="Dedekind finite">Dedekind
+finite</a>
+sets, but in ZF, these concepts may differ. In ZFC,
+<a href="Aleph" title="Aleph">$\aleph$</a>
+is a unique
+<a href="Order-isomorphism" title="Order-isomorphism">order-isomorphism</a>
+between the ordinals and the cardinal numbers with respect to
+membership.</p>
+
+<h2 id="countable-and-uncoutable-cardinals">
+<a class="anchor" href="#countable-and-uncoutable-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Countable and uncoutable cardinals</h2>
+
+<p>A set is <em>countable</em> when it is equinumerous with a subset of $\omega$.
+This includes all finite sets, including the empty set, and the infinite
+countable sets are said to be <em>countably infinite</em>. An
+<a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
+set is a set that is not countable. The existence of uncountable sets is
+a consequence of Cantor’s observationt that the set of reals is
+uncountable.</p>
+
+<h2 id="successor-cardinals-and-limit-cardinals">
+<a class="anchor" href="#successor-cardinals-and-limit-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Successor cardinals and limit cardinals</h2>
+
+<p>Hartog established that for every set $X$, there is a smallest ordinal
+that does not have an injection into $X$, and this ordinal is now known
+as the <strong><a href="Hartog_number" title="Hartog number">Hartog
+number</a></strong>
+of $X$. When $\kappa$ is a cardinal, then the <strong>successor cardinal</strong> of
+$\kappa$, denoted $\kappa^+$, is the Hartog number of $\kappa$, the
+smallest ordinal of strictly larger cardinality than $\kappa$. The
+existence of successor cardinals can be proved in ZF without the axiom
+of choice. Iteratively taking the successor cardinal leads to the <a href="Aleph" title="Aleph">aleph
+hierarchy</a>.</p>
+
+<p>Although ZF proves the existence of successor cardinals for every
+cardinal, ZF also proves that there exists some cardinals which are not
+the successor of any cardinal. These cardinals are known as <strong>limit
+cardinals</strong>. Cardinals which are not limit cardinals are known as
+<strong>successor cardinals</strong>. The limit cardinals are precisely those which
+are limit points in the topology of cardinals (hence the name). That is,
+for any cardinal $\lambda&lt;\kappa$, there is some $\nu&gt;\lambda$
+with $\nu&lt;\kappa$.</p>
+
+<p>The limit cardinals share an incredible affinity towards the singular
+cardinals; there does not exist a <a href="Inaccessible" title="Inaccessible">weakly
+inaccessible</a>
+cardinal if and only if the singular cardinals are precisely the limit
+cardinals. If inaccessibility is inconsistent (which is thought “untrue”
+by most set theorists, although possible), then ZFC actually proves that
+any cardinal is singular if and only if it is a limit cardinal.</p>
+
+<h2 id="regular-and-singular-cardinals">
+<a class="anchor" href="#regular-and-singular-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Regular and singular cardinals</h2>
+
+<p>A cardinal $\kappa$ is <em>regular</em> when $\kappa$ not the union of fewer
+than $\kappa$ many sets of size each less than $\kappa$. Otherwise,
+when $\kappa$ is the union of fewer than $\kappa$ many sets of size
+less than $\kappa$, then $\kappa$ is said to be <em>singular</em>.</p>
+
+<p>The
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
+implies that every successor cardinal $\kappa^+$ is regular, but it is
+known to be consistent with ZF that successor cardinals may be singular.</p>
+
+<p>The <em>cofinality</em> of an infinite cardinal $\kappa$, denoted
+$\text{cof}(\kappa)$, is the smallest size family of sets, each
+smaller than $\kappa$, whose union is all of $\kappa$. Thus, $\kappa$
+is regular if and only if $\text{cof}(\kappa)=\kappa$, and singular
+if and only if $\text{cof}(\kappa)\lt\kappa$.</p>
+
+<h2 id="cardinals-in-zf">
+<a class="anchor" href="#cardinals-in-zf" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cardinals in ZF</h2>
+
+<p>See <a href="Cardinal_general" title="Cardinal general">general
+cardinal</a>
+for an account of the cardinality concept arising without the axiom of
+choice.</p>
+
+<p>When the axiom of choice is not available, the concept of cardinality is
+somewhat more subtle, and there is in general no fully satisfactory
+solution of the cardinal assignment problem. Rather, in ZF one works
+directly with the equinumerosity relation.</p>
+
+<p>In ZF, the
+<a href="Axiom_of_choice" class="mw-redirect" title="Axiom of choice">axiom of choice</a>
+is equivalent to the assertion that the cardinals are linearly ordered.
+This is because for every set $X$, there is a smallest ordinal $\alpha$
+that does not inject into $X$, the <a href="Hartog_number" title="Hartog number">Hartog
+number</a>
+of $X$, and conversely, if $X$ injects into $\alpha$, then $X$ would be
+well-orderable.</p>
+
+<h2 id="dedekind-finite-sets">
+<a class="anchor" href="#dedekind-finite-sets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dedekind finite sets</h2>
+
+<p>The <em>Dedekind finite</em> sets are those not equinumerous with any proper
+subset. Although in ZFC this is an equivalent characterization of the
+finite sets, in ZF the two concepts of finite differ: every finite set
+is Dedekind finite, but it is consistent with ZF that there are infinite
+Dedekind finite sets. An <em>amorphous</em> set is an infinite set, all of
+whose subsets are either finite or co-finite.</p>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

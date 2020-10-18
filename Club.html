@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Club sets and stationary sets | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Club sets and stationary sets" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Club","@type":"WebPage","headline":"Club sets and stationary sets","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Club sets and stationary sets</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#club-sets">Club sets</a></li>
+<li class="toc-entry toc-h2"><a href="#stationary-sets">Stationary sets</a></li>
+<li class="toc-entry toc-h2"><a href="#generalized-notions">Generalized notions</a></li>
+<li class="toc-entry toc-h2"><a href="#references">References</a></li>
+</ul><p>Closed and unbounded subsets of ordinals, more commonly referred to as
+<em>club</em> sets, play a prominent role in modern set theory. We intuitively
+think of clubs as the “large” subsets of $\kappa$ and the stationary
+subsets as the “not small” subsets of $\kappa$, though this is sort of
+a boring way to look at them. They arise from considering the natural
+topology on the class of ordinals and often exhibit substantial
+reflection properties.</p>
+
+<p>Given an ordinal $\kappa$, the basic open intervals are pairs of
+ordinals $(\alpha, \beta)=\{\gamma : \alpha &lt;\gamma &lt;
+\beta\}$ where $\beta &lt;\kappa$. Closed intervals are defined
+similarly, so closed intervals are topologically closed. Considering a
+typical example of an interval of ordinals $[\lambda, \lambda+1,
+\lambda+2, \dots)$ it appears there are <em>more</em> successor ordinals than
+limits, but club (and also stationary) sets favor limit ordinals in the
+sense that they concentrate on them. Hence the opposite view-point is
+more useful when considering club sets, i.e., there are “more” limit
+ordinals.</p>
+
+<h2 id="club-sets">
+<a class="anchor" href="#club-sets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Club sets</h2>
+
+<p>Although the definition can be applied to all infinite ordinals, we
+assume $\kappa &gt;\omega$ is a regular cardinal for this and
+subsequent sections.</p>
+
+<p>A set $C\subseteq \kappa$ is closed unbounded or <em>club</em> in $\kappa$
+if and only if $C$ is <em>unbounded</em> in $\kappa$: for every $\alpha
+&lt;\kappa$ there is some $\beta \in C$ with occurring above
+$\alpha$ in the natural ordering; and $C$ is also <em>closed</em>: if
+$B\subseteq C$ is bounded in $\kappa$ (i.e., there is some
+$\gamma\in \kappa$ with $\beta\leq \gamma$ for each $\beta\in
+B$), then $sup(B)\in C$. If $\lambda &lt; \kappa$ and $ \lambda$ a
+limit with $C\cap\lambda$ unbounded in $\lambda$, then $\lambda\in
+C$.</p>
+
+<p>Typical examples club sets include the collection of limit ordinals
+below $\kappa$, the collection of limits of limit ordinals below
+$\kappa$, and also all “tails” in $\kappa$: $\{\lambda :
+\alpha\leq \lambda &lt;\kappa\}$ for each $\alpha &lt;\kappa$. It
+is fairly straightforward to construct a club subset of $\kappa$. Given
+a sequence $\langle\gamma_\alpha\rangle_{\alpha &lt; \kappa}$ of
+ordinals smaller than $\kappa$ arbitrarily pick $\gamma_{\alpha +1}$
+also smaller than $\kappa$. At limit stages, take the supremum of the
+sequence already constructed. It is clear that club subsets of $\kappa$
+all have size $\kappa$ and their enumeration functions
+$f:\kappa\rightarrow\kappa$ are all continuous and increasing.</p>
+
+<p>The intersection of two club subsets of $\kappa$ is also club in
+$\kappa$. In fact, given any sequence of fewer than $\kappa$-many club
+subsets of $\kappa$, their intersection is also club in $\kappa$.
+Further, any collection of fewer than $\kappa$-many club subsets is
+also closed under <em>diagonal</em> intersections, a fact used in
+characterizing the stationary subsets of $\kappa$. In particular, the
+club subsets of $\kappa$ form a
+<a href="Filter" title="Filter">filter</a>
+over $\kappa$. Note that the intersection of $\kappa$-many clubs might
+be empty, so this filter is not an ultrafilter in general.</p>
+
+<h2 id="stationary-sets">
+<a class="anchor" href="#stationary-sets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stationary sets</h2>
+
+<p>A set $S\subseteq \kappa$ is <em>stationary in $\kappa$</em> if $S$
+intersects all club subsets of $\kappa$. As mentioned above, one
+intuitively thinks of the collection of stationary subsets of $\kappa$
+as the ``not small” subsets of $\kappa$.</p>
+
+<p>Several facts about stationary sets are immediate: all club subsets of
+$\kappa$ are also stationary in $\kappa$; the supremum of a stationary
+subset of $\kappa$, is $\kappa$; the intersection of a club set with a
+stationary set is stationary; if $S$ is a stationary set and also the
+union of less than $\kappa$-many sets $S_\alpha$, then at least one
+such set is also stationary, in other words, stationary subsets of
+$\kappa$ cannot be partitioned into a small number of small sets.</p>
+
+<p>For a given regular cardinal $\kappa$, particular stationary sets</p>
+
+<p>Fodor’s Lemma (improving upon Alexandrov-Urysohn, 1929) is the basic,
+fundamental result concerning the concept of stationarity. Call a
+function $f:\kappa\to\kappa$ <em>regressive</em> if $f(\alpha) &lt;
+\alpha$ for all non-zero ordinals smaller than $\kappa$. Fodor’s lemma
+reads: If $f$ is a regressive function with domain a stationary subset
+$S$ of $\kappa$, then there is some subset $S’$ of $S$ on which $f$ is
+constant.</p>
+
+<p>Using Fodor’s lemma, Solovay proved that each stationary subset of
+$\kappa$ can be split into two, in fact $\kappa$-many disjoint
+stationary sets. Another application of Fodor’s lemma is used to prove a
+result concerning families of sets that are as different as possible,
+i.e., any two distinct sets in the family have the same intersection.
+The result is more popularly known as the $\Delta$-system Lemma
+(originally established by Marczewski): Given a family of finite sets
+(infinite sets usually require CH), of size $\kappa$ there is a
+subfamily of size $\kappa$ which forms a $\Delta$-system.</p>
+
+<h2 id="generalized-notions">
+<a class="anchor" href="#generalized-notions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generalized notions</h2>
+
+<h2 id="references">
+<a class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p><a href="Library" title="Library">Main
+library</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    This article is a stub. Please help us to improve Cantor's Attic by adding information.
+</code></pre></div></div>
+
+
+
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>

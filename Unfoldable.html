@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="layout" content="GIT_ROOT">
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Unfoldable cardinal | cantors-attic</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Unfoldable cardinal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:description" content="Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity." />
+<meta property="og:site_name" content="cantors-attic" />
+<script type="application/ld+json">
+{"description":"Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.","url":"/cantors-attic/Unfoldable","@type":"WebPage","headline":"Unfoldable cardinal","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="/cantors-attic/assets/css/style.css?v=4434f96f57274a1f474b209bc747835f501b5c19">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/cantors-attic/">cantors-attic</a></h1>
+        
+        
+
+        <p>Climb into Cantor’s Attic, where you will find infinities large and small. We aim to provide a comprehensive resource of information about all notions of mathematical infinity.</p>
+
+        
+        <p class="view"><a href="https://github.com/neugierde/cantors-attic">View the Project on GitHub <small>neugierde/cantors-attic</small></a></p>
+        
+
+        
+
+        <p class="view">
+          <strong>Quick navigation</strong><br/>
+          <a href="Upper_attic">The upper attic</a><br/>
+          <a href="Middle_attic">The middle attic</a><br/>
+          <a href="Lower_attic">The lower attic</a><br/>
+          <a href="Parlour">The parlour</a><br/>
+          <a href="Playroom">The playroom</a><br/>
+          <a href="Library">The library</a><br/>
+          <a href="Cellar">The cellar</a>
+        </p>
+
+        <p class="view">
+          <strong>Sources</strong><br/>
+          <a href="http://cantorsattic.info/Cantor%27s_Attic">Cantor's Attic (original site)</a><br/>
+          <a href="http://jdh.hamkins.org/climb-into-cantors-attic/">Joel David Hamkins blog post about the Attic</a><br/>
+          <a href="http://web.archive.org/web/20191104130451/http://cantorsattic.info:80/Cantor%27s_Attic">Latest working snapshot at the wayback machine</a>
+        </p>
+
+        
+      </header>
+      <section>
+
+        <h1>Unfoldable cardinal</h1>
+        <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#definition">Definition</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#unfoldable">Unfoldable</a></li>
+<li class="toc-entry toc-h3"><a href="#long-unfoldable">Long Unfoldable</a></li>
+<li class="toc-entry toc-h3"><a href="#strongly-unfoldable">Strongly Unfoldable</a></li>
+<li class="toc-entry toc-h3"><a href="#superstrongly-unfoldable">Superstrongly Unfoldable</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#relations-to-other-cardinals">Relations to Other Cardinals</a></li>
+<li class="toc-entry toc-h2"><a href="#relation-to-forcing">Relation to forcing</a></li>
+</ul><p>The unfoldable cardinals were introduced by Andres Villaveces in order
+to generalize the definition of <a href="Weakly_compact" title="Weakly compact">weak
+compactness</a>.
+Because weak compactness has many different definitions, the one he
+chose to extend was specifically the embedding property (see weakly
+compact for more information). The way he did this was analogous to the
+generalization of
+<a href="Huge" title="Huge">huge</a>
+cardinals to superhuge cardinals.</p>
+
+<h2 id="definition">
+<a class="anchor" href="#definition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Definition</h2>
+
+<p>There are unfoldable cardinals and strongly unfoldable cardinals, as
+well as superstrongly unfoldable (AKA almost-hugely unfoldable AKA
+<a href="Uplifting" title="Uplifting">strongly
+uplifting</a>)
+cardinals. All of these are generalizations of <a href="Weakly_compact" title="Weakly compact">weak
+compactness</a>.</p>
+
+<h3 id="unfoldable">
+<a class="anchor" href="#unfoldable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Unfoldable</h3>
+
+<p>A cardinal $\kappa$ is <strong>$\theta$-unfoldable</strong> iff for every
+$A\subseteq\kappa$, there is some transitive $M$ with $A\in
+M\models\text{ZFC}$ and some $j:M\rightarrow N$ an elementary
+embedding with critical point $\kappa$ such that
+$j(\kappa)\geq\theta$. $\kappa$ is then called <strong>unfoldable</strong> iff it
+is $\theta$-unfoldable for every $\theta$; i.e. the target of the
+embedding can be made arbitrarily large.</p>
+
+<p>Unfoldability can also be characterized by the order-type of nontrivial
+elementary end-extensions of $V_\kappa$. Let
+$\mathcal{M}=(M,R_0^\mathcal{M},R_1^\mathcal{M}…)$ be an
+aribtrary structure of type $(\alpha,\beta)$ with relations
+$R_0^\mathcal{M},R_1^\mathcal{M}…$ and
+$\mathcal{N}=(N,R_0^\mathcal{N},R_1^\mathcal{N}…)$ be another
+arbitrary structure of the same language with relations
+$R_0^\mathcal{N},R_1^\mathcal{N}…$. Then, one writes
+$\mathcal{M}\prec_e\mathcal{N}$ iff all of the following hold:</p>
+
+<ul>
+  <li>$\mathcal{M}$ is an elementary substructure of $\mathcal{N}$</li>
+  <li>$\mathcal{M}\neq\mathcal{N}$</li>
+  <li>For any $a\in M$, $b\in N$, and $\gamma&lt;\beta$, $b
+R_\gamma^\mathcal{N} a\rightarrow b\in M$</li>
+</ul>
+
+<p>If such holds, $\mathcal{M}$ is said to be <strong>nontrivially end
+elementary extended</strong> by $\mathcal{N}$ and <strong>$\mathcal{N}$ is a
+nontrivial end elementary extension</strong> of $\mathcal{M}$, abbreviated
+$\mathcal{N}$ is an <strong>eee</strong> of $\mathcal{M}$.</p>
+
+<p>A cardinal $\kappa$ is <strong>$\lambda$-unfoldable</strong> iff $\kappa$ is
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+and for any $S\subset V_\kappa$, there are well-founded models $M$
+nontrivially end elementary extending $(V_\kappa;\in,S)$ such that
+$M\not\in V_\lambda$. $\kappa $ is <strong>unfoldable</strong> iff $M $ can be
+made to have arbitrarily large rank. In this case,
+$(V_\kappa;\in,S)\prec_e (M;\in^M,S^M)$ iff
+$(V_\kappa;\in,S)\prec (M;\in^M,S^M)$ and
+$(V_\kappa;\in)\prec_e (M;\in^M)$.
+<a class="citation" href="#Villaveces1996">(Villaveces, 1996)</a></p>
+
+<p>$\kappa$ is also <strong>unfoldable</strong> iff for any $S\subseteq\kappa$,
+letting $\mathcal{E}$ be the class of all eees of
+$(V_\kappa;\in,S)$, $(\mathcal{E};\prec_e)$ has abitrarily long
+chains. The name “unfoldable” comes from the fact that “unfolding”
+$(V_\kappa;\in,S)$ yields a larger structure with the same properties
+and a bit of excess information, and this can be done arbitrarily many
+times on the iterated results of “unfolding”.
+<a class="citation" href="#Villaveces1996">(Villaveces, 1996)</a></p>
+
+<h3 id="long-unfoldable">
+<a class="anchor" href="#long-unfoldable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Long Unfoldable</h3>
+
+<p>$\kappa$ is <strong>long unfoldable</strong> iff for any $S\subseteq\kappa$,
+letting $\mathcal{E}$ be the class of all eees of
+$(V_\kappa;\in,S)$, $(\mathcal{E};\prec_e)$ has chains of length
+$\text{Ord}$.</p>
+
+<p>Every long unfoldable cardinal is unfoldable.
+<a class="citation" href="#Villaveces1996">(Villaveces, 1996)</a></p>
+
+<h3 id="strongly-unfoldable">
+<a class="anchor" href="#strongly-unfoldable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Strongly Unfoldable</h3>
+
+<p>A cardinal $\kappa$ is <strong>$\theta$-strongly unfoldable</strong> iff for every
+$A\subseteq\kappa$, there is some transitive $M$ with $A\in
+M\models\text{ZFC}$ and some $j:M\rightarrow N$ an elementary
+embedding with critical point $\kappa$ such that
+$j(\kappa)\geq\theta$ and $V_\theta\subseteq N$.</p>
+
+<p>$\kappa$ is then called <strong>strongly unfoldable</strong> iff it is
+$\theta$-strongly unfoldable for every $\theta$; i.e. the target of
+the embedding can be made arbitrarily large.</p>
+
+<p>As defined in
+<a class="citation" href="#Hamkins2010">(Hamkins &amp; Johnstone, 2010)</a>
+in analogy with <a href="Mitchell_rank" title="Mitchell rank">Mitchell
+ranks</a>,
+a strongly unfoldable cardinal $\kappa$ is <strong>strongly unfoldable of
+degree $\alpha$</strong>, for an ordinal $\alpha$, if for every ordinal
+$\theta$ it is $\theta$-strongly unfoldable of degree $\alpha$,
+meaning that for each $A \in H_{\kappa^+}$ there is a
+$\kappa$-<a href="Model" title="Model">model</a>
+$M \models \mathrm{ZFC}$ with $A \in M$ and a transitive set $N$ with
+$\alpha \in M$ and an elementary embedding $j:M \to N$ having
+critical point $\kappa$ with $j(\kappa)&gt;\max\{\theta,
+\alpha\}$ and $V_\theta \subset N$, such that $\kappa$ is strongly
+unfoldable of every degree $\beta &lt; \alpha$ in
+$N$.<a class="citation" href="#Hamkins2014a">(Hamkins &amp; Johnstone, 2014)</a></p>
+
+<h3 id="superstrongly-unfoldable">
+<a class="anchor" href="#superstrongly-unfoldable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Superstrongly Unfoldable</h3>
+
+<p>Superstrongly unfoldable and almost-hugely unfoldable cardinals are
+defined and shown to be equivalent to <a href="Uplifting" title="Uplifting">strongly
+uplifting</a>
+(described there) in
+<a class="citation" href="#Hamkins2014a">(Hamkins &amp; Johnstone, 2014)</a>.</p>
+
+<h2 id="relations-to-other-cardinals">
+<a class="anchor" href="#relations-to-other-cardinals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relations to Other Cardinals</h2>
+
+<p>Here is a list of relations between unfoldability and other large
+cardinal axioms:</p>
+
+<ul>
+  <li>For every finite $m$ and $n$, unfoldability implies the consistency
+of the existence of a
+<a href="Indescribable" title="Indescribable">$\Pi_m^n$-indescribable</a>
+cardinal (specifically, such cardinals exist in $V_\kappa\cap L$
+for some $\kappa$). Furthermore, if $V=L$, then the least
+$\Pi_m^n$-indescribable cardinal is less than the least unfoldable
+cardinal, and every unfoldable cardinal is totally indescribable.
+<a class="citation" href="#Villaveces1996">(Villaveces, 1996)</a>
+</li>
+  <li>Any strongly unfoldable cardinal is <a href="Indescribable" title="Indescribable">totally
+indescribable</a>
+and a limit of totally indescribable cardinals. Therefore the
+consistency strength of unfoldability is stronger than total
+indescribability.
+<a class="citation" href="#Villaveces1996">(Villaveces, 1996)</a>
+</li>
+  <li>Every superstrongly unfoldable cardinal (i.e. <a href="Uplifting" title="Uplifting">strongly
+uplifting</a>
+cardinal) is strongly unfoldable of every ordinal degree
+\(\alpha\), and a stationary limit of cardinals that are strongly
+unfoldable of every ordinal degree and so on.
+<a class="citation" href="#Hamkins2014a">(Hamkins &amp; Johnstone, 2014)</a>
+</li>
+  <li>The $\kappa$ which are $\kappa$-unfoldable are precisely those
+which are $\kappa$-strongly unfoldable, which are precisely those
+that are <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>.
+Furthermore, if $V=L$, then any $\theta$-unfoldable cardinal is
+$\theta$-strongly unfoldable. Therefore, unfoldability and strong
+unfoldability are equiconsistent.
+<a class="citation" href="#Hamkins2008">(Hamkins, 2008)</a>
+</li>
+  <li>The assertion that a
+<a href="Ramsey" title="Ramsey">Ramsey</a>
+cardinal and a strongly unfoldable cardinal both exists is stronger
+than the assertion that there exists both an unfoldable cardinal and
+a strongly unfoldable cardinal.
+<a class="citation" href="#Villaveces1996">(Villaveces, 1996)</a>
+</li>
+  <li>Interestingly, if there is an unfoldable cardinal then there is a
+forcing extension in which all unfoldable cardinals in $V$ are
+unfoldable in the forcing extension and GCH fails at every
+<a href="Inaccessible" title="Inaccessible">inaccessible</a>
+cardinal. Therefore, GCH can fail at every unfoldable cardinal.
+<a class="citation" href="#Hamkins2008">(Hamkins, 2008)</a>
+</li>
+  <li>Although unfoldable cardinals are consistency-wise stronger than
+<a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>
+cardinals, if there is a strongly unfoldable cardinal, then in a
+forcing extension, the least weakly compact cardinal is also the
+least unfoldable
+cardinal.<a class="citation" href="#Cody2013">(Cody et al., 2013)</a>
+</li>
+  <li>The existence of a
+<a href="Subtle" class="mw-redirect" title="Subtle">subtle</a>
+cardinal is consistency-wise stronger than the existence of an
+unfoldable cardinal.
+<a class="citation" href="#Villaveces1996">(Villaveces, 1996)</a>
+</li>
+  <li>If a
+<a href="Subtle" class="mw-redirect" title="Subtle">subtle</a>
+cardinal and an unfoldable cardinal exist and $V=L$, then the least
+unfoldable cardinal is larger than the least subtle cardinal (and
+therefore much larger than the least <a href="Weakly_compact" title="Weakly compact">weakly
+compact</a>).
+<a class="citation" href="#Villaveces1996">(Villaveces, 1996)</a>
+</li>
+  <li>Any
+<a href="Ramsey" title="Ramsey">Ramsey</a>
+cardinal is unfoldable. If there is a weakly compact cardinal above
+an
+<a href="Erdos" title="Erdos">$\omega_1$-Erdos</a>
+cardinal, then the least unfoldable is less than that (therefore
+less than the least Ramsey).
+<a class="citation" href="#Villaveces1996">(Villaveces, 1996)</a>
+</li>
+  <li>Even though it may seem odd at first, if both exist then the least
+<a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">I3</a>
+cardinal is less than the least strongly unfoldable cardinal.</li>
+  <li>$ω_1$-<a href="Iterable" class="mw-redirect" title="Iterable">iterable</a>
+cardinals are strongly unfoldable in
+$L$.<a class="citation" href="#Gitman2011a">(Gitman &amp; Welch, 2011)</a>
+</li>
+</ul>
+
+<h2 id="relation-to-forcing">
+<a class="anchor" href="#relation-to-forcing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relation to forcing</h2>
+
+<p>e.g. GCH, indestructibility, connection to weak forms of PFA</p>
+
+<p>consistency with slim Kurepa trees</p>
+
+
+        
+          <h2>References</h2>
+
+          <ol class="bibliography"><li><span id="Villaveces1996">Villaveces, A. (1996). Chains of End Elementary Extensions of Models of Set Theory. <i>JSTOR</i>.</span></li>
+<li><span id="Hamkins2010">Hamkins, J. D., &amp; Johnstone, T. A. (2010). Indestructible strong un-foldability. <i>Notre Dame J. Form. Log.</i>, <i>51</i>(3), 291–321.</span></li>
+<li><span id="Hamkins2014a">Hamkins, J. D., &amp; Johnstone, T. A. (2014). <i>Strongly uplifting cardinals and the boldface resurrection axioms</i>.</span></li>
+<li><span id="Hamkins2008">Hamkins, J. D. (2008). <i>Unfoldable cardinals and the GCH</i>.</span></li>
+<li><span id="Cody2013">Cody, B., Gitik, M., Hamkins, J. D., &amp; Schanker, J. (2013). <i>The Least Weakly Compact Cardinal Can Be Unfoldable, Weakly Measurable and Nearly θ-Supercompact</i>.</span></li>
+<li><span id="Gitman2011a">Gitman, V., &amp; Welch, P. (2011). Ramsey-like cardinals II. <i>J. Symbolic Logic</i>, <i>76</i>(2), 541–560. http://boolesrings.org/victoriagitman/files/2011/08/ramseylikecardinalsii.pdf</span></li></ol>
+
+          <a href="Library" title="Library">Main library</a>
+        
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/neugierde">neugierde</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/cantors-attic/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
