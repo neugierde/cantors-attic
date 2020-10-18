@@ -10,100 +10,100 @@ introduced by David Madore.
 
 Madore's \\(\\psi\\) function is defined as follows:
 
-Let \\(ω\\) be the first transfinite ordinal and \\(\\Omega\\) be
+Let \\(\\omega\\) be the first transfinite ordinal and \\(\\Omega\\) be
 the first uncountable ordinal. Then,
 
-\\(C\_0(α) = \\{0, 1, ω, \\Omega\\}\\)
+\\(C\_0(\\alpha) = \\{0, 1, \\omega, \\Omega\\}\\)
 
-\\(C\_{n+1}(α) = \\{\\gamma + \\delta, \\gamma\\delta,
-\\gamma^{\\delta}, \\psi(η) \| \\gamma, \\delta, η \\in C\_n
-(α); η &lt; α\\} \\)
+\\(C\_{n+1}(\\alpha) = \\{\\gamma + \\delta, \\gamma\\delta,
+\\gamma^{\\delta}, \\psi(\\eta) \| \\gamma, \\delta, \\eta \\in C\_n
+(\\alpha); \\eta &lt; \\alpha\\} \\)
 
-\\(C(α) = \\bigcup\_{n &lt; ω} C\_n (α) \\)
+\\(C(\\alpha) = \\bigcup\_{n &lt; \\omega} C\_n (\\alpha) \\)
 
-\\(\\psi(α) = \\min\\{β &lt; \\Omega\|β \\notin
-C(α)\\} \\)
+\\(\\psi(\\alpha) = \\min\\{\\beta &lt; \\Omega\|\\beta \\notin
+C(\\alpha)\\} \\)
 
-In other words \\(\\psi(α)\\) is the least ordinal number less
+In other words \\(\\psi(\\alpha)\\) is the least ordinal number less
 than \\(\\Omega\\) which cannot be generated from ordinals \\(0, 1,
-ω, \\Omega\\) by applying of addition, multiplication,
-exponentiation and the function \\(\\psi(η)\\) with \\(η &lt;
-α\\).
+\\omega, \\Omega\\) by applying of addition, multiplication,
+exponentiation and the function \\(\\psi(\\eta)\\) with \\(\\eta &lt;
+\\alpha\\).
 
 ## Fundamental sequences
 
 Now we assign a fundamental sequence for each limit ordinal below the
 Bachmann-Howard ordinal. The fundamental sequence for an ordinal number
-\\(α\\) with cofinality \\(\\text{cof}(α)=β\\) is a
-strictly increasing sequence \\((α\[η\])\_{η&lt;β}\\)
-with length \\(β\\) and with limit \\(α\\), where
-\\(α\[η\]\\) is the \\(η\\)-th element of this sequence.
-If \\(α\\) is a countable limit ordinal (i.e. \\(α\\) is a
+\\(\\alpha\\) with cofinality \\(\\text{cof}(\\alpha)=\\beta\\) is a
+strictly increasing sequence \\((\\alpha\[\\eta\])\_{\\eta&lt;\\beta}\\)
+with length \\(\\beta\\) and with limit \\(\\alpha\\), where
+\\(\\alpha\[\\eta\]\\) is the \\(\\eta\\)-th element of this sequence.
+If \\(\\alpha\\) is a countable limit ordinal (i.e. \\(\\alpha\\) is a
 limit ordinal less than \\(\\Omega\\)) then
-\\(\\text{cof}(α)=ω\\). The first uncountable ordinal
+\\(\\text{cof}(\\alpha)=\\omega\\). The first uncountable ordinal
 \\(\\Omega\\) is the least ordinal whose cofinality greater than
-\\(ω\\) since \\(\\text{cof}(\\Omega)=\\Omega\\).
+\\(\\omega\\) since \\(\\text{cof}(\\Omega)=\\Omega\\).
 
 At first we define the normal form for ordinals
 
-\\(α=\_{NF}α\_1+α\_2+\\cdots+α\_n\\) iff
-\\(α=α\_1+α\_2+\\cdots+α\_n\\) and
-\\(α\_1\\geqα\_2\\geq\\cdots\\geqα\_n\\)
+\\(\\alpha=\_{NF}\\alpha\_1+\\alpha\_2+\\cdots+\\alpha\_n\\) iff
+\\(\\alpha=\\alpha\_1+\\alpha\_2+\\cdots+\\alpha\_n\\) and
+\\(\\alpha\_1\\geq\\alpha\_2\\geq\\cdots\\geq\\alpha\_n\\)
 
-\\(α=\_{NF}ω^β\\) iff \\(α=ω^β\\) and
-\\(β&lt;α\\)
+\\(\\alpha=\_{NF}\\omega^\\beta\\) iff \\(\\alpha=\\omega^\\beta\\) and
+\\(\\beta&lt;\\alpha\\)
 
-\\(α=\_{NF}\\Omega^β\\gamma\\) iff
-\\(α=\\Omega^β\\gamma\\) and \\(\\gamma&lt;\\Omega\\)
+\\(\\alpha=\_{NF}\\Omega^\\beta\\gamma\\) iff
+\\(\\alpha=\\Omega^\\beta\\gamma\\) and \\(\\gamma&lt;\\Omega\\)
 
-\\(α=\_{NF}\\psi(β)\\) iff \\(α=\\psi(β)\\) and
-\\(β\\in C(β)\\)
+\\(\\alpha=\_{NF}\\psi(\\beta)\\) iff \\(\\alpha=\\psi(\\beta)\\) and
+\\(\\beta\\in C(\\beta)\\)
 
 For limit ordinals written in normal form we assign the fundamental
 sequences as follows:
 
-1\) if \\(α=α\_1+α\_2+\\cdots+α\_n\\) then
-\\(\\text{cof} (α)= \\text{cof} (α\_n)\\) and
-\\(α\[η\]=α\_1+α\_2+\\cdots+(α\_n\[η\])\\)
+1\) if \\(\\alpha=\\alpha\_1+\\alpha\_2+\\cdots+\\alpha\_n\\) then
+\\(\\text{cof} (\\alpha)= \\text{cof} (\\alpha\_n)\\) and
+\\(\\alpha\[\\eta\]=\\alpha\_1+\\alpha\_2+\\cdots+(\\alpha\_n\[\\eta\])\\)
 
-2\) if \\(α=ω^β\\) and \\(β\\) is a countable
-limit ordinal then \\(α\[n\]=ω^{β\[n\]}\\)
+2\) if \\(\\alpha=\\omega^\\beta\\) and \\(\\beta\\) is a countable
+limit ordinal then \\(\\alpha\[n\]=\\omega^{\\beta\[n\]}\\)
 
-3\) if \\(α=ω^β\\) and \\(β=\\gamma+1\\) then
-\\(α\[n\]=ω^\\gamma n\\)
+3\) if \\(\\alpha=\\omega^\\beta\\) and \\(\\beta=\\gamma+1\\) then
+\\(\\alpha\[n\]=\\omega^\\gamma n\\)
 
-4\) if \\(α=\\psi(0)\\) then \\(α\[0\]=1\\) and
-\\(α\[n+1\]=ω^{α\[n\]}\\)
+4\) if \\(\\alpha=\\psi(0)\\) then \\(\\alpha\[0\]=1\\) and
+\\(\\alpha\[n+1\]=\\omega^{\\alpha\[n\]}\\)
 
-5\) if \\(α=\\psi(β+1)\\) then
-\\(α\[0\]=\\psi(β)+1\\) and
-\\(α\[n+1\]=ω^{α\[n\]}\\)
+5\) if \\(\\alpha=\\psi(\\beta+1)\\) then
+\\(\\alpha\[0\]=\\psi(\\beta)+1\\) and
+\\(\\alpha\[n+1\]=\\omega^{\\alpha\[n\]}\\)
 
-6\) if \\(α=\\Omega^{β}\\gamma\\) and \\(\\text{cof}
-(\\gamma)=ω\\) then \\(\\text{cof} (α)= ω\\) and
-\\(α\[η\]=\\Omega^{β}(\\gamma\[η\])\\)
+6\) if \\(\\alpha=\\Omega^{\\beta}\\gamma\\) and \\(\\text{cof}
+(\\gamma)=\\omega\\) then \\(\\text{cof} (\\alpha)= \\omega\\) and
+\\(\\alpha\[\\eta\]=\\Omega^{\\beta}(\\gamma\[\\eta\])\\)
 
-7\) if \\(α=\\Omega^{β+1}(\\gamma+1)\\) then \\(\\text{cof}
-(α)=\\Omega \\) and
-\\(α\[η\]=\\Omega^{β+1}\\gamma+\\Omega^βη\\)
+7\) if \\(\\alpha=\\Omega^{\\beta+1}(\\gamma+1)\\) then \\(\\text{cof}
+(\\alpha)=\\Omega \\) and
+\\(\\alpha\[\\eta\]=\\Omega^{\\beta+1}\\gamma+\\Omega^\\beta\\eta\\)
 
-8\) if \\(α=\\Omega^β(\\gamma+1)\\) and
-\\(\\text{cof}(β)\\geqω\\) then \\(\\text{cof}(α)=
-\\text{cof}(β)\\) and
-\\(α\[η\]=\\Omega^β\\gamma+\\Omega^{β\[η\]}\\)
+8\) if \\(\\alpha=\\Omega^\\beta(\\gamma+1)\\) and
+\\(\\text{cof}(\\beta)\\geq\\omega\\) then \\(\\text{cof}(\\alpha)=
+\\text{cof}(\\beta)\\) and
+\\(\\alpha\[\\eta\]=\\Omega^\\beta\\gamma+\\Omega^{\\beta\[\\eta\]}\\)
 
-9\) if \\(α=\\varepsilon\_{\\Omega+1}\\) then \\(\\text{cof}
-(α)=ω\\) and \\(α\[0\]=1\\) and
-\\(α\[n+1\]=\\Omega^{α\[n\]}\\)
+9\) if \\(\\alpha=\\varepsilon\_{\\Omega+1}\\) then \\(\\text{cof}
+(\\alpha)=\\omega\\) and \\(\\alpha\[0\]=1\\) and
+\\(\\alpha\[n+1\]=\\Omega^{\\alpha\[n\]}\\)
 
-10\) if \\(α=\\psi(β)\\) and
-\\(\\text{cof}(β)=ω\\) then \\(\\text{cof}
-(α)=ω\\) and \\(α\[n\]=\\psi(β\[n\])\\)
+10\) if \\(\\alpha=\\psi(\\beta)\\) and
+\\(\\text{cof}(\\beta)=\\omega\\) then \\(\\text{cof}
+(\\alpha)=\\omega\\) and \\(\\alpha\[n\]=\\psi(\\beta\[n\])\\)
 
-11\) if \\(α=\\psi(β)\\) and
-\\(\\text{cof}(β)=\\Omega\\) then \\(\\text{cof}
-(α)=ω\\) and \\(α\[0\]=1\\) and
-\\(α\[n+1\]=\\psi(β\[α\[n\]\])\\)
+11\) if \\(\\alpha=\\psi(\\beta)\\) and
+\\(\\text{cof}(\\beta)=\\Omega\\) then \\(\\text{cof}
+(\\alpha)=\\omega\\) and \\(\\alpha\[0\]=1\\) and
+\\(\\alpha\[n+1\]=\\psi(\\beta\[\\alpha\[n\]\])\\)
 
   
 For example, for ordinal \\(\\psi(\\Omega^{\\Omega^2+\\Omega3})\\) we
@@ -161,24 +161,24 @@ function is stuck again until \\(\\Omega2\\).
 Stuck again. We are going to fast forward now.
 
 \\begin{eqnarray\*} \\psi(\\Omega3) &=& \\zeta\_2 \\ \\psi(\\Omega n)
-&=& \\zeta\_{n-1} \\\\ \\psi(\\Omega η\_0) &=& η\_0 \\\\
-\\psi(\\Omega η\_0+1) &=& η\_0 \\end{eqnarray\*}
+&=& \\zeta\_{n-1} \\\\ \\psi(\\Omega \\eta\_0) &=& \\eta\_0 \\\\
+\\psi(\\Omega \\eta\_0+1) &=& \\eta\_0 \\end{eqnarray\*}
 
 This function is stuck again until \\(\\psi(\\Omega^2)\\) because
-\\(C(\\Omega η\_0)\\) contains all countable ordinals up to but not
-incliding \\(η\_0\\), but there is no ordinal called \\(\\Omega
-η\_0\\) in \\(C(\\Omega η\_0)\\). So if you want to have
-\\(η\_0\\) in your list, you need \\(\\Omega η\_0\\), and
-therefore, \\(η\_0\\).
+\\(C(\\Omega \\eta\_0)\\) contains all countable ordinals up to but not
+incliding \\(\\eta\_0\\), but there is no ordinal called \\(\\Omega
+\\eta\_0\\) in \\(C(\\Omega \\eta\_0)\\). So if you want to have
+\\(\\eta\_0\\) in your list, you need \\(\\Omega \\eta\_0\\), and
+therefore, \\(\\eta\_0\\).
 
-\\begin{eqnarray\*} \\psi(\\Omega^2) &=& η\_0 \\\\
-\\psi(\\Omega^2+1) &=& \\varepsilon\_{η\_0+1} \\\\
-\\psi(\\Omega^2+n) &=& \\varepsilon\_{η\_0+n} \\\\
-\\psi(\\Omega^2+\\Omega) &=& \\zeta\_{η\_0+1} \\\\
-\\psi(\\Omega^2+\\Omega2) &=& \\zeta\_{η\_0+2} \\\\
-\\psi(\\Omega^2+\\Omega n) &=& \\zeta\_{η\_0+n} \\\\
-\\psi(\\Omega^2+\\Omegaη\_1) &=& η\_1 \\\\ \\psi(\\Omega^2 2)
-&=& η\_1 \\\\ \\psi(\\Omega^2 n) &=& η\_{n-1} \\\\
+\\begin{eqnarray\*} \\psi(\\Omega^2) &=& \\eta\_0 \\\\
+\\psi(\\Omega^2+1) &=& \\varepsilon\_{\\eta\_0+1} \\\\
+\\psi(\\Omega^2+n) &=& \\varepsilon\_{\\eta\_0+n} \\\\
+\\psi(\\Omega^2+\\Omega) &=& \\zeta\_{\\eta\_0+1} \\\\
+\\psi(\\Omega^2+\\Omega2) &=& \\zeta\_{\\eta\_0+2} \\\\
+\\psi(\\Omega^2+\\Omega n) &=& \\zeta\_{\\eta\_0+n} \\\\
+\\psi(\\Omega^2+\\Omega\\eta\_1) &=& \\eta\_1 \\\\ \\psi(\\Omega^2 2)
+&=& \\eta\_1 \\\\ \\psi(\\Omega^2 n) &=& \\eta\_{n-1} \\\\
 \\psi(\\Omega^2 \\varphi\_4(0)) &=& \\varphi\_4(0) \\\\ \\psi(\\Omega^3)
 &=& \\varphi\_4(0) \\end{eqnarray\*}
 
@@ -209,8 +209,8 @@ function](Extended_Veblen_function "Extended Veblen function").
 ## Small Veblen ordinal
 
 The small veblen ordinal is defined as
-\\(\\psi(\\Omega^{\\Omega^ω}) =
-\\varphi(1,\\underbrace{0,\\cdots,0}\_ω)\\). But it's only small
+\\(\\psi(\\Omega^{\\Omega^\\omega}) =
+\\varphi(1,\\underbrace{0,\\cdots,0}\_\\omega)\\). But it's only small
 compared to...
 
 ## Large Veblen ordinal
@@ -224,7 +224,7 @@ But even that's nothing compared to...
 ## Bachmann-Howard ordinal
 
 \\(BHO = \\psi(\\varepsilon\_{\\Omega+1}) =
-\\psi(\\underbrace{\\Omega^{\\Omega^{\\cdots^\\Omega}}}\_ω)\\)
+\\psi(\\underbrace{\\Omega^{\\Omega^{\\cdots^\\Omega}}}\_\\omega)\\)
 
 ## See also
 

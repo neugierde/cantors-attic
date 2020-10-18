@@ -33,9 +33,9 @@ or is at least equiconsistent with, the ZFC axioms of set theory.
 -   [$\\beth$-fixed
     point](Beth#beth_fixed_point "Beth")
 -   the [beth](Beth "Beth")
-    numbers and the [$\\beth\_α$
+    numbers and the [$\\beth\_\\alpha$
     hierarchy](Beth "Beth")
--   <a href="Beth_omega" class="mw-redirect" title="Beth omega">$\beth_ω$</a>
+-   <a href="Beth_omega" class="mw-redirect" title="Beth omega">$\beth_\omega$</a>
     and the
     <a href="Strong_limit" class="mw-redirect" title="Strong limit">strong limit</a>
     cardinals
@@ -60,11 +60,11 @@ or is at least equiconsistent with, the ZFC axioms of set theory.
     point](Aleph#aleph_fixed_point "Aleph")
 -   the
     [aleph](Aleph "Aleph")
-    numbers and the [$\\aleph\_α$
+    numbers and the [$\\aleph\_\\alpha$
     hierarchy](Aleph "Aleph")
 -   [Buchholz's ψ
     functions](Buchholz%27s_%CF%88_functions "Buchholz's ψ functions")
--   [$\\aleph\_ω$](Aleph#aleph_omega "Aleph")
+-   [$\\aleph\_\\omega$](Aleph#aleph_omega "Aleph")
     and
     <a href="Singular" class="mw-redirect" title="Singular">singular</a>
     cardinals

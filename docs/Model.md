@@ -95,9 +95,9 @@ model of ZFC.{% cite Usuba2019 %}
 
 #### <span id="Mantle_and_large_cardinals" class="mw-headline">Mantle and large cardinals</span>
 
-If $κ$ is
+If $\\kappa$ is
 <a href="Hyperhuge" class="mw-redirect" title="Hyperhuge">hyperhuge</a>,
-then $V$ has $&lt;κ$ many
+then $V$ has $&lt;\\kappa$ many
 <a href="Ground" class="mw-redirect" title="Ground">grounds</a>
 (so the mantle is a ground
 itself).{% cite Usuba2017 %}
@@ -114,12 +114,12 @@ cardinal and class many grounds of $V$ (because of the indestructibility
 properties of
 supercompactness).{% cite Usuba2017 %}
 
-## $κ$-model
+## $\\kappa$-model
 
 A **weak $κ$-model** is a
 [transitive](Transitive "Transitive")
-set $M$ of size $κ$ with $κ \\in M$ and satisfying the
+set $M$ of size $\\kappa$ with $\\kappa \\in M$ and satisfying the
 theory $\\mathrm{ZFC}^-$ ($\\mathrm{ZFC}$ without the axiom of power
 set, with collection, not replacement). It is a **$κ$-model** if
-additionaly $M^{&lt;κ} \\subseteq
+additionaly $M^{&lt;\\kappa} \\subseteq
 M$. {% cite Hamkins2014 Holy2018 %}

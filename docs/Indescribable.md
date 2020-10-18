@@ -7,37 +7,37 @@ redirect_from:
 
 ![The Structure of Indescribability in Consistency Strength](assets/img/IndescribableStructure.png)
 
-A cardinal $κ$ is *indescribable* if it holds the reflection
+A cardinal $\\kappa$ is *indescribable* if it holds the reflection
 theorem up to a certain point. This is important to mathematics because
 of the concern for the reflection theorem. In more detail, a cardinal
-$κ$ is $\\Pi\_{m}^n$-indescribable if and only if for every
+$\\kappa$ is $\\Pi\_{m}^n$-indescribable if and only if for every
 $\\Pi\_{m}$ first-order sentence $\\phi$:
 
-$$\\forall S\\subseteq V\_{κ}(\\langle
-V\_{κ+n};\\in,S\\rangle\\models\\phi\\rightarrow\\existsα&lt;κ(\\langle
-V\_{α+n};\\in,S\\cap V\_{α}\\rangle\\models\\phi))$$
+$$\\forall S\\subseteq V\_{\\kappa}(\\langle
+V\_{\\kappa+n};\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha&lt;\\kappa(\\langle
+V\_{\\alpha+n};\\in,S\\cap V\_{\\alpha}\\rangle\\models\\phi))$$
 
 Likewise for $\\Sigma\_{m}^n$-indescribable cardinals.
 
 Here are some other equivalent definitions:
 
--   A cardinal $κ$ is $\\Pi\_m^n$-indescribable for $n&gt;0$ iff
+-   A cardinal $\\kappa$ is $\\Pi\_m^n$-indescribable for $n&gt;0$ iff
     for every $\\Pi\_m$ first-order unary formula $\\phi$:
 
 $$\\forall S\\subseteq
-V\_κ(V\_{κ+n}\\models\\phi(S)\\rightarrow\\existsα&lt;κ(V\_{α+n}\\models\\phi(S\\cap
-V\_α)))$$
+V\_\\kappa(V\_{\\kappa+n}\\models\\phi(S)\\rightarrow\\exists\\alpha&lt;\\kappa(V\_{\\alpha+n}\\models\\phi(S\\cap
+V\_\\alpha)))$$
 
--   A cardinal $κ$ is $\\Pi\_m^n$-indescribable iff for every
+-   A cardinal $\\kappa$ is $\\Pi\_m^n$-indescribable iff for every
     $\\Pi\_m$ $n+1$-th-order sentence $\\phi$:
 
-$$\\forall S\\subseteq V\_κ(\\langle
-V\_κ;\\in,S\\rangle\\models\\phi\\rightarrow\\existsα&lt;κ(\\langle
-V\_α;\\in,S\\cap V\_α\\rangle\\models\\phi))$$
+$$\\forall S\\subseteq V\_\\kappa(\\langle
+V\_\\kappa;\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha&lt;\\kappa(\\langle
+V\_\\alpha;\\in,S\\cap V\_\\alpha\\rangle\\models\\phi))$$
 
 In other words, if a cardinal is $\\Pi\_{m}^n$-indescribable, then every
 $n+1$-th order logic statement that is $\\Pi\_m$ expresses the
-reflection of $V\_{κ}$ onto $V\_{α}$. This exercises the
+reflection of $V\_{\\kappa}$ onto $V\_{\\alpha}$. This exercises the
 fact that these cardinals are so large they almost resemble the order of
 $V$ itself. This definition is similar to that of
 [shrewd](Shrewd "Shrewd")
@@ -49,26 +49,26 @@ cardinals, an extension of indescribable cardinals.
 every natural $m$ and $n$ (equivalently $\\Sigma\_m^n$-indescribable for
 every natural m and n, equivalently $\\Delta\_m^n$-indescribable for
 every natural $m$ and $n$). This means that every (finitary) formula
-made from quantifiers, $\\in$ and a subset of $V\_{κ}$ reflects
-from $V\_{κ}$ onto a smaller rank.
+made from quantifiers, $\\in$ and a subset of $V\_{\\kappa}$ reflects
+from $V\_{\\kappa}$ onto a smaller rank.
 
 *$Q$-indescribable* cardinals are those which have the property that for
 every $Q$-sentence $\\phi$:
 
-$$\\forall S\\subseteq V\_κ(\\langle
-V\_κ;\\in,S\\rangle\\models\\phi\\rightarrow\\existsα&lt;κ(\\langle
-V\_α;\\in,S\\cap V\_α\\rangle\\models\\phi))$$
+$$\\forall S\\subseteq V\_\\kappa(\\langle
+V\_\\kappa;\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha&lt;\\kappa(\\langle
+V\_\\alpha;\\in,S\\cap V\_\\alpha\\rangle\\models\\phi))$$
 
-*$β$-indescribable* cardinals are those which have the property
+*$\\beta$-indescribable* cardinals are those which have the property
 that for every first order sentence $\\phi$:
 
-$$\\forall S\\subseteq V\_κ(\\langle
-V\_{κ+β};\\in,S\\rangle\\models\\phi\\rightarrow\\existsα&lt;κ(\\langle
-V\_{α+β};\\in,S\\cap V\_α\\rangle\\models\\phi))$$
+$$\\forall S\\subseteq V\_\\kappa(\\langle
+V\_{\\kappa+\\beta};\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha&lt;\\kappa(\\langle
+V\_{\\alpha+\\beta};\\in,S\\cap V\_\\alpha\\rangle\\models\\phi))$$
 
-There is no $κ$ which is $κ$-indescribable. A cardinal is
-$\\Pi\_{&lt;ω}^m$-indescribable iff it is $m$-indescribable for
-finite $m$. Every $ω$-indescribable cardinal is totally
+There is no $\\kappa$ which is $\\kappa$-indescribable. A cardinal is
+$\\Pi\_{&lt;\\omega}^m$-indescribable iff it is $m$-indescribable for
+finite $m$. Every $\\omega$-indescribable cardinal is totally
 indescribable.
 
 ## Facts
@@ -106,11 +106,11 @@ $\\Sigma\_n^m$-indescribable cardinal, which is in turn less than the
 least $\\Pi\_{n+1}^m$-indescribable
 cardinal.{% cite Kanamori2009 %}
 
-If $κ$ is
+If $\\kappa$ is
 $Π\_n$-[Ramsey](Ramsey "Ramsey"),
-then $κ$ is $Π\_{n+1}^1$-indescribable. If $X\\subseteqκ$ is
+then $\\kappa$ is $Π\_{n+1}^1$-indescribable. If $X\\subseteq\\kappa$ is
 a $Π\_n$-Ramsey subset, then $X$ is in the $Π\_{n+1}^1$-indescribable
-filter.{% cite Feng1990 %} If $κ$ is
+filter.{% cite Feng1990 %} If $\\kappa$ is
 completely Ramsey, then $κ$ is
 $Π\_1^2$-indescribable.{% cite Holy2018 %}
 
@@ -139,12 +139,12 @@ cardinals, and
 <a href="Zero_dagger" class="mw-redirect" title="Zero dagger">$0^{\dagger}$</a>
 cardinals). {% cite Jech2003 %}
 
-If $2^κ\\neqκ^+$ for some $\\Pi\_1^2$-indescribable
-cardinal, then there is a smaller $λ$ such that
-$2^λ\\neqλ^+$. However, assuming the consistency of the
-existence of a $\\Pi\_n^1$-indescribable cardinal $κ$, it is
-consistent for $κ$ to be the least cardinal such that
-$2^κ\\neqκ^+$.
+If $2^\\kappa\\neq\\kappa^+$ for some $\\Pi\_1^2$-indescribable
+cardinal, then there is a smaller $\\lambda$ such that
+$2^\\lambda\\neq\\lambda^+$. However, assuming the consistency of the
+existence of a $\\Pi\_n^1$-indescribable cardinal $\\kappa$, it is
+consistent for $\\kappa$ to be the least cardinal such that
+$2^\\kappa\\neq\\kappa^+$.
 {% cite Hauser1991 %}
 
   

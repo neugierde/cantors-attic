@@ -3,14 +3,14 @@ title: Measurable cardinal
 permalink: Measurable
 ---
 
-A **measurable cardinal** $κ$ is an
+A **measurable cardinal** $\\kappa$ is an
 <a href="Uncountable" class="mw-redirect" title="Uncountable">uncountable</a>
 [cardinal](Cardinal "Cardinal")
-such that it is possible to "measure" the subsets of $κ$ using a
+such that it is possible to "measure" the subsets of $\\kappa$ using a
 2-valued
 <a href="Measure" class="mw-redirect" title="Measure">measure</a>
-on the powerset of $κ$, $\\mathcal{P}(κ)$. There exists
-several other equivalent definitions: For example, $κ$ can also be
+on the powerset of $\\kappa$, $\\mathcal{P}(\\kappa)$. There exists
+several other equivalent definitions: For example, $\\kappa$ can also be
 the critical point of a nontrivial [elementary
 embedding](Elementary_embedding "Elementary embedding")
 $j:V\\to M$.
@@ -19,28 +19,28 @@ Measurable cardinals were introduced by Stanislaw Ulam in 1930.
 
 ## Definitions
 
-There are essentially two ways to "measure" a cardinal $κ$, that's
+There are essentially two ways to "measure" a cardinal $\\kappa$, that's
 to say we can require the measure to be $\\sigma$-additive (a
-"classical" measure) or to be $κ$-additive (for every cardinal
-$λ$ such that $λ &lt; κ$, the union of $λ$
+"classical" measure) or to be $\\kappa$-additive (for every cardinal
+$\\lambda$ such that $\\lambda &lt; \\kappa$, the union of $\\lambda$
 null sets still has measure zero).
 
-Let $κ$ be an uncountable cardinal.
+Let $\\kappa$ be an uncountable cardinal.
 
 Theorem 1 : The following are equivalent :
 
-1.  There exists a 2-valued ($\\sigma$-additive) measure on $κ$.
+1.  There exists a 2-valued ($\\sigma$-additive) measure on $\\kappa$.
 2.  There exists a $\\sigma$-complete nonprincipal ultrafilter on
-    $κ$.
+    $\\kappa$.
 
 The equivalence is due to the fact that if $\\mu$ is a 2-valued measure
-on $κ$, then $U=\\{X\\subsetκ\|\\mu(X)=1\\}$ is a
+on $\\kappa$, then $U=\\{X\\subset\\kappa\|\\mu(X)=1\\}$ is a
 nonprincipal ultrafilter (since $\\mu$ is 2-valued) and is also
 $\\sigma$-complete because of $\\mu$'s $\\sigma$-additivity. Similarly,
-if $U$ is a $\\sigma$-complete nonprincipal ultrafilter on $κ$,
-then $\\mu:\\mathcal{P}(κ)\\to\[0,1\]$ defined by $\\mu(X)=1$
+if $U$ is a $\\sigma$-complete nonprincipal ultrafilter on $\\kappa$,
+then $\\mu:\\mathcal{P}(\\kappa)\\to\[0,1\]$ defined by $\\mu(X)=1$
 whenever $X\\in U$, $\\mu(X)=0$ otherwise is a 2-valued measure on
-$κ$. {% cite Jech2003 %}
+$\\kappa$. {% cite Jech2003 %}
 
 An uncountable cardinal which satisfies the equivalent conditions of
 theorem 1 is sometimes called a 2-measurable cardinal (because
@@ -49,8 +49,8 @@ article of Gustave Choquet : "Cardinaux 2-mesurables et cônes faiblement
 compacts", Annales de l'Institut Fourier, tome 17, n°2 (1967),
 P.383-393.
 
-Note : It is clear that, if $κ$ is 2-measurable, then every
-cardinal $λ$ such that $λ &gt; κ$ is also
+Note : It is clear that, if $\\kappa$ is 2-measurable, then every
+cardinal $\\lambda$ such that $\\lambda &gt; \\kappa$ is also
 2-measurable. Thus, the notion of 2-measurability separates the class
 $C$ of all cardinals in two subclasses : the "moderated" cardinals and
 the 2-measurable cardinals, the first one being an initial segment of
@@ -61,35 +61,35 @@ hierarchy of large cardinals.
 
 Theorem 2 : The following are equivalent :
 
-1.  There exists a $κ$-complete nonprincipal ultrafilter on
-    $κ$.
+1.  There exists a $\\kappa$-complete nonprincipal ultrafilter on
+    $\\kappa$.
 2.  There exists a nontrivial elementary embedding $j:V\\to M$ with $M$
-    a transitive class and such that $κ$ is the least ordinal
+    a transitive class and such that $\\kappa$ is the least ordinal
     moved (the *critical point*).
-3.  There exists a nonprincipal ultrafilter $U$ on $κ$ such that
+3.  There exists a nonprincipal ultrafilter $U$ on $\\kappa$ such that
     the
     [ultrapower](Ultrapower "Ultrapower")
     $(\\text{Ult}\_U(V),\\in\_U)$ of the universe is well-founded.
 
 To see that the second condition implies the first one, one can show
 that if $j:V\\to M$ is a nontrivial elementary embedding, then the set
-$\\mathcal{U}=\\{x\\subsetκ\|κ\\in j(x)\\})$ is a
-$κ$-complete nonprincipal ultrafilter on $κ$, and in fact a
+$\\mathcal{U}=\\{x\\subset\\kappa\|\\kappa\\in j(x)\\})$ is a
+$\\kappa$-complete nonprincipal ultrafilter on $\\kappa$, and in fact a
 normal fine measure. To show the converse, one needs to use [ultrapower
 embeddings](Ultrapower "Ultrapower"):
-if $U$ is a nonprincipal $κ$-complete ultrafilter on $κ$,
+if $U$ is a nonprincipal $\\kappa$-complete ultrafilter on $\\kappa$,
 then the canonical ultrapower embedding $j:V\\to\\text{Ult}\_U(V)$ is a
 nontrivial elementary embedding of the universe.
 {% cite Jech2003 %}
 
-An uncountable cardinal $κ$ is called measurable if the equivalent
+An uncountable cardinal $\\kappa$ is called measurable if the equivalent
 conditions of theorem 2 are satisfied.
 
 The two theorems are related by the fact (easy to prove) that the least
-cardinal $κ$ (if it exists) which carries a $\\sigma$-complete
+cardinal $\\kappa$ (if it exists) which carries a $\\sigma$-complete
 nonprincipal ultrafilter is measurable, and in this case every
-$\\sigma$-complete nonprincipal ultrafilter on $κ$ is
-$κ$-complete (see for example Patrick Dehornoy : "La théorie des
+$\\sigma$-complete nonprincipal ultrafilter on $\\kappa$ is
+$\\kappa$-complete (see for example Patrick Dehornoy : "La théorie des
 ensembles", Calvage et Mounet, 2017).
 
 In other words, the first 2-measurable cardinal is measurable.
@@ -101,56 +101,56 @@ converse is false.
 ### Hayut Property
 
 There is also another quite interesting model-theoretic characterization
-of measurability. Let a theory $T$ be $κ$-unboundedly satisfiable
-iff for every $λ&lt;κ$, there is a model
-$\\mathcal{M}\\models T$ with $λ\\leq\|M\|&lt;κ$. In other
-words, the sizes of models of $T$ are unbounded in $κ$.
+of measurability. Let a theory $T$ be $\\kappa$-unboundedly satisfiable
+iff for every $\\lambda&lt;\\kappa$, there is a model
+$\\mathcal{M}\\models T$ with $\\lambda\\leq\|M\|&lt;\\kappa$. In other
+words, the sizes of models of $T$ are unbounded in $\\kappa$.
 
-A class of formulae $Q$ is $κ$-Hayut iff for any
-$κ$-unboundedly satisfiable theory $T\\subseteq Q$, there is a
-model of $T$ of size at least $κ$. More intuitively,
-$κ$-many small models of size less than $κ$ can combine to
-make one big $κ$-sized model.
+A class of formulae $Q$ is $\\kappa$-Hayut iff for any
+$\\kappa$-unboundedly satisfiable theory $T\\subseteq Q$, there is a
+model of $T$ of size at least $\\kappa$. More intuitively,
+$\\kappa$-many small models of size less than $\\kappa$ can combine to
+make one big $\\kappa$-sized model.
 
-An abstract logic $\\mathcal{L}$ is called almost $κ$-favorable
+An abstract logic $\\mathcal{L}$ is called almost $\\kappa$-favorable
 iff there is some way to represent every sentence of $\\mathcal{L}$ with
-vocabulary $\\tau$ as a sequence of length below $κ$ of symbols of
-$\\tau$ and ordinals in $κ$ in such a way that the satisfaction
+vocabulary $\\tau$ as a sequence of length below $\\kappa$ of symbols of
+$\\tau$ and ordinals in $\\kappa$ in such a way that the satisfaction
 relation is upward absolute for inner models $M$ of ZFC elementarily
-equivalent to $V$ with $M^{&lt;κ}\\subset M$. If $κ$ is an
+equivalent to $V$ with $M^{&lt;\\kappa}\\subset M$. If $\\kappa$ is an
 uncountable regular cardinal, the following are almost
-$κ$-favorable:
+$\\kappa$-favorable:
 
-1.  $\\mathcal{L}\_{λ,\\mu}$ for any $λ,\\mu\\leqκ$
-2.  $\\mathcal{L}\_{κ,ω}(q\_{&lt;κ})$, which is
-    $\\mathcal{L}\_{κ,ω}$ with universal cardinality
-    quantifiers $q\_λ$ for every $λ&lt;κ$ (where
-    $M\\models q\_λ$ iff $\|M\|\\geq q\_λ$)
-3.  $\\mathcal{L}\_{κ,κ}$ with the addition of a single
+1.  $\\mathcal{L}\_{\\lambda,\\mu}$ for any $\\lambda,\\mu\\leq\\kappa$
+2.  $\\mathcal{L}\_{\\kappa,\\omega}(q\_{&lt;\\kappa})$, which is
+    $\\mathcal{L}\_{\\kappa,\\omega}$ with universal cardinality
+    quantifiers $q\_\\lambda$ for every $\\lambda&lt;\\kappa$ (where
+    $M\\models q\_\\lambda$ iff $\|M\|\\geq q\_\\lambda$)
+3.  $\\mathcal{L}\_{\\kappa,\\kappa}$ with the addition of a single
     existential 2nd-order quantifier, where negation on the resulting
     sentences is not allowed
 
 Assuming $V=L$, every $\\mathcal{L}$ where sentences are represented as
-sequences of length below $κ$ of symbols of $\\tau$ and ordinals
-in $κ$ ($κ$-sequential logic) that has an extension with an
-$\\mathcal{L}\_{ω,ω}$-definable satisfaction relation is
-almost $κ$-favorable. For example: if $V=L$, then
-$\\mathcal{L}\_{κ,κ}^{&lt;ω}$ is almost
-$κ$-favorable, but if a measurable exists then
-$\\mathcal{L}\_{κ,κ}^{&lt;ω}$ is not almost
-$κ$-favorable, and in fact if $κ$ is the least measurable
-then $\\mathcal{L}\_{κ,κ}^{&lt;ω}$ is not
-$κ$-Hayut; however, if $κ$ is
+sequences of length below $\\kappa$ of symbols of $\\tau$ and ordinals
+in $\\kappa$ ($\\kappa$-sequential logic) that has an extension with an
+$\\mathcal{L}\_{\\omega,\\omega}$-definable satisfaction relation is
+almost $\\kappa$-favorable. For example: if $V=L$, then
+$\\mathcal{L}\_{\\kappa,\\kappa}^{&lt;\\omega}$ is almost
+$\\kappa$-favorable, but if a measurable exists then
+$\\mathcal{L}\_{\\kappa,\\kappa}^{&lt;\\omega}$ is not almost
+$\\kappa$-favorable, and in fact if $\\kappa$ is the least measurable
+then $\\mathcal{L}\_{\\kappa,\\kappa}^{&lt;\\omega}$ is not
+$\\kappa$-Hayut; however, if $\\kappa$ is
 [extendible](Extendible "Extendible"),
-then $\\mathcal{L}\_{κ,κ}^{&lt;ω}$ is $κ$-Hayut,
-though it still isn't almost $κ$-favorable.
+then $\\mathcal{L}\_{\\kappa,\\kappa}^{&lt;\\omega}$ is $\\kappa$-Hayut,
+though it still isn't almost $\\kappa$-favorable.
 
-An uncountable regular cardinal $κ$ is measurable if and only if
-$\\mathcal{L}\_{κ,κ}$ is $κ$-Hayut, if and only if
-$\\mathcal{L}\_{κ,ω}(q\_{&lt;κ})$ is $κ$-Hayut
-up to $2^κ$. Furthermore, an uncountable regular cardinal
-$κ$ is measurable if and only if every almost $κ$-favorable
-logic is $κ$-Hayut.
+An uncountable regular cardinal $\\kappa$ is measurable if and only if
+$\\mathcal{L}\_{\\kappa,\\kappa}$ is $\\kappa$-Hayut, if and only if
+$\\mathcal{L}\_{\\kappa,\\omega}(q\_{&lt;\\kappa})$ is $\\kappa$-Hayut
+up to $2^\\kappa$. Furthermore, an uncountable regular cardinal
+$\\kappa$ is measurable if and only if every almost $\\kappa$-favorable
+logic is $\\kappa$-Hayut.
 
 For more information, see
 <a href="https://mathoverflow.net/questions/309896/a-weakening-of-cardinal-compactness-is-it-equivalent/309937" class="external text">this post</a>.
@@ -160,20 +160,20 @@ For more information, see
 There are also other embedding characterizations of measurable
 cardinals. Namely (under
 [NBG](Second-order "Second-order")
-or ZFC + $j$) the following are equivalent for any cardinal $κ$:
+or ZFC + $j$) the following are equivalent for any cardinal $\\kappa$:
 
-1.  $κ$ is measurable.
-2.  $κ$ is the critical point of some $j:V\\prec\_{\\Delta\_0}V$.
-3.  $κ$ is the critical point of some $j:V\\prec\_{\\Delta\_1}V$.
-4.  $κ$ is the critical point of some $j:V\\rightarrow V$ such
+1.  $\\kappa$ is measurable.
+2.  $\\kappa$ is the critical point of some $j:V\\prec\_{\\Delta\_0}V$.
+3.  $\\kappa$ is the critical point of some $j:V\\prec\_{\\Delta\_1}V$.
+4.  $\\kappa$ is the critical point of some $j:V\\rightarrow V$ such
     that for any $\\Sigma\_1$-formula $\\varphi$,
     $\\varphi\[x,y,z...\]\\rightarrow\\varphi\[j(x),j(y),j(z)...\]$.
 
 *Proof:*
 
-(1 implies 4). If $κ$ is measurable, then $κ$ is the
+(1 implies 4). If $\\kappa$ is measurable, then $\\kappa$ is the
 critical point of a $j:V\\prec M$ for some inner model $M$. Therefore
-$κ$ is the critical point of a $j:V\\prec\_{\\Sigma\_1}M$ and so
+$\\kappa$ is the critical point of a $j:V\\prec\_{\\Sigma\_1}M$ and so
 for any $\\Sigma\_1$-formula $\\varphi$,
 $\\varphi\[x,y,z...\]\\rightarrow
 M\\models\\varphi\[j(x),j(y),j(z)...\]$. Then, let $\\varphi$ be a
@@ -194,28 +194,28 @@ $$\\therefore\\varphi\[x,y,z...\]\\Leftrightarrow\\varphi\[j(x),j(y),j(z)...\]$$
 $j:V\\prec\_{\\Delta\_0}V$ by definition.
 
 (2 implies 1). If $j:V\\prec\_{\\Delta\_0}V$ has critical point
-$κ$, then $\\{X\\subseteqκ:κ\\in j(X)\\}$ is a
-$κ$-complete measure on $κ$.
+$\\kappa$, then $\\{X\\subseteq\\kappa:\\kappa\\in j(X)\\}$ is a
+$\\kappa$-complete measure on $\\kappa$.
 
 This gives further characterizations (which are weakenings of the
-$j:V\\prec M$ characterizations). Namely, $κ$ is measurable iff it
+$j:V\\prec M$ characterizations). Namely, $\\kappa$ is measurable iff it
 is the critical point of some $j:V\\prec\_{\\Delta\_0} M$ for some inner
 model $M$.
 
 *Proof:*
 
-(1 implies 2). Let $κ$ be measurable. Then $κ$ is the
+(1 implies 2). Let $\\kappa$ be measurable. Then $\\kappa$ is the
 critical point of $j:V\\prec M$ for some inner model $M$, and so
 $j:V\\prec\_{\\Delta\_0} M$.
 
-(2 implies 1). Let $κ$ be the critical point of a
+(2 implies 1). Let $\\kappa$ be the critical point of a
 $j:V\\prec\_{\\Delta\_0}M$. Then, $j:V\\rightarrow V$ and for any
 $\\Delta\_0$ formula $\\varphi$, $\\varphi\[x,y,z...\]\\Leftrightarrow
 M\\models\\varphi\[j(x),j(y),j(z)...\]$. Of course, since $\\varphi$ is
 $\\Delta\_0$, $M\\models\\varphi\[j(x),j(y),j(z)...\]$ iff
 $\\varphi\[j(x),j(y),j(z)...\]$. So:
 $$\\varphi\[x,y,z...\]\\Leftrightarrow\\varphi\[j(x),j(y),j(z)...\]$$
-$$j:V\\prec\_{\\Delta\_0}V$$ $$\\thereforeκ\\text{ is
+$$j:V\\prec\_{\\Delta\_0}V$$ $$\\therefore\\kappa\\text{ is
 measurable.}$$
 
   
@@ -223,19 +223,19 @@ Finally, this gives much more general (and astonishing)
 characterizations of measurability in terms of nontrivial elementary
 embeddings of classes into themselves. The following are equivalent:
 
-1.  $κ$ is measurable.
+1.  $\\kappa$ is measurable.
 2.  There is some transitive class (or set) $M\\models\\text{ZFC}$ with
-    $\\mathcal{P}^2(κ)\\subseteq M$ and some
-    $j:M\\prec\_{\\Delta\_0}M$ with critical point $κ$.
+    $\\mathcal{P}^2(\\kappa)\\subseteq M$ and some
+    $j:M\\prec\_{\\Delta\_0}M$ with critical point $\\kappa$.
 3.  For every transitive class (or set) $M\\models\\text{ZFC}$ with
-    $κ\\subseteq M$ there is a $j:M\\prec\_{\\Delta\_1}M$ with
-    critical point $κ$.
+    $\\kappa\\subseteq M$ there is a $j:M\\prec\_{\\Delta\_1}M$ with
+    critical point $\\kappa$.
 
 *Proof:*
 
-(1 implies 3). Let $κ$ be measurable and let
+(1 implies 3). Let $\\kappa$ be measurable and let
 $j:V\\prec\_{\\Delta\_1}V$. Then, let $M\\models\\text{ZFC}$ be a
-transitive class with $κ\\subseteq M$. Consider $j\\upharpoonright
+transitive class with $\\kappa\\subseteq M$. Consider $j\\upharpoonright
 M:M\\rightarrow M$. Let $\\varphi$ be a $\\Delta\_1$ formula. Then,
 $\\varphi\[x,y,z...\]\\Leftrightarrow M\\models\\varphi\[x,y,z...\]$
 (because $\\Delta\_1$ formulae are upward and downward absolute for
@@ -246,41 +246,41 @@ M(x),j\\upharpoonright M(y),j\\upharpoonright M(z)...\]$$
 $$\\Leftrightarrow M\\models\\varphi\[x,y,z...\]\\Leftrightarrow
 M\\models\\varphi\[j\\upharpoonright M(x),j\\upharpoonright
 M(y),j\\upharpoonright M(z)...\]$$ Therefore $j\\upharpoonright
-M:M\\prec\_{\\Delta\_1}$. Now note that $j$ has critical point $κ$
+M:M\\prec\_{\\Delta\_1}$. Now note that $j$ has critical point $\\kappa$
 and so $j\\upharpoonright M$ does too.
 
 (3 implies 2). Simply choose $M=V$ and note that any
-$j:V\\prec\_{\\Delta\_1}V$ with critical point $κ$ is already a
-$j:M\\prec\_{\\Delta\_0}M$ with critical point $κ$.
+$j:V\\prec\_{\\Delta\_1}V$ with critical point $\\kappa$ is already a
+$j:M\\prec\_{\\Delta\_0}M$ with critical point $\\kappa$.
 
 (2 implies 1). If $j:M\\prec\_{\\Delta\_0}M$ is as described, then
-simply choose $U=\\{X\\subseteqκ:κ\\in j(X)\\}$ as usual.
-The proof that $U$ is a $κ$-complete nonprincipal ultrafilter is a
+simply choose $U=\\{X\\subseteq\\kappa:\\kappa\\in j(X)\\}$ as usual.
+The proof that $U$ is a $\\kappa$-complete nonprincipal ultrafilter is a
 little more difficult than usual:
 
--   If $X\\in U$ and $X\\subseteq Y\\subseteqκ$, then $M\\models
-    (j(X)\\subseteq j(Y)\\subseteq j(κ))$ so $j(X)\\subseteq
-    j(Y)\\subseteq j(κ)$ and therefore $κ\\in j(Y)$ and
+-   If $X\\in U$ and $X\\subseteq Y\\subseteq\\kappa$, then $M\\models
+    (j(X)\\subseteq j(Y)\\subseteq j(\\kappa))$ so $j(X)\\subseteq
+    j(Y)\\subseteq j(\\kappa)$ and therefore $\\kappa\\in j(Y)$ and
     $Y\\in U$ ($U$ is closed upwards under subset).
--   If $X,Y\\in U$ then $κ\\in j(X)\\cap j(Y)$ and by
+-   If $X,Y\\in U$ then $\\kappa\\in j(X)\\cap j(Y)$ and by
     $\\Delta\_0$-ness of $\\cap$, $j(X\\cap Y)=j(X)\\cap j(Y)$ so
-    $κ\\in j(X\\cap Y)$ and therefore $X\\cap Y\\in U$ ($U$ is a
+    $\\kappa\\in j(X\\cap Y)$ and therefore $X\\cap Y\\in U$ ($U$ is a
     filter).
 -   Assume $X\\in U$ is a finite set. Then it is easily verified that
-    $j(X)=j"X$ and so $κ\\in j"X$. This is a contradiction as
-    $κ\\neq j(x)$ for any set $x$; if it were then it would be an
-    ordinal below $κ$ and so $κ$ would not be the critical
+    $j(X)=j"X$ and so $\\kappa\\in j"X$. This is a contradiction as
+    $\\kappa\\neq j(x)$ for any set $x$; if it were then it would be an
+    ordinal below $\\kappa$ and so $\\kappa$ would not be the critical
     point. ($U$ is nonprincipal).
--   If $X\\notin U$ then $κ\\notin j(X)$ so $κ\\in
-    (j(κ)\\setminus j(X))$ and by $\\Delta\_0$-ness of
-    $\\setminus$, $κ\\in j(κ\\setminus X)$ meaning
-    $κ\\setminus X\\in U$. ($U$ is an ultrafilter).
+-   If $X\\notin U$ then $\\kappa\\notin j(X)$ so $\\kappa\\in
+    (j(\\kappa)\\setminus j(X))$ and by $\\Delta\_0$-ness of
+    $\\setminus$, $\\kappa\\in j(\\kappa\\setminus X)$ meaning
+    $\\kappa\\setminus X\\in U$. ($U$ is an ultrafilter).
 -   Finally, if $F\\subseteq U$ is a family of size
-    $λ&lt;κ$, then $j(F)=j"F$ and since $κ\\in j(X)$
-    for every $X\\in F$, $κ\\in X$ for every $X\\in j"F=j(F)$ and
-    so $κ\\in\\cap j(F)$. By $\\Delta\_0$-ness of $\\cap$,
-    $κ\\in j(\\cap F)$ and so $\\cap F\\in U$. ($U$ is
-    $κ$-complete).
+    $\\lambda&lt;\\kappa$, then $j(F)=j"F$ and since $\\kappa\\in j(X)$
+    for every $X\\in F$, $\\kappa\\in X$ for every $X\\in j"F=j(F)$ and
+    so $\\kappa\\in\\cap j(F)$. By $\\Delta\_0$-ness of $\\cap$,
+    $\\kappa\\in j(\\cap F)$ and so $\\cap F\\in U$. ($U$ is
+    $\\kappa$-complete).
 
 ### Category Theoretic Characterization
 
@@ -298,15 +298,15 @@ For more information, read {% cite Blass1976 %}.
 
 ## Properties
 
-Every measurable is a large cardinal, i.e. $V\_κ$ satisfies
+Every measurable is a large cardinal, i.e. $V\_\\kappa$ satisfies
 $\\text{ZFC}$, therefore $\\text{ZFC}$ cannot prove the existence of a
 measurable cardinal.
 
-$κ$ is
+$\\kappa$ is
 [inaccessible](Inaccessible "Inaccessible"),
-the $κ$th inacessible, the $κ$th [weakly
+the $\\kappa$th inacessible, the $\\kappa$th [weakly
 compact](Weakly_compact "Weakly compact")
-cardinal, the $κ$th
+cardinal, the $\\kappa$th
 [Ramsey](Ramsey "Ramsey"),
 and similarly bears most of the large cardinal properties under
 Ramsey-ness.
@@ -330,9 +330,9 @@ Ramsey cardinals{% cite Feng1990 %} and is a limit
 of regular cardinals $α$ which are
 $α$-Ramsey.{% cite Holy2018 %}
 
-If $κ$ is measurable, then it has a measure that take every value
+If $\\kappa$ is measurable, then it has a measure that take every value
 in $\[0,1\]$. Also there must be a normal fine measure on
-$\\mathcal{P}\_κ(κ)$.
+$\\mathcal{P}\_\\kappa(\\kappa)$.
 
 Every measurable cardinal is
 <a href="Regular" class="mw-redirect" title="Regular">regular</a>,
@@ -343,12 +343,12 @@ However the least measurable cardinal is not
 $\\Sigma^2\_1$-indescribable. {% cite Jech2003 %}
 Independently of the truth of AC, the existence of a measurable cardinal
 implies the consistency of the existence of large cardinals with the
-said properties, even if that measurable is merely $ω\_1$.
+said properties, even if that measurable is merely $\\omega\_1$.
 
-If $κ$ is measurable and $λ&lt;κ$ then it cannot be
-true that $κ&lt;2^λ$. Under AC this means that $κ$ is
+If $\\kappa$ is measurable and $\\lambda&lt;\\kappa$ then it cannot be
+true that $\\kappa&lt;2^\\lambda$. Under AC this means that $\\kappa$ is
 a strong limit (and since it is regular, it must be strongly
-inaccessible, hence it cannot be $ω\_1$).
+inaccessible, hence it cannot be $\\omega\_1$).
 
 If there exists a measurable cardinal then
 <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\#$</a>
@@ -357,24 +357,24 @@ exists, and therefore $V\\neq L$. In fact, the
 of every real number exists, and therefore
 $\\mathbf{\\Pi}^1\_1$-[determinacy](Axiom_of_determinacy "Axiom of determinacy")
 holds. Furthermore, assuming the axiom of determinacy, the cardinals
-$ω\_1$, $ω\_2$, $ω\_{ω+1}$ and
-$ω\_{ω+2}$ are measurable, also in $L(\\mathbb{R})$ every
+$\\omega\_1$, $\\omega\_2$, $\\omega\_{\\omega+1}$ and
+$\\omega\_{\\omega+2}$ are measurable, also in $L(\\mathbb{R})$ every
 regular cardinal smaller than
 <a href="Theta" class="mw-redirect" title="Theta">$\Theta$</a>
 is measurable.
 
 Every measurable has the following reflection property: let $j:V\\to M$
-be a nontrivial elementary embedding with critical point $κ$. If
-$x\\in V\_κ$ and $M\\models\\varphi(κ,x)$ for some
+be a nontrivial elementary embedding with critical point $\\kappa$. If
+$x\\in V\_\\kappa$ and $M\\models\\varphi(\\kappa,x)$ for some
 first-order formula $\\varphi$, then the set of all ordinals
-$α&lt;κ$ such that $V\\models\\varphi(α,x)$ is
+$\\alpha&lt;\\kappa$ such that $V\\models\\varphi(\\alpha,x)$ is
 <a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
-in $κ$ and has the same measure as $κ$ itself by any
-2-valued measure on $κ$.
+in $\\kappa$ and has the same measure as $\\kappa$ itself by any
+2-valued measure on $\\kappa$.
 
-Measurability of $κ$ is equivalent with $κ$-strong
-compactness of $κ$, and also with $κ$-supercompactness of
-$κ$ (fragments of [strong
+Measurability of $\\kappa$ is equivalent with $\\kappa$-strong
+compactness of $\\kappa$, and also with $\\kappa$-supercompactness of
+$\\kappa$ (fragments of [strong
 compactness](Strongly_compact "Strongly compact")
 and
 [supercompactness](Supercompact "Supercompact")
@@ -383,29 +383,29 @@ measurable cardinal and the first [strongly
 compact](Strongly_compact "Strongly compact")
 cardinal are equal.
 
-If a measurable $κ$ is such that there is $κ$ [strongly
+If a measurable $\\kappa$ is such that there is $\\kappa$ [strongly
 compact](Strongly_compact "Strongly compact")
 cardinals below it, then it is strongly compact. If it is a limit of
 strongly compact cardinals, then it is strongly compact yet not
 [supercompact](Supercompact "Supercompact").
-If a measurable $κ$ has infinitely many
+If a measurable $\\kappa$ has infinitely many
 [Woodin](Woodin "Woodin")
 cardinals below it, then the axiom of determinacy holds in
 $L(\\mathbb{R})$, also the
 <a href="Axiom_of_projective_determinacy" class="mw-redirect" title="Axiom of projective determinacy">axiom of projective determinacy</a>
 holds.
 
-A cardinal $κ$ is measurable if and only if it is
-$κ^+$-<a href="Hypermeasurable" class="mw-redirect" title="Hypermeasurable">hypermeasurable</a>.
+A cardinal $\\kappa$ is measurable if and only if it is
+$\\kappa^+$-<a href="Hypermeasurable" class="mw-redirect" title="Hypermeasurable">hypermeasurable</a>.
 
 Measurable cardinals are not necessarily
 [tall](Tall "Tall"), but it
 is relatively consistent that the least measurable cardinal is tall.
 
-If $κ$ is measurable in a ground model, then it is measurable in
+If $\\kappa$ is measurable in a ground model, then it is measurable in
 any forcing extension of that ground model whose notion of forcing has
-cardinality strictly smaller than $κ$. Prikry showed however that
-every measurable can be collapsed to a cardinal of cofinality $ω$
+cardinality strictly smaller than $\\kappa$. Prikry showed however that
+every measurable can be collapsed to a cardinal of cofinality $\\omega$
 and no other cardinal is collapsed.
 
 If $κ$ is uncountable, $κ = κ^{&lt;κ}$ and $2^κ = κ^+$, then the
@@ -450,26 +450,26 @@ $n$.{% cite Bagaria2012 %}
 Gitik proved that the following statements are equiconsistent:
 
 -   The generalized continuum hypothesis fails at a measurable cardinal
-    $κ$, i.e. $2^κ &gt; κ^+$
+    $\\kappa$, i.e. $2^\\kappa &gt; \\kappa^+$
 -   The singular cardinal hypothesis fails, i.e. there is a strong limit
-    singular $κ$ such that $2^κ &gt; κ^+$
+    singular $\\kappa$ such that $2^\\kappa &gt; \\kappa^+$
 -   There is a measurable cardinal of [Mitchell
     order](Mitchell_rank "Mitchell rank")
-    $κ^{++}$, i.e. $o(κ)=κ^{++}$
+    $\\kappa^{++}$, i.e. $o(\\kappa)=\\kappa^{++}$
 
 Thus violating $\\text{GCH}$ at a measurable (or violating the SCH at
 any strong limit cardinal) is strictly stronger consistency-wise than
 the existence of a measurable cardinal.
 
 However, if the generalized continuum hypothesis fails at a measurable,
-then it fails at $κ$ many cardinals below it.
+then it fails at $\\kappa$ many cardinals below it.
 
 ## Real-valued measurable cardinal
 
-A cardinal $κ$ is **real-valued** measurable if there exists a
-$κ$-additive measure on $κ$. The smallest cardinal $κ$
+A cardinal $\\kappa$ is **real-valued** measurable if there exists a
+$\\kappa$-additive measure on $\\kappa$. The smallest cardinal $\\kappa$
 carrying a $\\sigma$-additive 2-valued measure must also carry a
-$κ$-additive measure, and is therefore real-valued measurable,
+$\\kappa$-additive measure, and is therefore real-valued measurable,
 also it is strongly inaccessible under AC.
 
 If a real-valued measurable cardinal is not measurable, then it must be
@@ -483,7 +483,7 @@ equiconsistent with the existence of a real-valued measurable cardinal.
 More precisely, he showed that if there is a measurable then there is
 [generic
 extension](Forcing "Forcing")
-in which $κ=2^{\\aleph\_0}$ and $κ$ is real-valued
+in which $\\kappa=2^{\\aleph\_0}$ and $\\kappa$ is real-valued
 measurable, and conversely if there exists a real-valued measurable then
 it is measurable in some model of $\\text{ZFC}$.
 

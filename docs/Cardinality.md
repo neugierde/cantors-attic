@@ -38,12 +38,12 @@ often denoted by $\|A\|$. Not assuming the axiom of choice we may have
 sets which cannot be well ordered, these sets are not in bijection with
 any ordinal at all. We define the cardinality of $A$ as follows:
 
--   If $A$ can be well ordered, let $\|A\|=α$ such that $α$
+-   If $A$ can be well ordered, let $\|A\|=\\alpha$ such that $\\alpha$
     is the least ordinal for which there is a bijection with/surjection
     onto $A$.
--   If $A$ cannot be well ordered, let $α$ be the least ordinal
-    for which exists $B\\in V\_α$ such that $B$ is in bijection
-    with $A$, and let $$\|A\|=\\{B\\mid B\\in V\_α\\land \\exists
+-   If $A$ cannot be well ordered, let $\\alpha$ be the least ordinal
+    for which exists $B\\in V\_\\alpha$ such that $B$ is in bijection
+    with $A$, and let $$\|A\|=\\{B\\mid B\\in V\_\\alpha\\land \\exists
     f:A\\to B\\text{ bijection}\\}$$
 
 This may seem a bit cluttered, however this is a clever use of the axiom
@@ -99,17 +99,17 @@ $\|A\|&lt;\|B\|$ but $\|B\|\\leq^\\ast\|A\|$.
 sets](Parlour "Parlour")
 can be well ordered, of course, however infinite sets can be well
 ordered too. Countable sets are by definition in bijection with
-[$ω$](Omega "Omega").
+[$\\omega$](Omega "Omega").
 Sets of ordinals have a natural order which is a well order, using
 [Hartog
 number](Hartog_number "Hartog number")
-we can deduce that if $\\aleph\_α$ exists then
-$\\aleph\_α^+$ exists, and if we only iterated this set-many times
+we can deduce that if $\\aleph\_\\alpha$ exists then
+$\\aleph\_\\alpha^+$ exists, and if we only iterated this set-many times
 then the increasing union gives us a new cardinal. The result is a
 proper class of well orderable cardinals.
 
-If $α$ is an ordinal, we say that it is an *initial ordinal* if no
-$β&lt;α$ is in bijection with $α$. We can see that
+If $\\alpha$ is an ordinal, we say that it is an *initial ordinal* if no
+$\\beta&lt;\\alpha$ is in bijection with $\\alpha$. We can see that
 initial ordinals are exactly the cardinalities which represent well
 orderable cardinals, these are the sets which use for
 [$\\aleph$-numbers](Aleph "Aleph").

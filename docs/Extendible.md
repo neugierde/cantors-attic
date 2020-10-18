@@ -7,41 +7,41 @@ redirect_from:
 ---
 
 
-A cardinal $κ$ is *$η$-extendible* for an ordinal $η$ if
+A cardinal $\\kappa$ is *$\\eta$-extendible* for an ordinal $\\eta$ if
 and only if there is an [elementary
 embedding](Elementary_embedding "Elementary embedding")
-$j:V\_{κ+η}\\to V\_\\theta$, with critical point $κ$,
-for some ordinal $\\theta$. The cardinal $κ$ is *extendible* if
-and only if it is $η$-extendible for every ordinal $η$.
-Equivalently, for every ordinal $α$ there is a nontrivial
-elementary embedding $j:V\_{κ+α+1}\\to
-V\_{j(κ)+j(α)+1}$ with critical point $κ$.
+$j:V\_{\\kappa+\\eta}\\to V\_\\theta$, with critical point $\\kappa$,
+for some ordinal $\\theta$. The cardinal $\\kappa$ is *extendible* if
+and only if it is $\\eta$-extendible for every ordinal $\\eta$.
+Equivalently, for every ordinal $\\alpha$ there is a nontrivial
+elementary embedding $j:V\_{\\kappa+\\alpha+1}\\to
+V\_{j(\\kappa)+j(\\alpha)+1}$ with critical point $\\kappa$.
 
 
 
 ## Alternative definition
 
-Given cardinals $λ$ and $\\theta$, a cardinal
-$κ\\leqλ,\\theta$ is *jointly $λ$-supercompact and
+Given cardinals $\\lambda$ and $\\theta$, a cardinal
+$\\kappa\\leq\\lambda,\\theta$ is *jointly $\\lambda$-supercompact and
 $\\theta$-superstrong* if there exists a nontrivial elementary embedding
 $j:V\\to M$ for some transitive class $M$ such that
-$\\mathrm{crit}(j)=κ$, $λ&lt;j(κ)$,
-$M^λ\\subseteq M$ and $V\_{j(\\theta)}\\subseteq M$. That is, a
+$\\mathrm{crit}(j)=\\kappa$, $\\lambda&lt;j(\\kappa)$,
+$M^\\lambda\\subseteq M$ and $V\_{j(\\theta)}\\subseteq M$. That is, a
 single embedding witnesses both
-$λ$-[supercompactness](Supercompact "Supercompact")
+$\\lambda$-[supercompactness](Supercompact "Supercompact")
 and (a strengthening of)
 [superstrongness](Superstrong "Superstrong")
-of $κ$. The least supercompact is never jointly
-$λ$-supercompact and $\\theta$-superstrong for any
-$λ$,$\\theta\\geqκ$.
+of $\\kappa$. The least supercompact is never jointly
+$\\lambda$-supercompact and $\\theta$-superstrong for any
+$\\lambda$,$\\theta\\geq\\kappa$.
 
 A cardinal is extendible if and only if it is jointly supercompact and
-$κ$-superstrong, i.e. for every $λ\\geqκ$ it is
-jointly $λ$-supercompact and $κ$-superstrong.
+$\\kappa$-superstrong, i.e. for every $\\lambda\\geq\\kappa$ it is
+jointly $\\lambda$-supercompact and $\\kappa$-superstrong.
 <a href="http://logicatorino.altervista.org/slides/150619tsaprounis.pdf" class="external autonumber">[1]</a>
-One can show that extendibility of $κ$ is in fact equivalent to
-"for all $λ$,$\\theta\\geqκ$, $κ$ is jointly
-$λ$-supercompact and $\\theta$-superstrong". A similar
+One can show that extendibility of $\\kappa$ is in fact equivalent to
+"for all $\\lambda$,$\\theta\\geq\\kappa$, $\\kappa$ is jointly
+$\\lambda$-supercompact and $\\theta$-superstrong". A similar
 characterization of $C^{(n)}$-extendible cardinals exists.
 
 The
@@ -68,12 +68,12 @@ cardinals.{% cite Usuba2019 %}
 Extendibility is connected in strength with
 [supercompactness](Supercompact "Supercompact").
 Every extendible cardinal is supercompact, since from the embeddings
-$j:V\_λ\\to V\_\\theta$ we may extract the induced
+$j:V\_\\lambda\\to V\_\\theta$ we may extract the induced
 supercompactness measures $X\\in\\mu\\iff j''\\delta\\in j(X)$ for
-$X\\subset \\mathcal{P}\_κ(\\delta)$, provided that
-$j(κ)\\gt\\delta$ and $\\mathcal{P}\_κ(\\delta)\\subset
-V\_λ$, which one can arrange. On the other hand, if $κ$ is
-$\\theta$-supercompact, witnessed by $j:V\\to M$, then $κ$ is
+$X\\subset \\mathcal{P}\_\\kappa(\\delta)$, provided that
+$j(\\kappa)\\gt\\delta$ and $\\mathcal{P}\_\\kappa(\\delta)\\subset
+V\_\\lambda$, which one can arrange. On the other hand, if $\\kappa$ is
+$\\theta$-supercompact, witnessed by $j:V\\to M$, then $\\kappa$ is
 $\\delta$-extendible inside $M$, provided $\\beth\_\\delta\\leq\\theta$,
 since the restricted elementary embedding $j\\upharpoonright
 V\_\\delta:V\_\\delta\\to j(V\_\\delta)=M\_{j(\\delta)}$ has size at
@@ -82,30 +82,30 @@ $\\delta$-extendibility there.
 
 Although extendibility itself is stronger and larger than
 [supercompactness](Supercompact "Supercompact"),
-$η$-supercompacteness is not necessarily too much weaker than
-$η$-extendibility. For example, if a cardinal $κ$ is
-$\\beth\_{η}(κ)$-supercompact (in this case, the same as
-$\\beth\_{κ+η}$-supercompact) for some $η&lt;κ$,
-then there is a normal measure $U$ over $κ$ such that
-$\\{λ&lt;κ:λ\\text{ is
-}η\\text{-extendible}\\}\\in U$.
+$\\eta$-supercompacteness is not necessarily too much weaker than
+$\\eta$-extendibility. For example, if a cardinal $\\kappa$ is
+$\\beth\_{\\eta}(\\kappa)$-supercompact (in this case, the same as
+$\\beth\_{\\kappa+\\eta}$-supercompact) for some $\\eta&lt;\\kappa$,
+then there is a normal measure $U$ over $\\kappa$ such that
+$\\{\\lambda&lt;\\kappa:\\lambda\\text{ is
+}\\eta\\text{-extendible}\\}\\in U$.
 
 ### Strong Compactness
 
 Interestingly, extendibility is also related to [strong
 compactness](Strongly_compact "Strongly compact").
-A cardinal $κ$ is strongly compact iff the infinitary language
-$\\mathcal{L}\_{κ,κ}$ has the $κ$-compactness
-property. A cardinal $κ$ is extendible iff the infinitary language
-$\\mathcal{L}\_{κ,κ}^n$ (the infinitary language but with
-$(n+1)$-th order logic) has the $κ$-compactness property for every
+A cardinal $\\kappa$ is strongly compact iff the infinitary language
+$\\mathcal{L}\_{\\kappa,\\kappa}$ has the $\\kappa$-compactness
+property. A cardinal $\\kappa$ is extendible iff the infinitary language
+$\\mathcal{L}\_{\\kappa,\\kappa}^n$ (the infinitary language but with
+$(n+1)$-th order logic) has the $\\kappa$-compactness property for every
 natural number $n$. {% cite Kanamori2009 %}
 
-Given a logic $\\mathcal{L}$, the minimum cardinal $κ$ such that
-$\\mathcal{L}$ satisfies the $κ$-compactness theorem is called the
+Given a logic $\\mathcal{L}$, the minimum cardinal $\\kappa$ such that
+$\\mathcal{L}$ satisfies the $\\kappa$-compactness theorem is called the
 **strong compactness cardinal** of $\\mathcal{L}$. The strong
-compactness cardinal of $ω$-th order finitary logic (that is, the
-union of all $\\mathcal{L}\_{ω,ω}^n$ for natural $n$) is the
+compactness cardinal of $\\omega$-th order finitary logic (that is, the
+union of all $\\mathcal{L}\_{\\omega,\\omega}^n$ for natural $n$) is the
 least extendible cardinal.
 
 ## Variants
@@ -169,38 +169,38 @@ Properties:
     Then $κ$ and $j^m(κ)$ are $C^{(n)}$-extendible (inter alia) in
     $V\_δ$, for all $n$ and $m$.
 
-### $(\\Sigma\_n,η)$-extendible cardinals
+### $(\\Sigma\_n,\\eta)$-extendible cardinals
 
 There are some variants of extendible cardinals because of the
 interesting jump in consistency strength from $0$-extendible cardinals
 to $1$-extendibles. These variants specify the elementarity of the
 embedding.
 
-A cardinal $κ$ is $(\\Sigma\_n,η)$-extendible, if there is a
-$\\Sigma\_n$-elementary embedding $j:V\_{κ+η}\\to V\_\\theta$
-with critical point $κ$, for some ordinal $\\theta$. These
+A cardinal $\\kappa$ is $(\\Sigma\_n,\\eta)$-extendible, if there is a
+$\\Sigma\_n$-elementary embedding $j:V\_{\\kappa+\\eta}\\to V\_\\theta$
+with critical point $\\kappa$, for some ordinal $\\theta$. These
 cardinals were introduced by Bagaria, Hamkins, Tsaprounis and Usuba
 {% cite Bagaria2013 %}.
 
 ### $\\Sigma\_n$-extendible cardinals
 
-The special case of $η=0$ leads to a much weaker notion.
-Specifically, a cardinal $κ$ is *$\\Sigma\_n$-extendible* if it is
+The special case of $\\eta=0$ leads to a much weaker notion.
+Specifically, a cardinal $\\kappa$ is *$\\Sigma\_n$-extendible* if it is
 $(\\Sigma\_n,0)$-extendible, or more simply, if
-$V\_κ\\prec\_{\\Sigma\_n} V\_\\theta$ for some ordinal $\\theta$.
-Note that this does not necessarily imply that $κ$ is
+$V\_\\kappa\\prec\_{\\Sigma\_n} V\_\\theta$ for some ordinal $\\theta$.
+Note that this does not necessarily imply that $\\kappa$ is
 inaccessible, and indeed the existence of $\\Sigma\_n$-extendible
 cardinals is provable in ZFC via the reflection theorem. For example,
 every [$\\Sigma\_n$
 correct](Reflecting#Reflection_and_correctness "Reflecting")
 cardinal is $\\Sigma\_n$-extendible, since from
-$V\_κ\\prec\_{\\Sigma\_n} V$ and $V\_λ\\prec\_{\\Sigma\_n}
-V$, where $κ\\ltλ$, it follows that
-$V\_κ\\prec\_{\\Sigma\_n} V\_λ$. So in fact there is a
+$V\_\\kappa\\prec\_{\\Sigma\_n} V$ and $V\_\\lambda\\prec\_{\\Sigma\_n}
+V$, where $\\kappa\\lt\\lambda$, it follows that
+$V\_\\kappa\\prec\_{\\Sigma\_n} V\_\\lambda$. So in fact there is a
 closed unbounded class of $\\Sigma\_n$-extendible cardinals.
 
-Similarly, every Mahlo cardinal $κ$ has a stationary set of
-inaccessible $\\Sigma\_n$-extendible cardinals $\\gamma&lt;κ$.
+Similarly, every Mahlo cardinal $\\kappa$ has a stationary set of
+inaccessible $\\Sigma\_n$-extendible cardinals $\\gamma&lt;\\kappa$.
 
 $\\Sigma\_3$-extendible cardinals cannot be Laver indestructible.
 Therefore

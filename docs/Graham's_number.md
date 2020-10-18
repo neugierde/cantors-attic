@@ -167,7 +167,7 @@ easily with
 or the [fast-growing
 hierarchy](Fast-growing_hierarchy "Fast-growing hierarchy").
 
-$f\_{ω+1}(64)=\\underbrace{f\_ω(f\_ω\\cdots(f\_ω(64)\\cdots))}\_\\text{64
+$f\_{\\omega+1}(64)=\\underbrace{f\_\\omega(f\_\\omega\\cdots(f\_\\omega(64)\\cdots))}\_\\text{64
 f's}&gt;&gt;{g'}\_{64}&gt;&gt;g\_{64}$, where
 ${g'}\_1=2\\uparrow^{63}64$, and ${g'}\_{n+1}=2\\uparrow^{ {g'}\_n}64$.
 

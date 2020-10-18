@@ -39,21 +39,21 @@ Similarly, an ordinal is writable or eventually writable or accidentally
 writable if it is the order type of a relation coded by such a kind of
 real.
 
--   $λ=$ the supremum of the writable ordinals
+-   $\\lambda=$ the supremum of the writable ordinals
 -   $\\zeta=$ the supremum of the eventually writable ordinals
 -   $\\Sigma=$ the supremum of the accidentally writable ordinals
 
 Hamkins and Lewis {% cite Hamkins2000 %}
-showed that $λ\\lt\\zeta\\lt\\Sigma$, and while $λ$ and
+showed that $\\lambda\\lt\\zeta\\lt\\Sigma$, and while $\\lambda$ and
 $\\zeta$ are
 [admissible](Admissible "Admissible")
 ordinals and [computably
 inaccessible](Admissible#Computably_inaccessible_ordinal "Admissible"),
 $\\Sigma$ is not admissible.
 
-Welch {% cite Welch2000 %} proved the $λ-\\zeta-\\Sigma$
+Welch {% cite Welch2000 %} proved the $\\lambda-\\zeta-\\Sigma$
 theorem, asserting that
-$L\_λ\\prec\_{\\Sigma\_1}L\_\\zeta\\prec\_{\\Sigma\_2}L\_\\Sigma$,
-and furthermore $λ$ is the least ordinal such that $L\_λ$
+$L\_\\lambda\\prec\_{\\Sigma\_1}L\_\\zeta\\prec\_{\\Sigma\_2}L\_\\Sigma$,
+and furthermore $\\lambda$ is the least ordinal such that $L\_\\lambda$
 has a $\\Sigma\_1$-elementary end-extension, and $\\zeta$ is least such
 that $L\_\\zeta$ has a $\\Sigma\_2$-elementary end-extension.

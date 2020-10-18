@@ -23,59 +23,59 @@ sequence.
 
 # Sequences
 
-The sequence for \\(ω\\) is \\(\\lbrace 1,2,\\cdots \\rbrace\\).
+The sequence for \\(\\omega\\) is \\(\\lbrace 1,2,\\cdots \\rbrace\\).
 
-The sequence for \\(ω2\\) is \\(\\lbrace
-ω+1,ω+2,\\cdots \\rbrace\\).
+The sequence for \\(\\omega2\\) is \\(\\lbrace
+\\omega+1,\\omega+2,\\cdots \\rbrace\\).
 
-The sequence for \\(ω3\\) is \\(\\lbrace
-ω2+1,ω2+2,\\cdots \\rbrace\\).
+The sequence for \\(\\omega3\\) is \\(\\lbrace
+\\omega2+1,\\omega2+2,\\cdots \\rbrace\\).
 
 \\(\\cdots\\cdots\\)
 
-The sequence for \\(ω^2\\) is \\(\\lbrace
-ω,ω2,ω3,\\cdots \\rbrace\\).
+The sequence for \\(\\omega^2\\) is \\(\\lbrace
+\\omega,\\omega2,\\omega3,\\cdots \\rbrace\\).
 
-From now on, we just replace a loose \\(ω\\) with the number we
-are diagonalizing to, and replace something like \\(ω3\\) with
-\\(ω2+ω\\).
+From now on, we just replace a loose \\(\\omega\\) with the number we
+are diagonalizing to, and replace something like \\(\\omega3\\) with
+\\(\\omega2+\\omega\\).
 
-The sequence for \\(ω^{ω}\\) is \\(\\lbrace
-ω,ω^2,ω^3,\\cdots \\rbrace\\).
+The sequence for \\(\\omega^{\\omega}\\) is \\(\\lbrace
+\\omega,\\omega^2,\\omega^3,\\cdots \\rbrace\\).
 
-The sequence for \\(ω^{ω^{ω}}\\) is \\(\\lbrace
-ω^{ω},ω^{ω^2},ω^{ω^3},\\cdots
+The sequence for \\(\\omega^{\\omega^{\\omega}}\\) is \\(\\lbrace
+\\omega^{\\omega},\\omega^{\\omega^2},\\omega^{\\omega^3},\\cdots
 \\rbrace\\)
 
 \\(\\cdots\\)
 
 The sequence for \\(\\varepsilon\_0\\) is \\(\\lbrace
-1,ω,ω^{ω},ω^{ω^{ω}},ω^{ω^{ω^{ω}}},\\cdots
+1,\\omega,\\omega^{\\omega},\\omega^{\\omega^{\\omega}},\\omega^{\\omega^{\\omega^{\\omega}}},\\cdots
 \\rbrace\\)
 
 The sequence for \\(\\varepsilon\_1\\) is \\(\\lbrace
-ω^{\\varepsilon\_0+1},ω^{ω^{\\varepsilon\_0+1}},ω^{ω^{ω^{\\varepsilon\_0+1}}},\\cdots
+\\omega^{\\varepsilon\_0+1},\\omega^{\\omega^{\\varepsilon\_0+1}},\\omega^{\\omega^{\\omega^{\\varepsilon\_0+1}}},\\cdots
 \\rbrace\\)
 
 The sequence for \\(\\varepsilon\_2\\) is \\(\\lbrace
-ω^{\\varepsilon\_1+1},ω^{ω^{\\varepsilon\_1+1}},ω^{ω^{ω^{\\varepsilon\_1+1}}},\\cdots
+\\omega^{\\varepsilon\_1+1},\\omega^{\\omega^{\\varepsilon\_1+1}},\\omega^{\\omega^{\\omega^{\\varepsilon\_1+1}}},\\cdots
 \\rbrace\\)
 
 \\(\\cdots\\cdots\\)
 
-The sequence for \\(\\varepsilon\_{ω}\\) is \\(\\lbrace
+The sequence for \\(\\varepsilon\_{\\omega}\\) is \\(\\lbrace
 \\varepsilon\_1,\\varepsilon\_2,\\varepsilon\_3,\\cdots \\rbrace\\)
 
 We can even replace loose ordinals with the thing it is supposed to turn
 into if it is alone.
 
 The sequence for \\(\\varepsilon\_{\\varepsilon\_0}\\) is \\(\\lbrace
-\\varepsilon\_1,\\varepsilon\_{ω},\\varepsilon\_{ω^{ω}},\\cdots
+\\varepsilon\_1,\\varepsilon\_{\\omega},\\varepsilon\_{\\omega^{\\omega}},\\cdots
 \\rbrace\\)
 
 The sequence for \\(\\varepsilon\_{\\varepsilon\_{\\varepsilon\_0}}\\)
 is \\(\\lbrace
-\\varepsilon\_{\\varepsilon\_1},\\varepsilon\_{\\varepsilon\_{ω}},\\varepsilon\_{\\varepsilon\_{ω^{ω}}},\\cdots
+\\varepsilon\_{\\varepsilon\_1},\\varepsilon\_{\\varepsilon\_{\\omega}},\\varepsilon\_{\\varepsilon\_{\\omega^{\\omega}}},\\cdots
 \\rbrace\\)
 
 \\(\\cdots\\)
@@ -84,7 +84,7 @@ The sequence for \\(\\zeta\_0\\) is \\(\\lbrace
 \\varepsilon\_0,\\varepsilon\_{\\varepsilon\_0},\\varepsilon\_{\\varepsilon\_{\\varepsilon\_0}},\\varepsilon\_{\\varepsilon\_{\\varepsilon\_{\\varepsilon\_0}}},\\cdots
 \\rbrace\\)
 
-The sequence for \\(η\_0\\) is \\(\\lbrace
+The sequence for \\(\\eta\_0\\) is \\(\\lbrace
 \\zeta\_0,\\zeta\_{\\zeta\_0},\\zeta\_{\\zeta\_{\\zeta\_0}},\\zeta\_{\\zeta\_{\\zeta\_{\\zeta\_0}}},\\cdots
 \\rbrace\\)
 
@@ -92,20 +92,20 @@ Now we introduce the Veblen function, which is defined as follows:
 
 1\. \\(\\varphi\_0(0)=1\\)
 
-2\. If \\(α\\) is a succsessor, then
-\\(\\varphi\_α(0)\[n\]=\\varphi\_{α-1}^n(0)\\) and
-\\(\\varphi\_α(a)\[n\]=\\varphi\_{α-1}^n(\\varphi\_α(a-1)+1)\\).
+2\. If \\(\\alpha\\) is a succsessor, then
+\\(\\varphi\_\\alpha(0)\[n\]=\\varphi\_{\\alpha-1}^n(0)\\) and
+\\(\\varphi\_\\alpha(a)\[n\]=\\varphi\_{\\alpha-1}^n(\\varphi\_\\alpha(a-1)+1)\\).
 
-3\. If \\(β\\) is a limit ordinal, then
-\\(\\varphi\_β(0)\[n\]=\\varphi\_n(0)\\) and
-\\(\\varphi\_β(a)\[n\]=\\varphi\_n(\\varphi\_β(a-1)+1)\\).
+3\. If \\(\\beta\\) is a limit ordinal, then
+\\(\\varphi\_\\beta(0)\[n\]=\\varphi\_n(0)\\) and
+\\(\\varphi\_\\beta(a)\[n\]=\\varphi\_n(\\varphi\_\\beta(a-1)+1)\\).
 
 The sequence for \\(\\varphi\_4(0)\\) is \\(\\lbrace
-η\_0,η\_{η\_0},η\_{η\_{η\_0}},η\_{η\_{η\_{η\_0}}},\\cdots
+\\eta\_0,\\eta\_{\\eta\_0},\\eta\_{\\eta\_{\\eta\_0}},\\eta\_{\\eta\_{\\eta\_{\\eta\_0}}},\\cdots
 \\rbrace\\)
 
-The sequence for \\(\\varphi\_ω(0)\\) is \\(\\lbrace
-\\varepsilon\_0,\\zeta\_0,η\_0,\\varphi\_4(0),\\cdots \\rbrace\\)
+The sequence for \\(\\varphi\_\\omega(0)\\) is \\(\\lbrace
+\\varepsilon\_0,\\zeta\_0,\\eta\_0,\\varphi\_4(0),\\cdots \\rbrace\\)
 
 \\(\\cdots\\cdots\\)
 
@@ -135,10 +135,10 @@ In [Madore's ψ
 function](Madore%27s_%CF%88_function "Madore's ψ function"),
 there is a thing called \\(\\Omega\\).
 
-The sequence for \\(\\psi(\\Omega^ω+\\Omega^3ω2+\\Omega)\\)
+The sequence for \\(\\psi(\\Omega^\\omega+\\Omega^3\\omega2+\\Omega)\\)
 is
 
-\\(\\{\\psi(0),\\psi(\\Omega^ω+\\Omega^3ω2+\\psi(0)),\\psi(\\Omega^ω+\\Omega^3ω2+\\psi(\\Omega^ω+\\Omega^3ω2+\\psi(0))),\\psi(\\Omega^ω+\\Omega^3ω2+\\psi(\\Omega^ω+\\Omega^3ω2+\\psi(\\Omega^ω+\\Omega^3ω2+\\psi(0)))),\\cdots\\}\\)
+\\(\\{\\psi(0),\\psi(\\Omega^\\omega+\\Omega^3\\omega2+\\psi(0)),\\psi(\\Omega^\\omega+\\Omega^3\\omega2+\\psi(\\Omega^\\omega+\\Omega^3\\omega2+\\psi(0))),\\psi(\\Omega^\\omega+\\Omega^3\\omega2+\\psi(\\Omega^\\omega+\\Omega^3\\omega2+\\psi(\\Omega^\\omega+\\Omega^3\\omega2+\\psi(0)))),\\cdots\\}\\)
 
 Well, it's like this.
 

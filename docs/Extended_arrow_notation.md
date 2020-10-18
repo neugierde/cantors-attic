@@ -26,7 +26,7 @@ a\\)
 Note that all parts of Extended arrow notation, like Knuth's up-arrow
 notation, have expressions that are evaluated from the right.
 
-Limit in FGH: \\(f\_ω(n)\\)
+Limit in FGH: \\(f\_\\omega(n)\\)
 
 # Nested up-arrow notation
 
@@ -66,7 +66,7 @@ Limit: \\(\\psi(\\psi\_{I(1,0)}(0))\\)
 
 ## 1-inaccesible arrows and beyond
 
-Limit: \\(\\psi(\\psi\_{I(ω, 0)}(0))\\)
+Limit: \\(\\psi(\\psi\_{I(\\omega, 0)}(0))\\)
 
 # Dimensional array up-arrow notation
 
@@ -80,7 +80,7 @@ Limit: \\(\\psi(\\psi\_{\\chi(M(1,0))}(0))\\)
 
 ## Layered arrays
 
-Limit: \\(\\psi(\\psi\_{ {\\Xi(1)}^ω}(0))\\)
+Limit: \\(\\psi(\\psi\_{ {\\Xi(1)}^\\omega}(0))\\)
 
 ## The hyperseparator
 

@@ -18,23 +18,23 @@ cardinals and slightly beyond has been developed.
 ## Definition and some properties
 
 We first introduce the concept of *$\\gamma$-strongness for $A$*: an
-ordinal $κ$ is *$\\gamma$-strong for $A$* (or
+ordinal $\\kappa$ is *$\\gamma$-strong for $A$* (or
 $\\gamma$-$A$-strong) if there exists a nontrivial elementary embedding
-$j:V\\to M$ with critical point $κ$ such that
-$V\_{κ+\\gamma}\\subseteq M$ and $A\\cap V\_{κ+\\gamma} =
-j(A)\\cap V\_{κ+\\gamma}$. Intuitively, $j$ preserves the part of
-$A$ that is in $V\_{κ+\\gamma}$. We say that a cardinal $κ$
+$j:V\\to M$ with critical point $\\kappa$ such that
+$V\_{\\kappa+\\gamma}\\subseteq M$ and $A\\cap V\_{\\kappa+\\gamma} =
+j(A)\\cap V\_{\\kappa+\\gamma}$. Intuitively, $j$ preserves the part of
+$A$ that is in $V\_{\\kappa+\\gamma}$. We say that a cardinal $\\kappa$
 is &lt;$\\delta$-$A$-strong if it is $\\gamma$-$A$-strong for all
 $\\gamma&lt;\\delta$.
 
 We also introduce *Woodin-ness in $\\delta$*: for an infinite ordinal
 $\\delta$, a set $X\\subseteq\\delta$ is *Woodin in $\\delta$* if for
-every function $f:\\delta\\to\\delta$, there is an ordinal $κ\\in
-X$ with $\\{f(β):β&lt;κ\\}\\subseteqκ$ ($κ$
+every function $f:\\delta\\to\\delta$, there is an ordinal $\\kappa\\in
+X$ with $\\{f(\\beta):\\beta&lt;\\kappa\\}\\subseteq\\kappa$ ($\\kappa$
 is closed under $f$), there exists a nontrivial [elementary
 embedding](Elementary_embedding "Elementary embedding")
-$j:V\\to M$ with critical point $κ$ such that
-$V\_{j(f)(κ)}\\subseteq M$.
+$j:V\\to M$ with critical point $\\kappa$ such that
+$V\_{j(f)(\\kappa)}\\subseteq M$.
 
 An
 [inaccessible](Inaccessible "Inaccessible")
@@ -42,9 +42,9 @@ cardinal $\\delta$ is **Woodin** if any of the following (equivalent)
 characterizations holds {% cite Kanamori2009 %}:
 
 -   For any set $A\\subseteq V\_\\delta$, there exists a
-    $κ&lt;\\delta$ that is &lt;$\\delta$-$A$-strong.
+    $\\kappa&lt;\\delta$ that is &lt;$\\delta$-$A$-strong.
 -   For any set $A\\subseteq V\_\\delta$, the set
-    $S=\\{κ&lt;\\delta:κ$ is &lt;$\\delta$-$A$-strong$\\}$
+    $S=\\{\\kappa&lt;\\delta:\\kappa$ is &lt;$\\delta$-$A$-strong$\\}$
     is
     <a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
     in $\\delta$.
@@ -53,14 +53,14 @@ characterizations holds {% cite Kanamori2009 %}:
     [filter](Filter "Filter"),
     the *Woodin filter* over $\\delta$.
 -   For every function $f:\\delta\\to\\delta$ there exists
-    $κ&lt;\\delta$ such that
-    $\\{f(β):β\\inκ\\}\\subseteqκ$ (that is,
-    $κ$ is closed under $f$) and there exists a nontrivial
-    elementary embedding $j:V\\to M$ with critical point $κ$ such
-    that $V\_{j(f)(κ)}\\subseteq M$.
+    $\\kappa&lt;\\delta$ such that
+    $\\{f(\\beta):\\beta\\in\\kappa\\}\\subseteq\\kappa$ (that is,
+    $\\kappa$ is closed under $f$) and there exists a nontrivial
+    elementary embedding $j:V\\to M$ with critical point $\\kappa$ such
+    that $V\_{j(f)(\\kappa)}\\subseteq M$.
 
 Let $\\delta$ be Woodin, $F$ be the Woodin filter over $\\delta$, and
-$S=\\{κ&lt;\\delta:κ$ is &lt;$\\delta$-$A$-strong$\\}$. Then
+$S=\\{\\kappa&lt;\\delta:\\kappa$ is &lt;$\\delta$-$A$-strong$\\}$. Then
 $F$ is normal and $S\\in F$.
 {% cite Kanamori2009 %} This implies every Woodin
 cardinal is
@@ -83,10 +83,10 @@ stronger than the existence of a proper class of strong cardinals.
 The existence of a Woodin cardinal implies the consistency of
 $\\text{ZFC}$ + "the [nonstationary
 ideal](Filter "Filter") on
-$ω\_1$ is $ω\_2$-saturated".
+$\\omega\_1$ is $\\omega\_2$-saturated".
 [Huge](Huge "Huge")
 cardinals were first invented to prove the consistency of the existence
-of a $ω\_2$-saturated $\\sigma$-ideal on $ω\_1$, but turned
+of a $\\omega\_2$-saturated $\\sigma$-ideal on $\\omega\_1$, but turned
 out to be stronger than required, as a Woodin is enough.
 
 ## Shelah cardinals
@@ -99,14 +99,14 @@ slightly more detail, Woodin had established that the [axiom of
 determinacy](Axiom_of_determinacy "Axiom of determinacy")
 (a hypothesis known to imply regularity properties for sets of reals)
 holds in $L(\\mathbb{R})$ assuming the existence of a nontrivial
-elementary embedding $j:L(V\_{λ+1})\\to L(V\_{λ+1})$ with
-critical point $&lt;λ$. This axiom, a
+elementary embedding $j:L(V\_{\\lambda+1})\\to L(V\_{\\lambda+1})$ with
+critical point $&lt;\\lambda$. This axiom, a
 <a href="Rank-into-rank" class="mw-redirect" title="Rank-into-rank">rank-into-rank</a>
 axiom, is known to be very strong and its use was first weakened to that
 of the existence of a
 [supercompact](Supercompact "Supercompact")
 cardinal. Following the work of Foreman, Magidor and Shelah on saturated
-ideals on $ω\_1$, Woodin and Shelah subsequently isolated the two
+ideals on $\\omega\_1$, Woodin and Shelah subsequently isolated the two
 large cardinal hypotheses which bear their name and turn out to be
 sufficient to establish the [regularity
 properties](Projective#Regularity_properties "Projective")
@@ -193,7 +193,7 @@ determinacy](Axiom_of_determinacy "Axiom of determinacy")
 {% cite Kanamori2009 Larson2013 Koellner2010 %}:
 
 -   $\\text{ZF+AD}$, $\\text{ZFC+AD}^{L(\\mathbb{R})}$, ZFC+"the
-    non-stationary ideal over $ω\_1$ is $ω\_1$-dense" and
+    non-stationary ideal over $\\omega\_1$ is $\\omega\_1$-dense" and
     $\\text{ZFC}$+"there exists infinitely many Woodin cardinals" are
     equiconsistent.
 -   Under $\\text{ZF+AD}$, the model $\\text{HOD}^{L(\\mathbb{R})}$
@@ -205,7 +205,7 @@ determinacy](Axiom_of_determinacy "Axiom of determinacy")
     assumtion that there is a measurable above those Woodins is removed,
     one still has projective determinacy.
 -   In fact projective determinacy is equivalent to "for every
-    $n&lt;ω$, there is a fine-structural, countably iterable inner
+    $n&lt;\\omega$, there is a fine-structural, countably iterable inner
     model $M$ such that $M$ satisfies $\\text{ZFC}$+"there exists $n$
     Woodin cardinals".
 -   For every $n$, if there exists $n$ Woodin cardinals with a
@@ -220,7 +220,7 @@ determinacy](Axiom_of_determinacy "Axiom of determinacy")
     and $M$ satisfies ZFC+"there is a Woodin cardinal".
 -   $\\text{ZFC}$ + *lightface* $\\Delta^1\_2$-determinacy implies that
     there many $x$ such that $\\text{HOD}^{L\[x\]}$ satisfies
-    $\\text{ZFC}$+"$ω\_2^{L\[x\]}$ is a Woodin cardinal".
+    $\\text{ZFC}$+"$\\omega\_2^{L\[x\]}$ is a Woodin cardinal".
 -   $\\text{Z}\_2+\\Delta^1\_2$-determinacy is conjectured to be
     equiconsistent with $\\text{ZFC}$+"$\\text{Ord}$ is Woodin", where
     "$\\text{Ord}$ is Woodin" is expressed as an axiom scheme and

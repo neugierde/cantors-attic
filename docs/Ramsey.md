@@ -20,87 +20,87 @@ compact and measurable cardinals inclusively.
 
 ### Definitions
 
-A cardinal $κ$ is Ramsey if it has the partition property
-$κ\\rightarrow (κ)^{\\ltω}\_2$.
+A cardinal $\\kappa$ is Ramsey if it has the partition property
+$\\kappa\\rightarrow (\\kappa)^{\\lt\\omega}\_2$.
 
-For infinite cardinals $κ$ and $λ$, the [partition
+For infinite cardinals $\\kappa$ and $\\lambda$, the [partition
 property](Partition_property "Partition property")
-$κ\\to(λ)^n\_\\gamma$ asserts that for every function
-$F:\[κ\]^n\\to\\gamma$ there is $H\\subseteqκ$ with
-$\|H\|=λ$ such that $F\\upharpoonright\[H\]^n$ is constant. Here
+$\\kappa\\to(\\lambda)^n\_\\gamma$ asserts that for every function
+$F:\[\\kappa\]^n\\to\\gamma$ there is $H\\subseteq\\kappa$ with
+$\|H\|=\\lambda$ such that $F\\upharpoonright\[H\]^n$ is constant. Here
 $\[X\]^n$ is the set of all $n$-elements subsets of $X$. The more
 general partition property
-$κ\\to(λ)^{\\ltω}\_\\gamma$ asserts that for every
-function $F:\[κ\]^{\\ltω}\\to\\gamma$ there is
-$H\\subseteqκ$ with $\|H\|=λ$ such that
+$\\kappa\\to(\\lambda)^{\\lt\\omega}\_\\gamma$ asserts that for every
+function $F:\[\\kappa\]^{\\lt\\omega}\\to\\gamma$ there is
+$H\\subseteq\\kappa$ with $\|H\|=\\lambda$ such that
 $F\\upharpoonright\[H\]^n$ is constant for every $n$, although the value
 of $F$ on $\[H\]^n$ may be different for different $n$. Indeed, if
-$κ$ is Ramsey, then $κ\\rightarrow
-(κ)^{\\ltω}\_λ$ for every $λ&lt;κ$.
+$\\kappa$ is Ramsey, then $\\kappa\\rightarrow
+(\\kappa)^{\\lt\\omega}\_\\lambda$ for every $\\lambda&lt;\\kappa$.
 Ramsey cardinals were named in honor of Frank Ramsey, whose Ramsey
-theorem for partition properties of $ω$ motivated the
+theorem for partition properties of $\\omega$ motivated the
 generalizations of these to uncountable cardinals. A Ramsey cardinal
-$κ$ is exactly the
-[$κ$-Erdős](Erdos "Erdos")
+$\\kappa$ is exactly the
+[$\\kappa$-Erdős](Erdos "Erdos")
 cardinal.
 
 Ramsey cardinals have a number of other characterizations. They may be
 characterized model theoretically through the existence of
-$κ$-sized sets of indiscernibles for models meeting the criteria
-discussed below, as well as through the existence of $κ$-sized
+$\\kappa$-sized sets of indiscernibles for models meeting the criteria
+discussed below, as well as through the existence of $\\kappa$-sized
 models of set theory without power set with iterable
 [ultrapowers](Ultrapower "Ultrapower").
 
 **Indiscernibles**: Suppose $\\mathcal A=(A,\\ldots)$ is a model of a
-language $\\mathcal L$ of size less than $κ$ whose universe $A$
-contains $κ$ as a subset.
+language $\\mathcal L$ of size less than $\\kappa$ whose universe $A$
+contains $\\kappa$ as a subset.
 
-If a cardinal $κ$ is Ramsey, then every such model $\\mathcal A$
-has a $κ$-sized set of indiscernibles $H\\subseteqκ$, that
+If a cardinal $\\kappa$ is Ramsey, then every such model $\\mathcal A$
+has a $\\kappa$-sized set of indiscernibles $H\\subseteq\\kappa$, that
 is, for every formula $\\varphi(\\overline x)$ of $\\mathcal L$ and
-every pair of tuples $\\overline α$ and $\\overline β$ of
+every pair of tuples $\\overline \\alpha$ and $\\overline \\beta$ of
 elements of $H$, we have $\\mathcal A\\models\\varphi (\\overline
-α)\\leftrightarrow \\varphi(\\overline β)$.
+\\alpha)\\leftrightarrow \\varphi(\\overline \\beta)$.
 {% cite Jech2003 %}
 
-**Good sets of indiscernibles**: Suppose $A\\subseteqκ$ and
-$L\_κ\[A\]$ denotes the $κ^{\\text{th}}$-level of the
+**Good sets of indiscernibles**: Suppose $A\\subseteq\\kappa$ and
+$L\_\\kappa\[A\]$ denotes the $\\kappa^{\\text{th}}$-level of the
 universe constructible using a predicate for $A$. A set
-$I\\subseteqκ$ is a good set of indiscernibles for the model
-$\\langle L\_κ\[A\],A\\rangle$ if for all $\\gamma\\in I$,
+$I\\subseteq\\kappa$ is a good set of indiscernibles for the model
+$\\langle L\_\\kappa\[A\],A\\rangle$ if for all $\\gamma\\in I$,
 
 -   $\\langle L\_\\gamma\[A\\cap \\gamma\],A\\cap \\gamma\\rangle\\prec
-    \\langle L\_κ\[A\], A\\rangle$,
+    \\langle L\_\\kappa\[A\], A\\rangle$,
 -   $I\\setminus\\gamma$ is a set of indiscernibles for the model
-    $\\langle L\_κ\[A\], A,\\xi\\rangle\_{\\xi\\in\\gamma}$.
+    $\\langle L\_\\kappa\[A\], A,\\xi\\rangle\_{\\xi\\in\\gamma}$.
 
-A cardinal $κ$ is Ramsey if and only if for every
-$A\\subseteqκ$, there is a $κ$-sized good set of
-indiscernibles for the model $\\langle L\_κ\[A\], A\\rangle$.
+A cardinal $\\kappa$ is Ramsey if and only if for every
+$A\\subseteq\\kappa$, there is a $\\kappa$-sized good set of
+indiscernibles for the model $\\langle L\_\\kappa\[A\], A\\rangle$.
 {% cite Dodd1981 %}
 
 **$M$-<a href="Ultrafilter" class="mw-redirect" title="Ultrafilter">ultrafilters</a>**:
 Suppose a transitive $M\\models {\\rm ZFC}^-$, the theory ${\\rm ZFC}$
 without the power set axiom (and using collection and separation rather
-than merely replacement) and $κ$ is a cardinal in $M$. We call
-$U\\subseteq P(κ)^M$ an $M$-ultrafilter if the model $\\langle
-M,U\\rangle\\models$“$U$ is a normal ultrafilter on $κ$”. In the
+than merely replacement) and $\\kappa$ is a cardinal in $M$. We call
+$U\\subseteq P(\\kappa)^M$ an $M$-ultrafilter if the model $\\langle
+M,U\\rangle\\models$“$U$ is a normal ultrafilter on $\\kappa$”. In the
 case when the $M$-ultrafilter is not an element of $M$, the model
 $\\langle M,U\\rangle$ of $M$ together with a predicate for $U$ often
 fails to satisfy much of ${\\rm ZFC}$. An $M$-ultrafilter $U$ is said to
-be weakly amenable (to $M$) if for every $A\\in M$ of size $κ$ in
+be weakly amenable (to $M$) if for every $A\\in M$ of size $\\kappa$ in
 $M$, the intersection $A\\cap U$ is an element of $M$. An
 $M$-ultrafilter $U$ is countably complete if every countable sequence
 (possibly external to $M$) of elements of $U$ has a non-empty
 intersection (even if the intersection is not itself an element of $M$).
-A weak $κ$-model is a transitive set $M\\models {\\rm ZFC}^- $ of
-size $κ$ and containing $κ$ as an element. A modified
-ultrapower construction using only functions on $κ$ that are
+A weak $\\kappa$-model is a transitive set $M\\models {\\rm ZFC}^- $ of
+size $\\kappa$ and containing $\\kappa$ as an element. A modified
+ultrapower construction using only functions on $\\kappa$ that are
 elements of $M$ can be carried out with an $M$-ultrafilter. If the
 $M$-ultrafilter happens to be countably complete, then the standard
 argument shows that the ultrapower is well-founded. If the
 $M$-ultrafilter is moreover weakly amenable, then a weakly amenable
-ultrafilter on the image of $κ$ in the well-founded ultrapower can
+ultrafilter on the image of $\\kappa$ in the well-founded ultrapower can
 be constructed from images of the pieces of $U$ that are in $M$. The
 ultrapower construction may be iterated in this manner, taking direct
 limits at limit stages, and in this case the countable completeness of
@@ -108,9 +108,9 @@ the $M$-ultrafilter ensures that every stage of the iteration produces a
 well-founded model. {% cite Kanamori2009 %} (Ch.
 19)
 
-A cardinal $κ$ is Ramsey if and only if every $A\\subseteqκ$
-is contained in a weak $κ$-model $M$ for which there exists a
-weakly amenable countably complete $M$-ultrafilter on $κ$.
+A cardinal $\\kappa$ is Ramsey if and only if every $A\\subseteq\\kappa$
+is contained in a weak $\\kappa$-model $M$ for which there exists a
+weakly amenable countably complete $M$-ultrafilter on $\\kappa$.
 {% cite Dodd1981 %}
 
 ### Ramsey cardinals and the constructible universe
@@ -129,7 +129,7 @@ exists and hence there cannot be Ramsey cardinals in $L$.
     [unfoldable](Unfoldable "Unfoldable")
     (using the $M$-ultrafilters characterization) and stationary limits
     of unfoldable cardinals (as they are stationary limits of
-    $ω\_1$-iterable cardinals).
+    $\\omega\_1$-iterable cardinals).
 -   Ramsey cardinals are stationary limits of
     <a href="Completely_ineffable" class="mw-redirect" title="Completely ineffable">completely ineffable</a>
     cardinals, they are
@@ -152,9 +152,9 @@ Weaker Ramsey-like:
     almost Ramsey cardinals and also precisely the [weakly
     compact](Weakly_compact "Weakly compact")
     almost Ramsey cardinals.
--   A Ramsey cardinal is $ω\_1$-iterable and a stationary limit of
-    $ω\_1$-iterable cardinals. This is already true of an
-    $ω\_1$-[Erdős](Erdos "Erdos")
+-   A Ramsey cardinal is $\\omega\_1$-iterable and a stationary limit of
+    $\\omega\_1$-iterable cardinals. This is already true of an
+    $\\omega\_1$-[Erdős](Erdos "Erdos")
     cardinal. {% cite Sharpe2011 %}
 -   A virtually Ramsey cardinal that is [weakly
     compact](Weakly_compact "Weakly compact")
@@ -178,18 +178,18 @@ Stronger Ramsey-like:
 
 -   Ramsey cardinals are preserved by small forcing.
     {% cite Kanamori2009 %}
--   Ramsey cardinals $κ$ are preserved by the canonical forcing of
+-   Ramsey cardinals $\\kappa$ are preserved by the canonical forcing of
     the ${\\rm GCH}$, by fast function forcing, and by the forcing to
-    add a slim $κ$-Kurepa tree.
+    add a slim $\\kappa$-Kurepa tree.
     {% cite Gitman %}
--   If $κ$ is Ramsey, there is a forcing extension in which
-    $κ$ remains Ramsey and
-    $2^κ\\gtκ$. {% cite Gitman Cody2015 %}
+-   If $\\kappa$ is Ramsey, there is a forcing extension in which
+    $\\kappa$ remains Ramsey and
+    $2^\\kappa\\gt\\kappa$. {% cite Gitman Cody2015 %}
     -   If the ${\\rm GCH}$ holds and $F$ is a class function on the
-        regular cardinals having a closure point at $κ$ and
-        satisfying $F(α)\\leq F(β)$ for $α&lt;β$
-        and $\\text{cf}(F(α))&gt;α$, then there is a
-        cofinality preserving forcing extension in which $κ$
+        regular cardinals having a closure point at $\\kappa$ and
+        satisfying $F(\\alpha)\\leq F(\\beta)$ for $\\alpha&lt;\\beta$
+        and $\\text{cf}(F(\\alpha))&gt;\\alpha$, then there is a
+        cofinality preserving forcing extension in which $\\kappa$
         remains Ramsey and $2^\\delta=F(\\delta)$ for every regular
         cardinal $\\delta$.
         {% cite Cody2015 %}
@@ -197,7 +197,7 @@ Stronger Ramsey-like:
         at which the $\\mathrm{GCH}$ fails.
         {% cite Gitman %}
 -   If the existence of Ramsey cardinals is consistent with ZFC, then
-    there is a model of ZFC in which $κ$ is not Ramsey, but
+    there is a model of ZFC in which $\\kappa$ is not Ramsey, but
     becomes Ramsey in a forcing extension.
     {% cite Gitman %}
 
@@ -374,36 +374,36 @@ Relation with other variants of Ramseyness:
 
 cf. (Vickers&Welch, 2001)
 
-An uncountable cardinal $κ$ is **almost Ramsey** if and only if
-$κ\\rightarrow(α)^{&lt;ω}$ for every
-$α&lt;κ$. Equivalently:
+An uncountable cardinal $\\kappa$ is **almost Ramsey** if and only if
+$\\kappa\\rightarrow(\\alpha)^{&lt;\\omega}$ for every
+$\\alpha&lt;\\kappa$. Equivalently:
 
--   $κ\\rightarrow(α)^{&lt;ω}\_λ$ for every
-    $α,λ&lt;κ$
+-   $\\kappa\\rightarrow(\\alpha)^{&lt;\\omega}\_\\lambda$ for every
+    $\\alpha,\\lambda&lt;\\kappa$
 -   For every structure $\\mathcal{M}$ with language of size
-    $&lt;κ$, there is are sets of indiscernibles
-    $I\\subseteqκ$ for $\\mathcal{M}$ of any size $&lt;κ$.
--   For every $α&lt;κ$, $η\_α$ exists and
-    $η\_α&lt;κ$.
--   $κ=\\text{sup}\\{η\_α:α&lt;κ\\}$
+    $&lt;\\kappa$, there is are sets of indiscernibles
+    $I\\subseteq\\kappa$ for $\\mathcal{M}$ of any size $&lt;\\kappa$.
+-   For every $\\alpha&lt;\\kappa$, $\\eta\_\\alpha$ exists and
+    $\\eta\_\\alpha&lt;\\kappa$.
+-   $\\kappa=\\text{sup}\\{\\eta\_\\alpha:\\alpha&lt;\\kappa\\}$
 
-($η\_α$ is the
-[$α$-Erdős](Erdos "Erdos")
+($\\eta\_\\alpha$ is the
+[$\\alpha$-Erdős](Erdos "Erdos")
 cardinal.)
 
 Every almost Ramsey cardinal is a [$\\beth$-fixed
 point](Beth "Beth"), but
 the least almost Ramsey cardinal, if it exists, has cofinality
-$ω$. In fact, the least almost Ramsey cardinal is not
+$\\omega$. In fact, the least almost Ramsey cardinal is not
 <a href="Weakly_inaccessible" class="mw-redirect" title="Weakly inaccessible">weakly inaccessible</a>,
 [worldly](Worldly "Worldly"),
 or
 <a href="Correct" class="mw-redirect" title="Correct">correct</a>.
 However, if the least almost Ramsey cardinal exists, it is larger than
 the least
-[$ω\_1$-Erdős](Erdos "Erdos")
+[$\\omega\_1$-Erdős](Erdos "Erdos")
 cardinal. Any regular almost Ramsey cardinal is worldly, and any worldly
-almost Ramsey cardinal $κ$ has $κ$ almost Ramsey cardinals
+almost Ramsey cardinal $\\kappa$ has $\\kappa$ almost Ramsey cardinals
 below it.
 
 The existence of a worldly almost Ramsey cardinal is stronger than the
@@ -411,17 +411,17 @@ existence of a proper class of almost Ramsey cardinals. Therefore, the
 existence of a Ramsey cardinal is stronger than the existence of a
 proper class of almost Ramsey cardinals. The existence of a proper class
 of almost Ramsey cardinals is equivalent to the existence of
-$η\_α$ for every $α$. The existence of an almost Ramsey
-cardinal is stronger than the existence of an $ω\_1$-Erdős
+$\\eta\_\\alpha$ for every $\\alpha$. The existence of an almost Ramsey
+cardinal is stronger than the existence of an $\\omega\_1$-Erdős
 cardinal.
 
 The existence of an almost Ramsey cardinal is equivalent to the
-existence of $η^n(ω)$ for every $n&lt;ω$. On one hand,
-if a almost Ramsey cardinal $κ$ exists, then $ω&lt;κ$.
-Then, $η\_ω$ is less than $κ$. Then,
-$η\_{η\_ω}$ exists and is less than $κ$, and so on.
-On the other hand, if $η^n(ω)$ exists for every
-$n&lt;ω$, then $\\text{sup}\\{η^n(ω):n&lt;ω\\}$ is
+existence of $\\eta^n(\\omega)$ for every $n&lt;\\omega$. On one hand,
+if a almost Ramsey cardinal $\\kappa$ exists, then $\\omega&lt;\\kappa$.
+Then, $\\eta\_\\omega$ is less than $\\kappa$. Then,
+$\\eta\_{\\eta\_\\omega}$ exists and is less than $\\kappa$, and so on.
+On the other hand, if $\\eta^n(\\omega)$ exists for every
+$n&lt;\\omega$, then $\\text{sup}\\{\\eta^n(\\omega):n&lt;\\omega\\}$ is
 almost Ramsey, and in fact the least almost Ramsey cardinal. Note that
 such a set exists by replacement and has a supremum by union.
 
@@ -439,16 +439,16 @@ Ramsey.{% cite Sharpe2011 %}
 Strongly Ramsey cardinals were introduced by Gitman in
 {% cite Gitman2011 %} (all information from
 there unless otherwise noted). They strengthen the $M$-ultrafilters
-characterization of Ramsey cardinals from weak $κ$-models to
-$κ$-models.
+characterization of Ramsey cardinals from weak $\\kappa$-models to
+$\\kappa$-models.
 
-A cardinal $κ$ is **strongly Ramsey** if every
-$A\\subseteqκ$ is contained in a $κ$-model $M$ for which
-there exists a weakly amenable $M$-ultrafilter on $κ$. An
-$M$-ultrafilter for a $κ$-model $M$ is automatically countably
+A cardinal $\\kappa$ is **strongly Ramsey** if every
+$A\\subseteq\\kappa$ is contained in a $\\kappa$-model $M$ for which
+there exists a weakly amenable $M$-ultrafilter on $\\kappa$. An
+$M$-ultrafilter for a $\\kappa$-model $M$ is automatically countably
 complete since $\\langle M,U\\rangle$ satisfies that it is
-$κ$-complete and it must be correct about this since $M$ is closed
-under sequences of length less than $κ$.
+$\\kappa$-complete and it must be correct about this since $M$ is closed
+under sequences of length less than $\\kappa$.
 
 Properties:
 
@@ -476,13 +476,13 @@ Super Ramsey cardinals were introduced by Gitman in
 there unless otherwise noted). They strengthen one definition of strong
 Ramseyness.
 
-A weak $κ$-model $M$ is a $κ$-model if additionally
-$M^{\\ltκ}\\subseteq M$.
+A weak $\\kappa$-model $M$ is a $\\kappa$-model if additionally
+$M^{\\lt\\kappa}\\subseteq M$.
 
-A cardinal $κ$ is **super Ramsey** if and only if for every
-$A\\subseteqκ$, there is some $κ$-model $M$ with
-$A\\subseteq M\\prec H\_{κ^+}$ such that there is some $N$ and
-some $κ$-powerset preserving nontrivial elementary embedding
+A cardinal $\\kappa$ is **super Ramsey** if and only if for every
+$A\\subseteq\\kappa$, there is some $\\kappa$-model $M$ with
+$A\\subseteq M\\prec H\_{\\kappa^+}$ such that there is some $N$ and
+some $\\kappa$-powerset preserving nontrivial elementary embedding
 $j:M\\prec N$.
 
 The following are some facts about super Ramsey cardinals:
@@ -498,36 +498,36 @@ The following are some facts about super Ramsey cardinals:
 -   The required $M$ for a super Ramsey embedding is stationarily
     correct.
 
-## $α$-iterable cardinal
+## $\\alpha$-iterable cardinal
 
-The $α$-iterable cardinals for $1\\leqα\\leqω\_1$ were
+The $\\alpha$-iterable cardinals for $1\\leq\\alpha\\leq\\omega\_1$ were
 introduced by Gitman in
 {% cite Gitman2011a %}. They form a
 hierarchy of large cardinal notions strengthening [weakly
 compact](Weakly_compact "Weakly compact")
 cardinals, while weakening the $M$-ultrafilter characterization of
-Ramsey cardinals. Recall that if $κ$ is Ramsey, then every
-$A\\subseteqκ$ is contained in a weak $κ$-model $M$ for
+Ramsey cardinals. Recall that if $\\kappa$ is Ramsey, then every
+$A\\subseteq\\kappa$ is contained in a weak $\\kappa$-model $M$ for
 which there exists an $M$-ultrafilter, the ultrapower construction with
 which may be iterated through all the ordinals. Suppose $M$ is a weak
-$κ$-model and $U$ is an $M$-ultrafilter on $κ$. Define that:
+$\\kappa$-model and $U$ is an $M$-ultrafilter on $\\kappa$. Define that:
 
 -   $U$ is $0$-good if the ultrapower is well-founded,
 -   $U$ is 1-good if it is 0-good and weakly amenable,
--   for an ordinal $α&gt;1$, $U$ is $α$-good, if it produces
-    at least $α$-many well-founded iterated ultrapowers.
+-   for an ordinal $\\alpha&gt;1$, $U$ is $\\alpha$-good, if it produces
+    at least $\\alpha$-many well-founded iterated ultrapowers.
 
 Using a theorem of Gaifman
 {% cite Gaifman1974 %}, if an
-$M$-ultrafilter is $ω\_1$-good, then it is already $α$-good
-for every ordinal $α$.
+$M$-ultrafilter is $\\omega\_1$-good, then it is already $\\alpha$-good
+for every ordinal $\\alpha$.
 
-For $1\\leqα\\leqω\_1$, a cardinal $κ$ is
-**$α$-iterable** if every $A\\subseteqκ$ is contained in a
-weak $κ$-model $M$ for which there exists an $α$-good
-$M$-ultrafilter on $κ$.
+For $1\\leq\\alpha\\leq\\omega\_1$, a cardinal $\\kappa$ is
+**$\\alpha$-iterable** if every $A\\subseteq\\kappa$ is contained in a
+weak $\\kappa$-model $M$ for which there exists an $\\alpha$-good
+$M$-ultrafilter on $\\kappa$.
 
-The $α$-iterable cardinals form a hierarchy of strength above
+The $\\alpha$-iterable cardinals form a hierarchy of strength above
 weakly compact cardinals and below Ramsey cardinals.
 
 The $1$-iterable cardinals are sometimes called the **weakly Ramsey**
@@ -548,9 +548,9 @@ Lower limit:
 
 Upper limit:
 
--   A Ramsey cardinal is $ω\_1$-iterable and a stationary limit of
-    $ω\_1$-iterable cardinals. This is already true of an
-    $ω\_1$-[Erdős](Erdos "Erdos")
+-   A Ramsey cardinal is $\\omega\_1$-iterable and a stationary limit of
+    $\\omega\_1$-iterable cardinals. This is already true of an
+    $\\omega\_1$-[Erdős](Erdos "Erdos")
     cardinal. {% cite Sharpe2011 %}
 -   If $C ∈ V\[H\]$, a forcing extension by $\\mathrm{Coll}(ω, V\_κ)$,
     is a club in $κ$ of generating indiscernibles for $V\_κ$ of
@@ -564,14 +564,14 @@ Upper limit:
 
 Hierarchy:
 
--   An $α$-iterable cardinal is $β$-iterable and a stationary
-    limit of $β$-iterable cardinals for every $β&lt;α$.
+-   An $\\alpha$-iterable cardinal is $\\beta$-iterable and a stationary
+    limit of $\\beta$-iterable cardinals for every $\\beta&lt;\\alpha$.
     {% cite Gitman2011a %}
 -   For $β &gt; 0$, every $(α, β)$-Ramsey is a $β$-iterable stationary
     limit of $β$-iterables.
 -   It is consistent from an
-    $ω$-[Erdős](Erdos "Erdos")
-    cardinal that for every $n\\inω$, there is a proper class of
+    $\\omega$-[Erdős](Erdos "Erdos")
+    cardinal that for every $n\\in\\omega$, there is a proper class of
     $n$-iterable cardinals.
 -   For an additively indecomposable ordinal $λ ≤ ω\_1$, $η\_λ$ (the
     least $λ$-Erdős cardinal) is a limit of $λ$-iterable cardinals and
@@ -614,21 +614,21 @@ Between $1$- and $2$-iterable:
 
 Absoluteness:
 
--   $ω\_1$-iterable cardinals imply that
+-   $\\omega\_1$-iterable cardinals imply that
     <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
-    exists and hence there cannot be $ω\_1$-iterable cardinals in
-    $L$. For $L$-countable $α$, the $α$-iterable cardinals
+    exists and hence there cannot be $\\omega\_1$-iterable cardinals in
+    $L$. For $L$-countable $\\alpha$, the $\\alpha$-iterable cardinals
     are downward absolute to $L$. In fact, if
     <a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
-    exists, then every Silver indiscernible is $α$-iterable in $L$
-    for every $L$-countable $α$.
+    exists, then every Silver indiscernible is $\\alpha$-iterable in $L$
+    for every $L$-countable $\\alpha$.
     {% cite Gitman2011a %}
--   $α$-iterable cardinals $κ$ are preserved by small
+-   $\\alpha$-iterable cardinals $\\kappa$ are preserved by small
     forcing, by the canonical forcing of the ${\\rm GCH}$, by fast
-    function forcing, and by the forcing to add a slim $κ$-Kurepa
-    tree. If $κ$ is $α$-iterable, there is a forcing
-    extension in which $κ$ remains $α$-iterable and
-    $2^κ\\gtκ$.
+    function forcing, and by the forcing to add a slim $\\kappa$-Kurepa
+    tree. If $\\kappa$ is $\\alpha$-iterable, there is a forcing
+    extension in which $\\kappa$ remains $\\alpha$-iterable and
+    $2^\\kappa\\gt\\kappa$.
     {% cite Gitman %}
 
 ## Mahlo–Ramsey cardinals
@@ -655,9 +655,9 @@ Any $\\Pi\_2$-Ramsey cardinal is $α$-MR for all $α &lt; κ^+$.
 
 For $X ⊆ κ$ and ordinal $α$, $G\_R(X, α)$ is a certain game for two
 players with finitely many moves defined in (Sharpe&Welch11). $X$ is
-Sharpe-Welch $α$-Ramsey iff (II) wins $G\_R(X, α)$. $G\_r(X, α)$
+Sharpe-Welch $\\alpha$-Ramsey iff (II) wins $G\_R(X, α)$. $G\_r(X, α)$
 (also defined there) is a modification of the game allowing $1+α$ moves.
-$X$ is **$α$-very Ramsey** iff (II) has a winning strategy in
+$X$ is **$\\alpha$-very Ramsey** iff (II) has a winning strategy in
 $G\_r(X, α)$.{% cite Sharpe2011 %}
 
 For $n &lt; ω$, the games $G\_R(X, n)$ and $G\_r(X, n)$
@@ -685,7 +685,7 @@ Results:
     <a href="Zero_pistol" class="mw-redirect" title="Zero pistol">$0^\P$</a>
     exists and an inner model with a
     [Woodin](Woodin "Woodin")
-    cardinal exists. {% cite Sharpe2011 Nielsen2018 %} 
+    cardinal exists. {% Sharpe2011 Nielsen2018 %} 
 
 Additional results from
 {% cite Nielsen2018 %}:
@@ -707,12 +707,12 @@ indiscernibles characterization of Ramsey cardinals and were motivated
 by finding an upper bound on the consistency strength of a variant of
 Chang's Conjecture studied in
 {% cite Sharpe2011 %}. For
-$A\\subseteqκ$, define that $\\mathscr
-I=\\{α&lt;κ\\mid$ there is an unbounded good set of
-indiscernibles $I\_α\\subseteqα$ for $\\langle
-L\_κ\[A\],A\\rangle\\}$. A cardinal $κ$ is virtually Ramsey
-if for every $A\\subseteqκ$, the set $\\mathscr I$ contains a club
-of $κ$.
+$A\\subseteq\\kappa$, define that $\\mathscr
+I=\\{\\alpha&lt;\\kappa\\mid$ there is an unbounded good set of
+indiscernibles $I\_\\alpha\\subseteq\\alpha$ for $\\langle
+L\_\\kappa\[A\],A\\rangle\\}$. A cardinal $\\kappa$ is virtually Ramsey
+if for every $A\\subseteq\\kappa$, the set $\\mathscr I$ contains a club
+of $\\kappa$.
 
 Virtually Ramsey cardinals are
 [Mahlo](Mahlo "Mahlo") and
@@ -1059,10 +1059,10 @@ general.{% cite Nielsen2018 %}
 M-rank for Ramsey and Ramsey-like cardinals is analogous to [Mitchell
 rank](Mitchell_rank "Mitchell rank").
 A difference is that M-rank for Ramsey-like cardinals can be at most
-$κ^+$ (because an ultrapower of a weak $κ$-model has size at most
+$\\kappa^+$ (because an ultrapower of a weak $κ$-model has size at most
 $κ$) and Mitchell rank for
 [measurable](Measurable "Measurable")
-cardinals can be at most $(2^κ)^+$.
+cardinals can be at most $(2^\\kappa)^+$.
 
 Definition of the M-order: For $κ$ having a large-cardinal property
 $\\mathscr{P}$ with an embedding characterisation and for two witness

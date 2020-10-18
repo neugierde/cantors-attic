@@ -32,8 +32,8 @@ towards the calamity of inconsistency.
     inconsistency](Kunen_inconsistency "Kunen inconsistency")**
 -   **[rank into
     rank](Rank_into_rank "Rank into rank")**
-    axioms ($I3$=$E\_0$, $IE^ω$, $IE$, $I2$=$E\_1$, $E\_i$,
-    $I1$=$E\_ω$ plus $m$-$C^{(n)}$-$E\_i$), [$ω$-fold
+    axioms ($I3$=$E\_0$, $IE^\\omega$, $IE$, $I2$=$E\_1$, $E\_i$,
+    $I1$=$E\_ω$ plus $m$-$C^{(n)}$-$E\_i$), [$\\omega$-fold
     variants](N-fold_variants#.24.5Comega.24-fold_variants "N-fold variants"),
     [I0
     axiom](L_of_V_lambda%2B1 "L of V lambda+1")
@@ -75,7 +75,7 @@ towards the calamity of inconsistency.
     (=[Woodin for
     supercompactness](Woodin#Shelah_cardinals "Woodin"))
     cardinal
--   [$α$-extendible](Extendible "Extendible")
+-   [$\\alpha$-extendible](Extendible "Extendible")
     hierarchy,
     **[extendible](Extendible "Extendible")**
     cardinal,
@@ -84,21 +84,21 @@ towards the calamity of inconsistency.
 -   [Woodin for strong
     compactness](Woodin "Woodin")
 -   [enhanced
-    $λ$-supercompact](Supercompact#Enhanced_supercompact_cardinals "Supercompact")
+    $\\lambda$-supercompact](Supercompact#Enhanced_supercompact_cardinals "Supercompact")
     cardinals, [enhanced
     supercompact](Supercompact#Enhanced_supercompact_cardinals "Supercompact")
     cardinal,
-    [$λ$-hypercompact](Hypercompact "Hypercompact")
+    [$\\lambda$-hypercompact](Hypercompact "Hypercompact")
     cardinals,
     [hypercompact](Hypercompact "Hypercompact")
     cardinal
--   [$λ$-supercompact](Supercompact "Supercompact")
+-   [$\\lambda$-supercompact](Supercompact "Supercompact")
     cardinals,
     **[supercompact](Supercompact "Supercompact")**
     cardinal,
     [$C^{(n)}$-supercompact](Supercompact "Supercompact")
     cardinals
--   [$λ$-strongly
+-   [$\\lambda$-strongly
     compact](Strongly_compact "Strongly compact")
     cardinals, **[strongly
     compact](Strongly_compact "Strongly compact")**
@@ -142,8 +142,8 @@ towards the calamity of inconsistency.
     cardinals
 -   Nontrivial [Mitchell
     rank](Mitchell_rank "Mitchell rank"),
-    [$o(κ)=1$](Mitchell_rank "Mitchell rank"),
-    [$o(κ)=κ^{++}$](Mitchell_rank "Mitchell rank")
+    [$o(\\kappa)=1$](Mitchell_rank "Mitchell rank"),
+    [$o(\\kappa)=\\kappa^{++}$](Mitchell_rank "Mitchell rank")
 -   <a href="Zero_dagger" class="mw-redirect" title="Zero dagger">$0^\dagger$</a>
     (*zero-dagger*)
 -   [weakly
@@ -156,7 +156,7 @@ towards the calamity of inconsistency.
         cardinal
     -   $κ^+$-<a href="Filter_property" class="mw-redirect" title="Filter property">filter property</a>,
         [strategic
-        $(ω+1)$-Ramsey](Ramsey "Ramsey")
+        $(\\omega+1)$-Ramsey](Ramsey "Ramsey")
         cardinal, [strategic fully
         Ramsey](Ramsey "Ramsey")
         cardinal, [$ω\_1$-very
@@ -177,23 +177,23 @@ towards the calamity of inconsistency.
     Ramsey](Ramsey#Super_Ramsey_cardinal "Ramsey")
     cardinal, [super Ramsey
     M-rank](Ramsey "Ramsey")
--   $α$-<a href="Filter_property" class="mw-redirect" title="Filter property">filter property</a>,
-    [$α$-Ramsey](Ramsey "Ramsey")
-    cardinal (for $ω &lt; α &lt; κ$), [almost fully
+-   $\\alpha$-<a href="Filter_property" class="mw-redirect" title="Filter property">filter property</a>,
+    [$\\alpha$-Ramsey](Ramsey "Ramsey")
+    cardinal (for $\\omega &lt; \\alpha &lt; \\kappa$), [almost fully
     Ramsey](Ramsey "Ramsey")
     (=[$&lt;κ$-Ramsey](Ramsey "Ramsey"))
     cardinal
--   [$\\Pi\_α$-Romsey](Ramsey "Ramsey"),
+-   [$\\Pi\_\\alpha$-Romsey](Ramsey "Ramsey"),
     [completely
     Romsey](Ramsey "Ramsey")
     (=[$ω$-very
     Ramsey](Ramsey "Ramsey")),
-    [$α$-hyper completely
+    [$\\alpha$-hyper completely
     Romsey](Ramsey "Ramsey"),
     [super completely
     Romsey](Ramsey "Ramsey")
     cardinals
--   [$α$-Mahlo–Ramsey](Ramsey "Ramsey")
+-   [$\\alpha$-Mahlo–Ramsey](Ramsey "Ramsey")
     hierarchy
 -   [Ramsey
     M-rank](Ramsey "Ramsey")
@@ -206,7 +206,7 @@ towards the calamity of inconsistency.
     cardinal,
     **[Ramsey](Ramsey "Ramsey")**
     cardinal
--   [$α$-weakly
+-   [$\\alpha$-weakly
     Erdős](Erdos "Erdos")
     cardinals, [greatly
     Erdős](Erdos "Erdos")
@@ -214,26 +214,26 @@ towards the calamity of inconsistency.
 -   [almost
     Ramsey](Ramsey#Almost_Ramsey_cardinal "Ramsey")
     cardinal
--   [$ω\_1$-Erdős](Erdos "Erdos")
+-   [$\\omega\_1$-Erdős](Erdos "Erdos")
     cardinal and
     [$\\gamma$-Erdős](Erdos "Erdos")
     cardinals for uncountable $\\gamma$, [Chang's
     conjecture](Chang%27s_conjecture "Chang's conjecture")
--   [$ω\_1$-iterable](Ramsey#.24.5Calpha.24-iterable_cardinal "Ramsey")
-    cardinal, [$(ω,
-    ω\_1)$-Ramsey](Ramsey "Ramsey")
+-   [$\\omega\_1$-iterable](Ramsey#.24.5Calpha.24-iterable_cardinal "Ramsey")
+    cardinal, [$(\\omega,
+    \\omega\_1)$-Ramsey](Ramsey "Ramsey")
     cardinal
 -   **<a href="Zero_sharp" class="mw-redirect" title="Zero sharp">$0^\sharp$</a>
     (*zero-sharp*)**, existence of [Silver
     indiscernibles](Constructible_universe#Silver_indiscernibles "Constructible universe")
 -   <a href="Silver_cardinal" class="mw-redirect" title="Silver cardinal">Silver cardinal</a>
 -   the
-    [$α$-**Erdős**](Erdos "Erdos"),
-    [$α$-iterable](Ramsey#.24.5Calpha.24-iterable_cardinal "Ramsey")
-    and [$(ω,
-    α)$-Ramsey](Ramsey "Ramsey")
-    hierarchy for countable infinite $α$
--   [$ω$-Erdős](Erdos "Erdos")
+    [$\\alpha$-**Erdős**](Erdos "Erdos"),
+    [$\\alpha$-iterable](Ramsey#.24.5Calpha.24-iterable_cardinal "Ramsey")
+    and [$(\\omega,
+    \\alpha)$-Ramsey](Ramsey "Ramsey")
+    hierarchy for countable infinite $\\alpha$
+-   [$\\omega$-Erdős](Erdos "Erdos")
     cardinal, [weakly
     remarkable](Remarkable "Remarkable")
     cardinal that is not remarkable
@@ -262,7 +262,7 @@ towards the calamity of inconsistency.
     (=virtually supercompact), [virtually
     measurable](Measurable "Measurable"),
     [strategic
-    $ω$-Ramsey](Ramsey "Ramsey")
+    $\\omega$-Ramsey](Ramsey "Ramsey")
     cardinals,
     <a href="Proper_forcing_axiom" class="mw-redirect" title="Proper forcing axiom">weak Proper Forcing Axiom</a>
 -   [weakly
@@ -270,11 +270,11 @@ towards the calamity of inconsistency.
     (=$1$-iterable) cardinal, [super weakly
     Ramsey](Ramsey "Ramsey")
     cardinals,
-    [$ω$-Ramsey](Ramsey "Ramsey")
+    [$\\omega$-Ramsey](Ramsey "Ramsey")
     cardinal
 -   <a href="Completely_ineffable" class="mw-redirect" title="Completely ineffable">completely ineffable</a>
     cardinal (=
-    $ω$-<a href="Filter_property" class="mw-redirect" title="Filter property">filter property</a>)
+    $\\omega$-<a href="Filter_property" class="mw-redirect" title="Filter property">filter property</a>)
 -   [the $n$-subtle, $n$-almost ineffable, $n$-ineffable cardinals'
     hierarchy](Ineffable#Helix "Ineffable")
 -   [$n$-Ramsey](Ramsey "Ramsey"),
@@ -282,7 +282,7 @@ towards the calamity of inconsistency.
     $n$-Ramsey](Ramsey "Ramsey"),
     [normal
     $n$-Ramsey](Ramsey "Ramsey"),
-    [$&lt;ω$-Ramsey](Ramsey "Ramsey")
+    [$&lt;\\omega$-Ramsey](Ramsey "Ramsey")
     cardinals
 -   <a href="Weakly_ineffable" class="mw-redirect" title="Weakly ineffable">weakly ineffable</a>
     (=almost ineffable=genuine
@@ -319,7 +319,7 @@ towards the calamity of inconsistency.
     cardinals
 -   [$\\Sigma\_n$-weakly
     compact](Weakly_compact "Weakly compact")
-    cardinals, [$\\Sigma\_ω$-weakly
+    cardinals, [$\\Sigma\_\\omega$-weakly
     compact](Weakly_compact "Weakly compact")
     cardinal, **[weakly
     compact](Weakly_compact "Weakly compact")**
@@ -330,7 +330,7 @@ towards the calamity of inconsistency.
     $\\text{GPK}^+\_\\infty$
 -   [$\\Sigma\_n$-Mahlo](Mahlo "Mahlo")
     cardinals,
-    [$\\Sigma\_ω$-Mahlo](Mahlo "Mahlo")
+    [$\\Sigma\_\\omega$-Mahlo](Mahlo "Mahlo")
     cardinal, [weakly
     Mahlo](Mahlo "Mahlo")
     cardinal, (strongly)
@@ -338,7 +338,7 @@ towards the calamity of inconsistency.
     cardinal,
     [$1$-Mahlo](Mahlo#Hyper-Mahlo "Mahlo"),
     the
-    [$α$-Mahlo](Mahlo#Hyper-Mahlo "Mahlo")
+    [$\\alpha$-Mahlo](Mahlo#Hyper-Mahlo "Mahlo")
     hierarchy,
     [hyper-Mahlo](Mahlo#Hyper-Mahlo "Mahlo")
     cardinals,
@@ -360,7 +360,7 @@ towards the calamity of inconsistency.
     ordinals](J%C3%A4ger%27s_collapsing_functions_and_%CF%81-inaccessible_ordinals "Jäger's collapsing functions and ρ-inaccessible ordinals")
 -   [$1$-inaccessible](Inaccessible#Degrees_of_inaccessibility "Inaccessible"),
     the
-    [$α$-inaccessible](Inaccessible#Degrees_of_inaccessibility "Inaccessible")
+    [$\\alpha$-inaccessible](Inaccessible#Degrees_of_inaccessibility "Inaccessible")
     hierarchy,
     [hyper-inaccessible](Inaccessible#Hyper-inaccessible "Inaccessible")
     cardinals,
@@ -380,7 +380,7 @@ towards the calamity of inconsistency.
     set theory
 -   **[worldly](Worldly "Worldly")**
     cardinal and the
-    [$α$-wordly](Worldly#Degrees_of_worldliness "Worldly")
+    [$\\alpha$-wordly](Worldly#Degrees_of_worldliness "Worldly")
     hierarchy,
     [hyper-worldly](Worldly#Degrees_of_worldliness "Worldly")
     cardinal
@@ -391,7 +391,7 @@ towards the calamity of inconsistency.
     <a href="Transitive_ZFC_model#Minimal_transitive_model_of_ZFC" class="mw-redirect" title="Transitive ZFC model">minimal transitive model</a>
 -   **<a href="Con_ZFC" class="mw-redirect" title="Con ZFC">$\text{Con(ZFC)}$</a>**
     and
-    <a href="Con_ZFC#Consistency_hierarchy" class="mw-redirect" title="Con ZFC">$\text{Con}^α(\text{ZFC})$</a>,
+    <a href="Con_ZFC#Consistency_hierarchy" class="mw-redirect" title="Con ZFC">$\text{Con}^\alpha(\text{ZFC})$</a>,
     the
     <a href="Con_ZFC#Consistency_hierarchy" class="mw-redirect" title="Con ZFC">iterated consistency hierarchy</a>
 -   **[Zermelo-Fraenkel](ZFC "ZFC")**

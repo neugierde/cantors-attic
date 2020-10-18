@@ -11,248 +11,248 @@ notation](Buchholz%27s_%CF%88_functions "Buchholz's ψ functions").
 ### Basic Notions
 
 \\(M\_0\\) is the least Mahlo cardinal, small Greek letters denote
-ordinals less than \\(M\_0\\). Each ordinal \\(α\\) is identified
+ordinals less than \\(M\_0\\). Each ordinal \\(\\alpha\\) is identified
 with the set of its predecessors
-\\(α=\\{β\|β&lt;α\\}\\).
+\\(\\alpha=\\{\\beta\|\\beta&lt;\\alpha\\}\\).
 
 \\(L\\) denotes the set of all limit ordinals less than \\(M\_0\\).
 
-An ordinal \\(α\\) is an additive principal number if
-\\(α&gt;0\\) and \\(\\xi+η&lt;α\\) for all
-\\(\\xi,η&lt;α\\). Let \\(P\\) denote the set of all additive
+An ordinal \\(\\alpha\\) is an additive principal number if
+\\(\\alpha&gt;0\\) and \\(\\xi+\\eta&lt;\\alpha\\) for all
+\\(\\xi,\\eta&lt;\\alpha\\). Let \\(P\\) denote the set of all additive
 principal numbers less than \\(M\_0\\).
 
-\\(α=\_{NF}α \_{1}+\\cdots +α \_{n}:\\Leftrightarrow
-α =α \_{1}+\\cdots +α \_{n}\\wedge α \_{1}\\geq
-\\cdots \\geq α \_{n}\\wedge α \_{1},... ,α \_{n}\\in
+\\(\\alpha=\_{NF}\\alpha \_{1}+\\cdots +\\alpha \_{n}:\\Leftrightarrow
+\\alpha =\\alpha \_{1}+\\cdots +\\alpha \_{n}\\wedge \\alpha \_{1}\\geq
+\\cdots \\geq \\alpha \_{n}\\wedge \\alpha \_{1},... ,\\alpha \_{n}\\in
 P\\)
 
-Cofinality \\(\\text{cof}(α)\\) of an ordinal \\(α\\) is the
-least \\(β\\) such that there exists a function
-\\(f:β\\rightarrowα\\) with \\(\\text{sup}\\{f(\\xi )\|\\xi
-&lt;β \\}=α\\). An ordinal \\(α\\) is regular, if
-\\(α\\) is a limit ordinal and \\(\\text{cof}(α)=α\\).
-Let \\(R\\) denote the set of all regular ordinals \\(\\in(ω,
+Cofinality \\(\\text{cof}(\\alpha)\\) of an ordinal \\(\\alpha\\) is the
+least \\(\\beta\\) such that there exists a function
+\\(f:\\beta\\rightarrow\\alpha\\) with \\(\\text{sup}\\{f(\\xi )\|\\xi
+&lt;\\beta \\}=\\alpha\\). An ordinal \\(\\alpha\\) is regular, if
+\\(\\alpha\\) is a limit ordinal and \\(\\text{cof}(\\alpha)=\\alpha\\).
+Let \\(R\\) denote the set of all regular ordinals \\(\\in(\\omega,
 M\_0)\\).
 
-An ordinal \\(α\\) is (weakly) inaccessible if \\(α\\) is a
-regular limit cardinal larger than \\(ω\\).
+An ordinal \\(\\alpha\\) is (weakly) inaccessible if \\(\\alpha\\) is a
+regular limit cardinal larger than \\(\\omega\\).
 
 Enumeration function \\(F\\) of class of ordinals \\(X\\) is the unique
 increasing function such that
-\\(X=\\{F(α)\|α\\in\\text{dom}(F)\\}\\) where domain of
+\\(X=\\{F(\\alpha)\|\\alpha\\in\\text{dom}(F)\\}\\) where domain of
 \\(F\\), \\(\\text{dom}(F)\\) is an ordinal number. We use
 \\(\\text{Enum}(X)\\) to donate \\(F\\).
 
 ### Veblen function
 
-\\(\\varphi\_α=\\text{Enum}(\\{β\\in
-P\|\\forall\\gamma&lt;α(\\varphi\_\\gamma(β)=β)\\})\\)
+\\(\\varphi\_\\alpha=\\text{Enum}(\\{\\beta\\in
+P\|\\forall\\gamma&lt;\\alpha(\\varphi\_\\gamma(\\beta)=\\beta)\\})\\)
 
 Normal form
 
-\\(α=\_{NF}\\varphi\_β(\\gamma):\\Leftrightarrowα=\\varphi\_β(\\gamma)\\wedgeβ,\\gamma&lt;α\\)
+\\(\\alpha=\_{NF}\\varphi\_\\beta(\\gamma):\\Leftrightarrow\\alpha=\\varphi\_\\beta(\\gamma)\\wedge\\beta,\\gamma&lt;\\alpha\\)
 
-An ordinal \\(α\\) is a strongly critical if
-\\(\\varphi(α,0)=α\\). Let \\(S\\) denote the set of all
+An ordinal \\(\\alpha\\) is a strongly critical if
+\\(\\varphi(\\alpha,0)=\\alpha\\). Let \\(S\\) denote the set of all
 strongly critical ordinals less than \\(M\_0\\).
 
 Definition of \\(S(\\gamma)\\) for arbitrary \\(\\gamma\\).
 
 \\(S(\\gamma)=\\{\\gamma\\}\\) if \\(\\gamma\\in S\\cup\\{0\\}\\)
 
-\\(S(\\gamma)=\\{α\_1,...,α\_n\\}\\) if
-\\(\\gamma=\_{NF}α\_1+\\cdots+α\_n\\notin P\\)
+\\(S(\\gamma)=\\{\\alpha\_1,...,\\alpha\_n\\}\\) if
+\\(\\gamma=\_{NF}\\alpha\_1+\\cdots+\\alpha\_n\\notin P\\)
 
-\\(S(\\gamma)=\\{α,β\\}\\) if
-\\(\\gamma=\_{NF}\\varphi\_α(β)\\notin S\\)
+\\(S(\\gamma)=\\{\\alpha,\\beta\\}\\) if
+\\(\\gamma=\_{NF}\\varphi\_\\alpha(\\beta)\\notin S\\)
 
 ### \\(\\rho\\)-Inaccessible Ordinals
 
 An ordinal is \\(\\rho\\)-inaccessible if it is a regular cardinal and
-limit of \\(α\\)-inaccessible ordinals for all
-\\(α&lt;\\rho\\). So the 0-inaccessible ordinals are exactly the
-regular cardinals \\(&gt;ω\\), the 1-inaccessible ordinals are the
+limit of \\(\\alpha\\)-inaccessible ordinals for all
+\\(\\alpha&lt;\\rho\\). So the 0-inaccessible ordinals are exactly the
+regular cardinals \\(&gt;\\omega\\), the 1-inaccessible ordinals are the
 inaccessible ordinals. Functions \\(I\_\\rho:M\_0 \\rightarrow M\_0\\)
 enumerate the \\(\\rho\\)-inaccessible ordinals less than \\(M\_0\\) and
 their limits.
 
-\\(I\_α=\\text{Enum}(\\{β\\in
-R\|\\forall\\gamma&lt;α(I\_\\gamma(β)=β)\\}) \\)
+\\(I\_\\alpha=\\text{Enum}(\\{\\beta\\in
+R\|\\forall\\gamma&lt;\\alpha(I\_\\gamma(\\beta)=\\beta)\\}) \\)
 
 Normal form
 
-\\(α=\_{NF}I\_β(\\gamma):\\Leftrightarrowα=I\_β(\\gamma)\\wedge\\gamma\\notin
+\\(\\alpha=\_{NF}I\_\\beta(\\gamma):\\Leftrightarrow\\alpha=I\_\\beta(\\gamma)\\wedge\\gamma\\notin
 L\\)
 
 Definition of \\(\\gamma^{-}\\) for \\(\\gamma\\in R\\).
 
-\\(\\gamma^{-}=0\\) if \\(\\gamma=\_{NF}I\_α(0)\\)
+\\(\\gamma^{-}=0\\) if \\(\\gamma=\_{NF}I\_\\alpha(0)\\)
 
-\\(\\gamma^{-}=I\_α(β)\\) if
-\\(\\gamma=\_{NF}I\_α(β+1)\\)
+\\(\\gamma^{-}=I\_\\alpha(\\beta)\\) if
+\\(\\gamma=\_{NF}I\_\\alpha(\\beta+1)\\)
 
 **Properties**
 
 | Veblen function                                                                                            | \\(\\rho\\)-Inaccessible Ordinals                                                      |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| \\(\\varphi\_α(β)\\in P\\)                                                                      | \\(I\_α(0), I\_α(β+1)\\in R\\)                                        |
-| \\(\\gamma&lt;α\\Rightarrow\\varphi\_\\gamma(\\varphi\_α(β))=\\varphi\_α(β)\\) | \\(\\gamma&lt;α\\Rightarrow I\_\\gamma(I\_α(β))=I\_α(β)\\) |
-| \\(β&lt;\\gamma\\Rightarrow\\varphi\_α(β)&lt;\\varphi\_α(\\gamma)\\)                 | \\(β&lt;\\gamma\\Rightarrow I\_α(β)&lt;I\_α(\\gamma)\\)          |
-| \\(α&lt;β\\Rightarrow\\varphi\_α(0)&lt;\\varphi\_β(0)\\)                             | \\(α&lt;β\\Rightarrow I\_α(0)&lt;I\_β(0)\\)                      |
+| \\(\\varphi\_\\alpha(\\beta)\\in P\\)                                                                      | \\(I\_\\alpha(0), I\_\\alpha(\\beta+1)\\in R\\)                                        |
+| \\(\\gamma&lt;\\alpha\\Rightarrow\\varphi\_\\gamma(\\varphi\_\\alpha(\\beta))=\\varphi\_\\alpha(\\beta)\\) | \\(\\gamma&lt;\\alpha\\Rightarrow I\_\\gamma(I\_\\alpha(\\beta))=I\_\\alpha(\\beta)\\) |
+| \\(\\beta&lt;\\gamma\\Rightarrow\\varphi\_\\alpha(\\beta)&lt;\\varphi\_\\alpha(\\gamma)\\)                 | \\(\\beta&lt;\\gamma\\Rightarrow I\_\\alpha(\\beta)&lt;I\_\\alpha(\\gamma)\\)          |
+| \\(\\alpha&lt;\\beta\\Rightarrow\\varphi\_\\alpha(0)&lt;\\varphi\_\\beta(0)\\)                             | \\(\\alpha&lt;\\beta\\Rightarrow I\_\\alpha(0)&lt;I\_\\beta(0)\\)                      |
 
-### The Ordinal Functions \\(\\psi\_κ\\)
+### The Ordinal Functions \\(\\psi\_\\kappa\\)
 
-Every \\(\\psi\_κ\\) is a function from \\(M\_0\\) to
-\\(κ\\) which "collapses" the elements of \\(M\_0\\) below
-\\(κ\\). By the Greek letters \\(κ\\) and \\(\\pi\\) we
+Every \\(\\psi\_\\kappa\\) is a function from \\(M\_0\\) to
+\\(\\kappa\\) which "collapses" the elements of \\(M\_0\\) below
+\\(\\kappa\\). By the Greek letters \\(\\kappa\\) and \\(\\pi\\) we
 shall denote uncountable regular cardinals less than \\(M\_0\\).
 
-**Inductive Definition** of \\(C\_κ(α)\\) and
-\\(\\psi\_κ(α)\\).
+**Inductive Definition** of \\(C\_\\kappa(\\alpha)\\) and
+\\(\\psi\_\\kappa(\\alpha)\\).
 
-\\(\\{κ^{-}\\}\\cupκ^{-}\\subset C\_κ^n(α)\\)
+\\(\\{\\kappa^{-}\\}\\cup\\kappa^{-}\\subset C\_\\kappa^n(\\alpha)\\)
 
-\\(S(\\gamma)\\subset C\_κ^n(α)\\Rightarrow\\gamma\\in
-C\_κ^{n+1}(α)\\)
+\\(S(\\gamma)\\subset C\_\\kappa^n(\\alpha)\\Rightarrow\\gamma\\in
+C\_\\kappa^{n+1}(\\alpha)\\)
 
-\\(β,\\gamma\\in C\_κ^n(α)\\Rightarrow
-I\_β(\\gamma)\\in C\_κ^{n+1}(α)\\)
+\\(\\beta,\\gamma\\in C\_\\kappa^n(\\alpha)\\Rightarrow
+I\_\\beta(\\gamma)\\in C\_\\kappa^{n+1}(\\alpha)\\)
 
-\\(\\gamma&lt;\\pi&lt;κ\\wedge\\pi\\in
-C\_κ^n(α)\\Rightarrow \\gamma\\in
-C\_κ^{n+1}(α)\\)
+\\(\\gamma&lt;\\pi&lt;\\kappa\\wedge\\pi\\in
+C\_\\kappa^n(\\alpha)\\Rightarrow \\gamma\\in
+C\_\\kappa^{n+1}(\\alpha)\\)
 
-\\(\\gamma&lt;α\\wedge\\gamma,\\pi\\in
-C\_κ^n(α)\\wedge\\gamma\\in C\_\\pi(\\gamma)\\Rightarrow
-\\psi\_\\pi(\\gamma)\\in C\_κ^{n+1}(α)\\)
+\\(\\gamma&lt;\\alpha\\wedge\\gamma,\\pi\\in
+C\_\\kappa^n(\\alpha)\\wedge\\gamma\\in C\_\\pi(\\gamma)\\Rightarrow
+\\psi\_\\pi(\\gamma)\\in C\_\\kappa^{n+1}(\\alpha)\\)
 
-\\(C\_κ(α)=\\cup\\{C\_κ^n(α)\|n&lt;ω\\}\\)
+\\(C\_\\kappa(\\alpha)=\\cup\\{C\_\\kappa^n(\\alpha)\|n&lt;\\omega\\}\\)
 
-\\(\\psi\_κ(α)=\\text{min}\\{\\xi\|\\xi\\notin
-C\_κ(α)\\}\\)
+\\(\\psi\_\\kappa(\\alpha)=\\text{min}\\{\\xi\|\\xi\\notin
+C\_\\kappa(\\alpha)\\}\\)
 
 Normal form
 
-\\(α=\_{NF}\\psi\_κ(β):\\Leftrightarrowα=\\psi\_κ(β)\\wedgeβ\\in
-C\_κ(β)\\)
+\\(\\alpha=\_{NF}\\psi\_\\kappa(\\beta):\\Leftrightarrow\\alpha=\\psi\_\\kappa(\\beta)\\wedge\\beta\\in
+C\_\\kappa(\\beta)\\)
 
 ## Fundamental sequences
 
-The fundamental sequence for an ordinal number \\(α\\) with
-cofinality \\(\\text{cof}(α)=β\\) is a strictly increasing
-sequence \\((α\[η\])\_{η&lt;β}\\) with length
-\\(β\\) and with limit \\(α\\), where \\(α\[η\]\\)
-is the \\(η\\)-th element of this sequence.
+The fundamental sequence for an ordinal number \\(\\alpha\\) with
+cofinality \\(\\text{cof}(\\alpha)=\\beta\\) is a strictly increasing
+sequence \\((\\alpha\[\\eta\])\_{\\eta&lt;\\beta}\\) with length
+\\(\\beta\\) and with limit \\(\\alpha\\), where \\(\\alpha\[\\eta\]\\)
+is the \\(\\eta\\)-th element of this sequence.
 
 **Inductive Definition** of \\(T\\).
 
 -   \\(0 \\in T\\)
--   \\(α=\_{NF}α \_{1}+\\cdots +α \_{n}\\wedge α
-    \_{1},... ,α \_{n}\\in T\\Rightarrowα\\in T\\)
--   \\(α=\_{NF}\\varphi\_β(\\gamma)\\wedgeβ,\\gamma\\in
-    T\\Rightarrowα\\in T\\)
--   \\(α=\_{NF}I\_β(\\gamma)\\wedgeβ,\\gamma\\in
-    T\\Rightarrowα\\in T\\)
--   \\(α=\_{NF}\\psi\_κ(β)\\wedgeκ, β\\in
-    T\\Rightarrowα\\in T\\)
+-   \\(\\alpha=\_{NF}\\alpha \_{1}+\\cdots +\\alpha \_{n}\\wedge \\alpha
+    \_{1},... ,\\alpha \_{n}\\in T\\Rightarrow\\alpha\\in T\\)
+-   \\(\\alpha=\_{NF}\\varphi\_\\beta(\\gamma)\\wedge\\beta,\\gamma\\in
+    T\\Rightarrow\\alpha\\in T\\)
+-   \\(\\alpha=\_{NF}I\_\\beta(\\gamma)\\wedge\\beta,\\gamma\\in
+    T\\Rightarrow\\alpha\\in T\\)
+-   \\(\\alpha=\_{NF}\\psi\_\\kappa(\\beta)\\wedge\\kappa, \\beta\\in
+    T\\Rightarrow\\alpha\\in T\\)
 
-Below we write \\(I(α,β)\\) for \\(I\_α(β)\\) and
-\\(\\varphi(α,β)\\) for \\(\\varphi\_α(β)\\)
+Below we write \\(I(\\alpha,\\beta)\\) for \\(I\_\\alpha(\\beta)\\) and
+\\(\\varphi(\\alpha,\\beta)\\) for \\(\\varphi\_\\alpha(\\beta)\\)
 
-For non-zero ordinals \\(α\\in T\\) we define the fundamental
+For non-zero ordinals \\(\\alpha\\in T\\) we define the fundamental
 sequences as follows:
 
--   If \\(α=\\varphi(0,β+1)\\) then
-    \\(\\text{cof}(α)=ω\\) and
-    \\(α\[η\]=\\varphi(0,β)\\timesη\\)
--   If \\(α=\\varphi(β+1,0)\\) then
-    \\(\\text{cof}(α)=ω\\) and \\(α\[0\]=0\\) and
-    \\(α\[η+1\]=\\varphi(β,α\[η\])\\)
--   If \\(α=\\varphi(β+1,\\gamma+1)\\) then
-    \\(\\text{cof}(α)=ω\\) and
-    \\(α\[0\]=\\varphi(β+1,\\gamma)+1\\) and
-    \\(α\[η+1\]=\\varphi(β,α\[η\])\\)
--   If \\(α=\\varphi(β,0)\\) and \\(β\\in L\\) then
-    \\(\\text{cof}(α)=\\text{cof}(β)\\) and
-    \\(α\[η\]=\\varphi(β\[η\],0)\\)
--   If \\(α=\\varphi(β,\\gamma+1)\\) and \\(β\\in L\\)
-    then \\(\\text{cof}(α)=\\text{cof}(β)\\) and
-    \\(α\[η\]=\\varphi(β\[η\],\\varphi(β,\\gamma)+1)\\)
--   If \\(α=\\varphi(β,\\gamma)\\) and \\(\\gamma\\in L\\)
-    then \\(\\text{cof}(α)=\\text{cof}(\\gamma)\\) and
-    \\(α\[η\]=\\varphi(β,\\gamma\[η\])\\)
+-   If \\(\\alpha=\\varphi(0,\\beta+1)\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and
+    \\(\\alpha\[\\eta\]=\\varphi(0,\\beta)\\times\\eta\\)
+-   If \\(\\alpha=\\varphi(\\beta+1,0)\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and \\(\\alpha\[0\]=0\\) and
+    \\(\\alpha\[\\eta+1\]=\\varphi(\\beta,\\alpha\[\\eta\])\\)
+-   If \\(\\alpha=\\varphi(\\beta+1,\\gamma+1)\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and
+    \\(\\alpha\[0\]=\\varphi(\\beta+1,\\gamma)+1\\) and
+    \\(\\alpha\[\\eta+1\]=\\varphi(\\beta,\\alpha\[\\eta\])\\)
+-   If \\(\\alpha=\\varphi(\\beta,0)\\) and \\(\\beta\\in L\\) then
+    \\(\\text{cof}(\\alpha)=\\text{cof}(\\beta)\\) and
+    \\(\\alpha\[\\eta\]=\\varphi(\\beta\[\\eta\],0)\\)
+-   If \\(\\alpha=\\varphi(\\beta,\\gamma+1)\\) and \\(\\beta\\in L\\)
+    then \\(\\text{cof}(\\alpha)=\\text{cof}(\\beta)\\) and
+    \\(\\alpha\[\\eta\]=\\varphi(\\beta\[\\eta\],\\varphi(\\beta,\\gamma)+1)\\)
+-   If \\(\\alpha=\\varphi(\\beta,\\gamma)\\) and \\(\\gamma\\in L\\)
+    then \\(\\text{cof}(\\alpha)=\\text{cof}(\\gamma)\\) and
+    \\(\\alpha\[\\eta\]=\\varphi(\\beta,\\gamma\[\\eta\])\\)
 
   
 
--   If \\(α=\\psi\_{I(0,0)}(0)\\) then
-    \\(\\text{cof}(α)=ω\\) and \\(α\[0\]=0\\) and
-    \\(α\[η+1\]=\\varphi(α\[η\],0)\\)
--   If \\(α=\\psi\_{I(0,β+1)}(0)\\) then
-    \\(\\text{cof}(α)=ω\\) and
-    \\(α\[0\]=I(0,β)+1\\) and
-    \\(α\[η+1\]=\\varphi(α\[η\],0)\\)
--   If \\(α=\\psi\_{I(0,β)}(\\gamma+1)\\) then
-    \\(\\text{cof}(α)=ω\\) and
-    \\(α\[0\]=\\psi\_{I(0,β)}(\\gamma)+1\\) and
-    \\(α\[η+1\]=\\varphi(α\[η\],0)\\)
+-   If \\(\\alpha=\\psi\_{I(0,0)}(0)\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and \\(\\alpha\[0\]=0\\) and
+    \\(\\alpha\[\\eta+1\]=\\varphi(\\alpha\[\\eta\],0)\\)
+-   If \\(\\alpha=\\psi\_{I(0,\\beta+1)}(0)\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and
+    \\(\\alpha\[0\]=I(0,\\beta)+1\\) and
+    \\(\\alpha\[\\eta+1\]=\\varphi(\\alpha\[\\eta\],0)\\)
+-   If \\(\\alpha=\\psi\_{I(0,\\beta)}(\\gamma+1)\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and
+    \\(\\alpha\[0\]=\\psi\_{I(0,\\beta)}(\\gamma)+1\\) and
+    \\(\\alpha\[\\eta+1\]=\\varphi(\\alpha\[\\eta\],0)\\)
 
   
 
--   If \\(α=\\psi\_{I(β+1,0)}(0)\\) then
-    \\(\\text{cof}(α)=ω\\) and \\(α\[0\]=0\\) and
-    \\(α\[η+1\]=I(β,α\[η\])\\)
--   If \\(α=\\psi\_{I(β+1,\\gamma+1)}(0)\\) then
-    \\(\\text{cof}(α)=ω\\) and
-    \\(α\[0\]=I(β+1,\\gamma)+1\\) and
-    \\(α\[η+1\]=I(β,α\[η\])\\)
--   If \\(α=\\psi\_{I(β+1,\\gamma)}(\\delta+1)\\) then
-    \\(\\text{cof}(α)=ω\\) and
-    \\(α\[0\]=\\psi\_{I(β+1,\\gamma)}(\\delta)+1\\) and
-    \\(α\[η+1\]=I(β,α\[η\])\\)
+-   If \\(\\alpha=\\psi\_{I(\\beta+1,0)}(0)\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and \\(\\alpha\[0\]=0\\) and
+    \\(\\alpha\[\\eta+1\]=I(\\beta,\\alpha\[\\eta\])\\)
+-   If \\(\\alpha=\\psi\_{I(\\beta+1,\\gamma+1)}(0)\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and
+    \\(\\alpha\[0\]=I(\\beta+1,\\gamma)+1\\) and
+    \\(\\alpha\[\\eta+1\]=I(\\beta,\\alpha\[\\eta\])\\)
+-   If \\(\\alpha=\\psi\_{I(\\beta+1,\\gamma)}(\\delta+1)\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and
+    \\(\\alpha\[0\]=\\psi\_{I(\\beta+1,\\gamma)}(\\delta)+1\\) and
+    \\(\\alpha\[\\eta+1\]=I(\\beta,\\alpha\[\\eta\])\\)
 
   
 
--   If \\(α=\\psi\_{I(β,0)}(0)\\) and \\(β\\in L\\) then
-    \\(\\text{cof}(α)=\\text{cof}(β)\\) and
-    \\(α\[η\]=I(β\[η\],0)\\)
--   If \\(α=\\psi\_{I(β,\\gamma+1)}(0)\\) and \\(β\\in
-    L\\) then \\(\\text{cof}(α)=\\text{cof}(β)\\) and
-    \\(α\[η\]=I(β\[η\],I(β,\\gamma)+1)\\)
--   If \\(α=\\psi\_{I(β,\\gamma)}(\\delta+1)\\) and
-    \\(β\\in L\\) then
-    \\(\\text{cof}(α)=\\text{cof}(β)\\) and
-    \\(α\[η\]=I(β\[η\],\\psi\_{I(β,\\gamma)}(\\delta)+1)\\)
+-   If \\(\\alpha=\\psi\_{I(\\beta,0)}(0)\\) and \\(\\beta\\in L\\) then
+    \\(\\text{cof}(\\alpha)=\\text{cof}(\\beta)\\) and
+    \\(\\alpha\[\\eta\]=I(\\beta\[\\eta\],0)\\)
+-   If \\(\\alpha=\\psi\_{I(\\beta,\\gamma+1)}(0)\\) and \\(\\beta\\in
+    L\\) then \\(\\text{cof}(\\alpha)=\\text{cof}(\\beta)\\) and
+    \\(\\alpha\[\\eta\]=I(\\beta\[\\eta\],I(\\beta,\\gamma)+1)\\)
+-   If \\(\\alpha=\\psi\_{I(\\beta,\\gamma)}(\\delta+1)\\) and
+    \\(\\beta\\in L\\) then
+    \\(\\text{cof}(\\alpha)=\\text{cof}(\\beta)\\) and
+    \\(\\alpha\[\\eta\]=I(\\beta\[\\eta\],\\psi\_{I(\\beta,\\gamma)}(\\delta)+1)\\)
 
   
 
--   If \\(α=α\_1+α\_2+\\cdots+α\_n\\) with
+-   If \\(\\alpha=\\alpha\_1+\\alpha\_2+\\cdots+\\alpha\_n\\) with
     \\(n\\geq 2\\) then
-    \\(\\text{cof}(α)=\\text{cof}(α\_n)\\) and
-    \\(α\[η\]=α\_1+α\_2+\\cdots+(α\_n\[η\])\\)
--   If \\(α=\\varphi(0,0)\\) then
-    \\(\\text{cof}(α)=α=1\\) and \\(α\[0\]=0\\)
--   If \\(α=I(β,0)\\) or \\(α=I(β,\\gamma+1)\\)
-    then \\(\\text{cof}(α)=α\\) and
-    \\(α\[η\]=η\\)
--   If \\(α=I(β,\\gamma)\\) and \\(\\gamma\\in L\\) then
-    \\(\\text{cof}(α)=\\text{cof}(\\gamma)\\) and
-    \\(α\[η\]=I(β,\\gamma\[η\])\\)
--   If \\(α=\\psi\_\\pi(β)\\) and
-    \\(ω\\le\\text{cof}(β)&lt;\\pi\\) then
-    \\(\\text{cof}(α)=\\text{cof}(β)\\) and
-    \\(α\[η\]=\\psi\_\\pi(β\[η\])\\)
--   If \\(α=\\psi\_\\pi(β)\\) and
-    \\(\\text{cof}(β)=\\rho\\geq\\pi\\) then
-    \\(\\text{cof}(α)=ω\\) and
-    \\(α\[η\]=\\psi\_\\pi(β\[\\gamma\[η\]\])\\) with
+    \\(\\text{cof}(\\alpha)=\\text{cof}(\\alpha\_n)\\) and
+    \\(\\alpha\[\\eta\]=\\alpha\_1+\\alpha\_2+\\cdots+(\\alpha\_n\[\\eta\])\\)
+-   If \\(\\alpha=\\varphi(0,0)\\) then
+    \\(\\text{cof}(\\alpha)=\\alpha=1\\) and \\(\\alpha\[0\]=0\\)
+-   If \\(\\alpha=I(\\beta,0)\\) or \\(\\alpha=I(\\beta,\\gamma+1)\\)
+    then \\(\\text{cof}(\\alpha)=\\alpha\\) and
+    \\(\\alpha\[\\eta\]=\\eta\\)
+-   If \\(\\alpha=I(\\beta,\\gamma)\\) and \\(\\gamma\\in L\\) then
+    \\(\\text{cof}(\\alpha)=\\text{cof}(\\gamma)\\) and
+    \\(\\alpha\[\\eta\]=I(\\beta,\\gamma\[\\eta\])\\)
+-   If \\(\\alpha=\\psi\_\\pi(\\beta)\\) and
+    \\(\\omega\\le\\text{cof}(\\beta)&lt;\\pi\\) then
+    \\(\\text{cof}(\\alpha)=\\text{cof}(\\beta)\\) and
+    \\(\\alpha\[\\eta\]=\\psi\_\\pi(\\beta\[\\eta\])\\)
+-   If \\(\\alpha=\\psi\_\\pi(\\beta)\\) and
+    \\(\\text{cof}(\\beta)=\\rho\\geq\\pi\\) then
+    \\(\\text{cof}(\\alpha)=\\omega\\) and
+    \\(\\alpha\[\\eta\]=\\psi\_\\pi(\\beta\[\\gamma\[\\eta\]\])\\) with
     \\(\\gamma\[0\]=1\\) and
-    \\(\\gamma\[η+1\]=\\psi\_{\\rho}(β\[\\gamma\[η\]\])\\)
+    \\(\\gamma\[\\eta+1\]=\\psi\_{\\rho}(\\beta\[\\gamma\[\\eta\]\])\\)
 
   
-Limit of this notation \\(λ\\). If \\(α=λ\\) then
-\\(\\text{cof}(α)=ω\\) and \\(α\[0\]=0\\) and
-\\(α\[η+1\]=I(α\[η\],0)\\)
+Limit of this notation \\(\\lambda\\). If \\(\\alpha=\\lambda\\) then
+\\(\\text{cof}(\\alpha)=\\omega\\) and \\(\\alpha\[0\]=0\\) and
+\\(\\alpha\[\\eta+1\]=I(\\alpha\[\\eta\],0)\\)
 
   
 

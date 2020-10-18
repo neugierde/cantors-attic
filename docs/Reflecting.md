@@ -13,7 +13,7 @@ of ZFC can be equivalently axiomatized over the very weak
 [Kripke-Platek](Kripke-Platek "Kripke-Platek")
 set theory by the addition of the reflection theorem scheme, below,
 since instances of the replacement axiom will follow from an instance of
-$\\Delta\_0$-separation after reflection down to a $V\_α$
+$\\Delta\_0$-separation after reflection down to a $V\_\\alpha$
 containing the range of the defined function. Several philosophers have
 advanced philosophical justifications of large cardinals based on ideas
 arising from reflection.
@@ -29,42 +29,42 @@ find sets resembling the class $V$ of all sets.
 
 **Theorem (Reflection):** For every set $M$ and formula
 $\\phi(x\_0...x\_n,p)$ ($p$ is a parameter) there exists some limit
-ordinal $α$ such that $V\_α\\supseteq M$ such that
-$\\phi^{V\_α}(x\_0...x\_n,p)\\leftrightarrow \\phi(x\_0...x\_n,p)$
-(We say $V\_α$ reflects $\\phi$). Assuming the Axiom of Choice, we
+ordinal $\\alpha$ such that $V\_\\alpha\\supseteq M$ such that
+$\\phi^{V\_\\alpha}(x\_0...x\_n,p)\\leftrightarrow \\phi(x\_0...x\_n,p)$
+(We say $V\_\\alpha$ reflects $\\phi$). Assuming the Axiom of Choice, we
 can find some countable $M\_0\\supseteq M$ that reflects
 $\\phi(x\_0...x\_n,p)$.
 
 Note that by conjunction, for any finite family of formulas
-$\\phi\_0...\\phi\_n$, as $V\_α$ reflects $\\phi\_0...\\phi\_n$ if
-and only if $V\_α$ reflects $\\phi\_0\\land...\\land\\phi\_n$.
+$\\phi\_0...\\phi\_n$, as $V\_\\alpha$ reflects $\\phi\_0...\\phi\_n$ if
+and only if $V\_\\alpha$ reflects $\\phi\_0\\land...\\land\\phi\_n$.
 Another important fact is that the truth predicate for $\\Sigma\_n$
 formulas is $\\Sigma\_{n+1}$, and so we can find a (Club class of)
-ordinals $α$ such that
-$(V\_α,\\in)\\prec\_{ {T\_{\\Sigma\_n}}\\restriction{V\_α}}
+ordinals $\\alpha$ such that
+$(V\_\\alpha,\\in)\\prec\_{ {T\_{\\Sigma\_n}}\\restriction{V\_\\alpha}}
 (V,\\in)$, where $T\_{\\Sigma\_n}$ is the truth predicate for
 $\\Sigma\_n$ and so $ZFC\\vdash Con(ZFC(\\Sigma\_n))$ for every $n$,
 where $ZFC(\\Sigma\_n)$ is $ZFC$ with Replacement and Separation
 restricted to $\\Sigma\_n$.
 
-**Lemma:** If $W\_α$ is a cumulative hierarchy, there are
-arbitrarily large limit ordinals $α$ such that
-$\\phi^{W\_α}(x\_0...x\_n,p)\\leftrightarrow
+**Lemma:** If $W\_\\alpha$ is a cumulative hierarchy, there are
+arbitrarily large limit ordinals $\\alpha$ such that
+$\\phi^{W\_\\alpha}(x\_0...x\_n,p)\\leftrightarrow
 \\phi^W(x\_0...x\_n,p)$.
 
 ## Reflection and correctness
 
-For any class $\\Gamma$ of formulas, an inaccessible cardinal $κ$
-is *$\\Gamma$-reflecting* if and only if $H\_κ\\prec\_\\Gamma V$,
-meaning that for any $\\varphi\\in\\Gamma$ and $a\\in H\_κ$ we
-have $V\\models\\varphi\[a\]\\iff H\_κ\\models\\varphi\[a\]$. For
+For any class $\\Gamma$ of formulas, an inaccessible cardinal $\\kappa$
+is *$\\Gamma$-reflecting* if and only if $H\_\\kappa\\prec\_\\Gamma V$,
+meaning that for any $\\varphi\\in\\Gamma$ and $a\\in H\_\\kappa$ we
+have $V\\models\\varphi\[a\]\\iff H\_\\kappa\\models\\varphi\[a\]$. For
 example, an inaccessible cardinal is *$\\Sigma\_n$-reflecting* if and
-only if $H\_κ\\prec\_{\\Sigma\_n} V$. In the case that $κ$
-is not necessarily inaccessible, we say that $κ$ is
-*$\\Gamma$-correct* if and only if $H\_κ\\prec\_\\Gamma V$*.*
+only if $H\_\\kappa\\prec\_{\\Sigma\_n} V$. In the case that $\\kappa$
+is not necessarily inaccessible, we say that $\\kappa$ is
+*$\\Gamma$-correct* if and only if $H\_\\kappa\\prec\_\\Gamma V$*.*
 
 -   A simple Löwenheim-Skolem argument shows that every infinite
-    cardinal $κ$ is $\\Sigma\_1$-correct.
+    cardinal $\\kappa$ is $\\Sigma\_1$-correct.
 -   For each natural number $n$, the $\\Sigma\_n$-correct cardinals form
     a closed unbounded proper class of cardinals, as a consequence of
     the
@@ -78,20 +78,20 @@ is not necessarily inaccessible, we say that $κ$ is
     [$\\aleph$-fixed
     point](Aleph "Aleph")
     and a limit of such. Consequently, we may equivalently define for
-    $n\\geq 2$ that $κ$ is $\\Sigma\_n$-correct if and only if
-    $V\_κ\\prec\_{\\Sigma\_n} V$.
+    $n\\geq 2$ that $\\kappa$ is $\\Sigma\_n$-correct if and only if
+    $V\_\\kappa\\prec\_{\\Sigma\_n} V$.
 
-A cardinal $κ$ is *correct*, written $V\_κ\\prec V$, if it
+A cardinal $\\kappa$ is *correct*, written $V\_\\kappa\\prec V$, if it
 is $\\Sigma\_n$-correct for each $n$. This is not expressible by a
 single assertion in the language of set theory (since if it were, the
-least such $κ$ would have to have a smaller one inside
-$V\_κ$ by elementarity). Nevertheless, $V\_κ\\prec V$ is
+least such $\\kappa$ would have to have a smaller one inside
+$V\_\\kappa$ by elementarity). Nevertheless, $V\_\\kappa\\prec V$ is
 expressible as a scheme in the language of set theory with a parameter
-(or constant symbol) for $κ$.
+(or constant symbol) for $\\kappa$.
 
 Although it may be surprising, the existence of a correct cardinal is
 equiconsistent with ZFC. This can be seen by a simple compactness
-argument, using the fact that the theory ZFC+"$κ$ is correct" is
+argument, using the fact that the theory ZFC+"$\\kappa$ is correct" is
 finitely consistent, if ZFC is consistent, precisely by the observation
 about $\\Sigma\_n$-correct cardinals above.
 
@@ -115,7 +115,7 @@ cardinal is $C^{(n)}$-measurable for all $n$ and every
 cardinal is ($λ$-)$C^{(n)}$-strong for all
 $n$. {% cite Bagaria2012 %}
 
-A cardinal $κ$ is *reflecting* if it is inaccessible and correct.
+A cardinal $\\kappa$ is *reflecting* if it is inaccessible and correct.
 Just as with the notion of correctness, this is not first-order
 expressible as a single assertion in the language of set theory, but it
 is expressible as a scheme (*Lévy scheme*). The existence of such a
@@ -124,33 +124,33 @@ Mahlo](ORD_is_Mahlo "ORD is Mahlo").
 
 If there is a pseudo
 [uplifting](Uplifting "Uplifting")
-cardinal, or indeed, merely a pseudo $0$-uplifting cardinal $κ$,
+cardinal, or indeed, merely a pseudo $0$-uplifting cardinal $\\kappa$,
 then there is a transitive set model of ZFC with a reflecting cardinal
 and consequently also a transitive model of ZFC plus
 <a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.
-You can get this by taking some $λ\\gtκ$ such that
-$V\_κ\\prec V\_λ$.
+You can get this by taking some $\\lambda\\gt\\kappa$ such that
+$V\_\\kappa\\prec V\_\\lambda$.
 
 ## $\\Sigma\_2$ correct cardinals
 
 The $\\Sigma\_2$-correct cardinals are a particularly useful and robust
-class of cardinals, because of the following characterization: $κ$
-is $\\Sigma\_2$-correct if and only if for any $x\\in V\_κ$ and
+class of cardinals, because of the following characterization: $\\kappa$
+is $\\Sigma\_2$-correct if and only if for any $x\\in V\_\\kappa$ and
 any formula $\\varphi$ of any complexity, whenever there is an ordinal
-$α$ such that $V\_α\\models\\varphi\[x\]$, then there is
-$α\\ltκ$ with $V\_α\\models\\varphi\[x\]$. The reason
+$\\alpha$ such that $V\_\\alpha\\models\\varphi\[x\]$, then there is
+$\\alpha\\lt\\kappa$ with $V\_\\alpha\\models\\varphi\[x\]$. The reason
 this is equivalent to $\\Sigma\_2$-correctness is that assertions of the
-form $\\exists α\\ V\_α\\models\\varphi(x)$ have complexity
+form $\\exists \\alpha\\ V\_\\alpha\\models\\varphi(x)$ have complexity
 $\\Sigma\_2(x)$, and conversely all $\\Sigma\_2(x)$ assertions can be
 made in that form.
 
-It follows, for example, that if $κ$ is $\\Sigma\_2$-correct, then
-any feature of $κ$ or any larger cardinal than $κ$ that can
-be verified in a large $V\_α$ will reflect below $κ$. So if
-$κ$ is $\\Sigma\_2$-reflecting, for example, then there must be
-unboundedly many inaccessible cardinals below $κ$. Similarly, if
-$κ$ is $\\Sigma\_2$-reflecting and measurable, then there must be
-unboundedly many measurable cardinals below $κ$.
+It follows, for example, that if $\\kappa$ is $\\Sigma\_2$-correct, then
+any feature of $\\kappa$ or any larger cardinal than $\\kappa$ that can
+be verified in a large $V\_\\alpha$ will reflect below $\\kappa$. So if
+$\\kappa$ is $\\Sigma\_2$-reflecting, for example, then there must be
+unboundedly many inaccessible cardinals below $\\kappa$. Similarly, if
+$\\kappa$ is $\\Sigma\_2$-reflecting and measurable, then there must be
+unboundedly many measurable cardinals below $\\kappa$.
 
 ## The Feferman theory
 
@@ -163,7 +163,7 @@ V\_\\gamma\\ \\bigl\[\\varphi(x)\\iff\\varphi^{V\_\\gamma}(x)\\bigr\]$$
 as $\\varphi$ ranges over all formulas. Thus, the Feferman theory
 asserts that the universe $V$ is the union of a chain of elementary
 substructures $$V\_{\\gamma\_0}\\prec V\_{\\gamma\_1}\\prec\\cdots\\prec
-V\_{\\gamma\_α}\\prec\\cdots \\prec V$$ Although this may appear
+V\_{\\gamma\_\\alpha}\\prec\\cdots \\prec V$$ Although this may appear
 at first to be a rather strong theory, since it seems to imply at the
 very least that each $V\_\\gamma$ for $\\gamma\\in C$ is a model of ZFC,
 this conclusion would be incorrect. In fact, the theory does *not* imply
@@ -199,7 +199,7 @@ that if $\\varphi(r)$ is forceable in such a way that it remains true in
 all subsequent forcing extensions, then it is already true; in short,
 $\\text{MP}(\\mathbb{R})$ asserts that every possibly necessary
 statement with real parameters is already true. Hamkins showed that if
-$κ$ is an inaccessible reflecting cardinal, then there is a
+$\\kappa$ is an inaccessible reflecting cardinal, then there is a
 forcing extension with $\\text{MP}(\\mathbb{R})$, and conversely,
 whenever $\\text{MP}(\\mathbb{R})$ holds, then there is an inner model
 with an inaccessible reflecting cardinal.

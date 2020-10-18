@@ -25,7 +25,7 @@ might extend to uncountable cardinals.
 
 For example, the union of countably many measure zero subsets of
 $\\mathbb{R}$ has measure $0$; the union of countably many meager sets
-is meager; every countable number of functions $f:ω\\toω$ is
+is meager; every countable number of functions $f:\\omega\\to\\omega$ is
 bounded by a single function under eventual domination; every countable
 set of reals has measure $0$. To what extent can we hope to extend such
 properties to uncountable collections? The various cardinal
@@ -44,11 +44,11 @@ the different characteristics are teased apart and seen to express
 fundamentally different inequivalent properties. The subject breaks into
 two major components: first, proving the positive relations amongs the
 characteristics, such as
-$ω\_1\\leq\\frak{b}\\leq\\frak{d}\\leq\\frak{c}$; and second,
+$\\omega\_1\\leq\\frak{b}\\leq\\frak{d}\\leq\\frak{c}$; and second,
 constructing models of set theory, generally by
 [forcing](Forcing "Forcing"),
 which reveal the range of possibility, such as a model in which
-$ω\_1\\lt\\frak{b}\\lt\\frak{d}\\lt\\frak{c}$. Thus, the
+$\\omega\_1\\lt\\frak{b}\\lt\\frak{d}\\lt\\frak{c}$. Thus, the
 philosophy of the subject naturally exhibits an unusual degree of
 contingency for set-theoretic truth: we understand the cardinal
 characteristic more deeply because we know the range of possibility for
@@ -61,13 +61,13 @@ An excellent general resource on the subject is
 ## The bounding number
 
 The *bounding number* $\\frak{b}$ is the size of the smallest family of
-functions $f:ω\\toω$ that is not bounded with respect to
+functions $f:\\omega\\to\\omega$ that is not bounded with respect to
 eventual domination.
 
 ## The dominating number
 
 The *dominating number* $\\frak{d}$ is the size of the smallest family
-of functions $f:ω\\toω$, such that every function is
+of functions $f:\\omega\\to\\omega$, such that every function is
 eventually dominated by a function in the family.
 
   

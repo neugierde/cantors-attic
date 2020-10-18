@@ -22,7 +22,7 @@ Bird's array notation is a parallel notation to
 -   **Rule 5**. Otherwise:
     \\(\\{a,b,c \\\#\\} = \\{a,\\{a,b-1,c \\\#\\},c-1 \\\#\\}\\)
 
-Limit: \\(\\{n,n\[2\]2\\}\\) has growth rate \\(ω^ω\\)
+Limit: \\(\\{n,n\[2\]2\\}\\) has growth rate \\(\\omega^\\omega\\)
 
 ## Example
 
@@ -68,7 +68,7 @@ Limit: \\(\\{n,n\[2\]2\\}\\) has growth rate \\(ω^ω\\)
     \\cdots \[c\] a \\langle c-1 \\rangle b}\_b \\textrm'\\).
 
 Limit: \\(\\{n,n\[1,2\]2\\}\\) has growth rate
-\\(ω^{ω^ω}\\)
+\\(\\omega^{\\omega^\\omega}\\)
 
 ## Example
 
@@ -123,7 +123,7 @@ Limit: \\(\\{n,n\[1,2\]2\\}\\) has growth rate
     \[c \\\#\] \\cdots \[c \\\#\] a \\langle c-1 \\\# \\rangle b}\_b
     \\textrm'\\).
 
-Limit: \\(\\{n,n\[1\[2\]2\]2\\}\\) has growth rate \\(^4 ω\\)
+Limit: \\(\\{n,n\[1\[2\]2\]2\\}\\) has growth rate \\(^4 \\omega\\)
 
 ## Example
 

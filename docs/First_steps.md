@@ -73,12 +73,12 @@ The **ordinals** are defined in a way that extends the natural numbers.
 Each ordinal is the set of all smaller ordinals. Of course, that begs
 the question: what is the set of all natural numbers? With this pattern,
 it should be an ordinal. It is in fact, and it is called
-$ω=\\{0,1,2,3...\\}$. The next ordinal is called $ω+1$, and
-then $ω+2$, and so on. Eventually, one gets to $ω\\cdot 2$,
+$\\omega=\\{0,1,2,3...\\}$. The next ordinal is called $\\omega+1$, and
+then $\\omega+2$, and so on. Eventually, one gets to $\\omega\\cdot 2$,
 which is simply the the set
-$\\{0,1,2,3...ω,ω+1,ω+2...\\}$. Note that
-$2\\cdotω$ is not $ω\\cdot 2$, and $1+ω$ is not
-$ω+1$. If you would like a more detailed explanation of ordinal
+$\\{0,1,2,3...\\omega,\\omega+1,\\omega+2...\\}$. Note that
+$2\\cdot\\omega$ is not $\\omega\\cdot 2$, and $1+\\omega$ is not
+$\\omega+1$. If you would like a more detailed explanation of ordinal
 arithmetic, it would be suggested that you should search a reliable
 source.
 
@@ -87,20 +87,20 @@ ordinal which has a bijection onto $X$. An ordinal is a **cardinal** if
 it is the cardinality of some set.
 
 Every finite ordinal is a cardinal. However, no set has cardinality
-$ω+1$. In fact, $ω+1$ has a bijection onto $ω$.
-$ω$ can match to $0$, and then $0$ can match to $1$, $1$ can match
-to $2$, and so on. Every element of $ω$ is, with this mapping,
-given exactly one unique element of $ω+1$. So,
-$\|ω+1\|=\|ω\|=ω$.
+$\\omega+1$. In fact, $\\omega+1$ has a bijection onto $\\omega$.
+$\\omega$ can match to $0$, and then $0$ can match to $1$, $1$ can match
+to $2$, and so on. Every element of $\\omega$ is, with this mapping,
+given exactly one unique element of $\\omega+1$. So,
+$\|\\omega+1\|=\|\\omega\|=\\omega$.
 
 The smallest cardinal is denoted $\\aleph\_0$. The next smallest
 cardinal is denoted $\\aleph\_1$. The next smallest cardinal is denoted
 $\\aleph\_2$. This pattern continues. The smallest cardinal larger than
-all $\\aleph\_n$ for finite $n$ is $\\aleph\_ω$, and etcetera.
-(The alternative notation $ω\_α$ is also used.)
+all $\\aleph\_n$ for finite $n$ is $\\aleph\_\\omega$, and etcetera.
+(The alternative notation $\\omega\_\\alpha$ is also used.)
 
-For ordinals, $α,β,\\gamma,$ and $\\delta$ are often used as
-variables. For cardinals, $κ,λ,$ and $\\mu$ are often used,
+For ordinals, $\\alpha,\\beta,\\gamma,$ and $\\delta$ are often used as
+variables. For cardinals, $\\kappa,\\lambda,$ and $\\mu$ are often used,
 though $\\mu$ is used less often.
 
 # The Intuition of Large Cardinal Axioms
@@ -109,41 +109,41 @@ Large cardinal axioms may have some intuition behind them. For example:
 
 -   The
     <a href="Correct" class="mw-redirect" title="Correct">correct</a>
-    cardinals $κ$ are those who have a specific set of cardinality
-    $κ$ which acts almost exactly like the collection of all sets.
+    cardinals $\\kappa$ are those who have a specific set of cardinality
+    $\\kappa$ which acts almost exactly like the collection of all sets.
 -   The
     [worldly](Worldly "Worldly")
-    cardinals $κ$ are those who have a specific set of cardinality
-    $κ$ which acts like its own little universe or "world".
+    cardinals $\\kappa$ are those who have a specific set of cardinality
+    $\\kappa$ which acts like its own little universe or "world".
 -   The
     [inaccessible](Inaccessible "Inaccessible")
-    cardinals $κ$ are those who cannot be reached from smaller
+    cardinals $\\kappa$ are those who cannot be reached from smaller
     cardinals by addition of cardinals or taking the cardinality of the
     powerset of ordinals.
 -   The
     [Mahlo](Mahlo "Mahlo")
-    cardinals $κ$ are those who are
+    cardinals $\\kappa$ are those who are
     [inaccessible](Inaccessible "Inaccessible")
     and have many, many, inaccessibles below them.
 -   The [weakly
     compact](Weakly_compact "Weakly compact")
-    cardinals $κ$ are those for which certain sets of information
-    of cardinality $κ$ can be "compacted" to smaller sets of
+    cardinals $\\kappa$ are those for which certain sets of information
+    of cardinality $\\kappa$ can be "compacted" to smaller sets of
     information and still retain the basic properties of the original
     set.
 -   The
     [indescribable](Indescribable "Indescribable")
-    cardinals $κ$ are those which are so large that one begins to
+    cardinals $\\kappa$ are those which are so large that one begins to
     run out of interesting properties for them because for most
-    properties of $κ$ there is a smaller ordinal $α$ which
+    properties of $\\kappa$ there is a smaller ordinal $\\alpha$ which
     has that property.
 -   The
     [measurable](Measurable "Measurable")
-    cardinals $κ$ are those who have many very large subsets.
+    cardinals $\\kappa$ are those who have many very large subsets.
 -   The [strongly
     compact](Strongly_compact "Strongly compact")
-    cardinals $κ$ are those for which certain sets of information
-    of cardinality *at least* $κ$ can be "compacted" to smaller
+    cardinals $\\kappa$ are those for which certain sets of information
+    of cardinality *at least* $\\kappa$ can be "compacted" to smaller
     sets of information and still retain the basic properties of the
     original set.
 -   Though it is not a cardinal property, [Vopěnka's

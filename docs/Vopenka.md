@@ -18,17 +18,17 @@ common definition is the following:
 > $j:M\\to N$.
 
 For example, taking $\\mathcal{L}$ to be the language with one unary and
-one binary predicate, we can consider for any ordinal $η$ the class
-of structures $\\langle V\_{α+η},\\{α\\},\\in\\rangle$,
+one binary predicate, we can consider for any ordinal $\\eta$ the class
+of structures $\\langle V\_{\\alpha+\\eta},\\{\\alpha\\},\\in\\rangle$,
 and conclude from Vopěnka's principle that a cardinal that is at least
-$η$-[extendible](Extendible "Extendible")
+$\\eta$-[extendible](Extendible "Extendible")
 exists. In fact if Vopěnka's principle holds then there is a stationary
 proper class of extendible cardinals; bounding the strength of the axiom
-from above, we have that if $κ$ is [almost
+from above, we have that if $\\kappa$ is [almost
 huge](Huge#Almost_huge "Huge"),
 or even
 [almost-high-jump](High-jump "High-jump"),
-then $V\_κ$ satisfies Vopěnka's principle.
+then $V\_\\kappa$ satisfies Vopěnka's principle.
 
 
 ## Formalizations
@@ -69,13 +69,13 @@ ZFC+VS.{% cite Hamkins2016 %}
 
 ## Vopěnka cardinals
 
-An inaccessible cardinal $κ$ is a *Vopěnka cardinal* if and only
-if $V\_κ$ satisfies Vopěnka's principle, that is, where we
-interpret the proper classes of $V\_κ$ as the subsets of
-$V\_κ$ of cardinality $κ$. Because of a characterization of
-Vopěnka's principle in terms of graphs, a cardinal $κ$ is Vopěnka
-if and only if $κ$ is inaccessible and any set $κ$-sized set
-$G$ of $&lt;κ$-sized nonisomorphic graphs has some $g\_0$ and
+An inaccessible cardinal $\\kappa$ is a *Vopěnka cardinal* if and only
+if $V\_\\kappa$ satisfies Vopěnka's principle, that is, where we
+interpret the proper classes of $V\_\\kappa$ as the subsets of
+$V\_\\kappa$ of cardinality $\\kappa$. Because of a characterization of
+Vopěnka's principle in terms of graphs, a cardinal $\\kappa$ is Vopěnka
+if and only if $\\kappa$ is inaccessible and any set $\\kappa$-sized set
+$G$ of $&lt;\\kappa$-sized nonisomorphic graphs has some $g\_0$ and
 $g\_1$ with $g\_0$ a proper subgraph of $g\_1$. (Need to cite sources)
 
 Perlmutter
@@ -128,17 +128,17 @@ is not guaranteed to exist.
 Here are some examples of strong compactness cardinals of specific
 logics:
 
--   If $κ\\leqλ$ and $λ$ is [strongly
+-   If $\\kappa\\leq\\lambda$ and $\\lambda$ is [strongly
     compact](Strongly_compact "Strongly compact")
     or $\\aleph\_0$, then the strong compactness cardinal of
-    [$\\mathcal{L}\_{κ,κ}$](Infinitary_logic "Infinitary logic")
-    is at most $λ$.
--   Similarly, if $κ\\leqλ$ and $λ$ is
+    [$\\mathcal{L}\_{\\kappa,\\kappa}$](Infinitary_logic "Infinitary logic")
+    is at most $\\lambda$.
+-   Similarly, if $\\kappa\\leq\\lambda$ and $\\lambda$ is
     [extendible](Extendible "Extendible"),
     then for any natural number $n$, the strong compactness cardinal of
-    $\\mathcal{L}^n\_{κ,κ}$
-    ($\\mathcal{L}\_{κ,κ}$ with $n+1$-th order logic) is at
-    most $λ$. Therefore for any natural number $n$, the strong
+    $\\mathcal{L}^n\_{\\kappa,\\kappa}$
+    ($\\mathcal{L}\_{\\kappa,\\kappa}$ with $n+1$-th order logic) is at
+    most $\\lambda$. Therefore for any natural number $n$, the strong
     compactness cardinal of $n+1$-th order finitary logic is at most the
     least extendible cardinal.
 
@@ -191,11 +191,11 @@ cardinals. As a result, every Vopěnka cardinal is Woodin.
 ### Elementary Embeddings Between Ranks
 
 An equivalent statement to Vopěnka's principle is that for any proper
-class $C\\subseteq ORD$, there are $α\\in C$, $β\\in C$, and
+class $C\\subseteq ORD$, there are $\\alpha\\in C$, $\\beta\\in C$, and
 a nontrivial [elementary
 embedding](Elementary_embedding "Elementary embedding")
-$j:\\langle V\_α;\\in,P\\rangle\\rightarrow\\langle
-V\_β;\\in,P\\rangle$. Vopěnka's principle quite obviously implies
+$j:\\langle V\_\\alpha;\\in,P\\rangle\\rightarrow\\langle
+V\_\\beta;\\in,P\\rangle$. Vopěnka's principle quite obviously implies
 this. The reason the converse holds is because every elementary
 embedding can be "encoded" (in a sense) into one of these. For more
 information, see {% cite Kanamori2009 %}.
@@ -206,7 +206,7 @@ Whilst Vopěnka cardinals are very strong in terms of consistency
 strength, a Vopěnka cardinal need not even be [weakly
 compact](Weakly_compact "Weakly compact").
 Indeed, the definition of a Vopěnka cardinal is a $\\Pi^1\_1$ statement
-over $V\_κ$ (Vopěnka's principle itself is $\\Pi^1\_1$), and
+over $V\_\\kappa$ (Vopěnka's principle itself is $\\Pi^1\_1$), and
 [$\\Pi^1\_1$-indescribability](Indescribable "Indescribable")
 is one of the equivalent definitions of weak compactness. Thus, the
 least weakly compact Vopěnka cardinal must have (many) other Vopěnka

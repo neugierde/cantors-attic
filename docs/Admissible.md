@@ -21,18 +21,18 @@ satisfies the
 axioms of set theory.
 
 The smallest admissible ordinal is
-[$ω\_1^{ck}$](Church-Kleene "Church-Kleene"), {% cite Madore2017 %}
+[$\\omega\_1^{ck}$](Church-Kleene "Church-Kleene"), {% cite Madore2017 %}
 the least non-computable ordinal. More generally, for any real $x$, the
-least ordinal not computable from $x$ is denoted $ω\_1^x$, and is
+least ordinal not computable from $x$ is denoted $\\omega\_1^x$, and is
 also admissible. Indeed, one has
-$L\_{ω\_1^x}\[x\]\\models\\text{KP}$.
+$L\_{\\omega\_1^x}\[x\]\\models\\text{KP}$.
 
-The smallest limit of admissible ordinals, $ω\_ω^{ck}$, is
+The smallest limit of admissible ordinals, $\\omega\_\\omega^{ck}$, is
 not admissible. {% cite Madore2017 %}
 
 ## Computably inaccessible ordinal
 
-An ordinal $α$ is *computably inaccessible*, also known as
+An ordinal $\\alpha$ is *computably inaccessible*, also known as
 *recursively inaccessible*, if it is admissible and a limit of
 admissible ordinals. {% cite Madore2017 %}
 

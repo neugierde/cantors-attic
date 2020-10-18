@@ -1,5 +1,5 @@
 ---
-title: $\exists j:L(V_{λ+1})\to L(V_{λ+1})$
+title: $\exists j:L(V_{\lambda+1})\to L(V_{\lambda+1})$
 permalink: L_of_V_lambda+1
 ---
 
@@ -7,19 +7,19 @@ permalink: L_of_V_lambda+1
 axioms](Rank_into_rank "Rank into rank")*
 
 The axiom **I0**, the large cardinal axiom of the title, asserts that
-some nontrivial elementary embedding $j:V\_{λ+1}\\to
-V\_{λ+1}$ extends to a nontrivial elementary embedding
-$j:L(V\_{λ+1})\\to L(V\_{λ+1})$, where
-$L(V\_{λ+1})$ is the transitive proper class obtained by starting
-with $V\_{λ+1}$ and forming the constructible hierarchy over
-$V\_{λ+1}$ in the usual fashion (see [constructible
+some nontrivial elementary embedding $j:V\_{\\lambda+1}\\to
+V\_{\\lambda+1}$ extends to a nontrivial elementary embedding
+$j:L(V\_{\\lambda+1})\\to L(V\_{\\lambda+1})$, where
+$L(V\_{\\lambda+1})$ is the transitive proper class obtained by starting
+with $V\_{\\lambda+1}$ and forming the constructible hierarchy over
+$V\_{\\lambda+1}$ in the usual fashion (see [constructible
 universe](Constructible_universe "Constructible universe")).
 An alternate, but equivalent formulation asserts the existence of some
-nontrivial elementary embedding $j:L(V\_{λ+1})\\to
-L(V\_{λ+1})$ with $\\mathrm{crit}(j) &lt; λ$. The critical
+nontrivial elementary embedding $j:L(V\_{\\lambda+1})\\to
+L(V\_{\\lambda+1})$ with $\\mathrm{crit}(j) &lt; \\lambda$. The critical
 point assumption is essential for the large cardinal strength as
 otherwise the axiom would follow from the existence of some measurable
-cardinal above $λ$. The axiom is of [rank into
+cardinal above $\\lambda$. The axiom is of [rank into
 rank](Rank_into_rank "Rank into rank")
 type, despite its formulation as an embedding between proper classes,
 and embeddings witnessing the axiom known as $\\text{I0}$ embeddings.
@@ -38,10 +38,10 @@ known to be inconsistent with $\\text{ZFC}$ and so is seen as "straining
 the limits of consistency" {% cite Kanamori2009 %}.
 An immediate observation due to the [Kunen
 inconsistency](Kunen_inconsistency "Kunen inconsistency")
-is that, under the $\\text{I0}$ axiom, $L(V\_{λ+1})$ *cannot*
+is that, under the $\\text{I0}$ axiom, $L(V\_{\\lambda+1})$ *cannot*
 satisfy the axiom of choice.
 
-## The $L(V\_{λ+1})$ Hierarchy
+## The $L(V\_{\\lambda+1})$ Hierarchy
 
 ## Relation to the I1 Axiom
 
@@ -49,30 +49,30 @@ satisfy the axiom of choice.
 
 Despite the class language formulation of $I\_0$, there is a first-order
 formulation in terms of normal ultrafilters: define, for
-$j:L(V\_{λ + 1})\\prec L(V\_{λ+1})$, an ultrafilter $U\_j$
+$j:L(V\_{\\lambda + 1})\\prec L(V\_{\\lambda+1})$, an ultrafilter $U\_j$
 as the collection of sets $X\\in
-L(V\_{λ+1})\\cap\\{k:L(V\_{λ+1})\\prec
-L(V\_{λ+1})\\}$ where $$X\\in U\_j \\Leftrightarrow
-j\\restriction V\_λ \\in jX.$$ Note that $U\_j$ is a normal
-non-principal $L(V\_{λ+1})$ ultrafilter over $V\_{λ+1}$,
-hence the ultrafilter $Ult(L(V\_{λ+1}),
-j)=\\big(L(V\_{λ+1}^{\\mathcal{E}(V\_{λ+1})})\\cap
-L(V\_{λ+1})\\big)/U\_j$ is well-defined and well-founded. It is
+L(V\_{\\lambda+1})\\cap\\{k:L(V\_{\\lambda+1})\\prec
+L(V\_{\\lambda+1})\\}$ where $$X\\in U\_j \\Leftrightarrow
+j\\restriction V\_\\lambda \\in jX.$$ Note that $U\_j$ is a normal
+non-principal $L(V\_{\\lambda+1})$ ultrafilter over $V\_{\\lambda+1}$,
+hence the ultrafilter $Ult(L(V\_{\\lambda+1}),
+j)=\\big(L(V\_{\\lambda+1}^{\\mathcal{E}(V\_{\\lambda+1})})\\cap
+L(V\_{\\lambda+1})\\big)/U\_j$ is well-defined and well-founded. It is
 important to note that $U\_j$ contains only elementary embeddings from
-$L(V\_{λ+1})$ to itself which are contructible from
-$V\_{λ+1}$ and parameters from this set. As \\(I0\\) is therefore
+$L(V\_{\\lambda+1})$ to itself which are contructible from
+$V\_{\\lambda+1}$ and parameters from this set. As \\(I0\\) is therefore
 equivalent to the existence of a normal non-principle
-$L(V\_{λ+1})$ ultrafilter over $V\_{λ+1}$, the assertion
-$κ$ is $I0$ is $\\Sigma\_2$ and every critical point of $k:
-V\_{λ+2}\\prec V\_{λ+2}$ is $I0$. Unfortunately, this
-requires $DC\_{λ}$ to get ultrapower.
+$L(V\_{\\lambda+1})$ ultrafilter over $V\_{\\lambda+1}$, the assertion
+$\\kappa$ is $I0$ is $\\Sigma\_2$ and every critical point of $k:
+V\_{\\lambda+2}\\prec V\_{\\lambda+2}$ is $I0$. Unfortunately, this
+requires $DC\_{\\lambda}$ to get ultrapower.
 
 An equivalent second-order formulation is: there is some
-$j:V\_λ\\prec V\_λ$ and a proper class of ordinals $C$
-such that $α\_0&lt;α\_1&lt;\\dots&lt; α\_n$ all
-elements of $C$ and $A\\in V\_{λ+1}$ with
-$$L\_{α\_n}(V\_{λ+1}, \\in, α\_0, α\_1, \\dots,
-α\_{n-1})\\models \\Phi(A)\\leftrightarrow \\Phi(jA).$$
+$j:V\_\\lambda\\prec V\_\\lambda$ and a proper class of ordinals $C$
+such that $\\alpha\_0&lt;\\alpha\_1&lt;\\dots&lt; \\alpha\_n$ all
+elements of $C$ and $A\\in V\_{\\lambda+1}$ with
+$$L\_{\\alpha\_n}(V\_{\\lambda+1}, \\in, \\alpha\_0, \\alpha\_1, \\dots,
+\\alpha\_{n-1})\\models \\Phi(A)\\leftrightarrow \\Phi(jA).$$
 
 ## Similarities with $L(\\mathbb{R})$ under Determinacy
 
@@ -90,17 +90,17 @@ which it was created. But there are deeper connections between
 $AD^{L(\\mathbb R)}$ and $I0$.
 
 First off, under $V=L(\\mathbb R)$, if $AD$ holds then so does
-$DC\\leftrightarrow DC\_ω$. Similarly, under $I0$ $DC\_λ$
-holds in $L(\\mathbb R)$. Furthermore, if $AD$ holds then $ω\_1$
+$DC\\leftrightarrow DC\_\\omega$. Similarly, under $I0$ $DC\_\\lambda$
+holds in $L(\\mathbb R)$. Furthermore, if $AD$ holds then $\\omega\_1$
 is measurable in $L(\\mathbb R)$. Similarly, if $X\\subseteq
-V\_{λ+1}$ and there is some $j: L(X,V\_{λ+1})\\prec
-L(X,V\_{λ+1})$, then $λ^+$ is measurable. The connections
+V\_{\\lambda+1}$ and there is some $j: L(X,V\_{\\lambda+1})\\prec
+L(X,V\_{\\lambda+1})$, then $\\lambda^+$ is measurable. The connections
 between $I0$ and determinancy are still not fully
 understand.{% cite Dimonte2017 %}
 
 \[WIP\]
 
-## Strengthenings of $\\text{I0}$ and Woodin's $E\_α(V\_{λ+1})$ Sequence
+## Strengthenings of $\\text{I0}$ and Woodin's $E\_\\alpha(V\_{\\lambda+1})$ Sequence
 
 We call a set $X ⊆ V\_{λ+1}$ an **Icarus set** if there is an elementary
 embedding $j : L(X, V\_{λ+1}) ≺ L(X, V\_{λ+1})$ with $\\mathrm{crit}(j)

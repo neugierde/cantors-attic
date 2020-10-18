@@ -109,13 +109,13 @@ $M\[G\]$.
 
 Using transfinite recursion, define the following cumulative hierarchy:
 
--   $V^\\mathbb{P}\_0=\\empty$, $V^\\mathbb{P}\_λ =
-    \\bigcup\_{α&lt;λ}V^\\mathbb{P}\_α$ for limit
-    $λ$
--   $V^\\mathbb{P}\_{α+1} =
-    \\mathcal{P}(V^\\mathbb{P}\_α\\times\\mathbb{P})$
+-   $V^\\mathbb{P}\_0=\\empty$, $V^\\mathbb{P}\_\\lambda =
+    \\bigcup\_{\\alpha&lt;\\lambda}V^\\mathbb{P}\_\\alpha$ for limit
+    $\\lambda$
+-   $V^\\mathbb{P}\_{\\alpha+1} =
+    \\mathcal{P}(V^\\mathbb{P}\_\\alpha\\times\\mathbb{P})$
 -   $V^\\mathbb{P} =
-    \\bigcup\_{α\\in\\mathrm{Ord}}V^\\mathbb{P}\_α$
+    \\bigcup\_{\\alpha\\in\\mathrm{Ord}}V^\\mathbb{P}\_\\alpha$
 
 Elements of $V^\\mathbb{P}$ are called *$\\mathbb{P}$-names*. Every
 nonempty $\\mathbb{P}$-name is of a set of pairs $(n,p)$ where $n$ is
@@ -224,36 +224,36 @@ by large cardinal axioms.
 
 ## Chain conditions, distributivity, closure and property (K)
 
-A forcing notion $(\\mathbb{P},\\leq)$ satisfies the *$κ$-chain
-condition* ($κ$-c.c.) if every antichain of elements of
-$\\mathbb{P}$ has cardinality less than $κ$. The $ω\_1$-c.c.
+A forcing notion $(\\mathbb{P},\\leq)$ satisfies the *$\\kappa$-chain
+condition* ($\\kappa$-c.c.) if every antichain of elements of
+$\\mathbb{P}$ has cardinality less than $\\kappa$. The $\\omega\_1$-c.c.
 is called the *countable chain condition* (c.c.c.). An important feature
 of chain conditions is that if $(\\mathbb{P},\\leq)$ satisfies the
-$κ$-c.c. then if $κ$ is regular in $M$ then it will be
-regular in $M\[G\]$. Since the $κ$-c.c. implies the
-$λ$-c.c. for all $λ\\geqκ$, it follows that the
-$κ$-c.c. implies all regular cardinals $\\geq\|\\mathbb{P}\|^+$
+$\\kappa$-c.c. then if $\\kappa$ is regular in $M$ then it will be
+regular in $M\[G\]$. Since the $\\kappa$-c.c. implies the
+$\\lambda$-c.c. for all $\\lambda\\geq\\kappa$, it follows that the
+$\\kappa$-c.c. implies all regular cardinals $\\geq\|\\mathbb{P}\|^+$
 will be preserved, and in particular the c.c.c. implies all cardinals
 and cofinalities of $M$ will be preserved in $M\[G\]$ for all
 $M$-generic $G\\subseteq\\mathbb{P}$.
 
-Let $κ$ be a regular uncountable cardinal. If
-$(\\mathbb{P},\\leq)$ is a $κ$-c.c. notion of forcing then every
-club $C\\in M\[G\]$ of $κ$ has a subset $D$ that is a club subset
-of $κ$ in the ground model; therefore every stationary subset of
-$κ$ remains stationary in $M\[G\]$.
+Let $\\kappa$ be a regular uncountable cardinal. If
+$(\\mathbb{P},\\leq)$ is a $\\kappa$-c.c. notion of forcing then every
+club $C\\in M\[G\]$ of $\\kappa$ has a subset $D$ that is a club subset
+of $\\kappa$ in the ground model; therefore every stationary subset of
+$\\kappa$ remains stationary in $M\[G\]$.
 
-$(\\mathbb{P},\\leq)$ is *$κ$-distributive* if the intersection of
-$κ$ open dense sets is still open dense. $κ$-distributive
-notions for infinite $κ$ does not add new subsets to $κ$. A
+$(\\mathbb{P},\\leq)$ is *$\\kappa$-distributive* if the intersection of
+$\\kappa$ open dense sets is still open dense. $\\kappa$-distributive
+notions for infinite $\\kappa$ does not add new subsets to $\\kappa$. A
 stronger property, closure, is defined the following way: $\\mathbb{P}$
-is *$κ$-closed* if every $λ\\leqκ$, every descending
-sequence $p\_0\\geq p\_1\\geq...\\geq p\_α\\geq...
-(α&lt;λ)$ has a lower bound. Every $κ$-closed notion
-is $κ$-distributive. If, for some regular uncountable cardinal
-$κ$ and all $λ&lt;κ$, $(\\mathbb{P},\\leq)$ is a
-$λ$-closed forcing notion, then every stationary subset of
-$κ$ remains stationary in every generic extension.
+is *$\\kappa$-closed* if every $\\lambda\\leq\\kappa$, every descending
+sequence $p\_0\\geq p\_1\\geq...\\geq p\_\\alpha\\geq...
+(\\alpha&lt;\\lambda)$ has a lower bound. Every $\\kappa$-closed notion
+is $\\kappa$-distributive. If, for some regular uncountable cardinal
+$\\kappa$ and all $\\lambda&lt;\\kappa$, $(\\mathbb{P},\\leq)$ is a
+$\\lambda$-closed forcing notion, then every stationary subset of
+$\\kappa$ remains stationary in every generic extension.
 
 $(\\mathbb{P},\\leq)$ has *property (K)* (K for Knaster) if every
 uncountable set of conditions has an uncountable subet of pairwise
@@ -261,32 +261,32 @@ compatible elements. Every notion with property (K) satisfy the c.c.c.
 
 ## Cohen forcing, adding subsets of regular cardinals, and independence of the continuum hypothesis
 
-Let $κ$ be a regular cardinal satisfying
-$2^{&lt;κ}=κ$. Let $λ&gt;κ$ be a cardinal such
-that $λ^κ=λ$. Let $\\text{Add}(κ,λ) =
+Let $\\kappa$ be a regular cardinal satisfying
+$2^{&lt;\\kappa}=\\kappa$. Let $\\lambda&gt;\\kappa$ be a cardinal such
+that $\\lambda^\\kappa=\\lambda$. Let $\\text{Add}(\\kappa,\\lambda) =
 (\\mathbb{P},\\leq)$ be the following partial order: $\\mathbb{P}$ is
 the set of all functions $p$ with
-$\\text{dom}(p)\\subseteqλ\\timesκ$,
-$\|\\text{dom}(p)\|&lt;κ$ and $\\text{ran}(p)\\subseteq\\{0,1\\}$,
+$\\text{dom}(p)\\subseteq\\lambda\\times\\kappa$,
+$\|\\text{dom}(p)\|&lt;\\kappa$ and $\\text{ran}(p)\\subseteq\\{0,1\\}$,
 and let $p\\leq q$ iff $p\\supseteq q$. Let $G$ be a $V$-generic on
 $\\mathbb{P}$ and let $f=\\bigcup G$. Then in $V\[G\]$, $f$ is a
-function from $λ\\timesκ$ to $\\{0,1\\}$. For every
-particular $α&lt;λ$, the function
-$c\_α(\\xi)=f(α,\\xi)$ is in $V\[G\]$ the characteristic
+function from $\\lambda\\times\\kappa$ to $\\{0,1\\}$. For every
+particular $\\alpha&lt;\\lambda$, the function
+$c\_\\alpha(\\xi)=f(\\alpha,\\xi)$ is in $V\[G\]$ the characteristic
 function of a subset
-$x\_α=\\{\\xi&lt;κ:c\_α(\\xi)=1\\}$ of $κ$. None
-of those new subsets were originally in $V$, and if $α\\neqβ$
-then $x\_α\\neq x\_β$. Then, because $\\mathbb{P}$ satisfies
-the $κ^+$-chain condition, it follows that all cardinals are
-preserved except that $2^κ=λ$.
+$x\_\\alpha=\\{\\xi&lt;\\kappa:c\_\\alpha(\\xi)=1\\}$ of $\\kappa$. None
+of those new subsets were originally in $V$, and if $\\alpha\\neq\\beta$
+then $x\_\\alpha\\neq x\_\\beta$. Then, because $\\mathbb{P}$ satisfies
+the $\\kappa^+$-chain condition, it follows that all cardinals are
+preserved except that $2^\\kappa=\\lambda$.
 
-In the special case $κ=\\aleph\_0$, there are new real numbers in
-$V\[G\]$ and $2^{\\aleph\_0}=λ$. Those new real numbers are
+In the special case $\\kappa=\\aleph\_0$, there are new real numbers in
+$V\[G\]$ and $2^{\\aleph\_0}=\\lambda$. Those new real numbers are
 called *Cohen reals*. This technique allows one to show that
 $\\text{ZFC}$ is consistent with the negation of the continuum
 hypothesis, i.e. that $2^{\\aleph\_0}&gt;\\aleph\_1$. In fact,
 $2^{\\aleph\_0}$ can be any cardinal with uncountable cofinality, even
-if singular, e.g. one can force $2^{\\aleph\_0}=\\aleph\_{ω\_1}$.
+if singular, e.g. one can force $2^{\\aleph\_0}=\\aleph\_{\\omega\_1}$.
 Note that $2^{\\aleph\_0}$ cannot be a cardinal of countable cofinality,
 so this is impossible to force.
 
@@ -298,45 +298,45 @@ axiom of choice unless indicated otherwise.
 -   **Easton's theorem:** Let $M$ be a transitive set model of
     $\\text{ZFC+GCH}$. Let $F$ be an increasing function in $M$ from the
     set of $M$'s regular cardinals to the set of $M$'s cardinals, such
-    that for all regular $κ$, $\\mathrm{cf}F(κ)&gt;κ$.
+    that for all regular $\\kappa$, $\\mathrm{cf}F(\\kappa)&gt;\\kappa$.
     Then there is a generic extension $M\[G\]$ of $M$ with the same
     cardinals and cofinalities such that
-    $M\[G\]\\models\\text{ZFC+}\\forallκ($if $κ$ is regular
-    then $2^κ=F(κ)$).
+    $M\[G\]\\models\\text{ZFC+}\\forall\\kappa($if $\\kappa$ is regular
+    then $2^\\kappa=F(\\kappa)$).
 
 
 -   **Violating the Singular Cardinal Hypothesis at
-    $\\aleph\_ω$:** Assume there is a
+    $\\aleph\_\\omega$:** Assume there is a
     [measurable](Measurable "Measurable")
     cardinal of
     <a href="Mitchell_order" class="mw-redirect" title="Mitchell order">Mitchell order</a>
-    $o(κ)=κ^{++}$. Then there is a generic extension in
-    which $κ=\\aleph\_ω$ and
-    $2^{\\aleph\_ω}=\\aleph\_{ω+2}$. The hypothesis used
+    $o(\\kappa)=\\kappa^{++}$. Then there is a generic extension in
+    which $\\kappa=\\aleph\_\\omega$ and
+    $2^{\\aleph\_\\omega}=\\aleph\_{\\omega+2}$. The hypothesis used
     here is optimal: in term of consistency strength, no less than a
-    measurable of order $κ^{++}$ can produce a model where
+    measurable of order $\\kappa^{++}$ can produce a model where
     $\\text{SCH}$ fails.
 
 
 -   **Violating the Singular Cardinal Hypothesis everywhere:** It is
     consistent relative to the existence of a
     $(\\delta+2)-$[strong](Strong "Strong")
-    cardinal $\\delta$ that $2^κ=κ^+$ for every successor
-    $κ$ but $2^κ=κ^{++}$ for every limit cardinal
-    $κ$.
+    cardinal $\\delta$ that $2^\\kappa=\\kappa^+$ for every successor
+    $\\kappa$ but $2^\\kappa=\\kappa^{++}$ for every limit cardinal
+    $\\kappa$.
 
 
 -   **Violating the Generalized Continuum Hypothesis everywhere:** It is
     consistent relative to the existence of a $(\\delta+2)-$strong
-    cardinal $\\delta$ that $2^κ=κ^{++}$ for every
-    $κ$, i.e. $\\text{GCH}$ fails everywhere.
+    cardinal $\\delta$ that $2^\\kappa=\\kappa^{++}$ for every
+    $\\kappa$, i.e. $\\text{GCH}$ fails everywhere.
 
 
--   **Large cardinal properties of $\\aleph\_1$:** Let $κ$ be
+-   **Large cardinal properties of $\\aleph\_1$:** Let $\\kappa$ be
     measurable/[supercompact](Supercompact "Supercompact")/[huge](/web/20191005075259/http://cantorsattic.info/Huge "Huge").
     Then there is a (sub)model (of a generic extension) satisfying
-    $\\text{ZF(+}\\neg\\text{AC)}$ in which $κ=\\aleph\_1$ and
-    $ω\_1$ is measurable/supercompact/huge (by the ultrafilter
+    $\\text{ZF(+}\\neg\\text{AC)}$ in which $\\kappa=\\aleph\_1$ and
+    $\\omega\_1$ is measurable/supercompact/huge (by the ultrafilter
     characterizations, not by the elementary embedding
     characterizations.)
 
@@ -346,7 +346,7 @@ axiom of choice unless indicated otherwise.
     compact](Strongly_compact "Strongly compact")
     cardinals there is model of $\\text{ZF}$ in which (the axiom of
     choice does not hold and) every uncountable cardinal is singular and
-    has cofinality $ω$. The existence of a such model also implies
+    has cofinality $\\omega$. The existence of a such model also implies
     that the [axiom of
     determinacy](Axiom_of_determinacy "Axiom of determinacy")
     holds in the $L(\\mathbb{R})$ of some forcing extension of
@@ -357,9 +357,9 @@ axiom of choice unless indicated otherwise.
     properties](Projective "Projective")
     of all sets of reals:** Assume there is an
     [inaccessible](Inaccessible "Inaccessible")
-    cardinal $κ$. Then there is a (sub)model (of a generic
+    cardinal $\\kappa$. Then there is a (sub)model (of a generic
     extension) that satisfies $\\text{ZF+DC+}\\neg\\text{AC}$ and in
-    which $κ=2^{\\aleph\_0}$ and every set of reals is Lebesgue
+    which $\\kappa=2^{\\aleph\_0}$ and every set of reals is Lebesgue
     measurable, has the Baire property and the perfect subset property.
     There is also a generic extension in which choice holds and every
     [projective](Projective "Projective")
@@ -368,7 +368,7 @@ axiom of choice unless indicated otherwise.
 
 -   **Real-valued measurability of the continuum:** Assume there is a
     measurable cardinal. Then there is a generic extension in which
-    $κ=2^{\\aleph\_0}$ and $2^{\\aleph\_0}$ is real-valued
+    $\\kappa=2^{\\aleph\_0}$ and $2^{\\aleph\_0}$ is real-valued
     measurable (and thus weakly inaccessible, weakly
     hyper-[Mahlo](Mahlo "Mahlo"),
     etc.)
@@ -376,25 +376,25 @@ axiom of choice unless indicated otherwise.
 
 -   **Precipitousness of the [nonstationary
     ideal](Filter "Filter")
-    on $ω\_1$:** Assume there is a measurable cardinal $κ$.
-    Then there is a generic extension in which $κ=\\aleph\_1$ and
-    the nonstationary ideal on $ω\_1$ is precipitous.
+    on $\\omega\_1$:** Assume there is a measurable cardinal $\\kappa$.
+    Then there is a generic extension in which $\\kappa=\\aleph\_1$ and
+    the nonstationary ideal on $\\omega\_1$ is precipitous.
 
 
--   **Saturation of the nonstationary ideal on $ω\_1$:** Assume
+-   **Saturation of the nonstationary ideal on $\\omega\_1$:** Assume
     there is a
     [Woodin](Woodin "Woodin")
-    cardinal $κ$. Then there is a generic extension in which
-    $κ=\\aleph\_2$ the nonstationary ideal on $ω\_1$ is
-    $ω\_2$-saturated.
+    cardinal $\\kappa$. Then there is a generic extension in which
+    $\\kappa=\\aleph\_2$ the nonstationary ideal on $\\omega\_1$ is
+    $\\omega\_2$-saturated.
 
 
--   **Saturation of an ideal on the continuum:** Let $κ$ be a
+-   **Saturation of an ideal on the continuum:** Let $\\kappa$ be a
     measurable cardinal. Then there is a generic extension in which
-    $κ=2^{\\aleph\_0}$, there is a $2^{\\aleph\_0}$-saturated
+    $\\kappa=2^{\\aleph\_0}$, there is a $2^{\\aleph\_0}$-saturated
     $2^{\\aleph\_0}$-complete ideal on $2^{\\aleph\_0}$ and there isn't
-    any $λ$-saturated $2^{\\aleph\_0}$-complete ideal on
-    $2^{\\aleph\_0}$ for every infinite $λ&lt;2^{\\aleph\_0}$.
+    any $\\lambda$-saturated $2^{\\aleph\_0}$-complete ideal on
+    $2^{\\aleph\_0}$ for every infinite $\\lambda&lt;2^{\\aleph\_0}$.
 
 Some other applications of forcing:
 
@@ -402,28 +402,28 @@ Some other applications of forcing:
     cardinal that there are no Kurepa trees.
 
 
--   Let $κ$ be a
+-   Let $\\kappa$ be a
     [superstrong](Superstrong "Superstrong")
     cardinal. Let $V\[G\]$ be the generic extension of $V$ by the Lévy
-    collapse $\\mathrm{Coll}(\\aleph\_0,&lt;κ)$. Then there is a
+    collapse $\\mathrm{Coll}(\\aleph\_0,&lt;\\kappa)$. Then there is a
     nontrivial [elementary
     embedding](Elementary_embedding "Elementary embedding")
     $j:L(\\mathbb{R})\\to(L(\\mathbb{R}))^{V\[G\]}$.
 
 
--   Let $κ$ be a superstrong cardinal. There exists a
-    $ω$-distributive $κ$-c.c. notion of forcing
+-   Let $\\kappa$ be a superstrong cardinal. There exists a
+    $\\omega$-distributive $\\kappa$-c.c. notion of forcing
     $(\\mathbb{P},\\leq)$ such that in $V^\\mathbb{P}$,
-    $κ=\\aleph\_2$ and there exists a normal
-    $ω\_2$-saturated $\\sigma$-complete ideal on $ω\_1$.
+    $\\kappa=\\aleph\_2$ and there exists a normal
+    $\\omega\_2$-saturated $\\sigma$-complete ideal on $\\omega\_1$.
 
 
--   Let $κ$ be a [weakly
+-   Let $\\kappa$ be a [weakly
     compact](Weakly_compact "Weakly compact")
     cardinal. Then there is a generic extension in which
-    $κ=\\aleph\_2$ and $ω\_2$ has the tree property. In
+    $\\kappa=\\aleph\_2$ and $\\omega\_2$ has the tree property. In
     fact, if there is infinitely many weakly compact cardinals then in a
-    generic extension $ω\_{2n}$ has the tree property for every
+    generic extension $\\omega\_{2n}$ has the tree property for every
     $n$.
     <a href="http://logika.ff.cuni.cz/radek/papers/Friedman_Honzik_treeprop_revised.pdf" class="external autonumber">[1]</a>
 
@@ -436,18 +436,18 @@ Some other applications of forcing:
     holds in any such model.
 
 
--   Let $κ$ be a measurable cardinal. Then there is a generic
-    extension in which $κ$ remains weakly compact, there is a
-    $κ^+$-saturated $κ$-complete ideal on $κ$ but
-    there isn't any $κ$-saturated $κ$-complete ideal on
-    $κ$. One can replace "$κ$ is weakly compact" by
-    "$κ$ is weakly inaccessible and $κ=2^{\\aleph\_0}$".
+-   Let $\\kappa$ be a measurable cardinal. Then there is a generic
+    extension in which $\\kappa$ remains weakly compact, there is a
+    $\\kappa^+$-saturated $\\kappa$-complete ideal on $\\kappa$ but
+    there isn't any $\\kappa$-saturated $\\kappa$-complete ideal on
+    $\\kappa$. One can replace "$\\kappa$ is weakly compact" by
+    "$\\kappa$ is weakly inaccessible and $\\kappa=2^{\\aleph\_0}$".
 
 
 -   It is consistent relative to a supercompact cardinal that there is
-    an inaccessible cardinal $κ$, a cardinal $λ&gt;κ$
-    and a stationary set $S\\subseteq\\mathcal{P}\_κ(λ)$
-    that cannot be partitioned into $κ^+$ disjoint stationary
+    an inaccessible cardinal $\\kappa$, a cardinal $\\lambda&gt;\\kappa$
+    and a stationary set $S\\subseteq\\mathcal{P}\_\\kappa(\\lambda)$
+    that cannot be partitioned into $\\kappa^+$ disjoint stationary
     subsets.
 
 ## Product forcing
@@ -461,13 +461,13 @@ $(\\mathbb{P},\\leq)$ is a forcing notion that satisfies the countable
 chain condition and if $\\mathcal{D}$ is a collection of fewer than
 $2^{\\aleph\_0}$ dense subsets of $\\mathbb{P}$, then there exists a
 $\\mathcal{D}$-generic filter on $\\mathbb{P}$. By replacing "fewer than
-$2^{\\aleph\_0}$" by "at most $κ$" on obtain the axiom
-$\\text{MA}\_κ$. Martin's axiom is then
+$2^{\\aleph\_0}$" by "at most $\\kappa$" on obtain the axiom
+$\\text{MA}\_\\kappa$. Martin's axiom is then
 $\\text{MA}\_{&lt;2^{\\aleph\_0}}$. Note that $\\text{MA}\_{\\aleph\_0}$
 is provably true in $\\text{ZFC}$.
 
-For all $κ$, $\\text{MA}\_κ$ implies
-$κ&lt;2^{\\aleph\_0}$. Martin's axiom follows from the continuum
+For all $\\kappa$, $\\text{MA}\_\\kappa$ implies
+$\\kappa&lt;2^{\\aleph\_0}$. Martin's axiom follows from the continuum
 hypothesis, but is also consistent with the continuum hypothesis.
 $\\text{MA}\_{\\aleph\_1}$ implies there are no
 <a href="index.php?title=Suslin_tree&amp;action=edit&amp;redlink=1" class="new" title="Suslin tree (page does not exist)">Suslin trees</a>,
@@ -476,8 +476,8 @@ tree](Tree_property "Tree property")
 is special, and that the c.c.c. is equivalent to property (K).
 
 Martin's axiom implies that $2^{\\aleph\_0}$ is regular, that it is not
-real-valued measurable, and also that $2^λ=2^{\\aleph\_0}$ for
-all $λ&lt;2^{\\aleph\_0}$. It implies that the intersection of
+real-valued measurable, and also that $2^\\lambda=2^{\\aleph\_0}$ for
+all $\\lambda&lt;2^{\\aleph\_0}$. It implies that the intersection of
 fewer than $2^{\\aleph\_0}$ dense open sets is dense, the union of fewer
 than $2^{\\aleph\_0}$ null sets is null, and the union of fewer than
 $2^{\\aleph\_0}$ meager sets is meager. Also, the Lebesgue measure is
@@ -486,7 +486,7 @@ $\\mathbf{\\Sigma}^1\_2$ set is Lebesgue measurable and has the Baire
 property.
 
 A forcing notion $(\\mathbb{P},\\leq)$ satisfies *Axiom A* if there is a
-sequence of partial orderings $\\{\\leq\_n:n&lt;ω\\}$ of
+sequence of partial orderings $\\{\\leq\_n:n&lt;\\omega\\}$ of
 $\\mathbb{P}$ such that $p\\leq\_0 q$ implies $p\\leq q$, for all n
 $p\\leq\_{n+1} q$ implies $p\\leq\_n q$, and the following conditions
 holds:
@@ -495,20 +495,20 @@ holds:
     p\_1\\geq\_1...\\geq\_{n-1}p\_n\\geq\_n...$ there is a $q$ such that
     $q\\leq\_n p\_n$ for all $n$.
 -   for every $p\\in\\mathbb{P}$, for every $n$ and every ordinal name
-    $α$ there exists $q\\leq\_n p$ and a countable set $B$ such
-    that $p\\Vdashα\\in B$.
+    $\\alpha$ there exists $q\\leq\_n p$ and a countable set $B$ such
+    that $p\\Vdash\\alpha\\in B$.
 
-Every c.c.c. or $ω$-closed notion satisfies Axiom A.
+Every c.c.c. or $\\omega$-closed notion satisfies Axiom A.
 
 ### Proper forcing
 
 We say that a forcing notion $(\\mathbb{P},\\leq)$ is *proper* if for
-every uncountable cardinal $λ$, every
+every uncountable cardinal $\\lambda$, every
 <a href="Stationary" class="mw-redirect" title="Stationary">stationary</a>
-subset of $\[λ\]^ω$ remains stationary in every generic
-extension. Every c.c.c. or $ω$-closed notion is proper, and so is
+subset of $\[\\lambda\]^\\omega$ remains stationary in every generic
+extension. Every c.c.c. or $\\omega$-closed notion is proper, and so is
 every notion satisfying Axiom A. Proper forcing does not collapse
-$ω\_1$: if $\\mathbb{P}$ is proper then every countable set of
+$\\omega\_1$: if $\\mathbb{P}$ is proper then every countable set of
 ordinals in $M\[G\]$ is a subset of a countable set in $M$.
 
 The **Proper Forcing Axiom** ($\\text{PFA}$) is obtained by replacing
@@ -543,7 +543,7 @@ required.
 
 $\\text{PFA}$ implies the failure of the
 <a href="index.php?title=Square_principle&amp;action=edit&amp;redlink=1" class="new" title="Square principle (page does not exist)">square principle</a>
-$\\Box\_κ$ for every uncountable cardinal $κ$, therefore it
+$\\Box\_\\kappa$ for every uncountable cardinal $\\kappa$, therefore it
 implies the [axiom of quasi-projective
 determinacy](Axiom_of_determinacy "Axiom of determinacy").
 It also implies the **Open Coloring Axiom:** let $X$ be a set of reals,
@@ -554,8 +554,8 @@ Then
 -   **($\\text{OCA}$).** For every $X\\subseteq\\mathbb{R}$, and for any
     partition $\[X\]^2=K\_0\\cup K\_1$ with $K\_0$ open, either there
     exists an uncountable $Y\\subseteq X$ such that $\[Y\]^2\\subseteq
-    K\_0$ or there exists sets $H\_n, n&lt;ω$ such that
-    $X=\\bigcup\_{n&lt;ω}H\_n$ and $\[H\_n\]^2\\subseteq K\_1$ for
+    K\_0$ or there exists sets $H\_n, n&lt;\\omega$ such that
+    $X=\\bigcup\_{n&lt;\\omega}H\_n$ and $\[H\_n\]^2\\subseteq K\_1$ for
     all $n$.
 
 This axiom has many useful implications in combinatorial set theory.
@@ -573,13 +573,13 @@ holds.{% cite Bagaria2017a %}
 
 **Martin's Maximum** is a strengthening of the proper forcing axiom
 defined the following way: suppose $(\\mathbb{P},\\leq)$ is a forcing
-notion that preserves stationary subsets of $ω\_1$, and that
+notion that preserves stationary subsets of $\\omega\_1$, and that
 $\\mathcal{D}$ is a collection of $\\aleph\_1$ dense subsets of
 $\\mathbb{P}$, then there is a $\\mathcal{D}$-generic filter on
 $\\mathbb{P}$. This implies the proper forcing axiom, and also that the
-nonstationary ideal on $ω\_1$ is $\\aleph\_2$-saturated. It also
-implies that for all $κ\\geq\\aleph\_2$, if $κ$ is regular
-then $κ^{\\aleph\_0}=κ$.
+nonstationary ideal on $\\omega\_1$ is $\\aleph\_2$-saturated. It also
+implies that for all $\\kappa\\geq\\aleph\_2$, if $\\kappa$ is regular
+then $\\kappa^{\\aleph\_0}=\\kappa$.
 
 ### $\\text{wPFA}$ and $\\text{PFA}\_κ$
 

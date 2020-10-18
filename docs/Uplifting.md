@@ -12,31 +12,31 @@ this text is adapted.
 
 An
 [inaccessible](Inaccessible "Inaccessible")
-cardinal $κ$ is **uplifting** if and only if for every ordinal
+cardinal $\\kappa$ is **uplifting** if and only if for every ordinal
 $\\theta$ it is **$\\theta$-uplifting**, meaning that there is an
-inaccessible $\\gamma&gt;\\theta$ such that $V\_κ\\prec
+inaccessible $\\gamma&gt;\\theta$ such that $V\_\\kappa\\prec
 V\_\\gamma$ is a proper elementary extension.
 
 An inaccessible cardinal is **pseudo uplifting** if and only if for
 every ordinal $\\theta$ it is **pseudo $\\theta$-uplifting**, meaning
 that there is a cardinal $\\gamma&gt;\\theta$ such that
-$V\_κ\\prec V\_\\gamma$ is a proper elementary extension, without
+$V\_\\kappa\\prec V\_\\gamma$ is a proper elementary extension, without
 insisting that $\\gamma$ is inaccessible.
 
 Being **strongly uplifting** (see further) is boldface variant of being
 uplifting.
 
-It is an elementary exercise to see that if $V\_κ\\prec
-V\_\\gamma$ is a proper elementary extension, then $κ$ and hence
+It is an elementary exercise to see that if $V\_\\kappa\\prec
+V\_\\gamma$ is a proper elementary extension, then $\\kappa$ and hence
 also $\\gamma$ are
 <a href="Beth_fixed_point" class="mw-redirect" title="Beth fixed point">$\beth$-fixed points</a>,
-and so $V\_κ=H\_κ$ and $V\_\\gamma=H\_\\gamma$. It follows
-that a cardinal $κ$ is uplifting if and only if it is regular and
+and so $V\_\\kappa=H\_\\kappa$ and $V\_\\gamma=H\_\\gamma$. It follows
+that a cardinal $\\kappa$ is uplifting if and only if it is regular and
 there are arbitrarily large regular cardinals $\\gamma$ such that
-$H\_κ\\prec H\_\\gamma$. It is also easy to see that every
-uplifting cardinal $κ$ is uplifting in $L$, with the same targets.
-Namely, if $V\_κ\\prec V\_\\gamma$, then we may simply restrict to
-the constructible sets to obtain $V\_κ^L=L^{V\_κ}\\prec
+$H\_\\kappa\\prec H\_\\gamma$. It is also easy to see that every
+uplifting cardinal $\\kappa$ is uplifting in $L$, with the same targets.
+Namely, if $V\_\\kappa\\prec V\_\\gamma$, then we may simply restrict to
+the constructible sets to obtain $V\_\\kappa^L=L^{V\_\\kappa}\\prec
 L^{V\_\\gamma}=V\_\\gamma^L$. An analogous result holds for
 pseudo-uplifting cardinals.
 
@@ -67,18 +67,18 @@ cardinal and consequently also a transitive model of ZFC plus
 
 Proof. For (1), suppose that $\\delta$ is a Mahlo cardinal. By the
 Lowenheim-Skolem theorem, there is a club set $C\\subset\\delta$ of
-cardinals $β$ with $V\_β\\prec V\_\\delta$. Since $\\delta$ is
+cardinals $\\beta$ with $V\_\\beta\\prec V\_\\delta$. Since $\\delta$ is
 Mahlo, the club $C$ contains unboundedly many inaccessible cardinals. If
-$κ&lt;\\gamma$ are both in $C$, then $V\_κ\\prec
-V\_\\gamma$, as desired. Similarly, for (2), if $κ$ is uplifting,
-then $κ$ is pseudo uplifting and if $V\_κ\\prec V\_\\gamma$
+$\\kappa&lt;\\gamma$ are both in $C$, then $V\_\\kappa\\prec
+V\_\\gamma$, as desired. Similarly, for (2), if $\\kappa$ is uplifting,
+then $\\kappa$ is pseudo uplifting and if $V\_\\kappa\\prec V\_\\gamma$
 with $\\gamma$ inaccessible, then there are unboundedly many ordinals
-$β&lt;\\gamma$ with $V\_β\\prec V\_\\gamma$ and hence
-$V\_κ\\prec V\_β$. So $κ$ is pseudo uplifting in
+$\\beta&lt;\\gamma$ with $V\_\\beta\\prec V\_\\gamma$ and hence
+$V\_\\kappa\\prec V\_\\beta$. So $\\kappa$ is pseudo uplifting in
 $V\_\\gamma$. From this, it follows that there must be unboundedly many
-pseudo uplifting cardinals below $κ$. For (3), if $κ$ is
-inaccessible and $V\_κ\\prec V\_\\gamma$, then $V\_\\gamma$ is a
-transitive set model of ZFC in which $κ$ is reflecting, and it is
+pseudo uplifting cardinals below $\\kappa$. For (3), if $\\kappa$ is
+inaccessible and $V\_\\kappa\\prec V\_\\gamma$, then $V\_\\gamma$ is a
+transitive set model of ZFC in which $\\kappa$ is reflecting, and it is
 thus also a model of
 <a href="Ord_is_Mahlo" class="mw-redirect" title="Ord is Mahlo">Ord is Mahlo</a>.
 QED
@@ -87,25 +87,25 @@ QED
 
 -   Every uplifting cardinal is a limit of $\\Sigma\_3$-reflecting
     cardinals, and is itself $\\Sigma\_3$-reflecting.
--   If $κ$ is the least uplifting cardinal, then $κ$ is not
+-   If $\\kappa$ is the least uplifting cardinal, then $\\kappa$ is not
     $\\Sigma\_4$-reflecting, and there are no $\\Sigma\_4$-reflecting
-    cardinals below $κ$.
+    cardinals below $\\kappa$.
 
 The analogous observation for pseudo uplifting cardinals holds as well,
 namely, every pseudo uplifting cardinal is $\\Sigma\_3$-reflecting and a
-limit of $\\Sigma\_3$-reflecting cardinals; and if $κ$ is the
-least pseudo uplifting cardinal, then $κ$ is not
+limit of $\\Sigma\_3$-reflecting cardinals; and if $\\kappa$ is the
+least pseudo uplifting cardinal, then $\\kappa$ is not
 $\\Sigma\_4$-reflecting, and there are no $\\Sigma\_4$-reflecting
-cardinals below $κ$.
+cardinals below $\\kappa$.
 
 ## Uplifting Laver functions
 
 Every uplifting cardinal admits an ordinal-anticipating Laver function,
 and indeed, a HOD-anticipating Laver function, a function
-$\\ell:κ\\to V\_κ$, definable in $V\_κ$, such that for
+$\\ell:\\kappa\\to V\_\\kappa$, definable in $V\_\\kappa$, such that for
 any set $x\\in\\text{HOD}$ and $\\theta$, there is an inaccessible
-cardinal $\\gamma$ above $\\theta$ such that $V\_κ\\prec
-V\_\\gamma$, for which $\\ell^\*(κ)=x$, where $\\ell^\*$ is the
+cardinal $\\gamma$ above $\\theta$ such that $V\_\\kappa\\prec
+V\_\\gamma$, for which $\\ell^\*(\\kappa)=x$, where $\\ell^\*$ is the
 corresponding function defined in $V\_\\gamma$.
 
 ## Connection with the resurrection axioms
@@ -119,10 +119,10 @@ c}^V$ is an uplifting cardinal in $L$:
     uplifting in $L$.
 -   Under $\\neg$CH, the weak resurrection axioms for the classes of
     axiom-A forcing, proper forcing, semi-proper forcing, and posets
-    that preserve stationary subsets of $ω\_1$, respectively, each
+    that preserve stationary subsets of $\\omega\_1$, respectively, each
     imply that ${\\frak c}^V$ is uplifting in $L$.
 
-Conversely, if $κ$ is uplifting, then various resurrection axioms
+Conversely, if $\\kappa$ is uplifting, then various resurrection axioms
 hold in a corresponding lottery-iteration forcing extension.
 
 **Theorem.** (Hamkins and Johnstone) The following theories are
@@ -133,12 +133,12 @@ equiconsistent over ZFC:
 -   RA(ccc)
 -   RA(semiproper)+$\\neg$CH
 -   RA(proper)+$\\neg$CH
--   for some countable ordinal $α$, RA($α$-proper)+$\\neg$CH
+-   for some countable ordinal $\\alpha$, RA($\\alpha$-proper)+$\\neg$CH
 -   RA(axiom-A)+$\\neg$CH
 -   wRA(semiproper)+$\\neg$CH
 -   wRA(proper)+$\\neg$CH
--   for some countable ordinal $α$,
-    wRA($α$-proper})+$\\neg$CH
+-   for some countable ordinal $\\alpha$,
+    wRA($\\alpha$-proper})+$\\neg$CH
 -   wRA(axiom-A)+$\\neg$CH
 -   wRA(countably closed)+$\\neg$CH
 
@@ -167,17 +167,17 @@ $(V\_κ;∈,A)≺(V\_λ;∈,A^\*)$ is a proper elementary extension. By
 replacing starred "inaccessible" with "weakly compact" and other
 properties, we get strongly uplifting with weakly compact etc. targets.
 
-A cardinal $κ$ is **$\\theta$-superstrongly unfoldable** iff for
-every $A\\subseteqκ$, there is some transitive $M$ with $A\\in
+A cardinal $\\kappa$ is **$\\theta$-superstrongly unfoldable** iff for
+every $A\\subseteq\\kappa$, there is some transitive $M$ with $A\\in
 M\\models\\text{ZFC}$ and some $j:M\\rightarrow N$ an elementary
-embedding with critical point $κ$ such that
-$j(κ)\\geq\\theta$ and $V\_{j(κ)}\\subseteq N$.
+embedding with critical point $\\kappa$ such that
+$j(\\kappa)\\geq\\theta$ and $V\_{j(\\kappa)}\\subseteq N$.
 
-A cardinal $κ$ is **$\\theta$-almost-hugely unfoldable** iff for
-every $A\\subseteqκ$, there is some transitive $M$ with $A\\in
+A cardinal $\\kappa$ is **$\\theta$-almost-hugely unfoldable** iff for
+every $A\\subseteq\\kappa$, there is some transitive $M$ with $A\\in
 M\\models\\text{ZFC}$ and some $j:M\\rightarrow N$ an elementary
-embedding with critical point $κ$ such that
-$j(κ)\\geq\\theta$ and $N^{&lt;j(κ)}\\subseteq N$.
+embedding with critical point $\\kappa$ such that
+$j(\\kappa)\\geq\\theta$ and $N^{&lt;j(\\kappa)}\\subseteq N$.
 
 $κ$ is then called **superstrongly unfoldable** (resp. **almost-hugely
 unfoldable**) iff it is $θ$-strongly unfoldable (resp. $θ$-almost-hugely
