@@ -9,7 +9,7 @@ The ordinal $\\epsilon\_0$, commonly given the British pronunciation
 $\\alpha=\\omega^\\alpha$ and can be equivalently characterized as the
 supremum
 
-$$\\epsilon\_0=\\sup\\{\\omega,\\omega^\\omega,\\omega^{\\omega^\\omega},\\ldots\\}$$
+$$\\epsilon\_0=\\sup\\{\\omega,\\omega^{\\omega},\\omega^{\\omega^{\\omega}},\\ldots\\}$$
 
 The [ordinals below
 $\\epsilon\_0$](Small_countable_ordinals "Small countable ordinals")
