@@ -9,11 +9,11 @@ Reflection is a fundamental motivating concern in set theory. The theory of ZFC 
 ## Reflection theorem
 The Reflection theorem is one of the most important theorems in Set Theory, being the basis for several large cardinals. The Reflection theorem is in fact a "meta-theorem," a theorem about proving theorems. The Reflection theorem intuitively encapsulates the idea that we can find sets resembling the class $V$ of all sets.
 
-    -   Theorem (Reflection):** For every set $M$ and formula $\\phi(x\_0...x\_n,p)$ ($p$ is a parameter) there exists some limit ordinal $\\alpha$ such that $V\_\\alpha\\supseteq M$ such that $\\phi^{V\_\\alpha}(x\_0...x\_n,p)\\leftrightarrow \\phi(x\_0...x\_n,p)$ (We say $V\_\\alpha$ reflects $\\phi$). Assuming the Axiom of Choice, we can find some countable $M\_0\\supseteq M$ that reflects $\\phi(x\_0...x\_n,p)$.
+**Theorem (Reflection):** For every set $M$ and formula $\\phi(x\_0...x\_n,p)$ ($p$ is a parameter) there exists some limit ordinal $\\alpha$ such that $V\_\\alpha\\supseteq M$ such that $\\phi^{V\_\\alpha}(x\_0...x\_n,p)\\leftrightarrow \\phi(x\_0...x\_n,p)$ (We say $V\_\\alpha$ reflects $\\phi$). Assuming the Axiom of Choice, we can find some countable $M\_0\\supseteq M$ that reflects $\\phi(x\_0...x\_n,p)$.
 
 Note that by conjunction, for any finite family of formulas $\\phi\_0...\\phi\_n$, as $V\_\\alpha$ reflects $\\phi\_0...\\phi\_n$ if and only if $V\_\\alpha$ reflects $\\phi\_0\\land...\\land\\phi\_n$. Another important fact is that the truth predicate for $\\Sigma\_n$ formulas is $\\Sigma\_{n+1}$, and so we can find a (Club class of) ordinals $\\alpha$ such that $(V\_\\alpha,\\in)\\prec\_{{T\_{\\Sigma\_n}}\\restriction{V\_\\alpha}} (V,\\in)$, where $T\_{\\Sigma\_n}$ is the truth predicate for $\\Sigma\_n$ and so $ZFC\\vdash Con(ZFC(\\Sigma\_n))$ for every $n$, where $ZFC(\\Sigma\_n)$ is $ZFC$ with Replacement and Separation restricted to $\\Sigma\_n$.
 
-    -   Lemma:** If $W\_\\alpha$ is a cumulative hierarchy, there are arbitrarily large limit ordinals $\\alpha$ such that $\\phi^{W\_\\alpha}(x\_0...x\_n,p)\\leftrightarrow \\phi^W(x\_0...x\_n,p)$.
+**Lemma:** If $W\_\\alpha$ is a cumulative hierarchy, there are arbitrarily large limit ordinals $\\alpha$ such that $\\phi^{W\_\\alpha}(x\_0...x\_n,p)\\leftrightarrow \\phi^W(x\_0...x\_n,p)$.
 
 ## Reflection and correctness
 

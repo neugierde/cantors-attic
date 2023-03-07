@@ -26,7 +26,7 @@ proof, are the instances of the replacement axiom in the full language with $j$.
 
 (Section from {% cite Corazza2003 %})
 
-    -   Axioms $\\mathrm{I}\_4^n$** for natural numbers $n$ (Starting from $0$) are an attempt to measure the gap between $\\mathrm{I}\_3$ and $\\mathrm{WA}$. Each of these axioms asserts the existence of a transitive model of $\\mathrm{ZFC} + \\mathrm{WA}$ with additional, stronger and stronger properties. Namely, $\\mathrm{I}\_4^n(\\kappa)$ holds if and only if there is a transitive model $(M,\\in,j)$ of $\\mathrm ZFC+WA$ with $V\_{j^n(\\kappa)+1}\\subseteq M$ and $\\kappa$ the critical point of $j$.
+**Axioms $\\mathrm{I}\_4^n$** for natural numbers $n$ (Starting from $0$) are an attempt to measure the gap between $\\mathrm{I}\_3$ and $\\mathrm{WA}$. Each of these axioms asserts the existence of a transitive model of $\\mathrm{ZFC} + \\mathrm{WA}$ with additional, stronger and stronger properties. Namely, $\\mathrm{I}\_4^n(\\kappa)$ holds if and only if there is a transitive model $(M,\\in,j)$ of $\\mathrm ZFC+WA$ with $V\_{j^n(\\kappa)+1}\\subseteq M$ and $\\kappa$ the critical point of $j$.
 
 It is not known whether the $\\mathrm{I}\_4^n$ axioms really increase in consistency strength and whether it is possible in $\\mathrm{ZFC}$ that $\\forall \_{n\\in\\omega} \\mathrm{I}\_4^n(\\kappa) \\land\\neg\\mathrm{I}\_3(\\kappa)$.
 

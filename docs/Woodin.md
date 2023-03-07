@@ -3,7 +3,7 @@ title: Woodin
 permalink: Woodin
 ---
 
-    -   Woodin cardinals** (named after W. Hugh Woodin) are a generalization of the notion of strong cardinals (they give a model with many strengthened strong cardinals although they are usually not strong themselves) and have been used to calibrate the exact proof-theoretic strength of the [axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy"). They can also be seen as weakenings of *Shelah cardinals*, defined below.  Their exact definition has several equivalent but different characterizations, each of which is somewhat technical in nature. Nevertheless, an inner model theory encapsulating infinitely many Woodin cardinals and slightly beyond has been developed.
+**Woodin cardinals** (named after W. Hugh Woodin) are a generalization of the notion of strong cardinals (they give a model with many strengthened strong cardinals although they are usually not strong themselves) and have been used to calibrate the exact proof-theoretic strength of the [axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy"). They can also be seen as weakenings of *Shelah cardinals*, defined below.  Their exact definition has several equivalent but different characterizations, each of which is somewhat technical in nature. Nevertheless, an inner model theory encapsulating infinitely many Woodin cardinals and slightly beyond has been developed.
 
 ## Definition and some properties
 

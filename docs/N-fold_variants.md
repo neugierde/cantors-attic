@@ -29,7 +29,7 @@ In {% cite Kentaro2007 %}, there were many $n$-fold variants which were simply d
 -   The **$\\omega$-fold superstrong** and **$\\omega$-fold Shelah** cardinals are precisely the [I2](Rank-into-rank "Rank-into-rank") cardinals
     -    $\\kappa$ such that there is a non-trivial elementary embedding $j: V\\prec M$ with $\\operatorname{crit} j = \\kappa$ and $V\_{j^\\omega(\\kappa)}\\subseteq M$.
 
-    -   Results:**
+**Results:**
 
 -   If $\\kappa$ is supercompact and $n$-huge, then there is a normal measure $U$ on $\\kappa$ such that $\\{\\alpha\\lt\\kappa|\\alpha\\text{ is }n\\text{-huge}\\}$, $\\{\\alpha\\lt\\kappa|V\_\\kappa\\vDash\\alpha\\text{ is }n\\text{-huge}\\}\\in U$.
     -   If $\\kappa$ is super $n$-huge, then $\\kappa$ is the $\\kappa$th $n$-huge cardinal.

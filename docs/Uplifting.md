@@ -18,7 +18,7 @@ It is an elementary exercise to see that if $V\_\\kappa\\prec V\_\\gamma$ is a p
 
 The consistency strength of uplifting and pseudo-uplifting cardinals are bounded between the existence of a [Mahlo](Mahlo "Mahlo") cardinal and the hypothesis [Ord is Mahlo](Ord_is_Mahlo "Ord is Mahlo"). 
 
-    -   Theorem.**
+**Theorem.**
 
 1. If $\\delta$ is a [Mahlo](Mahlo "Mahlo") cardinal, then $V\_\\delta$ has a proper class of uplifting cardinals.
 
@@ -49,7 +49,7 @@ Many instances of the (weak) resurrection axiom imply that ${\\frak c}^V$ is an 
 
 Conversely, if $\\kappa$ is uplifting, then various resurrection axioms hold in a corresponding lottery-iteration forcing extension.
 
-    -   Theorem.** (Hamkins and Johnstone) The following theories are equiconsistent over ZFC:
+**Theorem.** (Hamkins and Johnstone) The following theories are equiconsistent over ZFC:
 -    There is an uplifting cardinal.
 -    RA(all)
 -    RA(ccc)
