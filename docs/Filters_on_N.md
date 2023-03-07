@@ -26,7 +26,7 @@ A filter $\\mathcal{F}$ on $\\mathbb{N}$ is a set of subsets of $\\mathbb{N}$ sa
 -    If $A,B\\in \\mathcal{F}$ then $A\\cap B\\in\\mathcal{F}\\quad$ (Closed under intersection)
 -    If $A\\in \\mathcal{F}$ and $A\\subset B\\subset \\mathbb{N}$ then $B\\in \\mathcal{F}\\quad$ (Superset property)
 
-    -   Examples**
+**Examples**
 
 -    $\\{A\\subseteq \\mathbb{N}\\ |\\ i\\in A\\}$ for some natural number $i$.
 -    $\\{A\\subseteq\\mathbb{N}\\ |\\ \\mathbb{N}\\setminus A \\quad\\text{ is finite}\\}$

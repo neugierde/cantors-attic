@@ -24,7 +24,7 @@ In other words, if a cardinal is $\\Pi\_{m}^n$-indescribable, then every $n+1$-t
 
 ## Variants
 ### Language
-    -   $Q$-indescribable** cardinals are those which have the property that for every $Q$-sentence $\\phi$:
+**$Q$-indescribable** cardinals are those which have the property that for every $Q$-sentence $\\phi$:
 
 $$\\forall S\\subseteq V\_\\kappa(\\langle V\_\\kappa;\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha<\\kappa(\\langle V\_\\alpha;\\in,S\\cap V\_\\alpha\\rangle\\models\\phi))$$
 By extending languages of set theory, we can obtain many various sets $Q$, defining many different varieties of indescribability.
@@ -32,9 +32,9 @@ By extending languages of set theory, we can obtain many various sets $Q$, defin
 One example is Bagaria's extension of the Levy hierarchy using infinitary logic. This allows us to speak about $\\Pi^1\_\\xi$-formulae for ordinal $\\xi$, so using it we can speak about $\\Pi^1\_\\xi$-indescribability. [https://arxiv.org/pdf/1907.13540.pdf#page=12]
 
 ### Higher-order
-    -   Totally indescribable** cardinals are $\\Pi\_m^n$-indescribable for every natural $m$ and $n$ (equivalently $\\Sigma\_m^n$-indescribable for every natural m and n, equivalently $\\Delta\_m^n$-indescribable for every natural $m$ and $n$). This means that every (finitary) formula made from quantifiers, $\\in$ and a subset of $V\_{\\kappa}$ reflects from $V\_{\\kappa}$ onto a smaller rank.
+**Totally indescribable** cardinals are $\\Pi\_m^n$-indescribable for every natural $m$ and $n$ (equivalently $\\Sigma\_m^n$-indescribable for every natural m and n, equivalently $\\Delta\_m^n$-indescribable for every natural $m$ and $n$). This means that every (finitary) formula made from quantifiers, $\\in$ and a subset of $V\_{\\kappa}$ reflects from $V\_{\\kappa}$ onto a smaller rank.
 
-    -   $\\beta$-indescribable** cardinals are those which have the property that for every first order sentence $\\phi$:
+**$\\beta$-indescribable** cardinals are those which have the property that for every first order sentence $\\phi$:
 
 $$\\forall S\\subseteq V\_\\kappa(\\langle V\_{\\kappa+\\beta};\\in,S\\rangle\\models\\phi\\rightarrow\\exists\\alpha<\\kappa(\\langle V\_{\\alpha+\\beta};\\in,S\\cap V\_\\alpha\\rangle\\models\\phi))$$
 

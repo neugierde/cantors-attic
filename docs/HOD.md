@@ -54,7 +54,7 @@ More generally a set $x$ is called pointwise definable from $a \\subseteq x$ iff
 ### Paris models
 (from {% cite Enayat2005 %} unless noted otherwise)
 
-    -   Paris models** or **DO models** are models of a set theory (e.g. ZF) in which every ordinal is definable without parameters. (compare {% cite HamkinsLinetskyReitz2012 %}, p. 11) Jeffrey Paris started studying them in 1973.
+**Paris models** or **DO models** are models of a set theory (e.g. ZF) in which every ordinal is definable without parameters. (compare {% cite HamkinsLinetskyReitz2012 %}, p. 11) Jeffrey Paris started studying them in 1973.
 
 Results:
 -    Every consistent extension of ZF has a Paris model. (by Paris)

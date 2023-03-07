@@ -20,7 +20,7 @@ As a result, some large cardinal axioms and partition properties can be describe
 -   $\\kappa$ is [Rowbottom](Rowbottom "Rowbottom") if and only if $\\kappa>\\aleph\_1$ and for any uncountable $\\lambda<\\kappa$, $(\\kappa,\\lambda)\\twoheadrightarrow(\\kappa,\\aleph\_0)$. {% cite Jech2003 %}
 -   $\\kappa$ is [Jónsson](Jonsson "Jonsson") if and only if for any $\\lambda\\leq\\kappa$, there is some $\\nu\\leq\\kappa$ such that $(\\kappa,\\lambda)\\twoheadrightarrow(\\kappa,\\nu)$. {% cite Jech2003 %}
 
-    -   Chang's conjecture** is precisely $(\\aleph\_2,\\aleph\_1)\\twoheadrightarrow(\\aleph\_1,\\aleph\_0)$. Chang's conjecture is equivalent to the [partition property](Partition_property "Partition property") $\\omega\_2\\rightarrow[\\omega\_1]\_{\\aleph\_1,<\\aleph\_1}^{<\\omega}$. {% cite Kanamori2009 %}
+**Chang's conjecture** is precisely $(\\aleph\_2,\\aleph\_1)\\twoheadrightarrow(\\aleph\_1,\\aleph\_0)$. Chang's conjecture is equivalent to the [partition property](Partition_property "Partition property") $\\omega\_2\\rightarrow[\\omega\_1]\_{\\aleph\_1,<\\aleph\_1}^{<\\omega}$. {% cite Kanamori2009 %}
 
 ## Variants
 

@@ -5,7 +5,7 @@ permalink: Axioms_of_generic_absoluteness
 
 (from {% cite Bagaria2002 %}; compare [Projective#Generically\_absolute](Projective#Generically\_absolute "Projective#Generically\_absolute"))
 
-    -   Axioms of generic absoluteness** are axioms $\\mathcal{A}(W, \\Phi, \\Gamma)$ of the form “$W$ is $\\Phi$-elementarily equivalent to $W^{V^\\mathbb{P}}$ for all $\\mathbb{P} ∈ \\Gamma$”, where
+**Axioms of generic absoluteness** are axioms $\\mathcal{A}(W, \\Phi, \\Gamma)$ of the form “$W$ is $\\Phi$-elementarily equivalent to $W^{V^\\mathbb{P}}$ for all $\\mathbb{P} ∈ \\Gamma$”, where
 -    $W$ is a subclass of $V$.
 -    $\\Phi$ is a class of sentences.
 -    $\\Gamma$ is a class of [forcing](Forcing "Forcing") notions.

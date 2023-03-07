@@ -3,7 +3,7 @@ title: Forcing
 permalink: Forcing
 ---
 
-    -   Forcing** is a method for extending a transitive model $M$ of $\\text{ZFC}$ (the *ground [model](Model "Model")'') by adjoining a new set $G$ (the *generic set'') to produce a new, larger model $M[G]$ called a *generic extension*. In short, the set $G$ can be constructed a certain way using a partially ordered set (poset) $(\\mathbb{P},\\leq)\\in M$ (the *forcing notion'') so that the following holds:
+**Forcing** is a method for extending a transitive model $M$ of $\\text{ZFC}$ (the *ground [model](Model "Model")'') by adjoining a new set $G$ (the *generic set'') to produce a new, larger model $M[G]$ called a *generic extension*. In short, the set $G$ can be constructed a certain way using a partially ordered set (poset) $(\\mathbb{P},\\leq)\\in M$ (the *forcing notion'') so that the following holds:
 
 -    **(Generic Model Theorem).** There exists a unique transitive model $M[G]$ of $\\text{ZFC}$ that includes $M$ (as a subset) and contains $G$ (as an element), has the same ordinals as $M$, and any transitive model of $\\text{ZFC}$ also including $M$ and containing $G$ includes $M[G]$ (i.e. $M[G]$ is minimal).
 
@@ -185,7 +185,7 @@ Besides:
 
 ## Forcing axioms
 ### Martin's axiom
-    -   Martin's axiom** ($\\text{MA}$) is the following assertion: If $(\\mathbb{P},\\leq)$ is a forcing notion that satisfies the countable chain condition and if $\\mathcal{D}$ is a collection of fewer than $2^{\\aleph\_0}$ dense subsets of $\\mathbb{P}$, then there exists a $\\mathcal{D}$-generic filter on $\\mathbb{P}$. By replacing "fewer than $2^{\\aleph\_0}$" by "at most $\\kappa$" on obtain the axiom $\\text{MA}\_\\kappa$. Martin's axiom is then $\\text{MA}\_{<2^{\\aleph\_0}}$. Note that $\\text{MA}\_{\\aleph\_0}$ is provably true in $\\text{ZFC}$.
+**Martin's axiom** ($\\text{MA}$) is the following assertion: If $(\\mathbb{P},\\leq)$ is a forcing notion that satisfies the countable chain condition and if $\\mathcal{D}$ is a collection of fewer than $2^{\\aleph\_0}$ dense subsets of $\\mathbb{P}$, then there exists a $\\mathcal{D}$-generic filter on $\\mathbb{P}$. By replacing "fewer than $2^{\\aleph\_0}$" by "at most $\\kappa$" on obtain the axiom $\\text{MA}\_\\kappa$. Martin's axiom is then $\\text{MA}\_{<2^{\\aleph\_0}}$. Note that $\\text{MA}\_{\\aleph\_0}$ is provably true in $\\text{ZFC}$.
 
 For all $\\kappa$, $\\text{MA}\_\\kappa$ implies $\\kappa<2^{\\aleph\_0}$. Martin's axiom follows from the continuum hypothesis, but is also consistent with its negation. $\\text{MA}\_{\\aleph\_1}$ implies there are no [Suslin trees](Suslin_tree "Suslin tree"), that every [Aronszajn tree](Tree_property "Tree property") is special, and that the c.c.c. is equivalent to property (K).
 
@@ -205,7 +205,7 @@ Statement equivalent to $\\text{PFA}$: If $\\mathcal{M} = (M ; ∈, (R\_i | i < 
 
 ### Martin's maximum and the semiproper forcing axiom
 
-    -   Martin's Maximum** is a strengthening of the proper forcing axiom defined the following way: suppose $(\\mathbb{P},\\leq)$ is a forcing notion that preserves stationary subsets of $\\omega\_1$, and that $\\mathcal{D}$ is a collection of $\\aleph\_1$ dense subsets of $\\mathbb{P}$, then there is a $\\mathcal{D}$-generic filter on $\\mathbb{P}$. This implies the proper forcing axiom, and also that the nonstationary ideal on $\\omega\_1$ is $\\aleph\_2$-saturated. It also implies that for all $\\kappa\\geq\\aleph\_2$, if $\\kappa$ is regular then $\\kappa^{\\aleph\_0}=\\kappa$.
+**Martin's Maximum** is a strengthening of the proper forcing axiom defined the following way: suppose $(\\mathbb{P},\\leq)$ is a forcing notion that preserves stationary subsets of $\\omega\_1$, and that $\\mathcal{D}$ is a collection of $\\aleph\_1$ dense subsets of $\\mathbb{P}$, then there is a $\\mathcal{D}$-generic filter on $\\mathbb{P}$. This implies the proper forcing axiom, and also that the nonstationary ideal on $\\omega\_1$ is $\\aleph\_2$-saturated. It also implies that for all $\\kappa\\geq\\aleph\_2$, if $\\kappa$ is regular then $\\kappa^{\\aleph\_0}=\\kappa$.
 
 ### Bounded Forcing Axiom
 (Section from {% cite Bagaria2002 %})

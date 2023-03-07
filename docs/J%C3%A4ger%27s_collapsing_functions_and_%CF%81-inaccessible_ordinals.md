@@ -56,7 +56,7 @@ Definition of <math>\\gamma^{-}</math> for <math>\\gamma\\in R</math>.
 
 <math>\\gamma^{-}=I\_\\alpha(\\beta)</math> if <math>\\gamma=\_{NF}I\_\\alpha(\\beta+1)</math>
 
-    -   Properties**
+**Properties**
 
 {| class="wikitable"
 |-
@@ -80,7 +80,7 @@ Definition of <math>\\gamma^{-}</math> for <math>\\gamma\\in R</math>.
 
 Every <math>\\psi\_\\kappa</math> is a function from <math>M\_0</math> to <math>\\kappa</math> which "collapses" the elements of <math>M\_0</math> below <math>\\kappa</math>. By the Greek letters <math>\\kappa</math> and <math>\\pi</math> we shall denote uncountable regular cardinals less than <math>M\_0</math>.
 
-    -   Inductive Definition** of <math>C\_\\kappa(\\alpha)</math> and <math>\\psi\_\\kappa(\\alpha)</math>.
+**Inductive Definition** of <math>C\_\\kappa(\\alpha)</math> and <math>\\psi\_\\kappa(\\alpha)</math>.
 
 <math>\\{\\kappa^{-}\\}\\cup\\kappa^{-}\\subset C\_\\kappa^n(\\alpha)</math>
 
@@ -104,7 +104,7 @@ Normal form
  
 The fundamental sequence for an ordinal number <math>\\alpha</math> with cofinality <math>\\text{cof}(\\alpha)=\\beta</math> is a strictly increasing sequence <math>(\\alpha[\\eta])\_{\\eta<\\beta}</math> with length <math>\\beta</math> and with limit <math>\\alpha</math>, where <math>\\alpha[\\eta]</math> is the <math>\\eta</math>-th element of this sequence.
 
-    -   Inductive Definition** of <math>T</math>.
+**Inductive Definition** of <math>T</math>.
 -   <math>0 \\in T</math>
 -   <math>\\alpha=\_{NF}\\alpha \_{1}+\\cdots +\\alpha \_{n}\\wedge \\alpha \_{1},... ,\\alpha \_{n}\\in T\\Rightarrow\\alpha\\in T</math>
 -   <math>\\alpha=\_{NF}\\varphi\_\\beta(\\gamma)\\wedge\\beta,\\gamma\\in T\\Rightarrow\\alpha\\in T</math>

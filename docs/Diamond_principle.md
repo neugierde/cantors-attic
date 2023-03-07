@@ -3,7 +3,7 @@ title: Diamond_principle
 permalink: Diamond_principle
 ---
 
-    -   Diamond principle** $♢$ (TeX <tt>\\diamondsuit</tt>) is the statement *what?...*
+**Diamond principle** $♢$ (TeX <tt>\\diamondsuit</tt>) is the statement *what?...*
 
 Variants:
 : $♢\_κ$ or $♢(κ)$ is the statement “There exist sets $(S\_α|α < κ)$, $S\_α ⊆ α$ ($α < κ$) such that for any $X ∈ κ$ the set $\\{α|X ∩ α = S\_α\\}$ is [Mahlo](Mahlo_set "Mahlo set")” introduced in {% cite JensenKunen1969 %}.{% cite Ketonen1974 %}

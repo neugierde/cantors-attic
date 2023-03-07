@@ -20,7 +20,7 @@ The notion of transitive closure of a set is important and interesting in its ow
 The set $H\_\\lambda$ is usually only considered in the case that $\\lambda$ is a regular cardinal.  In this case $H\_\\lambda = \\{x: |\\operatorname{trcl}(x)|<\\lambda\\}$, and assuming the axiom of choice $X\\in H\_\\lambda\\leftrightarrow X\\subseteq H\_\\lambda\\land |X|<\\lambda$, and $H\_\\lambda = \\{x: |\\operatorname{trcl}(x)|<\\lambda\\}$ is often used as an alternative definition for regular $\\lambda$.
 Moreover if $\\lambda$ is a regular cardinal then the inclusion $H\_\\lambda\\subseteq V\_\\lambda$ holds, and if $\\lambda$ is a regular strong limit cardinal (That is, $\\lambda$ is inaccessible or $\\lambda = \\omega$) we have $H\_\\lambda=V\_\\lambda$.
 
-    -   Theorem:** If $\\lambda$ is regular uncountable, $H\_\\lambda\\prec\_{\\Sigma\_1} V$.
+**Theorem:** If $\\lambda$ is regular uncountable, $H\_\\lambda\\prec\_{\\Sigma\_1} V$.
 
 To see to  see this theorem, let $\\phi$ be $\\Delta\_0$ with free variables among $y$,$x$. Suppose $\\exists y(\\phi)$. Now let $M\\prec\_{\\Sigma\_1} V$ with $TC(\\{x\\})\\subseteq M$ and $|M|<\\lambda$. By the Mostowski collapsing lemma, there is an isomorphism $\\pi:M \\to M'$ for some transitive $M'$. Since $TC(\\{x\\})\\subseteq M$, $\\pi(x)=x$ and thus $M'\\vDash \\exists y(\\phi)$. Finally, we note that because $M'$ is transitive and has cardinality less than $\\lambda$, $M'\\in H\_\\lambda$ and so $H\_\\lambda\\vDash \\exists y(\\phi)$.
 
