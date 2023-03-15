@@ -9,8 +9,8 @@ Core models are inner [model](Model "Model")s. The first core model, Dodd-Jensen
 
 ## From the definition
 Definition 6.3:
--    $D = \\{ \\langle \\xi, \\kappa \\rangle : \\xi \\in C\_N, \\text{$N$ is a mouse at $\\kappa$}, |C\_N| = \\omega \\}$
--    $D\_\\alpha = \\{ \\langle \\xi, \\kappa \\rangle : \\xi \\in C\_N, \\text{$N$ is a mouse at $\\kappa$}, |C\_N| = \\omega, \\mathrm{Ord} \\cap N < \\omega\_\\alpha \\}$
+-    $D = \\{ \\langle \\xi, \\kappa \\rangle : \\xi \\in C\_N, N\\textrm{ is a mouse at }\\kappa, |C\_N| = \\omega \\}$
+-    $D\_\\alpha = \\{ \\langle \\xi, \\kappa \\rangle : \\xi \\in C\_N, N\\textrm{ is a mouse at }\\kappa, |C\_N| = \\omega, \\mathrm{Ord} \\cap N < \\omega\_\\alpha \\}$
 -    $K = L[D]$ — **the core model**
 -    $K\_\\alpha = |J\_\\alpha^D|$
 
