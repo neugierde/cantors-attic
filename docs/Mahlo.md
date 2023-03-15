@@ -8,7 +8,7 @@ A cardinal $\\kappa$ is *Mahlo* if and only if it is [inaccessible](Inaccessible
 -    Every Mahlo cardinal $\\kappa$ is inaccessible, and indeed hyper-inaccessible and hyper-hyper-inaccessible, up to degree $\\kappa$, and a limit of such cardinals.
 -    If $\\kappa$ is Mahlo, then it is Mahlo in any inner model, since the concept of stationarity is similarly downward absolute.
 -    A cardinal is *greatly inaccessible* iff there is a uniform, normal [filter](Filter "Filter") on it, closed under the inaccessible limit point operator $\\mathcal{I}(X) = \\{α ∈ X : α$ is an inaccessible limit point of $X\\}$. This property is equivalent to being Mahlo and analogous to being [greatly Mahlo](Mahlo#greatly_Mahlo "Mahlo#greatly Mahlo").{% cite Carmody2015 %}
--    A cardinal $\\kappa$ is Mahlo iff there exists a nontrivial $\\kappa$-complete $\\kappa$-normal ideal on it. [https://theory.stanford.edu/~tingz/talks/mahlo.pdf]
+-    A cardinal $\\kappa$ is Mahlo iff there exists a nontrivial $\\kappa$-complete $\\kappa$-normal ideal on it. (Zhang, [An Ideal Characterization of Mahlo Cardinals](https://theory.stanford.edu/~tingz/talks/mahlo.pdf))
 
 [Ord is Mahlo](Ord_is_Mahlo "Ord is Mahlo") is a scheme asserting that regular cardinals form a stationary class. It is weaker than the existence of a Mahlo cardinal (or even pseudo $0$-[uplifting](Uplifting "Uplifting") cardinal{% cite HamkinsJohnstone %}).
 
