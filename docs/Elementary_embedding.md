@@ -19,12 +19,12 @@ $j$ is nontrivial if and only if it has a critical point, i.e. $\\exists\\kappa(
 
 If $\\mathcal{M}$ and $\\mathcal{N}$ are both $\\tau$-structures for some language $\\tau$, and $j:\\mathcal{M}\\rightarrow\\mathcal{N}$, then $j$ is an elementary embedding iff:
 
-#$j$ is injective (for any $x$ in $N$, there is *at most* one $y$ in $M$ such that $j(y)=x$).
-#$j$ has the following properties:
-##For any constant symbol $c\\in\\tau$, $j(c^\\mathcal{M})=c^\\mathcal{N}$.
-##For any function symbol $f\\in\\tau$ and $a\_0,a\_1...\\in M$, $j(f^\\mathcal{M}(a\_0,a\_1...))=f^\\mathcal{N}(j(a\_0),j(a\_1)...)$. For example, $j(a\_0+^\\mathcal{M}a\_1)=j(a\_0)+^\\mathcal{N}j(a\_1)$.
-##For any relation symbol $r\\in\\tau$ and $a\_0,a\_1...\\in M$, $r^\\mathcal{M}(a\_0,a\_1...)\\Leftrightarrow r^\\mathcal{N}(j(a\_0),j(a\_1)...)$
-#For any first-order formula $\\psi$ and any $x\_0,x\_1...\\in M$ such that there is $y\\in N$ with $\\psi^\\mathcal{N}(y,j(x\_0),j(x\_1)...)$, there is $z\\in M$ with $\\psi^\\mathcal{M}(z,x\_0,x\_1...)$.
+1.  $j$ is injective (for any $x$ in $N$, there is *at most* one $y$ in $M$ such that $j(y)=x$).
+2.  $j$ has the following properties:
+    1.  For any constant symbol $c\\in\\tau$, $j(c^\\mathcal{M})=c^\\mathcal{N}$.
+    2.  For any function symbol $f\\in\\tau$ and $a\_0,a\_1...\\in M$, $j(f^\\mathcal{M}(a\_0,a\_1...))=f^\\mathcal{N}(j(a\_0),j(a\_1)...)$. For example, $j(a\_0+^\\mathcal{M}a\_1)=j(a\_0)+^\\mathcal{N}j(a\_1)$.
+    3.  For any relation symbol $r\\in\\tau$ and $a\_0,a\_1...\\in M$, $r^\\mathcal{M}(a\_0,a\_1...)\\Leftrightarrow r^\\mathcal{N}(j(a\_0),j(a\_1)...)$
+3.  For any first-order formula $\\psi$ and any $x\_0,x\_1...\\in M$ such that there is $y\\in N$ with $\\psi^\\mathcal{N}(y,j(x\_0),j(x\_1)...)$, there is $z\\in M$ with $\\psi^\\mathcal{M}(z,x\_0,x\_1...)$.
 
 The **Tarski-Vaught test** refers to the special case where $\\mathcal{M}$ is a substructure of $\\mathcal{N}$ and $j(x)=x$ for every $x$.
 
@@ -33,8 +33,8 @@ This test determines if $\\mathcal{M}$ is an elementary substructure of $\\mathc
 ## Use in Large Cardinal Axioms
 
 There are two ways of making the critical point as large as possible:
-# Making $\\mathcal{M}$ as large as possible, much larger than $\\mathcal{N}$ (meaning that a "large" class can be embedded into a smaller class)
-# Making $\\mathcal{M}$ and $\\mathcal{N}$ more similar (for example, $\\mathcal{M} = \\mathcal{N}$ yet $j$ is nontrivial)
+1.  Making $\\mathcal{M}$ as large as possible, much larger than $\\mathcal{N}$ (meaning that a "large" class can be embedded into a smaller class)
+2.  Making $\\mathcal{M}$ and $\\mathcal{N}$ more similar (for example, $\\mathcal{M} = \\mathcal{N}$ yet $j$ is nontrivial)
 
 Using the first method, one can simply take $\\mathcal{M}=V$ (the universe of all sets), and the resulting critical point is always a measurable cardinal, a very strong type of large cardinal, e.g. the first measurable is larger than infinitely many weakly compact cardinals (and much more).
 
@@ -46,7 +46,7 @@ The existence of a nontrivial elementary embedding $j:\\mathcal{M}\\to\\mathcal{
 
 Here are some types of cardinals whose definition uses elementary embeddings:
 
--    [Reinhardt](Reinhardt "Reinhardt") cardinals, [Berkeley](Berkeley "Berkeley") cardinals
+-   [Reinhardt](Reinhardt "Reinhardt") cardinals, [Berkeley](Berkeley "Berkeley") cardinals
 -   [Rank into rank](Rank_into_rank "Rank into rank") cardinals (axioms I3-I0)
 -   Huge cardinals: [almost n-huge](Huge "Huge"), [almost super-n-huge](Huge "Huge"), [n-huge](Huge "Huge"), [super-n-huge](Huge "Huge"), [$\\omega$-huge](Huge "Huge")
 -   High jump cardinals: [almost high-jump](High-jump "High-jump"), [high-jump](High-jump "High-jump"), [super high-jump](High-jump "High-jump"), [high-jump with unbounded excess closure](High-jump "High-jump")
@@ -91,9 +91,6 @@ Since if II loses he must do so at some finite stage of the game, the game $G(B,
 
 Player II has a winning strategy precisely when $B$ elementarily embeds into $A$ in $V^{Coll(ω,B)}$. It follows that each first-order fragment of [Generic Vopěnka’s Principle](Generic_Vopěnka’s_Principle "Generic Vopěnka’s Principle") is characterised by the existence of certain winning strategies in its associated class of closed games.
 
-<small>
 ## References
-<biblio>
+
 #[Library](Library "Library")
-</biblio> [ Main library](Library_ "Library ")
-</small>
