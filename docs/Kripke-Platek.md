@@ -37,7 +37,7 @@ Suppose that a given property $P$ is true for some set $x$. Then there is a $\\i
 In more detail, given a formula $\\varphi(x\_1,\\dots,x\_n,x)$ the following is an instance of the induction schema:
 $$\\forall x\_1, \\ldots, x\_n \\big[ \\exists x \\varphi(x\_1, \\ldots, x\_n, x) \\rightarrow \\exists y \\big( \\varphi(x\_1, \\ldots, x\_n, y) \\wedge \\forall z \\in y \\neg \\varphi(x\_1, \\ldots, x\_n, z) \\big) \\big]$$
 
-Some authors replace this with the axiom of regularity. ([https://core.ac.uk/download/pdf/82692209.pdf#page=4 example])
+Some authors replace this with the axiom of regularity. (example: [Gostanian, "The Next Admissible Ordinal", 1979](https://core.ac.uk/download/pdf/82692209.pdf#page=4))
 
 ## Axiom Schema of $\\Sigma\_0$-Separation
 For any set $a$ and any $\\Sigma\_0$-predicate $P(x)$ written in the language of ZFC, the set $\\{x\\in a: P(x)\\}$ exists. In more detail, given any $\\Sigma\_0$-formula $\\varphi$ with free variables $x\_1,x\_2,\\dots,x\_n$ the following is an instance of the $\\Sigma\_0$-seperation schema:
