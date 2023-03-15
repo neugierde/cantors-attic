@@ -11,13 +11,13 @@ Every finite set is Dedekind finite, however the assertion that every infinite s
 
 There are several classes of Dedekind finite sets: (in this context ordered means linearly ordered)
 
-# $\\omega$, the set of finite cardinals.
-# $\\Delta\_1 = \\{x\\mid x=y+z\\rightarrow y\\in\\omega\\lor z\\in\\omega\\}$, all those cardinals that cannot be written as the disjoint union of infinite sets (also known as [amorphous](Amorphous "Amorphous") sets).
-# $\\Delta\_2 = \\{x\\mid\\text{ Every ordered partition of }x\\text{ is finite}$, all those that cannot be mapped surjectively onto an infinite ordered set.
-# $\\Delta\_3 = \\{x\\mid y\\subseteq x\\text{ can be ordered}\\Leftrightarrow |y|\\in\\omega\\}$, all those that have no injection from an infinite ordered set.
-# $\\Delta\_4 = \\{x\\mid \\omega\\nleq^\\ast x\\}$, all those that cannot be mapped surjectively onto $\\omega$.
-# $\\Delta\_5 = \\{x\\mid x+1\\nleq^\\ast x\\}$, all the cardinals that cannot be surjectively mapped onto a finitely larger set.
-# $\\Delta = \\{x\\mid \\omega\\nleq x\\}$, all the Dedekind finite cardinals.
+1.  $\\omega$, the set of finite cardinals.
+2.  $\\Delta\_1 = \\{x\\mid x=y+z\\rightarrow y\\in\\omega\\lor z\\in\\omega\\}$, all those cardinals that cannot be written as the disjoint union of infinite sets (also known as [amorphous](Amorphous "Amorphous") sets).
+3.  $\\Delta\_2 = \\{x\\mid\\text{ Every ordered partition of }x\\text{ is finite}$, all those that cannot be mapped surjectively onto an infinite ordered set.
+4.  $\\Delta\_3 = \\{x\\mid y\\subseteq x\\text{ can be ordered}\\Leftrightarrow |y|\\in\\omega\\}$, all those that have no injection from an infinite ordered set.
+5.  $\\Delta\_4 = \\{x\\mid \\omega\\nleq^\\ast x\\}$, all those that cannot be mapped surjectively onto $\\omega$.
+6.  $\\Delta\_5 = \\{x\\mid x+1\\nleq^\\ast x\\}$, all the cardinals that cannot be surjectively mapped onto a finitely larger set.
+7.  $\\Delta = \\{x\\mid \\omega\\nleq x\\}$, all the Dedekind finite cardinals.
 
 In [Tru74] the relations between the different classes is established, as well various consistency results regrading combinations of these classes.
 
@@ -31,5 +31,5 @@ Various types of infinite Dedekind finite sets are used to counter many implicat
 
 ## References
 
-# [Tru74] J.K.Truss, [http://matwbn.icm.edu.pl/ksiazki/fm/fm84/fm84119.pdf Classes of Dedekind Finite Cardinals], Fundamenta Mathematicae 84, 187-208, 1974.
+1.  [Tru74] J.K.Truss, [Classes of Dedekind Finite Cardinals](http://matwbn.icm.edu.pl/ksiazki/fm/fm84/fm84119.pdf), Fundamenta Mathematicae 84, 187-208, 1974.
 
