@@ -11,7 +11,7 @@ This project aims to harness the abilities and efforts of the expert mathematica
 
 ## IRC Channel
 
-An <a href="https://en.wikipedia.org/wiki/IRC" class="extiw" title="wikipedia:IRC">>internet relay chat</a> channel for Cantor's Attic exists: [http://webchat.freenode.net/?channels=%23%23cantorsattic ##cantorsattic] on irc.freenode.net.
+An <a href="https://en.wikipedia.org/wiki/IRC" class="extiw" title="wikipedia:IRC">>internet relay chat</a> channel for Cantor's Attic exists: [##cantorsattic](http://webchat.freenode.net/?channels=%23%23cantorsattic) on irc.freenode.net.
 
 ## Cantor's Attic style guidelines
 
