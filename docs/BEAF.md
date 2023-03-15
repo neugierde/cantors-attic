@@ -60,8 +60,10 @@ To continue, I should mention that operators in the left side of the & don't beh
 ## Examples (dimensional)
 
 Using {a, b, ... (1) c, d, ...} to denote
-    {a, b, ...}
-    {c, d, ...}
+>   {a, b, ...}
+>   
+>   {c, d, ...}
+
 a 2-dimensional array (For example, $\\{3,3,3 (1) 3,3,3 (1) 3,3,3\\}$ means a 3-by-3 square of threes):
 
 \\begin{eqnarray*} \\{3,3(1)3,3\\} &=& \\{3,3,3(1)2,3\\} \\\\ &=&
