@@ -27,7 +27,7 @@ A nonempty set $F\\subseteq\\mathbb{P}$ is a *[filter](Filter "Filter") on $\\ma
 
 One says that a set $D\\subseteq\\mathbb{P}$ is *dense* if for all $p\\in\\mathbb{P}$, there is $q\\in D$ such that $q\\leq p$ (i.e. $q$ *implies* $p$). $D$ is *open dense* if additionally $q\\leq p$ and $p\\in D$ implies $q\\in D$. $D$ is *predense* if every $p\\in\\mathbb{P}$ is compatible with some $q\\in D$.
 
-Given a collection $\\mathcal{D}$ of dense subsets of $\\mathbb{P}$, one says that a filter $G$ is **$\\mathcal{D}$-generic** if it intersects all sets $D\\in\\mathcal{D}$, i.e. $D\\cap G\\neq\\empty$.
+Given a collection $\\mathcal{D}$ of dense subsets of $\\mathbb{P}$, one says that a filter $G$ is **$\\mathcal{D}$-generic** if it intersects all sets $D\\in\\mathcal{D}$, i.e. $D\\cap G\\neq\\emptyset$.
 
 Given a transitive  model $M$ of $\\text{ZFC}$ such that $(\\mathbb{P},<)\\in M$, we say that a filter $G\\subseteq\\mathbb{P}$ is **$M$-generic** (or $\\mathbb{P}$-generic in $M$, or just generic) if it is $\\mathcal{D}\_M$-generic where $\\mathcal{D}\_M$ is the set of all dense subsets of $\\mathbb{P}$ in $M$.
 
@@ -38,7 +38,7 @@ In most cases, if $G$ is $\\mathbb{P}$-generic over $M$ then $G\\not\\in M$. The
 ### $\\mathbb{P}$-names and interpretation by $G$
 
 Using transfinite recursion, define the following cumulative hierarchy:
--    $V^\\mathbb{P}\_0=\\empty$,  $V^\\mathbb{P}\_\\lambda = \\bigcup\_{\\alpha<\\lambda}V^\\mathbb{P}\_\\alpha$ for limit $\\lambda$
+-    $V^\\mathbb{P}\_0=\\emptyset$,  $V^\\mathbb{P}\_\\lambda = \\bigcup\_{\\alpha<\\lambda}V^\\mathbb{P}\_\\alpha$ for limit $\\lambda$
 -    $V^\\mathbb{P}\_{\\alpha+1} = \\mathcal{P}(V^\\mathbb{P}\_\\alpha\\times\\mathbb{P})$
 -    $V^\\mathbb{P} = \\bigcup\_{\\alpha\\in\\mathrm{Ord}}V^\\mathbb{P}\_\\alpha$
 Elements of $V^\\mathbb{P}$ are called *$\\mathbb{P}$-names*. Every nonempty $\\mathbb{P}$-name is of a set of pairs $(n,p)$ where $n$ is another $\\mathbb{P}$-name and $p\\in\\mathbb{P}$.
@@ -73,7 +73,7 @@ A forcing notion $(\\mathbb{P},\\leq)$ is *separative* if for all $p,q\\in\\math
 A large cardinal is called *(Laver) indestructible* iff it keeps the given property after any $<κ$-directed closed forcing. {% cite ApterGitmanHamkins2012 %}<sup>above Test Question 4</sup>
 
 ## Boolean algebras
-''To be expanded.*
+''To be expanded.''
 
 It is sometimes convenient to take the forcing notion $\\mathbb{P}$ to be a Boolean algebra $\\mathbb{B}$.
 
@@ -106,7 +106,7 @@ Some other applications of forcing:
 -    It is consistent relative to the existence of an inaccessible cardinal that there are no Kurepa trees.
 -    Let $\\kappa$ be a [superstrong](Superstrong "Superstrong") cardinal. Let $V[G]$ be the generic extension of $V$ by the Lévy collapse $\\mathrm{Coll}(\\aleph\_0,<\\kappa)$. Then there is a nontrivial [elementary embedding](Elementary_embedding "Elementary embedding") $j:L(\\mathbb{R})\\to(L(\\mathbb{R}))^{V[G]}$.
 -    Let $\\kappa$ be a superstrong cardinal. There exists a $\\omega$-distributive $\\kappa$-c.c. notion of forcing $(\\mathbb{P},\\leq)$ such that in $V^\\mathbb{P}$, $\\kappa=\\aleph\_2$ and there exists a normal $\\omega\_2$-saturated $\\sigma$-complete ideal on $\\omega\_1$.
--    Let $\\kappa$ be a [weakly compact](Weakly_compact "Weakly compact") cardinal. Then there is a generic extension in which $\\kappa=\\aleph\_2$ and $\\omega\_2$ has the tree property. In fact, if there is infinitely many weakly compact cardinals then in a generic extension $\\omega\_{2n}$ has the tree property for every $n$. [http://logika.ff.cuni.cz/radek/papers/Friedman\_Honzik\_treeprop\_revised.pdf]
+-    Let $\\kappa$ be a [weakly compact](Weakly_compact "Weakly compact") cardinal. Then there is a generic extension in which $\\kappa=\\aleph\_2$ and $\\omega\_2$ has the tree property. In fact, if there is infinitely many weakly compact cardinals then in a generic extension $\\omega\_{2n}$ has the tree property for every $n$. (Friedman, Honzik, [The tree property at the $\aleph_{2n}$'s and the failure of SCH at $\aleph_\omega$](https://web.archive.org/web/20170315034057/http://logika.ff.cuni.cz/radek//papers/Friedman_Honzik_treeprop_revised.pdf))
 -    It is consistent relative to the existence of infinitely many supercompact cardinals that there exists infinitely many cardinals $\\delta$ above $2^{\\aleph\_0}$ such that both $\\delta$ and $\\delta^+$ have the tree property. Also, the [axiom of projective determinacy](Axiom_of_projective_determinacy "Axiom of projective determinacy") holds in any such model.
 -    Let $\\kappa$ be a measurable cardinal. Then there is a generic extension in which $\\kappa$ remains weakly compact, there is a $\\kappa^+$-saturated $\\kappa$-complete ideal on $\\kappa$ but there isn't any $\\kappa$-saturated $\\kappa$-complete ideal on $\\kappa$. One can replace "$\\kappa$ is weakly compact" by "$\\kappa$ is weakly inaccessible and $\\kappa=2^{\\aleph\_0}$".
 -    It is consistent relative to a supercompact cardinal that there is an inaccessible cardinal $\\kappa$, a cardinal $\\lambda>\\kappa$ and a stationary set $S\\subseteq\\mathcal{P}\_\\kappa(\\lambda)$ that cannot be partitioned into $\\kappa^+$ disjoint stationary subsets.
@@ -148,7 +148,7 @@ We say that a forcing notion $(\\mathbb{P},\\leq)$ is *proper* if for every unco
 -    Every c.c.c. or $\\omega$-closed notion is proper, and so is every notion satisfying Axiom A.
 -    Proper forcing does not collapse $\\omega\_1$: if $\\mathbb{P}$ is proper then every countable set of ordinals in $M[G]$ is a subset of a countable set in $M$.
 
-''Semi-proper forcing* *TODO''
+*Semi-proper forcing* *TODO'*
 
 A projective poset $\\mathbb{P}$ is *strongly-proper* if for every countable transitive model $N$ of a fragment of ZFC with the parameters of the definition of $\\mathbb{P}$ in $N$ and such that $(\\mathbb{P}^N, ≤\_\\mathbb{P}^N, ⊥\_\\mathbb{P}) ⊆ (\\mathbb{P}, ≤\_\\mathbb{P}, ⊥\_\\mathbb{P})$, and for every $p ∈ \\mathbb{P}^N$, there is $q ≤ p$ which is $(N, \\mathbb{P})$-generic, i.e., if $N \\models$ “$A$ is a maximal antichain of $\\mathbb{P}$”, then $A ∩ N$ is predense below $q$.{% cite Bagaria2002 %}
 -    A projective strongly-proper poset is proper.
