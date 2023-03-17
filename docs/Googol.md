@@ -86,4 +86,4 @@ The initial segment of this hierarchy, using term with at most three adjectival 
 -    googol
 
 A sorting algorithm for all such names in the hierarchy involving fewer than googol-2 many terms is provided by
-[http://math.stackexchange.com/a/92661/413 this math.stackexchange answer].
+[this math.stackexchange answer](http://math.stackexchange.com/a/92661/413).
