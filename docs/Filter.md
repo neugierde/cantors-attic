@@ -7,27 +7,27 @@ A *filter* on a set $S$ is a special subset of $\\mathcal{P}(S)$ that contains $
 
 An *ultrafiler* is a maximal filter, i.e. it is not a subset of any other filter, or equivalently, every subset of $S$ is either in it or its complement (in $S$) is. Filters, and especially ultrafilters, are closely connected to several large cardinal notions, such as [measurable cardinals](Measurable "Measurable") and [strongly compact cardinals](Strongly_compact "Strongly compact"). The dual notion is a *prime ideal*. Thus an ultrafilter and its dual prime ideal partition $\\mathcal{P}(S)$ in two.
 
-Intuitively, the members of a filter are the subsets of $S$ "large" enough to satisfy some property. $S$ is always "large enough", while $\\empty$ never is. $F$ being closed under finite intersections means that the intersection of two large sets is still large enough - $F$'s sets only differ by a "too small" set. Also, $F$ being closed under the superset relation means that if a set $X$ contains a large enough set then $X$ is also large enough. For example, for any nonempty $X\\subseteq S$, the set of all supersets of $X$ -i.e. the set of all sets "larger" than $X$ - is always a filter. Similarly, the members of an ideal will represent the subsets of $S$ "too small"; $\\empty$ is always too small, $S$ never is, the union of two too small sets is still too small and if a set is contained (as a subset) in a too small set, then it is itself too small.
+Intuitively, the members of a filter are the subsets of $S$ "large" enough to satisfy some property. $S$ is always "large enough", while $\\emptyset$ never is. $F$ being closed under finite intersections means that the intersection of two large sets is still large enough - $F$'s sets only differ by a "too small" set. Also, $F$ being closed under the superset relation means that if a set $X$ contains a large enough set then $X$ is also large enough. For example, for any nonempty $X\\subseteq S$, the set of all supersets of $X$ -i.e. the set of all sets "larger" than $X$ - is always a filter. Similarly, the members of an ideal will represent the subsets of $S$ "too small"; $\\emptyset$ is always too small, $S$ never is, the union of two too small sets is still too small and if a set is contained (as a subset) in a too small set, then it is itself too small.
 
 ''Most of the results in this article can be found in {% cite Jech2003 %} or {% cite Kanamori2009 %}.*
 
 ## Definitions
 
 A set $F\\subseteq\\mathcal{P}(S)$ is a *filter* on $S$ if it satisfies the following properties:
--    $\\empty\\not\\in F$ (proper filter), $S\\in F$
+-    $\\emptyset\\not\\in F$ (proper filter), $S\\in F$
 -    $X\\cap Y\\in F$ whenever $X,Y\\in F$ (finite intersection property)
 -    $Y\\in F$ whenever $X\\subseteq Y\\subseteq S$ and $X\\in F$ (upward closed / closed under supersets)
 
 A set $I\\subseteq\\mathcal{P}(S)$ is an *ideal* on $S$ if it satisfies the following properties:
--    $S\\not\\in I$, $\\empty\\in I$
+-    $S\\not\\in I$, $\\emptyset\\in I$
 -    $X\\cup Y\\in F$ whenever $X,Y\\in I$ (finite union property)
 -    $Y\\in I$ whenever $Y\\subseteq X\\subseteq S$ and $X\\in I$ (downard closed / closed under subsets)
 
 Given a filter $F$, its *dual ideal* is $I=\\{S\\setminus X : X\\in F\\}$. Conversely, every ideal has a dual filter. If two filters/ideals are not equal, their duals aren't equal either.
 
-A filter $F$ is *trivial* if $F=\\{S\\}$. It is *principal* if there exists $X\\subseteq S$ such that $Y\\in F$ if and only if $X\\subseteq Y$. Every nonempty subset $X\\subseteq  S$ has an associated principal filter. Similarly, the trivial ideal is $I=\\{\\empty\\}$, and an ideal is principal if there exists $X\\subseteq S$ such that $Y\\in I$ if and only if $Y\\subseteq X$. A filter (resp. ideal) is *uniform* if it only contains sets of the same cardinality.
+A filter $F$ is *trivial* if $F=\\{S\\}$. It is *principal* if there exists $X\\subseteq S$ such that $Y\\in F$ if and only if $X\\subseteq Y$. Every nonempty subset $X\\subseteq  S$ has an associated principal filter. Similarly, the trivial ideal is $I=\\{\\emptyset\\}$, and an ideal is principal if there exists $X\\subseteq S$ such that $Y\\in I$ if and only if $Y\\subseteq X$. A filter (resp. ideal) is *uniform* if it only contains sets of the same cardinality.
 
-A filter (resp. an ideal) $F$ is an *ultrafilter* (resp. a *prime ideal'') if for all $X\\subseteq S$, either $X\\in F$ or $S\\setminus X\\in F$. Equivalently, there is no filter (resp. ideal) $F'$ such that $F\\subseteq F'$ but $F\\neq F'$ (i.e. $F$ is *maximal'').
+A filter (resp. an ideal) $F$ is an *ultrafilter* (resp. a *prime ideal*) if for all $X\\subseteq S$, either $X\\in F$ or $S\\setminus X\\in F$. Equivalently, there is no filter (resp. ideal) $F'$ such that $F\\subseteq F'$ but $F\\neq F'$ (i.e. $F$ is *maximal*).
 
 $F$ is $\\theta$-complete for a cardinal $\\theta$ if for every family $\\{X\_\\alpha : \\alpha<\\lambda\\}$ with $\\lambda<\\theta$ and $X\_\\alpha\\in F$ for all $\\alpha<\\lambda$, then $\\bigcap\_{\\alpha<\\lambda}X\_\\alpha\\in F$. The completeness of $F$ is the smallest cardinal such that there is a subset $X\\subseteq F$ such that $|X|=\\theta$ and $\\bigcap X\\not\\in F$, i.e. it is the largest $\\theta$ such that $F$ is $\\theta$-complete. Similarly for ideals, by replacing intersections by unions. A filter or an ideal being *countably complete* (or $\\sigma$-complete) means that it is $\\omega\_1$-complete. It is customary to use the term $\\sigma$-ideal instead of $\\sigma$-complete ideal.
 
@@ -105,7 +105,7 @@ The ideal $\\{X\\subseteq\\kappa:|X|<\\kappa\\}$ is never precipitous. Every $\\
 
 ### Equivalent definitions
 
-Consider the following infinite game $\\mathcal{G}\_I$: two players, Empty and Nonempty, alternatively choose sets $S\_n$ such that $S\_n\\not\\in I$ and $S\_{n+1}\\subseteq S\_n$. Empty plays first and wins if $\\bigcap^\\infty\_{n=0}S\_n=\\empty$.
+Consider the following infinite game $\\mathcal{G}\_I$: two players, Empty and Nonempty, alternatively choose sets $S\_n$ such that $S\_n\\not\\in I$ and $S\_{n+1}\\subseteq S\_n$. Empty plays first and wins if $\\bigcap^\\infty\_{n=0}S\_n=\\emptyset$.
 
 Assume $I$ contains all singleton. Let $S$ be a set not in $I$. An *$I$-partition* of $S$ is a maximal family $W$ of subsets of $S$ disjoint from $I$ such that the intersection of any two sets in $W$ is in $I$. An $I$-partition $W\_0$ is a *refinement* of an $I$-partition $W\_1$, noted $W\_0\\leq W\_1$, if every set in $W\_0$ is a subset of some set in $W\_1$.
 
@@ -128,13 +128,13 @@ It is consistent, relative to the existence of a measurable cardinal, that the n
 Filters are related to the concept of *measures*.
 
 Let $|S|\\geq\\aleph\_0$. A (nontrivial $\\sigma$-additive) *measure* on $S$ is a function $\\mu:\\mathcal{P}(S)\\to[0,+\\infty]$ such that:
--    $\\mu(\\empty)=0$, $\\mu(S)>0$
+-    $\\mu(\\emptyset)=0$, $\\mu(S)>0$
 -    $\\mu(X)\\leq\\mu(Y)$ whenever $X\\subseteq Y$
--    Let $\\{X\_n : n<\\omega\\}$ such that $X\_i\\cap X\_j=\\empty$ whenever $i<j$, then $\\mu(\\bigcup\_{n<\\omega}X\_n)=\\sum\_{n=0}^{\\infty}\\mu(X\_n)$
+-    Let $\\{X\_n : n<\\omega\\}$ such that $X\_i\\cap X\_j=\\emptyset$ whenever $i<j$, then $\\mu(\\bigcup\_{n<\\omega}X\_n)=\\sum\_{n=0}^{\\infty}\\mu(X\_n)$
 
 $\\mu$ is *probabilist* if $\\mu(S)=1$. $\\mu$ is *nontrivial* because there exists a set $A$ of positive measure, i.e. $\\mu(A)>0$, since we required $\\mu(S)>0$.
 
-$\\mu$ is $\\theta$-additive if $\\{X\_\\alpha : \\alpha<\\lambda\\}$ with $\\lambda<\\theta$ is such that $X\_i\\cap X\_j=\\empty$ whenever $i<j$, then $\\mu(\\bigcup\_{\\alpha<\\lambda}X\_\\alpha)=\\sum\_{\\alpha<\\lambda}\\mu(X\_\\alpha)$. Every measure $\\mu$ is $\\omega\_1$-additive (i.e. countably additive / $\\sigma$-additive).
+$\\mu$ is $\\theta$-additive if $\\{X\_\\alpha : \\alpha<\\lambda\\}$ with $\\lambda<\\theta$ is such that $X\_i\\cap X\_j=\\emptyset$ whenever $i<j$, then $\\mu(\\bigcup\_{\\alpha<\\lambda}X\_\\alpha)=\\sum\_{\\alpha<\\lambda}\\mu(X\_\\alpha)$. Every measure $\\mu$ is $\\omega\_1$-additive (i.e. countably additive / $\\sigma$-additive).
 
 $\\mu$ is *2-valued* (or *0-1-valued'') if for all $X\\subseteq S$, either $\\mu(X)=0$ or $\\mu(X)=1$. A set $A\\subseteq S$ such that $\\mu(A)>0$ is an *atom* for $\\mu$ if $\\mu(X)=0$ or $\\mu(X)=\\mu(A)$ for all $X\\subseteq A$. $\\mu$ is *atomless* if it has no atoms.
 
