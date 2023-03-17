@@ -3,39 +3,39 @@ title: Fast-growing_hierarchy
 permalink: Fast-growing_hierarchy
 ---
 
-The fast-growing hierarchy is a family of increasing functions \\((f\_\\alpha:\\mathbb N\\rightarrow\\mathbb N)\_{\\alpha<\\mu}\\) where \\(\\mu\\) is a large countable ordinal such that a fundamental sequence is assigned for each limit ordinal less than \\(\\mu\\). It maps countable ordinals to certain functions.
+The fast-growing hierarchy is a family of increasing functions $(f\_\\alpha:\\mathbb N\\rightarrow\\mathbb N)\_{\\alpha<\\mu}$ where $\\mu$ is a large countable ordinal such that a fundamental sequence is assigned for each limit ordinal less than $\\mu$. It maps countable ordinals to certain functions.
 The fast-growing hierarchy is defined as follows:
 
--   \\(f\_0(n)=n+1\\)
--   \\(f\_{\\alpha+1}(n)=f^n\_\\alpha(n)\\)
--   \\(f\_\\alpha(n)=f\_{\\alpha[n]}(n)\\) if and only if \\(\\alpha\\) is a limit ordinal,
+-   $f\_0(n)=n+1$
+-   $f\_{\\alpha+1}(n)=f^n\_\\alpha(n)$
+-   $f\_\\alpha(n)=f\_{\\alpha[n]}(n)$ if and only if $\\alpha$ is a limit ordinal,
 
 where:
 
--   \\(f^n\\) denotes function iteration i.e. \\(f\_\\alpha^0(n)=n\\) and \\(f\_\\alpha^{m+1}(n)=f\_\\alpha(f\_\\alpha^{m}(n))\\)
--   \\(\\alpha[n]\\) denotes the \\(n\\)th element of the fundamental sequence assigned to the limit ordinal \\(\\alpha\\)
+-   $f^n$ denotes function iteration i.e. $f\_\\alpha^0(n)=n$ and $f\_\\alpha^{m+1}(n)=f\_\\alpha(f\_\\alpha^{m}(n))$
+-   $\\alpha[n]$ denotes the $n$th element of the fundamental sequence assigned to the limit ordinal $\\alpha$
 
-Every nonzero ordinal \\(\\alpha<\\varepsilon\_0=\\min\\{\\beta|\\beta=\\omega^\\beta\\}\\) can be represented in a unique Cantor normal form \\(\\alpha=\\omega^{\\beta\_{1}}+ \\omega^{\\beta\_{2}}+\\cdots+\\omega^{\\beta\_{k-1}}+\\omega^{\\beta\_{k}}\\) where \\(\\alpha>\\beta\_1\\geq\\beta\_2\\geq\\cdots\\geq\\beta\_{k-1}\\geq\\beta\_k\\).
+Every nonzero ordinal $\\alpha<\\varepsilon\_0=\\min\\{\\beta|\\beta=\\omega^\\beta\\}$ can be represented in a unique Cantor normal form $\\alpha=\\omega^{\\beta\_{1}}+ \\omega^{\\beta\_{2}}+\\cdots+\\omega^{\\beta\_{k-1}}+\\omega^{\\beta\_{k}}$ where $\\alpha>\\beta\_1\\geq\\beta\_2\\geq\\cdots\\geq\\beta\_{k-1}\\geq\\beta\_k$.
 
-If \\(\\beta\_k>0\\) then \\(\\alpha\\) is a limit and we can assign to it a fundamental sequence as follows
+If $\\beta\_k>0$ then $\\alpha$ is a limit and we can assign to it a fundamental sequence as follows
 
-\\(\\alpha[n]=\\omega^{\\beta\_{1}}+ \\omega^{\\beta\_{2}}+\\cdots+\\omega^{\\beta\_{k-1}}+\\left\\{\\begin{array}{lcr} \\omega^\\gamma n \\text{ if } \\beta\_k=\\gamma+1\\\\ \\omega^{\\beta\_k[n]} \\text{ if } \\beta\_k \\text{ is a limit.}\\\\ \\end{array}\\right.\\)
+$\\alpha[n]=\\omega^{\\beta\_{1}}+ \\omega^{\\beta\_{2}}+\\cdots+\\omega^{\\beta\_{k-1}}+\\left\\{\\begin{array}{lcr} \\omega^\\gamma n \\text{ if } \\beta\_k=\\gamma+1\\\\ \\omega^{\\beta\_k[n]} \\text{ if } \\beta\_k \\text{ is a limit.}\\\\ \\end{array}\\right.$
 
 
-If \\(\\alpha=\\varepsilon\_0\\) then \\(\\alpha[0]=0\\) and \\(\\alpha[n+1]=\\omega^{\\alpha[n]}\\).
+If $\\alpha=\\varepsilon\_0$ then $\\alpha[0]=0$ and $\\alpha[n+1]=\\omega^{\\alpha[n]}$.
 
 This system of fundamental sequences gives us so-called Wainer hierarchy - the most well-known example of fast-growing hierarchy. There are much stronger systems of fundamental sequences you can see on the following pages:
--   [http://googology.wikia.com/wiki/List\_of\_systems\_of\_fundamental\_sequences List of systems of fundamental sequences]
+-   [List of systems of fundamental sequences](http://googology.wikia.com/wiki/List\_of\_systems\_of\_fundamental\_sequences)
 -   [Madore's ψ function](Madore's_ψ_function "Madore's ψ function")
 -   [Buchholz's ψ functions](Buchholz's_ψ_functions "Buchholz's ψ functions")
 -   [Jäger's ψ functions](Jäger's_collapsing_functions_and_ρ-inaccessible_ordinals "Jäger's collapsing functions and ρ-inaccessible ordinals")
--   [[User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences‏‎|Collapsing functions based on a weakly Mahlo cardinal]]
+-   [User blog:Denis Maksudov/Ordinal functions collapsing the least weakly Mahlo cardinal; a system of fundamental sequences](https://web.archive.org/web/20190415131736/http://cantorsattic.info/index.php?title=User_blog:Denis_Maksudov/Ordinal_functions_collapsing_the_least_weakly_Mahlo_cardinal;_a_system_of_fundamental_sequences&printable=yes)
 
 ## Values
 These calculations are based on [Diagonalization](Diagonalization "Diagonalization").
 There are a few things to note:
-"\\(\\uparrow\\)" means [Knuth's up-arrow notation](Knuth's_up-arrow_notation "Knuth's up-arrow notation").
-"\\(\\lbrace\\rbrace\\)" means [BAN](Bird's_array_notation "Bird's array notation").
+"$\\uparrow$" means [Knuth's up-arrow notation](Knuth's_up-arrow_notation "Knuth's up-arrow notation").
+"$\\lbrace\\rbrace$" means [BAN](Bird's_array_notation "Bird's array notation").
 
 \\begin{eqnarray*}
 f\_0(n) &=& n + 1 \\\\
@@ -135,12 +135,12 @@ f\_{\\vartheta(\\Omega\_{\\vartheta(\\Omega\_{\\vartheta(\\Omega\_{\\omega})})})
 
 ## The relationship with other hierarhies
 
-For \\(\\alpha<\\varepsilon\_0\\) the fast-growing hierarchy relates to the [Hardy hierarchy](Hardy_hierarchy "Hardy hierarchy") as follows
+For $\\alpha<\\varepsilon\_0$ the fast-growing hierarchy relates to the [Hardy hierarchy](Hardy_hierarchy "Hardy hierarchy") as follows
 
-\\(f\_\\alpha(n)=H\_{\\omega^\\alpha}(n)\\)
+$f\_\\alpha(n)=H\_{\\omega^\\alpha}(n)$
 
-and at \\(\\varepsilon\_0\\) the Hardy hierarchy "catches up" to the fast-growing hierarchy i.e.
+and at $\\varepsilon\_0$ the Hardy hierarchy "catches up" to the fast-growing hierarchy i.e.
 
-\\(f\_{\\varepsilon\_0}(n-1) ≤ H\_{\\varepsilon\_0}(n) ≤ f\_{\\varepsilon\_0}(n+1)\\) for all \\(n ≥ 1\\).
+$f\_{\\varepsilon\_0}(n-1) ≤ H\_{\\varepsilon\_0}(n) ≤ f\_{\\varepsilon\_0}(n+1)$ for all $n ≥ 1$.
 
-The [slow-growing hierarchy](Slow-growing_hierarchy "Slow-growing hierarchy") "catches up" to the fast-growing hierarchy at \\(\\psi\_0(\\Omega\_\\omega)\\), using [Buchholz's ψ functions](Buchholz's_ψ_functions "Buchholz's ψ functions").
+The [slow-growing hierarchy](Slow-growing_hierarchy "Slow-growing hierarchy") "catches up" to the fast-growing hierarchy at $\\psi\_0(\\Omega\_\\omega)$, using [Buchholz's ψ functions](Buchholz's_ψ_functions "Buchholz's ψ functions").
