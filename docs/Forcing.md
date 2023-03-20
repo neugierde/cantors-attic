@@ -3,7 +3,7 @@ title: Forcing
 permalink: Forcing
 ---
 
-**Forcing** is a method for extending a transitive model $M$ of $\\text{ZFC}$ (the *ground [model](Model "Model")'') by adjoining a new set $G$ (the *generic set'') to produce a new, larger model $M[G]$ called a *generic extension*. In short, the set $G$ can be constructed a certain way using a partially ordered set (poset) $(\\mathbb{P},\\leq)\\in M$ (the *forcing notion'') so that the following holds:
+**Forcing** is a method for extending a transitive model $M$ of $\\text{ZFC}$ (the *ground [model](Model "Model")*) by adjoining a new set $G$ (the *generic set*) to produce a new, larger model $M[G]$ called a *generic extension*. In short, the set $G$ can be constructed a certain way using a partially ordered set (poset) $(\\mathbb{P},\\leq)\\in M$ (the *forcing notion*) so that the following holds:
 
 -    **(Generic Model Theorem).** There exists a unique transitive model $M[G]$ of $\\text{ZFC}$ that includes $M$ (as a subset) and contains $G$ (as an element), has the same ordinals as $M$, and any transitive model of $\\text{ZFC}$ also including $M$ and containing $G$ includes $M[G]$ (i.e. $M[G]$ is minimal).
 
@@ -164,10 +164,10 @@ Among important classes of posets are:
 -    *$σ$-centered* posets (can be partitioned into countably many classes so that each class is finite-wise compatible)
 -    *$σ$-linked* posets (can be partitioned into countably many classes so that each class is pair-wise compatible)
 -    posets that preserve stationary subsets of $ω\_1$ (in short $\\textit{Stat-pres}$)
--    posets that preserve $ω\_1$ (in short $\\textit{$ω\_1$-pres}$)
+-    posets that preserve $ω\_1$ (in short $ω\_1\\mathit{-pres}$)
 
 We have
-: $\\textit{$\\sigma$-centered} \\subset \\textit{$\\sigma$-linked} \\subset \\textit{Knaster} \\subset \\textit{Prod-ccc} \\subset \\textit{ccc} \\subset \\textit{Proper} \\subset \\textit{Semi-proper} \\subset \\textit{Stat-pres} \\subset \\textit{$ω\_1$-pres}$
+: $\\sigma\\textit{-centered} \\subset \\sigma\\textit{-linked} \\subset \\textit{Knaster} \\subset \\textit{Prod-ccc} \\subset \\textit{ccc} \\subset \\textit{Proper} \\subset \\textit{Semi-proper} \\subset \\textit{Stat-pres} \\subset \\omega_1\\textit{-pres}$
 
 Besides:
 -    the poset for adding a Cohen real ($\\textit{Cohen}$, compare subsection above)
@@ -177,7 +177,7 @@ Besides:
 -    the Hechler forcing for adding a dominating real
 -    the Mathias forcing
 -    Borel forcing notions (the set of conditions is a Borel set)
--    the $σ$-linked forcing notion for adding $ω\_1$ random reals ($\\textit{$ω\_1$-Random}$)
+-    the $σ$-linked forcing notion for adding $ω\_1$ random reals ($\\omega_1textit{-Random}$)
 
 ## Product forcing
 
