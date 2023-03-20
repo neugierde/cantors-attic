@@ -157,7 +157,7 @@ An **EM blueprint** (Ehrenfeucht-Mostowski blueprint) $T$ is any theory of the f
 
 For an EM blueprint $T=\\{\\varphi:(L\_\\delta;\\in,\\alpha\_0,\\alpha\_1...)\\models\\varphi\\}$, **the theory $T^{-}$** is defined as $\\{\\varphi:L\_\\delta\\models\\varphi\\}$ (the set of truths about any definable elements of $L\_\\delta$). Then, **the structure $\\mathcal{M}(T,\\alpha)=(M(T,\\alpha);E)\\models T^{-}$** has a very technical definition, but it is indeed uniquely (up to isomorphism) the only structure which satisfies the existence of a set $X$ of $\\mathcal{M}(T,\\alpha)$-ordinals such that:
 1.  $X$ is a set of indiscernibles for $\\mathcal{M}(T,\\alpha)$ and $(X;E)\\cong\\alpha$ ($X$ has order-type $\\alpha$ with respect to $\\mathcal{M}(T,\\alpha)$)
-2.  For any formula $\\varphi$ and any $x<y<z...$ with $x,y,z...\\in X$, $\\mathcal{M}(T,\\alpha)\\models\\varphi(x,y,z...)$ iff $\\mathcal{M}(T,\\alpha)\\models\\varphi(\\alpha\_0,\\alpha\_1,\\alpha\_2...)$ where $\\alpha\_0,\\alpha\_1...$ are the indiscernibles used in the EM blueprint.
+2.  For any formula $\\varphi$ and any $x< y< z...$ with $x,y,z...\\in X$, $\\mathcal{M}(T,\\alpha)\\models\\varphi(x,y,z...)$ iff $\\mathcal{M}(T,\\alpha)\\models\\varphi(\\alpha\_0,\\alpha\_1,\\alpha\_2...)$ where $\\alpha\_0,\\alpha\_1...$ are the indiscernibles used in the EM blueprint.
 3.  If $<$ is an $\\mathcal{M}(T,\\alpha)$-definable $\\mathcal{M}(T,\\alpha)$-well-ordering of $\\mathcal{M}(T,\\alpha)$, then: $$\\mathcal{M}(T,\\alpha)=\\{\\min{}\_<^{\\mathcal{M}(T,\\alpha)}\\{x:\\mathcal{M}(T,\\alpha)\\models\\varphi[x,a,b,c...]\\}:\\varphi\\in\\mathcal{L}\_\\in\\text{ and } a,b,c...\\in X\\}$$
 
 $0^\\sharp$ is then defined as the **unique** EM blueprint $T$ such that:
@@ -202,4 +202,4 @@ $0^¶$ (zero pistol) is connected with [strong](Strong "Strong") cardinals. $\\l
 -   Chang, C. C. (1971), "Sets Constructible Using $\\mathcal{L}\_{\\kappa,\\kappa}$", *Axiomatic Set Theory*, Proc. Sympos. Pure Math., XIII, Part I, Providence, R.I.: Amer. Math. Soc., pp. 1–8
 <biblio>
 #[Library](Library "Library")
-</biblio> [ Main library](Library_ "Library ")
+</biblio> [Main library](Library_"Library")
