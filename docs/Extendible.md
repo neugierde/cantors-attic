@@ -7,7 +7,7 @@ A cardinal $\\kappa$ is *$\\eta$-extendible* for an ordinal $\\eta$ if and only 
 
 ## Alternative definition
 
-Given cardinals $\\lambda$ and $\\theta$, a cardinal $\\kappa\\leq\\lambda,\\theta$ is *jointly $\\lambda$-supercompact and $\\theta$-superstrong* if there exists a nontrivial elementary embedding $j:V\\to M$ for some transitive class $M$ such that $\\mathrm{crit}(j)=\\kappa$, $\\lambda<j(\\kappa)$, $M^\\lambda\\subseteq M$ and $V\_{j(\\theta)}\\subseteq M$. That is, a single embedding witnesses both $\\lambda$-[supercompactness](Supercompact "Supercompact") and (a strengthening of) [superstrongness](Superstrong "Superstrong") of $\\kappa$. The least supercompact is never jointly $\\lambda$-supercompact and $\\theta$-superstrong for any $\\lambda$,$\\theta\\geq\\kappa$.
+Given cardinals $\\lambda$ and $\\theta$, a cardinal $\\kappa\\leq\\lambda,\\theta$ is *jointly $\\lambda$-supercompact and $\\theta$-superstrong* if there exists a nontrivial elementary embedding $j:V\\to M$ for some transitive class $M$ such that $\\mathrm{crit}(j)=\\kappa$, $\\lambda< j(\\kappa)$, $M^\\lambda\\subseteq M$ and $V\_{j(\\theta)}\\subseteq M$. That is, a single embedding witnesses both $\\lambda$-[supercompactness](Supercompact "Supercompact") and (a strengthening of) [superstrongness](Superstrong "Superstrong") of $\\kappa$. The least supercompact is never jointly $\\lambda$-supercompact and $\\theta$-superstrong for any $\\lambda$,$\\theta\\geq\\kappa$.
 
 A cardinal is extendible if and only if it is jointly supercompact and $\\kappa$-superstrong, i.e. for every $\\lambda\\geq\\kappa$ it is jointly $\\lambda$-supercompact and $\\kappa$-superstrong. [http://logicatorino.altervista.org/slides/150619tsaprounis.pdf] One can show that extendibility of $\\kappa$ is in fact equivalent to "for all $\\lambda$,$\\theta\\geq\\kappa$, $\\kappa$ is jointly $\\lambda$-supercompact and $\\theta$-superstrong". A similar characterization of $C^{(n)}$-extendible cardinals exists.
 
@@ -85,7 +85,7 @@ $\\Sigma\_3$-extendible cardinals cannot be Laver [indestructible](Indestructibl
 Definitions:
 -    A cardinal $κ$ is **$A$-extendible**, for a class $A$, iff for every ordinal $λ > κ$ there is an ordinal $θ$ such that there is an elementary embedding
 -   : $j : ⟨ V\_λ , ∈, A ∩ V\_λ ⟩ → ⟨ V\_θ , ∈, A ∩ V\_θ ⟩$
--   : with critical point $κ$ (such that $λ < j(κ)$ — *removing this does not change, what cardinals are extendible'').
+-   : with critical point $κ$ (such that $λ < j(κ)$ — *removing this does not change, what cardinals are extendible*).
     -    $λ$ is called the degree of $A$-extendibility of an embedding.
 -    A cardinal $κ$ is **$(Σ\_n)$-extendible**, iff it is $A$-extendible, where $A$ is the $Σ\_n$-truth predicate. (This is a different notion than $\\Sigma\_n$-extendible cardinals.){% cite GitmanHamkins2018 %}
 -    For $A$-extendible $κ$ is, a set $g ⊆ κ$ is called **$A$-stretchable**, if for every $λ > κ$ and every $h ⊆ λ$ for which $h ∩ κ = g$, there is an elementary embedding $j : ⟨V\_λ , ∈, A ∩ V\_λ⟩ → ⟨V\_θ , ∈, A ∩ V\_θ⟩$ such that $crit(j)=κ$, $λ < j(κ)$ and $j(g) ∩ λ = h$.
