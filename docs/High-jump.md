@@ -5,7 +5,7 @@ permalink: High-jump
 
 (from {% cite Perlmutter2010 %})
 
-''High-jump* cardinals are a certain kind of large cardinals. A cardinal $\\kappa$ is *high-jump* if it is the critical point of an [elementary embedding](Elementary_embedding "Elementary embedding") $j:V\\to M$ such that $M$ is closed under sequences of length $\\text{sup}\\{j(f)(\\kappa)|f:\\kappa\\to\\kappa\\}$. This closure condition is a weakening of the definition of a [huge](Huge "Huge") cardinal.
+*High-jump* cardinals are a certain kind of large cardinals. A cardinal $\\kappa$ is *high-jump* if it is the critical point of an [elementary embedding](Elementary_embedding "Elementary embedding") $j:V\\to M$ such that $M$ is closed under sequences of length $\\text{sup}\\{j(f)(\\kappa)|f:\\kappa\\to\\kappa\\}$. This closure condition is a weakening of the definition of a [huge](Huge "Huge") cardinal.
 
 ## Definition
 
@@ -15,7 +15,7 @@ A cardinal $\\kappa$ is **high-jump** if there exists $j:V\\to M$ with critical 
 
 $\\kappa$ is called *almost high-jump* if $M$ is closed under sequences of length $<\\theta$ instead, i.e. $M^\\lambda\\subseteq M$ for all $\\lambda<\\theta$. $j$ is then an *almost high-jump* embedding. This means that for all $f:\\kappa\\to\\kappa$, $M^{j(f)(\\kappa)}\\subseteq M$. [Shelah for supercompactness](Shelah "Shelah") cardinals are a natural weakening of almost high-jump cardinals which allows to have one embedding per $f:\\kappa\\to\\kappa$ rather than a single embedding for all such $f$s.
 
-$\\kappa$ is high-jump *order $\\eta$* (resp. almost high-jump *order $\\eta$'') if there exists a strictly increasing sequence of ordinals $\\{\\theta\_\\alpha:\\alpha<\\eta\\}$ such that for all $\\alpha<\\eta$, there exists a high-jump embedding (resp. almost high-jump embedding) with critical point $\\kappa$ and clearance $\\theta\_\\alpha$. $\\kappa$ is *super high-jump* (resp. *super almost high-jump'') if there are high-jump embeddings (resp. almost high-jump embeddings) with arbtirarily large clearance (i.e. it is "(almost) high-jump order Ord").
+$\\kappa$ is high-jump *order $\\eta$* (resp. almost high-jump *order $\\eta$*) if there exists a strictly increasing sequence of ordinals $\\{\\theta\_\\alpha:\\alpha<\\eta\\}$ such that for all $\\alpha<\\eta$, there exists a high-jump embedding (resp. almost high-jump embedding) with critical point $\\kappa$ and clearance $\\theta\_\\alpha$. $\\kappa$ is *super high-jump* (resp. *super almost high-jump*) if there are high-jump embeddings (resp. almost high-jump embeddings) with arbtirarily large clearance (i.e. it is "(almost) high-jump order Ord").
 
 A high-jump cardinal $\\kappa$ has *unbounded excess closure* if for some clearance $\\theta$, for all cardinals $\\lambda\\geq\\theta$, there is a high-jump measure on $\\mathcal{P}\_\\kappa(\\lambda)$ generating an ultrapower embedding with clearance $\\theta$.
 
