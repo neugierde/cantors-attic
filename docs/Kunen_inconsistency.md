@@ -8,7 +8,7 @@ The Kunen inconsistency, the theorem showing that there can be no nontrivial [el
 Since that time, the inconsistency argument has been generalized by various authors, including Harada
 {% cite Kanamori2009 %}(p. 320-321),
 Hamkins, Kirmayer and Perlmutter {% cite HamkinsKirmayerPerlmutter %}, Woodin {% cite Kanamori2009 %}(p. 320-321),
-Zapletal {% cite Zapletal1996 %} and Suzuki <cite>Suzuki1998:NojVtoVinVofG, Suzuki1999:NoDefinablejVtoVinZF</cite>.
+Zapletal {% cite Zapletal1996 %} and Suzuki {% cite Suzuki1998:NojVtoVinVofG %}, {% cite Suzuki1999:NoDefinablejVtoVinZF %}.
 
 -    There is no nontrivial elementary embedding $j:V\\to V$ from the set-theoretic universe to itself.
 -    There is no nontrivial elementary embedding $j:V[G]\\to V$ of a set-forcing extension of the universe to the universe, and neither is there  $j:V\\to V[G]$ in the converse direction.
