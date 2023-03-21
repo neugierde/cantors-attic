@@ -11,7 +11,7 @@ permalink: High-jump
 
 Let $j:M\\to N$ be a (nontrivial) elementary embedding. The *clearance* of $j$ is the ordinal $\\text{sup}\\{j(f)(\\kappa)$ $|$ $f:\\kappa\\to\\kappa,f\\in M\\}$ where $\\kappa$ is the critical point of $j$.
 
-A cardinal $\\kappa$ is **high-jump** if there exists $j:V\\to M$ with critical point $\\kappa$ and clearance $\\theta$ such that $M^\\theta\\subseteq M$, i.e. $M$ contains all sequences of elements of $M$ of length $\\theta$. $j$ is called a *high-jump embedding*, and a [normal fine ultrafilter](Filter "Filter") on some $\\mathcal{P}\_\\kappa(\\lambda)$ generating an [ultrapower embedding](Ultrapower "Ultrapower") that is high-jump is a *high-jump ultrafilter* (or *high-jump measure'').
+A cardinal $\\kappa$ is **high-jump** if there exists $j:V\\to M$ with critical point $\\kappa$ and clearance $\\theta$ such that $M^\\theta\\subseteq M$, i.e. $M$ contains all sequences of elements of $M$ of length $\\theta$. $j$ is called a *high-jump embedding*, and a [normal fine ultrafilter](Filter "Filter") on some $\\mathcal{P}\_\\kappa(\\lambda)$ generating an [ultrapower embedding](Ultrapower "Ultrapower") that is high-jump is a *high-jump ultrafilter* (or *high-jump measure*).
 
 $\\kappa$ is called *almost high-jump* if $M$ is closed under sequences of length $<\\theta$ instead, i.e. $M^\\lambda\\subseteq M$ for all $\\lambda<\\theta$. $j$ is then an *almost high-jump* embedding. This means that for all $f:\\kappa\\to\\kappa$, $M^{j(f)(\\kappa)}\\subseteq M$. [Shelah for supercompactness](Shelah "Shelah") cardinals are a natural weakening of almost high-jump cardinals which allows to have one embedding per $f:\\kappa\\to\\kappa$ rather than a single embedding for all such $f$s.
 
