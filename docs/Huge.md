@@ -37,9 +37,9 @@ A cardinal $\\kappa$ is **$n$-huge*** if for some $\\alpha\\gt\\kappa$, $\\kappa
 Hugeness* variant is formulated in a way allowing for a virtual variant consistent with $V=L$: A cardinal $\\kappa$ is **virtually $n$-huge*** if for some $\\alpha\\gt\\kappa$, in a set-forcing extension, $\\kappa$ is the critical point of an elementary embedding $j: V\_\\alpha\\prec V\_\\beta$ such that $j^n(\\kappa)\\lt\\alpha$.{% cite GitmanSchindler %}
 
 ### Ultrafilter definition
-The first-order definition of n-huge is somewhat similar to [measurability](Measurable "Measurable"). Specifically, $\\kappa$ is measurable iff there is a nonprincipal $\\kappa$-complete [ultrafilter](Filter "Filter"), $U$, over $\\kappa$. A cardinal $\\kappa$ is n-huge with target $\\lambda$ iff there is a normal $\\kappa$-complete ultrafilter, $U$, over $\\mathcal{P}(\\lambda)$, and cardinals $\\kappa=\\lambda\_0< \\lambda\_1< \\lambda\_2...< \\lambda\_{n-1}< \\lambda\_n=\\lambda$ such that:
+The first-order definition of n-huge is somewhat similar to [measurability](Measurable "Measurable"). Specifically, $\\kappa$ is measurable iff there is a nonprincipal $\\kappa$-complete [ultrafilter](Filter "Filter"), $U$, over $\\kappa$. A cardinal $\\kappa$ is n-huge with target $\\lambda$ iff there is a normal $\\kappa$-complete ultrafilter, $U$, over $\\mathcal{P}(\\lambda)$, and cardinals $\\kappa=\\lambda\_0<\\lambda\_1<\\lambda\_2...<\\lambda\_{n-1}<\\lambda\_n=\\lambda$ such that:
 
-$$\\forall i<n(\\{x\\subseteq\\lambda:\\text{order-type}(x\\cap\\lambda\_{i+1})=\\lambda\_i\\}\\in U)$$
+$$\\forall i< n(\\{x\\subseteq\\lambda:\\text{order-type}(x\\cap\\lambda\_{i+1})=\\lambda\_i\\}\\in U)$$
 
 Where $\\text{order-type}(X)$ is the [order-type](Order-isomorphism "Order-isomorphism") of the poset $(X,\\in)$. {% cite Kanamori2009 %} $\\kappa$ is then super n-huge if for all ordinals $\\theta$ there is a $\\lambda>\\theta$ such that $\\kappa$ is n-huge with target $\\lambda$, i.e. $\\lambda\_n$ can be made arbitrarily large. If $j:V\\to M$ is such that $M^{j^n(\\kappa)}\\subseteq M$ (i.e. $j$ witnesses n-hugeness) then there is a ultrafilter $U$ as above such that, for all $k\\leq n$, $\\lambda\_k = j^k(\\kappa)$, i.e. it is not only $\\lambda=\\lambda\_n$ that is an iterate of $\\kappa$ by $j$; all members of the $\\lambda\_k$ sequence are.
 
@@ -78,8 +78,8 @@ Every huge cardinal is $C^{(1)}$-huge. Every superhuge cardinal is $C^{(1)}$-sup
 Hierarchy:
 -    The first $C^{(n)}$-$m$-huge cardinal is not $C^{(n+1)}$-$m$-huge, for all $m$ and $n$ greater or equal than $1$. For suppose $κ$ is the least $C^{(n)}$-$m$-huge cardinal and $j : V → M$ witnesses that $κ$ is $C^{(n+1)}$-$m$-huge. Then since “x is $C^{(n)}$-$m$-huge” is $Σ\_{n+1}$ expressible, we have $V\_{j(κ)} \\models$ “$κ$ is $C^{(n)}$-$m$-huge”. Hence, since $(V\_{j(κ)})^M = V\_{j(κ)}$, $M \\models$ “$∃\_{δ < j(κ)}(V\_{j(κ)} \\models$ “δ is huge”$)$”. By elementarity, there is a $C^{(n)}$-$m$-huge cardinal less than $κ$ in $V$ – contradiction.
     -    Similar argumentation shows that he first $C^{(n)}$-superhuge cardinal is not $C^{(n+1)}$-superhuge.
--    If $κ$ is $C^{(n)}$-$2$-huge, then there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : V\_κ \\models$ “$α$ is $C^{(n)}$-superhuge” $\\} ∈ \\mathcal{U}$.
--    If $κ$ is $C^{(n)}$-huge, then it is $C^{(n)}$-almost-huge and there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α$ is $C^{(n)}$-almost-huge$\\} ∈ \\mathcal{U}$
+-    If $κ$ is $C^{(n)}$-$2$-huge, then there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : V\_κ \\models$ “$α$ is $C^{(n)}$-superhuge”$ \\} ∈ \\mathcal{U}$.
+-    If $κ$ is $C^{(n)}$-huge, then it is $C^{(n)}$-almost-huge and there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α\\textrm{ is }C^{(n)}\\textrm{-almost-huge}\\} ∈ \\mathcal{U}$
     -    Every $C^{(n)}$-almost-huge cardinal is $C^{(n)}$-[superstrong](Superstrong "Superstrong"), so it belongs to $C^{(n)}$.
         -    Therefore, taking into account that $C^{(n)}$-huge is $Σ\_{n+1}$ expressible, the first $C^{(n)}$-huge cardinal is smaller than the first $C^{(n+1)}$-almost-huge cardinal (provided both exist).
 
