@@ -15,7 +15,7 @@ Ineffable cardinals are downward absolute to $L$. In $L$, an inaccessible cardin
 
 If [ $0^\\sharp$](Zero_sharp_ "Zero sharp ") exists, then every Silver indiscernible is ineffable in $L$. {% cite Jech2003 %}
 
-[Ramsey](Ramsey "Ramsey") cardinals are stationary limits of completely ineffable cardinals, they are weakly ineffable, but the least Ramsey cardinal is not ineffable. Ineffable Ramsey cardinals are limits of Ramsey cardinals, because ineffable cardinals are $Π^1\_2$-indescribable and being Ramsey is a $Π^1\_2$-statement. The least strongly Ramsey cardinal also is not ineffable, but super weakly Ramsey cardinals are ineffable. $1$-iterable (=weakly Ramsey) cardinals are weakly ineffable and stationary limits of completely ineffable cardinals. The least $1$-iterable cardinal is not ineffable. <cite>Gitman2011:RamseyLikeCardinals, HolySchlicht2017:HierarchyRamseylike</cite>
+[Ramsey](Ramsey "Ramsey") cardinals are stationary limits of completely ineffable cardinals, they are weakly ineffable, but the least Ramsey cardinal is not ineffable. Ineffable Ramsey cardinals are limits of Ramsey cardinals, because ineffable cardinals are $Π^1\_2$-indescribable and being Ramsey is a $Π^1\_2$-statement. The least strongly Ramsey cardinal also is not ineffable, but super weakly Ramsey cardinals are ineffable. $1$-iterable (=weakly Ramsey) cardinals are weakly ineffable and stationary limits of completely ineffable cardinals. The least $1$-iterable cardinal is not ineffable. {% cite Gitman2011:RamseyLikeCardinals %}, {% cite HolySchlicht2017:HierarchyRamseylike %}
 
 ## Relations with other large cardinals
 
@@ -41,19 +41,20 @@ Subtle cardinals were introduced by Jensen and Kunen in {% cite JensenKunen1969 
 
 -    Subtle cardinals are downward absolute to $L$. {% cite JensenKunen1969 %}
 -    Weakly ineffable cardinals are limits of subtle cardinals. {% cite JensenKunen1969 %}
--    Subtle cardinals are stationary limits of [totally indescribable](Totally_indescribable "Totally indescribable") cardinals. <cite>JensenKunen1969:Ineffable, Friedman1998:Subtle</cite>
+-    Subtle cardinals are stationary limits of [totally indescribable](Totally_indescribable "Totally indescribable") cardinals. {% cite JensenKunen1969:Ineffable %}{% cite Friedman1998:Subtle %}
 -    The least subtle cardinal is not weakly compact as it is $\\Pi\_1^1$-describable.
 -    [$\\alpha$-Erdős](Erdos "Erdos") cardinals are subtle. {% cite JensenKunen1969 %}
 -    If $δ$ is a subtle cardinal,
     -    the set of cardinals $κ$ below $δ$ that are [strongly uplifting](Uplifting "Uplifting") in $V\_δ$ is stationary.{% cite HamkinsJohnstone %}
-    -    for every class $\\mathcal{A}$, in every club $B ⊆ δ$ there is $κ$ such that $\\langle V\_δ, \\mathcal{A} ∩ V\_δ \\rangle \\models \\text{“$κ$ is $\\mathcal{A}$-shrewd.”}$.{% cite Rathjen2006 %} (The set of cardinals $κ$ below $δ$ that are $\\mathcal{A}$-[shrewd](Shrewd "Shrewd") in $V\_δ$ is stationary.)
+    -    for every class $\\mathcal{A}$, in every club $B ⊆ δ$ there is $κ$ such that $\\langle V\_δ, \\mathcal{A} ∩ V\_δ \\rangle \\models “κ\\text{ is }\\mathcal{A}\\text{-shrewd}$.”.{% cite Rathjen2006 %} (The set of cardinals $κ$ below $δ$ that are $\\mathcal{A}$-[shrewd](Shrewd "Shrewd") in $V\_δ$ is stationary.)
     -    there is an $\\eta$-shrewd cardinal below $δ$ for all $\\eta < δ$.{% cite Rathjen2006 %}
 
 ## Ethereal cardinal
 Ethereal cardinals were introduced by Ketonen in {% cite Ketonen1974 %} (information in this section from there) as a weakening of subtle cardinals.
 
 Definition:
-: A regular cardinal $κ$ is called **ethereal** if for every club $C$ in $κ$ and sequence $(S\_α|α < κ)$ of sets such that for $α < κ$, $|S\_α| = |α|$ and $S\_α ⊆ α$, there are elements $α, β ∈ C$ such that $α < β$ and $|S\_α ∩ S\_β| = |α|$. I.e., symbolically(?):
+
+:   A regular cardinal $κ$ is called **ethereal** if for every club $C$ in $κ$ and sequence $(S\_α|α < κ)$ of sets such that for $α < κ$, $|S\_α| = |α|$ and $S\_α ⊆ α$, there are elements $α, β ∈ C$ such that $α < β$ and $|S\_α ∩ S\_β| = |α|$. I.e., symbolically(?):
 $$κ \\text{ – ethereal} \\overset{\\text{def}}{⟺} \\left( κ \\text{ – regular} ∧ \\left( \\forall\_{C \\text{ – club in $κ$}} \\forall\_{S : κ → \\mathcal{P}(κ)} \\left( \\forall\_{α < κ} |S\_α| = |α| ∧ S\_α ⊆ α \\right) ⟹ \\left( \\exists\_{α, β ∈ C} α < β ∧ |S\_α ∩ S\_β| = |α| \\right) \\right) \\right)$$
 
 Properties:
@@ -62,7 +63,7 @@ Properties:
 -    A strongly inaccessible cardinal is ethereal if and only if it is subtle.
 -    If $κ$ is ethereal and $2^\\underset{\\smile}{κ} = κ$, then $♢\_κ$ holds (where $2^\\underset{\\smile}{κ} =  \\bigcup \\{ 2^α | α < κ \\}$ is the weak power of $κ$).
 
-''To be expanded.*
+*To be expanded.*
 
 ## $n$-ineffable cardinal
 The $n$-ineffable cardinals for $2\\leq n<\\omega$ were introduced by Baumgartner in {% cite Baumgartner1975 %} as a strengthening of ineffable cardinals. A cardinal is $n$-ineffable if for every function $F:[\\kappa]^n\\rightarrow 2$ there is a stationary $H\\subseteq\\kappa$ such that $F\\upharpoonright [H]^n$ is constant.
@@ -111,7 +112,7 @@ Relations:
 -    Every completely ineffable is a stationary limit of $<ω$-Ramseys.{% cite NielsenWelch2018 %}
 -    Completely Ramsey cardinals and $ω$-Ramsey cardinals are completely ineffable.{% cite NielsenWelch2018 %}
 -    $ω$-Ramsey cardinals are limits of completely ineffable cardinals.{% cite HolySchlicht2017 %}
--    Consistency of a completely ineffable cardinal implies consistency of the theory $\\mathrm{BTEE}$ ([Basic Theory of Elementary Embeddings](Basic_Theory_of_Elementary_Embeddings "Basic Theory of Elementary Embeddings")).[https://victoriagitman.github.io/research/2019/06/05/completely-ineffable-cardinals.html]
+-    Consistency of a completely ineffable cardinal implies consistency of the theory $\\mathrm{BTEE}$ ([Basic Theory of Elementary Embeddings](Basic_Theory_of_Elementary_Embeddings "Basic Theory of Elementary Embeddings")). (Gitman, [Completely ineffable cardinals](https://victoriagitman.github.io/research/2019/06/05/completely-ineffable-cardinals.html))
 
 {{References}}
 
