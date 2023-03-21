@@ -3,9 +3,9 @@ title: Positive_set_theory
 permalink: Positive_set_theory
 ---
 
-''Positive set theory* is the name of a certain group of axiomatic set theories originally created as an example of a (nonstandard) set theories in which the axiom of foundation fails (e.g. there exists $x$ such that $x\\in x$). {% cite FortiHinnion89 %} Those theories are based on a weakening of the (inconsistent) *comprehension axiom* of [naive set theory](Naive_set_theory "Naive set theory") (which asserts that every formula $\\phi(x)$ defines a set that contains all $x$ such that $\\phi(x)$) by restraining the formulas used to a smaller class of formulas called *positive* formulas.
+*Positive set theory* is the name of a certain group of axiomatic set theories originally created as an example of a (nonstandard) set theories in which the axiom of foundation fails (e.g. there exists $x$ such that $x\\in x$). {% cite FortiHinnion89 %} Those theories are based on a weakening of the (inconsistent) *comprehension axiom* of [naive set theory](Naive_set_theory "Naive set theory") (which asserts that every formula $\\phi(x)$ defines a set that contains all $x$ such that $\\phi(x)$) by restraining the formulas used to a smaller class of formulas called *positive* formulas.
 
-While most positive set theories are weaker than [$\\text{ZFC}$](ZFC "ZFC") (and usually mutually interpretable with <a href="https://en.wikipedia.org/wiki/second-order arithmetic" class="extiw" title="wikipedia:second-order arithmetic">>second-order arithmetic</a>), one of them, $\\text{GPK}^+\_\\infty$ turns out to be very powerful, being mutually interpretable with [Morse-Kelley set theory](Morse-Kelley_set_theory "Morse-Kelley set theory") plus an axiom asserting that the class of all [ordinals](Ordinal "Ordinal") is [weakly compact](Weakly_compact "Weakly compact"). {% cite Esser96 %}
+While most positive set theories are weaker than [$\\text{ZFC}$](ZFC "ZFC") (and usually mutually interpretable with <a href="https://en.wikipedia.org/wiki/second-order arithmetic" class="extiw" title="wikipedia:second-order arithmetic">second-order arithmetic</a>), one of them, $\\text{GPK}^+\_\\infty$ turns out to be very powerful, being mutually interpretable with [Morse-Kelley set theory](Morse-Kelley_set_theory "Morse-Kelley set theory") plus an axiom asserting that the class of all [ordinals](Ordinal "Ordinal") is [weakly compact](Weakly_compact "Weakly compact"). {% cite Esser96 %}
 
 ## Positive formulas
 
@@ -22,7 +22,7 @@ The positive set theory $\\text{GPK}$ consists of the following axioms:
 -    **Empty set**: $\\exists x\\forall y(y\\not\\in x)$.
 -    **Extensionality**: $\\forall x\\forall y(x=y\\Leftrightarrow\\forall z(z\\in x\\Leftrightarrow z\\in y))$.
 -    **GPF comprehension**: the universal closure of $\\exists x\\forall y(y\\in x\\Leftrightarrow\\varphi)$ for every GPF formula $\\varphi$ (with parameters) in which $x$ does not occur.
-The empty set axiom is necessary, as without it the theory would hold in the trivial model which has only one element satisfying $x=\\{x\\}$. Note that, while $\\text{GPK}$ do proves the existence of a set such that $x\\in x$, Olivier Esser proved that it refutes the <a href="https://en.wikipedia.org/wiki/anti-foundation axiom" class="extiw" title="wikipedia:anti-foundation axiom">>anti-foundation axiom</a> (AFA). {% cite Esser96 %}
+The empty set axiom is necessary, as without it the theory would hold in the trivial model which has only one element satisfying $x=\\{x\\}$. Note that, while $\\text{GPK}$ do proves the existence of a set such that $x\\in x$, Olivier Esser proved that it refutes the <a href="https://en.wikipedia.org/wiki/anti-foundation axiom" class="extiw" title="wikipedia:anti-foundation axiom">anti-foundation axiom</a> (AFA). {% cite Esser96 %}
 
 The theory $\\text{GPK}^+$ is obtained by adding the following axiom:
 -    **Closure**: the universal closure of $\\exists x(\\forall z(\\varphi(z)\\Rightarrow z\\in x)\\land\\forall y(\\forall z(\\varphi(z)\\Rightarrow z\\in y)\\Rightarrow x\\subset y))$ for every formula $\\varphi(z)$ (not necessarily BPF or GPF) with a free variable $z$ (and possibly parameters) such that $x$ does not occur in $\\varphi$.
@@ -37,11 +37,11 @@ By "von Neumann ordinal" we mean the usual definition of ordinals as well-ordere
 Olivier Esser showed that $\\text{GPK}^+\_\\infty$ can not only interpret $\\text{ZFC}$ (and prove it consistent), but is in fact mutually interpretable with a *much* stronger set theory, namely, Morse-Kelley set theory with an axiom asserting that the (proper) class of all ordinals is [weakly compact](Weakly_compact "Weakly compact"). This theory is powerful enough to prove, for instance, that there exists a proper class of [hyper-Mahlo](Mahlo "Mahlo") cardinals. {% cite Esser96 %}
 
 ## As a topological set theory
-''To be expanded.*
+*To be expanded.*
 ## The axiom of choice and $\\text{GPK}$ set theories
-''To be expanded. {% cite Esser2000 %}{% cite FortiHinnion89 %}''
+*To be expanded. {% cite Esser2000 %}{% cite FortiHinnion89 %}*
 ## Other positive set theories and the inconsistency of the axiom of extensionality
-''To be expanded. {% cite Esser99 %}''
+*To be expanded. {% cite Esser99 %}*
 
 {{References}}
 
