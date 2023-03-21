@@ -15,12 +15,12 @@ The idea behind the infinitary logic $\\mathcal{L}\_{\\kappa,\\lambda}$ is that 
 
 Let $\\kappa$ and $\\lambda$ be regular cardinals. Then, $\\mathcal{L}\_{\\kappa,\\lambda}$ allows for all first-order finitary assertions (made in $\\mathcal{L}\_{\\omega,\\omega}$) along with:
 
-#For any set of $\\mathcal{L}\_{\\kappa,\\lambda}$-formulae $P$ where $|P|<\\kappa$, $\\bigwedge\_{\\varphi\\in P} \\varphi$ and $\\bigvee\_{\\varphi\\in P}\\varphi$
-#For any set of variables $A$ where $|A|<\\kappa$, $\\forall\_{v\\in A}\\varphi$ where $\\varphi$ is an $\\mathcal{L}\_{\\kappa,\\lambda}$-formula
-#For any $\\varphi$ which is an $\\mathcal{L}\_{\\kappa,\\lambda}$-formula, $\\neg\\varphi$
+1.  For any set of $\\mathcal{L}\_{\\kappa,\\lambda}$-formulae $P$ where $|P|<\\kappa$, $\\bigwedge\_{\\varphi\\in P} \\varphi$ and $\\bigvee\_{\\varphi\\in P}\\varphi$
+2.  For any set of variables $A$ where $|A|<\\kappa$, $\\forall\_{v\\in A}\\varphi$ where $\\varphi$ is an $\\mathcal{L}\_{\\kappa,\\lambda}$-formula
+3.  For any $\\varphi$ which is an $\\mathcal{L}\_{\\kappa,\\lambda}$-formula, $\\neg\\varphi$
 
 There is also $\\mathcal{L}\_{\\infty,\\lambda}$, $\\mathcal{L}\_{\\kappa,\\infty}$, and $\\mathcal{L}\_{\\infty,\\infty}$ where $\\infty$ is treated like $\\text{ORD}$, allowing for statements of any ordinal length. You can even have $\\mathcal{L}\_{\\infty^+,\\infty^+}$ which allows for $\\text{ORD}$-length statements.
 
 ### Expressiveness
 
-$\\mathcal{L}\_{\\kappa,\\kappa}$ is unable to express some $\\Pi\_1^1$-formulae under ZFC. Contrastively, $\\mathcal{L}^1\_{\\omega,\\omega}$ is unable to express $\\mathcal{L}\_{\\omega\_1,\\omega\_1}$, so first-order infinitary logic and second-order finitary logic both have expressiveness advantages. For why, see [https://mathoverflow.net/questions/285020/how-expressive-can-mathcall-kappa-kappa-be this question] on MathOverflow.
+$\\mathcal{L}\_{\\kappa,\\kappa}$ is unable to express some $\\Pi\_1^1$-formulae under ZFC. Contrastively, $\\mathcal{L}^1\_{\\omega,\\omega}$ is unable to express $\\mathcal{L}\_{\\omega\_1,\\omega\_1}$, so first-order infinitary logic and second-order finitary logic both have expressiveness advantages. For why, see [this question](https://mathoverflow.net/questions/285020/how-expressive-can-mathcall-kappa-kappa-be) on MathOverflow.
