@@ -9,7 +9,7 @@ There are really two cardinals relevant to such embeddings: The large cardinal i
 
 As a result of the strong closure properties of rank into rank embeddings, their critical points are [huge](Huge "Huge") and in fact $n$-huge for every $n$. This aspect of the large cardinal property is often called $\\omega$-hugeness and the term *$\\omega$-huge cardinal* is sometimes used to refer to the critical point of some rank into rank embedding.
 
-==The $\\text{I3}$ Axiom==  
+## The $\\text{I3}$ Axiom  
 
 The $\\text{I3}$ axiom  asserts, generally, that there is some embedding $j:V\_\\lambda\\to V\_\\lambda$.
 
@@ -22,7 +22,7 @@ The axiom can be strengthened and refined in a natural way by asserting that var
 
 The more specific axiom $E\_n(\\lambda)$ asserts that some $j\\in\\mathcal{E}(V\_\\lambda)$ is $\\Sigma^1\_{2n}$.
 
-The “$2n$” subscript in the axiom $E\_n(\\lambda)$ is incorporated so that the axioms $E\_m(\\lambda)$ and $E\_n(\\lambda)$ where $m<n$ are strictly increasing in strength. This is somewhat subtle. For $n$ odd, $j$ is $\\Sigma^1\_n$ if and only if $j$ is $\\Sigma^1\_{n+1}$ (shown by Donald Martin). However, for $n$ even, $j$ being $\\Sigma^1\_{n+1}$ is *significantly* stronger than a $j$ being $\\Sigma^1\_n${% cite Laver1997 %}.
+The “$2n$” subscript in the axiom $E\_n(\\lambda)$ is incorporated so that the axioms $E\_m(\\lambda)$ and $E\_n(\\lambda)$ where $m< n$ are strictly increasing in strength. This is somewhat subtle. For $n$ odd, $j$ is $\\Sigma^1\_n$ if and only if $j$ is $\\Sigma^1\_{n+1}$ (shown by Donald Martin). However, for $n$ even, $j$ being $\\Sigma^1\_{n+1}$ is *significantly* stronger than a $j$ being $\\Sigma^1\_n${% cite Laver1997 %}.
 
 $E\_{n+1}$ strongly implies $E\_n$. It also implies the consistency of $E\_n$ strengthened by adding “with an arbitrarily large first target”.{% cite Kentaro2007 %}
 
@@ -93,13 +93,13 @@ Results:
 
 The critical points of rank into rank embeddings have many strong reflection properties. They are measurable, $n$-huge for all $n$ (hence the terminology $\\omega$-huge mentioned in the introduction) and partially supercompact.
 
-Using $\\kappa\_0$ as a seed, one can form the ultrafilter $$U=\\{X\\subseteq\\mathcal{P}(\\kappa\_0): j``\\kappa\_0\\in j(X)\\}.$$ Thus, $\\kappa\_0$ is a measurable cardinal.
+Using $\\kappa\_0$ as a seed, one can form the ultrafilter $U=\\{X\\subseteq\\mathcal{P}(\\kappa\_0): j"\\kappa\_0\\in j(X)\\}.$ Thus, $\\kappa\_0$ is a measurable cardinal.
 
 In fact, for any $n$, $\\kappa\_0$ is also $n$-huge as witnessed by the ultrafilter
-$$U=\\{X\\subseteq\\mathcal{P}(\\kappa\_n): j``\\kappa\_n\\in j(X)\\}.$$ This motivates the term $\\omega$-huge cardinal mentioned in the introduction.
+$U=\\{X\\subseteq\\mathcal{P}(\\kappa\_n): j"\\kappa\_n\\in j(X)\\}.$ This motivates the term $\\omega$-huge cardinal mentioned in the introduction.
 
 Letting  $j^n$ denote the $n^{th}$ iteration of $j$, then
-$$V\_\\lambda\\models ``\\lambda\\text{ is supercompact"}.$$ To see this, suppose $\\kappa\_0\\leq \\theta <\\kappa\_n$, then $$U=\\{X\\subseteq\\mathcal{P}\_{\\kappa\_0}(\\theta): j^n``\\theta\\in j^n(X)\\}$$ winesses the $\\theta$-compactness of $\\kappa\_0$ (in $V\_\\lambda$). For this last claim, it is enough that $\\kappa\_0(j)$ is $<\\lambda$-supercompact, i.e. not *fully* supercompact in $V$. In this case, however, $\\kappa\_0$ *could* be fully supercompact.
+$V\_\\lambda\\models“\\lambda\\text{ is supercompact}”.$ To see this, suppose $\\kappa\_0\\leq \\theta <\\kappa\_n$, then $$U=\\{X\\subseteq\\mathcal{P}\_{\\kappa\_0}(\\theta): j^{n}"\\theta\\in j^n(X)\\}$$ winesses the $\\theta$-compactness of $\\kappa\_0$ (in $V\_\\lambda$). For this last claim, it is enough that $\\kappa\_0(j)$ is $<\\lambda$-supercompact, i.e. not *fully* supercompact in $V$. In this case, however, $\\kappa\_0$ *could* be fully supercompact.
 
 Critical points of rank-into-rank embeddings also exhibit some *upward* reflection properties. For example, if $\\kappa$ is a critical point of some embedding witnessing $\\text{I3}(\\kappa,\\lambda)$, then there must exist another embedding witnessing $\\text{I3}(\\kappa',\\lambda)$ with critical point *above* $\\kappa$! This upward type of reflection is not exhibited by large cardinals below [extendible](Extendible "Extendible") cardinals in the large cardinal hierarchy.
 
@@ -187,8 +187,8 @@ General results:
     -    The assertion that “there is an $\\omega$-fold extendible cardinal” implies the consistency of “the $\\mathrm{I3}$ cardinals form a proper class”.
 -    If $e : V\_\\delta \\prec V\_\\delta$ witnesses $IE^\\omega$ with $crit(e) = \\kappa$, then
     -    $\\kappa$ is $\\omega$-fold Vopěnka,
-    -    $\\{\\alpha < \\kappa | V\_\\kappa \\models$ “$\\alpha$ is $\\omega$-fold Vopěnka”$\\} \\in \\{x \\subset \\kappa | \\kappa \\in e(x)\\}$ and
-    -    $\\{\\alpha < \\kappa | \\alpha$ is $\\omega$-fold Vopěnka$\\} \\in \\{x \\subset \\kappa | \\kappa \\in e(x)\\}$.
+    -    $\\{\\alpha < \\kappa | V\_\\kappa \\models “\\alpha\\text{ is }\\omega\\text{-fold Vopěnka”}\\} \\in \\{x \\subset \\kappa | \\kappa \\in e(x)\\}$ and
+    -    $\\{\\alpha < \\kappa | \\alpha\\text{ is }\\omega\\text{-fold Vopěnka}\\} \\in \\{x \\subset \\kappa | \\kappa \\in e(x)\\}$.
     -    The critical point $\\kappa$ of a witness of $IE^\\omega$ is the $\\kappa$-th $\\omega$-fold Vopěnka cardinal.
     -    $IE^\\omega$ implies consistency of “$\\omega$-fold Vopěnka cardinals form a proper class”.
 -    $\\omega$-fold superstrong (=$\\omega$-fold Shelah) is equivalent to $\\mathrm{I2}$.
