@@ -13,7 +13,7 @@ There are quite a few definitions involved with partition properties. In fact, p
 
 ### Square Bracket Notation
 
-The square bracket notation is somewhat simple and easy to grasp (and used in many other places). Let $X$ be a set of ordinals. $[X]^\\beta$ for some ordinal $\\beta$ is the set of all subsets $x\\subseteq X$ such that $(x,<)$ has order-type $\\beta$; that is, there is a bijection $f$ from $x$ to $\\beta$ such that $f(a)<f(b)$ iff $a<b$ for each $a$ and $b$ in $x$. Such a bijection is often called an order-isomorphism.
+The square bracket notation is somewhat simple and easy to grasp (and used in many other places). Let $X$ be a set of ordinals. $[X]^\\beta$ for some ordinal $\\beta$ is the set of all subsets $x\\subseteq X$ such that $(x,<)$ has order-type $\\beta$; that is, there is a bijection $f$ from $x$ to $\\beta$ such that $f(a)< f(b)$ iff $a< b$ for each $a$ and $b$ in $x$. Such a bijection is often called an order-isomorphism.
 
 $[X]^{<\\beta}$ for some ordinal $\\beta$ is simply defined as the union of all $[X]^{\\alpha}$ for $\\alpha<\\beta$, the set of all subsets $x\\subseteq X$ with order-type less than $\\beta$. In the case of $\\omega$, $[X]^{<\\omega}$ is the set of all finite subsets of $X$.
 
