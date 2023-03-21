@@ -3,7 +3,7 @@ title: N-fold_variants
 permalink: N-fold_variants
 ---
 
-''This page is a WIP.*
+*This page is a WIP.*
 The $n$-fold variants of large cardinal axioms were created by Sato Kentaro in {% cite Kentaro2007 %} in order to study and investigate the double helix phenomena. The double helix phenomena is the strange pattern in consistency strength between such cardinals, which can be seen below.
 
 [[file:DoubleHelix.png | 600px | center]]
@@ -53,7 +53,7 @@ In {% cite Kentaro2007 %}, there were many $n$-fold variants which were simply d
 
 ### $n$-fold supercompact cardinals
 
-A cardinal $\\kappa$ is **$n$-fold $\\lambda$-supercompact** iff it is the critical point of some nontrivial elementary embedding $j:V\\rightarrow M$ such that $\\lambda<j(\\kappa)$ and $M^{j^{n-1}(\\lambda)}\\subset M$ (i.e. $M$ is closed under all of its sequences of length $j^{n-1}(\\lambda)$). This definition is very similar to that of the [ $n$-huge](Huge_ "Huge ") cardinals.
+A cardinal $\\kappa$ is **$n$-fold $\\lambda$-supercompact** iff it is the critical point of some nontrivial elementary embedding $j:V\\rightarrow M$ such that $\\lambda< j(\\kappa)$ and $M^{j^{n-1}(\\lambda)}\\subset M$ (i.e. $M$ is closed under all of its sequences of length $j^{n-1}(\\lambda)$). This definition is very similar to that of the [ $n$-huge](Huge_ "Huge ") cardinals.
 
 A cardinal $\\kappa$ is **$n$-fold supercompact** iff it is $n$-fold $\\lambda$-supercompact for every $\\lambda$. Consistency-wise, the $n$-fold supercompact cardinals are stronger than the [ $n$-superstrong](Superstrong_ "Superstrong ") cardinals and weaker than the $(n+1)$-fold strong cardinals. In fact, if an $n$-fold supercompact cardinal exists, then it is consistent for there to be a proper class of $n$-superstrong cardinals.
 
@@ -65,7 +65,7 @@ $n$-fold supercompactness implies $n$-fold “super”-superstrongness ($n$-supe
 
 ### $n$-fold strong cardinals
 
-A cardinal $\\kappa$ is **$n$-fold $\\lambda$-strong** (for $F$) iff it is the critical point of some nontrivial elementary embedding $j:V\\rightarrow M$ such that $\\kappa+\\lambda<j(\\kappa)$ and $V\_{j^{n-1}(\\kappa+\\lambda)}\\subset M$ (and $j^+(F) \\cap V\_{j^{n-1}(\\kappa+\\lambda)} = F \\cap V\_{j^{n-1}(\\kappa+\\lambda)}$).
+A cardinal $\\kappa$ is **$n$-fold $\\lambda$-strong** (for $F$) iff it is the critical point of some nontrivial elementary embedding $j:V\\rightarrow M$ such that $\\kappa+\\lambda< j(\\kappa)$ and $V\_{j^{n-1}(\\kappa+\\lambda)}\\subset M$ (and $j^+(F) \\cap V\_{j^{n-1}(\\kappa+\\lambda)} = F \\cap V\_{j^{n-1}(\\kappa+\\lambda)}$).
 
 A cardinal $\\kappa$ is **$n$-fold strong** iff it is $n$-fold $\\lambda$-strong for every $\\lambda$. Consistency-wise, the $(n+1)$-fold strong cardinals are stronger than the $n$-fold supercompact cardinals, equivalent to the $n$-fold extendible cardinals, and weaker than the $(n+1)$-fold Woodin cardinals. More specifically, in the rank of an $(n+1)$-fold Woodin cardinal there is an $(n+1)$-fold strong cardinal.
 
@@ -159,7 +159,7 @@ Consistency-wise,
 
 ### $\\omega$-fold strong
 
-A cardinal $\\kappa$ is **$\\omega$-fold $\\lambda$-strong** iff it is the critical point of some nontrivial elementary embedding $j:V\\rightarrow M$ such that $\\kappa+\\lambda<j(\\kappa)$ and $V\_{j^\\omega(\\kappa+\\lambda)}\\subset M$.
+A cardinal $\\kappa$ is **$\\omega$-fold $\\lambda$-strong** iff it is the critical point of some nontrivial elementary embedding $j:V\\rightarrow M$ such that $\\kappa+\\lambda< j(\\kappa)$ and $V\_{j^\\omega(\\kappa+\\lambda)}\\subset M$.
 
 $\\kappa$ is **$\\omega$-fold strong** iff it is $\\omega$-fold $\\lambda$-strong for every $\\lambda$.
 
@@ -181,10 +181,10 @@ Consistency wise:
 ## Alternative classification
 For a cardinal $\\kappa$ and $n \\ge 0$ one can define the following:
 -    $\\kappa$ is $n$-B-huge iff there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ such that $M^{j^n(\\kappa)} \\subset M$ (=$n$-huge).
--    $\\kappa$ is $n$-B-almost huge iff there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ such that $M^{<j^n(\\kappa)} \\subset M$ (=almost $n$-huge).
+-    $\\kappa$ is $n$-B-almost huge iff there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ such that $M^{< j^n(\\kappa)} \\subset M$ (=almost $n$-huge).
 -    $\\kappa$ is $n$-B-strong iff there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ such that $V\_{j^n(\\kappa)} \\subset M$ (=$n$-superstrong).
 -    $\\kappa$ is $n$-A-huge iff, for every $γ$, there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ and $j(\\kappa) > \\kappa + γ$ such that $M^{j^n(\\kappa)} \\subset M$ (=$n$-superhuge).
--    $\\kappa$ is $n$-A-almost huge iff, for every $γ$, there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ and $j(\\kappa) > \\kappa + γ$ such that $M^{<j^n(\\kappa)} \\subset M$ (=super almost $n$-huge).
+-    $\\kappa$ is $n$-A-almost huge iff, for every $γ$, there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ and $j(\\kappa) > \\kappa + γ$ such that $M^{< j^n(\\kappa)} \\subset M$ (=super almost $n$-huge).
 -    $\\kappa$ is $n$-A-strong iff, for every $γ$, there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ and $j(\\kappa) > \\kappa + γ$ such that $V\_{j^n(\\kappa)} \\subset M$ (=$n$-fold “super”-superstrong).
 -    $\\kappa$ is $n$-P-huge iff, for every $γ$, there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ and $j(\\kappa) > \\kappa + γ$ such that $M^{j^n(\\kappa+\\gamma)} \\subset M$ (=$(n+1)$-fold supercompact).
 -    $\\kappa$ is $n$-P-strong iff, for every $γ$, there is $j : V \\to M$ with $\\operatorname{crit} j = \\kappa$ and $j(\\kappa) > \\kappa + γ$ such that $V\_{j^n(\\kappa+\\gamma)} \\subset M$ (=$(n+1)$-fold strong).
