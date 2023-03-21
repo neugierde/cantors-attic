@@ -83,9 +83,7 @@ $\\Sigma\_3$-extendible cardinals cannot be Laver [indestructible](Indestructibl
 (this subsection from {% cite Hamkins2016 %} unless noted otherwise)
 
 Definitions:
--    A cardinal $κ$ is **$A$-extendible**, for a class $A$, iff for every ordinal $λ > κ$ there is an ordinal $θ$ such that there is an elementary embedding
--   : $j : ⟨ V\_λ , ∈, A ∩ V\_λ ⟩ → ⟨ V\_θ , ∈, A ∩ V\_θ ⟩$
--   : with critical point $κ$ (such that $λ < j(κ)$ — *removing this does not change, what cardinals are extendible*).
+-    A cardinal $κ$ is **$A$-extendible**, for a class $A$, iff for every ordinal $λ > κ$ there is an ordinal $θ$ such that there is an elementary embedding $j : ⟨ V\_λ , ∈, A ∩ V\_λ ⟩ → ⟨ V\_θ , ∈, A ∩ V\_θ ⟩$ with critical point $κ$ (such that $λ < j(κ)$ — *removing this does not change, what cardinals are extendible*).
     -    $λ$ is called the degree of $A$-extendibility of an embedding.
 -    A cardinal $κ$ is **$(Σ\_n)$-extendible**, iff it is $A$-extendible, where $A$ is the $Σ\_n$-truth predicate. (This is a different notion than $\\Sigma\_n$-extendible cardinals.){% cite GitmanHamkins2018 %}
 -    For $A$-extendible $κ$ is, a set $g ⊆ κ$ is called **$A$-stretchable**, if for every $λ > κ$ and every $h ⊆ λ$ for which $h ∩ κ = g$, there is an elementary embedding $j : ⟨V\_λ , ∈, A ∩ V\_λ⟩ → ⟨V\_θ , ∈, A ∩ V\_θ⟩$ such that $crit(j)=κ$, $λ < j(κ)$ and $j(g) ∩ λ = h$.
@@ -116,9 +114,7 @@ Results:
 Definitions:
 -    A cardinal $κ$ is (weakly? strongly? ......) **virtually extendible** iff for every $α > κ$, in a set-forcing extension there is an elementary embedding $j : V\_α → V\_β$ with $\\mathrm{crit(j)} = κ$ and $j(κ) > α$.
     -    **$C^{(n)}$-virtually extendible** cardinals require additionally that $j(κ)$ has property $C^{(n)}$ (i.e. $\\Sigma\_n$-[correctness](Correct "Correct")).{% cite GitmanSchindler %}
--    A cardinal $κ$ is **(weakly) virtually $A$-extendible**, for a class $A$, iff for every ordinal $λ > κ$ there is an ordinal $θ$ such that in a set-forcing extension, there is an elementary embedding
--   : $j : \\langle V\_λ , ∈, A ∩ V\_λ \\rangle → \\langle V\_θ , ∈, A ∩ V\_θ \\rangle$
--   : with critical point $κ$.
+-    A cardinal $κ$ is **(weakly) virtually $A$-extendible**, for a class $A$, iff for every ordinal $λ > κ$ there is an ordinal $θ$ such that in a set-forcing extension, there is an elementary embedding $j : \\langle V\_λ , ∈, A ∩ V\_λ \\rangle → \\langle V\_θ , ∈, A ∩ V\_θ \\rangle$ with critical point $κ$.
     -    For **(strongly) virtually $A$-extendible** $κ$, we require additionally $λ < j(κ)$.{% cite GitmanHamkins2018 %}
 -    A cardinal $κ$ is **$n$-[remarkable](Remarkable "Remarkable")**, for $n > 0$, iff for every $η > κ$ in [$C^{(n)}$](Correct "Correct") , there is $α<κ$ also in $C^{(n)}$ such that in $V^{Coll(ω, < κ)}$, there is an elementary embedding $j : V\_α → V\_η$ with $j(\\mathrm{crit}(j)) = κ$.
     -    A cardinal is **completely remarkable** iff it is $n$-remarkable for all $n > 0$.{% cite BagariaGitmanSchindler2017 %}
