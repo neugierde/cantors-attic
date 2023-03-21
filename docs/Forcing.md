@@ -5,7 +5,7 @@ permalink: Forcing
 
 **Forcing** is a method for extending a transitive model $M$ of $\\text{ZFC}$ (the *ground [model](Model "Model")*) by adjoining a new set $G$ (the *generic set*) to produce a new, larger model $M[G]$ called a *generic extension*. In short, the set $G$ can be constructed a certain way using a partially ordered set (poset) $(\\mathbb{P},\\leq)\\in M$ (the *forcing notion*) so that the following holds:
 
--    **(Generic Model Theorem).** There exists a unique transitive model $M[G]$ of $\\text{ZFC}$ that includes $M$ (as a subset) and contains $G$ (as an element), has the same ordinals as $M$, and any transitive model of $\\text{ZFC}$ also including $M$ and containing $G$ includes $M[G]$ (i.e. $M[G]$ is minimal).
+-   **(Generic Model Theorem).** There exists a unique transitive model $M[G]$ of $\\text{ZFC}$ that includes $M$ (as a subset) and contains $G$ (as an element), has the same ordinals as $M$, and any transitive model of $\\text{ZFC}$ also including $M$ and containing $G$ includes $M[G]$ (i.e. $M[G]$ is minimal).
 
 The elements of the forcing notion $\\mathbb{P}$ will be called the *conditions*. The order $p\\leq q$, for $p,q\\in\\mathbb{P}$, is to be interpreted as "$p$ is stronger than $q$" or as "$p$ implies $q$". $G$ will be a special subset of $\\mathbb{P}$ said to be *generic over $M$* and satisfying some requirements. The choice of $\\mathbb{P}$ and of $\\leq$ will determine what is true of false in $M[G]$. A special relation called the *forcing relation* is defined, which links the conditions to the formulas they will force. It is very important to note that this relation can be defined from within the ground model $M$.
 
@@ -38,9 +38,9 @@ In most cases, if $G$ is $\\mathbb{P}$-generic over $M$ then $G\\not\\in M$. The
 ### $\\mathbb{P}$-names and interpretation by $G$
 
 Using transfinite recursion, define the following cumulative hierarchy:
--    $V^\\mathbb{P}\_0=\\emptyset$,  $V^\\mathbb{P}\_\\lambda = \\bigcup\_{\\alpha<\\lambda}V^\\mathbb{P}\_\\alpha$ for limit $\\lambda$
--    $V^\\mathbb{P}\_{\\alpha+1} = \\mathcal{P}(V^\\mathbb{P}\_\\alpha\\times\\mathbb{P})$
--    $V^\\mathbb{P} = \\bigcup\_{\\alpha\\in\\mathrm{Ord}}V^\\mathbb{P}\_\\alpha$
+-   $V^\\mathbb{P}\_0=\\emptyset$,  $V^\\mathbb{P}\_\\lambda = \\bigcup\_{\\alpha<\\lambda}V^\\mathbb{P}\_\\alpha$ for limit $\\lambda$
+-   $V^\\mathbb{P}\_{\\alpha+1} = \\mathcal{P}(V^\\mathbb{P}\_\\alpha\\times\\mathbb{P})$
+-   $V^\\mathbb{P} = \\bigcup\_{\\alpha\\in\\mathrm{Ord}}V^\\mathbb{P}\_\\alpha$
 Elements of $V^\\mathbb{P}$ are called *$\\mathbb{P}$-names*. Every nonempty $\\mathbb{P}$-name is of a set of pairs $(n,p)$ where $n$ is another $\\mathbb{P}$-name and $p\\in\\mathbb{P}$.
 
 Given a filter $G\\subseteq\\mathbb{P}$, define the *interpretation of $\\mathbb{P}$-names* by $G$: Given a $\\mathbb{P}$-name $x$, let $x^G=\\{y^G : ((\\exists p\\in G)(y,p)\\in x)\\}$. Letting $\\breve{x}=\\{(\\breve{y},1):y\\in x\\}$ for every set $x$ be the *canonical name* for $x$, one has $\\breve{x}^G=x$ for all $x$.
@@ -54,15 +54,15 @@ Define the *forcing language* to be the first-order language of set theory augme
 The **Forcing Theorem** asserts that if $\\sigma$ is a sentence of the forcing language, $M[G]$ satisfies $\\sigma$ if and only if some condition $p\\in G$ forces $\\sigma$.
 
 The forcing relation has the following properties, for all $p,q\\in\\mathbb{P}$ and formulas $\\varphi,\\psi$ of the forcing language:
--    $p\\Vdash\\varphi\\land q\\leq p\\implies q\\Vdash\\varphi$
--    $p\\Vdash\\varphi\\implies\\neg(p\\Vdash\\neg\\varphi)$
--    $p\\Vdash\\neg\\varphi\\iff\\neg\\exists q\\leq p(q\\Vdash\\varphi)$
--    $p\\Vdash(\\varphi\\land\\psi)\\iff(p\\Vdash\\varphi\\land p\\Vdash\\psi)$
--    $p\\Vdash\\forall x\\varphi\\iff\\forall x\\in M^\\mathbb{P}(p\\Vdash\\varphi(x))$
--    $p\\Vdash(\\varphi\\lor\\psi)\\iff\\forall q\\leq p\\exists r\\leq q(r\\Vdash\\varphi\\lor r\\Vdash\\psi)$
--    $p\\Vdash\\exists x\\varphi\\iff\\forall q\\leq p\\exists r\\leq q\\exists x\\in M^\\mathbb{R}(r\\Vdash\\varphi(x))$
--    $p\\Vdash\\exists x\\varphi\\implies\\exists x\\in M^\\mathbb{P}(p\\Vdash\\varphi(x))$
--    $\\forall p\\exists q\\leq p (q\\Vdash\\varphi\\lor q\\Vdash\\neg\\varphi)$
+-   $p\\Vdash\\varphi\\land q\\leq p\\implies q\\Vdash\\varphi$
+-   $p\\Vdash\\varphi\\implies\\neg(p\\Vdash\\neg\\varphi)$
+-   $p\\Vdash\\neg\\varphi\\iff\\neg\\exists q\\leq p(q\\Vdash\\varphi)$
+-   $p\\Vdash(\\varphi\\land\\psi)\\iff(p\\Vdash\\varphi\\land p\\Vdash\\psi)$
+-   $p\\Vdash\\forall x\\varphi\\iff\\forall x\\in M^\\mathbb{P}(p\\Vdash\\varphi(x))$
+-   $p\\Vdash(\\varphi\\lor\\psi)\\iff\\forall q\\leq p\\exists r\\leq q(r\\Vdash\\varphi\\lor r\\Vdash\\psi)$
+-   $p\\Vdash\\exists x\\varphi\\iff\\forall q\\leq p\\exists r\\leq q\\exists x\\in M^\\mathbb{R}(r\\Vdash\\varphi(x))$
+-   $p\\Vdash\\exists x\\varphi\\implies\\exists x\\in M^\\mathbb{P}(p\\Vdash\\varphi(x))$
+-   $\\forall p\\exists q\\leq p (q\\Vdash\\varphi\\lor q\\Vdash\\neg\\varphi)$
 
 ### Separativity
 
@@ -73,7 +73,7 @@ A forcing notion $(\\mathbb{P},\\leq)$ is *separative* if for all $p,q\\in\\math
 A large cardinal is called *(Laver) indestructible* iff it keeps the given property after any $<κ$-directed closed forcing. {% cite ApterGitmanHamkins2012 %}<sup>above Test Question 4</sup>
 
 ## Boolean algebras
-''To be expanded.''
+*To be expanded.*
 
 It is sometimes convenient to take the forcing notion $\\mathbb{P}$ to be a Boolean algebra $\\mathbb{B}$.
 
@@ -89,27 +89,27 @@ Those implications between the consistencies of different theories are the *rela
 
 In the following examples, the generated generic extensions satisfy the axiom of choice unless indicated otherwise.
 
--    **Easton's theorem:** Let $M$ be a transitive set model of $\\text{ZFC+GCH}$. Let $F$ be an increasing function in $M$ from the set of $M$'s regular cardinals to the set of $M$'s cardinals, such that for all regular $\\kappa$, $\\mathrm{cf}F(\\kappa)>\\kappa$. Then there is a generic extension $M[G]$ of $M$ with the same cardinals and cofinalities such that $M[G]\\models\\text{ZFC+}\\forall\\kappa($if $\\kappa$ is regular then $2^\\kappa=F(\\kappa)$).
--    **Violating the Singular Cardinal Hypothesis at $\\aleph\_\\omega$:** Assume there is a [measurable](Measurable "Measurable") cardinal of [Mitchell order](Mitchell_order "Mitchell order") $o(\\kappa)=\\kappa^{++}$. Then there is a generic extension in which $\\kappa=\\aleph\_\\omega$ and $2^{\\aleph\_\\omega}=\\aleph\_{\\omega+2}$. The hypothesis used here is optimal: in term of consistency strength, no less than a measurable of order $\\kappa^{++}$ can produce a model where $\\text{SCH}$ fails.
--    **Violating the Singular Cardinal Hypothesis everywhere:** It is consistent relative to the existence of a $(\\delta+2)-$[strong](Strong "Strong") cardinal $\\delta$ that $2^\\kappa=\\kappa^+$ for every successor $\\kappa$ but $2^\\kappa=\\kappa^{++}$ for every limit cardinal $\\kappa$.
--    **Violating the Generalized Continuum Hypothesis everywhere:**  It is consistent relative to the existence of a $(\\delta+2)-$strong cardinal $\\delta$ that $2^\\kappa=\\kappa^{++}$ for every $\\kappa$, i.e. $\\text{GCH}$ fails everywhere.
--    **Large cardinal properties of $\\aleph\_1$:** Let $\\kappa$ be measurable/[supercompact](Supercompact "Supercompact")/[huge](Huge "Huge"). Then there is a (sub)model (of a generic extension) satisfying $\\text{ZF(+}\\neg\\text{AC)}$ in which $\\kappa=\\aleph\_1$ and $\\omega\_1$ is measurable/supercompact/huge (by the ultrafilter characterizations, not by the elementary embedding characterizations.)
--    **Singularity of every uncountable cardinal:** It is consistent relative to the existence of a proper class of [strongly compact](Strongly_compact "Strongly compact") cardinals there is model of $\\text{ZF}$ in which (the axiom of choice does not hold and) every uncountable cardinal is singular and has cofinality $\\omega$. The existence of a such model also implies that the [axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy") holds in the $L(\\mathbb{R})$ of some forcing extension of $\\text{HOD}$.
--    **[Regularity properties](Projective "Projective") of all sets of reals:** Assume there is an [inaccessible](Inaccessible "Inaccessible") cardinal $\\kappa$. Then there is a (sub)model (of a generic extension) that satisfies $\\text{ZF+DC+}\\neg\\text{AC}$ and in which $\\kappa=2^{\\aleph\_0}$ and every set of reals is Lebesgue measurable, has the Baire property and the perfect subset property. There is also a generic extension in which choice holds and every [projective](Projective "Projective") set of reals has those properties.
--    **Real-valued measurability of the continuum:** Assume there is a measurable cardinal. Then there is a generic extension in which $\\kappa=2^{\\aleph\_0}$ and $2^{\\aleph\_0}$ is real-valued measurable (and thus weakly inaccessible, weakly hyper-[Mahlo](Mahlo "Mahlo"), etc.)
--    **Precipitousness of the [nonstationary ideal](Filter "Filter") on $\\omega\_1$:** Assume there is a measurable cardinal $\\kappa$. Then there is a generic extension in which $\\kappa=\\aleph\_1$ and the nonstationary ideal on $\\omega\_1$ is precipitous.
--    **Saturation of the nonstationary ideal on $\\omega\_1$:** Assume there is a [Woodin](Woodin "Woodin") cardinal $\\kappa$. Then there is a generic extension in which $\\kappa=\\aleph\_2$ the nonstationary ideal on $\\omega\_1$ is $\\omega\_2$-saturated.
--    **Saturation of an ideal on the continuum:** Let $\\kappa$ be a measurable cardinal. Then there is a generic extension in which $\\kappa=2^{\\aleph\_0}$, there is a $2^{\\aleph\_0}$-saturated $2^{\\aleph\_0}$-complete ideal on $2^{\\aleph\_0}$ and there isn't any $\\lambda$-saturated $2^{\\aleph\_0}$-complete ideal on $2^{\\aleph\_0}$ for every infinite $\\lambda<2^{\\aleph\_0}$.
+-   **Easton's theorem:** Let $M$ be a transitive set model of $\\text{ZFC+GCH}$. Let $F$ be an increasing function in $M$ from the set of $M$'s regular cardinals to the set of $M$'s cardinals, such that for all regular $\\kappa$, $\\mathrm{cf}F(\\kappa)>\\kappa$. Then there is a generic extension $M[G]$ of $M$ with the same cardinals and cofinalities such that $M[G]\\models\\text{ZFC+}\\forall\\kappa($if $\\kappa$ is regular then $2^\\kappa=F(\\kappa)$).
+-   **Violating the Singular Cardinal Hypothesis at $\\aleph\_\\omega$:** Assume there is a [measurable](Measurable "Measurable") cardinal of [Mitchell order](Mitchell_order "Mitchell order") $o(\\kappa)=\\kappa^{++}$. Then there is a generic extension in which $\\kappa=\\aleph\_\\omega$ and $2^{\\aleph\_\\omega}=\\aleph\_{\\omega+2}$. The hypothesis used here is optimal: in term of consistency strength, no less than a measurable of order $\\kappa^{++}$ can produce a model where $\\text{SCH}$ fails.
+-   **Violating the Singular Cardinal Hypothesis everywhere:** It is consistent relative to the existence of a $(\\delta+2)-$[strong](Strong "Strong") cardinal $\\delta$ that $2^\\kappa=\\kappa^+$ for every successor $\\kappa$ but $2^\\kappa=\\kappa^{++}$ for every limit cardinal $\\kappa$.
+-   **Violating the Generalized Continuum Hypothesis everywhere:**  It is consistent relative to the existence of a $(\\delta+2)-$strong cardinal $\\delta$ that $2^\\kappa=\\kappa^{++}$ for every $\\kappa$, i.e. $\\text{GCH}$ fails everywhere.
+-   **Large cardinal properties of $\\aleph\_1$:** Let $\\kappa$ be measurable/[supercompact](Supercompact "Supercompact")/[huge](Huge "Huge"). Then there is a (sub)model (of a generic extension) satisfying $\\text{ZF(+}\\neg\\text{AC)}$ in which $\\kappa=\\aleph\_1$ and $\\omega\_1$ is measurable/supercompact/huge (by the ultrafilter characterizations, not by the elementary embedding characterizations.)
+-   **Singularity of every uncountable cardinal:** It is consistent relative to the existence of a proper class of [strongly compact](Strongly_compact "Strongly compact") cardinals there is model of $\\text{ZF}$ in which (the axiom of choice does not hold and) every uncountable cardinal is singular and has cofinality $\\omega$. The existence of a such model also implies that the [axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy") holds in the $L(\\mathbb{R})$ of some forcing extension of $\\text{HOD}$.
+-   **[Regularity properties](Projective "Projective") of all sets of reals:** Assume there is an [inaccessible](Inaccessible "Inaccessible") cardinal $\\kappa$. Then there is a (sub)model (of a generic extension) that satisfies $\\text{ZF+DC+}\\neg\\text{AC}$ and in which $\\kappa=2^{\\aleph\_0}$ and every set of reals is Lebesgue measurable, has the Baire property and the perfect subset property. There is also a generic extension in which choice holds and every [projective](Projective "Projective") set of reals has those properties.
+-   **Real-valued measurability of the continuum:** Assume there is a measurable cardinal. Then there is a generic extension in which $\\kappa=2^{\\aleph\_0}$ and $2^{\\aleph\_0}$ is real-valued measurable (and thus weakly inaccessible, weakly hyper-[Mahlo](Mahlo "Mahlo"), etc.)
+-   **Precipitousness of the [nonstationary ideal](Filter "Filter") on $\\omega\_1$:** Assume there is a measurable cardinal $\\kappa$. Then there is a generic extension in which $\\kappa=\\aleph\_1$ and the nonstationary ideal on $\\omega\_1$ is precipitous.
+-   **Saturation of the nonstationary ideal on $\\omega\_1$:** Assume there is a [Woodin](Woodin "Woodin") cardinal $\\kappa$. Then there is a generic extension in which $\\kappa=\\aleph\_2$ the nonstationary ideal on $\\omega\_1$ is $\\omega\_2$-saturated.
+-   **Saturation of an ideal on the continuum:** Let $\\kappa$ be a measurable cardinal. Then there is a generic extension in which $\\kappa=2^{\\aleph\_0}$, there is a $2^{\\aleph\_0}$-saturated $2^{\\aleph\_0}$-complete ideal on $2^{\\aleph\_0}$ and there isn't any $\\lambda$-saturated $2^{\\aleph\_0}$-complete ideal on $2^{\\aleph\_0}$ for every infinite $\\lambda<2^{\\aleph\_0}$.
 
 Some other applications of forcing:
 <!--* There is a generic extension in which there is a cardinal $\\kappa$ such that $2^{\\mathrm{cf}(\\kappa)}<\\kappa<\\kappa^+<\\kappa^{\\mathrm{cf}(\\kappa)}<2^\\kappa$.-->
--    It is consistent relative to the existence of an inaccessible cardinal that there are no Kurepa trees.
--    Let $\\kappa$ be a [superstrong](Superstrong "Superstrong") cardinal. Let $V[G]$ be the generic extension of $V$ by the Lévy collapse $\\mathrm{Coll}(\\aleph\_0,<\\kappa)$. Then there is a nontrivial [elementary embedding](Elementary_embedding "Elementary embedding") $j:L(\\mathbb{R})\\to(L(\\mathbb{R}))^{V[G]}$.
--    Let $\\kappa$ be a superstrong cardinal. There exists a $\\omega$-distributive $\\kappa$-c.c. notion of forcing $(\\mathbb{P},\\leq)$ such that in $V^\\mathbb{P}$, $\\kappa=\\aleph\_2$ and there exists a normal $\\omega\_2$-saturated $\\sigma$-complete ideal on $\\omega\_1$.
--    Let $\\kappa$ be a [weakly compact](Weakly_compact "Weakly compact") cardinal. Then there is a generic extension in which $\\kappa=\\aleph\_2$ and $\\omega\_2$ has the tree property. In fact, if there is infinitely many weakly compact cardinals then in a generic extension $\\omega\_{2n}$ has the tree property for every $n$. (Friedman, Honzik, [The tree property at the $\aleph_{2n}$'s and the failure of SCH at $\aleph_\omega$](https://web.archive.org/web/20170315034057/http://logika.ff.cuni.cz/radek//papers/Friedman_Honzik_treeprop_revised.pdf))
--    It is consistent relative to the existence of infinitely many supercompact cardinals that there exists infinitely many cardinals $\\delta$ above $2^{\\aleph\_0}$ such that both $\\delta$ and $\\delta^+$ have the tree property. Also, the [axiom of projective determinacy](Axiom_of_projective_determinacy "Axiom of projective determinacy") holds in any such model.
--    Let $\\kappa$ be a measurable cardinal. Then there is a generic extension in which $\\kappa$ remains weakly compact, there is a $\\kappa^+$-saturated $\\kappa$-complete ideal on $\\kappa$ but there isn't any $\\kappa$-saturated $\\kappa$-complete ideal on $\\kappa$. One can replace "$\\kappa$ is weakly compact" by "$\\kappa$ is weakly inaccessible and $\\kappa=2^{\\aleph\_0}$".
--    It is consistent relative to a supercompact cardinal that there is an inaccessible cardinal $\\kappa$, a cardinal $\\lambda>\\kappa$ and a stationary set $S\\subseteq\\mathcal{P}\_\\kappa(\\lambda)$ that cannot be partitioned into $\\kappa^+$ disjoint stationary subsets.
+-   It is consistent relative to the existence of an inaccessible cardinal that there are no Kurepa trees.
+-   Let $\\kappa$ be a [superstrong](Superstrong "Superstrong") cardinal. Let $V[G]$ be the generic extension of $V$ by the Lévy collapse $\\mathrm{Coll}(\\aleph\_0,<\\kappa)$. Then there is a nontrivial [elementary embedding](Elementary_embedding "Elementary embedding") $j:L(\\mathbb{R})\\to(L(\\mathbb{R}))^{V[G]}$.
+-   Let $\\kappa$ be a superstrong cardinal. There exists a $\\omega$-distributive $\\kappa$-c.c. notion of forcing $(\\mathbb{P},\\leq)$ such that in $V^\\mathbb{P}$, $\\kappa=\\aleph\_2$ and there exists a normal $\\omega\_2$-saturated $\\sigma$-complete ideal on $\\omega\_1$.
+-   Let $\\kappa$ be a [weakly compact](Weakly_compact "Weakly compact") cardinal. Then there is a generic extension in which $\\kappa=\\aleph\_2$ and $\\omega\_2$ has the tree property. In fact, if there is infinitely many weakly compact cardinals then in a generic extension $\\omega\_{2n}$ has the tree property for every $n$. (Friedman, Honzik, [The tree property at the $\aleph_{2n}$'s and the failure of SCH at $\aleph_\omega$](https://web.archive.org/web/20170315034057/http://logika.ff.cuni.cz/radek//papers/Friedman_Honzik_treeprop_revised.pdf))
+-   It is consistent relative to the existence of infinitely many supercompact cardinals that there exists infinitely many cardinals $\\delta$ above $2^{\\aleph\_0}$ such that both $\\delta$ and $\\delta^+$ have the tree property. Also, the [axiom of projective determinacy](Axiom_of_projective_determinacy "Axiom of projective determinacy") holds in any such model.
+-   Let $\\kappa$ be a measurable cardinal. Then there is a generic extension in which $\\kappa$ remains weakly compact, there is a $\\kappa^+$-saturated $\\kappa$-complete ideal on $\\kappa$ but there isn't any $\\kappa$-saturated $\\kappa$-complete ideal on $\\kappa$. One can replace "$\\kappa$ is weakly compact" by "$\\kappa$ is weakly inaccessible and $\\kappa=2^{\\aleph\_0}$".
+-   It is consistent relative to a supercompact cardinal that there is an inaccessible cardinal $\\kappa$, a cardinal $\\lambda>\\kappa$ and a stationary set $S\\subseteq\\mathcal{P}\_\\kappa(\\lambda)$ that cannot be partitioned into $\\kappa^+$ disjoint stationary subsets.
 
 ## Types of forcing
 
@@ -121,7 +121,7 @@ Let $\\kappa$ be a regular uncountable cardinal. If $(\\mathbb{P},\\leq)$ is a $
 
 $(\\mathbb{P},\\leq)$ is *$\\kappa$-distributive* if the intersection of $\\kappa$ open dense sets is still open dense. $\\kappa$-distributive notions for infinite $\\kappa$ does not add new subsets to $\\kappa$. A stronger property, closure, is defined the following way: $\\mathbb{P}$ is *$\\kappa$-closed* if every $\\lambda\\leq\\kappa$, every descending sequence $p\_0\\geq p\_1\\geq...\\geq p\_\\alpha\\geq... (\\alpha<\\lambda)$ has a lower bound. Every $\\kappa$-closed notion is $\\kappa$-distributive. If, for some regular uncountable cardinal $\\kappa$ and all $\\lambda<\\kappa$, $(\\mathbb{P},\\leq)$ is a $\\lambda$-closed forcing notion, then every stationary subset of $\\kappa$ remains stationary in every generic extension.
 
-$(\\mathbb{P},\\leq)$ has *property (K)* (or just *Knaster property'') if every uncountable set of conditions has an uncountable subet of pairwise compatible elements. Every notion with property (K) satisfies the c.c.c.{% cite Bagaria2002 %}
+$(\\mathbb{P},\\leq)$ has *property (K)* (or just *Knaster property*) if every uncountable set of conditions has an uncountable subet of pairwise compatible elements. Every notion with property (K) satisfies the c.c.c.{% cite Bagaria2002 %}
 
 A poset is *productive-ccc*, if its product with any ccc poset is also ccc (in short $\\textit{Prod-ccc}$).
 
@@ -137,21 +137,21 @@ In the special case $\\kappa=\\aleph\_0$, there are new real numbers in $V[G]$ a
 
 ### Axiom A
 A forcing notion $(\\mathbb{P},\\leq)$ satisfies *Axiom A* if there is a sequence of partial orderings $\\{\\leq\_n:n<\\omega\\}$ of $\\mathbb{P}$ such that $p\\leq\_0 q$ implies $p\\leq q$, for all n $p\\leq\_{n+1} q$ implies $p\\leq\_n q$, and the following conditions holds:
--    for every descending sequence $p\_0\\geq\_0 p\_1\\geq\_1...\\geq\_{n-1}p\_n\\geq\_n...$ there is a $q$ such that $q\\leq\_n p\_n$ for all $n$.
--    for every $p\\in\\mathbb{P}$, for every $n$ and every ordinal name $\\alpha$ there exists $q\\leq\_n p$ and a countable set $B$ such that $p\\Vdash\\alpha\\in B$.
+-   for every descending sequence $p\_0\\geq\_0 p\_1\\geq\_1...\\geq\_{n-1}p\_n\\geq\_n...$ there is a $q$ such that $q\\leq\_n p\_n$ for all $n$.
+-   for every $p\\in\\mathbb{P}$, for every $n$ and every ordinal name $\\alpha$ there exists $q\\leq\_n p$ and a countable set $B$ such that $p\\Vdash\\alpha\\in B$.
 
 Every c.c.c. or $\\omega$-closed notion satisfies Axiom A.
 
 ### Proper forcing
 
 We say that a forcing notion $(\\mathbb{P},\\leq)$ is *proper* if for every uncountable cardinal $\\lambda$, every [stationary](Stationary "Stationary") subset of $[\\lambda]^\\omega$ remains stationary in every generic extension.
--    Every c.c.c. or $\\omega$-closed notion is proper, and so is every notion satisfying Axiom A.
--    Proper forcing does not collapse $\\omega\_1$: if $\\mathbb{P}$ is proper then every countable set of ordinals in $M[G]$ is a subset of a countable set in $M$.
+-   Every c.c.c. or $\\omega$-closed notion is proper, and so is every notion satisfying Axiom A.
+-   Proper forcing does not collapse $\\omega\_1$: if $\\mathbb{P}$ is proper then every countable set of ordinals in $M[G]$ is a subset of a countable set in $M$.
 
-*Semi-proper forcing* *TODO'*
+*Semi-proper forcing* *TODO*
 
 A projective poset $\\mathbb{P}$ is *strongly-proper* if for every countable transitive model $N$ of a fragment of ZFC with the parameters of the definition of $\\mathbb{P}$ in $N$ and such that $(\\mathbb{P}^N, ≤\_\\mathbb{P}^N, ⊥\_\\mathbb{P}) ⊆ (\\mathbb{P}, ≤\_\\mathbb{P}, ⊥\_\\mathbb{P})$, and for every $p ∈ \\mathbb{P}^N$, there is $q ≤ p$ which is $(N, \\mathbb{P})$-generic, i.e., if $N \\models$ “$A$ is a maximal antichain of $\\mathbb{P}$”, then $A ∩ N$ is predense below $q$.{% cite Bagaria2002 %}
--    A projective strongly-proper poset is proper.
+-   A projective strongly-proper poset is proper.
 
 ### The Lévy collapse
 
@@ -167,17 +167,18 @@ Among important classes of posets are:
 -    posets that preserve $ω\_1$ (in short $ω\_1\\mathit{-pres}$)
 
 We have
-: $\\sigma\\textit{-centered} \\subset \\sigma\\textit{-linked} \\subset \\textit{Knaster} \\subset \\textit{Prod-ccc} \\subset \\textit{ccc} \\subset \\textit{Proper} \\subset \\textit{Semi-proper} \\subset \\textit{Stat-pres} \\subset \\omega_1\\textit{-pres}$
+
+:   $\\sigma\\textit{-centered} \\subset \\sigma\\textit{-linked} \\subset \\textit{Knaster} \\subset \\textit{Prod-ccc} \\subset \\textit{ccc} \\subset \\textit{Proper} \\subset \\textit{Semi-proper} \\subset \\textit{Stat-pres} \\subset \\omega_1\\textit{-pres}$
 
 Besides:
--    the poset for adding a Cohen real ($\\textit{Cohen}$, compare subsection above)
--    the poset for adding a random real ($\\textit{Random}$)
--    the amoeba poset for measure ($\\textit{Amoeba}$)
--    the amoeba poset for category ($\\textit{Amoeba-category}$)
--    the Hechler forcing for adding a dominating real
--    the Mathias forcing
--    Borel forcing notions (the set of conditions is a Borel set)
--    the $σ$-linked forcing notion for adding $ω\_1$ random reals ($\\omega_1textit{-Random}$)
+-   the poset for adding a Cohen real ($\\textit{Cohen}$, compare subsection above)
+-   the poset for adding a random real ($\\textit{Random}$)
+-   the amoeba poset for measure ($\\textit{Amoeba}$)
+-   the amoeba poset for category ($\\textit{Amoeba-category}$)
+-   the Hechler forcing for adding a dominating real
+-   the Mathias forcing
+-   Borel forcing notions (the set of conditions is a Borel set)
+-   the $σ$-linked forcing notion for adding $ω\_1$ random reals ($\\omega_1\textit{-Random}$)
 
 ## Product forcing
 
@@ -195,7 +196,7 @@ Martin's axiom implies that $2^{\\aleph\_0}$ is regular, that it is not real-val
 
 The **Proper Forcing Axiom** ($\\text{PFA}$) is obtained by replacing "c.c.c." by "proper" in the definition of $\\text{MA}\_{\\aleph\_1}$: for every proper forcing notion $(\\mathbb{P},\\leq)$, if $\\mathcal{D}$ is a collection of $\\aleph\_1$ dense subsets of $\\mathbb{P}$, then there is a $\\mathcal{D}$-generic filter on $\\mathbb{P}$. $\\text{PFA}$ implies $2^{\\aleph\_0}=\\aleph\_2$ and that the continuum (i.e. $\\aleph\_2$) has the [tree property](Tree_property "Tree property"). It also implies that every two $\\aleph\_1$-dense sets of reals are isomorphic.
 
-Unlike Martin's axiom, which is equiconsistent with $\\text{ZFC}$, the $\\text{PFA}$ has very high consistency strength, slightly below that of a [supercompact](Supercompact "Supercompact") cardinal. If there is a supercompact cardinal then there is a generic extension in which that supercompact is $\\aleph\_2$ and $\\text{PFA}$ holds. On the other hand, [http://www.math.uni-bonn.de/people/pholy/acc\_accepted.pdf] proves a *quasi lower bound* on the consistency strength of the $\\text{PFA}$, which is at least the existence of a proper class of [subcompact](Subcompact "Subcompact") cardinals. [https://ac.els-cdn.com/S0001870811002635/1-s2.0-S0001870811002635-main.pdf?\_tid=86c2030e-cca4-11e7-b23b-00000aab0f26&acdnat=1511039455\_137e37101cda34d46bb0f195cbe43148] also shows that all known methods of forcing $\\text{PFA}$ requires a [strongly compact](Strongly_compact "Strongly compact") cardinal, and if one wants the forcing to be proper, a supercompact is required.
+Unlike Martin's axiom, which is equiconsistent with $\\text{ZFC}$, the $\\text{PFA}$ has very high consistency strength, slightly below that of a [supercompact](Supercompact "Supercompact") cardinal. If there is a supercompact cardinal then there is a generic extension in which that supercompact is $\\aleph\_2$ and $\\text{PFA}$ holds. On the other hand, (Friedman, Holy, [A Quasi Lower Bound on the Consistency Strength of PFA](https://web.archive.org/web/20200320163106/http://www.math.uni-bonn.de/people/pholy/acc_accepted.pdf)) proves a *quasi lower bound* on the consistency strength of the $\\text{PFA}$, which is at least the existence of a proper class of [subcompact](Subcompact "Subcompact") cardinals. [https://ac.els-cdn.com/S0001870811002635/1-s2.0-S0001870811002635-main.pdf?\_tid=86c2030e-cca4-11e7-b23b-00000aab0f26&acdnat=1511039455\_137e37101cda34d46bb0f195cbe43148] also shows that all known methods of forcing $\\text{PFA}$ requires a [strongly compact](Strongly_compact "Strongly compact") cardinal, and if one wants the forcing to be proper, a supercompact is required.
 
 $\\text{PFA}$ implies the failure of the [square principle](Square_principle "Square principle") $\\Box\_\\kappa$ for every uncountable cardinal $\\kappa$, therefore it implies the [axiom of quasi-projective determinacy](Axiom_of_determinacy "Axiom of determinacy"). It also implies the **Open Coloring Axiom:** let $X$ be a set of reals, and let $K\\subseteq[X]^2$. We say that $K$ is *open* if the set $\\{(x,y):\\{x,y\\}\\in K\\}$ is an open set in the space $X\\times X$. Then
 -    **($\\text{OCA}$).** For every $X\\subseteq\\mathbb{R}$, and for any partition $[X]^2=K\_0\\cup K\_1$ with $K\_0$ open, either there exists an uncountable $Y\\subseteq X$ such that $[Y]^2\\subseteq K\_0$ or there exists sets $H\_n, n<\\omega$ such that $X=\\bigcup\_{n<\\omega}H\_n$ and $[H\_n]^2\\subseteq K\_1$ for all $n$.
@@ -211,7 +212,8 @@ Statement equivalent to $\\text{PFA}$: If $\\mathcal{M} = (M ; ∈, (R\_i | i < 
 (Section from {% cite Bagaria2002 %})
 
 The **Bounded Forcing Axiom** for a partial ordering $\\mathbb{P}$, in short $BFA(\\mathbb{P})$, is the statement:
-: For every collection $\\{I\_α : α < ω\_1 \\}$ of maximal antichains of $\\mathbf{B} \\overset{def}{=} r.o.(\\mathbb{P}) \\setminus \\{\\mathbf{0}\\}$, each of size $≤ ω\_1$, there is a filter $G ⊆ \\mathbf{B}$ such that for every $α$, $I\_α ∩ G ≠ ∅$.
+
+:   For every collection $\\{I\_α : α < ω\_1 \\}$ of maximal antichains of $\\mathbf{B} \\overset{def}{=} r.o.(\\mathbb{P}) \\setminus \\{\\mathbf{0}\\}$, each of size $≤ ω\_1$, there is a filter $G ⊆ \\mathbf{B}$ such that for every $α$, $I\_α ∩ G ≠ ∅$.
 For a class of posets $Γ$, $BFA(Γ)$ is the statement that for every $\\mathbb{P} ∈ Γ$, $BFA(\\mathbb{P})$.
 
 Examples:
@@ -233,9 +235,11 @@ The **weak Proper Forcing Axiom** is obtained by requiring only that embedding $
 If there is a [remarkable](Remarkable "Remarkable") cardinal, then $\\text{wPFA}$ holds in a forcing extension by a proper poset. If $\\text{wPFA}$ holds, then $ω\_2^V$ is remarkable in $L$.
 
 For a cardinal $κ$, $\\text{PFA}\_κ$ is the statement that
-: if $\\mathbb{B}$ is any proper complete Boolean algebra and if $\\langle A\_ξ | ξ < ω\_1 \\rangle$ is any family of maximal antichains in $\\mathbb{B}$ with $|A\_ξ| ≤ κ$ for each $ξ < ω\_1$, then there is some filter $G ⊆ \\mathbb{B}$ such that $\\forall\_{ξ < ω\_1} G ∩ A\_ξ ≠ ∅$.
+
+:   if $\\mathbb{B}$ is any proper complete Boolean algebra and if $\\langle A\_ξ | ξ < ω\_1 \\rangle$ is any family of maximal antichains in $\\mathbb{B}$ with $|A\_ξ| ≤ κ$ for each $ξ < ω\_1$, then there is some filter $G ⊆ \\mathbb{B}$ such that $\\forall\_{ξ < ω\_1} G ∩ A\_ξ ≠ ∅$.
 Equivalently, in analogy to the other statements (adding the assumption $|M| ≤ κ$):
-: If $\\mathcal{M} = (M ; ∈, (R\_i | i < ω\_1 ))$ is a transitive model, $|M| ≤ κ$, $φ(x)$ is a $Σ\_1$-formula and $\\mathbb{Q}$ is a proper forcing such that $\\Vdash\_\\mathbb{Q} φ(\\mathcal{M})$, then there is in $V$ a transitive $\\bar{\\mathcal{M}} = (\\bar{M} ; ∈, (\\bar{R}\_i | i < ω\_1 ))$ together with an elementary embedding $j : \\bar{\\mathcal{M}} → \\mathcal{M}$ such that $φ(\\bar{\\mathcal{M}})$ holds.
+
+:   If $\\mathcal{M} = (M ; ∈, (R\_i | i < ω\_1 ))$ is a transitive model, $|M| ≤ κ$, $φ(x)$ is a $Σ\_1$-formula and $\\mathbb{Q}$ is a proper forcing such that $\\Vdash\_\\mathbb{Q} φ(\\mathcal{M})$, then there is in $V$ a transitive $\\bar{\\mathcal{M}} = (\\bar{M} ; ∈, (\\bar{R}\_i | i < ω\_1 ))$ together with an elementary embedding $j : \\bar{\\mathcal{M}} → \\mathcal{M}$ such that $φ(\\bar{\\mathcal{M}})$ holds.
 
 $\\text{PFA}\_{\\aleph\_1}$ is $\\text{BPFA}$.
 
@@ -243,15 +247,15 @@ $\\text{wPFA}$ implies $\\text{PFA}\_{\\aleph\_2}$. However, it does not imply $
 
 ## Generic absoluteness and universal Baireness
 
-''Main article: [Universally Baire](Universally_Baire "Universally Baire")''
+*Main article: [Universally Baire](Universally_Baire "Universally Baire")*
 
 ## Generic ultrapowers
 
-''Main article: [Precipitous ideals](Filter#Precipitous_ideals "Filter#Precipitous ideals")''
+*Main article: [Precipitous ideals](Filter#Precipitous_ideals "Filter#Precipitous ideals")*
 
 ## Axioms of generic absoluteness
 
-''Main article: [Axioms of generic absoluteness](Axioms_of_generic_absoluteness "Axioms of generic absoluteness")''
+*Main article: [Axioms of generic absoluteness](Axioms_of_generic_absoluteness "Axioms of generic absoluteness")*
 
 {{stub}}
 
