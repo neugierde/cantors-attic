@@ -13,7 +13,8 @@ A cardinal $\\kappa$ is remarkable if for each regular $\\lambda>\\kappa$, there
 -    $\\theta(e^{-1}(\\kappa))>\\text{Ord}^M$.
 
 Remarkable cardinals could be called virtually [supercompact](Supercompact "Supercompact"), because the following alternative definition is an exact analogue of the definition of supercompact cardinals by Magidor [Mag71]:
-: A cardinal $κ$ is remarkable iff for every $η > κ$, there is $α < κ$ such that in a set-forcing extension there is an elementary embedding $j : V\_α → V\_η$ with $j(\\mathrm{crit}(j)) = κ$.{% cite GitmanSchindler %}
+
+:   A cardinal $κ$ is remarkable iff for every $η > κ$, there is $α < κ$ such that in a set-forcing extension there is an elementary embedding $j : V\_α → V\_η$ with $j(\\mathrm{crit}(j)) = κ$.{% cite GitmanSchindler %}
 
 Equivalently (theorem 2.4{% cite BagariaGitmanSchindler2017 %})
 -    For every $η > κ$ and every $a ∈ V\_η$, there is $α < κ$ such that in $V^{Coll(ω,<κ)}$ there is an elementary embedding $j : V\_α → V\_η$ with $j(crit(j)) = κ$ and $a ∈ range(j)$.
