@@ -68,7 +68,7 @@ Assuming there is no inner model with a [Woodin](Woodin "Woodin") cardinal then:
 -    Weak covering holds at every Jónsson cardinal, i.e. that $\\kappa^{+K}=\\kappa^+$ for every Jónsson cardinal.
 -    If $\\kappa$ is regular Jónsson then the set of regular $\\alpha<\\kappa$ satisfying weak covering is stationary in $\\kappa$.
 
-If we assume that there's no sharp for a [strong](Strong "Strong") cardinal (known as $0^\\P$ doesn't exist) then:
+If we assume that there's no sharp for a [strong](Strong "Strong") cardinal (known as $0^{¶}$ doesn't exist) then:
 -    For a Jónsson cardinal $\\kappa$, [$A^\\sharp$](Zero_sharp "Zero sharp") exists for every $A\\subseteq\\kappa$.
 
 {{References}}
