@@ -56,7 +56,7 @@ Assuming $V=L$, every $\\mathcal{L}$ where sentences are represented as sequence
 
 An uncountable regular cardinal $\\kappa$ is measurable if and only if $\\mathcal{L}\_{\\kappa,\\kappa}$ is $\\kappa$-Hayut, if and only if $\\mathcal{L}\_{\\kappa,\\omega}(q\_{<\\kappa})$ is $\\kappa$-Hayut up to $2^\\kappa$. Furthermore, an uncountable regular cardinal $\\kappa$ is measurable if and only if every almost $\\kappa$-favorable logic is $\\kappa$-Hayut.
 
-For more information, see [https://mathoverflow.net/questions/309896/a-weakening-of-cardinal-compactness-is-it-equivalent/309937 this post].
+For more information, see [this post](https://mathoverflow.net/questions/309896/a-weakening-of-cardinal-compactness-is-it-equivalent/309937).
 
 ### Other Embedding Characterizations
 
@@ -66,7 +66,7 @@ There are also other embedding characterizations of measurable cardinals. Namely
 3.  $\\kappa$ is the critical point of some $j:V\\prec\_{\\Delta\_1}V$.
 4.  $\\kappa$ is the critical point of some $j:V\\rightarrow V$ such that for any $\\Sigma\_1$-formula $\\varphi$, $\\varphi[x,y,z...]\\rightarrow\\varphi[j(x),j(y),j(z)...]$.
 
-''Proof:''
+*Proof:*
 
 (1 implies 4). If $\\kappa$ is measurable, then $\\kappa$ is the critical point of a $j:V\\prec M$ for some inner model $M$. Therefore $\\kappa$ is the critical point of a $j:V\\prec\_{\\Sigma\_1}M$ and so for any $\\Sigma\_1$-formula $\\varphi$, $\\varphi[x,y,z...]\\rightarrow M\\models\\varphi[j(x),j(y),j(z)...]$. Then, let $\\varphi$ be a $\\Sigma\_1$-formula. If $\\varphi[x,y,z...]$ then $M\\models\\varphi[j(x),j(y),j(z)...]$ and because $\\Sigma\_1$-formulae are upward absolute for inner models, $\\varphi[j(x),j(y),j(z)...]$. Therefore:
 $$\\varphi[x,y,z...]\\rightarrow\\varphi[j(x),j(y),j(z)...]$$
@@ -81,7 +81,7 @@ $$\\therefore\\varphi[x,y,z...]\\Leftrightarrow\\varphi[j(x),j(y),j(z)...]$$
 
 This gives further characterizations (which are weakenings of the $j:V\\prec M$ characterizations). Namely, $\\kappa$ is measurable iff it is the critical point of some $j:V\\prec\_{\\Delta\_0} M$ for some inner model $M$.
 
-''Proof:''
+*Proof:*
 
 (1 implies 2). Let $\\kappa$ be measurable. Then $\\kappa$ is the critical point of $j:V\\prec M$ for some inner model $M$, and so $j:V\\prec\_{\\Delta\_0} M$.
 
@@ -92,11 +92,11 @@ $$\\therefore\\kappa\\text{ is measurable.}$$
 
 
 Finally, this gives much more general (and astonishing) characterizations of measurability in terms of nontrivial elementary embeddings of classes into themselves. The following are equivalent:
-#$\\kappa$ is measurable.
-#There is some transitive class (or set) $M\\models\\text{ZFC}$ with $\\mathcal{P}^2(\\kappa)\\subseteq M$ and some $j:M\\prec\_{\\Delta\_0}M$ with critical point $\\kappa$.
-#For every transitive class (or set) $M\\models\\text{ZFC}$ with $\\kappa\\subseteq M$ there is a $j:M\\prec\_{\\Delta\_1}M$ with critical point $\\kappa$.
+1.  $\\kappa$ is measurable.
+2.  There is some transitive class (or set) $M\\models\\text{ZFC}$ with $\\mathcal{P}^2(\\kappa)\\subseteq M$ and some $j:M\\prec\_{\\Delta\_0}M$ with critical point $\\kappa$.
+3.  For every transitive class (or set) $M\\models\\text{ZFC}$ with $\\kappa\\subseteq M$ there is a $j:M\\prec\_{\\Delta\_1}M$ with critical point $\\kappa$.
 
-''Proof:''
+*Proof:*
 
 (1 implies 3). Let $\\kappa$ be measurable and let $j:V\\prec\_{\\Delta\_1}V$. Then, let $M\\models\\text{ZFC}$ be a transitive class with $\\kappa\\subseteq M$. Consider $j\\upharpoonright M:M\\rightarrow M$. Let $\\varphi$ be a $\\Delta\_1$ formula. Then, $\\varphi[x,y,z...]\\Leftrightarrow M\\models\\varphi[x,y,z...]$ (because $\\Delta\_1$ formulae are upward and downward absolute for transitive classes). Since $j$ is $\\Delta\_1$-elementary, for any $x,y,z...\\in M$:$$\\varphi[x,y,z...]\\Leftrightarrow\\varphi[j(x),j(y),j(z)...]\\Leftrightarrow\\varphi[j\\upharpoonright M(x),j\\upharpoonright M(y),j\\upharpoonright M(z)...]$$ $$\\Leftrightarrow M\\models\\varphi[x,y,z...]\\Leftrightarrow M\\models\\varphi[j\\upharpoonright M(x),j\\upharpoonright M(y),j\\upharpoonright M(z)...]$$
 Therefore $j\\upharpoonright M:M\\prec\_{\\Delta\_1}$. Now note that $j$ has critical point $\\kappa$ and so $j\\upharpoonright M$ does too.
@@ -139,7 +139,7 @@ If there exists a measurable cardinal then [$0^\\#$](Zero_sharp "Zero sharp") ex
 
 Every measurable has the following reflection property: let $j:V\\to M$ be a nontrivial elementary embedding with critical point $\\kappa$. If $x\\in V\_\\kappa$ and $M\\models\\varphi(\\kappa,x)$ for some first-order formula $\\varphi$, then the set of all ordinals $\\alpha<\\kappa$ such that $V\\models\\varphi(\\alpha,x)$ is [stationary](Stationary "Stationary") in $\\kappa$ and has the same measure as $\\kappa$ itself by any 2-valued measure on $\\kappa$.
 
-Measurability of $\\kappa$ is equivalent with $\\kappa$-strong compactness of $\\kappa$, and also with $\\kappa$-supercompactness of $\\kappa$ (fragments of [ strong compactness](Strongly_compact_ "Strongly compact ") and [ supercompactness](Supercompact_ "Supercompact ") respectively.) It is also consistent with $\\text{ZFC}$ that the first measurable cardinal and the first [strongly compact](Strongly_compact "Strongly compact") cardinal are equal.
+Measurability of $\\kappa$ is equivalent with $\\kappa$-strong compactness of $\\kappa$, and also with $\\kappa$-supercompactness of $\\kappa$ (fragments of [strong compactness](Strongly_compact "Strongly compact") and [supercompactness](Supercompact "Supercompact") respectively.) It is also consistent with $\\text{ZFC}$ that the first measurable cardinal and the first [strongly compact](Strongly_compact "Strongly compact") cardinal are equal.
 
 If a measurable $\\kappa$ is such that there is $\\kappa$ [strongly compact](Strongly_compact "Strongly compact") cardinals below it, then it is strongly compact. If it is a limit of strongly compact cardinals, then it is strongly compact yet not [supercompact](Supercompact "Supercompact"). If a measurable $\\kappa$ has infinitely many [Woodin](Woodin "Woodin") cardinals below it, then the axiom of determinacy holds in $L(\\mathbb{R})$, also the [axiom of projective determinacy](Axiom_of_projective_determinacy "Axiom of projective determinacy") holds.
 
@@ -157,7 +157,7 @@ If $κ$ is uncountable, $κ = κ^{<κ}$ and $2^κ = κ^+$, then the following ar
 -    $κ$ satisfies the strategic $κ^+$-filter property.
 On the other hand, starting from a $κ^{++}$-tall cardinal $κ$, it is consistent that there is a cardinal $κ$ with the strategic $κ+$-filter property, however $κ$ is not measurable.{% cite HolySchlicht2017 %}
 
-If $κ$ is a measurable cardinal, then $κ$ is $κ$-very Ramsey. If a cardinal is $ω\_1$-very Ramsey (=strategic $ω\_1$-Ramsey cardinal), then it is measurable in the [core model](Core_model "Core model") unless [$0^\\P$](Zero_pistol "Zero pistol") exists and an inner model with a [Woodin](Woodin "Woodin") cardinal exists.<cite>NielsenWelch2018:GamesRamseylike, SharpeWelch2011:GreatlyErdosChang</cite>
+If $κ$ is a measurable cardinal, then $κ$ is $κ$-very Ramsey. If a cardinal is $ω\_1$-very Ramsey (=strategic $ω\_1$-Ramsey cardinal), then it is measurable in the [core model](Core_model "Core model") unless [$0^\\P$](Zero_pistol "Zero pistol") exists and an inner model with a [Woodin](Woodin "Woodin") cardinal exists.{% cite NielsenWelch2018:GamesRamseylike %}{% SharpeWelch2011:GreatlyErdosChang %}
 
 The existence of a strategic $ω+1$-Ramsey cardinal (and of a strategic fully Ramsey cardinal) is equiconsistent with the existence of a measurable cardinal.{% cite NielsenWelch2018 %}
 
@@ -167,7 +167,7 @@ If [$\\mathrm{I}\_4^0(\\kappa)$](I4 "I4"), then $\\kappa$ is measurable and $\\{
 
 Measurable cardinals are equiconsistent with [weakly measurable](Weakly_measurable "Weakly measurable") cardinals. If GCH holds, then all weakly measurable cardinals are measurable.
 
-Without the [axiom of choice](Axiom_of_choice "Axiom of choice") $\\omega\_1$ can be measurable. ZFC+“There is a measurable cardinal” is equiconsistent to ZF+DC+“$\\omega\_1$ is measurable”. ([https://link.springer.com/article/10.1007/BF02771215 Jech, 1968], Takeuti, 1970, after [https://eprints.illc.uva.nl/id/eprint/689/1/X-2013-02.text.pdf])
+Without the [axiom of choice](Axiom_of_choice "Axiom of choice") $\\omega\_1$ can be measurable. ZFC+“There is a measurable cardinal” is equiconsistent to ZF+DC+“$\\omega\_1$ is measurable”. ([Jech, 1968](https://link.springer.com/article/10.1007/BF02771215), Takeuti, 1970, after (Inamdar, [Successor Large Cardinals in Symmetric Extensions](https://eprints.illc.uva.nl/id/eprint/689/1/X-2013-02.text.pdf)))
 
 *See also: [Ultrapower](Ultrapower "Ultrapower")*
 
@@ -206,9 +206,9 @@ If κ is virtually measurable, then either $κ$ is [remarkable](Remarkable "Rema
 -    [Strongly compact](Strongly_compact "Strongly compact") cardinal
 
 ## Read more
--    Jech, Thomas - *Set theory''
+-    Jech, Thomas - *Set theory*
 
--    Bering A., Edgar - *A brief introduction to measurable cardinals''
+-    Bering A., Edgar - *A brief introduction to measurable cardinals*
 
 {{References}}
 
