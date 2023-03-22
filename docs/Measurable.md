@@ -14,8 +14,8 @@ There are essentially two ways to "measure" a cardinal $\\kappa$, that's to say 
 Let $\\kappa$ be an uncountable cardinal.
 
 Theorem 1 : The following are equivalent :
-# There exists a 2-valued ($\\sigma$-additive) measure on $\\kappa$.
-# There exists a $\\sigma$-complete nonprincipal ultrafilter on $\\kappa$.
+1.  There exists a 2-valued ($\\sigma$-additive) measure on $\\kappa$.
+2.  There exists a $\\sigma$-complete nonprincipal ultrafilter on $\\kappa$.
 
 The equivalence is due to the fact that if $\\mu$ is a 2-valued measure on $\\kappa$, then $U=\\{X\\subset\\kappa|\\mu(X)=1\\}$ is a nonprincipal ultrafilter (since $\\mu$ is 2-valued) and is also $\\sigma$-complete because of $\\mu$'s $\\sigma$-additivity. Similarly, if $U$ is a $\\sigma$-complete nonprincipal ultrafilter on $\\kappa$, then $\\mu:\\mathcal{P}(\\kappa)\\to[0,1]$ defined by $\\mu(X)=1$ whenever $X\\in U$, $\\mu(X)=0$ otherwise is a 2-valued measure on $\\kappa$. {% cite Jech2003 %}
 
@@ -27,9 +27,9 @@ Thus, the notion of 2-measurability separates the class $C$ of all cardinals in 
 ### Embedding Characterization
 
 Theorem 2 : The following are equivalent :
-# There exists a $\\kappa$-complete nonprincipal ultrafilter on $\\kappa$.
-# There exists a nontrivial elementary embedding $j:V\\to M$ with $M$ a transitive class and such that $\\kappa$ is the least ordinal moved (the *critical point'').
-# There exists a nonprincipal ultrafilter $U$ on $\\kappa$ such that the [ultrapower](Ultrapower "Ultrapower") $(\\text{Ult}\_U(V),\\in\_U)$ of the universe is well-founded.
+1.  There exists a $\\kappa$-complete nonprincipal ultrafilter on $\\kappa$.
+2.  There exists a nontrivial elementary embedding $j:V\\to M$ with $M$ a transitive class and such that $\\kappa$ is the least ordinal moved (the *critical point'').
+3.  There exists a nonprincipal ultrafilter $U$ on $\\kappa$ such that the [ultrapower](Ultrapower "Ultrapower") $(\\text{Ult}\_U(V),\\in\_U)$ of the universe is well-founded.
 
 To see that the second condition implies the first one, one can show that if $j:V\\to M$ is a nontrivial elementary embedding, then the set $\\mathcal{U}=\\{x\\subset\\kappa|\\kappa\\in j(x)\\})$ is a $\\kappa$-complete nonprincipal ultrafilter on $\\kappa$, and in fact a normal fine measure. To show the converse, one needs to use [ultrapower embeddings](Ultrapower "Ultrapower"): if $U$ is a nonprincipal $\\kappa$-complete ultrafilter on $\\kappa$, then the canonical ultrapower embedding $j:V\\to\\text{Ult}\_U(V)$ is a nontrivial elementary embedding of the universe. {% cite Jech2003 %}
 
@@ -48,9 +48,9 @@ There is also another quite interesting model-theoretic characterization of meas
 A class of formulae $Q$ is $\\kappa$-Hayut iff for any $\\kappa$-unboundedly satisfiable theory $T\\subseteq Q$, there is a model of $T$ of size at least $\\kappa$. More intuitively, $\\kappa$-many small models of size less than $\\kappa$ can combine to make one big $\\kappa$-sized model.
 
 An abstract logic $\\mathcal{L}$ is called almost $\\kappa$-favorable iff there is some way to represent every sentence of $\\mathcal{L}$ with vocabulary $\\tau$ as a sequence of length below $\\kappa$ of symbols of $\\tau$ and ordinals in $\\kappa$ in such a way that the satisfaction relation is upward absolute for inner models $M$ of ZFC elementarily equivalent to $V$ with $M^{<\\kappa}\\subset M$. If $\\kappa$ is an uncountable regular cardinal, the following are almost $\\kappa$-favorable:
-#$\\mathcal{L}\_{\\lambda,\\mu}$ for any $\\lambda,\\mu\\leq\\kappa$
-#$\\mathcal{L}\_{\\kappa,\\omega}(q\_{<\\kappa})$, which is $\\mathcal{L}\_{\\kappa,\\omega}$ with universal cardinality quantifiers $q\_\\lambda$ for every $\\lambda<\\kappa$ (where $M\\models q\_\\lambda$ iff $|M|\\geq q\_\\lambda$)
-#$\\mathcal{L}\_{\\kappa,\\kappa}$ with the addition of a single existential 2nd-order quantifier, where negation on the resulting sentences is not allowed
+1.  $\\mathcal{L}\_{\\lambda,\\mu}$ for any $\\lambda,\\mu\\leq\\kappa$
+2.  $\\mathcal{L}\_{\\kappa,\\omega}(q\_{<\\kappa})$, which is $\\mathcal{L}\_{\\kappa,\\omega}$ with universal cardinality quantifiers $q\_\\lambda$ for every $\\lambda<\\kappa$ (where $M\\models q\_\\lambda$ iff $|M|\\geq q\_\\lambda$)
+3.  $\\mathcal{L}\_{\\kappa,\\kappa}$ with the addition of a single existential 2nd-order quantifier, where negation on the resulting sentences is not allowed
 
 Assuming $V=L$, every $\\mathcal{L}$ where sentences are represented as sequences of length below $\\kappa$ of symbols of $\\tau$ and ordinals in $\\kappa$ ($\\kappa$-sequential logic) that has an extension with an $\\mathcal{L}\_{\\omega,\\omega}$-definable satisfaction relation is almost $\\kappa$-favorable. For example: if $V=L$, then $\\mathcal{L}\_{\\kappa,\\kappa}^{<\\omega}$ is almost $\\kappa$-favorable, but if a measurable exists then $\\mathcal{L}\_{\\kappa,\\kappa}^{<\\omega}$ is not almost $\\kappa$-favorable, and in fact if $\\kappa$ is the least measurable then $\\mathcal{L}\_{\\kappa,\\kappa}^{<\\omega}$ is not $\\kappa$-Hayut; however, if $\\kappa$ is [extendible](Extendible "Extendible"), then $\\mathcal{L}\_{\\kappa,\\kappa}^{<\\omega}$ is $\\kappa$-Hayut, though it still isn't almost $\\kappa$-favorable.
 
@@ -61,10 +61,10 @@ For more information, see [https://mathoverflow.net/questions/309896/a-weakening
 ### Other Embedding Characterizations
 
 There are also other embedding characterizations of measurable cardinals. Namely (under [NBG](Second-order "Second-order") or ZFC + $j$) the following are equivalent for any cardinal $\\kappa$:
-#$\\kappa$ is measurable.
-#$\\kappa$ is the critical point of some $j:V\\prec\_{\\Delta\_0}V$.
-#$\\kappa$ is the critical point of some $j:V\\prec\_{\\Delta\_1}V$.
-#$\\kappa$ is the critical point of some $j:V\\rightarrow V$ such that for any $\\Sigma\_1$-formula $\\varphi$, $\\varphi[x,y,z...]\\rightarrow\\varphi[j(x),j(y),j(z)...]$.
+1.  $\\kappa$ is measurable.
+2.  $\\kappa$ is the critical point of some $j:V\\prec\_{\\Delta\_0}V$.
+3.  $\\kappa$ is the critical point of some $j:V\\prec\_{\\Delta\_1}V$.
+4.  $\\kappa$ is the critical point of some $j:V\\rightarrow V$ such that for any $\\Sigma\_1$-formula $\\varphi$, $\\varphi[x,y,z...]\\rightarrow\\varphi[j(x),j(y),j(z)...]$.
 
 ''Proof:''
 
@@ -169,7 +169,7 @@ Measurable cardinals are equiconsistent with [weakly measurable](Weakly_measurab
 
 Without the [axiom of choice](Axiom_of_choice "Axiom of choice") $\\omega\_1$ can be measurable. ZFC+“There is a measurable cardinal” is equiconsistent to ZF+DC+“$\\omega\_1$ is measurable”. ([https://link.springer.com/article/10.1007/BF02771215 Jech, 1968], Takeuti, 1970, after [https://eprints.illc.uva.nl/id/eprint/689/1/X-2013-02.text.pdf])
 
-''See also: [Ultrapower](Ultrapower "Ultrapower")''
+*See also: [Ultrapower](Ultrapower "Ultrapower")*
 
 ### Failure of $\\text{GCH}$ at a measurable
 
