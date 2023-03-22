@@ -25,9 +25,9 @@ Some properties usually obtained by forcing are possible in inner models, for ex
     -    Moreover, for every cardinal $θ$, such inner models $W$ can be found for which also $W^θ ⊆ W$.
 
 ### Mantle
-The **mantle** $\\mathbb{M}$ is the intersection of all grounds. Mantle is always a model of ZFC. Mantle is a ground (and is called a **bedrock**) iff $V$ has only set many grounds.<cite>FuchsHamkinsReitz2015:SetTheoreticGeology, Usuba2017:DDGandVeryLarge</cite>
+The **mantle** $\\mathbb{M}$ is the intersection of all grounds. Mantle is always a model of ZFC. Mantle is a ground (and is called a **bedrock**) iff $V$ has only set many grounds.{% cite FuchsHamkinsReitz2015:SetTheoreticGeology %}{% cite Usuba2017:DDGandVeryLarge %}
 
-**Generic mantle** $g\\mathbb{M}$ was defined as the intersection of all mantles of generic extensions, but then it turned out that it is identical to the mantle.<cite>FuchsHamkinsReitz2015:SetTheoreticGeology, Usuba2017:DDGandVeryLarge</cite>
+**Generic mantle** $g\\mathbb{M}$ was defined as the intersection of all mantles of generic extensions, but then it turned out that it is identical to the mantle.{% cite FuchsHamkinsReitz2015:SetTheoreticGeology %}{% cite Usuba2017:DDGandVeryLarge %}
 
 **$α$th inner mantle** $\\mathbb{M}^α$ is defined by $\\mathbb{M}^0=V$, $\\mathbb{M}^{α+1} = \\mathbb{M}^{\\mathbb{M}^α}$ (mantle of the previous inner mantle) and $\\mathbb{M}^α = \\bigcap\_{β<α} \\mathbb{M}^β$ for limit $α$. If there is uniform presentation of $\\mathbb{M}^α$ for all ordinals $α$ as a single class, one can talk about $\\mathbb{M}^\\mathrm{Ord}$, $\\mathbb{M}^{\\mathrm{Ord}+1}$ etc. If an inner mantle is a ground, it is called the **outer core**.{% cite FuchsHamkinsReitz2015 %}
 
@@ -45,7 +45,7 @@ If $κ$ is [extendible](Extendible "Extendible") then the $κ$-mantle of $V$ is 
 On the other hand, it s consistent that there is a [supercompact](Supercompact "Supercompact") cardinal and class many grounds of $V$ (because of the indestructibility properties of supercompactness).{% cite Usuba2017 %}
 
 ## $\\kappa$-model
-A **weak $κ$-model** is a [transitive](Transitive "Transitive") set $M$ of size $\\kappa$ with $\\kappa \\in M$ and satisfying the theory $\\mathrm{ZFC}^-$ ($\\mathrm{ZFC}$ without the axiom of power set, with collection, not replacement). It is a **$κ$-model** if additionaly $M^{<\\kappa} \\subseteq M$.<cite>HamkinsJohnstone:BoldfaceResurrectionAxioms, HolySchlicht2017:HierarchyRamseylike</cite>
+A **weak $κ$-model** is a [transitive](Transitive "Transitive") set $M$ of size $\\kappa$ with $\\kappa \\in M$ and satisfying the theory $\\mathrm{ZFC}^-$ ($\\mathrm{ZFC}$ without the axiom of power set, with collection, not replacement). It is a **$κ$-model** if additionaly $M^{<\\kappa} \\subseteq M$.{% cite HamkinsJohnstone:BoldfaceResurrectionAxioms %}{% cite HolySchlicht2017:HierarchyRamseylike %}
 
 ## Prime models and minimal models
 (from {% cite Enayat2005 %}, p. 23-24 unless noted otherwise)
