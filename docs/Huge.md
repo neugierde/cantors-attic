@@ -84,7 +84,7 @@ Hierarchy:
         -    Therefore, taking into account that $C^{(n)}$-huge is $Σ\_{n+1}$ expressible, the first $C^{(n)}$-huge cardinal is smaller than the first $C^{(n+1)}$-almost-huge cardinal (provided both exist).
 
 Relations with other large cardinals:
--    If $κ$ is $C^{(n)}$-superhuge, then $κ$ is $C^{(n)}$-[extendible](Extendible "Extendible") (in particular $κ ∈ C^{(n+2)}$) and there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α\textrm{ is }C^{(n)}\textrm{-extendible}\\} ∈ \\mathcal{U}$. $κ$ is also $C^{(n)}$-[supercompact](Supercompact "Supercompact").
+-    If $κ$ is $C^{(n)}$-superhuge, then $κ$ is $C^{(n)}$-[extendible](Extendible "Extendible") (in particular $κ ∈ C^{(n+2)}$) and there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α\\textrm{ is }C^{(n)}\textrm{-extendible}\\} ∈ \\mathcal{U}$. $κ$ is also $C^{(n)}$-[supercompact](Supercompact "Supercompact").
 -    Assuming [$\\mathrm{I3}(κ, δ)$](Rank_into_rank "Rank into rank"), if $δ$ is a limit cardinal (instead of a successor of a limit cardinal – Kunen’s Theorem excludes other cases), it is equal to $sup\\{j^m(κ) : m ∈ ω\\}$ where $j$ is the elementary embedding. Then $κ$ and $j^m(κ)$ are $C^{(n)}$-$m$-huge and $C^{(n)}$-superhuge (inter alia) in $V\_δ$, for all $n$ and $m$.
 -    If $κ$ is $C^{(n)}$-$\\mathrm{I3}$, then it is $C^{(n)}$-$m$-huge, for all $m$, and there is a ($κ$-complete — from 2019 version) normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α$ is $C^{(n)}$-$m$-huge for every $m\\} ∈ \\mathcal{U}$.
 
