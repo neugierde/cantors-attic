@@ -29,7 +29,7 @@ As such, for uncountable regular $\\lambda$, the set $H\_\\lambda$ exhibits many
 If $\\lambda$ is regular, and $x\\in H\_\\lambda$, then $L\_\\lambda(x)\\subseteq H\_\\lambda$. In addition, if $ZFC^-$ denote the theory $ZFC$ without the powerset axiom, and $\\lambda$ is regular uncountable, then $(H\_\\lambda,\\in)\\vDash ZFC^-$, and so $(H\_{\\aleph\_1},\\in)\\vDash KP$. In fact, this model also satisfies the negation of the powerset axiom.
 
 ## Hereditarily Finite Sets
-The collection $H\_{\\aleph\_0}$ (or $\\mathrm{HF}$[https://groups.google.com/g/sci.logic/c/ONW-OODiukk]) of hereditarily finite sets is equal to the collection $V\_\\omega$ of sets of finite rank.
+The collection $H\_{\\aleph\_0}$ (or [$\\mathrm{HF}$](https://groups.google.com/g/sci.logic/c/ONW-OODiukk])) of hereditarily finite sets is equal to the collection $V\_\\omega$ of sets of finite rank.
 The model $\\langle H\_{\\aleph\_0}, \\in\\rangle$ satisfies $ZFC$ without the axiom of infinity (In fact, it satisfies the negation of the axiom of infinity) and in particular witnesses that the axiom of infinity is proof-theoretically independent of the other axioms of ZFC.
 
 ## Role in Elementary Embeddings
