@@ -28,7 +28,7 @@ Thus, the notion of 2-measurability separates the class $C$ of all cardinals in 
 
 Theorem 2 : The following are equivalent :
 1.  There exists a $\\kappa$-complete nonprincipal ultrafilter on $\\kappa$.
-2.  There exists a nontrivial elementary embedding $j:V\\to M$ with $M$ a transitive class and such that $\\kappa$ is the least ordinal moved (the *critical point'').
+2.  There exists a nontrivial elementary embedding $j:V\\to M$ with $M$ a transitive class and such that $\\kappa$ is the least ordinal moved (the *critical point*).
 3.  There exists a nonprincipal ultrafilter $U$ on $\\kappa$ such that the [ultrapower](Ultrapower "Ultrapower") $(\\text{Ult}\_U(V),\\in\_U)$ of the universe is well-founded.
 
 To see that the second condition implies the first one, one can show that if $j:V\\to M$ is a nontrivial elementary embedding, then the set $\\mathcal{U}=\\{x\\subset\\kappa|\\kappa\\in j(x)\\})$ is a $\\kappa$-complete nonprincipal ultrafilter on $\\kappa$, and in fact a normal fine measure. To show the converse, one needs to use [ultrapower embeddings](Ultrapower "Ultrapower"): if $U$ is a nonprincipal $\\kappa$-complete ultrafilter on $\\kappa$, then the canonical ultrapower embedding $j:V\\to\\text{Ult}\_U(V)$ is a nontrivial elementary embedding of the universe. {% cite Jech2003 %}
