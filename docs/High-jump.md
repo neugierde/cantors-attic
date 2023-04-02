@@ -30,19 +30,13 @@ When $\\kappa$ is almost high-jump, in both $V$ and $M$, $\\theta^\\kappa=\\thet
 
 The following statements also holds:
 
--    Suppose there is a almost high-jump cardinal. Then there are many cardinals below it that are Shelah for supercompactness. Also, in the model $V\_\\kappa$ there are many supercompact cardinals.
-
--    Every high-jump cardinal is almost high-jump, and has order $\\theta$; in fact, in the models $V\_\\theta$, $V\_\\kappa$ and $M\_{j(\\kappa)}$ there are many super almost high-jump cardinals.
-
--    The existence of a high-jump cardinal with order $\\eta$ implies that for every $\\gamma<\\eta$, there exists a model in which that cardinal is high-jump with order $\\gamma$. The same statement holds for almost high-jump cardinals.
-
--    The existence of a high-jump cardinal with unbounded excess closure is equiconsistent with the existence of a cardinal $\\kappa$ such that for all sufficiently large $\\lambda$, there exists a high-jump measure on $\\mathcal{P}\_\\kappa(\\lambda$).
-
--    Suppose $\\kappa$ is [almost huge](Huge "Huge"); then in the model $V\_\\kappa$ there are many cardinals that are high-jump with unbounded excess closure.
-
--    Suppose that there exists a pair of cardinals ($\\kappa$, $\\theta$) such that there is a high-jump embedding $j:V\\to M$ with critical point $\\kappa$ and clearance $\\theta$ and such that $M^{2^\\theta}\\subseteq M$. Then the cardinal $\\kappa$ is super high-jump in the model $V\_\\theta$, and the cardinal $\\kappa$ has high-jump order $\\theta$ in $V$. Furthermore, there are many super high-jump cardinals in the models $V\_\\kappa$, $V\_\\theta$, and $M\_{j(\\kappa)}$.
-
--    The least high-jump cardinal is not $\\Sigma\_2$-reflecting. In particular, it is not supercompact and not even strong. The same is true for the least [almost huge](Huge "Huge") cardinal, the least [superstrong](Superstrong "Superstrong") cardinal, the least almost-high-jump cardinal, and the least Shelah-for-supercompactness cardinal.
+-   Suppose there is a almost high-jump cardinal. Then there are many cardinals below it that are Shelah for supercompactness. Also, in the model $V\_\\kappa$ there are many supercompact cardinals.
+-   Every high-jump cardinal is almost high-jump, and has order $\\theta$; in fact, in the models $V\_\\theta$, $V\_\\kappa$ and $M\_{j(\\kappa)}$ there are many super almost high-jump cardinals.
+-   The existence of a high-jump cardinal with order $\\eta$ implies that for every $\\gamma<\\eta$, there exists a model in which that cardinal is high-jump with order $\\gamma$. The same statement holds for almost high-jump cardinals.
+-   The existence of a high-jump cardinal with unbounded excess closure is equiconsistent with the existence of a cardinal $\\kappa$ such that for all sufficiently large $\\lambda$, there exists a high-jump measure on $\\mathcal{P}\_\\kappa(\\lambda$).
+-   Suppose $\\kappa$ is [almost huge](Huge "Huge"); then in the model $V\_\\kappa$ there are many cardinals that are high-jump with unbounded excess closure.
+-   Suppose that there exists a pair of cardinals ($\\kappa$, $\\theta$) such that there is a high-jump embedding $j:V\\to M$ with critical point $\\kappa$ and clearance $\\theta$ and such that $M^{2^\\theta}\\subseteq M$. Then the cardinal $\\kappa$ is super high-jump in the model $V\_\\theta$, and the cardinal $\\kappa$ has high-jump order $\\theta$ in $V$. Furthermore, there are many super high-jump cardinals in the models $V\_\\kappa$, $V\_\\theta$, and $M\_{j(\\kappa)}$.
+-   The least high-jump cardinal is not $\\Sigma\_2$-reflecting. In particular, it is not supercompact and not even strong. The same is true for the least [almost huge](Huge "Huge") cardinal, the least [superstrong](Superstrong "Superstrong") cardinal, the least almost-high-jump cardinal, and the least Shelah-for-supercompactness cardinal.
 
 ## Name origin
 
