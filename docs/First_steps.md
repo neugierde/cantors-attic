@@ -31,6 +31,7 @@ The **ordinals** are defined in a way that extends the natural numbers.
 -   The smallest ordinal is $0=\\{\\}$.
 -   The next ordinal is $1=\\{0\\}=\\{\\{\\}\\}$.
 -   The next ordinal is $2=\\{0,1\\}=\\{\\{\\},\\{\\{\\}\\}\\}$.
+
 ...
 
 Each ordinal is the set of all smaller ordinals. Of course, that begs the question: what is the set of all natural numbers? With this pattern, it should be an ordinal. It is in fact, and it is called $\\omega=\\{0,1,2,3...\\}$. The next ordinal is called $\\omega+1$, and then $\\omega+2$, and so on. Eventually, one gets to $\\omega\\cdot 2$, which is simply the the set $\\{0,1,2,3...\\omega,\\omega+1,\\omega+2...\\}$. Note that $2\\cdot\\omega$ is not $\\omega\\cdot 2$, and $1+\\omega$ is not $\\omega+1$. If you would like a more detailed explanation of ordinal arithmetic, it would be suggested that you should search a reliable source.
