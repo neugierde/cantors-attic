@@ -41,6 +41,7 @@ Using transfinite recursion, define the following cumulative hierarchy:
 -   $V^\\mathbb{P}\_0=\\emptyset$,  $V^\\mathbb{P}\_\\lambda = \\bigcup\_{\\alpha<\\lambda}V^\\mathbb{P}\_\\alpha$ for limit $\\lambda$
 -   $V^\\mathbb{P}\_{\\alpha+1} = \\mathcal{P}(V^\\mathbb{P}\_\\alpha\\times\\mathbb{P})$
 -   $V^\\mathbb{P} = \\bigcup\_{\\alpha\\in\\mathrm{Ord}}V^\\mathbb{P}\_\\alpha$
+
 Elements of $V^\\mathbb{P}$ are called *$\\mathbb{P}$-names*. Every nonempty $\\mathbb{P}$-name is of a set of pairs $(n,p)$ where $n$ is another $\\mathbb{P}$-name and $p\\in\\mathbb{P}$.
 
 Given a filter $G\\subseteq\\mathbb{P}$, define the *interpretation of $\\mathbb{P}$-names* by $G$: Given a $\\mathbb{P}$-name $x$, let $x^G=\\{y^G : ((\\exists p\\in G)(y,p)\\in x)\\}$. Letting $\\breve{x}=\\{(\\breve{y},1):y\\in x\\}$ for every set $x$ be the *canonical name* for $x$, one has $\\breve{x}^G=x$ for all $x$.
@@ -161,10 +162,10 @@ A projective poset $\\mathbb{P}$ is *strongly-proper* if for every countable tra
 (subsection from {% cite Bagaria2002 %})
 
 Among important classes of posets are:
--    *$σ$-centered* posets (can be partitioned into countably many classes so that each class is finite-wise compatible)
--    *$σ$-linked* posets (can be partitioned into countably many classes so that each class is pair-wise compatible)
--    posets that preserve stationary subsets of $ω\_1$ (in short $\\textit{Stat-pres}$)
--    posets that preserve $ω\_1$ (in short $ω\_1\\mathit{-pres}$)
+-   *$σ$-centered* posets (can be partitioned into countably many classes so that each class is finite-wise compatible)
+-   *$σ$-linked* posets (can be partitioned into countably many classes so that each class is pair-wise compatible)
+-   posets that preserve stationary subsets of $ω\_1$ (in short $\\textit{Stat-pres}$)
+-   posets that preserve $ω\_1$ (in short $ω\_1\\mathit{-pres}$)
 
 We have
 
@@ -199,7 +200,8 @@ The **Proper Forcing Axiom** ($\\text{PFA}$) is obtained by replacing "c.c.c." b
 Unlike Martin's axiom, which is equiconsistent with $\\text{ZFC}$, the $\\text{PFA}$ has very high consistency strength, slightly below that of a [supercompact](Supercompact "Supercompact") cardinal. If there is a supercompact cardinal then there is a generic extension in which that supercompact is $\\aleph\_2$ and $\\text{PFA}$ holds. On the other hand, (Friedman, Holy, [A Quasi Lower Bound on the Consistency Strength of PFA](https://web.archive.org/web/20200320163106/http://www.math.uni-bonn.de/people/pholy/acc_accepted.pdf)) proves a *quasi lower bound* on the consistency strength of the $\\text{PFA}$, which is at least the existence of a proper class of [subcompact](Subcompact "Subcompact") cardinals. [https://ac.els-cdn.com/S0001870811002635/1-s2.0-S0001870811002635-main.pdf?\_tid=86c2030e-cca4-11e7-b23b-00000aab0f26&acdnat=1511039455\_137e37101cda34d46bb0f195cbe43148] also shows that all known methods of forcing $\\text{PFA}$ requires a [strongly compact](Strongly_compact "Strongly compact") cardinal, and if one wants the forcing to be proper, a supercompact is required.
 
 $\\text{PFA}$ implies the failure of the [square principle](Square_principle "Square principle") $\\Box\_\\kappa$ for every uncountable cardinal $\\kappa$, therefore it implies the [axiom of quasi-projective determinacy](Axiom_of_determinacy "Axiom of determinacy"). It also implies the **Open Coloring Axiom:** let $X$ be a set of reals, and let $K\\subseteq[X]^2$. We say that $K$ is *open* if the set $\\{(x,y):\\{x,y\\}\\in K\\}$ is an open set in the space $X\\times X$. Then
--    **($\\text{OCA}$).** For every $X\\subseteq\\mathbb{R}$, and for any partition $[X]^2=K\_0\\cup K\_1$ with $K\_0$ open, either there exists an uncountable $Y\\subseteq X$ such that $[Y]^2\\subseteq K\_0$ or there exists sets $H\_n, n<\\omega$ such that $X=\\bigcup\_{n<\\omega}H\_n$ and $[H\_n]^2\\subseteq K\_1$ for all $n$.
+-   **($\\text{OCA}$).** For every $X\\subseteq\\mathbb{R}$, and for any partition $[X]^2=K\_0\\cup K\_1$ with $K\_0$ open, either there exists an uncountable $Y\\subseteq X$ such that $[Y]^2\\subseteq K\_0$ or there exists sets $H\_n, n<\\omega$ such that $X=\\bigcup\_{n<\\omega}H\_n$ and $[H\_n]^2\\subseteq K\_1$ for all $n$.
+
 This axiom has many useful implications in combinatorial set theory.
 
 Statement equivalent to $\\text{PFA}$: If $\\mathcal{M} = (M ; ∈, (R\_i | i < ω\_1 ))$ is a transitive model, $φ(x)$ is a $Σ\_1$-formula and $\\mathbb{Q}$ is a proper forcing such that $\\Vdash\_\\mathbb{Q} φ(\\mathcal{M})$, then there is in $V$ a transitive $\\bar{\\mathcal{M}} = (\\bar{M} ; ∈, (\\bar{R}\_i | i < ω\_1 ))$ together with an elementary embedding $j : \\bar{\\mathcal{M}} → \\mathcal{M}$ such that $φ(\\bar{\\mathcal{M}})$ holds.{% cite BagariaGitmanSchindler2017 %}
@@ -217,15 +219,15 @@ The **Bounded Forcing Axiom** for a partial ordering $\\mathbb{P}$, in short $BF
 For a class of posets $Γ$, $BFA(Γ)$ is the statement that for every $\\mathbb{P} ∈ Γ$, $BFA(\\mathbb{P})$.
 
 Examples:
--    $MA\_{ω\_1}$, Martin’s axiom for $ω\_1$, is $BFA(\\textit{ccc})$.
--    $BPFA$, the bounded proper forcing axiom, is $BFA(\\textit{Proper})$.
--    $BSPFA$, the bounded semi-proper forcing axiom, is $BFA(\\textit{Semi-proper})$.
--    $BMM$, the bounded Martin’s maximum, is $BFA(\\textit{Stat-pres})$.
+-   $MA\_{ω\_1}$, Martin’s axiom for $ω\_1$, is $BFA(\\textit{ccc})$.
+-   $BPFA$, the bounded proper forcing axiom, is $BFA(\\textit{Proper})$.
+-   $BSPFA$, the bounded semi-proper forcing axiom, is $BFA(\\textit{Semi-proper})$.
+-   $BMM$, the bounded Martin’s maximum, is $BFA(\\textit{Stat-pres})$.
 
 $BPFA$ implies that there is a well-ordering of the reals in length $ω\_2$ definable with parameters in $H(ω\_2)$ and therefore $\\mathfrak{c} = \\aleph\_2$.
 
 $BMM$ implies that for every set $X$ there is an inner model with a [strong](Strong "Strong") cardinal containing $X$.
--    Thus, in particular, $BMM$ implies that for every set $X$, [$X^\\dagger$ exists](Zero_dagger "Zero dagger").
+-   Thus, in particular, $BMM$ implies that for every set $X$, [$X^\\dagger$ exists](Zero_dagger "Zero dagger").
 
 ### $\\text{wPFA}$ and $\\text{PFA}\_κ$
 (information in this subsection from {% cite BagariaGitmanSchindler2017 %})
@@ -237,6 +239,7 @@ If there is a [remarkable](Remarkable "Remarkable") cardinal, then $\\text{wPFA}
 For a cardinal $κ$, $\\text{PFA}\_κ$ is the statement that
 
 :   if $\\mathbb{B}$ is any proper complete Boolean algebra and if $\\langle A\_ξ | ξ < ω\_1 \\rangle$ is any family of maximal antichains in $\\mathbb{B}$ with $|A\_ξ| ≤ κ$ for each $ξ < ω\_1$, then there is some filter $G ⊆ \\mathbb{B}$ such that $\\forall\_{ξ < ω\_1} G ∩ A\_ξ ≠ ∅$.
+
 Equivalently, in analogy to the other statements (adding the assumption $|M| ≤ κ$):
 
 :   If $\\mathcal{M} = (M ; ∈, (R\_i | i < ω\_1 ))$ is a transitive model, $|M| ≤ κ$, $φ(x)$ is a $Σ\_1$-formula and $\\mathbb{Q}$ is a proper forcing such that $\\Vdash\_\\mathbb{Q} φ(\\mathcal{M})$, then there is in $V$ a transitive $\\bar{\\mathcal{M}} = (\\bar{M} ; ∈, (\\bar{R}\_i | i < ω\_1 ))$ together with an elementary embedding $j : \\bar{\\mathcal{M}} → \\mathcal{M}$ such that $φ(\\bar{\\mathcal{M}})$ holds.
