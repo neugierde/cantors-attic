@@ -78,7 +78,7 @@ Under $\\text{ZF+AD}$, the cardinal $\\omega\_1$ is <$\\Theta$-[strongly compact
 
 ## Determinacy of $L(\\mathbb{R})$
 
-''See also: [Constructible universe](Constructible_universe "Constructible universe")''
+*See also: [Constructible universe](Constructible_universe "Constructible universe")*
 
 Recall that a formula $\\varphi$ is $\\Delta\_0$ if and only if it only contains bounded quantifiers (i.e. $(\\forall x\\in y)$ and $(\\exists x\\in y)$). Let $\\text{def}(X)=\\{Y\\subset X : Y$ is first-order definable by a $\\Delta\_0$ formula with parameters only from $X\\cup\\{X\\}\\}$. Then let:
 -   $L\_0(X)=\\text{TC}(\\{X\\})$
@@ -113,7 +113,7 @@ The following holds in $L(\\mathbb{R})$ assuming $\\text{AD}^{L(\\mathbb{R})}$: 
 
 ## Axiom of projective determinacy
 
-''Main article: [Projective determinacy](Projective#Projective_determinacy "Projective#Projective determinacy")''
+*Main article: [Projective determinacy](Projective#Projective_determinacy "Projective#Projective determinacy")*
 
 ## Axiom of real determinacy
 
@@ -127,11 +127,11 @@ Steel showed that under $\\text{AD}\_\\mathbb{R}$, in a [generic extension](Forc
 
 Under $\\text{AD}\_\\mathbb{R}$, $\\omega\_1$ is <$\\Theta$-supercompact, i.e. for every ordinal $\\gamma<\\Theta$ there is a normal fine ultrafilter on the set of all subsets of $\\gamma$ of size $\\aleph\_1$. $\\text{AD}$ suffices for this result to hold in $L(\\mathbb{R})$, but is not known to suffice for it to hold in $\\text{V}$. {% cite Larson2010 %}
 
-A set $\\Gamma\\subset\\mathcal{P}(\\mathbb{R})$ is a *Wadge initial segment* of $\\mathcal{P}(\\mathbb{R})$ if for every $X\\in\\Gamma$, if $Y\\leq\_W X$ (i.e. $Y$ is <a href="https://en.wikipedia.org/wiki/Wadge hierarchy" class="extiw" title="wikipedia:Wadge hierarchy">Wadge reducible</a> to $X$) then $Y\\in\\Gamma$. Under suitable large cardinal assumptions, there exists a Wadge initial segment $\\Gamma\\subset\\mathcal{P}(\\mathbb{R})$ such that $L(\\Gamma,\\mathbb{R})\\models\\text{AD}^{+}+\\text{AD}\_\\mathbb{R}+\\Gamma=\\mathcal{P}(\\mathbb{R})$ (see [AD+](AD+ "AD+")). Furthermore, whenever $\\mathcal{M}$ is an inner model such that $\\mathbb{R}\\subset\\mathcal{M}$ and $\\mathcal{M}\\models\\text{AD}^{+}+\\text{AD}\_\\mathbb{R}$, one has $\\Gamma\\subset\\mathcal{M}$. *(see the 'Read more' section)''
+A set $\\Gamma\\subset\\mathcal{P}(\\mathbb{R})$ is a *Wadge initial segment* of $\\mathcal{P}(\\mathbb{R})$ if for every $X\\in\\Gamma$, if $Y\\leq\_W X$ (i.e. $Y$ is <a href="https://en.wikipedia.org/wiki/Wadge hierarchy" class="extiw" title="wikipedia:Wadge hierarchy">Wadge reducible</a> to $X$) then $Y\\in\\Gamma$. Under suitable large cardinal assumptions, there exists a Wadge initial segment $\\Gamma\\subset\\mathcal{P}(\\mathbb{R})$ such that $L(\\Gamma,\\mathbb{R})\\models\\text{AD}^{+}+\\text{AD}\_\\mathbb{R}+\\Gamma=\\mathcal{P}(\\mathbb{R})$ (see [AD+](AD+ "AD+")). Furthermore, whenever $\\mathcal{M}$ is an inner model such that $\\mathbb{R}\\subset\\mathcal{M}$ and $\\mathcal{M}\\models\\text{AD}^{+}+\\text{AD}\_\\mathbb{R}$, one has $\\Gamma\\subset\\mathcal{M}$. *(see the 'Read more' section)*
 
 ## $\\text{AD}^+$ and models of determinacy
 
-''Main article: [$\\text{AD}^+$](AD+ "AD+")''
+*Main article: [$\\text{AD}^+$](AD+ "AD+")*
 
 ## Consistency strength of determinacy hypotheses
 
@@ -158,6 +158,7 @@ Woodin proved that the theory $\\text{ZF+DC+AD+}$"$\\omega\_1$ is supercompact" 
 [Projective determinacy](Projective_determinacy "Projective determinacy") ($\\text{PD}$) is a little weaker than $\\text{AD}^{L(\\mathbb{R})}$, indeed the following theories are equiconsistent:
 -    $\\text{ZFC+PD}$
 -    $\\text{ZFC}$ plus, for all $n$, an axiom saying "there are $n$ Woodin cardinals"
+
 Since $\\text{ZFC}$ can only use finitely many of its axioms at once in a proof, this axiom schema does not allow $\\text{ZFC}$ to prove that there exists infinitely many Woodin cardinals, despite making it able to prove every particular instance of "there exists at least $n$ Woodin cardinals".
 
 Furthermore, the following axioms are equivalent over $\\text{ZFC}$:
@@ -172,6 +173,7 @@ Projective determinacy restricted to the lightface hierarchy is a lot weaker as 
 -    lightface $\\Delta^1\_2$-determinacy
 -    lightface projective determinacy
 -    $\\text{OD}$-determinacy
+
 Where $\\text{OD}$-determinacy is the statement that all sets $S\\in\\mathcal{P}(\\mathbb{R})\\cap\\text{OD}$ are determined. This is not equivalent to $\\text{AD}^{\\text{OD}}$, i.e. the statement that $\\text{OD}\\models\\text{AD}$, which is refutable in $\\text{ZF}$ since $\\text{OD}$ satisfies the axiom of choice. The consistency of these theories imply that of $\\text{ZFC+}$"there exists a Woodin cardinal", though the converse it still open. This latter theory is known to be equiconsistent with $\\text{ZFC+}$"the nonstationary ideal on $\\omega\_1$ is $\\omega\_2$-saturated".
 
 On the arithmetic side, the theory $\\text{Z}\_3+$lightface $\\Delta^1\_2$-determinacy is equiconsistent with $\\text{MK+}$"$\\text{Ord}$ is Woodin" where $\\text{Z}\_3$ is *third-order arithmetic* and $\\text{MK}$ is [Morse-Kelley set theory](Morse-Kelley_set_theory "Morse-Kelley set theory"). It is also conjectured that $\\text{Z}\_2+$lightface +$\\Delta^1\_2$-determinacy and $\\text{ZFC+}$"$\\text{Ord}$ is Woodin" are equiconsistent, where $\\text{Z}\_2$ is <a href="https://en.wikipedia.org/wiki/second-order arithmetic" class="extiw" title="wikipedia:second-order arithmetic">second-order arithmetic</a> and "$\\text{Ord}$ is Woodin" is expressed as an axiom scheme.
@@ -183,6 +185,7 @@ Finally, Trang and Wilson proved that the following theories are equiconsistent:
 -    $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathcal{P}(\\mathbb{R})$-strongly compact"
 -    $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and $\\Theta$ is singular"
 -    $\\text{ZF+DC+}$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and $\\Theta$-strongly compact"
+
 As are the following theories:
 -    $\\text{ZF+AD}\_\\mathbb{R}$
 -    $\\text{ZF+DC}\_{\\mathcal{P}(\\omega\_1)}+$"$\\omega\_1$ is $\\mathbb{R}$-strongly compact and $\\Theta$ is singular"
