@@ -48,7 +48,7 @@ If $\\alpha$ is an ordinal, we say that it is an *initial ordinal* if no $\\beta
 
 Assuming the negation of the axiom of choice, we have that some sets cannot be well ordered, and as a result some cardinals are non-$\\aleph$ ones. Such examples are infinite [Dedekind finite](D-finite "D-finite") cardinals, in some models of ZF the real numbers cannot be well ordered, which also forms a non-$\\aleph$ cardinal.
 
-''see [General cardinal, without the axiom of choice](Cardinal\_general "Cardinal\_general")''
+*see [General cardinal, without the axiom of choice](Cardinal\_general "Cardinal\_general")*
 
 {{stub}}
 
