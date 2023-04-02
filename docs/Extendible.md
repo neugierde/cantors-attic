@@ -47,22 +47,22 @@ For $λ ∈ C^{(n)}$, a cardinal $κ$ is $λ$-$C^{(n)+}$-extendible iff it is $�
 $κ$ is $C^{(n)+}$-extendible iff it is $λ$-$C^{(n)+}$-extendible for every $λ > κ$ such that $λ ∈ C^{(n)}$.
 
 Properties:
--    The notions of $C^{(n)}$-extendible cardinals and $C^{(n)+}$-extendible cardinals are equivalent.{% cite GitmanHamkins2018 %}
--    Every extendible cardinal is $C^{(1)}$-extendible.
--    If $κ$ is $C^{(n)}$-extendible, then $κ ∈ C^{(n+2)}$.
--    For every $n ≥ 1$, if $κ$ is $C^{(n)}$-extendible and $κ+1$-$C^{(n+1)}$-extendible, then the set of $C^{(n)}$-extendible cardinals is unbounded below $κ$.
-    -    Hence, the first $C^{(n)}$-extendible cardinal $κ$, if it exists, is not $κ+1$-$C^{(n+1)}$-extendible.
-    -    In particular, the first extendible cardinal $κ$ is not $κ+1$-$C^{(2)}$-extendible.
--    For every $n$, if there exists a $C^{(n+2)}$-extendible cardinal, then there exist a proper class of $C^{(n)}$-extendible cardinals.
--    The existence of a $C^{(n+1)}$-extendible cardinal $κ$ (for $n ≥ 1$) does not imply the existence of a $C^{(n)}$-extendible cardinal greater than $κ$. For if $λ$ is such a cardinal, then $V\_λ \\models$“κ is $C^{(n+1)}$-extendible”.
--    If $κ$ is $κ+1$-$C^{(n)}$-extendible and belongs to $C^{(n)}$, then $κ$ is $C^{(n)}$-[superstrong](Superstrong "Superstrong") and there is a $κ$-complete normal [ultrafilter](Ultrafilter "Ultrafilter") $U$ over $κ$ such that the set of $C^{(n)}$-superstrong cardinals smaller than $κ$ belongs to $U$.
--    For $n ≥ 1$, the following are equivalent ($VP$ — [Vopěnka's principle](Vopenka "Vopenka")):
-    -    $VP(Π\_{n+1})$
-    -    $VP(κ, \\mathbf{Σ\_{n+2}})$ for some $κ$
-    -    There exists a $C(n)$-extendible cardinal.
--    “For every $n$ there exists a $C(n)$-extendible cardinal.” is equivalent to the full Vopěnka's principle.
--    Every $C^{(n)}$-[superhuge](Huge "Huge") cardinal is $C^{(n)}$-extendible.
--    Assuming [$\\mathrm{I3}(κ, δ)$](Rank_into_rank "Rank into rank"), if $δ$ is a limit cardinal (instead of a successor of a limit cardinal – Kunen’s Theorem excludes other cases), it is equal to $sup\\{j^m(κ) : m ∈ ω\\}$ where $j$ is the elementary embedding. Then $κ$ and $j^m(κ)$ are $C^{(n)}$-extendible (inter alia) in $V\_δ$, for all $n$ and $m$.
+-   The notions of $C^{(n)}$-extendible cardinals and $C^{(n)+}$-extendible cardinals are equivalent.{% cite GitmanHamkins2018 %}
+-   Every extendible cardinal is $C^{(1)}$-extendible.
+-   If $κ$ is $C^{(n)}$-extendible, then $κ ∈ C^{(n+2)}$.
+-   For every $n ≥ 1$, if $κ$ is $C^{(n)}$-extendible and $κ+1$-$C^{(n+1)}$-extendible, then the set of $C^{(n)}$-extendible cardinals is unbounded below $κ$.
+    -   Hence, the first $C^{(n)}$-extendible cardinal $κ$, if it exists, is not $κ+1$-$C^{(n+1)}$-extendible.
+    -   In particular, the first extendible cardinal $κ$ is not $κ+1$-$C^{(2)}$-extendible.
+-   For every $n$, if there exists a $C^{(n+2)}$-extendible cardinal, then there exist a proper class of $C^{(n)}$-extendible cardinals.
+-   The existence of a $C^{(n+1)}$-extendible cardinal $κ$ (for $n ≥ 1$) does not imply the existence of a $C^{(n)}$-extendible cardinal greater than $κ$. For if $λ$ is such a cardinal, then $V\_λ \\models$“κ is $C^{(n+1)}$-extendible”.
+-   If $κ$ is $κ+1$-$C^{(n)}$-extendible and belongs to $C^{(n)}$, then $κ$ is $C^{(n)}$-[superstrong](Superstrong "Superstrong") and there is a $κ$-complete normal [ultrafilter](Ultrafilter "Ultrafilter") $U$ over $κ$ such that the set of $C^{(n)}$-superstrong cardinals smaller than $κ$ belongs to $U$.
+-   For $n ≥ 1$, the following are equivalent ($VP$ — [Vopěnka's principle](Vopenka "Vopenka")):
+    -   $VP(Π\_{n+1})$
+    -   $VP(κ, \\mathbf{Σ\_{n+2}})$ for some $κ$
+    -   There exists a $C(n)$-extendible cardinal.
+-   “For every $n$ there exists a $C(n)$-extendible cardinal.” is equivalent to the full Vopěnka's principle.
+-   Every $C^{(n)}$-[superhuge](Huge "Huge") cardinal is $C^{(n)}$-extendible.
+-   Assuming [$\\mathrm{I3}(κ, δ)$](Rank_into_rank "Rank into rank"), if $δ$ is a limit cardinal (instead of a successor of a limit cardinal – Kunen’s Theorem excludes other cases), it is equal to $sup\\{j^m(κ) : m ∈ ω\\}$ where $j$ is the elementary embedding. Then $κ$ and $j^m(κ)$ are $C^{(n)}$-extendible (inter alia) in $V\_δ$, for all $n$ and $m$.
 
 ### $(\\Sigma\_n,\\eta)$-extendible cardinals
 
@@ -83,49 +83,49 @@ $\\Sigma\_3$-extendible cardinals cannot be Laver [indestructible](Indestructibl
 (this subsection from {% cite Hamkins2016 %} unless noted otherwise)
 
 Definitions:
--    A cardinal $κ$ is **$A$-extendible**, for a class $A$, iff for every ordinal $λ > κ$ there is an ordinal $θ$ such that there is an elementary embedding $j : ⟨ V\_λ , ∈, A ∩ V\_λ ⟩ → ⟨ V\_θ , ∈, A ∩ V\_θ ⟩$ with critical point $κ$ (such that $λ < j(κ)$ — *removing this does not change, what cardinals are extendible*).
-    -    $λ$ is called the degree of $A$-extendibility of an embedding.
--    A cardinal $κ$ is **$(Σ\_n)$-extendible**, iff it is $A$-extendible, where $A$ is the $Σ\_n$-truth predicate. (This is a different notion than $\\Sigma\_n$-extendible cardinals.){% cite GitmanHamkins2018 %}
--    For $A$-extendible $κ$ is, a set $g ⊆ κ$ is called **$A$-stretchable**, if for every $λ > κ$ and every $h ⊆ λ$ for which $h ∩ κ = g$, there is an elementary embedding $j : ⟨V\_λ , ∈, A ∩ V\_λ⟩ → ⟨V\_θ , ∈, A ∩ V\_θ⟩$ such that $crit(j)=κ$, $λ < j(κ)$ and $j(g) ∩ λ = h$.
-    -    Intuitively, an $A$-stretchable set $g$ is one that can be stretched by an $A$-extendibility embedding to agree with any desired $h$ that extends $g$.
-    -    $A$-strechability is a form of [Laver diamond](Laver_diamond "Laver diamond") for $A$-extendibility.
--    For $A$-extendible $κ$, a function $\\ell : κ → V\_κ$ is called an **$A$-extendibility Laver function**, if for every $λ$ and every target $a$, there is an elementary embedding $j : ⟨V\_λ , ∈, A ∩ V\_λ⟩ → ⟨V\_θ , ∈, A ∩ V\_θ⟩$ such that $crit(j)=κ$, $λ < j(κ)$ and $j(\\ell)(κ) = a$.
+-   A cardinal $κ$ is **$A$-extendible**, for a class $A$, iff for every ordinal $λ > κ$ there is an ordinal $θ$ such that there is an elementary embedding $j : ⟨ V\_λ , ∈, A ∩ V\_λ ⟩ → ⟨ V\_θ , ∈, A ∩ V\_θ ⟩$ with critical point $κ$ (such that $λ < j(κ)$ — *removing this does not change, what cardinals are extendible*).
+    -   $λ$ is called the degree of $A$-extendibility of an embedding.
+-   A cardinal $κ$ is **$(Σ\_n)$-extendible**, iff it is $A$-extendible, where $A$ is the $Σ\_n$-truth predicate. (This is a different notion than $\\Sigma\_n$-extendible cardinals.){% cite GitmanHamkins2018 %}
+-   For $A$-extendible $κ$ is, a set $g ⊆ κ$ is called **$A$-stretchable**, if for every $λ > κ$ and every $h ⊆ λ$ for which $h ∩ κ = g$, there is an elementary embedding $j : ⟨V\_λ , ∈, A ∩ V\_λ⟩ → ⟨V\_θ , ∈, A ∩ V\_θ⟩$ such that $crit(j)=κ$, $λ < j(κ)$ and $j(g) ∩ λ = h$.
+    -   Intuitively, an $A$-stretchable set $g$ is one that can be stretched by an $A$-extendibility embedding to agree with any desired $h$ that extends $g$.
+    -   $A$-strechability is a form of [Laver diamond](Laver_diamond "Laver diamond") for $A$-extendibility.
+-   For $A$-extendible $κ$, a function $\\ell : κ → V\_κ$ is called an **$A$-extendibility Laver function**, if for every $λ$ and every target $a$, there is an elementary embedding $j : ⟨V\_λ , ∈, A ∩ V\_λ⟩ → ⟨V\_θ , ∈, A ∩ V\_θ⟩$ such that $crit(j)=κ$, $λ < j(κ)$ and $j(\\ell)(κ) = a$.
 
 Results:
--    The following notions are equivalent:{% cite GitmanHamkins2018 %}
-    -    $C^{(n)}$-extendibility in the sense of Bagaria (defined in a section above)
-    -    $A$-extendibility where $A$ is the class $C^{(n)}$
-    -    $(Σ\_n)$-extendibility
-    -    $κ$ is $A$-extendible for every $Σ\_n$-definable class $A$, allowing parameters in $V\_κ$
--    The [Vopěnka principle](Vopenka "Vopenka") is equivalent over GBC to both following statements:
-    -    For every class $A$, there is an $A$-extendible cardinal.
-    -    For every class $A$, there is a stationary proper class of $A$-extendible cardinals.
--    If $κ$ is $A$-extendible for some class $A$, then
-    -    there is an $A$-stretchable set $g ⊆ κ$.
-    -    there is an $A$-extendibility Laver function $\\ell : κ → V\_κ$.
--    In $\\text{GBC}$, for any class $A$ there is a class function $\\ell : \\mathrm{Ord} → V$, such that for every $A$-extendible cardinal $κ$, $\\ell ↾ κ$ is an $A$-extendible Laver function for $κ$.
-    -    This uses global well-ordering that is a consequence of global choice.
-    -    Without global choice, one can still have ordinal-anticipating Laver function $\\ell : \\mathrm{Ord} → \\mathrm{Ord}$ and get for example $A$-extendibility Menas property.
--    If $κ$ is $A$-extendible for a class $A$, then $κ$ is $Σ\_2(A)$-[reflecting](Reflecting "Reflecting").
--    If $κ$ is $A ⊕ C$-extendible, where $C$ is the class of all $Σ\_1(A)$-[correct](Correct "Correct") ordinals, then $κ$ is $Σ\_3(A)$-reflecting.
+-   The following notions are equivalent:{% cite GitmanHamkins2018 %}
+    -   $C^{(n)}$-extendibility in the sense of Bagaria (defined in a section above)
+    -   $A$-extendibility where $A$ is the class $C^{(n)}$
+    -   $(Σ\_n)$-extendibility
+    -   $κ$ is $A$-extendible for every $Σ\_n$-definable class $A$, allowing parameters in $V\_κ$
+-   The [Vopěnka principle](Vopenka "Vopenka") is equivalent over GBC to both following statements:
+    -   For every class $A$, there is an $A$-extendible cardinal.
+    -   For every class $A$, there is a stationary proper class of $A$-extendible cardinals.
+-   If $κ$ is $A$-extendible for some class $A$, then
+    -   there is an $A$-stretchable set $g ⊆ κ$.
+    -   there is an $A$-extendibility Laver function $\\ell : κ → V\_κ$.
+-   In $\\text{GBC}$, for any class $A$ there is a class function $\\ell : \\mathrm{Ord} → V$, such that for every $A$-extendible cardinal $κ$, $\\ell ↾ κ$ is an $A$-extendible Laver function for $κ$.
+    -   This uses global well-ordering that is a consequence of global choice.
+    -   Without global choice, one can still have ordinal-anticipating Laver function $\\ell : \\mathrm{Ord} → \\mathrm{Ord}$ and get for example $A$-extendibility Menas property.
+-   If $κ$ is $A$-extendible for a class $A$, then $κ$ is $Σ\_2(A)$-[reflecting](Reflecting "Reflecting").
+-   If $κ$ is $A ⊕ C$-extendible, where $C$ is the class of all $Σ\_1(A)$-[correct](Correct "Correct") ordinals, then $κ$ is $Σ\_3(A)$-reflecting.
 
 ### Virtually extendible cardinals
 
 Definitions:
--    A cardinal $κ$ is (weakly? strongly? ......) **virtually extendible** iff for every $α > κ$, in a set-forcing extension there is an elementary embedding $j : V\_α → V\_β$ with $\\mathrm{crit(j)} = κ$ and $j(κ) > α$.
-    -    **$C^{(n)}$-virtually extendible** cardinals require additionally that $j(κ)$ has property $C^{(n)}$ (i.e. $\\Sigma\_n$-[correctness](Correct "Correct")).{% cite GitmanSchindler %}
--    A cardinal $κ$ is **(weakly) virtually $A$-extendible**, for a class $A$, iff for every ordinal $λ > κ$ there is an ordinal $θ$ such that in a set-forcing extension, there is an elementary embedding $j : \\langle V\_λ , ∈, A ∩ V\_λ \\rangle → \\langle V\_θ , ∈, A ∩ V\_θ \\rangle$ with critical point $κ$.
-    -    For **(strongly) virtually $A$-extendible** $κ$, we require additionally $λ < j(κ)$.{% cite GitmanHamkins2018 %}
--    A cardinal $κ$ is **$n$-[remarkable](Remarkable "Remarkable")**, for $n > 0$, iff for every $η > κ$ in [$C^{(n)}$](Correct "Correct") , there is $α<κ$ also in $C^{(n)}$ such that in $V^{Coll(ω, < κ)}$, there is an elementary embedding $j : V\_α → V\_η$ with $j(\\mathrm{crit}(j)) = κ$.
-    -    A cardinal is **completely remarkable** iff it is $n$-remarkable for all $n > 0$.{% cite BagariaGitmanSchindler2017 %}
--    A cardinal κ is weakly or strongly virtually $(Σ\_n)$-extendible, iff it is respectively weakly or strongly virtually $A$-extendible, where $A$ is the $Σ\_n$-truth predicate.{% cite GitmanHamkins2018 %}
+-   A cardinal $κ$ is (weakly? strongly? ......) **virtually extendible** iff for every $α > κ$, in a set-forcing extension there is an elementary embedding $j : V\_α → V\_β$ with $\\mathrm{crit(j)} = κ$ and $j(κ) > α$.
+    -   **$C^{(n)}$-virtually extendible** cardinals require additionally that $j(κ)$ has property $C^{(n)}$ (i.e. $\\Sigma\_n$-[correctness](Correct "Correct")).{% cite GitmanSchindler %}
+-   A cardinal $κ$ is **(weakly) virtually $A$-extendible**, for a class $A$, iff for every ordinal $λ > κ$ there is an ordinal $θ$ such that in a set-forcing extension, there is an elementary embedding $j : \\langle V\_λ , ∈, A ∩ V\_λ \\rangle → \\langle V\_θ , ∈, A ∩ V\_θ \\rangle$ with critical point $κ$.
+    -   For **(strongly) virtually $A$-extendible** $κ$, we require additionally $λ < j(κ)$.{% cite GitmanHamkins2018 %}
+-   A cardinal $κ$ is **$n$-[remarkable](Remarkable "Remarkable")**, for $n > 0$, iff for every $η > κ$ in [$C^{(n)}$](Correct "Correct") , there is $α<κ$ also in $C^{(n)}$ such that in $V^{Coll(ω, < κ)}$, there is an elementary embedding $j : V\_α → V\_η$ with $j(\\mathrm{crit}(j)) = κ$.
+    -   A cardinal is **completely remarkable** iff it is $n$-remarkable for all $n > 0$.{% cite BagariaGitmanSchindler2017 %}
+-   A cardinal κ is weakly or strongly virtually $(Σ\_n)$-extendible, iff it is respectively weakly or strongly virtually $A$-extendible, where $A$ is the $Σ\_n$-truth predicate.{% cite GitmanHamkins2018 %}
 
 Equivalence and hierarchy:
--    $1$-remarkability is equivalent to remarkability. A cardinal is virtually $C^{(n)}$-extendible iff it is $n + 1$-remarkable (virtually extendible cardinals are virtually $C^{(1)}$-extendible).{% cite BagariaGitmanSchindler2017 %}
--    Weakly and strongly $A$-extendible cardinal are non-equivalent, although in the non-virtual context, the weak and strong forms of $A$-extendibility coincide.{% cite GitmanHamkins2018 %}
--    It is relatively consistent with GBC that every class $A$ admits a (weakly) virtually $A$-extendible cardinal (and so the generic Vopěnka principle holds), but no class $A$ admits a (strongly) virtually $A$-extendible cardinal.{% cite GitmanHamkins2018 %}
--    Every $n$-remarkable cardinal is in $C^{(n+1)}$.{% cite BagariaGitmanSchindler2017 %}
--    Every $n+1$-remarkable cardinal is a limit of $n$-remarkable cardinals.{% cite BagariaGitmanSchindler2017 %}
+-   $1$-remarkability is equivalent to remarkability. A cardinal is virtually $C^{(n)}$-extendible iff it is $n + 1$-remarkable (virtually extendible cardinals are virtually $C^{(1)}$-extendible).{% cite BagariaGitmanSchindler2017 %}
+-   Weakly and strongly $A$-extendible cardinal are non-equivalent, although in the non-virtual context, the weak and strong forms of $A$-extendibility coincide.{% cite GitmanHamkins2018 %}
+-   It is relatively consistent with GBC that every class $A$ admits a (weakly) virtually $A$-extendible cardinal (and so the generic Vopěnka principle holds), but no class $A$ admits a (strongly) virtually $A$-extendible cardinal.{% cite GitmanHamkins2018 %}
+-   Every $n$-remarkable cardinal is in $C^{(n+1)}$.{% cite BagariaGitmanSchindler2017 %}
+-   Every $n+1$-remarkable cardinal is a limit of $n$-remarkable cardinals.{% cite BagariaGitmanSchindler2017 %}
 
 Upper limits for strength:
 -    If $κ$ is [virtually Shelah for supercompactness](Shelah "Shelah") or 2-iterable, then $V\_κ$ is a model of proper class many virtually $C^{(n)}$-extendible cardinals for every $n < ω$.{% cite GitmanSchindler %}
@@ -138,32 +138,32 @@ Lower limit for strength:
 -    Virtually extendible cardinals are [remarkable](Remarkable "Remarkable") limits of remarkable cardinals and 1-[iterable](Iterable "Iterable") limits of 1-iterable cardinals.{% cite GitmanSchindler %}
 
 In relation to [Generic Vopěnka's Principle](Generic_Vopěnka's_Principle "Generic Vopěnka's Principle"):(from {% cite BagariaGitmanSchindler2017 %} unless noted otherwise)
--    The following are equiconsistent
-    -    $gVP(Π\_n)$
-    -    $gVP(κ, \\mathbf{Σ\_{n+1}})$ for some $κ$
-    -    There is an $n$-remarkable cardinal.
--    The following are equiconsistent
-    -    $gVP(\\mathbf{Π\_n})$
-    -    $gVP(κ, \\mathbf{Σ\_{n+1}})$ for a proper class of $κ$
-    -    There is a proper class of $n$-remarkable cardinals.
--    Unless there is a transitive model of ZFC with a proper class of $n$-remarkable cardinals,
-    -    if for some cardinal $κ$, $gVP(κ, \\mathbf{Σ\_{n+1}})$ holds, then there is an $n$-remarkable cardinal.
-    -    if $gVP(Π\_n)$ holds, then there is an $n$-remarkable cardinal.
-    -    if $gVP(\\mathbf{Π\_n})$ holds, then there is a proper class of $n$-remarkable cardinals.
--    $κ$ is the least for which $gVP^∗(κ, \\mathbf{Σ\_{n+1}})$ holds. $\\iff κ$ is the least $n$-remarkable cardinal.
--    If $gVP^∗(Π\_n)$ holds, then there is an $n$-remarkable cardinal.
--    If $gVP^∗(\\mathbf{Π\_n})$ holds, then there is a proper class of $n$-remarkable cardinals.
--    If there is a proper class of $n$-remarkable cardinals, then $gVP(Σ\_{n+1})$ holds.{% cite GitmanHamkins2018 %}
--    If $gVP(Σ\_{n+1})$ holds, then either there is a proper class of $n$-remarkable cardinals or there is a proper class of [virtually rank-into-rank](Rank-into-rank "Rank-into-rank") cardinals.{% cite GitmanHamkins2018 %}
--    The generic Vopěnka principle holds iff for every class $A$, there are a proper class of (weakly) virtually $A$-extendible cardinals.{% cite GitmanHamkins2018 %}
--    The generic Vopěnka scheme is equivalent over ZFC to the scheme asserting of every definable class $A$ that there is a proper class of weakly virtually $A$-extendible cardinals.{% cite GitmanHamkins2018 %}
--    For $n ≥ 1$, the following are equivalent as schemes over ZFC:{% cite GitmanHamkins2018 %}
-    -    The generic Vopěnka scheme holds for $Π\_{n+1}$-definable classes.
-    -    The generic Vopěnka scheme holds for $Σ\_{n+2}$-definable classes.
-    -    For every $Σ\_n$-definable class A, there is a proper class of (weakly) virtually $A$-extendible cardinals.
-    -    There is a proper class of (weakly) virtually $(Σ\_n)$-extendible cardinals.
-    -    There is a proper class of cardinals $κ$, such that for every $Σ\_n$-correct cardinal $λ>κ$, there is a $Σ\_n$-correct cardinal $θ > λ$ and a virtual elementary embedding $j : V\_λ → V\_θ$ with $crit(j)=κ$.
--    If $0^♯$ exists, then there is a class-forcing extension $L[G]$ of the constructible universe in which the generic Vopěnka principle holds (so $gVP(κ, \\mathbf{Σ\_{n+1}})$ and $gVP(Π\_n)$ hold for any $κ$ and $n$), but there are no $Σ\_2$-reflecting cardinals and hence no remarkable cardinals (or $n$-remarkable cardinals).{% cite GitmanHamkins2018 %}
+-   The following are equiconsistent
+    -   $gVP(Π\_n)$
+    -   $gVP(κ, \\mathbf{Σ\_{n+1}})$ for some $κ$
+    -   There is an $n$-remarkable cardinal.
+-   The following are equiconsistent
+    -   $gVP(\\mathbf{Π\_n})$
+    -   $gVP(κ, \\mathbf{Σ\_{n+1}})$ for a proper class of $κ$
+    -   There is a proper class of $n$-remarkable cardinals.
+-   Unless there is a transitive model of ZFC with a proper class of $n$-remarkable cardinals,
+    -   if for some cardinal $κ$, $gVP(κ, \\mathbf{Σ\_{n+1}})$ holds, then there is an $n$-remarkable cardinal.
+    -   if $gVP(Π\_n)$ holds, then there is an $n$-remarkable cardinal.
+    -   if $gVP(\\mathbf{Π\_n})$ holds, then there is a proper class of $n$-remarkable cardinals.
+-   $κ$ is the least for which $gVP^∗(κ, \\mathbf{Σ\_{n+1}})$ holds. $\\iff κ$ is the least $n$-remarkable cardinal.
+-   If $gVP^∗(Π\_n)$ holds, then there is an $n$-remarkable cardinal.
+-   If $gVP^∗(\\mathbf{Π\_n})$ holds, then there is a proper class of $n$-remarkable cardinals.
+-   If there is a proper class of $n$-remarkable cardinals, then $gVP(Σ\_{n+1})$ holds.{% cite GitmanHamkins2018 %}
+-   If $gVP(Σ\_{n+1})$ holds, then either there is a proper class of $n$-remarkable cardinals or there is a proper class of [virtually rank-into-rank](Rank-into-rank "Rank-into-rank") cardinals.{% cite GitmanHamkins2018 %}
+-   The generic Vopěnka principle holds iff for every class $A$, there are a proper class of (weakly) virtually $A$-extendible cardinals.{% cite GitmanHamkins2018 %}
+-   The generic Vopěnka scheme is equivalent over ZFC to the scheme asserting of every definable class $A$ that there is a proper class of weakly virtually $A$-extendible cardinals.{% cite GitmanHamkins2018 %}
+-   For $n ≥ 1$, the following are equivalent as schemes over ZFC:{% cite GitmanHamkins2018 %}
+    -   The generic Vopěnka scheme holds for $Π\_{n+1}$-definable classes.
+    -   The generic Vopěnka scheme holds for $Σ\_{n+2}$-definable classes.
+    -   For every $Σ\_n$-definable class A, there is a proper class of (weakly) virtually $A$-extendible cardinals.
+    -   There is a proper class of (weakly) virtually $(Σ\_n)$-extendible cardinals.
+    -   There is a proper class of cardinals $κ$, such that for every $Σ\_n$-correct cardinal $λ>κ$, there is a $Σ\_n$-correct cardinal $θ > λ$ and a virtual elementary embedding $j : V\_λ → V\_θ$ with $crit(j)=κ$.
+-   If $0^♯$ exists, then there is a class-forcing extension $L[G]$ of the constructible universe in which the generic Vopěnka principle holds (so $gVP(κ, \\mathbf{Σ\_{n+1}})$ and $gVP(Π\_n)$ hold for any $κ$ and $n$), but there are no $Σ\_2$-reflecting cardinals and hence no remarkable cardinals (or $n$-remarkable cardinals).{% cite GitmanHamkins2018 %}
 
 ## In set-theoretic geology
 If $κ$ is extendible then the $κ$-[mantle](Mantle "Mantle") of $V$ is its smallest ground (so of course the mantle is a ground of V).{% cite Usuba2018 %}
