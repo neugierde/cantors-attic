@@ -6,12 +6,14 @@ permalink: Infinity
 
 The Greeks had already noted that there are two ways of considering infinity.
 
--    Potential infinity is what we consider when we say that counting never ends. Whatever natural number you can think of, there is a bigger number. Formally
+-   Potential infinity is what we consider when we say that counting never ends. Whatever natural number you can think of, there is a bigger number. Formally
 $$(\\forall x\\in\\mathbb{N})(\\exists y) (y>x),$$
+
 and this is not really deniable.
 
--    Actual infinity is what happens when we switch the order: There is a number which is bigger than any natural number you can think of. Formally
+-   Actual infinity is what happens when we switch the order: There is a number which is bigger than any natural number you can think of. Formally
 $$(\\exists y)(\\forall x\\in\\mathbb{N})(y>x),$$
+
 and this naturally implies that $y$ cannot be a member of $\\mathbb{N}$.
 
 The existence of an actual infinity is philosophically non trivial and not accepted by all mathematicians. Its existence cannot be proven; it is axiomatically given (see [ZFC](ZFC "ZFC")).
