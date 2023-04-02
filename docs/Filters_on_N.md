@@ -23,17 +23,17 @@ The goal that is achieved with ultrafilters is to provide a concept of sequences
 
 A filter $\\mathcal{F}$ on $\\mathbb{N}$ is a set of subsets of $\\mathbb{N}$ satisfying the following conditions:
 
--    If $A,B\\in \\mathcal{F}$ then $A\\cap B\\in\\mathcal{F}\\quad$ (Closed under intersection)
--    If $A\\in \\mathcal{F}$ and $A\\subset B\\subset \\mathbb{N}$ then $B\\in \\mathcal{F}\\quad$ (Superset property)
+-   If $A,B\\in \\mathcal{F}$ then $A\\cap B\\in\\mathcal{F}\\quad$ (Closed under intersection)
+-   If $A\\in \\mathcal{F}$ and $A\\subset B\\subset \\mathbb{N}$ then $B\\in \\mathcal{F}\\quad$ (Superset property)
 
 **Examples**
 
--    $\\{A\\subseteq \\mathbb{N}\\ |\\ i\\in A\\}$ for some natural number $i$.
--    $\\{A\\subseteq\\mathbb{N}\\ |\\ \\mathbb{N}\\setminus A \\quad\\text{ is finite}\\}$
+-   $\\{A\\subseteq \\mathbb{N}\\ |\\ i\\in A\\}$ for some natural number $i$.
+-   $\\{A\\subseteq\\mathbb{N}\\ |\\ \\mathbb{N}\\setminus A \\quad\\text{ is finite}\\}$
 
 The second example is the cofinite filter. It contains complements of finite sets.
 
-A filter which contains the empty set is the powerset of $\\mathbb{N}$. A filter which is not the powerset is a *proper filter''
+A filter which contains the empty set is the powerset of $\\mathbb{N}$. A filter which is not the powerset is a *proper filter*
 
 ### Ultrafilters
 
