@@ -63,10 +63,10 @@ We can also impose restrictions on our models, such as looking at heights of $\\
 
 In a step down in strength, the $\\beta\_0$-models of $Z\_2$ are exactly the $\\omega$-models of $Z\_2$ (W. Marek, [Observations concerning elementary extensions of $\\omega$-models. II](https://www.jstor.org/stable/2272059), lemma 1.a), and these are also related to admissible ordinals:
 -   For every admissible $\\alpha<\\omega\_1$, there is an $\\omega${{citation needed}}-model $M$ of $Z\_2$ such that the suprema of order types of relations present in $M$ is $\\alpha$. (W. Marek, [$\\omega$-models of second-order arithmetic and admissible sets](http://matwbn.icm.edu.pl/ksiazki/fm/fm98/fm9818.pdf), theorem 1.4)
--   However, there is no $\\subset$-minimal $\\omega$-model of $Z\_2$. (Simpson, *Subsystems fo Second-order Arithmetic*, 2009)
+-   However, there is no $\\subset$-minimal $\\omega$-model of $Z\_2$. (Simpson, *Subsystems of Second-order Arithmetic*, 2009)
 
 ## Notes
 <ol>
-<li id="induction"><sup>Note: Since ZFC proves all axioms of PA hold in $\omega${{citation needed}}, adding the full second-order induction schema to the theory doesn't change this result since each $L_\alpha\cap\mathcal P\omega$ is an $\omega$-model. So we get $(L_\alpha\cap\mathcal P\omega\vDash\Pi\_n^1\textrm{-CA}_0)\rightarrow(L_\alpha\cap\mathcal P\omega\vDash\Pi_n^1\textrm{-CA})$, etc.</sup></li>
+<li id="induction"><sup>Note: Since ZFC proves all axioms of PA hold in $\omega${{citation needed}}, adding the first-order induction schema to the theory doesn't change this result since each $L_\alpha\cap\mathcal P\omega$ is an $\omega$-model. So we get $(L_\alpha\cap\mathcal P\omega\vDash\Pi\_n^1\textrm{-CA}_0)\rightarrow(L_\alpha\cap\mathcal P\omega\vDash\Pi\_n^1\textrm{-CA})$, etc.</sup></li>
 </ol>
 {{References}}
