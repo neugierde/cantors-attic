@@ -3,7 +3,7 @@ title: Axiom_of_choice
 permalink: Axiom_of_choice
 ---
 
-''See [Axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice)'' on Wikipedia
+*See [Axiom of choice](https://en.wikipedia.org/wiki/Axiom_of_choice)* on Wikipedia
 
 The *axiom of choice* (AC) is an axiom, usually adjoined to the Zermelo-Frenkael ([ZF](ZF "ZF")) axioms of set theory. With this axiom the theory is known as [ZFC](ZFC "ZFC"). ZF and ZFC are equiconsistent.
 
