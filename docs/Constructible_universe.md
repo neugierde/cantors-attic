@@ -25,6 +25,7 @@ $L[W]=\\bigcup\_{\\alpha\\in\\mathrm{Ord}}L\_\\alpha[W]$ is always a model of $\
 For an ordinal $\\alpha$ and a [class](https://www-irm.mathematik.hu-berlin.de/~raesch/org/jensen/pdf/AS\_1.pdf#page=10) $u$, the following two conditions are equivalent:
 -   There is a $\\Sigma\_1$-definable $a\\subset u$ such that $a\\notin L\_\\alpha[u]$.
 -   There is a $\\Sigma\_1$-definable map from a subset of $u$ onto $L\_\\alpha[u]$.
+
 These two conditions are also equivalent:
 -   There is a $\\Delta\_1$-definable $a\\subset u$ such that $a\\notin L\_\\alpha[u]$.
 -   There is a $\\Delta\_1$-definable map from a subset of $u$ onto $L\_\\alpha[u]$.
@@ -75,6 +76,7 @@ $S$ is a class of Silver indiscernibles iff $S$ is a class of ordinals and for e
 A cardinal $κ$ is **Silver** if in a set-forcing extension there is a club in $κ$ of generating indiscernibles for $V\_κ$ of order-type $κ$. This is a very strong property downwards absolute to $L$, e.g.:{% cite GitmanSchindler %}
 -    Every element of a club $C$ witnessing that $κ$ is a Silver cardinal is [virtually rank-into-rank](Rank-into-rank "Rank-into-rank").
 -    If $C ∈ V[H]$, a forcing extension by $\\mathrm{Coll}(ω, V\_κ)$, is a club in $κ$ of generating indiscernibles for $V\_κ$ of order-type $κ$, then each $ξ ∈ C$ is $< ω\_1$-[iterable](Iterable "Iterable").
+
 ## Jensen's dichotomy
 Ronald Jensen proved that one of these two conditions must be true, and they are mutually exclusive:{% cite Bagaria2017 %}
 1.  For singular cardinal $\\gamma$, $\\gamma$ is singular in $L$ and $L$ is correct about $\\gamma^+$ (i.e. $(\\gamma^+)^L=\\gamma^+$)
@@ -93,18 +95,18 @@ Assume there is an uncountable set of Silver indiscernibles. Then $0^\\sharp$ is
 ### Implications, equivalences, and consequences of $0^\\sharp$'s existence
 
 If $0^\\sharp$ exists then:
--    $L\_{\\aleph\_\\omega}\\prec L$ and so $0^\\sharp$ also corresponds to the set of the Gödel numberings of first-order formulas $\\varphi$ such that $L\\models\\varphi(\\aleph\_0,\\aleph\_1...\\aleph\_n)$
--    In fact, $L\_\\kappa\\prec L$ for every Silver indiscernible, and thus for every uncountable cardinal.
--    Given any set $X\\in L$ which is first-order definable in $L$, $X\\in L\_{\\omega\_1}$. This of course implies that $\\aleph\_1$ is not first-order definable in $L$, because $\\aleph\_1\\not\\in L\_{\\omega\_1}$. This is already a disproof of $V=L$ (because $\\aleph\_1$ is first-order definable).
--    For every $\\alpha\\in\\omega\_1^L$, every Silver indiscernible (and in particular every uncountable cardinal) in $L$ is a Silver cardinal, [$\\alpha$-iterable](Ramsey#iterable "Ramsey#iterable"), $\\geq$ an [$\\alpha$-Erdős](Erdos "Erdos"), [totally ineffable](Ineffable "Ineffable") and [completely remarkable](Completely_remarkable "Completely remarkable") and has most other virtual large cardinal properties and other large cardinal properties consistent with $V=L$.{% cite GitmanSchindler %}{% cite BagariaGitmanSchindler2017 %}
--    There are only countably many reals in $L$, i.e. $|\\mathbb R\\cap L|=\\aleph\_0$ in $V$.
--    By [elementary-embedding absoluteness results](Elementary\_embedding#Absoluteness "Elementary\_embedding#Absoluteness") (The hypothesis can be weakened, because one can chop at off the universe at any Silver indiscernible and use reflection.):{% cite GitmanHamkins2018 %}
+-   $L\_{\\aleph\_\\omega}\\prec L$ and so $0^\\sharp$ also corresponds to the set of the Gödel numberings of first-order formulas $\\varphi$ such that $L\\models\\varphi(\\aleph\_0,\\aleph\_1...\\aleph\_n)$
+-   In fact, $L\_\\kappa\\prec L$ for every Silver indiscernible, and thus for every uncountable cardinal.
+-   Given any set $X\\in L$ which is first-order definable in $L$, $X\\in L\_{\\omega\_1}$. This of course implies that $\\aleph\_1$ is not first-order definable in $L$, because $\\aleph\_1\\not\\in L\_{\\omega\_1}$. This is already a disproof of $V=L$ (because $\\aleph\_1$ is first-order definable).
+-   For every $\\alpha\\in\\omega\_1^L$, every Silver indiscernible (and in particular every uncountable cardinal) in $L$ is a Silver cardinal, [$\\alpha$-iterable](Ramsey#iterable "Ramsey#iterable"), $\\geq$ an [$\\alpha$-Erdős](Erdos "Erdos"), [totally ineffable](Ineffable "Ineffable") and [completely remarkable](Completely_remarkable "Completely remarkable") and has most other virtual large cardinal properties and other large cardinal properties consistent with $V=L$.{% cite GitmanSchindler %}{% cite BagariaGitmanSchindler2017 %}
+-   There are only countably many reals in $L$, i.e. $|\\mathbb R\\cap L|=\\aleph\_0$ in $V$.
+-   By [elementary-embedding absoluteness results](Elementary\_embedding#Absoluteness "Elementary\_embedding#Absoluteness") (The hypothesis can be weakened, because one can chop at off the universe at any Silver indiscernible and use reflection.):{% cite GitmanHamkins2018 %}
     -    $L$, equipped with only its definable classes, is a model of the [generic Vopěnka principle](Generic_Vopěnka's_Principle "Generic Vopěnka's Principle").
     -    In $L$ there are numerous [virtual rank-into-rank](Rank\_into\_rank#Virtually\_rank-into-rank "Rank\_into\_rank#Virtually\_rank-into-rank") embeddings $j : V\_\\theta^L → V\_\\theta^L$, where $\\theta$ is far above the supremum of the critical sequence.
     -    Therefore every Silver indiscernible
         -    is [virtually $A$-extendible](Extendible#Virtually\_extendible\_cardinals "Extendible#Virtually\_extendible\_cardinals") in $L$ for every definable class $A$
         -    and is the critical point of virtual rank-into-rank embeddings with targets as high as desired and fixed points as high above the critical sequence as desired.
--    There is a class-forcing notion $\\mathbb{P}$ definable in $L$, such that in any $L$-generic extension $L[C]$ by this forcing, $\\text{GBC}$ and the generic Vopěnka principle hold, yet [$\\text{Ord}$ is not Mahlo](ORD_is_Mahlo "ORD is Mahlo").{% cite GitmanHamkins2018 %}
+-   There is a class-forcing notion $\\mathbb{P}$ definable in $L$, such that in any $L$-generic extension $L[C]$ by this forcing, $\\text{GBC}$ and the generic Vopěnka principle hold, yet [$\\text{Ord}$ is not Mahlo](ORD_is_Mahlo "ORD is Mahlo").{% cite GitmanHamkins2018 %}
     -    Proof includes a lemma stating: For any ordinal $\\delta$ and any natural number (of the meta-theory — this lemma is a scheme) $n$, if $D\_{\\delta,n} ⊂ \\mathbb{P}$ is the collection of conditions $c$ for which there is an ordinal $\\theta$ such that
         -    $L\_\\theta \\prec\_{\\Sigma\_n} L$,
         -    $c \\cap \\theta$ is $L\_\\theta$-generic for $\\mathbb{P}^{L\_\\theta}$  and
@@ -112,7 +114,7 @@ If $0^\\sharp$ exists then:
         -   : $j : ⟨ L\_\\theta , \\in, c \\cap \\theta ⟩ \\to ⟨ L\_\\theta , \\in, c \\cap \\theta⟩$
         -   : with critical point above $\\delta$,
     -   : then $D\_{\\delta,n}$ is a definable dense subclass of $\\mathbb{P}$ in $L$.
--    There is a definable class-forcing notion in $L$, such that in the corresponding $L$-generic extension, $\\text{GBC}$ holds, the generic Vopěnka scheme holds, but $\\text{Ord}$ is not definably Mahlo, because there is a $\\Delta\_2$-definable club class avoiding the regular cardinals.
+-   There is a definable class-forcing notion in $L$, such that in the corresponding $L$-generic extension, $\\text{GBC}$ holds, the generic Vopěnka scheme holds, but $\\text{Ord}$ is not definably Mahlo, because there is a $\\Delta\_2$-definable club class avoiding the regular cardinals.
 -    There is a class-forcing extension $L[G]$ of the constructible universe in which the generic Vopěnka principle holds (so $gVP(\\kappa, \\mathbf{\\Sigma\_{n+1}})$ and $gVP(\\Pi\_n)$ hold for any $\\kappa$ and $n$), but there are no $\\Sigma\_2$-reflecting cardinals and hence no remarkable cardinals (or $n$-remarkable cardinals).{% cite GitmanHamkins2018 %}
 
 The following statements are equivalent:
