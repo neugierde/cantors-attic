@@ -9,19 +9,19 @@ An *ultrafiler* is a maximal filter, i.e. it is not a subset of any other filter
 
 Intuitively, the members of a filter are the subsets of $S$ "large" enough to satisfy some property. $S$ is always "large enough", while $\\emptyset$ never is. $F$ being closed under finite intersections means that the intersection of two large sets is still large enough - $F$'s sets only differ by a "too small" set. Also, $F$ being closed under the superset relation means that if a set $X$ contains a large enough set then $X$ is also large enough. For example, for any nonempty $X\\subseteq S$, the set of all supersets of $X$ -i.e. the set of all sets "larger" than $X$ - is always a filter. Similarly, the members of an ideal will represent the subsets of $S$ "too small"; $\\emptyset$ is always too small, $S$ never is, the union of two too small sets is still too small and if a set is contained (as a subset) in a too small set, then it is itself too small.
 
-''Most of the results in this article can be found in {% cite Jech2003 %} or {% cite Kanamori2009 %}.*
+*Most of the results in this article can be found in {% cite Jech2003 %} or {% cite Kanamori2009 %}.*
 
 ## Definitions
 
 A set $F\\subseteq\\mathcal{P}(S)$ is a *filter* on $S$ if it satisfies the following properties:
--    $\\emptyset\\not\\in F$ (proper filter), $S\\in F$
--    $X\\cap Y\\in F$ whenever $X,Y\\in F$ (finite intersection property)
--    $Y\\in F$ whenever $X\\subseteq Y\\subseteq S$ and $X\\in F$ (upward closed / closed under supersets)
+-   $\\emptyset\\not\\in F$ (proper filter), $S\\in F$
+-   $X\\cap Y\\in F$ whenever $X,Y\\in F$ (finite intersection property)
+-   $Y\\in F$ whenever $X\\subseteq Y\\subseteq S$ and $X\\in F$ (upward closed / closed under supersets)
 
 A set $I\\subseteq\\mathcal{P}(S)$ is an *ideal* on $S$ if it satisfies the following properties:
--    $S\\not\\in I$, $\\emptyset\\in I$
--    $X\\cup Y\\in F$ whenever $X,Y\\in I$ (finite union property)
--    $Y\\in I$ whenever $Y\\subseteq X\\subseteq S$ and $X\\in I$ (downard closed / closed under subsets)
+-   $S\\not\\in I$, $\\emptyset\\in I$
+-   $X\\cup Y\\in F$ whenever $X,Y\\in I$ (finite union property)
+-   $Y\\in I$ whenever $Y\\subseteq X\\subseteq S$ and $X\\in I$ (downard closed / closed under subsets)
 
 Given a filter $F$, its *dual ideal* is $I=\\{S\\setminus X : X\\in F\\}$. Conversely, every ideal has a dual filter. If two filters/ideals are not equal, their duals aren't equal either.
 
@@ -69,10 +69,11 @@ Suppose that $\\mu$ is a [supercompact](Supercompact "Supercompact") cardinal an
 the generalized continuum hypothesis and "there is a stationary subset $S$ of $\\omega\_{\\omega+1}$ such that the nonstationary ideal on  $\\omega\_{\\omega+1}$ restricted to subsets of $S$ is $\\omega\_{\\omega+2}$-saturated"
 
 If there exists a $\\omega\_2$-saturated $\\sigma$-ideal on $\\omega\_1$ then:
--    $2^{\\aleph\_0}=\\aleph\_1$ implies $2^{\\aleph\_1}=\\aleph\_2$
--    $2^{\\aleph\_0}=\\aleph\_{\\omega\_1}$ implies $2^{\\aleph\_1}\\leq\\aleph\_{\\omega\_2}$.
--    $\\aleph\_1 < 2^{\\aleph\_0} < \\aleph\_{\\omega\_1}$ implies $2^{\\aleph\_0} = 2^{\\aleph\_1}$.
--    $2^{<\\aleph\_{\\omega\_1}}=\\aleph\_{\\omega\_1}$ implies $2^{\\aleph\_{\\omega\_1}}<\\aleph\_{\\omega\_2}$
+-   $2^{\\aleph\_0}=\\aleph\_1$ implies $2^{\\aleph\_1}=\\aleph\_2$
+-   $2^{\\aleph\_0}=\\aleph\_{\\omega\_1}$ implies $2^{\\aleph\_1}\\leq\\aleph\_{\\omega\_2}$.
+-   $\\aleph\_1 < 2^{\\aleph\_0} < \\aleph\_{\\omega\_1}$ implies $2^{\\aleph\_0} = 2^{\\aleph\_1}$.
+-   $2^{<\\aleph\_{\\omega\_1}}=\\aleph\_{\\omega\_1}$ implies $2^{\\aleph\_{\\omega\_1}}<\\aleph\_{\\omega\_2}$
+
 This hypothesis, which follows from [Martin's Maximum](Martin's_Maximum "Martin's Maximum"), is consistent relative to a [Woodin](Woodin "Woodin") cardinal, in fact that ideal can be the nonstationary ideal on $\\omega\_1$. Similarly, if there is a [almost huge](Huge "Huge") cardinal then in some [generic extension](Forcing "Forcing"), $\\omega\_2$ carries a $\\omega\_3$-saturated $\\omega\_2$-complete ideal. This ideal however cannot be the nonstationary ideal on $\\omega\_2$: for every cardinal $\\kappa\\geq\\omega\_2$, the nonstationary ideal on $\\kappa$ is not $\\kappa^+$-saturated.
 
 If there exists a uniform $\\omega\_2$-saturated ideal on $\\omega\_2$ then $\\Theta^{L(\\mathbb{R})}\\leq\\omega\_2$. This inequality if known as the *constructive continuum hypothesis*, and means that it is impossible to effectively construct a counterexample of the continuum hypothesis within $L(\\mathbb{R})$. In the presence of a measurable cardinal, $\\Theta^{L(\\mathbb{R})}$ has cofinality $\\omega$ and so it is then strictly below $\\omega\_2$. Note that this ideal cannot be $\\omega\_2$-complete: only limit cardinals $\\kappa$ can carry $\\kappa$-saturated $\\kappa$-complete ideals.
@@ -95,7 +96,7 @@ If there is a $2^{\\aleph\_0}$-dense ideal $I$ on $[(2^{\\aleph\_0})^+]^{\\omega
 
 ## Ultrapowers
 
-''Main article: [Ultrapower](Ultrapower "Ultrapower")''
+*Main article: [Ultrapower](Ultrapower "Ultrapower")*
 
 ## Precipitous ideals
 
@@ -112,10 +113,10 @@ Assume $I$ contains all singleton. Let $S$ be a set not in $I$. An *$I$-partitio
 A *functional* on $S$ is a collection $F$ of functions such that $\\{\\text{dom}(f):f\\in F\\}$ is an $I$-partition of $S$ and any two distinct functions of $F$ have a different domain. We order the functionals on $S$ the following way: $F\_0<F\_1$ if each $f$ in $F$ and $G$ is a function into the ordinals, $\\{\\text{dom}(f):f\\in F\\}\\leq\\{\\text{dom}(g):g\\in G\\}$ and for every $f\\in F$, $g\\in G$ such that $\\text{dom}(f)\\subseteq\\text{dom}(g)$, one has $f(\\alpha)<g(\\alpha)$ for every $\\alpha\\in\\text{dom}(f)$.
 
 The following are equivalent for a $\\kappa$-complete ideal $I$ on $\\kappa$:
--    $I$ is precipitous.
--    Empty has no winning strategy in $\\mathcal{G}\_I$.
--    For every $S$ not in $I$ there is no sequence of functionals on $S$ such that $F\_0>F\_1>...>F\_n>...$.
--    For every $S$ not in $I$ and $I$-partitions $\\{W\_n:n<\\omega\\}$ of $S$ such that $W\_0\\geq W\_1\\geq...\\geq W\_n\\geq...$ there exists a sequence $X\_0\\supseteq X\_1\\supseteq...\\supseteq X\_n\\supseteq...$ such that $X\_n\\in W\_n$ for all $n$ and $\\bigcap^\\infty\_{n=0}X\_n$ is nonempty.
+-   $I$ is precipitous.
+-   Empty has no winning strategy in $\\mathcal{G}\_I$.
+-   For every $S$ not in $I$ there is no sequence of functionals on $S$ such that $F\_0>F\_1>...>F\_n>...$.
+-   For every $S$ not in $I$ and $I$-partitions $\\{W\_n:n<\\omega\\}$ of $S$ such that $W\_0\\geq W\_1\\geq...\\geq W\_n\\geq...$ there exists a sequence $X\_0\\supseteq X\_1\\supseteq...\\supseteq X\_n\\supseteq...$ such that $X\_n\\in W\_n$ for all $n$ and $\\bigcap^\\infty\_{n=0}X\_n$ is nonempty.
 
 ### Consistency results
 
@@ -128,9 +129,9 @@ It is consistent, relative to the existence of a measurable cardinal, that the n
 Filters are related to the concept of *measures*.
 
 Let $|S|\\geq\\aleph\_0$. A (nontrivial $\\sigma$-additive) *measure* on $S$ is a function $\\mu:\\mathcal{P}(S)\\to[0,+\\infty]$ such that:
--    $\\mu(\\emptyset)=0$, $\\mu(S)>0$
--    $\\mu(X)\\leq\\mu(Y)$ whenever $X\\subseteq Y$
--    Let $\\{X\_n : n<\\omega\\}$ such that $X\_i\\cap X\_j=\\emptyset$ whenever $i<j$, then $\\mu(\\bigcup\_{n<\\omega}X\_n)=\\sum\_{n=0}^{\\infty}\\mu(X\_n)$
+-   $\\mu(\\emptyset)=0$, $\\mu(S)>0$
+-   $\\mu(X)\\leq\\mu(Y)$ whenever $X\\subseteq Y$
+-   Let $\\{X\_n : n<\\omega\\}$ such that $X\_i\\cap X\_j=\\emptyset$ whenever $i<j$, then $\\mu(\\bigcup\_{n<\\omega}X\_n)=\\sum\_{n=0}^{\\infty}\\mu(X\_n)$
 
 $\\mu$ is *probabilist* if $\\mu(S)=1$. $\\mu$ is *nontrivial* because there exists a set $A$ of positive measure, i.e. $\\mu(A)>0$, since we required $\\mu(S)>0$.
 
@@ -144,13 +145,10 @@ The <a href="https://en.wikipedia.org/wiki/Lebesgue measure" class="extiw" title
 
 ### Properties
 
--    Let $\\mu$ be a 2-valued measure on $S$. Then $\\{X\\subseteq S : \\mu(X)=1\\}$ is a $\\sigma$-complete ultrafilter on $S$. Conversely, if $F$ is a $\\sigma$-complete ultrafilter on $S$ then the funcion $\\mu:P(S)\\to[0,1]$ defined by "$\\mu(X)=1$ if $X\\in F$, $\\mu(X)=0$ otherwise" is a 2-valued measure on $S$.
-
--    If $\\mu$ has an atom $A$, the set $\\{X\\subseteq S : \\mu(X\\cap A)=\\mu(A)\\}$ is a $\\sigma$-complete ultrafilter on $S$.
-
--    If $\\mu$ is atomless (i.e. has no atoms), $\\mu(\\{x\\})=0$ for every $x\\in S$. In fact, $\\mu(X)=0$ for every finite or countably infinite set $X\\subseteq S$. Thus every measure on a countable set has an atom (otherwise $\\mu(S)$ would be $0$, contradicting the nontriviality of $\\mu$).
-
--    If $\\mu$ is atomless, then every set $X\\subseteq S$ of positive measure is the disjoint union of two sets of positive measure, also, $\\mu$ has a continuum of different values and if $A$ is a set of positive measure, then for every $b\\in [0;\\mu(A)]$, there exists $B\\subseteq A$ such that $\\mu(B)=b$.
+-   Let $\\mu$ be a 2-valued measure on $S$. Then $\\{X\\subseteq S : \\mu(X)=1\\}$ is a $\\sigma$-complete ultrafilter on $S$. Conversely, if $F$ is a $\\sigma$-complete ultrafilter on $S$ then the funcion $\\mu:P(S)\\to[0,1]$ defined by "$\\mu(X)=1$ if $X\\in F$, $\\mu(X)=0$ otherwise" is a 2-valued measure on $S$.
+-   If $\\mu$ has an atom $A$, the set $\\{X\\subseteq S : \\mu(X\\cap A)=\\mu(A)\\}$ is a $\\sigma$-complete ultrafilter on $S$.
+-   If $\\mu$ is atomless (i.e. has no atoms), $\\mu(\\{x\\})=0$ for every $x\\in S$. In fact, $\\mu(X)=0$ for every finite or countably infinite set $X\\subseteq S$. Thus every measure on a countable set has an atom (otherwise $\\mu(S)$ would be $0$, contradicting the nontriviality of $\\mu$).
+-   If $\\mu$ is atomless, then every set $X\\subseteq S$ of positive measure is the disjoint union of two sets of positive measure, also, $\\mu$ has a continuum of different values and if $A$ is a set of positive measure, then for every $b\\in [0;\\mu(A)]$, there exists $B\\subseteq A$ such that $\\mu(B)=b$.
 
 ## Normal and fine filters
 
@@ -161,8 +159,8 @@ If $U$ is a $\\kappa$-complete nonprincipal ultrafilter on some set $S$ with $|S
 We are going to define fineness and normality for filters on $\\kappa$ or on some $\\mathcal{P}\_\\kappa(A)$. Different authors often have different terminology for the concepts defined below, for instance some call *normal ultrafilter* what we are going to call a *normal fine measure*. The terminology used here will be used throughout *Cantor's Attic*, but when reading papers or other sites on set theory, one should be cautious about the possible differences in terminology.
 
 Let $F$ be a filter on some set $S$ with $|S|\\geq\\kappa$ (usually the only cases considered will be $S=\\kappa$ and $S=\\mathcal{P}\_\\kappa(A)$ for some $A$ with $|A|\\geq\\kappa$).
--    $F$ is a *fine filter* if for every $a\\in S$, one has $\\{x\\in S : a\\in x\\}\\in F$.
--    $F$ is a *normal filter* if it is closed under diagonal intersections: $\\Delta\_{i\\in S}X\_i$ for every sequence $\\{X\_i : i\\in S\\}$ such that $X\_i\\in F$ for all $i\\in S$.
+-   $F$ is a *fine filter* if for every $a\\in S$, one has $\\{x\\in S : a\\in x\\}\\in F$.
+-   $F$ is a *normal filter* if it is closed under diagonal intersections: $\\Delta\_{i\\in S}X\_i$ for every sequence $\\{X\_i : i\\in S\\}$ such that $X\_i\\in F$ for all $i\\in S$.
 
 Not every normal filter needs to be fine. Fineness is usually unimportant when $S=\\kappa$, but it is an important property when $S=\\mathcal{P}\_\\kappa(A)$. Every set in a normal measure on $\\kappa$ is stationary in $\\kappa$. If $V=L[D]$ where $D$ is a normal measure on some cardinal $\\kappa$ then the generalized continuum hypothesis holds.
 
@@ -180,11 +178,11 @@ If, for every set $S$, every $\\kappa$-complete filter on $S$ can be extended to
 
 If there is a set $\\lambda$ with $\\lambda\\geq\\kappa$ such that there is a normal fine measure on $\\mathcal{P}\_\\kappa(\\lambda)$, then $\\kappa$ is $\\lambda$-[supercompact](Supercompact "Supercompact"); if it is $\\lambda$-supercompact for every $\\lambda\\geq\\kappa$, then it is **[supercompact](Supercompact "Supercompact")**. This is equivalent to saying that for every set $A$ with $|A|\\geq\\kappa$, there is a normal fine measure on $\\mathcal{P}\_\\kappa(A)$. Clearly, every supercompact is strongly compact by the last characterization of strong compactness. It is open whether supercompactness is stronger than strong compactness consistency-wise.
 
-If there are cardinals $\\kappa$ and $\\lambda$ such that there is a normal measure $D$ on $\\{X\\subseteq\\lambda : \\text{order-type}(X)=\\kappa\\}$ then $\\kappa$ is **[huge](Huge "Huge")** and there is a nontrivial elementary embedding $j:V\\to M$ for a transitive class $M$ such that $\\kappa = \\mathrm{crit}(j)$, $\\lambda = j(\\kappa)$, $M^\\lambda\\subseteq M$ and $X\\in D$ if and only if $j``\\lambda\\in j(X)$. The ordinal $\\lambda$ is always a measurable cardinal and is called the *target* of $j$. It is itself quite big, though it is $\\kappa$ that bears most of the strong large cardinal properties. While the least huge cardinal is less than the least supercompact (assuming both exists), the rank $V\_\\kappa$ satisfies the existence of unboundedly many supercompact cardinals, thus the existence of a such cardinal has *much* higher consistency strength than the existence of a supercompact cardinal.
+If there are cardinals $\\kappa$ and $\\lambda$ such that there is a normal measure $D$ on $\\{X\\subseteq\\lambda : \\text{order-type}(X)=\\kappa\\}$ then $\\kappa$ is **[huge](Huge "Huge")** and there is a nontrivial elementary embedding $j:V\\to M$ for a transitive class $M$ such that $\\kappa = \\mathrm{crit}(j)$, $\\lambda = j(\\kappa)$, $M^\\lambda\\subseteq M$ and $X\\in D$ if and only if $j\`\`\\lambda\\in j(X)$. The ordinal $\\lambda$ is always a measurable cardinal and is called the *target* of $j$. It is itself quite big, though it is $\\kappa$ that bears most of the strong large cardinal properties. While the least huge cardinal is less than the least supercompact (assuming both exists), the rank $V\_\\kappa$ satisfies the existence of unboundedly many supercompact cardinals, thus the existence of a such cardinal has *much* higher consistency strength than the existence of a supercompact cardinal.
 
 ## See Also
 
--    [Filters on $\\mathbb{N}$](Filters_on_N "Filters on N")
+-   [Filters on $\\mathbb{N}$](Filters_on_N "Filters on N")
 
 {{References}}
 
