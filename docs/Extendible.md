@@ -13,7 +13,7 @@ A cardinal is extendible if and only if it is jointly supercompact and $\\kappa$
 
 The [ultrahuge](Huge "Huge") cardinals are defined in a way very similar to this, and one can (very informally) say that "ultrahuge cardinals are to superhuges what extendibles are to supercompacts". These cardinals are superhuge (and stationary limits of superhuges) and strictly below almost 2-huges in consistency strength.
 
-''To be expanded: Extendibility Laver Functions''
+*To be expanded: Extendibility Laver Functions*
 
 ## Relation to Other Large Cardinals
 
