@@ -5,7 +5,7 @@ permalink: Ramsey
 
 Ramsey cardinals were introduced by Erdős and Hajnal in {% cite ErdosHajnal1962 %}. Their consistency strength lies strictly between $0^\\sharp$ and measurable cardinals.
 
-There are many Ramsey-like cardinals with strength between weakly compact and measurable cardinals inclusively. <cite>Feng1990:HierarchyRamsey, Gitman2011:RamseyLikeCardinals, SharpeWelch2011:GreatlyErdosChang, HolySchlicht2017:HierarchyRamseylike, NielsenWelch2018:GamesRamseylike</cite>
+There are many Ramsey-like cardinals with strength between weakly compact and measurable cardinals inclusively. {% cite Feng1990:HierarchyRamsey %}{% cite Gitman2011:RamseyLikeCardinals %}{% cite SharpeWelch2011:GreatlyErdosChang %}{% cite HolySchlicht2017:HierarchyRamseylike %}{% cite NielsenWelch2018:GamesRamseylike %}
 
 ## Ramsey cardinals
 ### Definitions
