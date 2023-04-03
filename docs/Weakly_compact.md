@@ -73,7 +73,7 @@ Nevertheless, the weak compactness property is not generally downward absolute b
 
 ## Weakly compact cardinals and forcing
 
--   Weakly compact cardinals are invariant under small forcing. [http://www.math.csi.cuny.edu/~fuchs/IndestructibleWeakCompactness.pdf]
+-   Weakly compact cardinals are invariant under small forcing. (Fuchs, [Generic embeddings associated to an indestructibly wakly compact cardinal](http://www.math.csi.cuny.edu/~fuchs/IndestructibleWeakCompactness.pdf))
 -   Weakly compact cardinals are preserved by the canonical forcing of the GCH, by fast function forcing and many other forcing notions {{Citation needed}}.
 -   If $\\kappa$ is weakly compact, there is a forcing extension in which $\\kappa$ remains weakly compact and $2^\\kappa\\gt\\kappa^+$ {{Citation needed}}.
 -   If the existence of weakly compact cardinals is consistent with ZFC, then there is a model of ZFC in which $\\kappa$ is not weakly compact, but becomes weakly compact in a forcing extension <CITE>Kunen1978:SaturatedIdeals</CITE>.
