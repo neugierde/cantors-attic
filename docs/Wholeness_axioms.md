@@ -3,7 +3,7 @@ title: Wholeness_axioms
 permalink: Wholeness_axioms
 ---
 
-The wholeness axioms, proposed by Paul Corazza <cite>Corazza2000:WholenessAxiomAndLaverSequences, Corazza2003:GapBetweenI3andWA</cite>, occupy a
+The wholeness axioms, proposed by Paul Corazza {% cite Corazza2000:WholenessAxiomAndLaverSequences %}{% cite Corazza2003:GapBetweenI3andWA %}, occupy a
 high place in the upper stratosphere of the large cardinal
 hierarchy, intended as slight weakenings of the [Kunen inconsistency](Kunen_inconsistency "Kunen inconsistency"), but similar in spirit.
 
