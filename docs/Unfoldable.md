@@ -68,8 +68,8 @@ From {% cite Hamkins2008 %}:
 -    In a forcing extension preserving all strongly unfoldable cardinals, GCH fails at every [inaccessible](Inaccessible "Inaccessible") cardinal. (Theorem 9)
 -    Interestingly, if there is an unfoldable cardinal then there is a forcing extension in which all unfoldable cardinals in $V$ are unfoldable in the forcing extension and GCH fails at every inaccessible cardinal. Therefore, GCH can fail at every unfoldable cardinal.
 
-''TODO: connection to weak forms of PFA''
+*TODO: connection to weak forms of PFA*
 
-''TODO: consistency with slim Kurepa trees''
+*TODO: consistency with slim Kurepa trees*
 
 {{References}}
