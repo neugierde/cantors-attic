@@ -42,7 +42,7 @@ Here is a list of facts about these cardinals:
 -   Every [supercompact](Supercompact "Supercompact") cardinal $\\kappa$ is strong and has $\\kappa$ strong cardinals below it, as well as being a stationary limit of $\\{\\lambda<\\kappa:\\lambda$ is strong$\\}$
 -   The [Mitchell rank](Mitchell_rank "Mitchell rank") of any strong cardinal $o(\\kappa)=(2^\\kappa)^+$. {% cite Jech2003 %}
 -   Any strong cardinal is [$\\Sigma\_2$-reflecting](Reflecting "Reflecting"). {% cite Jech2003 %}
--    Every [Shelah](Shelah "Shelah") cardinal $κ$ is $ξ$-strong for all $ξ < wt(κ)$ ($ξ$ less than the witnessing number of $κ$).{% cite Golshani2017 %}
+-   Every [Shelah](Shelah "Shelah") cardinal $κ$ is $ξ$-strong for all $ξ < wt(κ)$ ($ξ$ less than the witnessing number of $κ$).{% cite Golshani2017 %}
 -   Every strong cardinal is [strongly unfoldable](Unfoldable "Unfoldable") and thus [totally indescribable](Indescribable "Indescribable"). {% cite Gitman2011 %} Therefore, each of the following is never strong:
     -   The least [measurable](Measurable "Measurable") cardinal.
     -   The least $\\kappa$ which is [$2^\\kappa$-supercompact](Supercompact "Supercompact"), the least $\\kappa$ which is [$2^{2^\\kappa}$-supercompact](Supercompact "Supercompact"), etc.
@@ -51,12 +51,12 @@ Here is a list of facts about these cardinals:
     -   The least $\\kappa$ which is both $2^\\kappa$-supercompact and [Vopěnka](Vopenka "Vopenka"), the least $\\kappa$ which is both $2^{2^\\kappa}$-supercompact and Vopěnka, etc., the least $\\kappa$ which is both measurable and Vopěnka, for each $n$ the least Vopěnka $\\kappa$ such that there is some embedding $j:V\_{\\lambda+n}\\prec V\_{\\kappa+n}$ with critical point $\\lambda$ for some $\\lambda<\\kappa$, and more.
 -   If there is a strong cardinal then $V\\neq L[A]$ for every set $A$.
 -   Assuming both a strong cardinal and a [superstrong](Superstrong "Superstrong") cardinal exist, and the least strong cardinal $\\kappa$ has a superstrong above it, then the least strong cardinal has $\\kappa$ superstrong cardinals below it.
--    Every strong cardinal is [tall](Tall "Tall"). The existence of a tall cardinal is equiconsistent with the existence of a strong cardinal.
--    A cardinal $κ$ is [$C^{(n)}$-strong](Correct "Correct") iff for every $λ > κ$, $κ$ is $λ$-$C^{(n)}$-strong, that is, there exists an elementary embedding $j : V → M$ for transitive $M$, with $crit(j) = κ$, $j(κ) > λ$, $V\_λ ⊆ M$ and $j(κ) ∈ C^{(n)}$.
-    -    Equivalently (see {% cite Kanamori2009 %} 26.7), $κ$ is $λ$-$C^{(n)}$-strong iff there exists a $(κ, β)$-extender $E$, for some $β > |V\_λ|$, with $V\_λ ⊆ M\_E$ and $λ < j\_E(κ) ∈ C^{(n)}$.
-    -    Every $λ$-strong cardinal is $λ$-$C^{(n)}$-strong for all $n$. Hence, every strong cardinal is $C^{(n)}$-strong for all $n$.{% cite Bagaria2012 %}
--    [$BMM$ (bounded Martin’s maximum)](Forcing "Forcing") implies that for every set $X$ there is an inner model with a strong cardinal containing $X$.{% cite Bagaria2002 %}
-    -    Thus, in particular, $BMM$ implies that for every set $X$, [$X^\\dagger$ exists](Zero_dagger "Zero dagger").
+-   Every strong cardinal is [tall](Tall "Tall"). The existence of a tall cardinal is equiconsistent with the existence of a strong cardinal.
+-   A cardinal $κ$ is [$C^{(n)}$-strong](Correct "Correct") iff for every $λ > κ$, $κ$ is $λ$-$C^{(n)}$-strong, that is, there exists an elementary embedding $j : V → M$ for transitive $M$, with $crit(j) = κ$, $j(κ) > λ$, $V\_λ ⊆ M$ and $j(κ) ∈ C^{(n)}$.
+    -   Equivalently (see {% cite Kanamori2009 %} 26.7), $κ$ is $λ$-$C^{(n)}$-strong iff there exists a $(κ, β)$-extender $E$, for some $β > |V\_λ|$, with $V\_λ ⊆ M\_E$ and $λ < j\_E(κ) ∈ C^{(n)}$.
+    -   Every $λ$-strong cardinal is $λ$-$C^{(n)}$-strong for all $n$. Hence, every strong cardinal is $C^{(n)}$-strong for all $n$.{% cite Bagaria2012 %}
+-   [$BMM$ (bounded Martin’s maximum)](Forcing "Forcing") implies that for every set $X$ there is an inner model with a strong cardinal containing $X$.{% cite Bagaria2002 %}
+    -   Thus, in particular, $BMM$ implies that for every set $X$, [$X^\\dagger$ exists](Zero_dagger "Zero dagger").
 
 ## Core Model up to Strongness
 
