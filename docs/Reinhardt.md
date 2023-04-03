@@ -15,7 +15,7 @@ A **Reinhardt cardinal** is the critical point of a nontrivial elementary embedd
 
 A **super Reinhardt** cardinal $\\kappa$, is a cardinal which is the critical point of elementary embeddings $j:V\\to V$, with $j(\\kappa)$ as large as desired.{% cite Bagaria2017 %}
 
-For a proper class $A$, cardinal $\\kappa$ is called **$A$-super Reinhardt** if for all ordinals $\\lambda$ there is a non-trivial elementary embedding $j : V \\rightarrow V$ such that $\\mathrm{crit}(j) = \\kappa$, $j(\\kappa)\\gt\\lambda$ and $j^+(A)=A$. (where $j^+(A) := \\cup\_{α∈\\mathrm{Ord}} j(A ∩ V\_α)$){% cite Bagaria2017 %}
+For a proper class $A$, cardinal $\\kappa$ is called **$A$-super Reinhardt** if for all ordinals $\\lambda$ there is a non-trivial elementary embedding $j :   V \\rightarrow V$ such that $\\mathrm{crit}(j) = \\kappa$, $j(\\kappa)\\gt\\lambda$ and $j^+(A)=A$. (where $j^+(A) := \\cup\_{α∈\\mathrm{Ord}} j(A ∩ V\_α)$){% cite Bagaria2017 %}
 
 A **totally Reinhardt** cardinal is a cardinal $\\kappa$ such that for each $A\\in V\_{\\kappa+1}$, $(V\_\\kappa, V\_{\\kappa+1})\\vDash \\mathrm{ZF}\_2 + \\text{“There is an $A$-super Reinhardt cardinal”}$.{% cite Bagaria2017 %}
 
