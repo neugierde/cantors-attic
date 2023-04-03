@@ -5,11 +5,11 @@ permalink: Worldly
 
 A cardinal $\\kappa$ is *worldly* if $V\_\\kappa$ is a model of $\\text{ZF}$. It follows that $\\kappa$ is a [strong limit](Strong_limit "Strong limit"), a [beth fixed point](Beth_fixed_point "Beth fixed point") and a fixed point of the enumeration of these, and more.
 
--    Every [inaccessible](Inaccessible "Inaccessible") cardinal is worldly. (See [Grothendieck universe](Grothendieck_universe "Grothendieck universe"))
--    Nevertheless, the least worldly cardinal is [singular](Singular "Singular") and hence not [inaccessible](Inaccessible "Inaccessible").
--    The least worldly cardinal has [cofinality](Cofinality "Cofinality") $\\omega$.
--    Indeed, the next worldly cardinal above any ordinal, if any exist, has [cofinality](Cofinality "Cofinality") $\\omega$.
--    Any worldly cardinal $\\kappa$ of uncountable cofinality is a limit of $\\kappa$ many worldly cardinals.
+-   Every [inaccessible](Inaccessible "Inaccessible") cardinal is worldly. (See [Grothendieck universe](Grothendieck_universe "Grothendieck universe"))
+-   Nevertheless, the least worldly cardinal is [singular](Singular "Singular") and hence not [inaccessible](Inaccessible "Inaccessible").
+-   The least worldly cardinal has [cofinality](Cofinality "Cofinality") $\\omega$.
+-   Indeed, the next worldly cardinal above any ordinal, if any exist, has [cofinality](Cofinality "Cofinality") $\\omega$.
+-   Any worldly cardinal $\\kappa$ of uncountable cofinality is a limit of $\\kappa$ many worldly cardinals.
 
 ## Degrees of worldliness
 
@@ -30,13 +30,13 @@ J. D. Hamkins has named a large cardinal property called the *otherworldly cardi
 $\\kappa$ is called otherworldly up to $\\lambda$ if the set of $\\mu$ such that $\\kappa$ is otherworldly to $\\mu$ is cofinal in $\\lambda$.
 
 Otherworldly $\\kappa$ have some properties:
--    Every otherworldly cardinal is worldly (which played a part in inspiring the name), and also happens to be a limit of worldly cardinals.
--    Every otherworldly $\\kappa$ is a limit of cardinals $\\lambda<\\kappa$ such that $Th(V\_\\lambda)=Th(V\_\\kappa)$.
--    Every inaccessible $\\delta$ is a limit of otherworldly cardinals.
-    -    In fact, inaccessible $\\delta$ is the supremum of the class $\\{\\kappa\\in\\delta\\mid V\_\\kappa\\prec V\_\\delta\\}$.
-        -    $\\delta$ is a limit of cardinals otherworldly up to and to $\\delta$.
--    A cardinal is otherworldly iff if it is fully correct in a worldly cardinal.
+-   Every otherworldly cardinal is worldly (which played a part in inspiring the name), and also happens to be a limit of worldly cardinals.
+-   Every otherworldly $\\kappa$ is a limit of cardinals $\\lambda<\\kappa$ such that $Th(V\_\\lambda)=Th(V\_\\kappa)$.
+-   Every inaccessible $\\delta$ is a limit of otherworldly cardinals.
+    -   In fact, inaccessible $\\delta$ is the supremum of the class $\\{\\kappa\\in\\delta\\mid V\_\\kappa\\prec V\_\\delta\\}$.
+        -   $\\delta$ is a limit of cardinals otherworldly up to and to $\\delta$.
+-   A cardinal is otherworldly iff if it is fully correct in a worldly cardinal.
 
 A cardinal $\\kappa$ is *totally otherworldly* if for all $\\lambda>\\kappa$ we have $V\_\\kappa\\prec V\_\\lambda$ ($\\kappa$ is otherworldly to arbitrarily large ordinals).
--    Every totally otherworldly cardinal is $\\Sigma\_3$-correct. [http://jdh.hamkins.org/otherwordly-cardinals/#comment-11034]
+-   Every totally otherworldly cardinal is $\\Sigma\_3$-correct. [http://jdh.hamkins.org/otherwordly-cardinals/#comment-11034]
 
