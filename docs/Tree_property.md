@@ -7,13 +7,13 @@ An infinite cardinal $\\kappa$ has the **tree property** if every tree of height
 
 ## Definition
 
-A *tree* is a partially order set (poset) $(T,<)$ such that for all $x\\in T$, the order $<$ is a well-order on the set $\\{y|y<x\\}$ (called a *chain''). The order type (length) of $<$ on that set is called the *height* of $x$. The height of $T$ is the supremum of the heights of all the sets $x\\in T$. A *$\\alpha$th level* of $T$ is a set that contains all $x\\in T$ of height $\\alpha$. A *branch* is a set $B$ well-ordered by $<$ such that any element of $T$ not in $B$ is incomparable with at least one element of $B$.
+A *tree* is a partially order set (poset) $(T,<)$ such that for all $x\\in T$, the order $<$ is a well-order on the set $\\{y|y< x\\}$ (called a *chain*). The order type (length) of $<$ on that set is called the *height* of $x$. The height of $T$ is the supremum of the heights of all the sets $x\\in T$. A *$\\alpha$th level* of $T$ is a set that contains all $x\\in T$ of height $\\alpha$. A *branch* is a set $B$ well-ordered by $<$ such that any element of $T$ not in $B$ is incomparable with at least one element of $B$.
 
 A tree is *$\\kappa$-Aronszajn* if it has height $\\kappa$, all its levels have cardinality smaller than $\\kappa$, and every branch of $T$ has order type smaller than $\\kappa$. An infinite cardinal $\\kappa$ has the *tree property* if there is no $\\kappa$-Aronszajn tree.
 
 ## Properties
 
-''Konig's lemma* states that $\\aleph\_0$ has the tree property. It is however provable that $\\aleph\_1$ does not have the tree property. Cummings and Foreman proved that, under suitable large cardinal assumptions (namely, the existence of many supercompacts), it is consistent with ZFC all $\\aleph\_n$ cardinals have the tree property for $1<n<\\omega$.
+*Konig's lemma* states that $\\aleph\_0$ has the tree property. It is however provable that $\\aleph\_1$ does not have the tree property. Cummings and Foreman proved that, under suitable large cardinal assumptions (namely, the existence of many supercompacts), it is consistent with ZFC all $\\aleph\_n$ cardinals have the tree property for $1<n<\\omega$.
 
 No cardinal can both be a successor cardinal in $L$ and have the tree property in $L$ (the [constructible universe](Constructible_universe "Constructible universe")), thus the <a href="https://en.wikipedia.org/wiki/axiom of constructibility" class="extiw" title="wikipedia:axiom of constructibility">>axiom of constructibility</a> is incompatible with the existence of any successor cardinal with the tree property.
 
