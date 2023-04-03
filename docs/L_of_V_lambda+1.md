@@ -3,8 +3,7 @@ title: $\exists j:L(V_{\lambda+1})\to L(V_{\lambda+1})$
 permalink: L_of_V_lambda+1
 ---
 
-*See first: [rank into rank
-axioms](Rank_into_rank "Rank into rank")*
+*See first: [rank into rank axioms](Rank_into_rank "Rank into rank")*
 
 The axiom **I0**, the large cardinal axiom of the title, asserts that
 some nontrivial elementary embedding $j:V\_{\\lambda+1}\\to
