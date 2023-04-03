@@ -24,7 +24,7 @@ We continue with $SS\\omega=\\omega+2$, $SSS\\omega=\\omega+3$, etc., until we r
 
 We can also add natural numbers to this ordinal, for example $\\omega+\\omega+5=SSSSS(\\omega+\\omega)$.
 
-## The ordinals below [ $\\epsilon\_0$](Epsilon_naught_ "Epsilon naught ")
+## The ordinals below [$\\epsilon\_0$](Epsilon_naught "Epsilon naught")
 
 
 We shall give here an account of the attractive finitary represenation of the ordinals below [ $\\epsilon\_0$](Epsilon_naught_ "Epsilon naught ").
