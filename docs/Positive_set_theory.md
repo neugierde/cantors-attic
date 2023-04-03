@@ -26,12 +26,14 @@ The empty set axiom is necessary, as without it the theory would hold in the tri
 
 The theory $\\text{GPK}^+$ is obtained by adding the following axiom:
 -    **Closure**: the universal closure of $\\exists x(\\forall z(\\varphi(z)\\Rightarrow z\\in x)\\land\\forall y(\\forall z(\\varphi(z)\\Rightarrow z\\in y)\\Rightarrow x\\subset y))$ for every formula $\\varphi(z)$ (not necessarily BPF or GPF) with a free variable $z$ (and possibly parameters) such that $x$ does not occur in $\\varphi$.
+
 This axiom scheme asserts that for any (possibly proper) class $C=\\{x|\\varphi(x)\\}$ there is a smallest set $X$ containing $C$, i.e. $C\\subset X$ and for all sets $Y$ such that $C\\subset Y$, one has $X\\subset Y$. {% cite Esser99 %}
 
 Note that replacing GPF comprehension in $\\text{GPK}^+$ by BPF comprehension does not make the theory any weaker: BPF comprehension plus Closure implies GPF comprehension.
 
 Both $\\text{GPK}$ and $\\text{GPK}^+$ are consistent relative to $\\text{ZFC}$, in fact mutually interpretable with second-order arithmetic. However a much stronger theory, **$\\text{GPK}^+\_\\infty$**, is obtained by adding the following axiom:
 -    **Infinity**: the von Neumann ordinal $\\omega$ is a set.
+
 By "von Neumann ordinal" we mean the usual definition of ordinals as well-ordered-by-inclusion sets containing all the smaller ordinals. Here $\\omega$ is the set of all finite ordinals (the natural numbers). The point of this axiom is not implying the existence of an infinite set; the *class* $\\omega$ exists, so it has a set closure which is certainely infinite. This set closure happens to satisfy the usual axiom of infinity of $\\text{ZFC}$ (i.e. it contains 0 and the successor of all its members) but in $\\text{GPK}^+$ this is not enough to deduce that $\\omega$ itself is a set (an improper class).
 
 Olivier Esser showed that $\\text{GPK}^+\_\\infty$ can not only interpret $\\text{ZFC}$ (and prove it consistent), but is in fact mutually interpretable with a *much* stronger set theory, namely, Morse-Kelley set theory with an axiom asserting that the (proper) class of all ordinals is [weakly compact](Weakly_compact "Weakly compact"). This theory is powerful enough to prove, for instance, that there exists a proper class of [hyper-Mahlo](Mahlo "Mahlo") cardinals. {% cite Esser96 %}
