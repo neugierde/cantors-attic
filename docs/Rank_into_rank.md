@@ -27,14 +27,14 @@ The “$2n$” subscript in the axiom $E\_n(\\lambda)$ is incorporated so that t
 $E\_{n+1}$ strongly implies $E\_n$. It also implies the consistency of $E\_n$ strengthened by adding “with an arbitrarily large first target”.{% cite Kentaro2007 %}
 
 Notes:{% cite Bagaria2012 %}
--    $\\kappa$ is $\\mathrm{I3}$, i.e. $E\_0$, i.e. the critical point of an elementary embedding $j : V\_\\delta \\to V\_\\delta$, if and only if $\\kappa$ is the critical point of an embedding $j^+ : V\_{\\delta+1} \\to V\_{\\delta+1}$ which is $\\Sigma\_0$ elementary (preserves truth for bounded formulas) with parameters.
-    -    $j$ extends uniquely to $j^+$ with $j^+(A) = \\bigcup\_{\\alpha\\lt\\delta} j(A \\cap V\_\\alpha)$ for all $A \\subseteq V\_\\delta$.
--    An embedding $j : V\_{\\delta+1} \\to V\_{\\delta+1}$ is $\\Sigma\_i$ elementary if and only if its restriction to $V\_\\delta$ is $\\Sigma^1\_i$ elementary.
-    -    A formula is $Σ^1\_i$ if it is a second order formula which begins with exactly $i$-many alternating second-order quantifiers, beginning with an existential one, and the rest of the formula has only first-order quantifiers.
--    For each $i \\ge 1$, the formula „$k : V\_\\beta \\to V\_\\beta$ is $\\Sigma^1\_i$ elementary” is $\\Pi\_{i+1}$ expressible in $V\_{\\delta+1}$ in the parameters $k$ and $\\beta$.
--    Alternative terminology: A cardinal $\\kappa$ is called an $E\_i$ cardinal, if it is a critical point of a $\\Sigma\_i$ elementary embedding $j : V\_{\\delta+1} \\to V\_{\\delta+1}$.
-    -    In this terminology $E\_i$ is connected with $\\Sigma\_i$, not $\\Sigma\_{2 i}$, so only even $i$ need to be considered.
-    -    $E\_1$ in both terminologies coincide with each other and with $E\_2$ in this one.
+-   $\\kappa$ is $\\mathrm{I3}$, i.e. $E\_0$, i.e. the critical point of an elementary embedding $j : V\_\\delta \\to V\_\\delta$, if and only if $\\kappa$ is the critical point of an embedding $j^+ : V\_{\\delta+1} \\to V\_{\\delta+1}$ which is $\\Sigma\_0$ elementary (preserves truth for bounded formulas) with parameters.
+    -   $j$ extends uniquely to $j^+$ with $j^+(A) = \\bigcup\_{\\alpha\\lt\\delta} j(A \\cap V\_\\alpha)$ for all $A \\subseteq V\_\\delta$.
+-   An embedding $j : V\_{\\delta+1} \\to V\_{\\delta+1}$ is $\\Sigma\_i$ elementary if and only if its restriction to $V\_\\delta$ is $\\Sigma^1\_i$ elementary.
+    -   A formula is $Σ^1\_i$ if it is a second order formula which begins with exactly $i$-many alternating second-order quantifiers, beginning with an existential one, and the rest of the formula has only first-order quantifiers.
+-   For each $i \\ge 1$, the formula „$k : V\_\\beta \\to V\_\\beta$ is $\\Sigma^1\_i$ elementary” is $\\Pi\_{i+1}$ expressible in $V\_{\\delta+1}$ in the parameters $k$ and $\\beta$.
+-   Alternative terminology: A cardinal $\\kappa$ is called an $E\_i$ cardinal, if it is a critical point of a $\\Sigma\_i$ elementary embedding $j : V\_{\\delta+1} \\to V\_{\\delta+1}$.
+    -   In this terminology $E\_i$ is connected with $\\Sigma\_i$, not $\\Sigma\_{2 i}$, so only even $i$ need to be considered.
+    -   $E\_1$ in both terminologies coincide with each other and with $E\_2$ in this one.
 
 ### Weaker axioms
 The $\\mathrm{I3}$ axiom implies the [wholeness axiom](Wholeness_axiom "Wholeness axiom"). [Axioms $\\mathrm{I}\_4^n$](I4 "I4") for natural numbers $n$ are an attempt to measure the gap between $\\mathrm{I}\_3$ and $\\mathrm{WA}$.{% cite Corazza2003 %}
@@ -81,13 +81,13 @@ A cardinal $\\kappa$ is **virtually rank-into-rank** iff in a set-forcing extens
 This notion does not require stratification, because Kunen’s Inconsistency does not hold for virtual embeddings.
 
 Results:
--    Every virtually rank-into-rank cardinal is a [virtually $n$-huge*](Huge "Huge") limit of virtually $n$-huge* cardinals for every $n < \\omega$.
--    The least $\\omega$-[Erdős](Erdős "Erdős") cardinal $η\_\\omega$ is a limit of virtually rank-into-rank cardinals.
--    Every virtually rank-into-rank cardinal is an $\\omega$-[iterable](Iterable "Iterable") limit of $\\omega$-iterable cardinals.
--    Every element of a club $C$ witnessing that $\\kappa$ is a [Silver cardinal](Silver_cardinal "Silver cardinal") is virtually rank-into-rank.
--    If [$gVP(Σ\_{n+1})$ holds](Vopenka "Vopenka"), then either there is a proper class of [$n$-remarkable](N-remarkable "N-remarkable") cardinals or there is a proper class of virtually rank-into-rank cardinals.{% cite GitmanHamkins2018 %}
--    If [$0^\\#$ exists](Zero_sharp "Zero sharp"), then in $L$ there are numerous virtual rank-into-rank embeddings $j : V\_θ^L → V\_θ^L$, where $θ$ is far above the supremum of the critical sequence. (By [elementary-embedding absoluteness results](Elementary\_embedding#Absoluteness "Elementary\_embedding#Absoluteness"). The hypothesis can be weakened, because one can chop at off the universe at any Silver indiscernible and use reflection.){% cite GitmanHamkins2018 %}
-    -    Therefore every Silver indiscernible is the critical point of virtual rank-into-rank embeddings with targets as high as desired and fixed points as high above the critical sequence as desired.{% cite GitmanHamkins2018 %}
+-   Every virtually rank-into-rank cardinal is a [virtually $n$-huge*](Huge "Huge") limit of virtually $n$-huge* cardinals for every $n < \\omega$.
+-   The least $\\omega$-[Erdős](Erdős "Erdős") cardinal $η\_\\omega$ is a limit of virtually rank-into-rank cardinals.
+-   Every virtually rank-into-rank cardinal is an $\\omega$-[iterable](Iterable "Iterable") limit of $\\omega$-iterable cardinals.
+-   Every element of a club $C$ witnessing that $\\kappa$ is a [Silver cardinal](Silver_cardinal "Silver cardinal") is virtually rank-into-rank.
+-   If [$gVP(Σ\_{n+1})$ holds](Vopenka "Vopenka"), then either there is a proper class of [$n$-remarkable](N-remarkable "N-remarkable") cardinals or there is a proper class of virtually rank-into-rank cardinals.{% cite GitmanHamkins2018 %}
+-   If [$0^\\#$ exists](Zero_sharp "Zero sharp"), then in $L$ there are numerous virtual rank-into-rank embeddings $j : V\_θ^L → V\_θ^L$, where $θ$ is far above the supremum of the critical sequence. (By [elementary-embedding absoluteness results](Elementary\_embedding#Absoluteness "Elementary\_embedding#Absoluteness"). The hypothesis can be weakened, because one can chop at off the universe at any Silver indiscernible and use reflection.){% cite GitmanHamkins2018 %}
+    -   Therefore every Silver indiscernible is the critical point of virtual rank-into-rank embeddings with targets as high as desired and fixed points as high above the critical sequence as desired.{% cite GitmanHamkins2018 %}
 
 ## Large Cardinal Properties of Critical Points
 
@@ -107,9 +107,9 @@ Critical points of rank-into-rank embeddings also exhibit some *upward* reflecti
 
 If $j,k\\in\\mathcal{E}\_{\\lambda}$, then $j^+(k)\\in\\mathcal{E}\_{\\lambda}$ as well. We therefore define a binary operation $*$ on $\\mathcal{E}\_{\\lambda}$ called application defined by $j*k=j^{+}(k)$. The binary operation $*$ together with composition $\\circ$ satisfies the following identities:
 
-1. $(j\\circ k)\\circ l=j\\circ(k\\circ l),\\,j\\circ k=(j*k)\\circ j,\\,j*(k*l)=(j\\circ k)*l,\\,j*(k\\circ l)=(j*k)\\circ(j*l)$
+1.  $(j\\circ k)\\circ l=j\\circ(k\\circ l),\\,j\\circ k=(j*k)\\circ j,\\,j*(k*l)=(j\\circ k)*l,\\,j*(k\\circ l)=(j*k)\\circ(j*l)$
 
-2. $j*(k*l)=(j*k)*(j*l)$ (self-distributivity).
+2.  $j*(k*l)=(j*k)*(j*l)$ (self-distributivity).
 
 Identity 2 is an algebraic consequence of the identities in 1.
 
@@ -129,40 +129,40 @@ $\\mathrm{I3}$ and other $C^{(n)}$ variants:
 -    Assuming $\\mathrm{I3}(\\kappa,\\delta)$, if $\\delta$ is a limit cardinal (instead of a successor of a limit cardinal – Kunen’s Theorem excludes other cases), it is equal to $sup\\{j^m(\\kappa):m\\lt \\omega\\}$ where $j$ is the elementary embedding. Then $\\kappa$ and $j^m(\\kappa)$ are $C^{(n)}$-[superstrong](Superstrong "Superstrong"), $C^{(n)}$-[supercompact](Supercompact "Supercompact"), $C^{(n)}$-[extendible](Extendible "Extendible"), $C^{(n)}$-$m$-[huge](Huge "Huge") and $C^{(n)}$-superhuge in $V\_\\delta$, for all $n$ and $m$.
 
 Definitions of $C^{(n)}$ variants of rank-into-rank cardinals:
--    $\\kappa$ is called **[$C^{(n)}$-$\\mathrm{I3}$ cardinal](Correct "Correct")** if it is an $\\mathrm{I3}$ cardinal, witnessed by some elementary embedding $j: V\_\\delta\\rightarrow V\_\\delta$, with $j(\\kappa)\\in C^{(n)}$ (i.e. ($1$-)$C^{(n)}$-$E\_0$).
--    $\\kappa$ is called **$C^{(n)+}$-$\\mathrm{I3}$ cardinal** if it is an $\\mathrm{I3}$ cardinal, witnessed by some elementary embedding $j : V\_\\delta\\rightarrow V\_\\delta$, with $\\delta\\in C^{(n)}$ (i.e. $\\omega$-$C^{(n)}$-$E\_0$).
-    -    Note: For every $n\\ge 1$, if $\\delta$ is a limit ordinal and $j : V\_\\delta\\rightarrow V\_\\delta$ witnesses that $\\kappa$ is $\\mathrm{I3}$, then
-    -   : $(\\forall\_{m\\lt\\omega}j^m(\\kappa)\\in C^{(n)})\\iff\\delta\\in C^{(n)}$.
+-   $\\kappa$ is called **[$C^{(n)}$-$\\mathrm{I3}$ cardinal](Correct "Correct")** if it is an $\\mathrm{I3}$ cardinal, witnessed by some elementary embedding $j: V\_\\delta\\rightarrow V\_\\delta$, with $j(\\kappa)\\in C^{(n)}$ (i.e. ($1$-)$C^{(n)}$-$E\_0$).
+-   $\\kappa$ is called **$C^{(n)+}$-$\\mathrm{I3}$ cardinal** if it is an $\\mathrm{I3}$ cardinal, witnessed by some elementary embedding $j : V\_\\delta\\rightarrow V\_\\delta$, with $\\delta\\in C^{(n)}$ (i.e. $\\omega$-$C^{(n)}$-$E\_0$).
+    -   Note: For every $n\\ge 1$, if $\\delta$ is a limit ordinal and $j : V\_\\delta\\rightarrow V\_\\delta$ witnesses that $\\kappa$ is $\\mathrm{I3}$, then
+    -  : $(\\forall\_{m\\lt\\omega}j^m(\\kappa)\\in C^{(n)})\\iff\\delta\\in C^{(n)}$.
         -    $E\_i$ cardinals are $E\_0$, so this applies to $\\omega$-$C^{(n)}$-$E\_i$ cardinals.
--    $\\kappa$ is called **$C^{(n)}$-$\\mathrm{I1}$ cardinal** if it is an $\\mathrm{I1}$ cardinal, witnessed by some elementary embedding $j : V\_{\\delta+1}\\rightarrow V\_{\\delta+1}$, with $j(\\kappa)\\in C^{(n)}$ (i.e. ($1$-)$C^{(n)}$-$E\_\\omega$).
+-   $\\kappa$ is called **$C^{(n)}$-$\\mathrm{I1}$ cardinal** if it is an $\\mathrm{I1}$ cardinal, witnessed by some elementary embedding $j : V\_{\\delta+1}\\rightarrow V\_{\\delta+1}$, with $j(\\kappa)\\in C^{(n)}$ (i.e. ($1$-)$C^{(n)}$-$E\_\\omega$).
 More generally
--    $\\kappa$ is called **$C^{(n)}$-$E\_0$ cardinal** if it is an $E\_i$ cardinal, witnessed by some elementary embedding $j : V\_\\delta\\rightarrow V\_\\delta$, with $j(\\kappa) \\in C^{(n)}$.
--    $\\kappa$ is called **$m$-$C^{(n)}$-$E\_0$ cardinal** if it is an $E\_i$ cardinal, witnessed by some elementary embedding $j : V\_\\delta\\rightarrow V\_\\delta$, with $j^{m'}(\\kappa) \\in C^{(n)}$ for all $1 \\le m'\\le m$.
--    $\\kappa$ is called **$\\omega$-$C^{(n)}$-$E\_0$ cardinal** if it is an $E\_i$ cardinal, witnessed by some elementary embedding $j : V\_\\delta\\rightarrow V\_\\delta$, with $\\delta \\in C^{(n)}$.
+-   $\\kappa$ is called **$C^{(n)}$-$E\_0$ cardinal** if it is an $E\_i$ cardinal, witnessed by some elementary embedding $j : V\_\\delta\\rightarrow V\_\\delta$, with $j(\\kappa) \\in C^{(n)}$.
+-   $\\kappa$ is called **$m$-$C^{(n)}$-$E\_0$ cardinal** if it is an $E\_i$ cardinal, witnessed by some elementary embedding $j : V\_\\delta\\rightarrow V\_\\delta$, with $j^{m'}(\\kappa) \\in C^{(n)}$ for all $1 \\le m'\\le m$.
+-   $\\kappa$ is called **$\\omega$-$C^{(n)}$-$E\_0$ cardinal** if it is an $E\_i$ cardinal, witnessed by some elementary embedding $j : V\_\\delta\\rightarrow V\_\\delta$, with $\\delta \\in C^{(n)}$.
 Even more generally
--    $\\kappa$ is called **$C^{(n)}$-$E\_i$ cardinal** if it is an $E\_i$ cardinal, witnessed by some $\\Sigma\_i$ elementary embedding $j : V\_{\\delta+1}\\rightarrow V\_{\\delta+1}$, with $j(\\kappa) \\in C^{(n)}$.
--    $\\kappa$ is called **$m$-$C^{(n)}$-$E\_i$ cardinal** if it is an $E\_i$ cardinal, witnessed by some $\\Sigma\_i$ elementary embedding $j : V\_{\\delta+1}\\rightarrow V\_{\\delta+1}$, with $j^{m'}(\\kappa) \\in C^{(n)}$ for all $1 \\le m'\\le m$.
--    $\\kappa$ is called **$\\omega$-$C^{(n)}$-$E\_i$ cardinal** if it is an $E\_i$ cardinal, witnessed by some $\\Sigma\_i$ elementary embedding $j : V\_{\\delta+1}\\rightarrow V\_{\\delta+1}$, with $\\delta \\in C^{(n)}$.
+-   $\\kappa$ is called **$C^{(n)}$-$E\_i$ cardinal** if it is an $E\_i$ cardinal, witnessed by some $\\Sigma\_i$ elementary embedding $j : V\_{\\delta+1}\\rightarrow V\_{\\delta+1}$, with $j(\\kappa) \\in C^{(n)}$.
+-   $\\kappa$ is called **$m$-$C^{(n)}$-$E\_i$ cardinal** if it is an $E\_i$ cardinal, witnessed by some $\\Sigma\_i$ elementary embedding $j : V\_{\\delta+1}\\rightarrow V\_{\\delta+1}$, with $j^{m'}(\\kappa) \\in C^{(n)}$ for all $1 \\le m'\\le m$.
+-   $\\kappa$ is called **$\\omega$-$C^{(n)}$-$E\_i$ cardinal** if it is an $E\_i$ cardinal, witnessed by some $\\Sigma\_i$ elementary embedding $j : V\_{\\delta+1}\\rightarrow V\_{\\delta+1}$, with $\\delta \\in C^{(n)}$.
 
 Of course, $m$-$C^{(n)}$-$E\_i$ cardinals for larger $m$, $n$ and $i$ have also this property for smaller parameters. In particular, every $C^{(n)}$-$\\mathrm{I1}$ cardinal is also $C^{(n)}$-$\\mathrm{I3}$.
 
 Results about $\\mathrm{I3}$:
--    If $\\kappa$ is $C^{(n)}$-$\\mathrm{I3}$, then $\\kappa\\in C^{(n)}$.
--    Every $\\mathrm{I3}$-cardinal is $C^{(1)}$-$\\mathrm{I3}$ and $C^{(1)+}$-$\\mathrm{I3}$.
--    If $\\kappa$ is $C^{(n)}$-$\\mathrm{I3}$, then it is $C^{(n)}$-$m$-huge, for all $m$, and there is a normal [ultrafilter](Ultrafilter "Ultrafilter") $\\mathcal{U}$ over $\\kappa$ such that
+-   If $\\kappa$ is $C^{(n)}$-$\\mathrm{I3}$, then $\\kappa\\in C^{(n)}$.
+-   Every $\\mathrm{I3}$-cardinal is $C^{(1)}$-$\\mathrm{I3}$ and $C^{(1)+}$-$\\mathrm{I3}$.
+-   If $\\kappa$ is $C^{(n)}$-$\\mathrm{I3}$, then it is $C^{(n)}$-$m$-huge, for all $m$, and there is a normal [ultrafilter](Ultrafilter "Ultrafilter") $\\mathcal{U}$ over $\\kappa$ such that
 -   : $\\{\\alpha\\lt\\kappa: \\alpha$ is $C^{(n)}$-$m$-huge for every $m\\}\\in\\mathcal{U}$.
--    If $\\kappa$ is $m$-$C^{(n)}$-$E\_1$, then there is a normal ultrafilter $\\mathcal{U}$ over $\\kappa$ such that the set of cardinals $\\alpha < \\kappa$ that are $m$-$C^{(n)}$-$E\_0$ belongs to $\\mathcal{U}$.
+-   If $\\kappa$ is $m$-$C^{(n)}$-$E\_1$, then there is a normal ultrafilter $\\mathcal{U}$ over $\\kappa$ such that the set of cardinals $\\alpha < \\kappa$ that are $m$-$C^{(n)}$-$E\_0$ belongs to $\\mathcal{U}$.
 
 Results about $\\mathrm{I1}$:
--    If $\\kappa$ is $C^{(n)}$-$\\mathrm{I1}$, then the least $\\delta$ such that there is an elementary embedding $j: V\_{\\delta+1} \\to V\_{\\delta+1}$ with $crit(j)=\\kappa$ and $j(\\kappa)\\in C^{(n)}$ is smaller than the first ordinal in $C^{(n+1)}$ greater than $\\kappa$.
+-   If $\\kappa$ is $C^{(n)}$-$\\mathrm{I1}$, then the least $\\delta$ such that there is an elementary embedding $j: V\_{\\delta+1} \\to V\_{\\delta+1}$ with $crit(j)=\\kappa$ and $j(\\kappa)\\in C^{(n)}$ is smaller than the first ordinal in $C^{(n+1)}$ greater than $\\kappa$.
 
 General results:
--    By simple reflection argument: The least $m$-$C^{(n)}$-$E\_i$ cardinal is smaller than the first cardinal in $C^{(n+1)}$ (for all $m, i \\le \\omega$ and $n \\ge 1$) and therefore smaller than the least $C^{(n+1)}$-$E\_0$ cardinal. In particular:
-    -    The least $C^{(n)}$-$\\mathrm{I3}$ cardinal is not $C^{(n+1)}$-$\\mathrm{I3}$.
-    -    The least $C^{(n)}$-$\\mathrm{I1}$ cardinal is not $C^{(n+1)}$-$\\mathrm{I1}$.
-    -    The least $C^{(n)}$-$\\mathrm{I1}$ cardinal, if it exists, is smaller than the first ordinal in $C^{(n+1)}$.
--    The least $m$-$C^{(n)}$-$E\_i$ cardinal is not $(m + 1)$-$C^{(n)}$-$E\_i$ (for all $m \\ge 1$, $n \\ge 2$ and $i \\le \\omega$).
--    If $\\kappa$ is an $m$-$C^{(n)}$-$E\_{i+2}$ cardinal (for $i, n < \\omega$ and $m \\le \\omega$), then the set of $m$-$C^{(n)}$-$E\_i$ cardinals is unbounded below $\\kappa$.
+-   By simple reflection argument: The least $m$-$C^{(n)}$-$E\_i$ cardinal is smaller than the first cardinal in $C^{(n+1)}$ (for all $m, i \\le \\omega$ and $n \\ge 1$) and therefore smaller than the least $C^{(n+1)}$-$E\_0$ cardinal. In particular:
+    -   The least $C^{(n)}$-$\\mathrm{I3}$ cardinal is not $C^{(n+1)}$-$\\mathrm{I3}$.
+    -   The least $C^{(n)}$-$\\mathrm{I1}$ cardinal is not $C^{(n+1)}$-$\\mathrm{I1}$.
+    -   The least $C^{(n)}$-$\\mathrm{I1}$ cardinal, if it exists, is smaller than the first ordinal in $C^{(n+1)}$.
+-   The least $m$-$C^{(n)}$-$E\_i$ cardinal is not $(m + 1)$-$C^{(n)}$-$E\_i$ (for all $m \\ge 1$, $n \\ge 2$ and $i \\le \\omega$).
+-   If $\\kappa$ is an $m$-$C^{(n)}$-$E\_{i+2}$ cardinal (for $i, n < \\omega$ and $m \\le \\omega$), then the set of $m$-$C^{(n)}$-$E\_i$ cardinals is unbounded below $\\kappa$.
 
 ## $B$-$E\_n$, $P$-$E\_n$, and $W$-$E\_n$ cardinals
 
@@ -172,7 +172,7 @@ General results:
 -   $\\kappa$ is $W$-$E\_n$ if and only if for every $f: \\kappa\\rightarrow\\kappa$, there is some $\\alpha\\lt\\kappa$ such that $f"\\alpha\\subseteq\\alpha$ and $E\_n(\\alpha)$
 -   $\\kappa$ is $P$-$E\_n$ if and only if for every $\\gamma$, there is some $j: V\_\\lambda\\prec V\_\\lambda$ witnessing $E\_n(\\kappa)$ such that $j(\\kappa)\\gt\\kappa+\\gamma$.
 
-<b>Results:</b>
+**Results:**
 
 -   The consistency strength of some $\\kappa$ that satisfies $W$-$E\_n$ is above $E\_n$.
 -   If $\\kappa$ is $P$-$E\_n$ then $\\kappa$ is $W$-$E\_n$.
@@ -182,17 +182,17 @@ General results:
 
 (Section from {% cite Kentaro2007 %})
 
--    For any $n \\in \\omega$, $\\mathrm{I3}$ is equivalent to the existence of an $\\omega$-fold $n$-extendible cardinal.
--    An $\\omega$-fold extendible cardinal $\\kappa$ is the $\\kappa$-th $\\mathrm{I3}$ cardinal ($\\kappa$-th critical point of an elementary embedding $j : V\_\\delta \\to V\_\\delta$).
-    -    The assertion that “there is an $\\omega$-fold extendible cardinal” implies the consistency of “the $\\mathrm{I3}$ cardinals form a proper class”.
--    If $e : V\_\\delta \\prec V\_\\delta$ witnesses $IE^\\omega$ with $crit(e) = \\kappa$, then
-    -    $\\kappa$ is $\\omega$-fold Vopěnka,
-    -    $\\{\\alpha < \\kappa | V\_\\kappa \\models “\\alpha\\text{ is }\\omega\\text{-fold Vopěnka”}\\} \\in \\{x \\subset \\kappa | \\kappa \\in e(x)\\}$ and
-    -    $\\{\\alpha < \\kappa | \\alpha\\text{ is }\\omega\\text{-fold Vopěnka}\\} \\in \\{x \\subset \\kappa | \\kappa \\in e(x)\\}$.
-    -    The critical point $\\kappa$ of a witness of $IE^\\omega$ is the $\\kappa$-th $\\omega$-fold Vopěnka cardinal.
-    -    $IE^\\omega$ implies consistency of “$\\omega$-fold Vopěnka cardinals form a proper class”.
--    $\\omega$-fold superstrong (=$\\omega$-fold Shelah) is equivalent to $\\mathrm{I2}$.
-    -    Weaker than $\\omega$-fold Woodin (details in [n-fold variants](N-fold_variants "N-fold variants")).
--    $E\_2$ (with $\\Sigma\_4$) implies consistency of “$\\omega$-fold strong cardinals form a proper class”.
+-   For any $n \\in \\omega$, $\\mathrm{I3}$ is equivalent to the existence of an $\\omega$-fold $n$-extendible cardinal.
+-   An $\\omega$-fold extendible cardinal $\\kappa$ is the $\\kappa$-th $\\mathrm{I3}$ cardinal ($\\kappa$-th critical point of an elementary embedding $j : V\_\\delta \\to V\_\\delta$).
+    -   The assertion that “there is an $\\omega$-fold extendible cardinal” implies the consistency of “the $\\mathrm{I3}$ cardinals form a proper class”.
+-   If $e : V\_\\delta \\prec V\_\\delta$ witnesses $IE^\\omega$ with $crit(e) = \\kappa$, then
+    -   $\\kappa$ is $\\omega$-fold Vopěnka,
+    -   $\\{\\alpha < \\kappa | V\_\\kappa \\models “\\alpha\\text{ is }\\omega\\text{-fold Vopěnka”}\\} \\in \\{x \\subset \\kappa | \\kappa \\in e(x)\\}$ and
+    -   $\\{\\alpha < \\kappa | \\alpha\\text{ is }\\omega\\text{-fold Vopěnka}\\} \\in \\{x \\subset \\kappa | \\kappa \\in e(x)\\}$.
+    -   The critical point $\\kappa$ of a witness of $IE^\\omega$ is the $\\kappa$-th $\\omega$-fold Vopěnka cardinal.
+    -   $IE^\\omega$ implies consistency of “$\\omega$-fold Vopěnka cardinals form a proper class”.
+-   $\\omega$-fold superstrong (=$\\omega$-fold Shelah) is equivalent to $\\mathrm{I2}$.
+    -   Weaker than $\\omega$-fold Woodin (details in [n-fold variants](N-fold_variants "N-fold variants")).
+-   $E\_2$ (with $\\Sigma\_4$) implies consistency of “$\\omega$-fold strong cardinals form a proper class”.
 
 {{References}}
