@@ -10,9 +10,7 @@ Specifically, the *game value* (for white) of a position in infinite chess is de
 The term *omega one of chess* refers either to the ordinal $\\omega\_1^{\\mathfrak{Ch}}$ or to $\\omega\_1^{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}$, depending respectively on whether one is considering only finite positions or also positions with infinitely many pieces.{% cite EvansHamkins %}
 
 -    The ordinal $\\omega\_1^{\\mathfrak{Ch}}$ is the supremum of the game values of the winning finite positions for white in infinite chess.
-
 -    The ordinal $\\omega\_1^{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}$ is the supremum of the game values of all the winning positions for white in infinite chess, including positions with infinitely many pieces.
-
 -    Similarly,  $\\omega\_1^{\\mathfrak{Ch}\_3}$ and $\\omega\_1^{{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}\_3}$ are the analogous ordinals for infinite three-dimensional chess, as described in .
 
 There is an entire natural hierarchy of intermediate concepts between $\\omega\_1^{\\mathfrak{Ch}}$ and $\\omega\_1^{\\mathfrak{Ch}\_{\\!\\!\\!\\!\\sim}}$, corresponding to the various descriptive-set-theoretic complexities of the positions. For example, we may denote by $\\omega\_1^{\\mathfrak{Ch},c}$ the 'computable' omega one of chess, which is the supremum of the game values of the computable positions of infinite chess. Similarly, one may define $\\omega\_1^{\\mathfrak{Ch},\\text{hyp}}$ to be the supremum of the values of the hyperarithmetic positions and $\\omega\_1^{\\mathfrak{Ch},\\Delta^1\_2}$ to be the supremum of the $\\Delta^1\_2$ definable positions, and so on.
