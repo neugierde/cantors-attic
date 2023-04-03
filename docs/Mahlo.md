@@ -5,10 +5,10 @@ permalink: Mahlo
 
 A cardinal $\\kappa$ is *Mahlo* if and only if it is [inaccessible](Inaccessible "Inaccessible") and the [regular](Regular "Regular") cardinals below $\\kappa$ form a [stationary](Stationary "Stationary") subset of  $\\kappa$.  Equivalently, $\\kappa$ is Mahlo if it is [regular](Regular "Regular") and the [inaccessible](Inaccessible "Inaccessible") cardinals below $\\kappa$ are stationary.
 
--    Every Mahlo cardinal $\\kappa$ is inaccessible, and indeed hyper-inaccessible and hyper-hyper-inaccessible, up to degree $\\kappa$, and a limit of such cardinals.
--    If $\\kappa$ is Mahlo, then it is Mahlo in any inner model, since the concept of stationarity is similarly downward absolute.
--    A cardinal is *greatly inaccessible* iff there is a uniform, normal [filter](Filter "Filter") on it, closed under the inaccessible limit point operator $\\mathcal{I}(X) = \\{α ∈ X : α$ is an inaccessible limit point of $X\\}$. This property is equivalent to being Mahlo and analogous to being [greatly Mahlo](Mahlo#greatly_Mahlo "Mahlo#greatly Mahlo").{% cite Carmody2015 %}
--    A cardinal $\\kappa$ is Mahlo iff there exists a nontrivial $\\kappa$-complete $\\kappa$-normal ideal on it. (Zhang, [An Ideal Characterization of Mahlo Cardinals](https://theory.stanford.edu/~tingz/talks/mahlo.pdf))
+-   Every Mahlo cardinal $\\kappa$ is inaccessible, and indeed hyper-inaccessible and hyper-hyper-inaccessible, up to degree $\\kappa$, and a limit of such cardinals.
+-   If $\\kappa$ is Mahlo, then it is Mahlo in any inner model, since the concept of stationarity is similarly downward absolute.
+-   A cardinal is *greatly inaccessible* iff there is a uniform, normal [filter](Filter "Filter") on it, closed under the inaccessible limit point operator $\\mathcal{I}(X) = \\{α ∈ X : α$ is an inaccessible limit point of $X\\}$. This property is equivalent to being Mahlo and analogous to being [greatly Mahlo](Mahlo#greatly_Mahlo "Mahlo#greatly Mahlo").{% cite Carmody2015 %}
+-   A cardinal $\\kappa$ is Mahlo iff there exists a nontrivial $\\kappa$-complete $\\kappa$-normal ideal on it. (Zhang, [An Ideal Characterization of Mahlo Cardinals](https://theory.stanford.edu/~tingz/talks/mahlo.pdf))
 
 [Ord is Mahlo](Ord_is_Mahlo "Ord is Mahlo") is a scheme asserting that regular cardinals form a stationary class. It is weaker than the existence of a Mahlo cardinal (or even pseudo $0$-[uplifting](Uplifting "Uplifting") cardinal{% cite HamkinsJohnstone %}).
 
@@ -34,10 +34,10 @@ Every $Π\_1$-Mahlo cardinal is an inaccessible limit of inaccessible cardinals.
 In {% cite Bosch2006 %} it is shown that every $Σ\_ω$-[weakly compact](Weakly_compact "Weakly compact") cardinal is $Σ\_ω$-Mahlo and the set of $Σ\_ω$-Mahlo cardinals below a $Σ\_ω$-w.c. cardinal is $Σ\_ω$-stationary, but if κ is $Π\_{n+1}$-Mahlo, then the set of $Σ\_n$-w.c. cardinals below $κ$ is $Π\_{n+1}$-stationary.
 
 These properties are connected with [axioms of generic absoluteness](Axioms_of_generic_absoluteness "Axioms of generic absoluteness"). For example:
--    There is a, provably in ZFC, ccc poset $\\mathbb{P}$ which is both $Σ\_2$ and $Π\_2$ definable in $H(ω\_1)$, without parameters, and for which the axiom $\\mathcal{A}(H(ω\_1), Σ\_3, \\mathbb{P})$ fails if $ω\_1$ is not a $Π\_1$-Mahlo cardinal in $L$.
--    The existence of a $Σ\_ω$-Mahlo cardinal is equiconsistent with both $\\mathcal{A}(H(ω\_1), \\underset{\\sim}{Σ\_ω}, Γ)$ and $\\mathcal{A}(L(\\mathbb{R}), \\underset{\\sim}{Σ\_ω}, Γ)$ where $Γ$ is the class of absolutely-ccc projective posets.
+-   There is a, provably in ZFC, ccc poset $\\mathbb{P}$ which is both $Σ\_2$ and $Π\_2$ definable in $H(ω\_1)$, without parameters, and for which the axiom $\\mathcal{A}(H(ω\_1), Σ\_3, \\mathbb{P})$ fails if $ω\_1$ is not a $Π\_1$-Mahlo cardinal in $L$.
+-   The existence of a $Σ\_ω$-Mahlo cardinal is equiconsistent with both $\\mathcal{A}(H(ω\_1), \\underset{\\sim}{Σ\_ω}, Γ)$ and $\\mathcal{A}(L(\\mathbb{R}), \\underset{\\sim}{Σ\_ω}, Γ)$ where $Γ$ is the class of absolutely-ccc projective posets.
 
--    The consistency of a $Σ\_ω$-Mahlo cardinal implies consistency of both $\\mathcal{A}(H(ω\_1), \\underset{\\sim}{Σ\_ω}, Γ)$ and $\\mathcal{A}(L(\\mathbb{R}), \\underset{\\sim}{Σ\_ω}, Γ)$ where $Γ$ is the class of strongly proper projective posets.
+-   The consistency of a $Σ\_ω$-Mahlo cardinal implies consistency of both $\\mathcal{A}(H(ω\_1), \\underset{\\sim}{Σ\_ω}, Γ)$ and $\\mathcal{A}(L(\\mathbb{R}), \\underset{\\sim}{Σ\_ω}, Γ)$ where $Γ$ is the class of strongly proper projective posets.
 
 This section from{% cite BagariaBosch2004 %}{% cite Bagaria2002 %}
 
