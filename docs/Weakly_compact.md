@@ -12,7 +12,7 @@ A cardinal $\\kappa$ is weakly compact if and only if it is [uncountable](Uncoun
 
 : **Extension property**
 
-A cardinal $\\kappa$ is weakly compact if and only if for every $A\\subset V\_\\kappa$, there is a transitive structure $W$ properly extending $V\_\\kappa$ and $A^*\\subset W$ such that $\\langle V\_\\kappa,{\\in},A\\rangle\\prec\\langle W,{\\in},A^*\\rangle$.
+A cardinal $\\kappa$ is weakly compact if and only if for every $A\\subset V\_\\kappa$, there is a transitive structure $W$ properly extending $V\_\\kappa$ and $A^\*\\subset W$ such that $\\langle V\_\\kappa,{\\in},A\\rangle\\prec\\langle W,{\\in},A^\*\\rangle$.
 
 : **Tree property**
 
