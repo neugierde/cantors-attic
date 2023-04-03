@@ -4,8 +4,8 @@ permalink: Projective
 ---
 
 This article covers:
--    regularity properties: Lebesgue measurability, perfect set property, Baire property, universally Baire sets, Suslin sets, (weakly) homogeneously Suslin sets
--    projective sets (lightface and boldface), projective determinacy, $\\text{AD}^+$
+-   regularity properties: Lebesgue measurability, perfect set property, Baire property, universally Baire sets, Suslin sets, (weakly) homogeneously Suslin sets
+-   projective sets (lightface and boldface), projective determinacy, $\\text{AD}^+$
 
 *Most results in this article can be found in {% cite Jech2003 %} and {% cite Kanamori2009 %}, or {% cite Woodin2010 %} unless indicated otherwise.*
 
@@ -35,14 +35,14 @@ Given an arbitrary pointclass $\\Gamma$, define $\\neg\\Gamma$ as the set of the
 Every $\\mathbf{\\Sigma}^1\_n$ set is $\\Sigma^1\_n(a)$ for some $a\\in\\omega^\\omega$, in fact $\\mathbf{\\Sigma}^1\_n=\\bigcup\_{a\\in\\omega^\\omega}\\Sigma^1\_n(a)$. A similar statement holds for $\\mathbf{\\Pi}^1\_n$ sets and $\\mathbf{\\Delta}^1\_n$ sets. This means the boldface projective sets are precisely the set definable using only real and arithmetical quantifiers and real parameters.
 
 The following statements also holds when replacing relativized lightface pointclasses by their boldface counterparts:
--    If $A$ and $B$ are $\\Sigma^1\_n(a)$ relations, then so are $\\exists x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$, $\\exists n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
--    If $A$ and $B$ are $\\Pi^1\_n(a)$ relations, then so are $\\forall x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$, $\\exists n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
--    If $A$ is a $\\Sigma^1\_n(a)$ relation then $\\neg A$ is a $\\Pi^1\_n(a)$ relation. If $A$ is $\\Pi^1\_n(a)$ then $\\neg A$ is $\\Sigma^1\_n(a)$.
--    If $A$ is a $\\Sigma^1\_n(a)$ relation and $B$ is a $\\Pi^1\_n(a)$ relation, then $A\\Rightarrow B$ is a $\\Pi^1\_n(a)$ relation.
--    If $A$ is a $\\Pi^1\_n(a)$ relation and $B$ is a $\\Sigma^1\_n(a)$ relation, then $A\\Rightarrow B$ is a $\\Sigma^1\_n(a)$ relation.
--    If $A$ and $B$ are $\\Delta^1\_n(a)$, then so are $\\neg A$, $A\\land B$, $A\\lor B$, $A\\Rightarrow B$, $A\\Leftrightarrow B$, $\\exists n\\in\\omega$ $A$, $\\forall n\\in\\omega$ $A$.
--    $\\Delta^1\_n(a)\\subsetneq\\Sigma^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
--    $\\Delta^1\_n(a)\\subsetneq\\Pi^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
+-   If $A$ and $B$ are $\\Sigma^1\_n(a)$ relations, then so are $\\exists x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$, $\\exists n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
+-   If $A$ and $B$ are $\\Pi^1\_n(a)$ relations, then so are $\\forall x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$, $\\exists n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
+-   If $A$ is a $\\Sigma^1\_n(a)$ relation then $\\neg A$ is a $\\Pi^1\_n(a)$ relation. If $A$ is $\\Pi^1\_n(a)$ then $\\neg A$ is $\\Sigma^1\_n(a)$.
+-   If $A$ is a $\\Sigma^1\_n(a)$ relation and $B$ is a $\\Pi^1\_n(a)$ relation, then $A\\Rightarrow B$ is a $\\Pi^1\_n(a)$ relation.
+-   If $A$ is a $\\Pi^1\_n(a)$ relation and $B$ is a $\\Sigma^1\_n(a)$ relation, then $A\\Rightarrow B$ is a $\\Sigma^1\_n(a)$ relation.
+-   If $A$ and $B$ are $\\Delta^1\_n(a)$, then so are $\\neg A$, $A\\land B$, $A\\lor B$, $A\\Rightarrow B$, $A\\Leftrightarrow B$, $\\exists n\\in\\omega$ $A$, $\\forall n\\in\\omega$ $A$.
+-   $\\Delta^1\_n(a)\\subsetneq\\Sigma^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
+-   $\\Delta^1\_n(a)\\subsetneq\\Pi^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
 
 Sierpinski showed that every $\\mathbf{\\Sigma}^1\_2$ set of reals is the union of $\\aleph\_1$ Borel (=$\\mathbf{\\Delta}^1\_1$) sets. It follows that every $\\mathbf{\\Sigma}^1\_2$ set of reals is either (at most) countable or has the cardinality of the continuum.
 
@@ -56,9 +56,10 @@ If [$0^\\#$](Zero_sharp "Zero sharp") exists then it is a $\\Sigma^1\_3$ real an
 Let $A\\subseteq(\\omega^\\omega)^k$ be a k-dimensional set of reals. We say that $A$ is *null* if it has <a href="https://en.wikipedia.org/wiki/outer measure#Method I" class="extiw" title="wikipedia:outer measure#Method I">outer measure</a> 0. We say that $A$ is *nowhere dense* if its complement contains an open dense set, and that $A$ is *meagre* (or *of first category*) if it is a countable union of nowhere dense set. Finally we say that $A$ is *perfect* if it has no isolated point.
 
 Then, we define the following *regularity properties*:
--    $A$ is *Lebesgue measurable* if there exists a Borel set $B$ such that $A\\Delta B$ is null.
--    $A$ has the *Baire property* if there exists an open set $B$ such that $A\\Delta B$ is meagre.
--    $A$ has the *perfect set property* if it is either countable or has a perfect subset.
+-   $A$ is *Lebesgue measurable* if there exists a Borel set $B$ such that $A\\Delta B$ is null.
+-   $A$ has the *Baire property* if there exists an open set $B$ such that $A\\Delta B$ is meagre.
+-   $A$ has the *perfect set property* if it is either countable or has a perfect subset.
+
 Where $A\\Delta B=(A\\setminus B)\\cup(B\\setminus A)$ denotes symmetric difference. In $\\text{ZFC}$ there exists Lebesgue non-measurable sets without the Baire property nor the perfect set property, but it is interesting to see which projective sets have those regularity properties.
 
 In $L$ there is a $\\Delta^1\_2$ set of reals that is not Lebesgue measurable and has no perfect subset. Also there is a $\\Pi^1\_1$ set of reals without the perfect set property.
@@ -68,10 +69,10 @@ If every $\\Sigma^1\_3$ set of reals is Lebesgue measurable then $\\aleph\_1$ is
 If $A$ is a $\\Sigma^1\_2(a)$ set of reals and contains a real that is not in $L[a]$ then $A$ has the perfect set property. Note that every uncountable set with the perfect set property has the cardinality of the continuum.
 
 The following statements are equivalent:
--    For every real $a$, $\\aleph\_1^{L[a]}$ is countable.
--    For every real $a$, $\\aleph\_1^V$ is inaccessible in $L[a]$.
--    Every $\\mathbf{\\Pi}^1\_1$ set has the perfect set property.
--    Every $\\mathbf{\\Sigma}^1\_2$ set has the perfect set property.
+-   For every real $a$, $\\aleph\_1^{L[a]}$ is countable.
+-   For every real $a$, $\\aleph\_1^V$ is inaccessible in $L[a]$.
+-   Every $\\mathbf{\\Pi}^1\_1$ set has the perfect set property.
+-   Every $\\mathbf{\\Sigma}^1\_2$ set has the perfect set property.
 
 If $E$ is a $\\mathbf{\\Pi}^1\_1$ equivalence relation on $\\omega^\\omega$ then either $E$ has at most $\\aleph\_0$ equivalence classes or there exists a perfect set of mutually inequivalent reals. If $E$ is a $\\mathbf{\\Sigma}^1\_1$ equivalence relation on $\\omega^\\omega$ then either $E$ has at most $\\aleph\_1$ equivalence classes or there exists a perfect set of mutually inequivalent reals.
 
@@ -164,10 +165,11 @@ A set of reals $A$ is *$\\delta$-weakly homogeneously Suslin* if it is the proje
 A set of reals is $\\delta$-weakly homogeneously Suslin iff it is the image of a $\\delta$-homogeneously Suslin set of reals by a continuous function $f:\\mathbb{R}\\to\\mathbb{R}$.
 
 A set $A\\subseteq\\mathbb{R}$ is **universally Baire** if one of the following equivalent charactezations holds:
--    It is $\\delta$*-universally Baire* for some $\\delta$, meaning that for all [forcing notions](Forcing "Forcing") $\\mathbb{P}$ with $|\\mathbb{P}|=\\delta$ there are trees $S$ and $T$ on $\\omega\\times\\kappa$ for some $\\kappa$ such that $A=p[T]$ and for all $V$-generic $G\\subseteq\\mathbb{P}$, in $V[G]$ one has $p[T]=\\mathbb{R}^{V[G]}\\setminus p[S]$.
--    For every compact Hausdorff space $\\Omega$ and continuous function $\\pi:\\Omega\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
--    For every topological space $X$ and continuous function $\\pi:X\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
--    For every infinite cardinal $\\lambda$ and continuous function $\\pi:\\lambda^\\omega\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
+-   It is $\\delta$*-universally Baire* for some $\\delta$, meaning that for all [forcing notions](Forcing "Forcing") $\\mathbb{P}$ with $|\\mathbb{P}|=\\delta$ there are trees $S$ and $T$ on $\\omega\\times\\kappa$ for some $\\kappa$ such that $A=p[T]$ and for all $V$-generic $G\\subseteq\\mathbb{P}$, in $V[G]$ one has $p[T]=\\mathbb{R}^{V[G]}\\setminus p[S]$.
+-   For every compact Hausdorff space $\\Omega$ and continuous function $\\pi:\\Omega\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
+-   For every topological space $X$ and continuous function $\\pi:X\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
+-   For every infinite cardinal $\\lambda$ and continuous function $\\pi:\\lambda^\\omega\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
+
 where $\\pi^{\\text{-1}}[A]=\\{x\\in\\lambda^\\omega:\\pi(x)\\in A\\}$. We use $\\Gamma^\\infty$ to denote the collection of all universally Baire set of reals.
 
 Every $\\mathbf{\\Sigma}^1\_1$ set of reals is universally Baire. Every set has a [sharp](Zero_sharp "Zero sharp") if and only if every $\\mathbf{\\Sigma}^1\_2$ set of reals is universally Baire.
@@ -184,9 +186,9 @@ Every $\\mathbf{\\Sigma}^1\_2$ sentence is generically absolute. Every $\\mathbf
 A set of reals is ${}^\\infty$borel iff there is a class of ordinals $S$, an ordinal $\\alpha$ and a formula $\\varphi(x\_0,x\_1)$ such that $A=\\{y\\in\\mathbb{R}:L\_\\alpha[S,y]\\models\\varphi[S,y]\\}$. Under $\\text{AD+DC}$ this is equivalent to the existence of a class of ordinals $S$ such that $A\\in L(S,\\mathbb{R})$.
 
 The axiom $\\text{AD}^+$ is the conjunction of the following statements:
--    Every $A\\subseteq\\mathbb{R}$ is ${}^\\infty$borel.
--    $\\text{DC}\_\\mathbb{R}$, dependent choice for sets of reals.
--    *Ordinal determinacy*:  if $\\lambda<\\Theta$ and $\\pi:\\lambda^\\omega\\to\\omega^\\omega$ is a continuous function then for every $A\\subseteq\\mathbb{R}$ the preimage $\\pi^{\\text{-1}}[A]$ is determined.
+-   Every $A\\subseteq\\mathbb{R}$ is ${}^\\infty$borel.
+-   $\\text{DC}\_\\mathbb{R}$, dependent choice for sets of reals.
+-   *Ordinal determinacy*:  if $\\lambda<\\Theta$ and $\\pi:\\lambda^\\omega\\to\\omega^\\omega$ is a continuous function then for every $A\\subseteq\\mathbb{R}$ the preimage $\\pi^{\\text{-1}}[A]$ is determined.
 This axiom is a consequence of $\\text{AD}\_\\mathbb{R}+\\text{DC}\_\\mathbb{R}$ and is *downward absolute*: if $M$ is a transitive inner model of $\\text{ZF}$ such that $\\mathbb{R}\\subseteq M$ then $V\\models\\text{AD}^+$ implies $M\\models\\text{AD}^+$.
 
 The *$\\Sigma^2\_1$-basis theorem* is the following result: assuming $\\text{AD}^+$ and $V=L(\\mathcal{P}(\\mathbb{R}))$, the pointclass $\\Sigma^2\_1$ has the scale property, every $\\Sigma^2\_1$ set of reals is the projection of some tree that is in $\\text{HOD}$ and for all $x\\in\\mathbb{R}$, one has $M\_{\\Delta^2\_1(x)}\\prec\_{\\Sigma\_1}L(\\mathcal{P}(\\mathbb{R}))$ (?).
