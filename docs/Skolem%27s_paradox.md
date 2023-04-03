@@ -3,7 +3,7 @@ title: Skolem%27s_paradox
 permalink: Skolem%27s_paradox
 ---
 
-''Skolem's paradox* is an apparent contradiction that arises from the Lowenheim-Skolem theorem. We can consider a first-order theory containing axioms that appear to not be satisfiable by a countable model, such as [union](ZFC#Union "ZFC#Union") along with "an uncountable set exists". But if there's an uncountable set that satisfies this, then applying the Lowenheim-Skolem theorem downwards, there must be a countable model $M$ of this theory too.
+*Skolem's paradox* is an apparent contradiction that arises from the Lowenheim-Skolem theorem. We can consider a first-order theory containing axioms that appear to not be satisfiable by a countable model, such as [union](ZFC#Union "ZFC#Union") along with "an uncountable set exists". But if there's an uncountable set that satisfies this, then applying the Lowenheim-Skolem theorem downwards, there must be a countable model $M$ of this theory too.
 
 The resolution of this confusion is that there are members $x$ of $M$ which are *locally uncountable*: that is, $M\\vDash``x\\textrm{ is uncountable}"$. Since $M$ is in reality countable and transitive, $x$ must be countable, but $M$ thinks that $x$ is uncountable.
 ## Examples
