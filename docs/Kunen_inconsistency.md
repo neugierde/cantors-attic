@@ -10,15 +10,15 @@ Since that time, the inconsistency argument has been generalized by various auth
 Hamkins, Kirmayer and Perlmutter {% cite HamkinsKirmayerPerlmutter %}, Woodin {% cite Kanamori2009 %}(p. 320-321),
 Zapletal {% cite Zapletal1996 %} and Suzuki {% cite Suzuki1998:NojVtoVinVofG %}, {% cite Suzuki1999:NoDefinablejVtoVinZF %}.
 
--    There is no nontrivial elementary embedding $j:V\\to V$ from the set-theoretic universe to itself.
--    There is no nontrivial elementary embedding $j:V[G]\\to V$ of a set-forcing extension of the universe to the universe, and neither is there  $j:V\\to V[G]$ in the converse direction.
--    More generally, there is no nontrivial elementary embedding between two ground models of the universe.
--    More generally still, there is no nontrivial elementary embedding $j:M\\to N$ when both $M$ and $N$ are eventually stationary correct.
--    There is no nontrivial elementary embedding $j:V\\to \\text{HOD}$, and neither is there $j:V\\to M$ for a variety of other definable classes, including $\\text{gHOD}$ and the $\\text{HOD}^\\eta$, $\\text{gHOD}^\\eta$.
--    If $j:V\\to M$ is elementary, then $V=\\text{HOD}(M)$.
--    There is no nontrivial elementary embedding $j:\\text{HOD}\\to V$.
--    More generally, for any definable class $M$, there is no nontrivial elementary embedding $j:M\\to V$.
--    There is no nontrivial elementary embedding $j:\\text{HOD}\\to\\text{HOD}$ that is definable in $V$ from parameters.
+-   There is no nontrivial elementary embedding $j:V\\to V$ from the set-theoretic universe to itself.
+-   There is no nontrivial elementary embedding $j:V[G]\\to V$ of a set-forcing extension of the universe to the universe, and neither is there  $j:V\\to V[G]$ in the converse direction.
+-   More generally, there is no nontrivial elementary embedding between two ground models of the universe.
+-   More generally still, there is no nontrivial elementary embedding $j:M\\to N$ when both $M$ and $N$ are eventually stationary correct.
+-   There is no nontrivial elementary embedding $j:V\\to \\text{HOD}$, and neither is there $j:V\\to M$ for a variety of other definable classes, including $\\text{gHOD}$ and the $\\text{HOD}^\\eta$, $\\text{gHOD}^\\eta$.
+-   If $j:V\\to M$ is elementary, then $V=\\text{HOD}(M)$.
+-   There is no nontrivial elementary embedding $j:\\text{HOD}\\to V$.
+-   More generally, for any definable class $M$, there is no nontrivial elementary embedding $j:M\\to V$.
+-   There is no nontrivial elementary embedding $j:\\text{HOD}\\to\\text{HOD}$ that is definable in $V$ from parameters.
 
 It is not currently known whether the Kunen inconsistency may be undertaken in ZF. Nor is it known whether one may rule out nontrivial embeddings $j:\\text{HOD}\\to\\text{HOD}$ even in $\\text{ZFC}$.
 
