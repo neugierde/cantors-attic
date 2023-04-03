@@ -34,7 +34,7 @@ The *cofinality* of an infinite cardinal $\\kappa$, denoted $\\text{cof}(\\kappa
 
 ## Cardinals in ZF
 
-::See [ general cardinal](Cardinal_general_ "Cardinal general ") for an account of the cardinality concept arising without the axiom of choice.
+:   See [general cardinal](Cardinal_general "Cardinal general") for an account of the cardinality concept arising without the axiom of choice.
 
 When the axiom of choice is not available, the concept of cardinality is somewhat more subtle, and there is in general no fully satisfactory solution of the cardinal assignment problem. Rather, in ZF one works directly with the equinumerosity relation.
 

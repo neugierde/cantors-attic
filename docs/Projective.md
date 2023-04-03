@@ -4,14 +4,14 @@ permalink: Projective
 ---
 
 This article covers:
--    regularity properties: Lebesgue measurability, perfect set property, Baire property, universally Baire sets, Suslin sets, (weakly) homogeneously Suslin sets
--    projective sets (lightface and boldface), projective determinacy, $\\text{AD}^+$
+-   regularity properties: Lebesgue measurability, perfect set property, Baire property, universally Baire sets, Suslin sets, (weakly) homogeneously Suslin sets
+-   projective sets (lightface and boldface), projective determinacy, $\\text{AD}^+$
 
-''Most results in this article can be found in {% cite Jech2003 %} and {% cite Kanamori2009 %}, or {% cite Woodin2010 %} unless indicated otherwise.*
+*Most results in this article can be found in {% cite Jech2003 %} and {% cite Kanamori2009 %}, or {% cite Woodin2010 %} unless indicated otherwise.*
 
 ## Projective sets
 
-We say that $\\Gamma$ is a *pointclass* if it is a collection of subsets of a <a href="https://en.wikipedia.org/wiki/Polish space" class="extiw" title="wikipedia:Polish space">>Polish space</a>.
+We say that $\\Gamma$ is a *pointclass* if it is a collection of subsets of a <a href="https://en.wikipedia.org/wiki/Polish space" class="extiw" title="wikipedia:Polish space">Polish space</a>.
 The **lightface and boldface projective hierarchies** are hierarchies of pointclasses of some Polish space $X$ defined by repeated applications of projections and complementations from either recursively enumerable or closed sets respectively.
 
 The following definitions are made by taking $X=\\omega^\\omega$, the *Baire space*, i.e. the set of all functions $f:\\mathbb{N}\\to\\mathbb{N}$. We will identify its members with the corresponding real numbers under some fixed bijection between $\\mathbb{R}$ and $\\omega^\\omega$. The definitions presented here can be easily extended to other Polish spaces than the Baire space.
@@ -19,14 +19,14 @@ The following definitions are made by taking $X=\\omega^\\omega$, the *Baire spa
 Let $\\mathbf{\\Sigma}^0\_1$ be the pointclass that contains all open subsets of the Polish space $\\omega^\\omega$. Let $\\mathbf{\\Pi}^0\_1$ be the pointclass containing the complements of the $\\mathbf{\\Sigma}^0\_1$ sets.
 
 We define the **boldface projective pointclasses** $\\mathbf{\\Sigma}^1\_n$, $\\mathbf{\\Pi}^1\_n$ and $\\mathbf{\\Delta}^1\_n$ the following way:
-# $\\mathbf{\\Sigma}^1\_1$ contains all the images of $\\mathbf{\\Pi}^0\_1$ sets by continuous functions; its members are called the *analytic sets*.
-# Now, for all $n$, define $\\mathbf{\\Pi}^1\_n$ to be the set of the complements of the $\\mathbf{\\Sigma}^1\_n$ sets; the members of $\\mathbf{\\Pi}^1\_1$ are called the *coanalytic sets*.
-# For all $n$, define $\\mathbf{\\Sigma}^1\_{n+1}$ to be the set of the images of $\\mathbf{\\Pi}^1\_n$ sets by continuous functions.
-# Finally, let $\\mathbf{\\Delta}^1\_n=\\mathbf{\\Sigma}^1\_n\\cap\\mathbf{\\Pi}^1\_n$. The members of $\\mathbf{\\Delta}^1\_1$ are the *Borel* sets.
+1.  $\\mathbf{\\Sigma}^1\_1$ contains all the images of $\\mathbf{\\Pi}^0\_1$ sets by continuous functions; its members are called the *analytic sets*.
+2.  Now, for all $n$, define $\\mathbf{\\Pi}^1\_n$ to be the set of the complements of the $\\mathbf{\\Sigma}^1\_n$ sets; the members of $\\mathbf{\\Pi}^1\_1$ are called the *coanalytic sets*.
+3.  For all $n$, define $\\mathbf{\\Sigma}^1\_{n+1}$ to be the set of the images of $\\mathbf{\\Pi}^1\_n$ sets by continuous functions.
+4.  Finally, let $\\mathbf{\\Delta}^1\_n=\\mathbf{\\Sigma}^1\_n\\cap\\mathbf{\\Pi}^1\_n$. The members of $\\mathbf{\\Delta}^1\_1$ are the *Borel* sets.
 
 The **relativized lightface projective pointclasses** $\\Sigma^1\_n(a)$, $\\Pi^1\_n(a)$ and $\\Delta^1\_n(a)$ (for $a\\in\\omega^\\omega$) are defined similarly except that $\\Sigma^1\_1(a)$ is defined as the set of all $A\\subseteq\\omega^\\omega$ such that $A=\\{x\\in\\omega^\\omega:\\exists y\\in\\omega^\\omega$ $\\exists n\\in\\omega$ $R(x\\restriction n,y\\restriction n,a\\restriction n)\\}$, that is, $A$ is recursively definable by a formula with only existential quantifiers ranging on members of $\\omega^\\omega$ or on $\\omega$ and whose only parameter is $a$.
 
-The (non-relativized) **lightface projective classes**, also known as *analytical pointclasses*, are the special cases $\\Sigma^1\_n$, $\\Pi^1\_n$ and $\\Delta^1\_n$ of relativized lightface projective pointclasses where $a=\\empty$. Let $\\Sigma^0\_1$ be the pointclass of all *recursively enumerable* sets, i.e. the sets $A$ such there exists a recursive relation $R$ such that $A=\\{x\\in\\omega^\\omega:\\exists n\\in\\omega$ $R(x\\restriction n)\\}$, and $\\Pi^0\_1$ contain the completements of $\\Sigma^0\_1$ sets. Then the $\\Sigma^1\_1$ sets are precisely the projections of $\\Pi^0\_1$ sets.
+The (non-relativized) **lightface projective classes**, also known as *analytical pointclasses*, are the special cases $\\Sigma^1\_n$, $\\Pi^1\_n$ and $\\Delta^1\_n$ of relativized lightface projective pointclasses where $a=\\emptyset$. Let $\\Sigma^0\_1$ be the pointclass of all *recursively enumerable* sets, i.e. the sets $A$ such there exists a recursive relation $R$ such that $A=\\{x\\in\\omega^\\omega:\\exists n\\in\\omega$ $R(x\\restriction n)\\}$, and $\\Pi^0\_1$ contain the completements of $\\Sigma^0\_1$ sets. Then the $\\Sigma^1\_1$ sets are precisely the projections of $\\Pi^0\_1$ sets.
 
 Given an arbitrary pointclass $\\Gamma$, define $\\neg\\Gamma$ as the set of the complements of $\\Gamma$'s elements, for example $\\Pi^1\_n(a)=\\neg\\Sigma^1\_n(a)$. Also let $\\Delta\_\\Gamma=\\Gamma\\cap\\neg\\Gamma$, for example $\\Delta^1\_n(a)=\\Delta\_{\\Pi^1\_n(a)}=\\Delta\_{\\Sigma^1\_n(a)}$.
 
@@ -35,30 +35,31 @@ Given an arbitrary pointclass $\\Gamma$, define $\\neg\\Gamma$ as the set of the
 Every $\\mathbf{\\Sigma}^1\_n$ set is $\\Sigma^1\_n(a)$ for some $a\\in\\omega^\\omega$, in fact $\\mathbf{\\Sigma}^1\_n=\\bigcup\_{a\\in\\omega^\\omega}\\Sigma^1\_n(a)$. A similar statement holds for $\\mathbf{\\Pi}^1\_n$ sets and $\\mathbf{\\Delta}^1\_n$ sets. This means the boldface projective sets are precisely the set definable using only real and arithmetical quantifiers and real parameters.
 
 The following statements also holds when replacing relativized lightface pointclasses by their boldface counterparts:
--    If $A$ and $B$ are $\\Sigma^1\_n(a)$ relations, then so are $\\exists x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$, $\\exists n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
--    If $A$ and $B$ are $\\Pi^1\_n(a)$ relations, then so are $\\forall x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$, $\\exists n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
--    If $A$ is a $\\Sigma^1\_n(a)$ relation then $\\neg A$ is a $\\Pi^1\_n(a)$ relation. If $A$ is $\\Pi^1\_n(a)$ then $\\neg A$ is $\\Sigma^1\_n(a)$.
--    If $A$ is a $\\Sigma^1\_n(a)$ relation and $B$ is a $\\Pi^1\_n(a)$ relation, then $A\\Rightarrow B$ is a $\\Pi^1\_n(a)$ relation.
--    If $A$ is a $\\Pi^1\_n(a)$ relation and $B$ is a $\\Sigma^1\_n(a)$ relation, then $A\\Rightarrow B$ is a $\\Sigma^1\_n(a)$ relation.
--    If $A$ and $B$ are $\\Delta^1\_n(a)$, then so are $\\neg A$, $A\\land B$, $A\\lor B$, $A\\Rightarrow B$, $A\\Leftrightarrow B$, $\\exists n\\in\\omega$ $A$, $\\forall n\\in\\omega$ $A$.
--    $\\Delta^1\_n(a)\\subsetneq\\Sigma^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
--    $\\Delta^1\_n(a)\\subsetneq\\Pi^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
+-   If $A$ and $B$ are $\\Sigma^1\_n(a)$ relations, then so are $\\exists x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$, $\\exists n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
+-   If $A$ and $B$ are $\\Pi^1\_n(a)$ relations, then so are $\\forall x\\in\\omega^\\omega$ $A$, $A\\land B$, $A\\lor B$, $\\exists n\\in\\omega$ $A$ and $\\forall n\\in\\omega$ $A$.
+-   If $A$ is a $\\Sigma^1\_n(a)$ relation then $\\neg A$ is a $\\Pi^1\_n(a)$ relation. If $A$ is $\\Pi^1\_n(a)$ then $\\neg A$ is $\\Sigma^1\_n(a)$.
+-   If $A$ is a $\\Sigma^1\_n(a)$ relation and $B$ is a $\\Pi^1\_n(a)$ relation, then $A\\Rightarrow B$ is a $\\Pi^1\_n(a)$ relation.
+-   If $A$ is a $\\Pi^1\_n(a)$ relation and $B$ is a $\\Sigma^1\_n(a)$ relation, then $A\\Rightarrow B$ is a $\\Sigma^1\_n(a)$ relation.
+-   If $A$ and $B$ are $\\Delta^1\_n(a)$, then so are $\\neg A$, $A\\land B$, $A\\lor B$, $A\\Rightarrow B$, $A\\Leftrightarrow B$, $\\exists n\\in\\omega$ $A$, $\\forall n\\in\\omega$ $A$.
+-   $\\Delta^1\_n(a)\\subsetneq\\Sigma^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
+-   $\\Delta^1\_n(a)\\subsetneq\\Pi^1\_n(a)\\subsetneq\\Delta^1\_{n+1}(a)$
 
 Sierpinski showed that every $\\mathbf{\\Sigma}^1\_2$ set of reals is the union of $\\aleph\_1$ Borel (=$\\mathbf{\\Delta}^1\_1$) sets. It follows that every $\\mathbf{\\Sigma}^1\_2$ set of reals is either (at most) countable or has the cardinality of the continuum.
 
-''Shoenfield’s absoluteness theorem* is the statement that every $\\Sigma^1\_2(a)$ or $\\Pi^1\_2(a)$ relation is absolute for every inner model of $\\text{ZF+DC}$ that contains $a$ (as an element). It follows that $\\mathbf{\\Sigma}^1\_2$ and $\\mathbf{\\Pi}^1\_2$ relations are absolute for $L$, and also that every $\\Sigma^1\_2(a)$ real (by taking $X=\\omega$) is in $L[a]$, in particular every $\\Sigma^1\_2$ (or $\\Pi^1\_2$) real is constructible.
+*Shoenfield’s absoluteness theorem* is the statement that every $\\Sigma^1\_2(a)$ or $\\Pi^1\_2(a)$ relation is absolute for every inner model of $\\text{ZF+DC}$ that contains $a$ (as an element). It follows that $\\mathbf{\\Sigma}^1\_2$ and $\\mathbf{\\Pi}^1\_2$ relations are absolute for $L$, and also that every $\\Sigma^1\_2(a)$ real (by taking $X=\\omega$) is in $L[a]$, in particular every $\\Sigma^1\_2$ (or $\\Pi^1\_2$) real is constructible.
 The set of all constructible reals is $\\Sigma^1\_2$, and so is the canonical well-ordering $<\_L$ of $L$. For $U$ a nonprincipal $\\kappa$-complete [ultrafilter](Ultrafilter "Ultrafilter") on some [measurable](Measurable "Measurable") cardinal $\\kappa$, then the collection of all sets of reals in $L[U]$ is $\\Sigma^1\_3$, and so is the canonical well-ordering $<\_{L[U]}$ of $L[U]$.
 
 If [$0^\\#$](Zero_sharp "Zero sharp") exists then it is a $\\Sigma^1\_3$ real and the singleton $\\{0^\\#\\}$ is a $\\Pi^1\_2$ set of reals. If for every real $a\\in\\omega^\\omega$, the sharp $a^\\#$ exists then every $\\Sigma^1\_3$ set of reals is the union of $\\aleph\_2$ Borel sets.
 
 ## Regularity properties
 
-Let $A\\subseteq(\\omega^\\omega)^k$ be a k-dimensional set of reals. We say that $A$ is *null* if it has <a href="https://en.wikipedia.org/wiki/outer measure#Method I" class="extiw" title="wikipedia:outer measure#Method I">>outer measure</a> 0. We say that $A$ is *nowhere dense* if its complement contains an open dense set, and that $A$ is *meagre* (or *of first category'') if it is a countable union of nowhere dense set. Finally we say that $A$ is *perfect* if it has no isolated point.
+Let $A\\subseteq(\\omega^\\omega)^k$ be a k-dimensional set of reals. We say that $A$ is *null* if it has <a href="https://en.wikipedia.org/wiki/outer measure#Method I" class="extiw" title="wikipedia:outer measure#Method I">outer measure</a> 0. We say that $A$ is *nowhere dense* if its complement contains an open dense set, and that $A$ is *meagre* (or *of first category*) if it is a countable union of nowhere dense set. Finally we say that $A$ is *perfect* if it has no isolated point.
 
 Then, we define the following *regularity properties*:
--    $A$ is *Lebesgue measurable* if there exists a Borel set $B$ such that $A\\Delta B$ is null.
--    $A$ has the *Baire property* if there exists an open set $B$ such that $A\\Delta B$ is meagre.
--    $A$ has the *perfect set property* if it is either countable or has a perfect subset.
+-   $A$ is *Lebesgue measurable* if there exists a Borel set $B$ such that $A\\Delta B$ is null.
+-   $A$ has the *Baire property* if there exists an open set $B$ such that $A\\Delta B$ is meagre.
+-   $A$ has the *perfect set property* if it is either countable or has a perfect subset.
+
 Where $A\\Delta B=(A\\setminus B)\\cup(B\\setminus A)$ denotes symmetric difference. In $\\text{ZFC}$ there exists Lebesgue non-measurable sets without the Baire property nor the perfect set property, but it is interesting to see which projective sets have those regularity properties.
 
 In $L$ there is a $\\Delta^1\_2$ set of reals that is not Lebesgue measurable and has no perfect subset. Also there is a $\\Pi^1\_1$ set of reals without the perfect set property.
@@ -68,18 +69,18 @@ If every $\\Sigma^1\_3$ set of reals is Lebesgue measurable then $\\aleph\_1$ is
 If $A$ is a $\\Sigma^1\_2(a)$ set of reals and contains a real that is not in $L[a]$ then $A$ has the perfect set property. Note that every uncountable set with the perfect set property has the cardinality of the continuum.
 
 The following statements are equivalent:
--    For every real $a$, $\\aleph\_1^{L[a]}$ is countable.
--    For every real $a$, $\\aleph\_1^V$ is inaccessible in $L[a]$.
--    Every $\\mathbf{\\Pi}^1\_1$ set has the perfect set property.
--    Every $\\mathbf{\\Sigma}^1\_2$ set has the perfect set property.
+-   For every real $a$, $\\aleph\_1^{L[a]}$ is countable.
+-   For every real $a$, $\\aleph\_1^V$ is inaccessible in $L[a]$.
+-   Every $\\mathbf{\\Pi}^1\_1$ set has the perfect set property.
+-   Every $\\mathbf{\\Sigma}^1\_2$ set has the perfect set property.
 
 If $E$ is a $\\mathbf{\\Pi}^1\_1$ equivalence relation on $\\omega^\\omega$ then either $E$ has at most $\\aleph\_0$ equivalence classes or there exists a perfect set of mutually inequivalent reals. If $E$ is a $\\mathbf{\\Sigma}^1\_1$ equivalence relation on $\\omega^\\omega$ then either $E$ has at most $\\aleph\_1$ equivalence classes or there exists a perfect set of mutually inequivalent reals.
 
 ### Reduction and separation properties
 
-For any four sets $A$, $B$, $A'$ and $B'$, $(A',B')$ *reduces* $(A,B)$ if $A'\\subseteq A$, $B'\\subseteq B$, $A'\\cup B'=A\\cup B$, but $A'\\cap B'=\\empty$. Thus $A'$ and $B'$ partition $A\\cup B$. A pointclass $\\Gamma$ has the *reduction property* if for every $A$, $B$ in $\\Gamma$ there exists $A'$, $B'$ in $\\Gamma$ such that $(A',B')$ reduces $(A,B)$. $\\Pi^1\_1(a)$ has the reduction property for every $a\\in\\omega^\\omega$.
+For any four sets $A$, $B$, $A'$ and $B'$, $(A',B')$ *reduces* $(A,B)$ if $A'\\subseteq A$, $B'\\subseteq B$, $A'\\cup B'=A\\cup B$, but $A'\\cap B'=\\emptyset$. Thus $A'$ and $B'$ partition $A\\cup B$. A pointclass $\\Gamma$ has the *reduction property* if for every $A$, $B$ in $\\Gamma$ there exists $A'$, $B'$ in $\\Gamma$ such that $(A',B')$ reduces $(A,B)$. $\\Pi^1\_1(a)$ has the reduction property for every $a\\in\\omega^\\omega$.
 
-A pointclass $\\Gamma$ has the *separation property* if for any disjoint subsets $A$, $B$ of $(\\omega^\\omega)^k$ for some $k$, if $A$ and $B$ are in $\\Gamma$ then there is a $C$ in $\\Delta\_\\Gamma$ such that $A\\subseteq C$ and $B\\cap C=\\empty$. $\\Sigma^1\_1(a)$ has the separation property for every $a\\in\\omega^\\omega$.
+A pointclass $\\Gamma$ has the *separation property* if for any disjoint subsets $A$, $B$ of $(\\omega^\\omega)^k$ for some $k$, if $A$ and $B$ are in $\\Gamma$ then there is a $C$ in $\\Delta\_\\Gamma$ such that $A\\subseteq C$ and $B\\cap C=\\emptyset$. $\\Sigma^1\_1(a)$ has the separation property for every $a\\in\\omega^\\omega$.
 
 If $\\Gamma$ has the reduction property, then $\\neg\\Gamma$ has the separation property but not the reduction property. It is impossible for $\\Gamma$ to have both the reduction and the separation properties.
 
@@ -97,15 +98,15 @@ A set $A\\subseteq\\omega^\\omega\\times\\omega^\\omega$ is *uniformized* by a f
 
 ## Projective determinacy
 
-''See also: [axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy")''
+*See also: [axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy")*
 
-''Determinacy* is a kind of regularity property. For every set of reals $A$, the game $G\_A$ is the infinite game of perfect information of length $\\omega$ where both players constructs a sequence (i.e. a real) by playing elements of $\\omega$, one after the other, such that the first player's goal is to have the constructed real be in $A$, and the second player's goal is to have the constructed real be in $A$'s complement. $A$ is *determined* if the game $G\_A$ is determined, i.e. one of the two players have a winning strategy for $G\_A$.
+*Determinacy* is a kind of regularity property. For every set of reals $A$, the game $G\_A$ is the infinite game of perfect information of length $\\omega$ where both players constructs a sequence (i.e. a real) by playing elements of $\\omega$, one after the other, such that the first player's goal is to have the constructed real be in $A$, and the second player's goal is to have the constructed real be in $A$'s complement. $A$ is *determined* if the game $G\_A$ is determined, i.e. one of the two players have a winning strategy for $G\_A$.
 
 Given a pointclass $\\Gamma$, *$\\Gamma$-determinacy* is the statement "every $A\\in\\Gamma$ is determined". $\\Gamma$-determinacy and $\\neg\\Gamma$-determinacy are always equivalent. $\\omega^\\omega$-determinacy is the *axiom of determinacy* and is implied false by the [axiom of choice](Axiom_of_choice "Axiom of choice"). The **axiom of projective determinacy** ($\\text{PD}$) is precisely $(\\bigcup\_{n\\in\\omega}\\mathbf{\\Sigma}^1\_n)$-determinacy. Given some class $M$ (e.g. $\\text{OD}$, $L(\\mathbb{R})$, ...), *$M$-determinacy* is an abbreviation for $(M\\cap\\mathcal{P}(\\omega^\\omega))$-determinacy. $L(\\mathbb{R})$-determinacy notably follows from large cardinal axioms, in particular the existence of infinitely many [Woodin](Woodin "Woodin") cardinals with a [measurable](Measurable "Measurable") above them all.
 
 Martin showed that $\\text{ZFC}$ alone is sufficient to prove Borel determinacy (i.e. $\\mathbf{\\Delta}^1\_1$-determinacy). However, for every $a\\in\\omega^\\omega$, $\\Sigma^1\_1(a)$-determinacy is equivalent to "the sharp $a^\\#$ exists", thus Borel determinacy is the best result possible in $\\text{ZFC}$ alone. Analytic (i.e. $\\mathbf{\\Sigma^1\_1}$) determinacy follows from the existence of a measurable cardinal, or even just of a [Ramsey](Ramsey "Ramsey") cardinal. Stronger forms of projective determinacies requires considerably stronger large cardinal axioms: for every $n$, $\\mathbf{\\Delta}^1\_{n+1}$-determinacy implies the existence of an inner model with $n$ Woodin cardinals.
 
-Note that for every $n$, $\\mathbf{\\Sigma}^1\_n$-determinacy is equivalent to $\\mathbf{\\Pi}^1\_n$-determinacy. Furthertmore, under $\\text{DC}$ (the *<a href="https://en.wikipedia.org/wiki/axiom of dependent choice" class="extiw" title="wikipedia:axiom of dependent choice">>axiom of dependent choice</a>'') for every $n\\in\\omega$, $\\mathbf{\\Delta}^1\_{2n}$-determinacy is equivalent to $\\mathbf{\\Sigma}^1\_{2n}$-determinacy ($\\mathbf{\\Pi}^1\_{2n}$-determinacy)
+Note that for every $n$, $\\mathbf{\\Sigma}^1\_n$-determinacy is equivalent to $\\mathbf{\\Pi}^1\_n$-determinacy. Furthertmore, under $\\text{DC}$ (the *<a href="https://en.wikipedia.org/wiki/axiom of dependent choice" class="extiw" title="wikipedia:axiom of dependent choice">axiom of dependent choice</a>*) for every $n\\in\\omega$, $\\mathbf{\\Delta}^1\_{2n}$-determinacy is equivalent to $\\mathbf{\\Sigma}^1\_{2n}$-determinacy ($\\mathbf{\\Pi}^1\_{2n}$-determinacy)
 
 Assume $\\mathbf{\\Sigma}^1\_n$ (or $\\mathbf{\\Pi}^1\_n$) determinacy and that the axiom of choice holds for *countable* sets of reals (which follows from $\\text{DC}$). Then every $\\mathbf{\\Sigma}^1\_{n+1}$ set of reals is Lebesgue measurable, has the Baire property and has the perfect set property.
 
@@ -126,7 +127,7 @@ Assume $\\mathbf{\\Delta}^1\_{2n}$-determinacy; then a set of reals $A$ is $\\ma
 Woodin showed that $\\mathbf{\\Pi}^1\_{n+1}$-determinacy follows from the existence of $n$ [Woodin](Woodin "Woodin") cardinals with a measurable above them all, and projective determinacy thus follows from the existence of infinitely many Woodin cardinals. He also showed that $\\mathbf{\\Pi}^1\_2$-determinacy is equivalent to "for all $x\\in\\mathbb{R}$, there is a countable ordinal $\\delta$ such that $\\delta$ is a Woodin cardinal in some inner model of $\\text{ZFC}$ containing $x$, and that $\\mathbf{\\Delta}^1\_2$-determinacy is equivalent to "for every $x\\in\\mathbb{R}$, there is an inner model M such that $x\\in M$ and $M\\models\\text{ZFC}+$"there is a Woodin cardinal".  {% cite KoellnerWoodin2010 %}
 
 $\\text{ZFC}$ + (lightface) $\\Delta^1\_2$-determinacy implies that there many $x$ such that $\\text{HOD}^{L[x]}$ is a model of $\\text{ZFC+}$"$\\omega\_2^{L[x]}$ is a Woodin cardinal".
-$\\text{Z}\_2$+$\\Delta^1\_2$-determinacy is conjectured to be equiconsistent with $\\text{ZFC+}$"$\\text{Ord}$ is Woodin", where "$\\text{Ord}$ is Woodin" is expressed as an axiom scheme and $\\text{Z}\_2$ is <a href="https://en.wikipedia.org/wiki/second-order arithmetic" class="extiw" title="wikipedia:second-order arithmetic">>second-order arithmetic</a>.
+$\\text{Z}\_2$+$\\Delta^1\_2$-determinacy is conjectured to be equiconsistent with $\\text{ZFC+}$"$\\text{Ord}$ is Woodin", where "$\\text{Ord}$ is Woodin" is expressed as an axiom scheme and $\\text{Z}\_2$ is <a href="https://en.wikipedia.org/wiki/second-order arithmetic" class="extiw" title="wikipedia:second-order arithmetic">second-order arithmetic</a>.
 $\\text{Z}\_3$+$\\Delta^1\_2$-determinacy is provably equiconsistent with $\\text{NBG+}$"$\\text{Ord}$ is Woodin" where $\\text{NBG}$ is <a href="https://en.wikipedia.org/wiki/Von Neumann–Bernays–Gödel set theory" class="extiw" title="wikipedia:Von Neumann–Bernays–Gödel set theory">>Von Neumann–Bernays–Gödel set theory</a> and $\\text{Z}\_3$ is third-order arithmetic.
 
 Gitik and Schindler showed that if $\\aleph\_\\omega$ is a strong limit cardinal and $2^{\\aleph\_\\omega}>\\aleph\_{\\omega\_1}$, then the axiom of projective determinacy holds. Also, if there is a singular cardinal of uncountable cofinality such that the sets of the cardinals below it such that the GCH holds is both [stationary](Stationary "Stationary") and costationary, then again the axiom of projective determinacy holds. It is not known whether these two results extends to $L(\\mathbb{R})$-determinacy. {% cite Larson2010 %}
@@ -143,9 +144,9 @@ A set $T\\subseteq\\omega^{<\\omega}\\times\\kappa^{\\omega}$ is a *tree on $\\o
 
 Given a tree $T$ on $\\omega\\times\\kappa$ and $s\\in\\omega^{<\\omega}$, we define $T\_s=\\{t\\in\\kappa^{<\\omega}:(s,t)\\in T\\}$, and for every real $x\\in\\omega^\\omega$, we define $T\_x=\\bigcup\\{T\_{x\\restriction\_k}:k\\in\\omega\\}$, which is always a tree on $\\kappa$. We also define $[T]$ to be the set of all infinite branches of $T$, that is, $[T]=\\{(x,f):x\\in\\omega^\\omega,f\\in\\kappa^\\omega\\land\\forall k\\in\\omega$ $((x\\restriction k,f\\restriction k)\\in T\\}$. Finally we define the **projection** of $T$ to be $p[T]=\\{x\\in\\omega^\\omega:\\exists f\\in\\kappa^\\omega$ $((x,f)\\in[T])\\}$, a set of reals.
 
-Given a nonempty set $X$, we define $m(X)$ to be the set of $\\sigma$-complete [ultrafilters](Filter "Filter") on $X$ (we do not require nonprincipality). We will call $m(X)$'s elements "measures". Let $U\_1,U\_2$ be measures on $X^{<\\omega}$ for some set $X$. Let $k\_1,k\_2$ be such that $X^{k\_1}\\in U\_1$ and $X^{k\_2}\\in U\_2$. We say that $U\_2$ *projects to* $U\_1$, denoted $U\_1<U\_2$, if $k\_1<k\_2$ and for all $A\\subseteq Y^{k\_1}$, $A\\in U\_1$ iff $A^*\\in U\_2$ where $A^*=\\{s\\in Y^{k\_2}:s\\restriction\_{k\_1}\\in A\\}$.
+Given a nonempty set $X$, we define $m(X)$ to be the set of $\\sigma$-complete [ultrafilters](Filter "Filter") on $X$ (we do not require nonprincipality). We will call $m(X)$'s elements "measures". Let $U\_1,U\_2$ be measures on $X^{<\\omega}$ for some set $X$. Let $k\_1,k\_2$ be such that $X^{k\_1}\\in U\_1$ and $X^{k\_2}\\in U\_2$. We say that $U\_2$ *projects to* $U\_1$, denoted $U\_1< U\_2$, if $k\_1< k\_2$ and for all $A\\subseteq Y^{k\_1}$, $A\\in U\_1$ iff $A^*\\in U\_2$ where $A^*=\\{s\\in Y^{k\_2}:s\\restriction\_{k\_1}\\in A\\}$.
 
-Consider a sequence of measures $\\{U\_k:k\\in\\omega\\}$ on $Y^{<\\omega}$ such that $Y^k\\in U\_k$ for every $k\\in\\omega$. That sequence is a *tower of measures* if $k\_1<k\_2$ implues $U\_{k\_1}<U\_{k\_2}$. It is a *countably complete tower* if for all sequences $\\{A\_k:k\\in\\omega\\}$ such that $A\_k\\in U\_k$ for all $k<\\omega$, there is $f\\in Y^\\omega$ such that $f\\restriction\_k$ $\\in A\_k$ for every $k\\in\\omega$.
+Consider a sequence of measures $\\{U\_k:k\\in\\omega\\}$ on $Y^{<\\omega}$ such that $Y^k\\in U\_k$ for every $k\\in\\omega$. That sequence is a *tower of measures* if $k\_1< k\_2$ implues $U\_{k\_1}< U\_{k\_2}$. It is a *countably complete tower* if for all sequences $\\{A\_k:k\\in\\omega\\}$ such that $A\_k\\in U\_k$ for all $k<\\omega$, there is $f\\in Y^\\omega$ such that $f\\restriction\_k$ $\\in A\_k$ for every $k\\in\\omega$.
 
 Let $\\kappa$ be a nonzero ordinal, and $T$ be a tree on $\\omega\\times\\kappa$. Then $T$ is *$\\delta$-weakly homogeneous* if there is a partial function $\\pi:\\omega^{<\\omega}\\times\\omega^{<\\omega}\\to m(\\kappa^{<\\omega})$ such that for all $(s,t)\\in\\text{dom}(\\pi)$, $\\pi(s,t)$ is a $\\delta$-complete measure, $T\_s\\in\\pi(s,t)$ and for all reals $x\\in\\omega^\\omega$, $x\\in p[T]$ if and only if there exists $y\\in\\omega^\\omega$ such that $\\{\\pi(x\\restriction\_k,y\\restriction\_k):k\\in\\omega\\}$ is a countably complete tower. $T$ is (<$\\delta$)-weakly homogeneous iff it is $\\alpha$-weakly homogeneous for all $\\alpha<\\delta$. It is *weakly homogeneous* if it is $\\delta$-weakly homogeneous for some $\\delta$. If $\\kappa=\\omega$ or $\\kappa=1$ then every tree on $\\omega\\times\\kappa$ is $\\delta$-weakly homogeneous for all $\\delta$.
 
@@ -164,10 +165,11 @@ A set of reals $A$ is *$\\delta$-weakly homogeneously Suslin* if it is the proje
 A set of reals is $\\delta$-weakly homogeneously Suslin iff it is the image of a $\\delta$-homogeneously Suslin set of reals by a continuous function $f:\\mathbb{R}\\to\\mathbb{R}$.
 
 A set $A\\subseteq\\mathbb{R}$ is **universally Baire** if one of the following equivalent charactezations holds:
--    It is $\\delta$*-universally Baire* for some $\\delta$, meaning that for all [forcing notions](Forcing "Forcing") $\\mathbb{P}$ with $|\\mathbb{P}|=\\delta$ there are trees $S$ and $T$ on $\\omega\\times\\kappa$ for some $\\kappa$ such that $A=p[T]$ and for all $V$-generic $G\\subseteq\\mathbb{P}$, in $V[G]$ one has $p[T]=\\mathbb{R}^{V[G]}\\setminus p[S]$.
--    For every compact Hausdorff space $\\Omega$ and continuous function $\\pi:\\Omega\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
--    For every topological space $X$ and continuous function $\\pi:X\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
--    For every infinite cardinal $\\lambda$ and continuous function $\\pi:\\lambda^\\omega\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
+-   It is $\\delta$*-universally Baire* for some $\\delta$, meaning that for all [forcing notions](Forcing "Forcing") $\\mathbb{P}$ with $|\\mathbb{P}|=\\delta$ there are trees $S$ and $T$ on $\\omega\\times\\kappa$ for some $\\kappa$ such that $A=p[T]$ and for all $V$-generic $G\\subseteq\\mathbb{P}$, in $V[G]$ one has $p[T]=\\mathbb{R}^{V[G]}\\setminus p[S]$.
+-   For every compact Hausdorff space $\\Omega$ and continuous function $\\pi:\\Omega\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
+-   For every topological space $X$ and continuous function $\\pi:X\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
+-   For every infinite cardinal $\\lambda$ and continuous function $\\pi:\\lambda^\\omega\\to\\mathbb{R}$, the preimage $\\pi^{\\text{-1}}[A]$ has the Baire property.
+
 where $\\pi^{\\text{-1}}[A]=\\{x\\in\\lambda^\\omega:\\pi(x)\\in A\\}$. We use $\\Gamma^\\infty$ to denote the collection of all universally Baire set of reals.
 
 Every $\\mathbf{\\Sigma}^1\_1$ set of reals is universally Baire. Every set has a [sharp](Zero_sharp "Zero sharp") if and only if every $\\mathbf{\\Sigma}^1\_2$ set of reals is universally Baire.
@@ -184,9 +186,9 @@ Every $\\mathbf{\\Sigma}^1\_2$ sentence is generically absolute. Every $\\mathbf
 A set of reals is ${}^\\infty$borel iff there is a class of ordinals $S$, an ordinal $\\alpha$ and a formula $\\varphi(x\_0,x\_1)$ such that $A=\\{y\\in\\mathbb{R}:L\_\\alpha[S,y]\\models\\varphi[S,y]\\}$. Under $\\text{AD+DC}$ this is equivalent to the existence of a class of ordinals $S$ such that $A\\in L(S,\\mathbb{R})$.
 
 The axiom $\\text{AD}^+$ is the conjunction of the following statements:
--    Every $A\\subseteq\\mathbb{R}$ is ${}^\\infty$borel.
--    $\\text{DC}\_\\mathbb{R}$, dependent choice for sets of reals.
--    *Ordinal determinacy*:  if $\\lambda<\\Theta$ and $\\pi:\\lambda^\\omega\\to\\omega^\\omega$ is a continuous function then for every $A\\subseteq\\mathbb{R}$ the preimage $\\pi^{\\text{-1}}[A]$ is determined.
+-   Every $A\\subseteq\\mathbb{R}$ is ${}^\\infty$borel.
+-   $\\text{DC}\_\\mathbb{R}$, dependent choice for sets of reals.
+-   *Ordinal determinacy*:  if $\\lambda<\\Theta$ and $\\pi:\\lambda^\\omega\\to\\omega^\\omega$ is a continuous function then for every $A\\subseteq\\mathbb{R}$ the preimage $\\pi^{\\text{-1}}[A]$ is determined.
 This axiom is a consequence of $\\text{AD}\_\\mathbb{R}+\\text{DC}\_\\mathbb{R}$ and is *downward absolute*: if $M$ is a transitive inner model of $\\text{ZF}$ such that $\\mathbb{R}\\subseteq M$ then $V\\models\\text{AD}^+$ implies $M\\models\\text{AD}^+$.
 
 The *$\\Sigma^2\_1$-basis theorem* is the following result: assuming $\\text{AD}^+$ and $V=L(\\mathcal{P}(\\mathbb{R}))$, the pointclass $\\Sigma^2\_1$ has the scale property, every $\\Sigma^2\_1$ set of reals is the projection of some tree that is in $\\text{HOD}$ and for all $x\\in\\mathbb{R}$, one has $M\_{\\Delta^2\_1(x)}\\prec\_{\\Sigma\_1}L(\\mathcal{P}(\\mathbb{R}))$ (?).

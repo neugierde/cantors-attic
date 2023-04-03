@@ -11,7 +11,7 @@ This project aims to harness the abilities and efforts of the expert mathematica
 
 ## IRC Channel
 
-An <a href="https://en.wikipedia.org/wiki/IRC" class="extiw" title="wikipedia:IRC">>internet relay chat</a> channel for Cantor's Attic exists: [http://webchat.freenode.net/?channels=%23%23cantorsattic ##cantorsattic] on irc.freenode.net.
+An <a href="https://en.wikipedia.org/wiki/IRC" class="extiw" title="wikipedia:IRC">internet relay chat</a> channel for Cantor's Attic exists: [##cantorsattic](http://webchat.freenode.net/?channels=%23%23cantorsattic) on irc.freenode.net.
 
 ## Cantor's Attic style guidelines
 
@@ -21,6 +21,7 @@ New entries should be written in a clear, elegant style, with all mathematical d
 -    Write in clear plain language.
 -    Avoid excessive mathematical formalism. Use detailed mathematical notation only when this is necessary to illuminate the mathematical idea.
 -    For grammar and punctuation, follow the Chicago Manual of Style.
+
 The goal is to have an insightful and correct mathematical account of the concept, an informative summary essay that highlights the major facts about that concept and indicates where one may find further information.
 Comparative information about how the infinitary concept relates to others is especially valuable, and should be supported with citations.
 Please group closely related large cardinal concepts in sections on one page, as on the [inaccessible](Inaccessible "Inaccessible") cardinal page. (If the sections become large, we may consider breaking them off into their own pages.)
@@ -48,17 +49,14 @@ This is a professional forum. Please use the discussion/talk pages before making
 
 Here is a list of tasks that need doing. Please update with subentries as appropriate.
 
--    Populate most of the cardinal entries with mathematical information
+-   Populate most of the cardinal entries with mathematical information
     -    Add missing cardinal concepts to the main attic lists
     -    Create those pages and add information
     -    Improve the existing stub pages with additional or better information
     -    Add references to existing pages to support the claims being made
-
--    Develop pages with background set-theoretic information
-
--    Figure out how to generate an RSS feed of new posts
+-   Develop pages with background set-theoretic information
+-   Figure out how to generate an RSS feed of new posts
     -    It would be great to have an RSS feed of new posts that could be used in people's blogs
-
--    Major projects for graphical representation of the data
+-   Major projects for graphical representation of the data
     -    Develop a graphical representation of the implication and consistency strength relations between large cardinals (like a grand clickable version of the diagram in Kanamori's book) Such a diagram could be the main list on the [upper attic](Upper_attic "Upper attic") page.
     -    A smaller or condensed perhaps linear version of the same diagram in a widget graphical representation to appear automatically in each page, indicating visually roughly where that cardinal sits in the hierarchy. I can imagine something like a vertical sidebar version of the toolbar on many operating systems, where the currently relevant entry appears larger than the rest, as one moves around.

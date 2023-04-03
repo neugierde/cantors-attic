@@ -4,9 +4,9 @@ permalink: First_steps
 ---
 
 
-= Axioms =
+# Axioms
 
-In math, there are several philosophical liberties that could be taken. **The axioms** declare the absolute rules of math; what can and can't be done, what exists and what doesn't, and what statements are true and false, are all determined by them. There are many different ways to axiomatize mathematics. These different methods are called **Set Theories**, and there are quite a few. For example: [Zermelo-Fraenkel](ZFC "ZFC"), [Morse-Kelley](Morse-Kelley "Morse-Kelley"), [http://modelsofpa.info Peano Arithmetic], [Neumann-Bernays-Gödel](NBG "NBG"), [Kripke-Platek](Kripke-Platek "Kripke-Platek"), and more.
+In math, there are several philosophical liberties that could be taken. **The axioms** declare the absolute rules of math; what can and can't be done, what exists and what doesn't, and what statements are true and false, are all determined by them. There are many different ways to axiomatize mathematics. These different methods are called **Set Theories**, and there are quite a few. For example: [Zermelo-Fraenkel](ZFC "ZFC"), [Morse-Kelley](Morse-Kelley "Morse-Kelley"), [Peano Arithmetic](http://modelsofpa.info), [Neumann-Bernays-Gödel](NBG "NBG"), [Kripke-Platek](Kripke-Platek "Kripke-Platek"), and more.
 
 If there is a "universe" in which axioms are true, then that universe is called a **model** of those axioms. This is an important part of **model theory**, the study of the formalization of this idea.
 
@@ -20,17 +20,18 @@ Finitism is the idea that there are no infinite sets or infinite numbers in math
 
 When one lets an infinite set exist and powerset exist in the axioms (that is, for any set, there is a set which contains exactly all of its subsets), then this beauty of infinity is shown. It is against intuition to not allow powerset to exist, so this is only assumed natural and absolute.
 
-With this, an infinite set and its powerset never have a one-on-one correspondence to each other (this correspondence is also known as a **bijection**). That is, there is no way to give each element of the infinite set exactly one unique element of its powerset. This intuitively makes the powerset "bigger" than the original set. The proof of this is known as [https://en.wikipedia.org/wiki/Cantor%27s\_theorem Cantor's theorem].
+With this, an infinite set and its powerset never have a one-on-one correspondence to each other (this correspondence is also known as a **bijection**). That is, there is no way to give each element of the infinite set exactly one unique element of its powerset. This intuitively makes the powerset "bigger" than the original set. The proof of this is known as [Cantor's theorem](https://en.wikipedia.org/wiki/Cantor%27s\_theorem).
 
 When there is a **bijection** between two sets, we say the sets have the same **cardinality**. We then assign numbers to sets based upon their cardinality; a measure of size.
 
-= Cardinals and Ordinals =
+# Cardinals and Ordinals
 
 The **ordinals** are defined in a way that extends the natural numbers.
 
 -   The smallest ordinal is $0=\\{\\}$.
 -   The next ordinal is $1=\\{0\\}=\\{\\{\\}\\}$.
 -   The next ordinal is $2=\\{0,1\\}=\\{\\{\\},\\{\\{\\}\\}\\}$.
+
 ...
 
 Each ordinal is the set of all smaller ordinals. Of course, that begs the question: what is the set of all natural numbers? With this pattern, it should be an ordinal. It is in fact, and it is called $\\omega=\\{0,1,2,3...\\}$. The next ordinal is called $\\omega+1$, and then $\\omega+2$, and so on. Eventually, one gets to $\\omega\\cdot 2$, which is simply the the set $\\{0,1,2,3...\\omega,\\omega+1,\\omega+2...\\}$. Note that $2\\cdot\\omega$ is not $\\omega\\cdot 2$, and $1+\\omega$ is not $\\omega+1$. If you would like a more detailed explanation of ordinal arithmetic, it would be suggested that you should search a reliable source.
@@ -43,7 +44,7 @@ The smallest cardinal is denoted $\\aleph\_0$. The next smallest cardinal is den
 
 For ordinals, $\\alpha,\\beta,\\gamma,$ and $\\delta$ are often used as variables. For cardinals, $\\kappa,\\lambda,$ and $\\mu$ are often used, though $\\mu$ is used less often.
 
-= The Intuition of Large Cardinal Axioms =
+# The Intuition of Large Cardinal Axioms
 
 Large cardinal axioms may have some intuition behind them. For example:
 

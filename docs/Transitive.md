@@ -9,9 +9,9 @@ A set is transitive if and only if all of its elements are subsets of it.
 
 Equivalently, a set $A$ is transitive if and only if:
 
--    it contains its union
--    the powerset of $A$ contains $A$
--    all members of the members of $A$ are members of $A$
+-   it contains its union
+-   the powerset of $A$ contains $A$
+-   all members of the members of $A$ are members of $A$
 
 ## Properties of Transitive Sets
 

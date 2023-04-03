@@ -30,10 +30,10 @@ The is no set with cardinality $\\alpha$ such that $\\aleph\_{0} < \\alpha < \\a
 
 ## Generalizations 
 
-The *generalized continuum hypothesis* (GCH) states that if an infinite set's cardinality lies between that of an infinite set *S* and that of the [power set](Power_set "Power set") of *S*, then it either has the same cardinality as the set *S* or the same cardinality as the power set of *S*. That is, for any [infinite](Infinite_set "Infinite set") [cardinal](Cardinal_number "Cardinal number") <math>\\lambda</math> there is no cardinal <math>\\kappa</math> such that <math>\\lambda <\\kappa <2^{\\lambda}.</math> GCH is equivalent to:
-:<math>\\aleph\_{\\alpha+1}=2^{\\aleph\_\\alpha}</math> for every [ordinal](Ordinal_number "Ordinal number") <math>\\alpha.</math>  (occasionally called **Cantor's aleph hypothesis**)
+The *generalized continuum hypothesis* (GCH) states that if an infinite set's cardinality lies between that of an infinite set *S* and that of the [power set](Power_set "Power set") of *S*, then it either has the same cardinality as the set *S* or the same cardinality as the power set of *S*. That is, for any [infinite](Infinite_set "Infinite set") [cardinal](Cardinal_number "Cardinal number") $\\lambda$ there is no cardinal $\\kappa$ such that $\\lambda <\\kappa <2^{\\lambda}.$ GCH is equivalent to:
+:$\\aleph\_{\\alpha+1}=2^{\\aleph\_\\alpha}$ for every [ordinal](Ordinal_number "Ordinal number") $\\alpha.$  (occasionally called **Cantor's aleph hypothesis**)
 
-For more,see https://en.wikipedia.org/wiki/Continuum\_hypothesis
+For more,see ["Continuum Hypothesis" on Wikipedia](https://en.wikipedia.org/wiki/Continuum_hypothesis)
 
 ## Aleph two
 
@@ -56,10 +56,10 @@ is an exhaustive list of all infinite cardinalities. Every infinite set is bijec
 
 ## Aleph omega
 
-The cardinal $\\aleph\_\\omega$ is the smallest instance of an [uncountable](Uncountable "Uncountable") [singular](Singular "Singular") [cardinal](Cardinal "Cardinal") number, since it is larger than every $\\aleph\_n$, but is the supremum of the [countable](Countable "Countable") set $\\{\\aleph\_0,\\aleph\_1,\\ldots,\\aleph\_n,\\ldots\\mid n\\lt\\omega\\}$. This ordinal is $\\Sigma\_1$-[admissible](Admissible "Admissible"), but not $\\Sigma\_2$-admissible. [https://arxiv.org/pdf/math/9609203.pdf]
+The cardinal $\\aleph\_\\omega$ is the smallest instance of an [uncountable](Uncountable "Uncountable") [singular](Singular "Singular") [cardinal](Cardinal "Cardinal") number, since it is larger than every $\\aleph\_n$, but is the supremum of the [countable](Countable "Countable") set $\\{\\aleph\_0,\\aleph\_1,\\ldots,\\aleph\_n,\\ldots\\mid n\\lt\\omega\\}$. This ordinal is $\\Sigma\_1$-[admissible](Admissible "Admissible"), but not $\\Sigma\_2$-admissible. (Chong, Friedman, [Ordinal Recursion Theory](https://arxiv.org/pdf/math/9609203.pdf))
 
 ## Aleph fixed point
 
-A cardinal $\\kappa$ is an *$\\aleph$-fixed point when $\\kappa=\\aleph\_\\kappa$. In this case, $\\kappa$ is the $\\kappa^{\\rm th}$ infinite cardinal. Every [inaccessible](Inaccessible "Inaccessible") cardinal is an $\\aleph$-fixed point, and a limit of such fixed points and so on. Indeed, every [worldly](Worldly "Worldly") cardinal is an $\\aleph$-fixed point and a limit of such.
+A cardinal $\\kappa$ is an *$\\aleph$-fixed point* when $\\kappa=\\aleph\_\\kappa$. In this case, $\\kappa$ is the $\\kappa^{\\rm th}$ infinite cardinal. Every [inaccessible](Inaccessible "Inaccessible") cardinal is an $\\aleph$-fixed point, and a limit of such fixed points and so on. Indeed, every [worldly](Worldly "Worldly") cardinal is an $\\aleph$-fixed point and a limit of such.
 
 One may easily construct an $\\aleph$-fixed point above any ordinal $\\beta$: simply let $\\beta\_0=\\beta$ and $\\beta\_{n+1}=\\aleph\_{\\beta\_n}$; it follows that $\\kappa=\\sup\_n\\beta\_n=\\aleph\_{\\aleph\_{\\aleph\_{\\aleph\_{\\ddots}}}}$ is an $\\aleph$-fixed point, since $\\aleph\_\\kappa=\\sup\_{\\alpha\\lt\\kappa}\\aleph\_\\alpha=\\sup\_n\\aleph\_{\\beta\_n}=\\sup\_n\\beta\_{n+1}=\\kappa$. By continuing the recursion to any ordinal, one may construct $\\aleph$-fixed points of any desired cofinality. Indeed, the class of $\\aleph$-fixed points forms a closed unbounded class of cardinals.

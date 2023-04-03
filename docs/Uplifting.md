@@ -20,18 +20,18 @@ The consistency strength of uplifting and pseudo-uplifting cardinals are bounded
 
 **Theorem.**
 
-1. If $\\delta$ is a [Mahlo](Mahlo "Mahlo") cardinal, then $V\_\\delta$ has a proper class of uplifting cardinals.
+1.  If $\\delta$ is a [Mahlo](Mahlo "Mahlo") cardinal, then $V\_\\delta$ has a proper class of uplifting cardinals.
 
-2. Every uplifting cardinal is pseudo uplifting and a limit of pseudo uplifting cardinals.
+2.  Every uplifting cardinal is pseudo uplifting and a limit of pseudo uplifting cardinals.
 
-3. If there is a pseudo uplifting cardinal, or indeed, merely a pseudo $0$-uplifting cardinal, then there is a transitive set model of ZFC with a [reflecting](Reflecting "Reflecting") cardinal and consequently also a transitive model of ZFC plus [Ord is Mahlo](Ord_is_Mahlo "Ord is Mahlo").
+3.  If there is a pseudo uplifting cardinal, or indeed, merely a pseudo $0$-uplifting cardinal, then there is a transitive set model of ZFC with a [reflecting](Reflecting "Reflecting") cardinal and consequently also a transitive model of ZFC plus [Ord is Mahlo](Ord_is_Mahlo "Ord is Mahlo").
 
 Proof. For (1), suppose that $\\delta$ is a Mahlo cardinal. By the Lowenheim-Skolem theorem, there is a club set $C\\subset\\delta$ of cardinals $\\beta$ with $V\_\\beta\\prec V\_\\delta$. Since $\\delta$ is Mahlo, the club $C$ contains unboundedly many inaccessible cardinals. If $\\kappa<\\gamma$ are both in $C$, then $V\_\\kappa\\prec V\_\\gamma$, as desired. Similarly, for (2), if $\\kappa$ is uplifting, then $\\kappa$ is pseudo uplifting and if $V\_\\kappa\\prec V\_\\gamma$ with $\\gamma$ inaccessible, then there are unboundedly many ordinals $\\beta<\\gamma$ with $V\_\\beta\\prec V\_\\gamma$ and hence $V\_\\kappa\\prec V\_\\beta$. So $\\kappa$ is pseudo uplifting in $V\_\\gamma$. From this, it follows that there must be unboundedly many pseudo uplifting cardinals below $\\kappa$.  For (3), if $\\kappa$ is inaccessible and $V\_\\kappa\\prec V\_\\gamma$, then $V\_\\gamma$ is a transitive set model of ZFC in which $\\kappa$ is reflecting, and it is thus also a model of [Ord is Mahlo](Ord_is_Mahlo "Ord is Mahlo"). QED
 
 ## Uplifting cardinals and $\\Sigma\_3$-reflection
 
--    Every uplifting cardinal is a limit of $\\Sigma\_3$-reflecting cardinals, and is itself $\\Sigma\_3$-reflecting.
--    If $\\kappa$ is the least uplifting cardinal, then $\\kappa$ is not $\\Sigma\_4$-reflecting, and there are no $\\Sigma\_4$-reflecting cardinals below $\\kappa$.
+-   Every uplifting cardinal is a limit of $\\Sigma\_3$-reflecting cardinals, and is itself $\\Sigma\_3$-reflecting.
+-   If $\\kappa$ is the least uplifting cardinal, then $\\kappa$ is not $\\Sigma\_4$-reflecting, and there are no $\\Sigma\_4$-reflecting cardinals below $\\kappa$.
 
 The analogous observation for pseudo uplifting cardinals holds as well, namely, every pseudo uplifting cardinal is $\\Sigma\_3$-reflecting and a limit of $\\Sigma\_3$-reflecting cardinals; and if $\\kappa$ is the least pseudo uplifting cardinal, then $\\kappa$ is not $\\Sigma\_4$-reflecting, and there are no $\\Sigma\_4$-reflecting cardinals below $\\kappa$.
 
@@ -42,26 +42,26 @@ Every uplifting cardinal admits an ordinal-anticipating Laver function, and inde
 ## Connection with the resurrection axioms
 
 Many instances of the (weak) resurrection axiom imply that ${\\frak c}^V$ is an uplifting cardinal in $L$:
--    RA(all) implies that ${\\frak c}^V$ is uplifting in $L$.
--    RA(ccc) implies that ${\\frak c}^V$ is uplifting in $L$.
--    wRA(countably closed)+$\\neg$CH implies that ${\\frak c}^V$ is uplifting in $L$.
--    Under $\\neg$CH, the weak resurrection axioms for the classes of axiom-A forcing, proper forcing, semi-proper forcing, and posets that preserve stationary subsets of $\\omega\_1$, respectively, each imply  that ${\\frak c}^V$ is uplifting in $L$.
+-   RA(all) implies that ${\\frak c}^V$ is uplifting in $L$.
+-   RA(ccc) implies that ${\\frak c}^V$ is uplifting in $L$.
+-   wRA(countably closed)+$\\neg$CH implies that ${\\frak c}^V$ is uplifting in $L$.
+-   Under $\\neg$CH, the weak resurrection axioms for the classes of axiom-A forcing, proper forcing, semi-proper forcing, and posets that preserve stationary subsets of $\\omega\_1$, respectively, each imply  that ${\\frak c}^V$ is uplifting in $L$.
 
 Conversely, if $\\kappa$ is uplifting, then various resurrection axioms hold in a corresponding lottery-iteration forcing extension.
 
 **Theorem.** (Hamkins and Johnstone) The following theories are equiconsistent over ZFC:
--    There is an uplifting cardinal.
--    RA(all)
--    RA(ccc)
--    RA(semiproper)+$\\neg$CH
--    RA(proper)+$\\neg$CH
--    for some countable ordinal $\\alpha$, RA($\\alpha$-proper)+$\\neg$CH
--    RA(axiom-A)+$\\neg$CH
--    wRA(semiproper)+$\\neg$CH
--    wRA(proper)+$\\neg$CH
--    for some countable ordinal $\\alpha$,  wRA($\\alpha$-proper})+$\\neg$CH
--    wRA(axiom-A)+$\\neg$CH
--    wRA(countably closed)+$\\neg$CH
+-   There is an uplifting cardinal.
+-   RA(all)
+-   RA(ccc)
+-   RA(semiproper)+$\\neg$CH
+-   RA(proper)+$\\neg$CH
+-   for some countable ordinal $\\alpha$, RA($\\alpha$-proper)+$\\neg$CH
+-   RA(axiom-A)+$\\neg$CH
+-   wRA(semiproper)+$\\neg$CH
+-   wRA(proper)+$\\neg$CH
+-   for some countable ordinal $\\alpha$,  wRA($\\alpha$-proper})+$\\neg$CH
+-   wRA(axiom-A)+$\\neg$CH
+-   wRA(countably closed)+$\\neg$CH
 
 ## Strongly Uplifting
 

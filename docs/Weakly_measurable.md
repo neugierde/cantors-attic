@@ -14,17 +14,25 @@ A cardinal $\\kappa$ is *weakly measurable* if and only if for every family $\\m
 
 If $(\\kappa^+)^{{<}\\kappa} = \\kappa^+$, then weak measurability can also be equivalently characterized in several different ways in terms of [elementary embeddings](Elementary_embedding "Elementary embedding").
 
-:; Weak embedding characterization : For every $A \\subseteq \\kappa^+$, there exists a transitive $M \\vDash \\text{ZFC}^-$ with $A, \\kappa \\in M$, a transitive $N$ and an [elementary embedding](Elementary_embedding "Elementary embedding") $j: M \\longrightarrow N$ with critical point $\\kappa$.
+: **Weak embedding characterization**
 
-:; Embedding characterization : For every transitive set $M$ of size $\\kappa^+$ with $\\kappa \\in M$, there exists a transitive $N$ and an elementary embedding $j: M \\longrightarrow N$ with critical point $\\kappa$.
+For every $A \\subseteq \\kappa^+$, there exists a transitive $M \\vDash \\text{ZFC}^-$ with $A, \\kappa \\in M$, a transitive $N$ and an [elementary embedding](Elementary_embedding "Elementary embedding") $j: M \\longrightarrow N$ with critical point $\\kappa$.
 
-:; Normal embedding characterization : For every transitive $M \\vDash \\text{ZFC}^-$ of size $\\kappa^+$ closed under ${<}\\kappa$ sequences with $\\kappa \\in M$, there exists a transitive $N$ of size $\\kappa^+$ closed under ${<}\\kappa$ sequences and a cofinal elementary embedding $j: M \\longrightarrow N$ with critical point $\\kappa$ such that $N = \\{j(f)(\\kappa)| f \\in M; f: \\kappa \\longrightarrow M\\}$.
+: **Embedding characterization**
 
-:; Normal ZFC embedding characterization : For every $A \\subseteq H\_{\\kappa^+}$ of size $\\kappa^+$, there exists a transitive $M \\vDash \\text{ZFC}$ of size $\\kappa^+$ closed under ${<}\\kappa$ sequences with $A \\subseteq M$ and $\\kappa \\in M$, a transitive $N$ of size $\\kappa^+$ closed under ${<}\\kappa$ sequences, and a cofinal elementary embedding $j: M \\longrightarrow N$ with critical point $\\kappa$ such that $N = \\{j(f)(\\kappa)| f \\in M; f: \\kappa \\longrightarrow M\\}$.
+For every transitive set $M$ of size $\\kappa^+$ with $\\kappa \\in M$, there exists a transitive $N$ and an elementary embedding $j: M \\longrightarrow N$ with critical point $\\kappa$.
+
+: **Normal embedding characterization**
+
+For every transitive $M \\vDash \\text{ZFC}^-$ of size $\\kappa^+$ closed under ${<}\\kappa$ sequences with $\\kappa \\in M$, there exists a transitive $N$ of size $\\kappa^+$ closed under ${<}\\kappa$ sequences and a cofinal elementary embedding $j: M \\longrightarrow N$ with critical point $\\kappa$ such that $N = \\{j(f)(\\kappa)| f \\in M; f: \\kappa \\longrightarrow M\\}$.
+
+: **Normal ZFC embedding characterization**
+
+For every $A \\subseteq H\_{\\kappa^+}$ of size $\\kappa^+$, there exists a transitive $M \\vDash \\text{ZFC}$ of size $\\kappa^+$ closed under ${<}\\kappa$ sequences with $A \\subseteq M$ and $\\kappa \\in M$, a transitive $N$ of size $\\kappa^+$ closed under ${<}\\kappa$ sequences, and a cofinal elementary embedding $j: M \\longrightarrow N$ with critical point $\\kappa$ such that $N = \\{j(f)(\\kappa)| f \\in M; f: \\kappa \\longrightarrow M\\}$.
 
 ## Weakly measurable cardinals and inner models
 
-Weakly measurable cardinals are incompatible with the axiom [$V = L$](V_=_L "V = L") since such cardinals are fully measurable if the GCH holds, and the constructible universe cannot contain nonprincipal countably complete ultrafilters.  By the same reasoning, the Dodd-Jensen core model $K^{DJ}$ will not have any cardinals that it thinks are weakly measurable.  If $\\kappa$ is weakly measurable, then we can always find a countably complete normal $K^{DJ}$-ultrafilter $U$ whereby $\\kappa$ will be measurable in $L[U]$ (<CITE>Mitchell2001:TheCoveringLemma</CITE>, Lemma 3.36).  Under certain anti-large cardinal hypotheses, a weakly measurable cardinal will be measurable in the suitable core model.  For example, if $\\kappa$ is weakly measurable and there is no inner model with a measurable cardinal $\\lambda$ having [Mitchell order](Mitchell\_order "Mitchell\_order") $\\lambda^{++}$, then $\\kappa$ will be measurable in Mitchell's core model $K^m$ (<CITE>Jech2003:SetTheory</CITE>, Theorem 35.17).
+Weakly measurable cardinals are incompatible with the axiom [$V = L$](V_=_L "V = L") since such cardinals are fully measurable if the GCH holds, and the constructible universe cannot contain nonprincipal countably complete ultrafilters.  By the same reasoning, the Dodd-Jensen core model $K^{DJ}$ will not have any cardinals that it thinks are weakly measurable.  If $\\kappa$ is weakly measurable, then we can always find a countably complete normal $K^{DJ}$-ultrafilter $U$ whereby $\\kappa$ will be measurable in $L[U]$ ({% cite Mitchell2001:TheCoveringLemma %}, Lemma 3.36).  Under certain anti-large cardinal hypotheses, a weakly measurable cardinal will be measurable in the suitable core model.  For example, if $\\kappa$ is weakly measurable and there is no inner model with a measurable cardinal $\\lambda$ having [Mitchell order](Mitchell\_order "Mitchell\_order") $\\lambda^{++}$, then $\\kappa$ will be measurable in Mitchell's core model $K^m$ ({% cite Jech2003:SetTheory %}, Theorem 35.17).
 
 ## Weakly measurable cardinals and forcing
 
@@ -32,7 +40,7 @@ Weakly measurable cardinals $\\kappa$ are invariant under forcing of size less t
 
 ## Place in the large cardinal hierarchy
 
-In terms of consistency strength, weakly measurable cardinals occupy the same place as measurable cardinals in the large cardinal hierarchy.  In terms of size, the possibilities for these large cardinals are still being investigated.  Because measurable cardinals must be weakly measurable, and weakly measurable cardinals must be weakly compact, we are provided with strict upper and lower bounds on their sizes with respect to these large cardinal notions.  In the presence of the GCH, weakly measurable cardinals and measurable cardinals coincide so their sizes are the same in this case.  At the opposite extreme, it was left as an open question in <CITE>Schanker2011:WeaklyMeasurableCardinals</CITE> and <CITE>Schanker2011:Thesis</CITE> as to whether the least weakly measurable cardinal could also be the least weakly compact cardinal.  Despite being left open, there are promising developments that are being undertaken jointly by Gitik, Hamkins, and Schanker, which are aimed at this possibility.
+In terms of consistency strength, weakly measurable cardinals occupy the same place as measurable cardinals in the large cardinal hierarchy.  In terms of size, the possibilities for these large cardinals are still being investigated.  Because measurable cardinals must be weakly measurable, and weakly measurable cardinals must be weakly compact, we are provided with strict upper and lower bounds on their sizes with respect to these large cardinal notions.  In the presence of the GCH, weakly measurable cardinals and measurable cardinals coincide so their sizes are the same in this case.  At the opposite extreme, it was left as an open question in {% cite Schanker2011:WeaklyMeasurableCardinals %} and {% cite Schanker2011:Thesis %} as to whether the least weakly measurable cardinal could also be the least weakly compact cardinal.  Despite being left open, there are promising developments that are being undertaken jointly by Gitik, Hamkins, and Schanker, which are aimed at this possibility.
 
 {{References}}
 

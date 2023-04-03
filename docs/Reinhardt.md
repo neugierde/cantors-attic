@@ -15,7 +15,7 @@ A **Reinhardt cardinal** is the critical point of a nontrivial elementary embedd
 
 A **super Reinhardt** cardinal $\\kappa$, is a cardinal which is the critical point of elementary embeddings $j:V\\to V$, with $j(\\kappa)$ as large as desired.{% cite Bagaria2017 %}
 
-For a proper class $A$, cardinal $\\kappa$ is called **$A$-super Reinhardt** if for all ordinals $\\lambda$ there is a non-trivial elementary embedding $j : V \\rightarrow V$ such that $\\mathrm{crit}(j) = \\kappa$, $j(\\kappa)\\gt\\lambda$ and $j^+(A)=A$. (where $j^+(A) := \\cup\_{α∈\\mathrm{Ord}} j(A ∩ V\_α)$){% cite Bagaria2017 %}
+For a proper class $A$, cardinal $\\kappa$ is called **$A$-super Reinhardt** if for all ordinals $\\lambda$ there is a non-trivial elementary embedding $j :   V \\rightarrow V$ such that $\\mathrm{crit}(j) = \\kappa$, $j(\\kappa)\\gt\\lambda$ and $j^+(A)=A$. (where $j^+(A) := \\cup\_{α∈\\mathrm{Ord}} j(A ∩ V\_α)$){% cite Bagaria2017 %}
 
 A **totally Reinhardt** cardinal is a cardinal $\\kappa$ such that for each $A\\in V\_{\\kappa+1}$, $(V\_\\kappa, V\_{\\kappa+1})\\vDash \\mathrm{ZF}\_2 + \\text{“There is an $A$-super Reinhardt cardinal”}$.{% cite Bagaria2017 %}
 
@@ -25,7 +25,7 @@ Totally Reinhardt cardinals are the ultimate conclusion of the Vopěnka hierarch
 -   $\\mathrm{WRA}$ (1) implies thet there are arbitrary large $I1$ and super $n$-huge cardinals. Kunen inconsistency does not apply to it. It is not known to imply $I0$.{% cite Corazza2010 %}
 -   $\\mathrm{WRA}$ (1) does not need $j$ in the language. It however requires another extension to the language of $\\mathrm{ZFC}$, because otherwise there would be no weakly Reinhardt cardinals in $V$ because there are no weakly Reinhardt cardinals in $V\_\\kappa$ (If $\\kappa$ is the least weakly Reinhardt) — obvious contradiction.{% cite Corazza2010 %}
 -   $\\mathrm{WR}(\\kappa)$ (1) implies that $\\kappa$ is a measurable limit of [supercompact](Supercompact "Supercompact") cardinals and therefore is [strongly compact](Strongly_compact "Strongly compact"). It is not known whether $\\kappa$ must be supercompact itself. Requiring it to be [extendible](Extendible "Extendible") makes the theory stronger.{% cite Corazza2010 %}
--   Weakly Reinhardt cardinal(2) is inconsistent with $\\mathrm{ZFC}$. $\\mathrm{ZF} + \\text{“There is a weakly Reinhardt cardinal(2)”}\\rightarrow\\mathrm{Con}(\\mathrm{ZFC} + \\text{“There is a proper class of $\\omega$-huge cardinals”})$ (At least here $\\omega$-huge=$I1$) (Woodin, 2009).
+-   Weakly Reinhardt cardinal(2) is inconsistent with $\\mathrm{ZFC}$. $\\mathrm{ZF} + \\text{“There is a weakly Reinhardt cardinal(2)”}\\rightarrow\\mathrm{Con}(\\mathrm{ZFC} + \\text{“There is a proper class of }\\omega\\text{-huge cardinals”})$ (At least here $\\omega$-huge=$I1$) (Woodin, 2009).
 -   $\\text{Con}(\\text{ZF}+\\text{DC}+\\exists\\kappa(\\kappa\\text{ is Reinhardt}))\\rightarrow \\text{Con}(\\text{ZFC}+I0)$.{% cite Bagaria2017 %}
 -   If $\\kappa$ is super Reinhardt, then there is a forcing extension with $\\kappa\_0$ Reinhardt as witnessed by $j$, $\\lambda=\\kappa\_\\omega(j)$, and $DC\_\\lambda$.{% cite Bagaria2017 %}
 -   If $\\kappa$ is super Reinhardt, then there exists $\\gamma\\lt\\kappa$ such that $(V\_\\gamma, V\_{\\gamma+1})\\vDash \\mathrm{ZF}\_2 + \\text{“There is a Reinhardt cardinal”}$.{% cite Bagaria2017 %}

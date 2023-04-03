@@ -10,6 +10,7 @@ permalink: Axioms_of_generic_absoluteness
 -    $\\Phi$ is a class of sentences.
 -    $\\Gamma$ is a class of [forcing](Forcing "Forcing") notions.
 -    “$W^V$ is $\\Phi$-elementarily equivalent to $W^{V^\\mathbb{P}}$” (symbolically $W^V \\equiv\_\\Phi W^{V^\\mathbb{P}}$) means that $\\forall\_{\\phi\\in\\Phi} (W^V \\models \\phi \\quad \\text{iff} \\quad W^{V^\\mathbb{P}} \\models \\phi)$.
+
 $W$$, \\Phi$ and $\\Gamma$ must be definable classes for $\\mathcal{A}(W, \\Phi, \\Gamma)$ to be a sentence in the first-order language of Set Theory.
 
 ## Notation

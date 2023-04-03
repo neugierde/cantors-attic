@@ -21,6 +21,7 @@ There are quite a few (weakened) variants of stability:{% cite Madore2017 %}
 -   A countable ordinal $\\alpha$ is called **Mahlo-stable** iff $L\_\\alpha\\prec\_{\\Sigma\_1}L\_{\\beta}$ where $\\beta$ is the least [computably Mahlo](Admissible#Recursively\_Mahlo\_and\_further "Admissible#Recursively\_Mahlo\_and\_further") ordinal larger than $\\alpha$; that is, the least $\\beta$ such that any [https://en.wikipedia.org/wiki/Alpha\_recursion\_theory $\\beta$-recursive] function $f:\\beta\\rightarrow\\beta$ has an admissible $\\gamma<\\beta$ which is closed under $f$.
 -   A countable ordinal $\\alpha$ is called **doubly $(+1)$-stable** iff there is a $(+1)$-stable ordinal $\\beta>\\alpha$ such that $L\_\\alpha\\prec\_{\\Sigma\_1}L\_\\beta$.
 -   A countable ordinal $\\alpha$ is called **nonprojectible** iff the set of all $\\beta<\\alpha$ such that $L\_\\beta\\prec\_{\\Sigma\_1}L\_\\alpha$ is unbounded in $\\alpha$.
+
 Further variants have appeared in proof theory, for example in Arai's paper analyzing subsystems of the second-order arithmetic $Z\_2$ "[https://arxiv.org/pdf/1104.1842.pdf#page=15 Introducing the hardline in proof theory]".
 
 ## Properties
@@ -29,6 +30,7 @@ A related property is nonprojectibility, which has many equivalent characterizat
 -   $L\_\\alpha\\vDash\\Sigma\_1\\textrm{-separation}$ (Arai, "[https://arxiv.org/abs/1102.0596 A sneak preview of proof theory of ordinals]", 1997)
 -   There is no [https://en.wikipedia.org/wiki/Alpha\_recursion\_theory $\\alpha$-recursive] injection $f:\\alpha\\rightarrow\\alpha'$ for some $\\alpha'\\in\\alpha$ (Arai, "[https://arxiv.org/abs/1102.0596 A sneak preview of proof theory of ordinals]", 1997)
 -   Alternatively, there is no $\\alpha$-recursive injection<!--Devlin says its domain is γ∈L\_α?--> $f:A\\rightarrow\\alpha$ mapping a bounded subset of $\\alpha$ to $\\alpha$. (Devlin, "An introduction to the fine structure of the constructible hierarchy", 1974)
+
 <!--alpha nonprojectible iff Sigma\_1(L\_alpha) n P(alpha) subseteq L\_alpha? http://saulkripkecenter.org/wp-content/uploads/2019/03/Transfinite-Recursion-Constructible-Sets-and-Analogues-of-Cardinals-PUBLIC.pdf#page=13-->
 
 The sizes of the least $(+1)$-stable ordinal and the least nonprojectible ordinal lie between the least recursively weakly compact and the least [$Σ\_2$-admissible](Admissible#Higher\_admissibility "Admissible#Higher\_admissibility") (the same for other weakened variants of stability defined above). {% cite Madore2017 %}
@@ -50,10 +52,10 @@ When $\\sigma$ is stable, $L\_\\sigma$ is $\\Sigma\_1$-[pointwise-definable](Poi
 The intersection of the sets of countable stable ordinals and $\\{\\beta\\in\\omega\_1:(L\_{\\beta+1}\\setminus L\_\\beta)\\cap P(\\omega)=\\varnothing\\}$ is a very "sparse" set. For example, if we let $f$ enumerate the countable stable ordinals, and let $\\alpha=\\textrm{min}\\{\\sigma:L\_\\sigma\\prec\_{\\Sigma\_1}L\\land(L\_{\\alpha+1}\\setminus L\_\\alpha)\\cap P(\\omega)=\\varnothing\\}$ (i.e. $\\alpha$ is [stable gap](Heights_of_models#Beyond_the_least_stable "Heights of models#Beyond the least stable")), then $\\alpha=f(\\alpha)$.{% cite Marek1974 %}
 
 There are stronger properties then stability:{% cite Marek1974 %}
--    (The first ordinal that is not $\\Delta^1\_n$ is called $\\delta\_n$.)<sup>in section 0</sup>
--    For $n ≥ 2$<sup>Theorem 4.16</sup>
-    -    $L\_{\\delta\_n^L} \\prec\_{\\Sigma\_{n-1}} L\_{\\omega\_1^L}$ and $\\delta\_n^L$ is the least ordinal with this property.
-    -    $L\_{\\delta\_n^L}$ is $\\Sigma\_{n-1}$-pointwise definable and it consists exactly of $\\Sigma\_{n-1}$-definable elements of $\\delta\_n^L$.
--    $\\delta\_2$ is the least stable ordinal.<sup>Theorem 3.1</sup>
+-   (The first ordinal that is not $\\Delta^1\_n$ is called $\\delta\_n$.)<sup>in section 0</sup>
+-   For $n ≥ 2$<sup>Theorem 4.16</sup>
+    -   $L\_{\\delta\_n^L} \\prec\_{\\Sigma\_{n-1}} L\_{\\omega\_1^L}$ and $\\delta\_n^L$ is the least ordinal with this property.
+    -   $L\_{\\delta\_n^L}$ is $\\Sigma\_{n-1}$-pointwise definable and it consists exactly of $\\Sigma\_{n-1}$-definable elements of $\\delta\_n^L$.
+-   $\\delta\_2$ is the least stable ordinal.<sup>Theorem 3.1</sup>
 
 {{References}}

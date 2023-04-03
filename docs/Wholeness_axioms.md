@@ -3,7 +3,7 @@ title: Wholeness_axioms
 permalink: Wholeness_axioms
 ---
 
-The wholeness axioms, proposed by Paul Corazza <cite>Corazza2000:WholenessAxiomAndLaverSequences, Corazza2003:GapBetweenI3andWA</cite>, occupy a
+The wholeness axioms, proposed by Paul Corazza {% cite Corazza2000:WholenessAxiomAndLaverSequences %}{% cite Corazza2003:GapBetweenI3andWA %}, occupy a
 high place in the upper stratosphere of the large cardinal
 hierarchy, intended as slight weakenings of the [Kunen inconsistency](Kunen_inconsistency "Kunen inconsistency"), but similar in spirit.
 
@@ -31,9 +31,9 @@ proof, are the instances of the replacement axiom in the full language with $j$.
 It is not known whether the $\\mathrm{I}\_4^n$ axioms really increase in consistency strength and whether it is possible in $\\mathrm{ZFC}$ that $\\forall \_{n\\in\\omega} \\mathrm{I}\_4^n(\\kappa) \\land\\neg\\mathrm{I}\_3(\\kappa)$.
 
 A sequence of elementary embeddings $\\langle i\_n: M\_n\\prec M\_n|n\\lt\\omega\\rangle$ is called $\\mathrm{I}\_4(\\kappa)$-coherent if and only if for each $n$:
--    $i\_n$ has critical point $\\kappa$,
--    $\\langle M\_n,\\in,i\_n\\rangle$ witnesses $\\mathrm{I}\_4^n(\\kappa)$,
--    and for each $m\\lt n$ $i\_m\\restriction V\_{\\kappa\_{(m)}}=i\_n\\restriction V\_{\\kappa\_{(m)}}$, where $\\kappa\_{(0)}=\\kappa$ and $\\kappa\_{(m)}=i\_m^m(\\kappa)$.
+-   $i\_n$ has critical point $\\kappa$,
+-   $\\langle M\_n,\\in,i\_n\\rangle$ witnesses $\\mathrm{I}\_4^n(\\kappa)$,
+-   and for each $m\\lt n$ $i\_m\\restriction V\_{\\kappa\_{(m)}}=i\_n\\restriction V\_{\\kappa\_{(m)}}$, where $\\kappa\_{(0)}=\\kappa$ and $\\kappa\_{(m)}=i\_m^m(\\kappa)$.
 
 ## $\\mathrm{BTEE}$ etc.
 
@@ -54,14 +54,14 @@ Similar theories can have very different consistency strengths.
 -   If $i$ witnesses $\\mathrm{I}\_4^n(\\kappa)$, then $i^n(\\kappa)$ is measurable.{% cite Corazza2003 %}
 -   $\\mathrm{I}\_3(\\kappa)$ is equivalent to the existence of an $\\mathrm{I}\_4(\\kappa)$-coherent set of embeddings.{% cite Corazza2003 %}
 -   If there is some $j: V\_\\lambda\\prec V\_\\lambda$, then $\\langle V\_\\lambda,\\in,j \\rangle\\vDash WA$.
--    $\\mathrm{ZFC} + \\mathrm{WA}\_0 + \\Sigma\_0\\textrm{-Collection}\_\\mathbf{j}$ is inconsistent.{% cite Corazza2006 %}
--    $\\mathrm{ZFC} + \\mathrm{WA}\_0$ proves the Cofinal Axiom.{% cite Corazza2003 %}
--    If there is an $\\omega$-[Erdős](Erdos "Erdos") cardinal, than there is a transitive set model of $\\mathrm{ZFC} + \\mathrm{BTEE}$.{% cite Corazza2006 %}
--    Consistency of a completely [ineffable](Ineffable "Ineffable") cardinal implies consistency of the theory $\\mathrm{BTEE}$.[https://victoriagitman.github.io/research/2019/06/05/completely-ineffable-cardinals.html]
--    For each particular natural number in the metatheory $n ≥ 1$, $\\mathrm{ZFC} + \\mathrm{BTEE}$ proves that the critical point of $j$ is $n$-ineffable.{% cite Corazza2006 %}
--    $\\mathrm{ZFC} + \\mathrm{BTEE}$ proves that the critical point of $j$ is [totally indescribable](Indescribable "Indescribable").{% cite Corazza2006 %}
--    If $\\mathrm{ZFC}$ is consistent, then there is a model $\\langle M, E, j \\rangle$ of $\\mathrm{ZFC} + \\text{Elementarity} + \\text{Nontriviality}$.{% cite Corazza2006 %}
-    -    However, a well founded model of this theory must also satisfy Critical Point and hence $\\mathrm{BTEE}$.
+-   $\\mathrm{ZFC} + \\mathrm{WA}\_0 + \\Sigma\_0\\textrm{-Collection}\_\\mathbf{j}$ is inconsistent.{% cite Corazza2006 %}
+-   $\\mathrm{ZFC} + \\mathrm{WA}\_0$ proves the Cofinal Axiom.{% cite Corazza2003 %}
+-   If there is an $\\omega$-[Erdős](Erdos "Erdos") cardinal, than there is a transitive set model of $\\mathrm{ZFC} + \\mathrm{BTEE}$.{% cite Corazza2006 %}
+-   Consistency of a completely [ineffable](Ineffable "Ineffable") cardinal implies consistency of the theory $\\mathrm{BTEE}$.[https://victoriagitman.github.io/research/2019/06/05/completely-ineffable-cardinals.html]
+-   For each particular natural number in the metatheory $n ≥ 1$, $\\mathrm{ZFC} + \\mathrm{BTEE}$ proves that the critical point of $j$ is $n$-ineffable.{% cite Corazza2006 %}
+-   $\\mathrm{ZFC} + \\mathrm{BTEE}$ proves that the critical point of $j$ is [totally indescribable](Indescribable "Indescribable").{% cite Corazza2006 %}
+-   If $\\mathrm{ZFC}$ is consistent, then there is a model $\\langle M, E, j \\rangle$ of $\\mathrm{ZFC} + \\text{Elementarity} + \\text{Nontriviality}$.{% cite Corazza2006 %}
+    -   However, a well founded model of this theory must also satisfy Critical Point and hence $\\mathrm{BTEE}$.
 
 {{References}}
 

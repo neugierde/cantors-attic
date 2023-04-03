@@ -14,7 +14,7 @@ $\\omega^\\omega,\\omega^\\omega+1,\\ldots,\\omega^\\omega+\\omega,\\ldots,\\ome
 
 We explain here in detail how to count to $\\omega^2$. This is something that anyone can learn to do, even young children.
 
-First, some terminology: the *successor* of an ordinal $\\alpha$, sometimes written $S\\alpha$, can be thought of as the ordinal coming directly after $\\alpha$<!--A simple explanation without α u {α} or similar constructions-->. Since it's "directly" after $\\alpha$, there are no ordinals $\\beta$ where $\\alpha<\\beta<S\\alpha$.
+First, some terminology: the *successor* of an ordinal $\\alpha$, sometimes written $S\\alpha$, can be thought of as the ordinal coming directly after $\\alpha$<!--A simple explanation without α u {α} or similar constructions-->. Since it's "directly" after $\\alpha$, there are no ordinals $\\beta$ where $\\alpha<\\beta< S\\alpha$.
 
 We begin with the familiar natural numbers 0, 1, 2, 3, etc. After all of these is [$\\omega$](Omega "Omega"), the least *infinite* ordinal. One way to think about what "infinite" means is that it's larger than all finite numbers. (There are other formulations such as Dedekind-infiniteness if we need to do this without reference to $\\mathbb N$)
 
@@ -24,8 +24,8 @@ We continue with $SS\\omega=\\omega+2$, $SSS\\omega=\\omega+3$, etc., until we r
 
 We can also add natural numbers to this ordinal, for example $\\omega+\\omega+5=SSSSS(\\omega+\\omega)$.
 
-## The ordinals below [ $\\epsilon\_0$](Epsilon_naught_ "Epsilon naught ")
+## The ordinals below [$\\epsilon\_0$](Epsilon_naught "Epsilon naught")
 
 
-We shall give here an account of the attractive finitary represenation of the ordinals below [ $\\epsilon\_0$](Epsilon_naught_ "Epsilon naught ").
+We shall give here an account of the attractive finitary represenation of the ordinals below [$\\epsilon\_0$](Epsilon_naught "Epsilon naught").
 ### Kirby-Paris hydra

@@ -24,10 +24,10 @@ The elementary embedding definitions are somewhat standard. Let $j:V\\rightarrow
 Note: $M^{<\\lambda}$ and $M^{\\lambda}$ can also be denoted $^{<\\lambda}M$ and $^{\\lambda}M$.
 
 ### Ultrahuge cardinals
-A cardinal $\\kappa$ is **$\\lambda$-ultrahuge** for $\\lambda>\\kappa$ if there exists a nontrivial elementary embedding $j:V\\to M$ for some transitive class $M$ such that $j(\\kappa)>\\lambda$, $M^{j(\\kappa)}\\subseteq M$ and $V\_{j(\\lambda)}\\subseteq M$. A cardinal is **ultrahuge** if it is $\\lambda$-ultrahuge for all $\\lambda\\geq\\kappa$. [http://logicatorino.altervista.org/slides/150619tsaprounis.pdf] Notice how similar this definition is to the alternative characterization of [extendible](Extendible "Extendible") cardinals. Furthermore, this definition can be extended in the obvious way to define $\\lambda$-ultra n-hugeness and ultra n-hugeness, as well as the "''almost''" variants.
+A cardinal $\\kappa$ is **$\\lambda$-ultrahuge** for $\\lambda>\\kappa$ if there exists a nontrivial elementary embedding $j:V\\to M$ for some transitive class $M$ such that $j(\\kappa)>\\lambda$, $M^{j(\\kappa)}\\subseteq M$ and $V\_{j(\\lambda)}\\subseteq M$. A cardinal is **ultrahuge** if it is $\\lambda$-ultrahuge for all $\\lambda\\geq\\kappa$. (Tsaprounis, [Ultrahuge cardinals](http://logicatorino.altervista.org/slides/150619tsaprounis.pdf)) Notice how similar this definition is to the alternative characterization of [extendible](Extendible "Extendible") cardinals. Furthermore, this definition can be extended in the obvious way to define $\\lambda$-ultra n-hugeness and ultra n-hugeness, as well as the "*almost*" variants.
 
 ### Hyperhuge cardinals
-A cardinal $\\kappa$ is **$\\lambda$-hyperhuge** for $\\lambda>\\kappa$ if there exists a nontrivial elementary embedding $j:V\\to M$ for some inner model $M$ such that $\\mathrm{crit}(j) = \\kappa$, $j(\\kappa)>\\lambda$ and $^{j(\\lambda)}M\\subseteq M$. A cardinal is **hyperhuge** if it is $\\lambda$-hyperhuge for all $\\lambda>\\kappa$.<cite>Usuba2017:DDGandVeryLarge,Boney2017:ModelTheoreticCharacterizations</cite>
+A cardinal $\\kappa$ is **$\\lambda$-hyperhuge** for $\\lambda>\\kappa$ if there exists a nontrivial elementary embedding $j:V\\to M$ for some inner model $M$ such that $\\mathrm{crit}(j) = \\kappa$, $j(\\kappa)>\\lambda$ and $^{j(\\lambda)}M\\subseteq M$. A cardinal is **hyperhuge** if it is $\\lambda$-hyperhuge for all $\\lambda>\\kappa$.{% cite Usuba2017:DDGandVeryLarge %}{% cite Boney2017:ModelTheoreticCharacterizations %}
 
 $\\lambda$-hyperhuge and hyperhuge are other names for [$2$-fold $\\lambda$-supercompact](N-fold\_variants#.24n.24-fold\_supercompact\_cardinals "N-fold\_variants#.24n.24-fold\_supercompact\_cardinals") and $2$-fold supercompact.
 
@@ -39,16 +39,16 @@ Hugeness* variant is formulated in a way allowing for a virtual variant consiste
 ### Ultrafilter definition
 The first-order definition of n-huge is somewhat similar to [measurability](Measurable "Measurable"). Specifically, $\\kappa$ is measurable iff there is a nonprincipal $\\kappa$-complete [ultrafilter](Filter "Filter"), $U$, over $\\kappa$. A cardinal $\\kappa$ is n-huge with target $\\lambda$ iff there is a normal $\\kappa$-complete ultrafilter, $U$, over $\\mathcal{P}(\\lambda)$, and cardinals $\\kappa=\\lambda\_0<\\lambda\_1<\\lambda\_2...<\\lambda\_{n-1}<\\lambda\_n=\\lambda$ such that:
 
-$$\\forall i<n(\\{x\\subseteq\\lambda:\\text{order-type}(x\\cap\\lambda\_{i+1})=\\lambda\_i\\}\\in U)$$
+$$\\forall i< n(\\{x\\subseteq\\lambda:\\text{order-type}(x\\cap\\lambda\_{i+1})=\\lambda\_i\\}\\in U)$$
 
 Where $\\text{order-type}(X)$ is the [order-type](Order-isomorphism "Order-isomorphism") of the poset $(X,\\in)$. {% cite Kanamori2009 %} $\\kappa$ is then super n-huge if for all ordinals $\\theta$ there is a $\\lambda>\\theta$ such that $\\kappa$ is n-huge with target $\\lambda$, i.e. $\\lambda\_n$ can be made arbitrarily large. If $j:V\\to M$ is such that $M^{j^n(\\kappa)}\\subseteq M$ (i.e. $j$ witnesses n-hugeness) then there is a ultrafilter $U$ as above such that, for all $k\\leq n$, $\\lambda\_k = j^k(\\kappa)$, i.e. it is not only $\\lambda=\\lambda\_n$ that is an iterate of $\\kappa$ by $j$; all members of the $\\lambda\_k$ sequence are.
 
 As an example, $\\kappa$ is 1-huge with target $\\lambda$ iff there is a normal $\\kappa$-complete ultrafilter, $U$, over $\\mathcal{P}(\\lambda)$ such that $\\{x\\subseteq\\lambda:\\text{order-type}(x)=\\kappa\\}\\in U$. The reason why this would be so surprising is that every set $x\\subseteq\\lambda$ with every set of order-type $\\kappa$ would be in the ultrafilter; that is, every set containing $\\{x\\subseteq\\lambda:\\text{order-type}(x)=\\kappa\\}$ as a subset is considered a "large set."
 
 As for hyperhugeness, the following are equivalent:{% cite Boney2017 %}
--    $\\kappa$ is $\\lambda$-hyperhuge;
--    $\\mu\\lt\\lambda$ and a normal, fine, $\\kappa$-complete ultrafilter exists on $[\\mu]^\\lambda\_{∗\\kappa} := \\{s\\subseteq μ:|s|=\\lambda, |s\\cap\\kappa|\\lt\\kappa, \\mathrm{otp}(s\\cap\\lambda)\\lt\\kappa\\}$;
--    $\\mathbb{L}\_{\\kappa,\\kappa}$ is $[\\mu]^\\lambda\_{∗\\kappa}$-$\\kappa$-compact for type omission.
+-   $\\kappa$ is $\\lambda$-hyperhuge;
+-   $\\mu\\lt\\lambda$ and a normal, fine, $\\kappa$-complete ultrafilter exists on $[\\mu]^\\lambda\_{∗\\kappa} := \\{s\\subseteq μ:|s|=\\lambda, |s\\cap\\kappa|\\lt\\kappa, \\mathrm{otp}(s\\cap\\lambda)\\lt\\kappa\\}$;
+-   $\\mathbb{L}\_{\\kappa,\\kappa}$ is $[\\mu]^\\lambda\_{∗\\kappa}$-$\\kappa$-compact for type omission.
 
 ### Coherent sequence characterization of almost hugeness
 Almost huge cardinals can be characterized via coherent sequences of ultrafilters, so that the direct limit of the ultrapowers witnesses the almost hugeness of $\\kappa$ and each individual ultrapower witnesses a $j\_\\gamma: V\\prec M\_\\gamma$ with $\\gamma\\lt j(\\kappa)$ and $M^\\gamma\\subseteq M$. $\\kappa$ is almost-huge if there is some inaccessible $\\lambda\\gt\\kappa$ and a coherent sequence of normal ultrafilters $\\langle \\mathcal{U}\_\\gamma|\\kappa\\le\\gamma\\lt\\lambda\\rangle$ over $\\mathcal{P}\_\\kappa(\\gamma)$ such that the corresponding embeddings $j\_\\gamma : V\\to M\_\\gamma\\cong Ult(V, \\mathcal{U}\_\\gamma)$ and $k\_{\\gamma,\\delta}: M\_\\gamma\\to M\_\\delta$ satisfy: if $\\kappa\\le\\gamma\\lt\\lambda$ and $\\gamma\\le\\alpha\\lt j\_\\gamma(\\kappa)$, then there is $\\delta$ such that $\\gamma\\le\\delta\\lt\\lambda$ and $k\_{\\gamma,\\delta}(\\alpha)=\\delta$.{% cite Kanamori2009 %}
@@ -60,49 +60,49 @@ Because each $\\mathcal{U}\_\\gamma$ is a normal fine ultrafilter, $M\_\\gamma^\
 (this section from {% cite Bagaria2012 %}, information about almost-huge and superhuge (and other, if noted) from 2019 extended arXiv version)
 
 Elementary-embedding definitions:
--    $κ$ is **[$C^{(n)}$-$m$-huge](Correct "Correct")** iff it is $m$-huge and $j(κ) ∈ C^{(n)}$ ($C^{(n)}$-huge if it is huge and $j(κ) ∈ C^{(n)}$ ($m=1$)).
--    $κ$ is **$C^{(n)}$-$m$-almost-huge** iff it is almost-huge and $j(κ) ∈ C^{(n)}$.
--    $κ$ is **$C^{(n)}$-superhuge** iff it is superhuge and there are witnessing embeddings with arbitrarily large $j(κ) ∈ C^{(n)}$.
+-   $κ$ is **[$C^{(n)}$-$m$-huge](Correct "Correct")** iff it is $m$-huge and $j(κ) ∈ C^{(n)}$ ($C^{(n)}$-huge if it is huge and $j(κ) ∈ C^{(n)}$ ($m=1$)).
+-   $κ$ is **$C^{(n)}$-$m$-almost-huge** iff it is almost-huge and $j(κ) ∈ C^{(n)}$.
+-   $κ$ is **$C^{(n)}$-superhuge** iff it is superhuge and there are witnessing embeddings with arbitrarily large $j(κ) ∈ C^{(n)}$.
 
 Equivalent definitions in terms of normal measures:
--    $κ$ is $C^{(n)}$-$m$-huge iff it is uncountable and there is a $κ$-complete normal [ultrafilter](Ultrafilter "Ultrafilter") $\\mathcal{U}$ over some $\\mathcal{P}(λ)$ and cardinals $κ = λ\_0 < λ\_1 < . . . < λ\_m = λ$, with $λ\_1 ∈ C^{(n)}$ and such that for each $i < m$, $\\{x ∈ \\mathcal{P}(λ) : ot(x ∩ λ\_{i+1}) = λ\_i \\} ∈ \\mathcal{U}$.
--    $κ$ is $C^{(n)}$-almost-huge iff there is an inaccessible $λ ∈ C^{(n)}$ greater than $κ$ and a coherent sequence of normal ultrafilters $\\langle \\mathcal{U}\_γ : κ ≤ γ < λ \\rangle$ over $\\mathcal{P}\_κ(γ)$ such that the corresponding embeddings $j\_γ : V → M\_γ ≅ Ult(V, \\mathcal{U}\_γ )$ and $k\_{γ,δ} : M\_γ → M\_δ$ satisfy: if $κ ≤ γ < λ$ and $γ ≤ α < j\_γ (κ)$, then there is $δ$ such that $γ ≤ δ < λ$ and $k\_{γ,δ}(α) = δ$. (See {% cite Kanamori2009 %}, 24.11 in 1994 edition for details.)
--    $κ$ is $C^{(n)}$-superhuge iff for every $α$ there is a $κ$-complete fine and normal ultrafilter $\\mathcal{U}$ over some $\\mathcal{P}(λ)$, with $λ ∈ C^{(n)}$ and such that $\\{x ∈ \\mathcal{P}(λ) : ot(x) = κ \\} ∈ \\mathcal{U}$.
+-   $κ$ is $C^{(n)}$-$m$-huge iff it is uncountable and there is a $κ$-complete normal [ultrafilter](Ultrafilter "Ultrafilter") $\\mathcal{U}$ over some $\\mathcal{P}(λ)$ and cardinals $κ = λ\_0 < λ\_1 < . . . < λ\_m = λ$, with $λ\_1 ∈ C^{(n)}$ and such that for each $i < m$, $\\{x ∈ \\mathcal{P}(λ) : ot(x ∩ λ\_{i+1}) = λ\_i \\} ∈ \\mathcal{U}$.
+-   $κ$ is $C^{(n)}$-almost-huge iff there is an inaccessible $λ ∈ C^{(n)}$ greater than $κ$ and a coherent sequence of normal ultrafilters $\\langle \\mathcal{U}\_γ : κ ≤ γ < λ \\rangle$ over $\\mathcal{P}\_κ(γ)$ such that the corresponding embeddings $j\_γ : V → M\_γ ≅ Ult(V, \\mathcal{U}\_γ )$ and $k\_{γ,δ} : M\_γ → M\_δ$ satisfy: if $κ ≤ γ < λ$ and $γ ≤ α < j\_γ (κ)$, then there is $δ$ such that $γ ≤ δ < λ$ and $k\_{γ,δ}(α) = δ$. (See {% cite Kanamori2009 %}, 24.11 in 1994 edition for details.)
+-   $κ$ is $C^{(n)}$-superhuge iff for every $α$ there is a $κ$-complete fine and normal ultrafilter $\\mathcal{U}$ over some $\\mathcal{P}(λ)$, with $λ ∈ C^{(n)}$ and such that $\\{x ∈ \\mathcal{P}(λ) : ot(x) = κ \\} ∈ \\mathcal{U}$.
 
 It follows that
--    “$κ$ is $C^{(n)}$-$m$-huge” and “$κ$ is $C^{(n)}$-almost-huge” are $Σ\_{n+1}$ expressible and
--    “$κ$ is $C^{(n)}$-superhuge” is $Π\_{n+2}$ expressible.
+-   “$κ$ is $C^{(n)}$-$m$-huge” and “$κ$ is $C^{(n)}$-almost-huge” are $Σ\_{n+1}$ expressible and
+-   “$κ$ is $C^{(n)}$-superhuge” is $Π\_{n+2}$ expressible.
 
 Every huge cardinal is $C^{(1)}$-huge. Every superhuge cardinal is $C^{(1)}$-superhuge.
 
 Hierarchy:
--    The first $C^{(n)}$-$m$-huge cardinal is not $C^{(n+1)}$-$m$-huge, for all $m$ and $n$ greater or equal than $1$. For suppose $κ$ is the least $C^{(n)}$-$m$-huge cardinal and $j : V → M$ witnesses that $κ$ is $C^{(n+1)}$-$m$-huge. Then since “x is $C^{(n)}$-$m$-huge” is $Σ\_{n+1}$ expressible, we have $V\_{j(κ)} \\models$ “$κ$ is $C^{(n)}$-$m$-huge”. Hence, since $(V\_{j(κ)})^M = V\_{j(κ)}$, $M \\models$ “$∃\_{δ < j(κ)}(V\_{j(κ)} \\models$ “δ is huge”$)$”. By elementarity, there is a $C^{(n)}$-$m$-huge cardinal less than $κ$ in $V$ – contradiction.
-    -    Similar argumentation shows that he first $C^{(n)}$-superhuge cardinal is not $C^{(n+1)}$-superhuge.
--    If $κ$ is $C^{(n)}$-$2$-huge, then there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : V\_κ \\models$ “$α$ is $C^{(n)}$-superhuge” $\\} ∈ \\mathcal{U}$.
--    If $κ$ is $C^{(n)}$-huge, then it is $C^{(n)}$-almost-huge and there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α$ is $C^{(n)}$-almost-huge$\\} ∈ \\mathcal{U}$
-    -    Every $C^{(n)}$-almost-huge cardinal is $C^{(n)}$-[superstrong](Superstrong "Superstrong"), so it belongs to $C^{(n)}$.
-        -    Therefore, taking into account that $C^{(n)}$-huge is $Σ\_{n+1}$ expressible, the first $C^{(n)}$-huge cardinal is smaller than the first $C^{(n+1)}$-almost-huge cardinal (provided both exist).
+-   The first $C^{(n)}$-$m$-huge cardinal is not $C^{(n+1)}$-$m$-huge, for all $m$ and $n$ greater or equal than $1$. For suppose $κ$ is the least $C^{(n)}$-$m$-huge cardinal and $j : V → M$ witnesses that $κ$ is $C^{(n+1)}$-$m$-huge. Then since “x is $C^{(n)}$-$m$-huge” is $Σ\_{n+1}$ expressible, we have $V\_{j(κ)} \\models$ “$κ$ is $C^{(n)}$-$m$-huge”. Hence, since $(V\_{j(κ)})^M = V\_{j(κ)}$, $M \\models$ “$∃\_{δ < j(κ)}(V\_{j(κ)} \\models$ “δ is huge”$)$”. By elementarity, there is a $C^{(n)}$-$m$-huge cardinal less than $κ$ in $V$ – contradiction.
+    -   Similar argumentation shows that he first $C^{(n)}$-superhuge cardinal is not $C^{(n+1)}$-superhuge.
+-   If $κ$ is $C^{(n)}$-$2$-huge, then there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : V\_κ \\models$ “$α$ is $C^{(n)}$-superhuge”$ \\} ∈ \\mathcal{U}$.
+-   If $κ$ is $C^{(n)}$-huge, then it is $C^{(n)}$-almost-huge and there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α\\textrm{ is }C^{(n)}\\textrm{-almost-huge}\\} ∈ \\mathcal{U}$
+    -   Every $C^{(n)}$-almost-huge cardinal is $C^{(n)}$-[superstrong](Superstrong "Superstrong"), so it belongs to $C^{(n)}$.
+        -   Therefore, taking into account that $C^{(n)}$-huge is $Σ\_{n+1}$ expressible, the first $C^{(n)}$-huge cardinal is smaller than the first $C^{(n+1)}$-almost-huge cardinal (provided both exist).
 
 Relations with other large cardinals:
--    If $κ$ is $C^{(n)}$-superhuge, then $κ$ is $C^{(n)}$-[extendible](Extendible "Extendible") (in particular $κ ∈ C^{(n+2)}$) and there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α$ is $C^{(n)}$-extendible$\\} ∈ \\mathcal{U}$. $κ$ is also $C^{(n)}$-[supercompact](Supercompact "Supercompact").
--    Assuming [$\\mathrm{I3}(κ, δ)$](Rank_into_rank "Rank into rank"), if $δ$ is a limit cardinal (instead of a successor of a limit cardinal – Kunen’s Theorem excludes other cases), it is equal to $sup\\{j^m(κ) : m ∈ ω\\}$ where $j$ is the elementary embedding. Then $κ$ and $j^m(κ)$ are $C^{(n)}$-$m$-huge and $C^{(n)}$-superhuge (inter alia) in $V\_δ$, for all $n$ and $m$.
--    If $κ$ is $C^{(n)}$-$\\mathrm{I3}$, then it is $C^{(n)}$-$m$-huge, for all $m$, and there is a ($κ$-complete — from 2019 version) normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α$ is $C^{(n)}$-$m$-huge for every $m\\} ∈ \\mathcal{U}$.
+-   If $κ$ is $C^{(n)}$-superhuge, then $κ$ is $C^{(n)}$-[extendible](Extendible "Extendible") (in particular $κ ∈ C^{(n+2)}$) and there is a $κ$-complete normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α\\textrm{ is }C^{(n)}\textrm{-extendible}\\} ∈ \\mathcal{U}$. $κ$ is also $C^{(n)}$-[supercompact](Supercompact "Supercompact").
+-   Assuming [$\\mathrm{I3}(κ, δ)$](Rank_into_rank "Rank into rank"), if $δ$ is a limit cardinal (instead of a successor of a limit cardinal – Kunen’s Theorem excludes other cases), it is equal to $sup\\{j^m(κ) : m ∈ ω\\}$ where $j$ is the elementary embedding. Then $κ$ and $j^m(κ)$ are $C^{(n)}$-$m$-huge and $C^{(n)}$-superhuge (inter alia) in $V\_δ$, for all $n$ and $m$.
+-   If $κ$ is $C^{(n)}$-$\\mathrm{I3}$, then it is $C^{(n)}$-$m$-huge, for all $m$, and there is a ($κ$-complete — from 2019 version) normal ultrafilter $\\mathcal{U}$ over $κ$ such that $\\{α < κ : α$ is $C^{(n)}$-$m$-huge for every $m\\} ∈ \\mathcal{U}$.
 
 ## Consistency strength and size
 Hugeness exhibits a phenomenon associated with similarly defined large cardinals (the [n-fold variants](N-fold_variants "N-fold variants")) known as the *double helix*. This phenomenon is when for one n-fold variant, letting a cardinal be called n-$P\_0$ iff it has the property, and another variant, n-$P\_1$, n-$P\_0$ is weaker than n-$P\_1$, which is weaker than (n+1)-$P\_0$. {% cite Kentaro2007 %} In the consistency strength hierarchy, here is where these lay (top being weakest):
 
--    [measurable](Measurable "Measurable") = 0-[superstrong](Superstrong "Superstrong") = 0-huge
--    n-superstrong
--    n-fold supercompact
--    (n+1)-fold strong, n-fold extendible
--    (n+1)-fold Woodin, n-fold Vopěnka
--    (n+1)-fold Shelah
--    almost n-huge
--    super almost n-huge
--    n-huge
--    super n-huge
--    ultra n-huge
--    (n+1)-superstrong
+-   [measurable](Measurable "Measurable") = 0-[superstrong](Superstrong "Superstrong") = 0-huge
+-   n-superstrong
+-   n-fold supercompact
+-   (n+1)-fold strong, n-fold extendible
+-   (n+1)-fold Woodin, n-fold Vopěnka
+-   (n+1)-fold Shelah
+-   almost n-huge
+-   super almost n-huge
+-   n-huge
+-   super n-huge
+-   ultra n-huge
+-   (n+1)-superstrong
 
 All huge variants lay at the top of the double helix restricted to some [natural number](Omega "Omega") n, although each are bested by [I3](Rank-into-rank "Rank-into-rank") cardinals (the [critical points](Elementary_embedding "Elementary embedding") of the I3 elementary embeddings). In fact, every I3 is preceeded by a stationary set of n-huge cardinals, for all n. {% cite Kanamori2009 %}
 
@@ -125,10 +125,10 @@ Without the [axiom of choice](Axiom_of_choice "Axiom of choice") $\\omega\_1$ ca
 An $n$-huge* cardinal is an $n$-huge limit of $n$-huge cardinals. Every $n + 1$-huge cardinal is $n$-huge*.{% cite GitmanSchindler %}
 
 As for virtually $n$-huge*:{% cite GitmanSchindler %}
--    If $κ$ is virtually huge*, then $V\_κ$ is a model of proper class many [virtually extendible](Extendible "Extendible") cardinals.
--    A virtually $n+1$-huge* cardinal is a limit of virtually $n$-huge* cardinals.
--    A virtually $n$-huge* cardinal is an $n+1$-[iterable](Iterable "Iterable") limit of $n+1$-iterable cardinals. If $κ$ is $n+2$-iterable, then $V\_κ$ is a model of proper class many virtually $n$-huge* cardinals.
--    Every [virtually rank-into-rank](Rank-into-rank "Rank-into-rank") cardinal is a virtually $n$-huge* limit of virtually $n$-huge* cardinals for every $n < ω$.
+-   If $κ$ is virtually huge*, then $V\_κ$ is a model of proper class many [virtually extendible](Extendible "Extendible") cardinals.
+-   A virtually $n+1$-huge* cardinal is a limit of virtually $n$-huge* cardinals.
+-   A virtually $n$-huge* cardinal is an $n+1$-[iterable](Iterable "Iterable") limit of $n+1$-iterable cardinals. If $κ$ is $n+2$-iterable, then $V\_κ$ is a model of proper class many virtually $n$-huge* cardinals.
+-   Every [virtually rank-into-rank](Rank-into-rank "Rank-into-rank") cardinal is a virtually $n$-huge* limit of virtually $n$-huge* cardinals for every $n < ω$.
 
 ### The $\\omega$-huge cardinals
 A cardinal $\\kappa$ is **almost $\\omega$-huge** iff there is some transitive model $M$ and an elementary embedding $j:V\\prec M$ with critical point $\\kappa$ such that $M^{<\\lambda}\\subset M$ where $\\lambda$ is the smallest cardinal above $\\kappa$ such that $j(\\lambda)=\\lambda$. Similarly, $\\kappa$ is **$\\omega$-huge** iff the model $M$ can be required to have $M^\\lambda\\subset M$.
@@ -138,7 +138,7 @@ Sadly, $\\omega$-huge cardinals are inconsistent with ZFC by a version of Kunen'
 ## Relative consistency results
 
 ### Hugeness of $\\omega\_1$
-In [https://projecteuclid.org/euclid.rmjm/1181073173] it is shown that if $\\text{ZFC +}$ "there is a huge cardinal" is consistent then so is $\\text{ZF +}$ "$\\omega\_1$ is a huge cardinal" (with the ultrafilter characterization of hugeness).
+In (Mignone, [The relative consistency of a 'large cardinal' property for $\omega_1$](https://projecteuclid.org/euclid.rmjm/1181073173)) it is shown that if $\\text{ZFC +}$ "there is a huge cardinal" is consistent then so is $\\text{ZF +}$ "$\\omega\_1$ is a huge cardinal" (with the ultrafilter characterization of hugeness).
 
 ### Generalizations of Chang's conjecture
 

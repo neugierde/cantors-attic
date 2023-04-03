@@ -9,23 +9,23 @@ Inaccessible cardinals are the traditional entry-point to the large cardinal hie
 A cardinal $\\kappa$ is *inaccessible*, also called *strongly inaccessible*, if it is an [uncountable](Uncountable "Uncountable") [regular](Regular "Regular") [strong limit](Strong_limit "Strong limit") cardinal.
 
 A cardinal $\\kappa$ being inaccessible implies the following:
--    $V\_\\kappa$ is a model of ZFC and so inaccessible cardinals are [worldly](Worldly "Worldly").
--    The worldly cardinals are unbounded in $\\kappa$, so $V\_\\kappa$ satisfies the existence of a proper class of worldly cardinals.
--    $\\kappa$ is an [aleph fixed point](Aleph_fixed_point "Aleph fixed point") and a [beth fixed point](Beth_fixed_point "Beth fixed point"), and consequently $V\_\\kappa=H\_\\kappa$.
--    (Solovay)there is an inner model of a forcing extension satisfying ZF+DC in which every set of reals is Lebesgue measurable; in fact, this is equiconsistent to the existence of an inaccessible cardinal.
--    For any $A\\subseteq V\_\\kappa$, the set of all $\\alpha<\\kappa$ such that $\\langle V\_\\alpha;\\in,A\\cap V\_\\alpha\\rangle\\prec\\langle V\_\\kappa;\\in,A\\rangle$ is [club](Club "Club") in $\\kappa$.
+-   $V\_\\kappa$ is a model of ZFC and so inaccessible cardinals are [worldly](Worldly "Worldly").
+-   The worldly cardinals are unbounded in $\\kappa$, so $V\_\\kappa$ satisfies the existence of a proper class of worldly cardinals.
+-   $\\kappa$ is an [aleph fixed point](Aleph_fixed_point "Aleph fixed point") and a [beth fixed point](Beth_fixed_point "Beth fixed point"), and consequently $V\_\\kappa=H\_\\kappa$.
+-   (Solovay)there is an inner model of a forcing extension satisfying ZF+DC in which every set of reals is Lebesgue measurable; in fact, this is equiconsistent to the existence of an inaccessible cardinal.
+-   For any $A\\subseteq V\_\\kappa$, the set of all $\\alpha<\\kappa$ such that $\\langle V\_\\alpha;\\in,A\\cap V\_\\alpha\\rangle\\prec\\langle V\_\\kappa;\\in,A\\rangle$ is [club](Club "Club") in $\\kappa$.
 
 An ordinal $\\alpha$ being inaccessible is equivalent to the following:
--    $V\_{\\alpha+1}$ satisfies $\\mathrm{KM}$.
--    $\\alpha>\\omega$ and $V\_\\alpha$ is a Grothendiek universe.
--    $\\alpha$ is [ $\\Pi\_0^1$-Indescribable](Indescribable_ "Indescribable ").
--    $\\alpha$ is $\\Sigma\_1^1$-Indescribable.
--    $\\alpha$ is $\\Pi\_2^0$-Indescribable.
--    $\\alpha$ is $0$-Indescribable.
--    $\\alpha$ is a nonzero limit ordinal and $\\beth\_\\alpha=R\_\\alpha$ where $R\_\\beta$ is the $\\beta$-th regular cardinal, i.e. the least regular $\\gamma$ such that $\\{\\kappa\\in\\gamma:\\mathrm{cf}(\\kappa)=\\kappa\\}$ has order-type $\\beta$.
--    $\\alpha = \\beth\_{R\_\\alpha}$.
--    $\\alpha = R\_{\\beth\_\\alpha}$.
--    $\\alpha$ is a weakly inaccessible strong limit cardinal (see weakly inaccessible below).
+-   $V\_{\\alpha+1}$ satisfies $\\mathrm{KM}$.
+-   $\\alpha>\\omega$ and $V\_\\alpha$ is a Grothendiek universe.
+-   $\\alpha$ is [ $\\Pi\_0^1$-Indescribable](Indescribable_ "Indescribable ").
+-   $\\alpha$ is $\\Sigma\_1^1$-Indescribable.
+-   $\\alpha$ is $\\Pi\_2^0$-Indescribable.
+-   $\\alpha$ is $0$-Indescribable.
+-   $\\alpha$ is a nonzero limit ordinal and $\\beth\_\\alpha=R\_\\alpha$ where $R\_\\beta$ is the $\\beta$-th regular cardinal, i.e. the least regular $\\gamma$ such that $\\{\\kappa\\in\\gamma:\\mathrm{cf}(\\kappa)=\\kappa\\}$ has order-type $\\beta$.
+-   $\\alpha = \\beth\_{R\_\\alpha}$.
+-   $\\alpha = R\_{\\beth\_\\alpha}$.
+-   $\\alpha$ is a weakly inaccessible strong limit cardinal (see weakly inaccessible below).
 
 ## Weakly inaccessible cardinal
 
@@ -33,9 +33,9 @@ A cardinal $\\kappa$ is *weakly inaccessible* if it is an [uncountable](Uncounta
 
 There are a few equivalent definitions of weakly inaccessible cardinals. In particular:
 
--   Letting $R$ be the transfinite enumeration of [regular](Regular "Regular") cardinals, a limit ordinal $\\alpha$ is weakly inaccessible if and only if $R\_\\alpha=\\aleph\_\\alpha$
--   A nonzero cardinal $\\kappa$ is weakly inaccessible if and only if $\\kappa$ is regular and there are $\\kappa$-many regular cardinals below $\\kappa$; that is, $\\kappa=R\_\\kappa$.
--   A regular cardinal $\\kappa$ is weakly inaccessible if and only if $\\mathrm{REG}$ is unbounded in $\\kappa$ (showing the correlation between [weakly Mahlo](Mahlo "Mahlo") cardinals and weakly inaccessible cardinals, as stationary in $\\kappa$ is replaced with unbounded in $\\kappa$)
+-  Letting $R$ be the transfinite enumeration of [regular](Regular "Regular") cardinals, a limit ordinal $\\alpha$ is weakly inaccessible if and only if $R\_\\alpha=\\aleph\_\\alpha$
+-  A nonzero cardinal $\\kappa$ is weakly inaccessible if and only if $\\kappa$ is regular and there are $\\kappa$-many regular cardinals below $\\kappa$; that is, $\\kappa=R\_\\kappa$.
+-  A regular cardinal $\\kappa$ is weakly inaccessible if and only if $\\mathrm{REG}$ is unbounded in $\\kappa$ (showing the correlation between [weakly Mahlo](Mahlo "Mahlo") cardinals and weakly inaccessible cardinals, as stationary in $\\kappa$ is replaced with unbounded in $\\kappa$)
 
 ## Levy collapse
 
@@ -48,11 +48,12 @@ A cardinal $\\kappa$ is *inaccessible to reals* if it is inaccessible in $L[x]$ 
 ## Universes
 
 When $\\kappa$ is inaccessible, then $V\_\\kappa$ provides a highly natural transitive model of set theory, a universe in which one can view a large part of classical mathematics as taking place. In what appears to be an instance of convergent evolution, the same universe concept arose in category theory out of the desire to provide a hierarchy of notions of smallness, so that one may form such categories as the category of all small groups, or small rings or small categories, without running into the difficulties of [Russell's paradox](Russell's_paradox "Russell's paradox"). Namely, a *Grothendieck universe* is a transitive set $W$ that is closed under pairing, power set and unions. That is,
--    (transitivity) If $b\\in a\\in W$, then $b\\in W$.
--    (pairing) If $a,b\\in W$, then $\\{a,b\\}\\in W$.
--    (power set) If $a\\in W$, then $P(a)\\in W$.
--    (union) If $a\\in W$, then $\\cup a\\in W$.
-It follows by a simple inductive argument that the Grothendieck universes are precisely the sets of the form $V\_\\kappa$, where $\\kappa$ is either [ $0$](Zero_ "Zero "), [ $\\omega$](Omega_ "Omega ") or an inaccessible cardinal.
+-   (transitivity) If $b\\in a\\in W$, then $b\\in W$.
+-   (pairing) If $a,b\\in W$, then $\\{a,b\\}\\in W$.
+-   (power set) If $a\\in W$, then $P(a)\\in W$.
+-   (union) If $a\\in W$, then $\\cup a\\in W$.
+
+It follows by a simple inductive argument that the Grothendieck universes are precisely the sets of the form $V\_\\kappa$, where $\\kappa$ is either [ $0$](Zero "Zero"), [$\\omega$](Omega "Omega") or an inaccessible cardinal.
 
 The *Grothendieck universe axiom* is the assertion that every set is an element of a Grothendieck universe. This is equivalent to the assertion that the inaccessible cardinals form a proper class.
 

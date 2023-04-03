@@ -23,7 +23,7 @@ Every supercompact has [Mitchell order](Mitchell_order "Mitchell order") $(2^\\k
 
 If $\\kappa$ is $\\lambda$-supercompact then it is also $\\mu$-supercompact for every $\\mu<\\lambda$. If $\\lambda\\geq\\kappa$ is regular, $\\kappa$ is $\\lambda$-supercompact, then every $\\alpha<\\kappa$ that is $\\gamma$-supercompact for all $\\gamma<\\kappa$ (if any exists) is also $\\lambda$-supercompact. In the same vein, for every cardinals $\\kappa<\\lambda$, if $\\lambda$ is supercompact and $\\kappa$ is $\\gamma$-supercompact for all $\\gamma<\\lambda$, then $\\kappa$ is also supercompact.
 
-''Laver's theorem* asserts that if $\\kappa$ is supercompact, there exists a function $f:\\kappa\\to V\_\\kappa$ such that for every $x$ and $\\lambda\\geq\\kappa$ with $|tc(x)|\\leq\\lambda$ there exists a normal fine measure $U$ on $\\mathcal{P}\_\\kappa(\\lambda)$ such that $j\_U(f)(\\kappa)=x$, where $j\_U$ is the elementary embedding generated from $U$. Here $tc(x)$ is the *transitive closure* of $x$ (i.e. the smallest transitive set containing $x$), and $f$ is called a *Laver function*.
+*Laver's theorem* asserts that if $\\kappa$ is supercompact, there exists a function $f:\\kappa\\to V\_\\kappa$ such that for every $x$ and $\\lambda\\geq\\kappa$ with $|tc(x)|\\leq\\lambda$ there exists a normal fine measure $U$ on $\\mathcal{P}\_\\kappa(\\lambda)$ such that $j\_U(f)(\\kappa)=x$, where $j\_U$ is the elementary embedding generated from $U$. Here $tc(x)$ is the *transitive closure* of $x$ (i.e. the smallest transitive set containing $x$), and $f$ is called a *Laver function*.
 
 Without the [axiom of choice](Axiom_of_choice "Axiom of choice") $\\omega\_1$ can be supercompact. ([https://link.springer.com/article/10.1007/BF02771215 Jech, 1968], Takeuti, 1970, after [https://eprints.illc.uva.nl/id/eprint/689/1/X-2013-02.text.pdf])
 
@@ -37,13 +37,13 @@ The existence of a supercompact implies the consistency of the failure of the *s
 
 By combining results of Magidor, Shelah and Gitik, one can show that the existence of a supercompact also implies the existence of a [generic extension](Forcing "Forcing") in which $2^{\\aleph\_\\alpha}<\\aleph\_{\\omega\_1}$ for all $\\alpha<\\omega\_1$, but also $2^{\\aleph\_{\\omega\_1}}>\\aleph\_{\\omega\_1+\\alpha+1}$ for any prescribed $\\alpha<\\omega\_2$. Similarly, one can have a generic extension in which the $\\text{GCH}$ holds below $\\aleph\_\\omega$ but $2^{\\aleph\_\\omega}>\\aleph\_{\\omega+\\alpha+1}$ for any prescribed $\\alpha<\\omega\_1$.
 
-Woodin and Cummings furthermore showed that if there exists a supercompact, then there is a generic extension in which $2^\\kappa=\\kappa^{++}$ for *every* cardinal $\\kappa$, i.e. the $\\text{GCH}$ fails *everywhere''(!).
+Woodin and Cummings furthermore showed that if there exists a supercompact, then there is a generic extension in which $2^\\kappa=\\kappa^{++}$ for *every* cardinal $\\kappa$, i.e. the $\\text{GCH}$ fails *everywhere*(!).
 
 The [ultrapower axiom](Ultrapower_axiom "Ultrapower axiom"), if consistent with a supercompact, implies that the $\\text{GCH}$ holds above the least supercompact.
 
 ### Laver preparation
 
-''Indestructibility, including the Laver diamond.* [Laver 78]
+*Indestructibility, including the Laver diamond.* [Laver 78]
 
 Some properties usually obtained by forcing are possible in [inner model](Inner_model "Inner model")s, for example{% cite ApterGitmanHamkins2012 %}:
 -    (theorem 14) If there is a supercompact cardinal, then there are inner models with an [indestructible](Indestructible "Indestructible") supercompact cardinal $κ$ such that

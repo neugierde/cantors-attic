@@ -3,8 +3,7 @@ title: $\exists j:L(V_{\lambda+1})\to L(V_{\lambda+1})$
 permalink: L_of_V_lambda+1
 ---
 
-*See first: [rank into rank
-axioms](Rank_into_rank "Rank into rank")*
+*See first: [rank into rank axioms](Rank_into_rank "Rank into rank")*
 
 The axiom **I0**, the large cardinal axiom of the title, asserts that
 some nontrivial elementary embedding $j:V\_{\\lambda+1}\\to
@@ -53,7 +52,7 @@ $j:L(V\_{\\lambda + 1})\\prec L(V\_{\\lambda+1})$, an ultrafilter $U\_j$
 as the collection of sets $X\\in
 L(V\_{\\lambda+1})\\cap\\{k:L(V\_{\\lambda+1})\\prec
 L(V\_{\\lambda+1})\\}$ where $$X\\in U\_j \\Leftrightarrow
-j\\restriction V\_\\lambda \\in jX.$$ Note that $U\_j$ is a normal
+j\\upharpoonright V\_\\lambda \\in jX.$$ Note that $U\_j$ is a normal
 non-principal $L(V\_{\\lambda+1})$ ultrafilter over $V\_{\\lambda+1}$,
 hence the ultrafilter $Ult(L(V\_{\\lambda+1}),
 j)=\\big(L(V\_{\\lambda+1}^{\\mathcal{E}(V\_{\\lambda+1})})\\cap

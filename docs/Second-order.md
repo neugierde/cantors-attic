@@ -3,15 +3,15 @@ title: Second-order
 permalink: Second-order
 ---
 
-''In construction.*
+*In construction.*
 
 $\\text{ZFC}$, the usual first-order axiomatic set theory, can only manipulate sets, and cannot formalize the notion of a proper class (e.g. the class of all sets, $V$), so when one needs to manipulate proper class objects, it is tempting to switch to a second-order logic form of $\\text{ZFC}$. However, because many useful theorems such as Gödel's Completeness Theorem does not apply to second-order logic theories, it is more convenient to use first-order two-sorted axiomatic theories with two types of variables, one for sets and one for classes. Two such "false" second-order theories, $\\text{NBG}$ and $\\text{MK}$, are the most widely used extensions of $\\text{ZFC}$.
 
-Throughout this article, "''first-order (set theory) formula''" means a formula in the language of $\\text{ZFC}$, eventually with class parameters, but only set quantifiers. "''second-order (set theory) formula''" means a formula in the language of $\\text{NBC}$ and $\\text{MK}$, i.e. it can contain class quantifiers.
+Throughout this article, "*first-order (set theory) formula*" means a formula in the language of $\\text{ZFC}$, eventually with class parameters, but only set quantifiers. "*second-order (set theory) formula*" means a formula in the language of $\\text{NBC}$ and $\\text{MK}$, i.e. it can contain class quantifiers.
 
-**Von Neumann-Bernays-Gödel set theory** (commonly abbreviated as *$\\text{NBG}$* or *$\\text{GCB}$'') is a conservative extension of $\\text{ZFC}$ - that is, it proves the same first-order sentences as $\\text{ZFC}$. It is equiconsistent with $\\text{ZFC}$. However, unlike $\\text{ZFC}$ and $\\text{MK}$, it is possible to finitely axiomatize $\\text{NBG}$. It was named after John von Neumann, Paul Bernays and Kurt Gödel.
+**Von Neumann-Bernays-Gödel set theory** (commonly abbreviated as *$\\text{NBG}$* or *$\\text{GCB}$*) is a conservative extension of $\\text{ZFC}$ - that is, it proves the same first-order sentences as $\\text{ZFC}$. It is equiconsistent with $\\text{ZFC}$. However, unlike $\\text{ZFC}$ and $\\text{MK}$, it is possible to finitely axiomatize $\\text{NBG}$. It was named after John von Neumann, Paul Bernays and Kurt Gödel.
 
-**Morse-Kelley set theory** (commonly abbreviated as *$\\text{MK}$* or *$\\text{KM}$'') is an extension of $\\text{NBG}$ which is stronger than $\\text{ZFC}$ and $\\text{NBG}$ in consistency strength. It was named after John L. Kelley and Anthony Morse. It only differs from $\\text{NBG}$ by a single axiom-schema. It is not finitely axiomatizable.
+**Morse-Kelley set theory** (commonly abbreviated as *$\\text{MK}$* or *$\\text{KM}$*) is an extension of $\\text{NBG}$ which is stronger than $\\text{ZFC}$ and $\\text{NBG}$ in consistency strength. It was named after John L. Kelley and Anthony Morse. It only differs from $\\text{NBG}$ by a single axiom-schema. It is not finitely axiomatizable.
 
 It is possible to turn both theories into first-order axiomatic set theories with only class variables, a class $X$ is called a set (abbreviated $\\text{M}X$) iff $\\exists Y(X\\in Y)$. One can also define $\\text{M}X\\equiv X\\in V$ with $V$ a symbol of the language representing the universal class containing all sets. That is, a set is a class member of another class.
 
@@ -56,7 +56,6 @@ Because it uses classes, set models of $\\text{MK}$ are generally taken to be th
 ### Class forcing theorem and equivalents
 ### Class determinacy of open games
 
-{{stub}}
 
 <!--
 ## Mose-Kelley set theory

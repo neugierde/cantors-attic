@@ -3,7 +3,8 @@ title: Reflecting_cardinals
 permalink: Reflecting_cardinals
 ---
 
-: *Not to be confused with [reflecting ordinal](Reflecting_ordinal "Reflecting ordinal")s.*
+:   *Not to be confused with [reflecting ordinal](Reflecting_ordinal "Reflecting ordinal")s.*
+
 Reflection is a fundamental motivating concern in set theory. The theory of ZFC can be equivalently axiomatized over the very weak [Kripke-Platek](Kripke-Platek "Kripke-Platek") set theory by the addition of the reflection theorem scheme, below, since instances of the replacement axiom will follow from an instance of $\\Delta\_0$-separation after reflection down to a $V\_\\alpha$ containing the range of the defined function. Several philosophers have advanced philosophical justifications of large cardinals based on ideas arising from reflection.
 
 ## Reflection theorem
@@ -17,7 +18,7 @@ Note that by conjunction, for any finite family of formulas $\\phi\_0...\\phi\_n
 
 ## Reflection and correctness
 
-For any class $\\Gamma$ of formulas, an inaccessible cardinal $\\kappa$ is *$\\Gamma$-reflecting* if and only if $H\_\\kappa\\prec\_\\Gamma V$, meaning that for any $\\varphi\\in\\Gamma$ and $a\\in H\_\\kappa$ we have $V\\models\\varphi[a]\\iff H\_\\kappa\\models\\varphi[a]$. For example, an inaccessible cardinal is *$\\Sigma\_n$-reflecting* if and only if $H\_\\kappa\\prec\_{\\Sigma\_n} V$. In the case that $\\kappa$ is not necessarily inaccessible, we say that $\\kappa$ is *$\\Gamma$-correct* if and only if $H\_\\kappa\\prec\_\\Gamma V$*.
+For any class $\\Gamma$ of formulas, an inaccessible cardinal $\\kappa$ is *$\\Gamma$-reflecting* if and only if $H\_\\kappa\\prec\_\\Gamma V$, meaning that for any $\\varphi\\in\\Gamma$ and $a\\in H\_\\kappa$ we have $V\\models\\varphi[a]\\iff H\_\\kappa\\models\\varphi[a]$. For example, an inaccessible cardinal is *$\\Sigma\_n$-reflecting* if and only if $H\_\\kappa\\prec\_{\\Sigma\_n} V$. In the case that $\\kappa$ is not necessarily inaccessible, we say that $\\kappa$ is *$\\Gamma$-correct* if and only if $H\_\\kappa\\prec\_\\Gamma V$.
 
 -    A simple L&ouml;wenheim-Skolem argument shows that every uncountable cardinal $\\kappa$ is $\\Sigma\_1$-correct.
 -    For each natural number $n$, the $\\Sigma\_n$-correct cardinals form a closed unbounded proper class of cardinals, as a consequence of the [reflection theorem](Reflection_theorem "Reflection theorem"). This class is sometimes denoted by $C^{(n)}$ and the $\\Sigma\_n$-correct cardinals are also sometimes referred to as the $C^{(n)}$-cardinals.
@@ -35,7 +36,7 @@ If there is a pseudo [uplifting](Uplifting "Uplifting") cardinal, or indeed, mer
 
 ## $\\Sigma\_2$-correct cardinals
 
-The $\\Sigma\_2$-correct cardinals are a particularly useful and robust class of cardinals, because of the following characterization:  $\\kappa$ is $\\Sigma\_2$-correct if and only if for any $x\\in V\_\\kappa$ and any formula $\\varphi$ of any complexity, whenever there is an ordinal $\\alpha$ such that $V\_\\alpha\\models\\varphi[x]$, then there is $\\alpha\\lt\\kappa$ with $V\_\\alpha\\models\\varphi[x]$. The reason this is equivalent to $\\Sigma\_2$-correctness is that assertions of the form $\\exists \\alpha\\ V\_\\alpha\\models\\varphi(x)$ have complexity $\\Sigma\_2(x)$, and conversely all $\\Sigma\_2(x)$ assertions can be made in that form. ([http://jdh.hamkins.org/local-properties-in-set-theory/ JDH, "Local properties in set theory"])
+The $\\Sigma\_2$-correct cardinals are a particularly useful and robust class of cardinals, because of the following characterization:  $\\kappa$ is $\\Sigma\_2$-correct if and only if for any $x\\in V\_\\kappa$ and any formula $\\varphi$ of any complexity, whenever there is an ordinal $\\alpha$ such that $V\_\\alpha\\models\\varphi[x]$, then there is $\\alpha\\lt\\kappa$ with $V\_\\alpha\\models\\varphi[x]$. The reason this is equivalent to $\\Sigma\_2$-correctness is that assertions of the form $\\exists \\alpha\\ V\_\\alpha\\models\\varphi(x)$ have complexity $\\Sigma\_2(x)$, and conversely all $\\Sigma\_2(x)$ assertions can be made in that form. (JDH, "[Local properties in set theory](http://jdh.hamkins.org/local-properties-in-set-theory/)")
 
 It follows, for example, that if $\\kappa$ is $\\Sigma\_2$-correct, then any feature of $\\kappa$ or any larger cardinal than $\\kappa$ that can be verified in a large $V\_\\alpha$ will reflect below $\\kappa$. So if $\\kappa$ is $\\Sigma\_2$-reflecting, for example, then there must be unboundedly many inaccessible cardinals below $\\kappa$. Similarly, if $\\kappa$ is $\\Sigma\_2$-reflecting and measurable, then there must be unboundedly many measurable cardinals below $\\kappa$.
 

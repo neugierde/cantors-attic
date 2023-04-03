@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-for file in `cat bin/filelist.txt`
+for file in `cat bin/pagesToUpdate.txt`
 do
     cat _html/$file.html \
     | pandoc -f html -t gfm --atx-headers \

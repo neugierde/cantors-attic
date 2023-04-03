@@ -17,7 +17,7 @@ $\\mathrm{crit}(j) ∈ C$.{% cite Bagaria2017 %}
 We call $\\kappa$ a **limit club Berkeley** cardinal if it is a club Berkeley cardinal and a limit of Berkeley cardinals.{% cite Bagaria2017 %}
 
 ## Relations
--   If $\\kappa$ is the least Berkeley cardinal, then there is $\\gamma\\lt\\kappa$ such that $(V\_\\gamma , V\_{\\gamma+1})\\vDash\\mathrm{ZF}\_2 + \\text{“There is a Reinhardt cardinal witnessed by $j$ and an $\\omega$-huge above $\\kappa\_\\omega(j)”$}$.{% cite Bagaria2017 %}
+-   If $\\kappa$ is the least Berkeley cardinal, then there is $\\gamma\\lt\\kappa$ such that $(V\_\\gamma , V\_{\\gamma+1})\\vDash\\mathrm{ZF}\_2 + \\text{“There is a Reinhardt cardinal witnessed by }j\text{ and an }\\omega\textrm{-huge above }\\kappa\_\\omega(j)\text{”}$.{% cite Bagaria2017 %}
 -   For every $\\alpha$, $\\delta\_\\alpha$ is Berkeley. Therefore $\\delta\_\\alpha$ is the least Berkeley cardinal above $\\alpha$.{% cite Bagaria2017 %}
 -   In particular, the least proto-Berkeley cardinal $\\delta\_0$ is also the least Berkeley cardinal.{% cite Bagaria2017 %}
 -   If $\\kappa$ is a limit of Berkeley cardinals, then $\\kappa$ is not among the $\\delta\_\\alpha$.{% cite Bagaria2017 %}
