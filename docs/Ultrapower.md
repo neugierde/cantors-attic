@@ -27,7 +27,7 @@ If there exists a model $M$ such that $M\_i=M$ for all $i\\in X$, then the ultra
 
 ## Los' theorem
 
-''Los' theorem* is the following statement: let $U$ be an ultrafilter on $X$ and $Ult$ be the ultraproduct model of some family of nonempty models $\\langle M\_i : i\\in X \\rangle$. Then, for every formula $\\varphi(x\_1,...,x\_n)$ of set theory and $f\_1,...,f\_n \\in \\prod\_{i\\in X}M\_i$, $$Ult\\models\\varphi([f\_1],...,[f\_n]) \\iff \\{i\\in X : \\varphi(f\_1(i),...,f\_n(i))\\}\\in U$$
+*Los' theorem* is the following statement: let $U$ be an ultrafilter on $X$ and $Ult$ be the ultraproduct model of some family of nonempty models $\\langle M\_i : i\\in X \\rangle$. Then, for every formula $\\varphi(x\_1,...,x\_n)$ of set theory and $f\_1,...,f\_n \\in \\prod\_{i\\in X}M\_i$, $$Ult\\models\\varphi([f\_1],...,[f\_n]) \\iff \\{i\\in X : \\varphi(f\_1(i),...,f\_n(i))\\}\\in U$$
 
 In particular, an ultrapower $\\text{Ult}=(\\text{Ult}\_U(M), \\in\_U)$ of a model $M$ is elementarily equivalent to $M$. This is a very important result: to see why, let $f\_x(i)=x$ for all $x\\in M$ and $i\\in X$, and now let $j\_U(x)=[f\_x]$ for every $x\\in M$. Then $j\_U$ is an [elementary embedding](Elementary_embedding "Elementary embedding") by Los' theorem, and is called the **canonical ultrapower embedding** $j\_U:M\\to\\text{Ult}\_U(M)$.
 
@@ -49,7 +49,7 @@ Let $j:V\\to M$ be a nontrivial elementary embedding of $V$ into some transitive
 
 ## Ultrapower axiom
 
-''Definition of the ultrapower axiom needed here.*
+*Definition of the ultrapower axiom needed here.*
 
 The ultrapower axiom ($\\text{UA}$) has many significant consequences. Assume there is a [strongly compact](Strongly_compact "Strongly compact") cardinal, then according to [https://arxiv.org/pdf/1710.03586.pdf]:
 -    The $\\text{GCH}$ holds above the least strongly compact cardinal.
@@ -75,15 +75,10 @@ If $M$ is a transitive model of set theory and $U$ is (in $M$) a $\\kappa$-compl
 ### Properties
 
 -    For every $\\alpha$ the $\\alpha$th iterated ultrapower $(\\text{Ult}^{(\\alpha)},E^{(\\alpha)})$ is well-founded. This is due to $U$ being nonprincipal and $\\kappa$-complete.
-
 -    *The Factor Lemma*: for every $\\beta$, the iterated ultrapower $\\text{Ult}^{(\\beta)}\_{U^{(\\alpha)}}(\\text{Ult}^{(\\alpha)})$ is isomorphic to the iterated ultrapower $\\text{Ult}^{(\\alpha+\\beta)}$.
-
 -    For every limit ordinal $\\lambda$, $\\text{Ult}^{(\\lambda)}\\subseteq \\text{Ult}^{(\\alpha)}$ for every $\\alpha<\\lambda$. Also, $\\kappa^{(\\lambda)}=\\text{lim}\_{\\alpha\\to\\lambda}$ $\\kappa^{(\\alpha)}$.
-
 -    For every $\\alpha$, $\\beta$ such that $\\alpha>\\beta$, one has $\\kappa^{(\\alpha)}>\\kappa^{(\\beta)}$.
-
 -    If $\\gamma<\\kappa^{(\\alpha)}$ then $i\_{\\alpha,\\beta}(\\gamma)=\\gamma$ for all $\\beta\\geq\\alpha$.
-
 -    If $X\\subseteq\\kappa^{(\\alpha)}$ and $X\\in \\text{Ult}^{(\\alpha)}$ then for all $\\beta\\geq\\alpha$, one has $X=\\kappa^{(\\alpha)}\\cap i\_{\\alpha,\\beta}(X)$.
 
 ### The representation lemma
