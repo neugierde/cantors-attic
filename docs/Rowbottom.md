@@ -26,4 +26,5 @@ Rowbottom cardinals are not necessarily "large". In fact, the [Axiom of Determin
 -   Every Rowbottom cardinal is Jónsson. {% cite Kanamori2009 %}
 -   If $\\kappa=2^{<\\nu}$ is a regular $\\nu$-Rowbottom cardinal, then for any $\\nu\\leq\\lambda<\\kappa$, $2^\\lambda=\\kappa$. Thus, if the first condition holds for $\\kappa$ and $\\nu$ but $\\nu < \\kappa$, then [GCH](GCH "GCH") fails at every cardinal $\\lambda\\in[\\nu,\\kappa)$. {% cite Kanamori2009 %}
 -   For any $0<n<\\omega$, the theories $\\textrm{ZF+DC}\_{\\aleph\_n}+\\aleph\_\\omega\\textrm{ is Rowbottom and carries a Rowbottom filter}$ and $\\textrm{ZFC+A measurable exists}$ are equiconsistent. [https://math.uni-bonn.de/people/koepke/Preprints/The\_consistency\_strength\_of\_aleph\_omega\_and\_aleph\_omega\_1\_being\_Rowbottom\_cardinals\_without\_the\_axiom\_of\_choice.pdf]
+
 {{References}}
