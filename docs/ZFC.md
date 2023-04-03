@@ -57,7 +57,7 @@ This is expressed formally as $$ \\forall x \\exists y \\forall z \\big(z\\in y 
 Define the ordered pair $(a,b)$ to be $\\{\\{a\\},\\{a,b\\}\\}$. A relation as a collection of ordered pairs, and a function as a relation $f$ such that $(a,b)\\in f$ and $(a,c)\\in f$ implies $b=c$.
 
 ### Choice
-''Main article: [Axiom of Choice](Axiom_of_Choice "Axiom of Choice").*
+*Main article: [Axiom of Choice](Axiom_of_Choice "Axiom of Choice").*
 
 There are many formulations of this axiom. It is historically the most controversial of the axioms of $ZFC$.
 
@@ -73,7 +73,7 @@ $$ \\forall a \\forall x\_1 \\dots \\forall x\_n \\big[\\big( \\forall x\\in a \
 
 The axiom of replacement proves that every well-ordered set is isomorphic to a (unique) ordinal.
 
-''proof.* It suffices to show that for every w.o. $\\langle L, <\_L\\rangle$ and every $l\\in L$, $L\_{< l} =\\{m\\in L: m <\_L l\\} \\cong $ to a (unique) ordinal $f(l)$. Fix $l\\in L$, $l$ the least counterexample. Then $f$ is defined on $L\_{<l}$ and by replacement, $ran(f\\restriction L\_{<l})$ is a set of ordinals $A$. By basic facts about ordinals and order, it's easy to see that $A$ is an ordinal $\\alpha$. If $l$ is a successor in $L$ then $L\_{<l}\\cong \\alpha + 1$. If $l$ is a limit in $L$, then $L\_{<l}\\cong \\alpha$. $\\Box$
+*proof.* It suffices to show that for every w.o. $\\langle L, <\_L\\rangle$ and every $l\\in L$, $L\_{< l} =\\{m\\in L: m <\_L l\\} \\cong $ to a (unique) ordinal $f(l)$. Fix $l\\in L$, $l$ the least counterexample. Then $f$ is defined on $L\_{<l}$ and by replacement, $ran(f\\restriction L\_{<l})$ is a set of ordinals $A$. By basic facts about ordinals and order, it's easy to see that $A$ is an ordinal $\\alpha$. If $l$ is a successor in $L$ then $L\_{<l}\\cong \\alpha + 1$. If $l$ is a limit in $L$, then $L\_{<l}\\cong \\alpha$. $\\Box$
 
 $\\forall x\\exists \\alpha (x\\in V\_\\alpha)$.
 
@@ -83,13 +83,13 @@ Furthermore, the axiom of replacement also proves the axiom of separation, and i
 
 ## History
 
-Zormelo proposed his theory without foundation and replacement in 1908 (''Untersuchungen über die Grundlagen der Mengenlehre I''). In 1921-1922 Fraenkel suggested the axiom of replacement that allowed proving the existence of $\\aleph\_\\omega$. The axiom of choice was historically controversial. The axiom of foundation (AKA axiom of regularity) was first proposed by von Neumann in 1925 (''Eine axiomatiserung der Mengenlehre'').
+Zormelo proposed his theory without foundation and replacement in 1908 (*Untersuchungen über die Grundlagen der Mengenlehre I*). In 1921-1922 Fraenkel suggested the axiom of replacement that allowed proving the existence of $\\aleph\_\\omega$. The axiom of choice was historically controversial. The axiom of foundation (AKA axiom of regularity) was first proposed by von Neumann in 1925 (*Eine axiomatiserung der Mengenlehre*).
 
-''To be expanded.*
+*To be expanded.*
 
 ## Consistency of ZFC
 
-The assertion $\\text{Con(ZFC)}$ is the assertion that the theory $\\text{ZFC}$ is consistent. This is an assertion with complexity $\\Pi^0\_1$ in arithmetic, since it is the assertion that every natural number is not the G&ouml;del code of the proof of a contradiction from $\\text{ZFC}$. Because of the G&ouml;del completeness theorem, the assertion is equivalent to the assertion that the theory $\\text{ZFC}$ has a [model](Model "Model") $\\langle M,\\hat\\in\\rangle$. One such model is the Henkin model, built in the syntactic procedure from any complete consistent Henkin theory extending $\\text{ZFC}$. In general, one may not assume that $\\hat\\in$ is the actual set membership relation, since this would make the model a [ transitive model of $\\text{ZFC}$](Transitive_ZFC_model_ "Transitive ZFC model "), whose existence is a strictly stronger assertion than $\\text{Con(ZFC)}$.
+The assertion $\\text{Con(ZFC)}$ is the assertion that the theory $\\text{ZFC}$ is consistent. This is an assertion with complexity $\\Pi^0\_1$ in arithmetic, since it is the assertion that every natural number is not the G&ouml;del code of the proof of a contradiction from $\\text{ZFC}$. Because of the G&ouml;del completeness theorem, the assertion is equivalent to the assertion that the theory $\\text{ZFC}$ has a [model](Model "Model") $\\langle M,\\hat\\in\\rangle$. One such model is the Henkin model, built in the syntactic procedure from any complete consistent Henkin theory extending $\\text{ZFC}$. In general, one may not assume that $\\hat\\in$ is the actual set membership relation, since this would make the model a [transitive model of $\\text{ZFC}$](Transitive_ZFC_model "Transitive ZFC model"), whose existence is a strictly stronger assertion than $\\text{Con(ZFC)}$.
 
 The Gödel incompleteness theorem implies that if $\\text{ZFC}$ is consistent, then it does not prove $\\text{Con(ZFC)}$, and so the addition of this axiom is strictly stronger than $\\text{ZFC}$ alone.
 
@@ -143,8 +143,8 @@ Assume that in $V$ we have a transitive model of height of cardinality $\\kappa$
 In particular, models of ZFC (and of ZFC+«models of ZFC are unbounded» etc.) are unbounded in $V\_\\kappa$ for [worldly](Worldly "Worldly") $\\kappa$, just like in $V\_\\kappa$ for [inaccessible](Inaccessible "Inaccessible") $\\kappa$ there are worldly, 1-worldly, hyper-worldly etc. cardinals.
 
 Other facts:
--    If there is an uncountable transitive model of ZFC, then for every infinite cardinal $κ$, there is a Paris model of ZF having size $κ$. ({% cite Enayat2005 %}, Theorem 2.19 ; {% cite HamkinsLinetskyReitz2012 %}, p. 11)
-    -    Such models have however only countably many ordinals, because the ordinals are definable.
+-   If there is an uncountable transitive model of ZFC, then for every infinite cardinal $κ$, there is a Paris model of ZF having size $κ$. ({% cite Enayat2005 %}, Theorem 2.19 ; {% cite HamkinsLinetskyReitz2012 %}, p. 11)
+    -   Such models have however only countably many ordinals, because the ordinals are definable.
 
 {{References}}
 
