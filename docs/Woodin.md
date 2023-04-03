@@ -10,10 +10,10 @@ permalink: Woodin
 We introduce *Woodin-ness in $\\delta$*: for an infinite ordinal $\\delta$, a set $X\\subseteq\\delta$ is *Woodin in $\\delta$* if for every function $f:\\delta\\to\\delta$, there is an ordinal $\\kappa\\in X$ with $\\{f(\\beta):\\beta<\\kappa\\}\\subseteq\\kappa$ ($\\kappa$ is closed under $f$), there exists a nontrivial [elementary embedding](Elementary_embedding "Elementary embedding") $j:V\\to M$ with critical point $\\kappa$ such that $V\_{j(f)(\\kappa)}\\subseteq M$.
 
 An [inaccessible](Inaccessible "Inaccessible") cardinal $\\delta$ is **Woodin** if any of the following (equivalent) characterizations holds {% cite Kanamori2009 %}:
--    For any set $A\\subseteq V\_\\delta$, there exists a $\\kappa<\\delta$ that is <$\\delta$-$A$-[strong](Strong "Strong").
--    For any set $A\\subseteq V\_\\delta$, the set $S=\\{\\kappa<\\delta:\\kappa$ is <$\\delta$-$A$-strong$\\}$ is [stationary](Stationary "Stationary") in $\\delta$.
--    The set $F=\\{X\\subseteq \\delta:\\delta\\setminus X$ is not *Woodin in $\\delta$''$\\}$ is a proper [filter](Filter "Filter"), the *Woodin filter* over $\\delta$.
--    For every function $f:\\delta\\to\\delta$ there exists $\\kappa<\\delta$ such that $\\{f(\\beta):\\beta\\in\\kappa\\}\\subseteq\\kappa$ (that is, $\\kappa$ is closed under $f$) and there exists a nontrivial elementary embedding $j:V\\to M$ with critical point $\\kappa$ such that $V\_{j(f)(\\kappa)}\\subseteq M$.
+-   For any set $A\\subseteq V\_\\delta$, there exists a $\\kappa<\\delta$ that is <$\\delta$-$A$-[strong](Strong "Strong").
+-   For any set $A\\subseteq V\_\\delta$, the set $S=\\{\\kappa<\\delta:\\kappa$ is <$\\delta$-$A$-strong$\\}$ is [stationary](Stationary "Stationary") in $\\delta$.
+-   The set $F=\\{X\\subseteq \\delta:\\delta\\setminus X$ is not *Woodin in $\\delta$*$\\}$ is a proper [filter](Filter "Filter"), the *Woodin filter* over $\\delta$.
+-   For every function $f:\\delta\\to\\delta$ there exists $\\kappa<\\delta$ such that $\\{f(\\beta):\\beta\\in\\kappa\\}\\subseteq\\kappa$ (that is, $\\kappa$ is closed under $f$) and there exists a nontrivial elementary embedding $j:V\\to M$ with critical point $\\kappa$ such that $V\_{j(f)(\\kappa)}\\subseteq M$.
 
 Let $\\delta$ be Woodin, $F$ be the Woodin filter over $\\delta$, and $S=\\{\\kappa<\\delta:\\kappa$ is <$\\delta$-$A$-strong$\\}$. Then $F$ is normal and $S\\in F$. {% cite Kanamori2009 %} This implies every Woodin cardinal is [Mahlo](Mahlo "Mahlo") and preceeded by a stationary set of [measurable](Measurable "Measurable") cardinals, in fact of <$\\delta$-[strong](Strong "Strong") cardinals. However, the least Woodin cardinal is not [weakly compact](Weakly_compact "Weakly compact") (it is not $\\Pi^1\_1$-[indescribable](Indescribable "Indescribable") because of the extender definition of $\\gamma$-$A$-strongness{% cite Schimmerling2002 %}).
 
@@ -32,12 +32,12 @@ If $κ$ is Shelah, then it is Woodin cardinal and there are $κ$ Woodin cardinal
 The **witnessing number** $wt(κ)$ of a Shelah cardinal $κ$ is the least cardinal $λ$ such that for any function $f : κ → κ$, there is an [extender](Extender "Extender") $E ∈ V\_λ$ witnessing the Shelahness of $κ$ with respect to $f$.{% cite Golshani2017 %}
 
 For every Shelah cardinal $κ$:{% cite Golshani2017 %}
--    $κ$ is $ξ$-[strong](Strong "Strong") for all $ξ < wt(κ)$.
--    Measurable Woodin cardinals are unbounded in $wt(κ)$.
--    The following are equivalent:
-    -    Witnessing numbers of Shelah cardinals less than $κ$ are unbounded in $κ$.
-    -    Witnessing numbers of Shelah cardinals less than $wt(κ)$ are unbounded in $wt(κ)$.
-    -    There is a Shelah cardinal $λ$ such that $κ < λ < wt(λ) < wt(κ)$.
+-   $κ$ is $ξ$-[strong](Strong "Strong") for all $ξ < wt(κ)$.
+-   Measurable Woodin cardinals are unbounded in $wt(κ)$.
+-   The following are equivalent:
+    -   Witnessing numbers of Shelah cardinals less than $κ$ are unbounded in $κ$.
+    -   Witnessing numbers of Shelah cardinals less than $wt(κ)$ are unbounded in $wt(κ)$.
+    -   There is a Shelah cardinal $λ$ such that $κ < λ < wt(λ) < wt(κ)$.
 
 ### Other properties
 Small [forcing](Forcing "Forcing") preserves Shelah cardinals in both upward and downward directions.{% cite DaghighiPourmahdian2018 %}
@@ -57,33 +57,33 @@ If $κ$ is 2-[iterable](Iterable "Iterable"), then $V\_κ$ is a model of proper 
 ## Woodin for strong compactness
 (from {% cite Dimopoulos2019 %} unless otherwise noted)
 
-A cardinal $δ$ is **Woodin for strong compactness** (or *Woodinised strongly compact'') iff for every $A ⊆ δ$ there is $κ < δ$ which is $<δ$-[strongly compact](Strongly_compact "Strongly compact") for $A$.
+A cardinal $δ$ is **Woodin for strong compactness** (or *Woodinised strongly compact*) iff for every $A ⊆ δ$ there is $κ < δ$ which is $<δ$-[strongly compact](Strongly_compact "Strongly compact") for $A$.
 
 This definition is obviously analogous to one of the characterisations of Woodin and *Woodin-for-supercompactness* (Perlmutter proved that {% cite Perlmutter2010 %} it is equivalent to [Vopěnkaness](Vopenka "Vopenka")) cardinals.
 
 Results:
--    Woodin for strong compactness cardinal $δ$ is an [inaccessible](Inaccessible "Inaccessible") limits of $<δ$-strongly compact cardinals.
--    $κ$ is Woodin and there are unboundedly many $<δ$-supercompact cardinals below $δ$, then $δ$ is Woodin for strong compactness.<!--
--    For a cardinal $κ$ the following are equivalent:
-    -    $κ$ is Woodin for strong compactness.-->
--    The existence of a Woodin for strong compactness cardinal is at least as strong as a proper class of strongly compact cardinals and at most as strong as a Woodin limit of supercompact cardinals (which lies below an extendible cardinal).
+-   Woodin for strong compactness cardinal $δ$ is an [inaccessible](Inaccessible "Inaccessible") limits of $<δ$-strongly compact cardinals.
+-   $κ$ is Woodin and there are unboundedly many $<δ$-supercompact cardinals below $δ$, then $δ$ is Woodin for strong compactness.<!--
+-   For a cardinal $κ$ the following are equivalent:
+    -   $κ$ is Woodin for strong compactness.-->
+-   The existence of a Woodin for strong compactness cardinal is at least as strong as a proper class of strongly compact cardinals and at most as strong as a Woodin limit of supercompact cardinals (which lies below an extendible cardinal).
 
 ## Hyper-Woodin
 Definitions:{% cite Schimmerling2002 %}
--    $U$ witnesses that $\\delta$ is a **hyper-Woodin cardinal** iff $U$ is a normal measure on $\\delta$ and for every set $A$, $\\{\\kappa < \\delta | κ$ is $<\\delta$-$A$-strong$\\} \\in U$.
--    $\\delta$ is **weakly hyper-Woodin** iff for every set $A$, there is a normal measure $U$ on $\\delta$ such that $\\{\\kappa < \\delta | κ$ is $<\\delta$-$A$-strong$\\} \\in U$. (The difference is that here $U$ can depend on $A$.)
+-   $U$ witnesses that $\\delta$ is a **hyper-Woodin cardinal** iff $U$ is a normal measure on $\\delta$ and for every set $A$, $\\{\\kappa < \\delta | κ$ is $<\\delta$-$A$-strong$\\} \\in U$.
+-   $\\delta$ is **weakly hyper-Woodin** iff for every set $A$, there is a normal measure $U$ on $\\delta$ such that $\\{\\kappa < \\delta | κ$ is $<\\delta$-$A$-strong$\\} \\in U$. (The difference is that here $U$ can depend on $A$.)
 
 Results:{% cite Schimmerling2002 %}
--    Superstrongness is consistency-wise stronger than hyper-Woodinness.
--    If $\\delta$ is hyper-Woodin, then $\\delta$ is not the least measurable Woodin cardinal.
--    If $\\delta$ is a hyper-Woodin cardinal, then $\\delta$ is Shelah in $N$, where $j : V \\to N$ is the ultrapower map corresponding to $U$ that witnesses that $\\delta$ is a hyper-Woodin cardinal..
--    The least Shelah cardinal is strictly less than the least hyper-Woodin cardinal.
--    If $\\delta$ is a Shelah cardinal, then $\\delta$ is a weakly hyper-Woodin cardinal.
--    The least weakly hyper-Woodin cardinal is strictly less than the least Shelah cardinal.
+-   Superstrongness is consistency-wise stronger than hyper-Woodinness.
+-   If $\\delta$ is hyper-Woodin, then $\\delta$ is not the least measurable Woodin cardinal.
+-   If $\\delta$ is a hyper-Woodin cardinal, then $\\delta$ is Shelah in $N$, where $j : V \\to N$ is the ultrapower map corresponding to $U$ that witnesses that $\\delta$ is a hyper-Woodin cardinal..
+-   The least Shelah cardinal is strictly less than the least hyper-Woodin cardinal.
+-   If $\\delta$ is a Shelah cardinal, then $\\delta$ is a weakly hyper-Woodin cardinal.
+-   The least weakly hyper-Woodin cardinal is strictly less than the least Shelah cardinal.
 
 ## Woodin cardinals and determinacy
 
-''See also: [axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy"), [axiom of projective determinacy](Projective#Projective_determinacy "Projective#Projective determinacy")''
+*See also: [axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy"), [axiom of projective determinacy](Projective#Projective_determinacy "Projective#Projective determinacy")*
 
 Woodin cardinals are linked to different forms of the [axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy") {% cite Kanamori2009 %}{% cite Larson2010 %}{% cite KoellnerWoodin2010 %}:
 -    $\\text{ZF+AD}$, $\\text{ZFC+AD}^{L(\\mathbb{R})}$, ZFC+"the non-stationary ideal over $\\omega\_1$ is $\\omega\_1$-dense" and $\\text{ZFC}$+"there exists infinitely many Woodin cardinals" are equiconsistent.
