@@ -30,9 +30,9 @@ If $\\theta\\geq\\kappa$, then $\\kappa$ is strongly $\\theta$-tall iff $\\kappa
 ### Ultrafilter Characterization
 
 $\\kappa$ is strongly $\\theta$-tall iff there is some set $S$, a $\\kappa$-complete [ultrafilter](Filter "Filter") $U$ on $S$, and a class $H$ of functions $H\_\\alpha:S\\rightarrow V$ for each ordinal $\\alpha$ such that:
-#$\\kappa$ is uncountable.
-#$H\_0(x)=0$ for each $x\\in S$.
-#For each $\\alpha$ and each $f:S\\rightarrow V$, $\\{x\\in S:f(x)\\in H\_\\alpha(x)\\}\\in U$ iff there is some $\\beta<\\alpha$ such that $\\{x\\in S:f(x)=H\_\\beta(x)\\}\\in U$. That is, $f(x)\\in H\_\\alpha(x)$ almost everywhere iff there is some $\\beta<\\alpha$ such that $f(x)=H\_\\beta(x)$ almost everywhere.
-#$\\{x\\in S:H\_\\theta(x)\\in\\kappa\\}\\in U$. That is, $H\_\\theta(x)\\in\\kappa$ almost everywhere.
+1.  $\\kappa$ is uncountable.
+2.  $H\_0(x)=0$ for each $x\\in S$.
+3.  For each $\\alpha$ and each $f:S\\rightarrow V$, $\\{x\\in S:f(x)\\in H\_\\alpha(x)\\}\\in U$ iff there is some $\\beta<\\alpha$ such that $\\{x\\in S:f(x)=H\_\\beta(x)\\}\\in U$. That is, $f(x)\\in H\_\\alpha(x)$ almost everywhere iff there is some $\\beta<\\alpha$ such that $f(x)=H\_\\beta(x)$ almost everywhere.
+4.  $\\{x\\in S:H\_\\theta(x)\\in\\kappa\\}\\in U$. That is, $H\_\\theta(x)\\in\\kappa$ almost everywhere.
 
 {{References}}
