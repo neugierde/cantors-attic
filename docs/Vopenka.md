@@ -78,12 +78,12 @@ An equivalent statement to Vopěnka's principle is that for any proper class $C\
 
 ## Other points to note
 
--    Whilst Vopěnka cardinals are very strong in terms of consistency strength, a Vopěnka cardinal need not even be [weakly compact](Weakly_compact "Weakly compact").  Indeed, the definition of a Vopěnka cardinal is a $\\Pi^1\_1$ statement over $V\_\\kappa$ (Vopěnka's principle itself is $\\Pi^1\_1$), and [$\\Pi^1\_1$-indescribability](Indescribable "Indescribable") is one of the equivalent definitions of weak compactness. Thus, the least weakly compact Vopěnka cardinal must have (many) other Vopěnka cardinals less than it.
--    The Vopěnka principle implies that [$\\text{Ord}$ is Mahlo](Ord_is_Mahlo "Ord is Mahlo"): every class club contains a regular cardinal and indeed, an [extendible](Extendible "Extendible") cardinal and more.{% cite GitmanHamkins2018 %}
--    If the Vopěnka scheme holds, then there is a class-forcing extension $V[C]$ where{% cite GitmanHamkins2018 %}
-    -    $\\text{Ord}$ is not Mahlo (the class $C$ itself witnesses it), thus the Vopěnka principle fails,
-    -    but the extension adds no new sets, thus the Vopěnka scheme still holds and $\\text{Ord}$ remains definably Mahlo.
-    -    The forcing preserves $\\text{GBC}$.
+-   Whilst Vopěnka cardinals are very strong in terms of consistency strength, a Vopěnka cardinal need not even be [weakly compact](Weakly_compact "Weakly compact").  Indeed, the definition of a Vopěnka cardinal is a $\\Pi^1\_1$ statement over $V\_\\kappa$ (Vopěnka's principle itself is $\\Pi^1\_1$), and [$\\Pi^1\_1$-indescribability](Indescribable "Indescribable") is one of the equivalent definitions of weak compactness. Thus, the least weakly compact Vopěnka cardinal must have (many) other Vopěnka cardinals less than it.
+-   The Vopěnka principle implies that [$\\text{Ord}$ is Mahlo](Ord_is_Mahlo "Ord is Mahlo"): every class club contains a regular cardinal and indeed, an [extendible](Extendible "Extendible") cardinal and more.{% cite GitmanHamkins2018 %}
+-   If the Vopěnka scheme holds, then there is a class-forcing extension $V[C]$ where{% cite GitmanHamkins2018 %}
+    -   $\\text{Ord}$ is not Mahlo (the class $C$ itself witnesses it), thus the Vopěnka principle fails,
+    -   but the extension adds no new sets, thus the Vopěnka scheme still holds and $\\text{Ord}$ remains definably Mahlo.
+    -   The forcing preserves $\\text{GBC}$.
 
 ## Variants
 
@@ -94,19 +94,19 @@ An equivalent statement to Vopěnka's principle is that for any proper class $C\
 Vopěnka-like principles $VP(κ, \\mathbf{Σ\_n})$ for cardinal $κ$ state that for every proper class $\\mathcal{C}$ of structures of the same type that is $Σ\_n$-definable with parameters in $H\_κ$ (the collection of all sets of hereditary size less than $κ$), $\\mathcal{C}$ reflects below $κ$, namely for every $A ∈ C$ there is $B ∈ H\_κ ∩ C$ that elementarily embeds into $A$.
 
 Results:
--    For every $Γ$, $VP(κ, Γ)$ for some $κ$ implies $VP(Γ)$.
--    $VP(κ, \\mathbf{Σ\_1})$ holds for every uncountable cardinal $κ$.
--    $VP(Π\_1) \\iff VP(κ, Σ\_2)$ for some $κ \\iff$ There is a [supercompact](Supercompact "Supercompact") cardinal.
--    $VP(\\mathbf{Π\_1}) \\iff VP(κ, \\mathbf{Σ\_2})$ for a proper class of cardinals $κ \\iff$ There is  a proper class of supercompact cardinals.
--    For $n ≥ 1$, the following are equivalent:
-    -    $VP(Π\_{n+1})$
-    -    $VP(κ, \\mathbf{Σ\_{n+2}})$ for some $κ$
-    -    There is a $C(n)$-[extendible](Extendible "Extendible") cardinal.
--    The following are equivalent:
-    -    $VP(Π\_n)$ for every n.
-    -    $VP(κ, \\mathbf{Σ\_n})$ for a proper class of cardinals $κ$ and for every $n$.
-    -    $VP$
-    -    For every $n$, there is a $C(n)$-extendible cardinal.
+-   For every $Γ$, $VP(κ, Γ)$ for some $κ$ implies $VP(Γ)$.
+-   $VP(κ, \\mathbf{Σ\_1})$ holds for every uncountable cardinal $κ$.
+-   $VP(Π\_1) \\iff VP(κ, Σ\_2)$ for some $κ \\iff$ There is a [supercompact](Supercompact "Supercompact") cardinal.
+-   $VP(\\mathbf{Π\_1}) \\iff VP(κ, \\mathbf{Σ\_2})$ for a proper class of cardinals $κ \\iff$ There is  a proper class of supercompact cardinals.
+-   For $n ≥ 1$, the following are equivalent:
+    -   $VP(Π\_{n+1})$
+    -   $VP(κ, \\mathbf{Σ\_{n+2}})$ for some $κ$
+    -   There is a $C(n)$-[extendible](Extendible "Extendible") cardinal.
+-   The following are equivalent:
+    -   $VP(Π\_n)$ for every n.
+    -   $VP(κ, \\mathbf{Σ\_n})$ for a proper class of cardinals $κ$ and for every $n$.
+    -   $VP$
+    -   For every $n$, there is a $C(n)$-extendible cardinal.
 
 ### Generic
 
@@ -119,48 +119,48 @@ Definitions:
 -    The principle $gVP^∗(Σ\_n)$ states that for every $Σ\_n$-definable (without parameters) proper class $\\mathcal{C}$ of transitive $∈$-structures, there are $B ≠ A$ in $\\mathcal{C}$ such that there is an overspilling elementary embedding $j : B → A$ in some set-forcing extension. ($gVP^∗(Π\_n)$, $gVP^∗(\\mathbf{Π\_n})$, and $gVP^∗(κ, \\mathbf{Σ\_n})$ are defined analogously.)
 
 Results:
--    The following are equiconsistent:
-    -    $gVP(Π\_n)$
-    -    $gVP(κ, \\mathbf{Σ\_{n+1}})$ for some $κ$
-    -    There is an [$n$-remarkable](N-remarkable "N-remarkable") cardinal.
--    The following are equiconsistent:
-    -    $gVP(\\mathbf{Π\_n})$
-    -    $gVP(κ, \\mathbf{Σ\_{n+1}})$ for a proper class of $κ$
-    -    There is a proper class of $n$-remarkable cardinals.
--    Unless there is a transitive model of ZFC with a proper class of $n$-remarkable cardinals,
-    -    if for some cardinal $κ$, $gVP(κ, \\mathbf{Σ\_{n+1}})$ holds, then there is an $n$-remarkable cardinal.
-    -    if $gVP(Π\_n)$ holds, then there is an $n$-remarkable cardinal.
-    -    if $gVP(\\mathbf{Π\_n})$ holds, then there is a proper class of $n$-remarkable cardinals.
--    $κ$ is the least for which $gVP^∗(κ, \\mathbf{Σ\_{n+1}})$ holds. $\\iff κ$ is the least $n$-remarkable cardinal.
--    If $gVP^∗(Π\_n)$ holds, then there is an $n$-remarkable cardinal.
--    If $gVP^∗(\\mathbf{Π\_n})$ holds, then there is a proper class of $n$-remarkable cardinals.
--    If there is a proper class of $n$-remarkable cardinals, then $gVP(Σ\_{n+1})$ holds.{% cite GitmanHamkins2018 %}
--    If $gVP(Σ\_{n+1})$ holds, then either there is a proper class of $n$-remarkable cardinals or there is a proper class of [virtually rank-into-rank](Rank-into-rank "Rank-into-rank") cardinals.{% cite GitmanHamkins2018 %}
--    If $0^♯$ ([zero sharp](Zero_sharp "Zero sharp")), then $L$, equipped with only its definable classes, is a model of $gVP$. (By [elementary-embedding absoluteness results](Elementary\_embedding#Absoluteness "Elementary\_embedding#Absoluteness"). The hypothesis can be weakened, because one can chop at off the universe at any Silver indiscernible and use reflection.){% cite GitmanHamkins2018 %}
--    The generic Vopěnka principle holds iff for every class $A$, there are a proper class of (weakly) virtually $A$-[extendible](Extendible "Extendible") cardinals.{% cite GitmanHamkins2018 %}
--    The generic Vopěnka scheme is equivalent over ZFC to the scheme asserting of every definable class $A$ that there is a proper class of weakly virtually $A$-extendible cardinals.{% cite GitmanHamkins2018 %}
--    It is relatively consistent that GBC and the generic Vopěnka principle holds, yet [Ord is not Mahlo](Ord_is_Mahlo "Ord is Mahlo"):{% cite GitmanHamkins2018 %}
-    -    If $0^♯$ exists in $V$, then there is a class-forcing notion $\\mathbb{P}$ definable in the constructible universe $L$, such that in any $L$-generic extension $L[C]$ by this forcing, $\\text{GBC}$ and the generic Vopěnka principle hold, yet $\\text{Ord}$ is not Mahlo.
-        -    Proof includes a lemma stating: For any ordinal $δ$ and any natural number (of the meta-theory – this lemma is a scheme) $n$, if $D\_{δ,n} ⊂ \\mathbb{P}$ is the collection of conditions $c$ for which there is an ordinal $θ$ such that
+-   The following are equiconsistent:
+    -   $gVP(Π\_n)$
+    -   $gVP(κ, \\mathbf{Σ\_{n+1}})$ for some $κ$
+    -   There is an [$n$-remarkable](N-remarkable "N-remarkable") cardinal.
+-   The following are equiconsistent:
+    -   $gVP(\\mathbf{Π\_n})$
+    -   $gVP(κ, \\mathbf{Σ\_{n+1}})$ for a proper class of $κ$
+    -   There is a proper class of $n$-remarkable cardinals.
+-   Unless there is a transitive model of ZFC with a proper class of $n$-remarkable cardinals,
+    -   if for some cardinal $κ$, $gVP(κ, \\mathbf{Σ\_{n+1}})$ holds, then there is an $n$-remarkable cardinal.
+    -   if $gVP(Π\_n)$ holds, then there is an $n$-remarkable cardinal.
+    -   if $gVP(\\mathbf{Π\_n})$ holds, then there is a proper class of $n$-remarkable cardinals.
+-   $κ$ is the least for which $gVP^∗(κ, \\mathbf{Σ\_{n+1}})$ holds. $\\iff κ$ is the least $n$-remarkable cardinal.
+-   If $gVP^∗(Π\_n)$ holds, then there is an $n$-remarkable cardinal.
+-   If $gVP^∗(\\mathbf{Π\_n})$ holds, then there is a proper class of $n$-remarkable cardinals.
+-   If there is a proper class of $n$-remarkable cardinals, then $gVP(Σ\_{n+1})$ holds.{% cite GitmanHamkins2018 %}
+-   If $gVP(Σ\_{n+1})$ holds, then either there is a proper class of $n$-remarkable cardinals or there is a proper class of [virtually rank-into-rank](Rank-into-rank "Rank-into-rank") cardinals.{% cite GitmanHamkins2018 %}
+-   If $0^♯$ ([zero sharp](Zero_sharp "Zero sharp")), then $L$, equipped with only its definable classes, is a model of $gVP$. (By [elementary-embedding absoluteness results](Elementary\_embedding#Absoluteness "Elementary\_embedding#Absoluteness"). The hypothesis can be weakened, because one can chop at off the universe at any Silver indiscernible and use reflection.){% cite GitmanHamkins2018 %}
+-   The generic Vopěnka principle holds iff for every class $A$, there are a proper class of (weakly) virtually $A$-[extendible](Extendible "Extendible") cardinals.{% cite GitmanHamkins2018 %}
+-   The generic Vopěnka scheme is equivalent over ZFC to the scheme asserting of every definable class $A$ that there is a proper class of weakly virtually $A$-extendible cardinals.{% cite GitmanHamkins2018 %}
+-   It is relatively consistent that GBC and the generic Vopěnka principle holds, yet [Ord is not Mahlo](Ord_is_Mahlo "Ord is Mahlo"):{% cite GitmanHamkins2018 %}
+    -   If $0^♯$ exists in $V$, then there is a class-forcing notion $\\mathbb{P}$ definable in the constructible universe $L$, such that in any $L$-generic extension $L[C]$ by this forcing, $\\text{GBC}$ and the generic Vopěnka principle hold, yet $\\text{Ord}$ is not Mahlo.
+        -   Proof includes a lemma stating: For any ordinal $δ$ and any natural number (of the meta-theory – this lemma is a scheme) $n$, if $D\_{δ,n} ⊂ \\mathbb{P}$ is the collection of conditions $c$ for which there is an ordinal $θ$ such that
         -   * $L\_θ ≺\_{Σ\_n} L$,
         -   * $c ∩ θ$ is $L\_θ$-generic for $\\mathbb{P}^{L\_θ}$  and
         -   * in some forcing extension of $L$, there is an elementary embedding
         -   *: $j : ⟨ L\_θ , ∈, c ∩ θ ⟩ → ⟨ L\_θ , ∈, c ∩ θ ⟩$
         -   *: with critical point above $δ$,
         -   : then $D\_{δ,n}$ is a definable dense subclass of $\\mathbb{P}$ in $L$.
--    It is relatively consistent that ZFC and the generic Vopěnka scheme holds, yet Ord is not definably Mahlo and not even $∆\_2$ -Mahlo:{% cite GitmanHamkins2018 %}
-    -    If $0^♯$ exists in $V$, then there is a definable class-forcing notion in $L$, such that in the corresponding $L$-generic extension, $\\text{GBC}$ holds, the generic Vopěnka scheme holds, but $\\text{Ord}$ is not definably Mahlo, because there is a $∆\_2$-definable club class avoiding the regular cardinals.
-    -    In such a model, there can be no $Σ\_2$-reflecting cardinals and therefore also no remarkable cardinals.
--    For $n ≥ 1$, the following are equivalent as schemes over ZFC:{% cite GitmanHamkins2018 %}
-    -    The generic Vopěnka scheme holds for $Π\_{n+1}$-definable classes.
-    -    The generic Vopěnka scheme holds for $Σ\_{n+2}$-definable classes.
-    -    For every $Σ\_n$-definable class A, there is a proper class of (weakly) virtually $A$-extendible cardinals.
-    -    There is a proper class of (weakly) virtually $(Σ\_n)$-extendible cardinals.
-    -    There is a proper class of cardinals $κ$, such that for every $Σ\_n$-correct cardinal $λ>κ$, there is a $Σ\_n$-correct cardinal $θ > λ$ and a virtual elementary embedding $j : V\_λ → V\_θ$ with $crit(j)=κ$.
--    If $0^♯$ exists, then there is a class-forcing extension $L[G]$ of the constructible universe in which the generic Vopěnka principle holds (so $gVP(κ, \\mathbf{Σ\_{n+1}})$ and $gVP(Π\_n)$ hold for any $κ$ and $n$), but there are no $Σ\_2$-reflecting cardinals and hence no remarkable cardinals (or $n$-remarkable cardinals).{% cite GitmanHamkins2018 %}
+-   It is relatively consistent that ZFC and the generic Vopěnka scheme holds, yet Ord is not definably Mahlo and not even $∆\_2$ -Mahlo:{% cite GitmanHamkins2018 %}
+    -   If $0^♯$ exists in $V$, then there is a definable class-forcing notion in $L$, such that in the corresponding $L$-generic extension, $\\text{GBC}$ holds, the generic Vopěnka scheme holds, but $\\text{Ord}$ is not definably Mahlo, because there is a $∆\_2$-definable club class avoiding the regular cardinals.
+    -   In such a model, there can be no $Σ\_2$-reflecting cardinals and therefore also no remarkable cardinals.
+-   For $n ≥ 1$, the following are equivalent as schemes over ZFC:{% cite GitmanHamkins2018 %}
+    -   The generic Vopěnka scheme holds for $Π\_{n+1}$-definable classes.
+    -   The generic Vopěnka scheme holds for $Σ\_{n+2}$-definable classes.
+    -   For every $Σ\_n$-definable class A, there is a proper class of (weakly) virtually $A$-extendible cardinals.
+    -   There is a proper class of (weakly) virtually $(Σ\_n)$-extendible cardinals.
+    -   There is a proper class of cardinals $κ$, such that for every $Σ\_n$-correct cardinal $λ>κ$, there is a $Σ\_n$-correct cardinal $θ > λ$ and a virtual elementary embedding $j : V\_λ → V\_θ$ with $crit(j)=κ$.
+-   If $0^♯$ exists, then there is a class-forcing extension $L[G]$ of the constructible universe in which the generic Vopěnka principle holds (so $gVP(κ, \\mathbf{Σ\_{n+1}})$ and $gVP(Π\_n)$ hold for any $κ$ and $n$), but there are no $Σ\_2$-reflecting cardinals and hence no remarkable cardinals (or $n$-remarkable cardinals).{% cite GitmanHamkins2018 %}
 
 ## External links
 
--    [http://mathoverflow.net/questions/45602/can-vopenkas-principle-be-violated-definably Math Overflow question and answer about formalisations]
+-   [http://mathoverflow.net/questions/45602/can-vopenkas-principle-be-violated-definably Math Overflow question and answer about formalisations]
 
 {{References}}
