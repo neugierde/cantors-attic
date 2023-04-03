@@ -22,13 +22,13 @@ One can also use a collection of formulae $\\mathcal{F}$ and make $\\phi$ an $\\
 
 <!--Philipp Lücke gives a weakening of shrewdness, based on the set H\_κ of hereditarily-cardinality-<κ sets instead of the cumulative hierarchy V\_κ.-->
 ## Properties
--    If $κ$ is $\\mathcal{A}$-$δ$-shrewd and $0 < η < δ$, then $κ$ is $\\mathcal{A}$-$η$-shrewd. This is a difference between the properties of shrewdness and indescribability.
--    For [subtle](Subtle "Subtle") $\\pi$,
-    -    for every class $\\mathcal{A}$, in every club $B ⊆ π$ there is $κ$ such that $\\langle V\_\\pi, \\mathcal{A} ∩ V\_\\pi \\rangle \\models \\text{“$κ$ is $\\mathcal{A}$-shrewd .”}$. (The set of cardinals $κ$ below $\\pi$ that are $\\mathcal{A}$-shrewd in $V\_\\pi$ is stationary.)<!--
-    -    The set of cardinals $κ$ below $\\pi$ that are $\\pi$-hyper-shrewd is stationary. (https://arxiv.org/abs/2101.04552v1, Lemma 3.12)-->
-    -    there is an $\\eta$-shrewd cardinal below $\\pi$ for all $\\eta < \\pi$.
--    Shrewdness implies $\\Pi\_2$-[reflection (cardinal)](Reflecting_cardinals "Reflecting cardinals").<!--https://arxiv.org/abs/2101.04552v1, corollary 2.3-->
--    The shrewd cardinals and the [strongly unfoldable](Unfoldable#Strongly\_Unfoldable "Unfoldable#Strongly\_Unfoldable") cardinals coincide. [https://arxiv.org/abs/2107.12722]
+-   If $κ$ is $\\mathcal{A}$-$δ$-shrewd and $0 < η < δ$, then $κ$ is $\\mathcal{A}$-$η$-shrewd. This is a difference between the properties of shrewdness and indescribability.
+-   For [subtle](Subtle "Subtle") $\\pi$,
+    -   for every class $\\mathcal{A}$, in every club $B ⊆ π$ there is $κ$ such that $\\langle V\_\\pi, \\mathcal{A} ∩ V\_\\pi \\rangle \\models \\text{“$κ$ is $\\mathcal{A}$-shrewd .”}$. (The set of cardinals $κ$ below $\\pi$ that are $\\mathcal{A}$-shrewd in $V\_\\pi$ is stationary.)<!--
+    -   The set of cardinals $κ$ below $\\pi$ that are $\\pi$-hyper-shrewd is stationary. (https://arxiv.org/abs/2101.04552v1, Lemma 3.12)-->
+    -   there is an $\\eta$-shrewd cardinal below $\\pi$ for all $\\eta < \\pi$.
+-   Shrewdness implies $\\Pi\_2$-[reflection (cardinal)](Reflecting_cardinals "Reflecting cardinals").<!--https://arxiv.org/abs/2101.04552v1, corollary 2.3-->
+-   The shrewd cardinals and the [strongly unfoldable](Unfoldable#Strongly\_Unfoldable "Unfoldable#Strongly\_Unfoldable") cardinals coincide. [https://arxiv.org/abs/2107.12722]
 
 {{References}}
 
