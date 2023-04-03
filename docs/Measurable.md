@@ -152,9 +152,10 @@ The least Woodin cardinal is not measurable (and not even [weakly compact](Weakl
 If $\\kappa$ is measurable in a ground model, then it is measurable in any forcing extension of that ground model whose notion of forcing has cardinality strictly smaller than $\\kappa$. Prikry showed however that every measurable can be collapsed to a cardinal of cofinality $\\omega$ and no other cardinal is collapsed.
 
 If $κ$ is uncountable, $κ = κ^{<κ}$ and $2^κ = κ^+$, then the following are equivalent:
--    $κ$ is measurable.
--    $κ$ satisfies the $κ^+$-[filter property](Filter_property "Filter property").
--    $κ$ satisfies the strategic $κ^+$-filter property.
+-   $κ$ is measurable.
+-   $κ$ satisfies the $κ^+$-[filter property](Filter_property "Filter property").
+-   $κ$ satisfies the strategic $κ^+$-filter property.
+
 On the other hand, starting from a $κ^{++}$-tall cardinal $κ$, it is consistent that there is a cardinal $κ$ with the strategic $κ+$-filter property, however $κ$ is not measurable.{% cite HolySchlicht2017 %}
 
 If $κ$ is a measurable cardinal, then $κ$ is $κ$-very Ramsey. If a cardinal is $ω\_1$-very Ramsey (=strategic $ω\_1$-Ramsey cardinal), then it is measurable in the [core model](Core_model "Core model") unless [$0^\\P$](Zero_pistol "Zero pistol") exists and an inner model with a [Woodin](Woodin "Woodin") cardinal exists.{% cite NielsenWelch2018:GamesRamseylike %}{% SharpeWelch2011:GreatlyErdosChang %}
@@ -174,9 +175,9 @@ Without the [axiom of choice](Axiom_of_choice "Axiom of choice") $\\omega\_1$ ca
 ### Failure of $\\text{GCH}$ at a measurable
 
 Gitik proved that the following statements are equiconsistent:
--    The generalized continuum hypothesis fails at a measurable cardinal $\\kappa$, i.e. $2^\\kappa > \\kappa^+$
--    The singular cardinal hypothesis fails, i.e. there is a strong limit singular $\\kappa$ such that $2^\\kappa > \\kappa^+$
--    There is a measurable cardinal of [ Mitchell order](Mitchell_rank_ "Mitchell rank ") $\\kappa^{++}$, i.e. $o(\\kappa)=\\kappa^{++}$
+-   The generalized continuum hypothesis fails at a measurable cardinal $\\kappa$, i.e. $2^\\kappa > \\kappa^+$
+-   The singular cardinal hypothesis fails, i.e. there is a strong limit singular $\\kappa$ such that $2^\\kappa > \\kappa^+$
+-   There is a measurable cardinal of [ Mitchell order](Mitchell_rank_ "Mitchell rank ") $\\kappa^{++}$, i.e. $o(\\kappa)=\\kappa^{++}$
 
 Thus violating $\\text{GCH}$ at a measurable (or violating the SCH at any strong limit cardinal) is strictly stronger consistency-wise than the existence of a measurable cardinal.
 
@@ -200,15 +201,14 @@ Every virtually measurable cardinal is strategic $ω$-[Ramsey](Ramsey "Ramsey"),
 If κ is virtually measurable, then either $κ$ is [remarkable](Remarkable "Remarkable") in $L$ or $L\_κ \\models \\text{“there is a proper class of virtually measurables”}$.
 
 ## See also
--    [Ultrapower](Ultrapower "Ultrapower")
--    [Mitchell order](Mitchell_order "Mitchell order")
--    [Axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy")
--    [Strongly compact](Strongly_compact "Strongly compact") cardinal
+-   [Ultrapower](Ultrapower "Ultrapower")
+-   [Mitchell order](Mitchell_order "Mitchell order")
+-   [Axiom of determinacy](Axiom_of_determinacy "Axiom of determinacy")
+-   [Strongly compact](Strongly_compact "Strongly compact") cardinal
 
 ## Read more
--    Jech, Thomas - *Set theory*
-
--    Bering A., Edgar - *A brief introduction to measurable cardinals*
+-   Jech, Thomas - *Set theory*
+-   Bering A., Edgar - *A brief introduction to measurable cardinals*
 
 {{References}}
 
