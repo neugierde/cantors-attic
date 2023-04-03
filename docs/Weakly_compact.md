@@ -49,7 +49,7 @@ A cardinal $\\kappa$ is weakly compact if and only if it is $\\Pi\_1^1$-[indescr
 : **Skolem Property**
 
 A cardinal $\\kappa$ is weakly compact if and only if $\\kappa$ is inaccessible and every $\\kappa$-unboundedly satisfiable 
-$\\mathcal{L}\_{\\kappa,\\kappa}$-theory $T$ of size at most $\\kappa$ has a model of size at least $\\kappa$. A theory $T$ is $\\kappa$-unboundedly satisfiable if and only if for any $\\lambda<\\kappa$, there exists a model $\\mathcal{M}\\models T$ with $\\lambda\\leq|M|<\\kappa$. For more info see [https://mathoverflow.net/questions/309896/a-weakening-of-cardinal-compactness-is-it-equivalent/309937#309937 here].
+$\\mathcal{L}\_{\\kappa,\\kappa}$-theory $T$ of size at most $\\kappa$ has a model of size at least $\\kappa$. A theory $T$ is $\\kappa$-unboundedly satisfiable if and only if for any $\\lambda<\\kappa$, there exists a model $\\mathcal{M}\\models T$ with $\\lambda\\leq|M|<\\kappa$. For more info see [here](https://mathoverflow.net/questions/309896/a-weakening-of-cardinal-compactness-is-it-equivalent/309937#309937).
 
 : **2-regular**
 
