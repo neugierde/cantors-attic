@@ -34,7 +34,7 @@ Welcome to the upper attic, the transfinite realm of large cardinals, the higher
 -    [strongly tall](Strongly_tall "Strongly tall") cardinal
 -    the [$\\theta$-strong](Strong "Strong"), [hypermeasurability](Strong#Hypermeasurable "Strong#Hypermeasurable"), [$\\theta$-tall](Tall "Tall"), [$\\theta$-$A$-strong](Strong "Strong"), [tall](Tall "Tall"), **[strong](Strong "Strong")**, [$A$-strong](Strong "Strong") cardinals
 -    Nontrivial [Mitchell rank](Mitchell_rank "Mitchell rank"), [$o(\\kappa)=1$](Mitchell_rank "Mitchell rank"), [$o(\\kappa)=\\kappa^{++}$](Mitchell_rank "Mitchell rank")
--   [ $0^\\dagger$](Zero_dagger "Zero dagger") (''zero-dagger'')
+-   [ $0^\\dagger$](Zero_dagger "Zero dagger") (*zero-dagger*)
 -    [weakly measurable](Weakly_measurable "Weakly measurable") cardinal, **[measurable](Measurable "Measurable")** cardinal
     -    singular [Jónsson](Jonsson "Jonsson") cardinal
     -    $κ^+$-[filter property](Filter_property "Filter property"), [strategic $(\\omega+1)$-Ramsey](Ramsey "Ramsey") cardinal, [strategic fully Ramsey](Ramsey "Ramsey") cardinal, [$ω\_1$-very Ramsey](Ramsey "Ramsey") cardinal, [$κ$-very Ramsey](Ramsey "Ramsey") cardinal
@@ -49,7 +49,7 @@ Welcome to the upper attic, the transfinite realm of large cardinals, the higher
 -    [almost Ramsey](Ramsey#Almost_Ramsey_cardinal "Ramsey#Almost Ramsey cardinal") cardinal
 -    [$\\omega\_1$-Erdős](Erdos "Erdos") cardinal and [$\\gamma$-Erdős](Erdos "Erdos") cardinals for uncountable $\\gamma$, [Chang's conjecture](Chang's_conjecture "Chang's conjecture")
 -    [$\\omega\_1$-iterable](Ramsey#.24.5Calpha.24-iterable_cardinal "Ramsey#.24.5Calpha.24-iterable cardinal") cardinal, [$(\\omega, \\omega\_1)$-Ramsey](Ramsey "Ramsey") cardinal
--    **[$0^\\sharp$](Zero_sharp "Zero sharp") (''zero-sharp'')**, existence of [Silver indiscernibles](Constructible_universe#Silver_indiscernibles "Constructible universe#Silver indiscernibles")
+-    **[$0^\\sharp$](Zero_sharp "Zero sharp") (*zero-sharp*)**, existence of [Silver indiscernibles](Constructible_universe#Silver_indiscernibles "Constructible universe#Silver indiscernibles")
 -    [Silver cardinal](Silver_cardinal "Silver cardinal")
 -    the [$\\alpha$-**Erdős**](Erdos "Erdos"), [$\\alpha$-iterable](Ramsey#.24.5Calpha.24-iterable_cardinal "Ramsey#.24.5Calpha.24-iterable cardinal") and [$(\\omega, \\alpha)$-Ramsey](Ramsey "Ramsey") hierarchy for countable infinite $\\alpha$
 -    [$\\omega$-Erdős](Erdos "Erdos") cardinal, [weakly remarkable](Remarkable "Remarkable") cardinal that is not remarkable
