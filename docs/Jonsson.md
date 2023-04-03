@@ -16,7 +16,6 @@ A cardinal $\\kappa$ is **Jónsson** iff the [partition property](Partition_prop
 
 ### Substructure Characterization
 -   A cardinal $\\kappa$ is **Jónsson** iff given any $A$ there exists an elementary substructure $\\langle X,\\in, X\\cap A\\rangle\\prec\\langle V\_\\kappa,\\in,A\\rangle$ with $|X|=\\kappa$ and $X\\cap\\kappa\\neq\\kappa$.
-
 -   A cardinal $\\kappa$ is **Jónsson** iff any structure with universe of cardinality $\\kappa$ has a proper elementary substructure with universe also having cardinality $\\kappa$. {% cite Kanamori2003 %}
 
 ### Embedding Characterization
@@ -32,43 +31,43 @@ In terms of abstract algebra, $\\kappa$ is **Jónsson** iff any algebra $A$ of s
 
 All the following facts can be found in {% cite Kanamori2003 %}:
 
--    $\\aleph\_0$ is not Jónsson.
--    If $\\kappa$ isn't Jónsson then neither is $\\kappa^+$.
--    If $2^\\kappa=\\kappa^+$ then $\\kappa^+$ isn't Jónsson.
--    If $\\kappa$ is regular then $\\kappa^+$ isn't Jónsson (therefore $\\kappa^{++}$ is never Jónsson, and if $\\kappa$ is weakly inaccessible then $\\kappa^+$ is never Jónsson).
--    A singular limit of [measurables](Measurable "Measurable") is Jónsson.
--    The least Jónsson is either [weakly inaccessible](Inaccessible "Inaccessible") or has cofinality $\\omega$.
--    $\\aleph\_{\\omega+1}$ is not Jónsson.
+-   $\\aleph\_0$ is not Jónsson.
+-   If $\\kappa$ isn't Jónsson then neither is $\\kappa^+$.
+-   If $2^\\kappa=\\kappa^+$ then $\\kappa^+$ isn't Jónsson.
+-   If $\\kappa$ is regular then $\\kappa^+$ isn't Jónsson (therefore $\\kappa^{++}$ is never Jónsson, and if $\\kappa$ is weakly inaccessible then $\\kappa^+$ is never Jónsson).
+-   A singular limit of [measurables](Measurable "Measurable") is Jónsson.
+-   The least Jónsson is either [weakly inaccessible](Inaccessible "Inaccessible") or has cofinality $\\omega$.
+-   $\\aleph\_{\\omega+1}$ is not Jónsson.
 
 It is still an open question as to whether or not there is some known large cardinal axiom that implies the consistency of $\\aleph\_\\omega$ being Jónsson.
 
 ### Relations to other large cardinal notions
 
 Jónsson cardinals have a lot of consistency strength:
--    Jónsson cardinals are equiconsistent with [Ramsey](Ramsey "Ramsey") cardinals. {% cite Mitchell1997 %}
--    The existence of a Jónsson cardinal $\\kappa$ implies the existence of [$x^\\sharp$](Zero_sharp "Zero sharp") for every $x\\in V\_\\kappa$ (and therefore for every real number $x$, because $\\kappa$ is uncountable).
+-   Jónsson cardinals are equiconsistent with [Ramsey](Ramsey "Ramsey") cardinals. {% cite Mitchell1997 %}
+-   The existence of a Jónsson cardinal $\\kappa$ implies the existence of [$x^\\sharp$](Zero_sharp "Zero sharp") for every $x\\in V\_\\kappa$ (and therefore for every real number $x$, because $\\kappa$ is uncountable).
 
 But in terms of size, they're (ostensibly) quite small:
--    A Jónsson cardinal need not be regular (assuming the consistency of a [measurable](Measurable "Measurable") cardinal).
--    Every Ramsey cardinal is inaccessible and Jónsson. {% cite Kanamori2009 %}
--    Every weakly inaccessible Jónsson is [weakly hyper-Mahlo](Mahlo "Mahlo"). {% cite Shelah1994 %}
+-   A Jónsson cardinal need not be regular (assuming the consistency of a [measurable](Measurable "Measurable") cardinal).
+-   Every Ramsey cardinal is inaccessible and Jónsson. {% cite Kanamori2009 %}
+-   Every weakly inaccessible Jónsson is [weakly hyper-Mahlo](Mahlo "Mahlo"). {% cite Shelah1994 %}
 
 It's an open question whether or not every inaccessible Jónsson cardinal is [weakly compact](Weakly_compact "Weakly compact").
 
 ### Jónsson successors of singulars
 
 As mentioned above, $\\aleph\_{\\omega+1}$ is not Jónsson (this is due to Shelah). The question is then if it's possible for any successor of a singular cardinal to be Jónsson. Here is a (non-exhaustive) list of things known:
--    If $0\\neq\\gamma<|\\eta|$ then $\\aleph\_{\\eta+\\gamma+1}$ is not Jónsson. {% cite TrybaJan1983 %}
--    If there exists a Jónsson successor of a singular cardinal then [$0^\\dagger$](Zero_dagger "Zero dagger") exists. {% cite DonderKoepke1998 %}
+-   If $0\\neq\\gamma<|\\eta|$ then $\\aleph\_{\\eta+\\gamma+1}$ is not Jónsson. {% cite TrybaJan1983 %}
+-   If there exists a Jónsson successor of a singular cardinal then [$0^\\dagger$](Zero_dagger "Zero dagger") exists. {% cite DonderKoepke1998 %}
 
 ## Jónsson cardinals and the core model
 
 In 1998, Welch proved many interesting facts about Jónsson cardinals and the core model that can be found in {% cite Welch1998 %}.
 Assuming there is no inner model with a [Woodin](Woodin "Woodin") cardinal then:
--    Weak covering holds at every Jónsson cardinal, i.e. that $\\kappa^{+K}=\\kappa^+$ for every Jónsson cardinal.
--    If $\\kappa$ is regular Jónsson then the set of regular $\\alpha<\\kappa$ satisfying weak covering is stationary in $\\kappa$.
+-   Weak covering holds at every Jónsson cardinal, i.e. that $\\kappa^{+K}=\\kappa^+$ for every Jónsson cardinal.
+-   If $\\kappa$ is regular Jónsson then the set of regular $\\alpha<\\kappa$ satisfying weak covering is stationary in $\\kappa$.
 
 If we assume that there's no sharp for a [strong](Strong "Strong") cardinal (known as $0^{¶}$ doesn't exist) then:
--    For a Jónsson cardinal $\\kappa$, [$A^\\sharp$](Zero_sharp "Zero sharp") exists for every $A\\subseteq\\kappa$.
+-   For a Jónsson cardinal $\\kappa$, [$A^\\sharp$](Zero_sharp "Zero sharp") exists for every $A\\subseteq\\kappa$.
 
 {{References}}
