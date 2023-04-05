@@ -1,32 +1,120 @@
 ---
-title: Middle_attic
+title: The middle attic
 permalink: Middle_attic
 ---
 
-[[File:StAugustineLighthouse.jpg | thumb | St. Augustine Lighthouse photo by Madrigar]]
 
-Welcome to the middle attic, where the uncountable cardinals, that solid stock of mathematics, begin their endless upward structural progession. Here, we survey the infinite cardinals whose existence can be proved in, or is at least equiconsistent with, the ZFC axioms of set theory.
 
--    into the [upper attic](Upper_attic "Upper attic")
--    [correct](Correct "Correct") cardinals, [ $V\_\\delta\\prec V$](Reflecting_cardinals "Reflecting cardinals") and the [Feferman theory](Reflecting_cardinals#Feferman_theory "Reflecting cardinals#Feferman theory")
--    [$\\Sigma\_2$ correct](Reflecting\_cardinals#.24.5CSigma\_2.24-correct\_cardinals "Reflecting\_cardinals#.24.5CSigma\_2.24-correct\_cardinals") and [$\\Sigma\_n$-correct](Correct "Correct") cardinals
--    [ 0-extendible](Extendible#-extendible_cardinals_ "Extendible#-extendible cardinals ") cardinal
--    [$\\Sigma\_n$-extendible](Extendible#Sigma\_n-extendible_cardinals "Extendible#Sigma\_n-extendible cardinals") cardinal
--    [ $\\beth$-fixed point](Beth#beth\_fixed\_point_ "Beth#beth\_fixed\_point ")
--    the [beth](Beth "Beth") numbers and the [ $\\beth\_\\alpha$ hierarchy](Beth_ "Beth ")
--    [ $\\beth\_\\omega$](Beth_omega_ "Beth omega ") and the [strong limit](Strong_limit "Strong limit") cardinals
--    [ $\\Theta$](Theta_ "Theta ")
--    the [continuum](Continuum "Continuum")
--    [cardinal characteristics](Cardinal_characteristics "Cardinal characteristics")  of the continuum
-    -    the [ bounding number $\\frak{b}$](Bounding_number_ "Bounding number "), the [ dominating number $\\frak{d}$](Dominating_number_ "Dominating number "), the [ covering numbers](Covering_number_ "Covering number "), [ additivity numbers](Additivity_number_ "Additivity number ") and many more
--    the [ descriptive set-theoretic](Descriptive_set_theory_ "Descriptive set theory ") cardinals
--    [ $\\aleph$-fixed point](Aleph#aleph_fixed_point_ "Aleph#aleph fixed point ")
--    the [aleph](Aleph "Aleph") numbers and the [ $\\aleph\_\\alpha$ hierarchy](Aleph_ "Aleph ")
--    [ $\\aleph\_\\omega$](Aleph#aleph_omega_ "Aleph#aleph omega ") and [singular](Singular "Singular") cardinals
--    [ $\\aleph\_2$](Aleph#aleph_two_ "Aleph#aleph two "), the second uncountable cardinal
--    [uncountable](Uncountable "Uncountable"), [regular](Regular "Regular") and [successor](Successor "Successor") cardinals
--    [ $\\aleph\_1$](Aleph#aleph_one_ "Aleph#aleph one "), the first [uncountable](Uncountable "Uncountable") cardinal
--    [ cardinals](Cardinal_ "Cardinal "), [infinite](Infinite "Infinite") cardinals
--    [ $\\aleph\_0$](Aleph_zero_ "Aleph zero ") and the rest of the [lower attic](Lower_attic "Lower attic")
 
-[[Category:Middle attic| ]]
+
+
+
+
+
+
+
+
+
+<a
+href="File:StAugustineLighthouse.jpg"
+class="image"><img
+src="/web/20221002234736im_/http://cantorsattic.info/images/thumb/3/3d/StAugustineLighthouse.jpg/300px-StAugustineLighthouse.jpg"
+class="thumbimage"
+srcset="/web/20221002234736im_/http://cantorsattic.info/images/thumb/3/3d/StAugustineLighthouse.jpg/450px-StAugustineLighthouse.jpg 1.5x, /web/20221002234736im_/http://cantorsattic.info/images/3/3d/StAugustineLighthouse.jpg 2x"
+width="300" height="200" /></a>
+
+
+
+<a
+href="File:StAugustineLighthouse.jpg"
+class="internal" title="Enlarge"></a>
+
+
+St. Augustine Lighthouse photo by Madrigar
+
+
+
+
+Welcome to the middle attic, where the uncountable cardinals, that solid
+stock of mathematics, begin their endless upward structural progession.
+Here, we survey the infinite cardinals whose existence can be proved in,
+or is at least equiconsistent with, the ZFC axioms of set theory.
+
+- into the [upper
+  attic](Upper_attic "Upper attic")
+- <a href="Correct"
+  class="mw-redirect" title="Correct">correct</a> cardinals,
+  [\$V\_\delta\prec
+  V\$](Reflecting_cardinals "Reflecting cardinals")
+  and the [Feferman
+  theory](Reflecting_cardinals#Feferman_theory "Reflecting cardinals")
+- [\$\Sigma_2\$
+  correct](Reflecting_cardinals#.24.5CSigma_2.24-correct_cardinals "Reflecting cardinals")
+  and <a href="Correct"
+  class="mw-redirect" title="Correct">$\Sigma_n$-correct</a> cardinals
+- [0-extendible](Extendible#-extendible_cardinals "Extendible")
+  cardinal
+- [\$\Sigma_n\$-extendible](Extendible#Sigma_n-extendible_cardinals "Extendible")
+  cardinal
+- [\$\beth\$-fixed
+  point](Beth#beth_fixed_point "Beth")
+- the [beth](Beth "Beth")
+  numbers and the [\$\beth\_\alpha\$
+  hierarchy](Beth "Beth")
+- <a href="Beth_omega"
+  class="mw-redirect" title="Beth omega">$\beth_\omega$</a> and the
+  <a href="Strong_limit"
+  class="mw-redirect" title="Strong limit">strong limit</a> cardinals
+- <a href="Theta"
+  class="mw-redirect" title="Theta">$\Theta$</a>
+- the
+  [continuum](Continuum "Continuum")
+- [cardinal
+  characteristics](Cardinal_characteristics "Cardinal characteristics")
+  of the continuum
+  - the
+    <a href="Bounding_number"
+    class="mw-redirect" title="Bounding number">bounding number
+    $\frak{b}$</a>, the
+    <a href="Dominating_number"
+    class="mw-redirect" title="Dominating number">dominating number
+    $\frak{d}$</a>, the
+    <a href="Covering_number"
+    class="mw-redirect" title="Covering number">covering numbers</a>,
+    <a href="Additivity_number"
+    class="mw-redirect" title="Additivity number">additivity numbers</a>
+    and many more
+- the <a
+  href="Descriptive_set_theory"
+  class="mw-redirect" title="Descriptive set theory">descriptive
+  set-theoretic</a> cardinals
+- [\$\aleph\$-fixed
+  point](Aleph#aleph_fixed_point "Aleph")
+- the
+  [aleph](Aleph "Aleph")
+  numbers and the [\$\aleph\_\alpha\$
+  hierarchy](Aleph "Aleph")
+- [\$\aleph\_\omega\$](Aleph#aleph_omega "Aleph")
+  and <a href="Singular"
+  class="mw-redirect" title="Singular">singular</a> cardinals
+- [\$\aleph_2\$](Aleph#aleph_two "Aleph"),
+  the second uncountable cardinal
+- <a href="Uncountable"
+  class="mw-redirect" title="Uncountable">uncountable</a>,
+  <a href="Regular"
+  class="mw-redirect" title="Regular">regular</a> and
+  <a href="Successor"
+  class="mw-redirect" title="Successor">successor</a> cardinals
+- [\$\aleph_1\$](Aleph#aleph_one "Aleph"),
+  the first
+  <a href="Uncountable"
+  class="mw-redirect" title="Uncountable">uncountable</a> cardinal
+- [cardinals](Cardinal "Cardinal"),
+  <a href="Infinite"
+  class="mw-redirect" title="Infinite">infinite</a> cardinals
+- <a href="Aleph_zero"
+  class="mw-redirect" title="Aleph zero">$\aleph_0$</a> and the rest of
+  the [lower
+  attic](Lower_attic "Lower attic")
+
+
