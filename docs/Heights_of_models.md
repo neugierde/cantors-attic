@@ -276,8 +276,8 @@ p.206))
 - If \$\alpha\$ is a stable gap, then \$\alpha\$ is the \$\alpha\$th
   stable ordinal.<sup>Lemma 4.14</sup>
 - Existence of a minimal \$\beta_3\$-model of second-order arithmetic is
-  equiconsistent with existence of a Ramsey cardinal (K. Apt, W. Marek,
-  <a
+  relatively consistent with existence of a Ramsey cardinal (K. Apt, W.
+  Marek, <a
   href="https://www.sciencedirect.com/science/article/pii/0003484374900011"
   class="external text" rel="nofollow">Second-order arithmetic and related
   topics</a>, p.219, p.216)
@@ -298,16 +298,17 @@ related to admissible ordinals:
   class="external text" rel="nofollow">$\omega$-models of second-order
   arithmetic and admissible sets</a>, theorem 1.4)
 - However, there is no \$\subset\$-minimal \$\omega\$-model of \$Z_2\$.
-  <span class="tex2jax_ignore">\[</span>Simpson2009\]
+  <span class="tex2jax_ignore">\[</span>Simpson, \*Subsystems of
+  Second-Order Arithmetic\*, 2009\]
 
 ## Notes
 
 1.  <span id="induction"><sup>Note: Since ZFC proves all axioms of PA
     hold in \$\omega\$\[ [*citation
     needed*](Library "Library")
-    \], adding the full second-order induction schema to the theory
-    doesn't change this result since each \$L\_\alpha\cap\mathcal
-    P\omega\$ is an \$\omega\$-model. So we get \$(L\_\alpha\cap\mathcal
+    \], adding the first-order induction schema to the theory doesn't
+    change this result since each \$L\_\alpha\cap\mathcal P\omega\$ is
+    an \$\omega\$-model. So we get \$(L\_\alpha\cap\mathcal
     P\omega\vDash\Pi_n^1\textrm{-CA}\_0)\rightarrow(L\_\alpha\cap\mathcal
     P\omega\vDash\Pi_n^1\textrm{-CA})\$, etc.</sup></span>
 
